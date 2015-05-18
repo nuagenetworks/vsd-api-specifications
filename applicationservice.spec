@@ -114,7 +114,7 @@
                 "readOnly": false, 
                 "required": true, 
                 "type": "string", 
-                "unique": false, 
+                "unique": true, 
                 "uniqueItems": false
             }, 
             "direction": {
