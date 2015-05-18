@@ -2,20 +2,6 @@
     "apis": {
         "children": {},
         "parents": {
-            "/applicationservices": {
-                "RESTName": "applicationservice",
-                "operations": [
-                    {
-                        "availability": null,
-                        "method": "GET"
-                    },
-                    {
-                        "availability": null,
-                        "method": "POST"
-                    }
-                ],
-                "resourceName": "applicationservices"
-            },
             "/enterprises/{id}/applicationservices": {
                 "RESTName": "enterprise",
                 "operations": [
@@ -25,7 +11,7 @@
                     },
                     {
                         "availability": null,
-                        "method": "POST"
+                        "method": "GET"
                     }
                 ],
                 "resourceName": "enterprises"
