@@ -42,7 +42,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-15-2015", 
+        "date": "05-18-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -69,9 +69,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "NTPServerKeyID": {
@@ -90,9 +91,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "int", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "activeController": {
@@ -111,9 +113,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "datapathSyncTimeout": {
@@ -132,9 +135,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "deadTimer": {
@@ -164,9 +168,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "description": {
@@ -185,9 +190,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "enterprise": {
@@ -206,9 +212,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "Enterprise", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "enterpriseID": {
@@ -227,9 +234,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "flowEvictionThreshold": {
@@ -248,9 +256,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "gateway": {
@@ -269,9 +278,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "Gateway", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "metadataUpgradePath": {
@@ -290,9 +300,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "name": {
@@ -311,9 +322,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "ports": {
@@ -332,9 +344,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "probeInterval": {
@@ -353,9 +366,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "proxyDNSName": {
@@ -374,9 +388,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "remoteLogDirPath": {
@@ -395,9 +410,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "remoteLogMode": {
@@ -421,9 +437,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "remoteLogPassword": {
@@ -442,9 +459,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "remoteLogServerAddress": {
@@ -463,9 +481,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "remoteLogServerPort": {
@@ -484,9 +503,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "int", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "remoteLogUsername": {
@@ -505,9 +525,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "standbyController": {
@@ -526,9 +547,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "statsCollectorPort": {
@@ -547,9 +569,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "integer", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "systemSyncScheduler": {
@@ -568,9 +591,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "systemSyncWindow": {
@@ -600,9 +624,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "upgradeAction": {
@@ -627,9 +652,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "useTwoFactor": {
@@ -648,9 +674,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "boolean", 
+                "unique": false, 
                 "uniqueItems": false
             }
         }, 

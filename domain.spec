@@ -457,7 +457,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-15-2015", 
+        "date": "05-18-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -488,9 +488,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "DHCPServerAddress": {
@@ -509,9 +510,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "ECMPCount": {
@@ -530,9 +532,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "int", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "PATEnabled": {
@@ -555,9 +558,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "applicationDeploymentPolicy": {
@@ -579,9 +583,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "associatedMulticastChannelMapID": {
@@ -600,9 +605,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "backHaulRouteDistinguisher": {
@@ -621,9 +627,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "backHaulRouteTarget": {
@@ -642,9 +649,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "backHaulVNID": {
@@ -663,9 +671,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "customerID": {
@@ -684,9 +693,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "description": {
@@ -705,9 +715,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "dhcpServerAddresses": {
@@ -726,9 +737,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "encryption": {
@@ -751,9 +763,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "exportRouteTarget": {
@@ -772,9 +785,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "globalRoutingEnabled": {
@@ -793,9 +807,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "boolean", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "importRouteTarget": {
@@ -814,9 +829,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "labelID": {
@@ -835,9 +851,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "leakingEnabled": {
@@ -856,9 +873,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "boolean", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "maintenanceMode": {
@@ -877,9 +895,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "multicast": {
@@ -902,9 +921,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "name": {
@@ -923,9 +943,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "policyChangeStatus": {
@@ -948,9 +969,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "routeDistinguisher": {
@@ -969,9 +991,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "routeTarget": {
@@ -990,9 +1013,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "secondaryDHCPServerAddress": {
@@ -1011,9 +1035,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "serviceID": {
@@ -1032,9 +1057,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "streched": {
@@ -1053,9 +1079,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "boolean", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "templateID": {
@@ -1074,9 +1101,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "tunnelType": {
@@ -1099,9 +1127,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "uplinkPreference": {
@@ -1125,9 +1154,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }
         }, 

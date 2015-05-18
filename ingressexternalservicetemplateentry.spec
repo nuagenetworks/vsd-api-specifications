@@ -63,7 +63,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-15-2015", 
+        "date": "05-18-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -90,9 +90,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "action": {
@@ -115,9 +116,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "addressOverride": {
@@ -136,9 +138,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "associatedApplicationID": {
@@ -157,9 +160,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "associatedApplicationObjectID": {
@@ -178,9 +182,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "associatedApplicationObjectType": {
@@ -203,9 +208,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "associatedLiveEntityID": {
@@ -224,9 +230,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "description": {
@@ -245,9 +252,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "destinationPort": {
@@ -266,9 +274,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "etherType": {
@@ -287,9 +296,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "locationID": {
@@ -308,9 +318,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "locationType": {
@@ -336,9 +347,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "networkID": {
@@ -357,9 +369,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "networkType": {
@@ -389,9 +402,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "policyState": {
@@ -413,9 +427,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "priority": {
@@ -434,9 +449,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "integer", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "protocol": {
@@ -455,9 +471,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "redirectExternalServiceEndPointID": {
@@ -476,9 +493,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "sourcePort": {
@@ -497,9 +515,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "statsID": {
@@ -518,9 +537,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }
         }, 

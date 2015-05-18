@@ -75,7 +75,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-15-2015", 
+        "date": "05-18-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -102,9 +102,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "address": {
@@ -123,9 +124,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "alreadyMarkedForUnavailable": {
@@ -144,9 +146,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "boolean", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "averageCPUUsage": {
@@ -165,9 +168,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "double", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "averageMemoryUsage": {
@@ -186,9 +190,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "double", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "currentCPUUsage": {
@@ -207,9 +212,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "double", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "currentMemoryUsage": {
@@ -228,9 +234,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "double", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "description": {
@@ -249,9 +256,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "disks": {
@@ -270,9 +278,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "lastStateChange": {
@@ -291,9 +300,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "location": {
@@ -312,9 +322,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "managementIP": {
@@ -333,9 +344,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "messages": {
@@ -354,9 +366,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "mode": {
@@ -378,9 +391,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "name": {
@@ -399,9 +413,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "peakCPUUsage": {
@@ -420,9 +435,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "double", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "peakMemoryUsage": {
@@ -441,9 +457,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "double", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "peerAddresses": {
@@ -462,9 +479,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "productVersion": {
@@ -483,9 +501,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "status": {
@@ -508,9 +527,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "unavailableTimestamp": {
@@ -529,9 +549,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "long", 
+                "unique": false, 
                 "uniqueItems": false
             }
         }, 

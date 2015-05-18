@@ -56,7 +56,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-15-2015", 
+        "date": "05-18-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -83,9 +83,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "duplex": {
@@ -108,9 +109,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "enterprise": {
@@ -129,9 +131,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "Enterprise", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "enterpriseID": {
@@ -150,9 +153,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "mtu": {
@@ -171,9 +175,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "integer", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "name": {
@@ -192,9 +197,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": true, 
                 "type": "string", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "port": {
@@ -213,9 +219,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "speed": {
@@ -240,9 +247,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "uplinkTag": {
@@ -266,9 +274,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "enum", 
+                "unique": false, 
                 "uniqueItems": false
             }
         }, 

@@ -61,7 +61,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-15-2015", 
+        "date": "05-18-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -88,9 +88,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "egressQos": {
@@ -109,9 +110,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "EgressQosPrimitive", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "fipACLs": {
@@ -130,9 +132,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "ingressACLs": {
@@ -151,9 +154,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "ingressAdvFwd": {
@@ -172,9 +176,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "ingressExternalServiceACLs": {
@@ -193,9 +198,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "array", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "qos": {
@@ -214,9 +220,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "QosPrimitive", 
+                "unique": false, 
                 "uniqueItems": false
             }, 
             "stats": {
@@ -235,9 +242,10 @@
                 "minLength": null, 
                 "minValue": null, 
                 "orderable": false, 
-                "readonly": false, 
+                "readOnly": false, 
                 "required": false, 
                 "type": "StatisticsPolicy", 
+                "unique": false, 
                 "uniqueItems": false
             }
         }, 
