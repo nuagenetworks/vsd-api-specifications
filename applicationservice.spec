@@ -47,15 +47,11 @@
                 "operations": [
                     {
                         "availability": null, 
-                        "method": "PUT"
+                        "method": "ZOB"
                     }, 
                     {
                         "availability": null, 
                         "method": "DELETE"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "GET"
                     }
                 ], 
                 "resourceName": "applicationservices"
