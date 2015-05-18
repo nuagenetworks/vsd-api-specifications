@@ -8,12 +8,7 @@
                     {
                         "availability": null,
                         "method": "GET"
-                    },
-                    {
-                        "availability": null,
-                        "method": "GET"
                     }
-                ],
                 "resourceName": "enterprises"
             }
         },
