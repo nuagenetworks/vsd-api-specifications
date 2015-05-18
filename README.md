@@ -14,7 +14,7 @@ A specification file contains the following information
 
 This section of the specification describes how to interact with the object through ReST calls. It is a dictionary where the key the API path. It also contains additional informations:
 
- - `RESTName`: the RESTName of the api object. It can be the parent, the child or itself (see below)
+ - `RESTName`: the ReST name of the api object. It can be the parent, the child or itself (see below)
  - `resourceName`: the resource name of the API object. It is usually the plural version of the `RESTName`
  - `operations`: an array of available ReST operations (`method`), and to what role it is available (`availability`)
 
@@ -59,7 +59,7 @@ This is an dictionary of all available attributes of the specified object where 
  - `minLength`: maximum value of the attribute (only available when type is `int` or `float`, otherwise `null`)
  - `minValue`: minimum value of the attribute (only available when type is `int` or `float`, otherwise `null`)
  - `orderable`: boolean telling if client can order results based this attribute
- - `readonly`: boolean telling if this attribute is not modifiable
+ - `readOnly`: boolean telling if this attribute is not modifiable
  - `required`: boolean telling if this attribute is required
  - `type`: type of the attribute (see below)
  - `unique`: boolean telling if the value of this attribute has to be unique in its context
