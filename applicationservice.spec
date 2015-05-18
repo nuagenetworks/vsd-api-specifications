@@ -10,6 +10,15 @@
                         "method": "GET"
                     }],
                 "resourceName": "enterprises"
+            },
+            "/prout/{id}/applicationservices": {
+                "RESTName": "enterprise",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    }],
+                "resourceName": "enterprises"
             }
         },
         "self": {
