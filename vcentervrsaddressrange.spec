@@ -16,6 +16,20 @@
                 ], 
                 "resourceName": "vcenterclusters"
             }, 
+            "/vcenterdatacenters/{id}/vrsaddressranges": {
+                "RESTName": "vcenterdatacenter", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "vcenterdatacenters"
+            }, 
             "/vcenterhypervisors/{id}/vrsaddressranges": {
                 "RESTName": "vcenterhypervisor", 
                 "operations": [
@@ -84,7 +98,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-18-2015", 
+        "date": "05-19-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 

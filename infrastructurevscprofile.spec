@@ -42,7 +42,7 @@
         "api_version": "3.2", 
         "author": "", 
         "comments": "", 
-        "date": "05-18-2015", 
+        "date": "05-19-2015", 
         "dev_backend": "", 
         "dev_frontend": "", 
         "dev_qd": "", 
@@ -158,7 +158,7 @@
                 "minValue": null, 
                 "orderable": false, 
                 "readOnly": false, 
-                "required": true, 
+                "required": false, 
                 "type": "string", 
                 "unique": false, 
                 "uniqueItems": false

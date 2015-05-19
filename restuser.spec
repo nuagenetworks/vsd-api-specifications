@@ -1,28 +1,8 @@
 {
     "apis": {
         "children": {
-            "/l2domains/{id}/addressranges": {
-                "RESTName": "addressrange", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "addressranges"
-            }, 
-            "/l2domains/{id}/bridgeinterfaces": {
-                "RESTName": "bridgeinterface", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "bridgeinterfaces"
-            }, 
-            "/l2domains/{id}/dhcpoptions": {
-                "RESTName": "dhcpoption", 
+            "/applicationservices": {
+                "RESTName": "applicationservice", 
                 "operations": [
                     {
                         "availability": null, 
@@ -33,9 +13,63 @@
                         "method": "POST"
                     }
                 ], 
-                "resourceName": "dhcpoptions"
+                "resourceName": "applicationservices"
             }, 
-            "/l2domains/{id}/egressaclentrytemplates": {
+            "/autodiscoveredgateways": {
+                "RESTName": "autodiscoveredgateway", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "autodiscoveredgateways"
+            }, 
+            "/certificates": {
+                "RESTName": "certificate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "certificates"
+            }, 
+            "/cms": {
+                "RESTName": "cms", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "cms"
+            }, 
+            "/domains": {
+                "RESTName": "domain", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "domains"
+            }, 
+            "/eamconfigs": {
+                "RESTName": "eamconfig", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "eamconfigs"
+            }, 
+            "/egressaclentrytemplates": {
                 "RESTName": "egressaclentrytemplate", 
                 "operations": [
                     {
@@ -45,66 +79,18 @@
                 ], 
                 "resourceName": "egressaclentrytemplates"
             }, 
-            "/l2domains/{id}/egressacltemplates": {
+            "/egressacltemplates": {
                 "RESTName": "egressacltemplate", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
                     }
                 ], 
                 "resourceName": "egressacltemplates"
             }, 
-            "/l2domains/{id}/eventlogs": {
-                "RESTName": "eventlog", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "eventlogs"
-            }, 
-            "/l2domains/{id}/groups": {
-                "RESTName": "group", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }
-                ], 
-                "resourceName": "groups"
-            }, 
-            "/l2domains/{id}/hostinterfaces": {
-                "RESTName": "hostinterface", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "hostinterfaces"
-            }, 
-            "/l2domains/{id}/ingressaclentrytemplates": {
-                "RESTName": "ingressaclentrytemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "ingressaclentrytemplates"
-            }, 
-            "/l2domains/{id}/ingressacltemplates": {
-                "RESTName": "ingressacltemplate", 
+            "/egressqospolicies": {
+                "RESTName": "egressqospolicy", 
                 "operations": [
                     {
                         "availability": null, 
@@ -115,10 +101,10 @@
                         "method": "POST"
                     }
                 ], 
-                "resourceName": "ingressacltemplates"
+                "resourceName": "egressqospolicies"
             }, 
-            "/l2domains/{id}/ingressadvfwdtemplates": {
-                "RESTName": "ingressadvfwdtemplate", 
+            "/enterpriseprofiles": {
+                "RESTName": "enterpriseprofile", 
                 "operations": [
                     {
                         "availability": null, 
@@ -129,191 +115,9 @@
                         "method": "POST"
                     }
                 ], 
-                "resourceName": "ingressadvfwdtemplates"
+                "resourceName": "enterpriseprofiles"
             }, 
-            "/l2domains/{id}/ingressexternalservicetemplates": {
-                "RESTName": "ingressexternalservicetemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "ingressexternalservicetemplates"
-            }, 
-            "/l2domains/{id}/jobs": {
-                "RESTName": "job", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "jobs"
-            }, 
-            "/l2domains/{id}/permissions": {
-                "RESTName": "permission", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "permissions"
-            }, 
-            "/l2domains/{id}/policygroups": {
-                "RESTName": "policygroup", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "policygroups"
-            }, 
-            "/l2domains/{id}/qos": {
-                "RESTName": "qos", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "qos"
-            }, 
-            "/l2domains/{id}/redirectiontargets": {
-                "RESTName": "redirectiontarget", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "redirectiontargets"
-            }, 
-            "/l2domains/{id}/staticroutes": {
-                "RESTName": "staticroute", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "staticroutes"
-            }, 
-            "/l2domains/{id}/statistics": {
-                "RESTName": "statistics", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "statistics"
-            }, 
-            "/l2domains/{id}/statisticspolicies": {
-                "RESTName": "statisticspolicy", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "statisticspolicies"
-            }, 
-            "/l2domains/{id}/tcas": {
-                "RESTName": "tca", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "tcas"
-            }, 
-            "/l2domains/{id}/vminterfaces": {
-                "RESTName": "vminterface", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "vminterfaces"
-            }, 
-            "/l2domains/{id}/vms": {
-                "RESTName": "vm", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "vms"
-            }, 
-            "/l2domains/{id}/vpnconnections": {
-                "RESTName": "vpnconnection", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "vpnconnections"
-            }, 
-            "/l2domains/{id}/vports": {
-                "RESTName": "vport", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "vports"
-            }
-        }, 
-        "parents": {
-            "/enterprises/{id}/l2domains": {
+            "/enterprises": {
                 "RESTName": "enterprise", 
                 "operations": [
                     {
@@ -327,6 +131,186 @@
                 ], 
                 "resourceName": "enterprises"
             }, 
+            "/externalappservices": {
+                "RESTName": "externalappservice", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "externalappservices"
+            }, 
+            "/externalservices": {
+                "RESTName": "externalservice", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "externalservices"
+            }, 
+            "/floatingips": {
+                "RESTName": "floatingip", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "floatingips"
+            }, 
+            "/gateways": {
+                "RESTName": "gateway", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "gateways"
+            }, 
+            "/gatewaytemplates": {
+                "RESTName": "gatewaytemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "gatewaytemplates"
+            }, 
+            "/globalmetadatas": {
+                "RESTName": "globalmetadata", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "globalmetadatas"
+            }, 
+            "/hostinterfaces": {
+                "RESTName": "hostinterface", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "hostinterfaces"
+            }, 
+            "/infrastructuregatewayprofiles": {
+                "RESTName": "infrastructuregatewayprofile", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "infrastructuregatewayprofiles"
+            }, 
+            "/infrastructureportprofiles": {
+                "RESTName": "infrastructureportprofile", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "infrastructureportprofiles"
+            }, 
+            "/infrastructurevscprofiles": {
+                "RESTName": "infrastructurevscprofile", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "infrastructurevscprofiles"
+            }, 
+            "/ingressaclentrytemplates": {
+                "RESTName": "ingressaclentrytemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "ingressaclentrytemplates"
+            }, 
+            "/ingressacltemplates": {
+                "RESTName": "ingressacltemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "ingressacltemplates"
+            }, 
+            "/jobs": {
+                "RESTName": "job", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "jobs"
+            }, 
+            "/keyservermembers": {
+                "RESTName": "keyservermember", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "keyservermembers"
+            }, 
             "/l2domains": {
                 "RESTName": "l2domain", 
                 "operations": [
@@ -337,20 +321,400 @@
                 ], 
                 "resourceName": "l2domains"
             }, 
-            "/l2domaintemplates/{id}/l2domains": {
-                "RESTName": "l2domaintemplate", 
+            "/licenses": {
+                "RESTName": "license", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "licenses"
+            }, 
+            "/metadatatags": {
+                "RESTName": "metadatatag", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "metadatatags"
+            }, 
+            "/mirrordestinations": {
+                "RESTName": "mirrordestination", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "mirrordestinations"
+            }, 
+            "/multicastchannelmaps": {
+                "RESTName": "multicastchannelmap", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "multicastchannelmaps"
+            }, 
+            "/nsgateways": {
+                "RESTName": "nsgateway", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "l2domaintemplates"
+                "resourceName": "nsgateways"
+            }, 
+            "/nsgatewaytemplates": {
+                "RESTName": "nsgatewaytemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "nsgatewaytemplates"
+            }, 
+            "/nsgredundancygroups": {
+                "RESTName": "nsgredundancygroup", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "nsgredundancygroups"
+            }, 
+            "/nsportstaticconfigurations": {
+                "RESTName": "nsportstaticconfiguration", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "nsportstaticconfigurations"
+            }, 
+            "/patnatpools": {
+                "RESTName": "patnatpool", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "patnatpools"
+            }, 
+            "/policygroups": {
+                "RESTName": "policygroup", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "policygroups"
+            }, 
+            "/ratelimiters": {
+                "RESTName": "ratelimiter", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "ratelimiters"
+            }, 
+            "/redirectiontargets": {
+                "RESTName": "redirectiontarget", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "redirectiontargets"
+            }, 
+            "/redundancygroups": {
+                "RESTName": "redundancygroup", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "redundancygroups"
+            }, 
+            "/sharednetworkresources": {
+                "RESTName": "sharednetworkresource", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "sharednetworkresources"
+            }, 
+            "/sites": {
+                "RESTName": "site", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "sites"
+            }, 
+            "/staticroutes": {
+                "RESTName": "staticroute", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "staticroutes"
+            }, 
+            "/statisticscollector": {
+                "RESTName": "statisticscollector", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "statisticscollector"
+            }, 
+            "/subnets": {
+                "RESTName": "subnet", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "subnets"
+            }, 
+            "/systemconfigs": {
+                "RESTName": "systemconfig", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "systemconfigs"
+            }, 
+            "/tcas": {
+                "RESTName": "tca", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "tcas"
+            }, 
+            "/uplinkroutedistinguishers": {
+                "RESTName": "uplinkroutedistinguisher", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "uplinkroutedistinguishers"
+            }, 
+            "/users": {
+                "RESTName": "user", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "users"
+            }, 
+            "/vcenterhypervisors": {
+                "RESTName": "vcenterhypervisor", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "vcenterhypervisors"
+            }, 
+            "/vcenters": {
+                "RESTName": "vcenter", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "vcenters"
+            }, 
+            "/vminterfaces": {
+                "RESTName": "vminterface", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "vminterfaces"
+            }, 
+            "/vms": {
+                "RESTName": "vm", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "vms"
+            }, 
+            "/vrsconfigs": {
+                "RESTName": "vrsconfig", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "vrsconfigs"
+            }, 
+            "/vsps": {
+                "RESTName": "vsp", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "vsps"
+            }, 
+            "/zones": {
+                "RESTName": "zone", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "zones"
+            }
+        }, 
+        "parents": {
+            "/enterprises/{id}/users": {
+                "RESTName": "enterprise", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "enterprises"
+            }, 
+            "/groups/{id}/users": {
+                "RESTName": "group", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }
+                ], 
+                "resourceName": "groups"
+            }, 
+            "/users": {
+                "RESTName": "user", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "users"
             }
         }, 
         "self": {
-            "/l2domains/{id}": {
-                "RESTName": "l2domain", 
+            "/users/{id}": {
+                "RESTName": "user", 
                 "operations": [
                     {
                         "availability": null, 
@@ -365,7 +729,7 @@
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "l2domains"
+                "resourceName": "users"
             }
         }
     }, 
@@ -382,9 +746,9 @@
         "revisions": []
     }, 
     "model": {
-        "RESTName": "l2domain", 
+        "RESTName": "me", 
         "attributes": {
-            "DHCPManaged": {
+            "avatarData": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -392,7 +756,55 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "decides whether L2Domain / L2Domain template DHCP is managed by VSD", 
+                "description": "URL to the avatar data associated with the enterprise. If the avatarType is URL then value of avatarData should an URL of the image. If the avatarType BASE64 then avatarData should be BASE64 encoded value of the image", 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "type": "string", 
+                "unique": false, 
+                "uniqueItems": false
+            }, 
+            "avatarType": {
+                "allowedChars": null, 
+                "allowedChoices": [
+                    "COMPUTEDURL", 
+                    "BASE64", 
+                    "URL"
+                ], 
+                "autogenerated": false, 
+                "availability": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .", 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "type": "enum", 
+                "unique": false, 
+                "uniqueItems": false
+            }, 
+            "disabled": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Status of the user account; true=disabled, false=not disabled; default value = false", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -406,32 +818,7 @@
                 "unique": false, 
                 "uniqueItems": false
             }, 
-            "IPType": {
-                "allowedChars": null, 
-                "allowedChoices": [
-                    "IPV6", 
-                    "IPV4"
-                ], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "address": {
+            "email": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -439,7 +826,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "Network address of the L2Domain / L2Domain template defined. ", 
+                "description": "Email address of the user", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -453,7 +840,7 @@
                 "unique": false, 
                 "uniqueItems": false
             }, 
-            "associatedMulticastChannelMapID": {
+            "enterpriseID": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -461,7 +848,49 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The ID of the Multi Cast Channel Map this L2Domain / L2Domain template template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
+                "description": "Identifier of the enterprise.", 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "enterpriseName": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of the enterprise.", 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "firstName": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "First name of the user", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -475,7 +904,7 @@
                 "unique": false, 
                 "uniqueItems": false
             }, 
-            "associatedSharedNetworkResourceID": {
+            "lastName": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -483,7 +912,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The ID of the L2 Domain  that this L2 Domain object is pointing to", 
+                "description": "Last name of the user", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -497,7 +926,7 @@
                 "unique": false, 
                 "uniqueItems": false
             }, 
-            "description": {
+            "mobileNumber": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -505,7 +934,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "A description field provided by the user that identifies the L2Domain / L2Domain template.", 
+                "description": "Mobile Number of the user", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -519,7 +948,7 @@
                 "unique": false, 
                 "uniqueItems": false
             }, 
-            "gateway": {
+            "password": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -527,7 +956,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The IP address of the gateway of this l2 domain", 
+                "description": "User password stored as a hash (SHA-1 encrpted)", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -541,7 +970,7 @@
                 "unique": false, 
                 "uniqueItems": false
             }, 
-            "gatewayMACAddress": {
+            "role": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -549,7 +978,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The MAC address of the Gateway.", 
+                "description": "Role of the user.", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -560,58 +989,9 @@
                 "readOnly": false, 
                 "required": false, 
                 "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
+                "unique": false
             }, 
-            "maintenanceMode": {
-                "allowedChars": null, 
-                "allowedChoices": [], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "maintenanceMode is an enum that indicates if the L2Domain is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "multicast": {
-                "allowedChars": null, 
-                "allowedChoices": [
-                    "ENABLED", 
-                    "INHERITED", 
-                    "DISABLED"
-                ], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "name": {
+            "userName": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -619,29 +999,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "Name of the L2Domain / L2Domain template,has to be unique within a Enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": true, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "netmask": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Netmask of the L2Domain / L2Domain template defined", 
+                "description": "Unique Username of the user. Valid characters are alphabets, numbers and hyphen( - ).", 
                 "filterable": false, 
                 "format": null, 
                 "maxLength": null, 
@@ -652,198 +1010,13 @@
                 "readOnly": false, 
                 "required": false, 
                 "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "policyChangeStatus": {
-                "allowedChars": null, 
-                "allowedChoices": [
-                    "DISCARDED", 
-                    "APPLIED", 
-                    "STARTED"
-                ], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": " Possible values are STARTED, DISCARDED, APPLIED, .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "routeDistinguisher": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The Route Distinguisher value assigned by VSD for this subnet that is used by the BGP-EVPN protocol in VSC", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "routeTarget": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The Route Target value assigned by VSD for this subnet that is used by the BGP-EVPN protocol in VSC", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "serviceID": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The service ID used by the VSCs to identify this subnet", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "long", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "stretched": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "boolean", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "templateID": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The ID of the L2 Domain template that this L2 Domain object was derived from", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "uplinkPreference": {
-                "allowedChars": null, 
-                "allowedChoices": [
-                    "SECONDARY", 
-                    "SECONDARY_PRIMARY", 
-                    "PRIMARY", 
-                    "PRIMARY_SECONDARY"
-                ], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Indicates the preferencial path selection for network traffic in this domain - Default is Primary 1 and Secondary 2. Possible values are PRIMARY_SECONDARY, SECONDARY_PRIMARY, PRIMARY, SECONDARY, .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "vnId": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Current Network's  globally unique  VXLAN network identifier generated by VSD", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "long", 
                 "unique": false, 
                 "uniqueItems": false
             }
         }, 
-        "description": "This is the definition of a l2 domain associated with a Enterprise", 
-        "entityName": "L2Domain", 
-        "package": "/network", 
-        "resourceName": "l2domains"
+        "description": "Object that identifies the user functions", 
+        "entityName": "RESTUser", 
+        "package": "/usermgmt", 
+        "resourceName": "me"
     }
 }
