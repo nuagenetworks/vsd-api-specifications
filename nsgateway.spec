@@ -3,6 +3,7 @@
     "children": {
       "/nsgateways/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/nsgateways/{id}/bootstrapactivations": {
         "RESTName": "bootstrapactivation", 
+        "entityName": "BootstrapActivation", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/nsgateways/{id}/bootstraps": {
         "RESTName": "bootstrap", 
+        "entityName": "Bootstrap", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/nsgateways/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -43,6 +47,7 @@
       }, 
       "/nsgateways/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -53,6 +58,7 @@
       }, 
       "/nsgateways/{id}/infraconfig": {
         "RESTName": "infraconfig", 
+        "entityName": "InfrastructureConfig", 
         "operations": [
           {
             "availability": null, 
@@ -67,6 +73,7 @@
       }, 
       "/nsgateways/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -81,6 +88,7 @@
       }, 
       "/nsgateways/{id}/locations": {
         "RESTName": "location", 
+        "entityName": "Location", 
         "operations": [
           {
             "availability": null, 
@@ -91,6 +99,7 @@
       }, 
       "/nsgateways/{id}/nsports": {
         "RESTName": "nsport", 
+        "entityName": "NSPort", 
         "operations": [
           {
             "availability": null, 
@@ -113,6 +122,7 @@
       }, 
       "/nsgateways/{id}/patnatpools": {
         "RESTName": "patnatpool", 
+        "entityName": "PATNATPool", 
         "operations": [
           {
             "availability": null, 
@@ -127,6 +137,7 @@
       }, 
       "/nsgateways/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 

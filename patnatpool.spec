@@ -3,6 +3,7 @@
     "children": {
       "/patnatpools/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/patnatpools/{id}/natmapentries": {
         "RESTName": "natmapentry", 
+        "entityName": "NATMapEntry", 
         "operations": [
           {
             "availability": null, 

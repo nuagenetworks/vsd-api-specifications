@@ -3,6 +3,7 @@
     "children": {
       "/vms/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/vms/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/vms/{id}/resync": {
         "RESTName": "resync", 
+        "entityName": "VMResync", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/vms/{id}/vminterfaces": {
         "RESTName": "vminterface", 
+        "entityName": "VMInterface", 
         "operations": [
           {
             "availability": null, 
@@ -51,6 +55,7 @@
       }, 
       "/vms/{id}/vrss": {
         "RESTName": "vrs", 
+        "entityName": "VRS", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/bridgeinterfaces/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/bridgeinterfaces/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/bridgeinterfaces/{id}/policydecisions": {
         "RESTName": "policydecision", 
+        "entityName": "PolicyDecision", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/bridgeinterfaces/{id}/policygroups": {
         "RESTName": "policygroup", 
+        "entityName": "PolicyGroup", 
         "operations": [
           {
             "availability": null, 
@@ -43,6 +47,7 @@
       }, 
       "/bridgeinterfaces/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -57,6 +62,7 @@
       }, 
       "/bridgeinterfaces/{id}/redirectiontargets": {
         "RESTName": "redirectiontarget", 
+        "entityName": "RedirectionTarget", 
         "operations": [
           {
             "availability": null, 
@@ -67,6 +73,7 @@
       }, 
       "/bridgeinterfaces/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 
@@ -77,6 +84,7 @@
       }, 
       "/bridgeinterfaces/{id}/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 

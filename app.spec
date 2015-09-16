@@ -3,6 +3,7 @@
     "children": {
       "/applications/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/applications/{id}/flows": {
         "RESTName": "flow", 
+        "entityName": "Flow", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/applications/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/applications/{id}/tiers": {
         "RESTName": "tier", 
+        "entityName": "Tier", 
         "operations": [
           {
             "availability": null, 

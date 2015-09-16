@@ -3,6 +3,7 @@
     "children": {
       "/redirectiontargettemplates/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/redirectiontargettemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 

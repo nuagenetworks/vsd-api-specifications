@@ -3,6 +3,7 @@
     "children": {
       "/l2domaintemplates/{id}/addressranges": {
         "RESTName": "addressrange", 
+        "entityName": "AddressRange", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/l2domaintemplates/{id}/egressacltemplates": {
         "RESTName": "egressacltemplate", 
+        "entityName": "EgressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -31,6 +33,7 @@
       }, 
       "/l2domaintemplates/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -41,6 +44,7 @@
       }, 
       "/l2domaintemplates/{id}/groups": {
         "RESTName": "group", 
+        "entityName": "Group", 
         "operations": [
           {
             "availability": null, 
@@ -55,6 +59,7 @@
       }, 
       "/l2domaintemplates/{id}/ingressacltemplates": {
         "RESTName": "ingressacltemplate", 
+        "entityName": "IngressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -69,6 +74,7 @@
       }, 
       "/l2domaintemplates/{id}/ingressadvfwdtemplates": {
         "RESTName": "ingressadvfwdtemplate", 
+        "entityName": "IngressAdvFwdTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -83,6 +89,7 @@
       }, 
       "/l2domaintemplates/{id}/ingressexternalservicetemplates": {
         "RESTName": "ingressexternalservicetemplate", 
+        "entityName": "IngressExternalServiceTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -97,6 +104,7 @@
       }, 
       "/l2domaintemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -107,6 +115,7 @@
       }, 
       "/l2domaintemplates/{id}/l2domains": {
         "RESTName": "l2domain", 
+        "entityName": "L2Domain", 
         "operations": [
           {
             "availability": null, 
@@ -117,6 +126,7 @@
       }, 
       "/l2domaintemplates/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -131,6 +141,7 @@
       }, 
       "/l2domaintemplates/{id}/policygrouptemplates": {
         "RESTName": "policygrouptemplate", 
+        "entityName": "PolicyGroupTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -145,6 +156,7 @@
       }, 
       "/l2domaintemplates/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -159,6 +171,7 @@
       }, 
       "/l2domaintemplates/{id}/redirectiontargettemplates": {
         "RESTName": "redirectiontargettemplate", 
+        "entityName": "RedirectionTargetTemplate", 
         "operations": [
           {
             "availability": null, 

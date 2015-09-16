@@ -3,6 +3,7 @@
     "children": {
       "/sharednetworkresources/{id}/addressranges": {
         "RESTName": "addressrange", 
+        "entityName": "AddressRange", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/sharednetworkresources/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -31,6 +33,7 @@
       }, 
       "/sharednetworkresources/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -45,6 +48,7 @@
       }, 
       "/sharednetworkresources/{id}/staticroutes": {
         "RESTName": "staticroute", 
+        "entityName": "StaticRoute", 
         "operations": [
           {
             "availability": null, 
@@ -59,6 +63,7 @@
       }, 
       "/sharednetworkresources/{id}/vpnconnections": {
         "RESTName": "vpnconnection", 
+        "entityName": "VPNConnection", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/flows/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/flows/{id}/flowforwardingpolicies": {
         "RESTName": "flowforwardingpolicy", 
+        "entityName": "FlowForwardingPolicy", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/flows/{id}/flowsecuritypolicies": {
         "RESTName": "flowsecuritypolicy", 
+        "entityName": "FlowSecurityPolicy", 
         "operations": [
           {
             "availability": null, 

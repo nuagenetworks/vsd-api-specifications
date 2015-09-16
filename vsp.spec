@@ -3,6 +3,7 @@
     "children": {
       "/vsps/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/vsps/{id}/hscs": {
         "RESTName": "hsc", 
+        "entityName": "HSC", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/vsps/{id}/vscs": {
         "RESTName": "vsc", 
+        "entityName": "VSC", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/vsps/{id}/vsds": {
         "RESTName": "vsd", 
+        "entityName": "VSD", 
         "operations": [
           {
             "availability": null, 

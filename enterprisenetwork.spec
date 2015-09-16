@@ -3,6 +3,7 @@
     "children": {
       "/enterprisenetworks/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/enterprisenetworks/{id}/networkmacrogroups": {
         "RESTName": "networkmacrogroup", 
+        "entityName": "NetworkMacroGroup", 
         "operations": [
           {
             "availability": null, 

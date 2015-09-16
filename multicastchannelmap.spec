@@ -3,6 +3,7 @@
     "children": {
       "/multicastchannelmaps/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/multicastchannelmaps/{id}/multicastranges": {
         "RESTName": "multicastrange", 
+        "entityName": "MultiCastRange", 
         "operations": [
           {
             "availability": null, 

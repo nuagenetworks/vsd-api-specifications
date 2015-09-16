@@ -3,6 +3,7 @@
     "children": {
       "/subnettemplates/{id}/addressranges": {
         "RESTName": "addressrange", 
+        "entityName": "AddressRange", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/subnettemplates/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/subnettemplates/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -41,6 +44,7 @@
       }, 
       "/subnettemplates/{id}/subnets": {
         "RESTName": "subnet", 
+        "entityName": "Subnet", 
         "operations": [
           {
             "availability": null, 

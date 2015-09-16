@@ -3,6 +3,7 @@
     "children": {
       "/ports/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/ports/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/ports/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/ports/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -51,6 +55,7 @@
       }, 
       "/ports/{id}/vlans": {
         "RESTName": "vlan", 
+        "entityName": "VLAN", 
         "operations": [
           {
             "availability": null, 

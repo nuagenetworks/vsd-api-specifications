@@ -3,6 +3,7 @@
     "children": {
       "/domaintemplates/{id}/domains": {
         "RESTName": "domain", 
+        "entityName": "Domain", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/domaintemplates/{id}/egressacltemplates": {
         "RESTName": "egressacltemplate", 
+        "entityName": "EgressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -31,6 +33,7 @@
       }, 
       "/domaintemplates/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -41,6 +44,7 @@
       }, 
       "/domaintemplates/{id}/groups": {
         "RESTName": "group", 
+        "entityName": "Group", 
         "operations": [
           {
             "availability": null, 
@@ -55,6 +59,7 @@
       }, 
       "/domaintemplates/{id}/ingressacltemplates": {
         "RESTName": "ingressacltemplate", 
+        "entityName": "IngressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -69,6 +74,7 @@
       }, 
       "/domaintemplates/{id}/ingressadvfwdtemplates": {
         "RESTName": "ingressadvfwdtemplate", 
+        "entityName": "IngressAdvFwdTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -83,6 +89,7 @@
       }, 
       "/domaintemplates/{id}/ingressexternalservicetemplates": {
         "RESTName": "ingressexternalservicetemplate", 
+        "entityName": "IngressExternalServiceTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -97,6 +104,7 @@
       }, 
       "/domaintemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -107,6 +115,7 @@
       }, 
       "/domaintemplates/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -121,6 +130,7 @@
       }, 
       "/domaintemplates/{id}/policygrouptemplates": {
         "RESTName": "policygrouptemplate", 
+        "entityName": "PolicyGroupTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -135,6 +145,7 @@
       }, 
       "/domaintemplates/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -149,6 +160,7 @@
       }, 
       "/domaintemplates/{id}/redirectiontargettemplates": {
         "RESTName": "redirectiontargettemplate", 
+        "entityName": "RedirectionTargetTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -163,6 +175,7 @@
       }, 
       "/domaintemplates/{id}/subnettemplates": {
         "RESTName": "subnettemplate", 
+        "entityName": "SubnetTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -173,6 +186,7 @@
       }, 
       "/domaintemplates/{id}/zonetemplates": {
         "RESTName": "zonetemplate", 
+        "entityName": "ZoneTemplate", 
         "operations": [
           {
             "availability": null, 

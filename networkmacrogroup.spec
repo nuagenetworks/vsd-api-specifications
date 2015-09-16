@@ -3,6 +3,7 @@
     "children": {
       "/networkmacrogroups/{id}/enterprisenetworks": {
         "RESTName": "enterprisenetwork", 
+        "entityName": "EnterpriseNetwork", 
         "operations": [
           {
             "availability": null, 

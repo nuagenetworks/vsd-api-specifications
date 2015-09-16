@@ -3,6 +3,7 @@
     "children": {
       "/globalmetadatas/{id}/metadatatags": {
         "RESTName": "metadatatag", 
+        "entityName": "MetadataTag", 
         "operations": [
           {
             "availability": null, 

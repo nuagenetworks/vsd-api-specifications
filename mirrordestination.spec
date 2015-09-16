@@ -3,6 +3,7 @@
     "children": {
       "/mirrordestinations/{id}/vportmirrors": {
         "RESTName": "vportmirror", 
+        "entityName": "VPortMirror", 
         "operations": [
           {
             "availability": null, 

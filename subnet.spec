@@ -3,6 +3,7 @@
     "children": {
       "/subnets/{id}/addressranges": {
         "RESTName": "addressrange", 
+        "entityName": "AddressRange", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/subnets/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -31,6 +33,7 @@
       }, 
       "/subnets/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -41,6 +44,7 @@
       }, 
       "/subnets/{id}/ipreservations": {
         "RESTName": "ipreservation", 
+        "entityName": "IPReservation", 
         "operations": [
           {
             "availability": null, 
@@ -55,6 +59,7 @@
       }, 
       "/subnets/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -69,6 +74,7 @@
       }, 
       "/subnets/{id}/resync": {
         "RESTName": "resync", 
+        "entityName": "VMResync", 
         "operations": [
           {
             "availability": null, 
@@ -83,6 +89,7 @@
       }, 
       "/subnets/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 
@@ -93,6 +100,7 @@
       }, 
       "/subnets/{id}/statisticspolicies": {
         "RESTName": "statisticspolicy", 
+        "entityName": "StatisticsPolicy", 
         "operations": [
           {
             "availability": null, 
@@ -107,6 +115,7 @@
       }, 
       "/subnets/{id}/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 
@@ -121,6 +130,7 @@
       }, 
       "/subnets/{id}/virtualips": {
         "RESTName": "virtualip", 
+        "entityName": "VirtualIP", 
         "operations": [
           {
             "availability": null, 
@@ -131,6 +141,7 @@
       }, 
       "/subnets/{id}/vminterfaces": {
         "RESTName": "vminterface", 
+        "entityName": "VMInterface", 
         "operations": [
           {
             "availability": null, 
@@ -141,6 +152,7 @@
       }, 
       "/subnets/{id}/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 
@@ -151,6 +163,7 @@
       }, 
       "/subnets/{id}/vports": {
         "RESTName": "vport", 
+        "entityName": "VPort", 
         "operations": [
           {
             "availability": null, 

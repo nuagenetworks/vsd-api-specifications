@@ -3,6 +3,7 @@
     "children": {
       "/vports/{id}/aggregatemetadatas": {
         "RESTName": "aggregatemetadata", 
+        "entityName": "AggregateMetadata", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/vports/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/vports/{id}/bridgeinterfaces": {
         "RESTName": "bridgeinterface", 
+        "entityName": "BridgeInterface", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/vports/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -51,6 +55,7 @@
       }, 
       "/vports/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -61,6 +66,7 @@
       }, 
       "/vports/{id}/hostinterfaces": {
         "RESTName": "hostinterface", 
+        "entityName": "HostInterface", 
         "operations": [
           {
             "availability": null, 
@@ -75,6 +81,7 @@
       }, 
       "/vports/{id}/policygroups": {
         "RESTName": "policygroup", 
+        "entityName": "PolicyGroup", 
         "operations": [
           {
             "availability": null, 
@@ -89,6 +96,7 @@
       }, 
       "/vports/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -103,6 +111,7 @@
       }, 
       "/vports/{id}/redirectiontargets": {
         "RESTName": "redirectiontarget", 
+        "entityName": "RedirectionTarget", 
         "operations": [
           {
             "availability": null, 
@@ -117,6 +126,7 @@
       }, 
       "/vports/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 
@@ -127,6 +137,7 @@
       }, 
       "/vports/{id}/statisticspolicies": {
         "RESTName": "statisticspolicy", 
+        "entityName": "StatisticsPolicy", 
         "operations": [
           {
             "availability": null, 
@@ -141,6 +152,7 @@
       }, 
       "/vports/{id}/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 
@@ -155,6 +167,7 @@
       }, 
       "/vports/{id}/virtualips": {
         "RESTName": "virtualip", 
+        "entityName": "VirtualIP", 
         "operations": [
           {
             "availability": null, 
@@ -169,6 +182,7 @@
       }, 
       "/vports/{id}/vminterfaces": {
         "RESTName": "vminterface", 
+        "entityName": "VMInterface", 
         "operations": [
           {
             "availability": null, 
@@ -179,6 +193,7 @@
       }, 
       "/vports/{id}/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 
@@ -189,6 +204,7 @@
       }, 
       "/vports/{id}/vportmirrors": {
         "RESTName": "vportmirror", 
+        "entityName": "VPortMirror", 
         "operations": [
           {
             "availability": null, 
@@ -203,6 +219,7 @@
       }, 
       "/vports/{id}/vrss": {
         "RESTName": "vrs", 
+        "entityName": "VRS", 
         "operations": [
           {
             "availability": null, 

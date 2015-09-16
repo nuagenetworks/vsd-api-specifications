@@ -3,6 +3,7 @@
     "children": {
       "/applicationservices": {
         "RESTName": "applicationservice", 
+        "entityName": "ApplicationService", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/autodiscoveredgateways": {
         "RESTName": "autodiscoveredgateway", 
+        "entityName": "AutoDiscoveredGateway", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/certificates": {
         "RESTName": "certificate", 
+        "entityName": "Certificate", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/cms": {
         "RESTName": "cms", 
+        "entityName": "CloudMgmtSystem", 
         "operations": [
           {
             "availability": null, 
@@ -51,6 +55,7 @@
       }, 
       "/domains": {
         "RESTName": "domain", 
+        "entityName": "Domain", 
         "operations": [
           {
             "availability": null, 
@@ -61,6 +66,7 @@
       }, 
       "/eamconfigs": {
         "RESTName": "eamconfig", 
+        "entityName": "VCenterEAMConfig", 
         "operations": [
           {
             "availability": null, 
@@ -71,6 +77,7 @@
       }, 
       "/eamconfigs/{id}": {
         "RESTName": "eamconfig", 
+        "entityName": "VCenterEAMConfig", 
         "operations": [
           {
             "availability": null, 
@@ -89,6 +96,7 @@
       }, 
       "/egressaclentrytemplates": {
         "RESTName": "egressaclentrytemplate", 
+        "entityName": "EgressACLEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -99,6 +107,7 @@
       }, 
       "/egressacltemplates": {
         "RESTName": "egressacltemplate", 
+        "entityName": "EgressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -109,6 +118,7 @@
       }, 
       "/egressqospolicies": {
         "RESTName": "egressqospolicy", 
+        "entityName": "EgressQOSPolicy", 
         "operations": [
           {
             "availability": null, 
@@ -123,6 +133,7 @@
       }, 
       "/enterpriseprofiles": {
         "RESTName": "enterpriseprofile", 
+        "entityName": "EnterpriseProfile", 
         "operations": [
           {
             "availability": null, 
@@ -137,6 +148,7 @@
       }, 
       "/enterprises": {
         "RESTName": "enterprise", 
+        "entityName": "Enterprise", 
         "operations": [
           {
             "availability": null, 
@@ -151,6 +163,7 @@
       }, 
       "/externalappservices": {
         "RESTName": "externalappservice", 
+        "entityName": "ExternalAppService", 
         "operations": [
           {
             "availability": null, 
@@ -165,6 +178,7 @@
       }, 
       "/externalservices": {
         "RESTName": "externalservice", 
+        "entityName": "ExternalService", 
         "operations": [
           {
             "availability": null, 
@@ -179,6 +193,7 @@
       }, 
       "/floatingips": {
         "RESTName": "floatingip", 
+        "entityName": "FloatingIp", 
         "operations": [
           {
             "availability": null, 
@@ -189,6 +204,7 @@
       }, 
       "/gateways": {
         "RESTName": "gateway", 
+        "entityName": "Gateway", 
         "operations": [
           {
             "availability": null, 
@@ -203,6 +219,7 @@
       }, 
       "/gatewaytemplates": {
         "RESTName": "gatewaytemplate", 
+        "entityName": "GatewayTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -217,6 +234,7 @@
       }, 
       "/globalmetadatas": {
         "RESTName": "globalmetadata", 
+        "entityName": "GlobalMetadata", 
         "operations": [
           {
             "availability": null, 
@@ -231,6 +249,7 @@
       }, 
       "/hostinterfaces": {
         "RESTName": "hostinterface", 
+        "entityName": "HostInterface", 
         "operations": [
           {
             "availability": null, 
@@ -241,6 +260,7 @@
       }, 
       "/infrastructuregatewayprofiles": {
         "RESTName": "infrastructuregatewayprofile", 
+        "entityName": "InfrastructureGatewayProfile", 
         "operations": [
           {
             "availability": null, 
@@ -255,6 +275,7 @@
       }, 
       "/infrastructureportprofiles": {
         "RESTName": "infrastructureportprofile", 
+        "entityName": "InfrastructurePortProfile", 
         "operations": [
           {
             "availability": null, 
@@ -269,6 +290,7 @@
       }, 
       "/infrastructurevscprofiles": {
         "RESTName": "infrastructurevscprofile", 
+        "entityName": "InfrastructureVscProfile", 
         "operations": [
           {
             "availability": null, 
@@ -283,6 +305,7 @@
       }, 
       "/ingressaclentrytemplates": {
         "RESTName": "ingressaclentrytemplate", 
+        "entityName": "IngressACLEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -293,6 +316,7 @@
       }, 
       "/ingressacltemplates": {
         "RESTName": "ingressacltemplate", 
+        "entityName": "IngressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -303,6 +327,7 @@
       }, 
       "/ingressadvfwdentrytemplates": {
         "RESTName": "ingressadvfwdentrytemplate", 
+        "entityName": "IngressAdvFwdEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -313,6 +338,7 @@
       }, 
       "/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -327,6 +353,7 @@
       }, 
       "/l2domains": {
         "RESTName": "l2domain", 
+        "entityName": "L2Domain", 
         "operations": [
           {
             "availability": null, 
@@ -337,6 +364,7 @@
       }, 
       "/licenses": {
         "RESTName": "license", 
+        "entityName": "License", 
         "operations": [
           {
             "availability": null, 
@@ -351,6 +379,7 @@
       }, 
       "/metadatatags": {
         "RESTName": "metadatatag", 
+        "entityName": "MetadataTag", 
         "operations": [
           {
             "availability": null, 
@@ -365,6 +394,7 @@
       }, 
       "/mirrordestinations": {
         "RESTName": "mirrordestination", 
+        "entityName": "MirrorDestination", 
         "operations": [
           {
             "availability": null, 
@@ -379,6 +409,7 @@
       }, 
       "/multicastchannelmaps": {
         "RESTName": "multicastchannelmap", 
+        "entityName": "MultiCastChannelMap", 
         "operations": [
           {
             "availability": null, 
@@ -393,6 +424,7 @@
       }, 
       "/networklayout": {
         "RESTName": "networklayout", 
+        "entityName": "NetworkLayout", 
         "operations": [
           {
             "availability": null, 
@@ -403,6 +435,7 @@
       }, 
       "/nsgateways": {
         "RESTName": "nsgateway", 
+        "entityName": "NSGateway", 
         "operations": [
           {
             "availability": null, 
@@ -413,6 +446,7 @@
       }, 
       "/nsgatewaytemplates": {
         "RESTName": "nsgatewaytemplate", 
+        "entityName": "NSGatewayTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -427,6 +461,7 @@
       }, 
       "/nsgredundancygroups": {
         "RESTName": "nsgredundancygroup", 
+        "entityName": "NSRedundantGWGrp", 
         "operations": [
           {
             "availability": null, 
@@ -437,6 +472,7 @@
       }, 
       "/nsportstaticconfigurations": {
         "RESTName": "nsportstaticconfiguration", 
+        "entityName": "NSPortStaticConfiguration", 
         "operations": [
           {
             "availability": null, 
@@ -447,6 +483,7 @@
       }, 
       "/patnatpools": {
         "RESTName": "patnatpool", 
+        "entityName": "PATNATPool", 
         "operations": [
           {
             "availability": null, 
@@ -461,6 +498,7 @@
       }, 
       "/policygroups": {
         "RESTName": "policygroup", 
+        "entityName": "PolicyGroup", 
         "operations": [
           {
             "availability": null, 
@@ -471,6 +509,7 @@
       }, 
       "/ratelimiters": {
         "RESTName": "ratelimiter", 
+        "entityName": "RateLimiter", 
         "operations": [
           {
             "availability": null, 
@@ -485,6 +524,7 @@
       }, 
       "/redirectiontargets": {
         "RESTName": "redirectiontarget", 
+        "entityName": "RedirectionTarget", 
         "operations": [
           {
             "availability": null, 
@@ -495,6 +535,7 @@
       }, 
       "/redundancygroups": {
         "RESTName": "redundancygroup", 
+        "entityName": "RedundancyGroup", 
         "operations": [
           {
             "availability": null, 
@@ -509,6 +550,7 @@
       }, 
       "/sharednetworkresources": {
         "RESTName": "sharednetworkresource", 
+        "entityName": "SharedNetworkResource", 
         "operations": [
           {
             "availability": null, 
@@ -523,6 +565,7 @@
       }, 
       "/sites": {
         "RESTName": "site", 
+        "entityName": "SiteInfo", 
         "operations": [
           {
             "availability": null, 
@@ -537,6 +580,7 @@
       }, 
       "/staticroutes": {
         "RESTName": "staticroute", 
+        "entityName": "StaticRoute", 
         "operations": [
           {
             "availability": null, 
@@ -547,6 +591,7 @@
       }, 
       "/statisticscollector": {
         "RESTName": "statisticscollector", 
+        "entityName": "StatsCollectorInfo", 
         "operations": [
           {
             "availability": null, 
@@ -557,6 +602,7 @@
       }, 
       "/subnets": {
         "RESTName": "subnet", 
+        "entityName": "Subnet", 
         "operations": [
           {
             "availability": null, 
@@ -567,6 +613,7 @@
       }, 
       "/systemconfigs": {
         "RESTName": "systemconfig", 
+        "entityName": "SystemConfig", 
         "operations": [
           {
             "availability": null, 
@@ -577,6 +624,7 @@
       }, 
       "/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 
@@ -587,6 +635,7 @@
       }, 
       "/uplinkroutedistinguishers": {
         "RESTName": "uplinkroutedistinguisher", 
+        "entityName": "UplinkRD", 
         "operations": [
           {
             "availability": null, 
@@ -597,6 +646,7 @@
       }, 
       "/users": {
         "RESTName": "user", 
+        "entityName": "User", 
         "operations": [
           {
             "availability": null, 
@@ -611,6 +661,7 @@
       }, 
       "/vcenterhypervisors": {
         "RESTName": "vcenterhypervisor", 
+        "entityName": "VCenterHypervisor", 
         "operations": [
           {
             "availability": null, 
@@ -621,6 +672,7 @@
       }, 
       "/vcenters": {
         "RESTName": "vcenter", 
+        "entityName": "VCenter", 
         "operations": [
           {
             "availability": null, 
@@ -635,6 +687,7 @@
       }, 
       "/vminterfaces": {
         "RESTName": "vminterface", 
+        "entityName": "VMInterface", 
         "operations": [
           {
             "availability": null, 
@@ -645,6 +698,7 @@
       }, 
       "/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 
@@ -659,6 +713,7 @@
       }, 
       "/vrsconfigs": {
         "RESTName": "vrsconfig", 
+        "entityName": "VCenterVRSConfig", 
         "operations": [
           {
             "availability": null, 
@@ -669,6 +724,7 @@
       }, 
       "/vrsconfigs/{id}": {
         "RESTName": "vrsconfig", 
+        "entityName": "VCenterVRSConfig", 
         "operations": [
           {
             "availability": null, 
@@ -687,6 +743,7 @@
       }, 
       "/vsps": {
         "RESTName": "vsp", 
+        "entityName": "VSP", 
         "operations": [
           {
             "availability": null, 
@@ -701,6 +758,7 @@
       }, 
       "/zones": {
         "RESTName": "zone", 
+        "entityName": "Zone", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/keyservermonitorseeds/{id}/keyservermonitorencryptedseeds": {
         "RESTName": "keyservermonitorencryptedseed", 
+        "entityName": "KeyServerMonitorEncryptedSeed", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/egressaclentrytemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/egressaclentrytemplates/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 

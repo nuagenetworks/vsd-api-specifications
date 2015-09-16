@@ -3,6 +3,7 @@
     "children": {
       "/enterpriseprofiles/{id}/enterprises": {
         "RESTName": "enterprise", 
+        "entityName": "Enterprise", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/enterpriseprofiles/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/enterpriseprofiles/{id}/externalservices": {
         "RESTName": "externalservice", 
+        "entityName": "ExternalService", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/enterpriseprofiles/{id}/multicastlists": {
         "RESTName": "multicastlist", 
+        "entityName": "MultiCastList", 
         "operations": [
           {
             "availability": null, 

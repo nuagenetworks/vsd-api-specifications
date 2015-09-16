@@ -3,6 +3,7 @@
     "children": {
       "/vrss/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/vrss/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/vrss/{id}/hscs": {
         "RESTName": "hsc", 
+        "entityName": "HSC", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/vrss/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -43,6 +47,7 @@
       }, 
       "/vrss/{id}/monitoringports": {
         "RESTName": "monitoringport", 
+        "entityName": "MonitoringPort", 
         "operations": [
           {
             "availability": null, 
@@ -53,6 +58,7 @@
       }, 
       "/vrss/{id}/multinicvports": {
         "RESTName": "multinicvport", 
+        "entityName": "MultiNICVPort", 
         "operations": [
           {
             "availability": null, 
@@ -63,6 +69,7 @@
       }, 
       "/vrss/{id}/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 
@@ -73,6 +80,7 @@
       }, 
       "/vrss/{id}/vports": {
         "RESTName": "vport", 
+        "entityName": "VPort", 
         "operations": [
           {
             "availability": null, 
@@ -83,6 +91,7 @@
       }, 
       "/vrss/{id}/vscs": {
         "RESTName": "vsc", 
+        "entityName": "VSC", 
         "operations": [
           {
             "availability": null, 

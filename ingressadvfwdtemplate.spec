@@ -3,6 +3,7 @@
     "children": {
       "/ingressadvfwdtemplates/{id}/ingressadvfwdentrytemplates": {
         "RESTName": "ingressadvfwdentrytemplate", 
+        "entityName": "IngressAdvFwdEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/ingressadvfwdtemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/keyservermonitors/{id}/keyservermonitorencryptedseeds": {
         "RESTName": "keyservermonitorencryptedseed", 
+        "entityName": "KeyServerMonitorEncryptedSeed", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/keyservermonitors/{id}/keyservermonitorencryptedseks": {
         "RESTName": "keyservermonitorencryptedsek", 
+        "entityName": "KeyServerMonitorEncryptedSEK", 
         "operations": [
           {
             "availability": null, 
@@ -31,6 +33,7 @@
       }, 
       "/keyservermonitors/{id}/keyservermonitorseeds": {
         "RESTName": "keyservermonitorseed", 
+        "entityName": "KeyServerMonitorSeed", 
         "operations": [
           {
             "availability": null, 
@@ -45,6 +48,7 @@
       }, 
       "/keyservermonitors/{id}/keyservermonitorseks": {
         "RESTName": "keyservermonitorsek", 
+        "entityName": "KeyServerMonitorSEK", 
         "operations": [
           {
             "availability": null, 

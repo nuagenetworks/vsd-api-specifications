@@ -3,6 +3,7 @@
     "children": {
       "/gateways/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/gateways/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/gateways/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/gateways/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -51,6 +55,7 @@
       }, 
       "/gateways/{id}/patnatpools": {
         "RESTName": "patnatpool", 
+        "entityName": "PATNATPool", 
         "operations": [
           {
             "availability": null, 
@@ -65,6 +70,7 @@
       }, 
       "/gateways/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -79,6 +85,7 @@
       }, 
       "/gateways/{id}/ports": {
         "RESTName": "port", 
+        "entityName": "Port", 
         "operations": [
           {
             "availability": null, 
@@ -93,6 +100,7 @@
       }, 
       "/gateways/{id}/services": {
         "RESTName": "service", 
+        "entityName": "WANService", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/nsports/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/nsports/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/nsports/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/nsports/{id}/nsportstaticconfigurations": {
         "RESTName": "nsportstaticconfiguration", 
+        "entityName": "NSPortStaticConfiguration", 
         "operations": [
           {
             "availability": null, 
@@ -55,6 +59,7 @@
       }, 
       "/nsports/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -69,6 +74,7 @@
       }, 
       "/nsports/{id}/vlans": {
         "RESTName": "vlan", 
+        "entityName": "VLAN", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/externalservices/{id}/endpoints": {
         "RESTName": "endpoint", 
+        "entityName": "EndPoint", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/externalservices/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/externalservices/{id}/metadatatags": {
         "RESTName": "metadatatag", 
+        "entityName": "MetadataTag", 
         "operations": [
           {
             "availability": null, 

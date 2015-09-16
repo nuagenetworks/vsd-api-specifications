@@ -3,6 +3,7 @@
     "children": {
       "/addressranges/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 

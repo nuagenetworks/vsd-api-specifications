@@ -3,6 +3,7 @@
     "children": {
       "/multinicvports/{id}/vports": {
         "RESTName": "vport", 
+        "entityName": "VPort", 
         "operations": [
           {
             "availability": null, 

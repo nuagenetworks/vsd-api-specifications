@@ -3,6 +3,7 @@
     "children": {
       "/redirectiontargets/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/redirectiontargets/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/redirectiontargets/{id}/virtualips": {
         "RESTName": "virtualip", 
+        "entityName": "VirtualIP", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/redirectiontargets/{id}/vports": {
         "RESTName": "vport", 
+        "entityName": "VPort", 
         "operations": [
           {
             "availability": null, 

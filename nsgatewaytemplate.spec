@@ -3,6 +3,7 @@
     "children": {
       "/nsgatewaytemplates/{id}/nsporttemplates": {
         "RESTName": "nsporttemplate", 
+        "entityName": "NSPortTemplate", 
         "operations": [
           {
             "availability": null, 

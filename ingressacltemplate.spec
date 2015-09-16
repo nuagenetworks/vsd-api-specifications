@@ -3,6 +3,7 @@
     "children": {
       "/ingressacltemplates/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/ingressacltemplates/{id}/ingressaclentrytemplates": {
         "RESTName": "ingressaclentrytemplate", 
+        "entityName": "IngressACLEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/ingressacltemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/ingressacltemplates/{id}/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 

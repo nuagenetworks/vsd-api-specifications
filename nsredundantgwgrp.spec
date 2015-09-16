@@ -3,6 +3,7 @@
     "children": {
       "/nsgredundancygroups/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/nsgredundancygroups/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/nsgredundancygroups/{id}/nsgateways": {
         "RESTName": "nsgateway", 
+        "entityName": "NSGateway", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/nsgredundancygroups/{id}/nsredundantports": {
         "RESTName": "nsredundantport", 
+        "entityName": "RedundantPort", 
         "operations": [
           {
             "availability": null, 

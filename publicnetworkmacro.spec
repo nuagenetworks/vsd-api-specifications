@@ -3,6 +3,7 @@
     "children": {
       "/publicnetworks/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 

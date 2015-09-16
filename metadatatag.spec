@@ -3,6 +3,7 @@
     "children": {
       "/metadatatags/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/metadatatags/{id}/globalmetadatas": {
         "RESTName": "globalmetadata", 
+        "entityName": "GlobalMetadata", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/metadatatags/{id}/metadatas": {
         "RESTName": "metadata", 
+        "entityName": "Metadata", 
         "operations": [
           {
             "availability": null, 

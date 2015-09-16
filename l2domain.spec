@@ -3,6 +3,7 @@
     "children": {
       "/l2domains/{id}/addressranges": {
         "RESTName": "addressrange", 
+        "entityName": "AddressRange", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/l2domains/{id}/bridgeinterfaces": {
         "RESTName": "bridgeinterface", 
+        "entityName": "BridgeInterface", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/l2domains/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/l2domains/{id}/egressaclentrytemplates": {
         "RESTName": "egressaclentrytemplate", 
+        "entityName": "EgressACLEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -47,6 +51,7 @@
       }, 
       "/l2domains/{id}/egressacltemplates": {
         "RESTName": "egressacltemplate", 
+        "entityName": "EgressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -61,6 +66,7 @@
       }, 
       "/l2domains/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -71,6 +77,7 @@
       }, 
       "/l2domains/{id}/groups": {
         "RESTName": "group", 
+        "entityName": "Group", 
         "operations": [
           {
             "availability": null, 
@@ -85,6 +92,7 @@
       }, 
       "/l2domains/{id}/hostinterfaces": {
         "RESTName": "hostinterface", 
+        "entityName": "HostInterface", 
         "operations": [
           {
             "availability": null, 
@@ -95,6 +103,7 @@
       }, 
       "/l2domains/{id}/ingressaclentrytemplates": {
         "RESTName": "ingressaclentrytemplate", 
+        "entityName": "IngressACLEntryTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -105,6 +114,7 @@
       }, 
       "/l2domains/{id}/ingressacltemplates": {
         "RESTName": "ingressacltemplate", 
+        "entityName": "IngressACLTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -119,6 +129,7 @@
       }, 
       "/l2domains/{id}/ingressadvfwdtemplates": {
         "RESTName": "ingressadvfwdtemplate", 
+        "entityName": "IngressAdvFwdTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -133,6 +144,7 @@
       }, 
       "/l2domains/{id}/ingressexternalservicetemplates": {
         "RESTName": "ingressexternalservicetemplate", 
+        "entityName": "IngressExternalServiceTemplate", 
         "operations": [
           {
             "availability": null, 
@@ -147,6 +159,7 @@
       }, 
       "/l2domains/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -157,6 +170,7 @@
       }, 
       "/l2domains/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -171,6 +185,7 @@
       }, 
       "/l2domains/{id}/policygroups": {
         "RESTName": "policygroup", 
+        "entityName": "PolicyGroup", 
         "operations": [
           {
             "availability": null, 
@@ -185,6 +200,7 @@
       }, 
       "/l2domains/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -199,6 +215,7 @@
       }, 
       "/l2domains/{id}/redirectiontargets": {
         "RESTName": "redirectiontarget", 
+        "entityName": "RedirectionTarget", 
         "operations": [
           {
             "availability": null, 
@@ -213,6 +230,7 @@
       }, 
       "/l2domains/{id}/staticroutes": {
         "RESTName": "staticroute", 
+        "entityName": "StaticRoute", 
         "operations": [
           {
             "availability": null, 
@@ -227,6 +245,7 @@
       }, 
       "/l2domains/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 
@@ -237,6 +256,7 @@
       }, 
       "/l2domains/{id}/statisticspolicies": {
         "RESTName": "statisticspolicy", 
+        "entityName": "StatisticsPolicy", 
         "operations": [
           {
             "availability": null, 
@@ -251,6 +271,7 @@
       }, 
       "/l2domains/{id}/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 
@@ -265,6 +286,7 @@
       }, 
       "/l2domains/{id}/uplinkroutedistinguishers": {
         "RESTName": "uplinkroutedistinguisher", 
+        "entityName": "UplinkRD", 
         "operations": [
           {
             "availability": null, 
@@ -275,6 +297,7 @@
       }, 
       "/l2domains/{id}/vminterfaces": {
         "RESTName": "vminterface", 
+        "entityName": "VMInterface", 
         "operations": [
           {
             "availability": null, 
@@ -285,6 +308,7 @@
       }, 
       "/l2domains/{id}/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 
@@ -295,6 +319,7 @@
       }, 
       "/l2domains/{id}/vpnconnections": {
         "RESTName": "vpnconnection", 
+        "entityName": "VPNConnection", 
         "operations": [
           {
             "availability": null, 
@@ -309,6 +334,7 @@
       }, 
       "/l2domains/{id}/vports": {
         "RESTName": "vport", 
+        "entityName": "VPort", 
         "operations": [
           {
             "availability": null, 

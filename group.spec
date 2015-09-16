@@ -3,6 +3,7 @@
     "children": {
       "/groups/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/groups/{id}/users": {
         "RESTName": "user", 
+        "entityName": "User", 
         "operations": [
           {
             "availability": null, 

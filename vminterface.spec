@@ -3,6 +3,7 @@
     "children": {
       "/vminterfaces/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/vminterfaces/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/vminterfaces/{id}/multicastchannelmaps": {
         "RESTName": "multicastchannelmap", 
+        "entityName": "MultiCastChannelMap", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/vminterfaces/{id}/policydecisions": {
         "RESTName": "policydecision", 
+        "entityName": "PolicyDecision", 
         "operations": [
           {
             "availability": null, 
@@ -43,6 +47,7 @@
       }, 
       "/vminterfaces/{id}/policygroups": {
         "RESTName": "policygroup", 
+        "entityName": "PolicyGroup", 
         "operations": [
           {
             "availability": null, 
@@ -53,6 +58,7 @@
       }, 
       "/vminterfaces/{id}/redirectiontargets": {
         "RESTName": "redirectiontarget", 
+        "entityName": "RedirectionTarget", 
         "operations": [
           {
             "availability": null, 
@@ -63,6 +69,7 @@
       }, 
       "/vminterfaces/{id}/staticroutes": {
         "RESTName": "staticroute", 
+        "entityName": "StaticRoute", 
         "operations": [
           {
             "availability": null, 
@@ -73,6 +80,7 @@
       }, 
       "/vminterfaces/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 
@@ -83,6 +91,7 @@
       }, 
       "/vminterfaces/{id}/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 

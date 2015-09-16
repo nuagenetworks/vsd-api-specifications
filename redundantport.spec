@@ -3,6 +3,7 @@
     "children": {
       "/nsredundantports/{id}/nsports": {
         "RESTName": "nsport", 
+        "entityName": "NSPort", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/nsredundantports/{id}/vlans": {
         "RESTName": "vlan", 
+        "entityName": "VLAN", 
         "operations": [
           {
             "availability": null, 

@@ -3,6 +3,7 @@
     "children": {
       "/multicastlists/{id}/multicastchannelmaps": {
         "RESTName": "multicastchannelmap", 
+        "entityName": "MultiCastChannelMap", 
         "operations": [
           {
             "availability": null, 

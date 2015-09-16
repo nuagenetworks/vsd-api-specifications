@@ -3,6 +3,7 @@
     "children": {
       "/zonetemplates/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/zonetemplates/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/zonetemplates/{id}/subnettemplates": {
         "RESTName": "subnettemplate", 
+        "entityName": "SubnetTemplate", 
         "operations": [
           {
             "availability": null, 

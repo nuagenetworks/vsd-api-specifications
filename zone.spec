@@ -3,6 +3,7 @@
     "children": {
       "/zones/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
+        "entityName": "DHCPOption", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/zones/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/zones/{id}/groups": {
         "RESTName": "group", 
+        "entityName": "Group", 
         "operations": [
           {
             "availability": null, 
@@ -41,6 +44,7 @@
       }, 
       "/zones/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -55,6 +59,7 @@
       }, 
       "/zones/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 
@@ -69,6 +74,7 @@
       }, 
       "/zones/{id}/statistics": {
         "RESTName": "statistics", 
+        "entityName": "Statistics", 
         "operations": [
           {
             "availability": null, 
@@ -79,6 +85,7 @@
       }, 
       "/zones/{id}/statisticspolicies": {
         "RESTName": "statisticspolicy", 
+        "entityName": "StatisticsPolicy", 
         "operations": [
           {
             "availability": null, 
@@ -93,6 +100,7 @@
       }, 
       "/zones/{id}/subnets": {
         "RESTName": "subnet", 
+        "entityName": "Subnet", 
         "operations": [
           {
             "availability": null, 
@@ -107,6 +115,7 @@
       }, 
       "/zones/{id}/tcas": {
         "RESTName": "tca", 
+        "entityName": "TCA", 
         "operations": [
           {
             "availability": null, 
@@ -121,6 +130,7 @@
       }, 
       "/zones/{id}/vminterfaces": {
         "RESTName": "vminterface", 
+        "entityName": "VMInterface", 
         "operations": [
           {
             "availability": null, 
@@ -131,6 +141,7 @@
       }, 
       "/zones/{id}/vms": {
         "RESTName": "vm", 
+        "entityName": "VM", 
         "operations": [
           {
             "availability": null, 

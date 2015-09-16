@@ -3,6 +3,7 @@
     "children": {
       "/ingressexternalservicetemplates/{id}/ingressexternalserviceentrytemplates": {
         "RESTName": "ingressexternalserviceentrytemplate", 
+        "entityName": "IngressExternalServiceTemplateEntry", 
         "operations": [
           {
             "availability": null, 
@@ -17,6 +18,7 @@
       }, 
       "/ingressexternalservicetemplates/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 

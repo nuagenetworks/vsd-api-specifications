@@ -3,6 +3,7 @@
     "children": {
       "/vscs/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/vscs/{id}/bgppeers": {
         "RESTName": "bgppeer", 
+        "entityName": "BGPPeer", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/vscs/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/vscs/{id}/jobs": {
         "RESTName": "job", 
+        "entityName": "Job", 
         "operations": [
           {
             "availability": null, 
@@ -43,6 +47,7 @@
       }, 
       "/vscs/{id}/monitoringports": {
         "RESTName": "monitoringport", 
+        "entityName": "MonitoringPort", 
         "operations": [
           {
             "availability": null, 
@@ -53,6 +58,7 @@
       }, 
       "/vscs/{id}/vrss": {
         "RESTName": "vrs", 
+        "entityName": "VRS", 
         "operations": [
           {
             "availability": null, 

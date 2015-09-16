@@ -3,6 +3,7 @@
     "children": {
       "/redundancygroups/{id}/alarms": {
         "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/redundancygroups/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -27,6 +29,7 @@
       }, 
       "/redundancygroups/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -37,6 +40,7 @@
       }, 
       "/redundancygroups/{id}/gateways": {
         "RESTName": "gateway", 
+        "entityName": "Gateway", 
         "operations": [
           {
             "availability": null, 
@@ -51,6 +55,7 @@
       }, 
       "/redundancygroups/{id}/permissions": {
         "RESTName": "permission", 
+        "entityName": "PermittedAction", 
         "operations": [
           {
             "availability": null, 
@@ -65,6 +70,7 @@
       }, 
       "/redundancygroups/{id}/ports": {
         "RESTName": "port", 
+        "entityName": "Port", 
         "operations": [
           {
             "availability": null, 
@@ -79,6 +85,7 @@
       }, 
       "/redundancygroups/{id}/services": {
         "RESTName": "service", 
+        "entityName": "WANService", 
         "operations": [
           {
             "availability": null, 

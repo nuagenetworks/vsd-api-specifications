@@ -3,6 +3,7 @@
     "children": {
       "/gatewaytemplates/{id}/porttemplates": {
         "RESTName": "porttemplate", 
+        "entityName": "PortTemplate", 
         "operations": [
           {
             "availability": null, 

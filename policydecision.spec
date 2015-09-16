@@ -3,6 +3,7 @@
     "children": {
       "/policydecisions/{id}/qos": {
         "RESTName": "qos", 
+        "entityName": "QOS", 
         "operations": [
           {
             "availability": null, 

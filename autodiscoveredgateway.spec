@@ -3,6 +3,7 @@
     "children": {
       "/autodiscoveredgateways/{id}/eventlogs": {
         "RESTName": "eventlog", 
+        "entityName": "EventLog", 
         "operations": [
           {
             "availability": null, 
@@ -13,6 +14,7 @@
       }, 
       "/autodiscoveredgateways/{id}/nsports": {
         "RESTName": "nsport", 
+        "entityName": "NSPort", 
         "operations": [
           {
             "availability": null, 
@@ -23,6 +25,7 @@
       }, 
       "/autodiscoveredgateways/{id}/ports": {
         "RESTName": "port", 
+        "entityName": "Port", 
         "operations": [
           {
             "availability": null, 
@@ -33,6 +36,7 @@
       }, 
       "/autodiscoveredgateways/{id}/services": {
         "RESTName": "service", 
+        "entityName": "WANService", 
         "operations": [
           {
             "availability": null, 

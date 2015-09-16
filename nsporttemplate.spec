@@ -3,6 +3,7 @@
     "children": {
       "/nsporttemplates/{id}/vlantemplates": {
         "RESTName": "vlantemplate", 
+        "entityName": "VLANTemplate", 
         "operations": [
           {
             "availability": null, 

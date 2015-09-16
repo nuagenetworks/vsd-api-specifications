@@ -3,6 +3,7 @@
     "children": {
       "/dscpforwardingclasstables/{id}/dscpforwardingclassmappings": {
         "RESTName": "dscpforwardingclassmapping", 
+        "entityName": "DSCPForwardingClassMapping", 
         "operations": [
           {
             "availability": null, 
