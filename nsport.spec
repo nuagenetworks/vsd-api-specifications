@@ -1,58 +1,20 @@
 {
   "apis": {
     "children": {
-      "/enterpriseprofiles/{id}/enterprises": {
-        "RESTName": "enterprise", 
-        "entityName": "Enterprise", 
+      "/nsports/{id}/alarms": {
+        "RESTName": "alarm", 
+        "entityName": "Alarm", 
         "operations": [
           {
             "availability": null, 
             "method": "GET"
           }
         ], 
-        "resourceName": "enterprises"
+        "resourceName": "alarms"
       }, 
-      "/enterpriseprofiles/{id}/eventlogs": {
-        "RESTName": "eventlog", 
-        "entityName": "EventLog", 
-        "operations": [
-          {
-            "availability": null, 
-            "method": "GET"
-          }
-        ], 
-        "resourceName": "eventlogs"
-      }, 
-      "/enterpriseprofiles/{id}/externalservices": {
-        "RESTName": "externalservice", 
-        "entityName": "ExternalService", 
-        "operations": [
-          {
-            "availability": null, 
-            "method": "GET"
-          }, 
-          {
-            "availability": null, 
-            "method": "PUT"
-          }
-        ], 
-        "resourceName": "externalservices"
-      }, 
-      "/enterpriseprofiles/{id}/multicastlists": {
-        "RESTName": "multicastlist", 
-        "entityName": "MultiCastList", 
-        "operations": [
-          {
-            "availability": null, 
-            "method": "GET"
-          }
-        ], 
-        "resourceName": "multicastlists"
-      }
-    }, 
-    "parents": {
-      "/enterpriseprofiles": {
-        "RESTName": "enterpriseprofile", 
+      "/nsports/{id}/enterprisepermissions": {
+        "RESTName": "enterprisepermission", 
+        "entityName": "EnterprisePermission", 
         "operations": [
           {
             "availability": null, 
@@ -63,12 +25,120 @@
             "method": "POST"
           }
         ], 
-        "resourceName": "enterpriseprofiles"
+        "resourceName": "enterprisepermissions"
+      }, 
+      "/nsports/{id}/eventlogs": {
+        "RESTName": "eventlog", 
+        "entityName": "EventLog", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
+        "resourceName": "eventlogs"
+      }, 
+      "/nsports/{id}/nsportstaticconfigurations": {
+        "RESTName": "nsportstaticconfiguration", 
+        "entityName": "NSPortStaticConfiguration", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "PUT"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "nsportstaticconfigurations"
+      }, 
+      "/nsports/{id}/permissions": {
+        "RESTName": "permission", 
+        "entityName": "PermittedAction", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "permissions"
+      }, 
+      "/nsports/{id}/vlans": {
+        "RESTName": "vlan", 
+        "entityName": "VLAN", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "vlans"
+      }
+    }, 
+    "parents": {
+      "/autodiscoveredgateways/{id}/nsports": {
+        "RESTName": "autodiscoveredgateway", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
+        "resourceName": "autodiscoveredgateways"
+      }, 
+      "/nsgateways/{id}/nsports": {
+        "RESTName": "nsgateway", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "PUT"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }, 
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
+        "resourceName": "nsgateways"
+      }, 
+      "/nsredundantports/{id}/nsports": {
+        "RESTName": "nsredundantport", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "nsredundantports"
       }
     }, 
     "self": {
-      "/enterpriseprofiles/{id}": {
-        "RESTName": "enterpriseprofile", 
+      "/nsports/{id}": {
+        "RESTName": "nsport", 
         "operations": [
           {
             "availability": null, 
@@ -83,14 +153,14 @@
             "method": "GET"
           }
         ], 
-        "resourceName": "enterpriseprofiles"
+        "resourceName": "nsports"
       }
     }
   }, 
   "model": {
-    "RESTName": "enterpriseprofile", 
+    "RESTName": "nsport", 
     "attributes": {
-      "DHCPLeaseInterval": {
+      "VLANRange": {
         "allowedChars": null, 
         "allowedChoices": null, 
         "autogenerated": false, 
@@ -99,137 +169,7 @@
         "creationOnly": false, 
         "defaultOrder": false, 
         "defaultValue": null, 
-        "description": "DHCP Lease Interval (in hours) to be used by an enterprise.", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "integer", 
-        "unique": false
-      }, 
-      "allowAdvancedQOSConfiguration": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Controls whether this enterprise has access to advanced QoS settings.", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "boolean", 
-        "unique": false
-      }, 
-      "allowGatewayManagement": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "If set to true lets the enterprise admin create gateway templates and instances.", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "boolean", 
-        "unique": false
-      }, 
-      "allowTrustedForwardingClass": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Controls whether QoS policies and templates created under this enterprise set the trusted flag to true", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "boolean", 
-        "unique": false
-      }, 
-      "allowedForwardingClasses": {
-        "allowedChars": null, 
-        "allowedChoices": [
-          "D", 
-          "E", 
-          "F", 
-          "G", 
-          "A", 
-          "B", 
-          "C", 
-          "H", 
-          "NONE"
-        ], 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "enum", 
-        "unique": false
-      }, 
-      "description": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "A description of the enterprise/organisation profile.", 
+        "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.", 
         "exposed": true, 
         "filterable": false, 
         "format": null, 
@@ -244,19 +184,16 @@
         "type": "string", 
         "unique": false
       }, 
-      "encryptionManagementMode": {
+      "associatedEgressQOSPolicyID": {
         "allowedChars": null, 
-        "allowedChoices": [
-          "DISABLED", 
-          "MANAGED"
-        ], 
+        "allowedChoices": null, 
         "autogenerated": false, 
         "availability": null, 
         "channel": null, 
         "creationOnly": false, 
         "defaultOrder": false, 
         "defaultValue": null, 
-        "description": "encryption management mode for this enterprise Possible values are DISABLED, MANAGED, .", 
+        "description": "ID of the Egress QOS Policy associated with this Vlan.", 
         "exposed": true, 
         "filterable": false, 
         "format": null, 
@@ -268,7 +205,79 @@
         "readOnly": false, 
         "required": false, 
         "transient": false, 
-        "type": "enum", 
+        "type": "string", 
+        "unique": false
+      }, 
+      "associatedRedundantPortID": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "ID of the redundant port to which the Port is associated to.", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "associatedVSCProfileID": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "The ID of the infrastructure VSC profile this is associated with this instance of a port or port template.", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "description": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "A description of the Port", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
         "unique": false
       }, 
       "entityScope": {
@@ -295,7 +304,7 @@
         "type": "EntityScope", 
         "unique": false
       }, 
-      "floatingIPsQuota": {
+      "infrastructureProfileID": {
         "allowedChars": null, 
         "allowedChoices": null, 
         "autogenerated": false, 
@@ -304,7 +313,7 @@
         "creationOnly": false, 
         "defaultOrder": false, 
         "defaultValue": null, 
-        "description": "Quota set for the number of floating IPs to be used by an enterprise.", 
+        "description": "The ID of the infrastructure profile this instance is associated with.", 
         "exposed": true, 
         "filterable": false, 
         "format": null, 
@@ -316,7 +325,7 @@
         "readOnly": false, 
         "required": false, 
         "transient": false, 
-        "type": "int", 
+        "type": "string", 
         "unique": false
       }, 
       "name": {
@@ -328,7 +337,7 @@
         "creationOnly": false, 
         "defaultOrder": false, 
         "defaultValue": null, 
-        "description": "The unique name of the enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
+        "description": "Name of the Port", 
         "exposed": true, 
         "filterable": false, 
         "format": null, 
@@ -343,7 +352,38 @@
         "type": "string", 
         "unique": false
       }, 
-      "receiveMultiCastListID": {
+      "permittedAction": {
+        "allowedChars": null, 
+        "allowedChoices": [
+          "EXTEND", 
+          "INSTANTIATE", 
+          "DEPLOY", 
+          "USE", 
+          "READ", 
+          "ALL"
+        ], 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "enum", 
+        "unique": false
+      }, 
+      "physicalName": {
         "allowedChars": null, 
         "allowedChoices": null, 
         "autogenerated": false, 
@@ -352,7 +392,87 @@
         "creationOnly": false, 
         "defaultOrder": false, 
         "defaultValue": null, 
-        "description": "Readonly ID of the auto generated receive multicast list associated with this enterprise profile", 
+        "description": "Identifier of the Port", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": true, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "portType": {
+        "allowedChars": null, 
+        "allowedChoices": [
+          "ACCESS", 
+          "NETWORK"
+        ], 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": true, 
+        "transient": false, 
+        "type": "enum", 
+        "unique": false
+      }, 
+      "status": {
+        "allowedChars": null, 
+        "allowedChoices": [
+          "ORPHAN", 
+          "MISMATCH", 
+          "INITIALIZED", 
+          "READY"
+        ], 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "enum", 
+        "unique": false
+      }, 
+      "templateID": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "The ID of the template that this Port was created from", 
         "exposed": true, 
         "filterable": false, 
         "format": null, 
@@ -367,7 +487,7 @@
         "type": "string", 
         "unique": false
       }, 
-      "sendMultiCastListID": {
+      "useUserMnemonic": {
         "allowedChars": null, 
         "allowedChoices": null, 
         "autogenerated": false, 
@@ -376,7 +496,7 @@
         "creationOnly": false, 
         "defaultOrder": false, 
         "defaultValue": null, 
-        "description": "Readonly ID of the auto generated send multicast list associated with this enterprise profile", 
+        "description": "determines whether to use user mnemonic of the Port", 
         "exposed": true, 
         "filterable": false, 
         "format": null, 
@@ -388,13 +508,37 @@
         "readOnly": false, 
         "required": false, 
         "transient": false, 
+        "type": "boolean", 
+        "unique": false
+      }, 
+      "userMnemonic": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "user mnemonic of the Port", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": true, 
+        "transient": false, 
         "type": "string", 
         "unique": false
       }
     }, 
-    "description": "Enterprise profile, used to store an enterprise's policies, quota etc", 
-    "entityName": "EnterpriseProfile", 
-    "package": "/usermgmt", 
-    "resourceName": "enterpriseprofiles"
+    "description": "Represents Port under a particular NS gateway object.", 
+    "entityName": "NSPort", 
+    "package": "/nsg", 
+    "resourceName": "nsports"
   }
 }

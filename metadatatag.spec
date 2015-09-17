@@ -1,241 +1,264 @@
 {
-    "apis": {
-        "children": {
-            "/metadatatags/{id}/eventlogs": {
-                "RESTName": "eventlog", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "eventlogs"
-            }, 
-            "/metadatatags/{id}/globalmetadatas": {
-                "RESTName": "globalmetadata", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }
-                ], 
-                "resourceName": "globalmetadatas"
-            }, 
-            "/metadatatags/{id}/metadatas": {
-                "RESTName": "metadata", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }
-                ], 
-                "resourceName": "metadatas"
-            }
-        }, 
-        "parents": {
-            "/enterprises/{id}/metadatatags": {
-                "RESTName": "enterprise", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "enterprises"
-            }, 
-            "/externalservices/{id}/metadatatags": {
-                "RESTName": "externalservice", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "externalservices"
-            }, 
-            "/globalmetadatas/{id}/metadatatags": {
-                "RESTName": "globalmetadata", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }
-                ], 
-                "resourceName": "globalmetadatas"
-            }, 
-            "/metadatas/{id}/metadatatags": {
-                "RESTName": "metadata", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }
-                ], 
-                "resourceName": "metadatas"
-            }, 
-            "/metadatatags": {
-                "RESTName": "metadatatag", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "metadatatags"
-            }
-        }, 
-        "self": {
-            "/metadatatags/{id}": {
-                "RESTName": "metadatatag", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "DELETE"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "metadatatags"
-            }
-        }
+  "apis": {
+    "children": {
+      "/metadatatags/{id}/eventlogs": {
+        "RESTName": "eventlog", 
+        "entityName": "EventLog", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
+        "resourceName": "eventlogs"
+      }, 
+      "/metadatatags/{id}/globalmetadatas": {
+        "RESTName": "globalmetadata", 
+        "entityName": "GlobalMetadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "PUT"
+          }
+        ], 
+        "resourceName": "globalmetadatas"
+      }, 
+      "/metadatatags/{id}/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "PUT"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }
     }, 
-    "metadata": {
-        "api_version": "3.2", 
-        "author": "", 
-        "comments": "", 
-        "date": "05-19-2015", 
-        "dev_backend": "", 
-        "dev_frontend": "", 
-        "dev_qd": "", 
-        "plm": "", 
-        "prd_url": "http://", 
-        "revisions": []
-    }, 
-    "model": {
+    "parents": {
+      "/enterprises/{id}/metadatatags": {
+        "RESTName": "enterprise", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "enterprises"
+      }, 
+      "/externalservices/{id}/metadatatags": {
+        "RESTName": "externalservice", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
+        "resourceName": "externalservices"
+      }, 
+      "/globalmetadatas/{id}/metadatatags": {
+        "RESTName": "globalmetadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "PUT"
+          }
+        ], 
+        "resourceName": "globalmetadatas"
+      }, 
+      "/metadatas/{id}/metadatatags": {
+        "RESTName": "metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "PUT"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
+      "/metadatatags": {
         "RESTName": "metadatatag", 
-        "attributes": {
-            "associatedExternalServiceID": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "ID of the entity to which the Metadata tag is  associated to", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "autoCreated": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "set to true if it is the default metadata tag created as part of external service creation", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "boolean", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "description": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Description of the Metadata tag.", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "name": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "name of the Metadata tag.", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": true, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }
-        }, 
-        "description": "Metadata tag associated to a metadata", 
-        "entityName": "MetadataTag", 
-        "package": "/common", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
         "resourceName": "metadatatags"
+      }
+    }, 
+    "self": {
+      "/metadatatags/{id}": {
+        "RESTName": "metadatatag", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "PUT"
+          }, 
+          {
+            "availability": null, 
+            "method": "DELETE"
+          }, 
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
+        "resourceName": "metadatatags"
+      }
     }
+  }, 
+  "model": {
+    "RESTName": "metadatatag", 
+    "attributes": {
+      "associatedExternalServiceID": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "ID of the entity to which the Metadata tag is  associated to", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "autoCreated": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "set to true if it is the default metadata tag created as part of external service creation", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "boolean", 
+        "unique": false
+      }, 
+      "description": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "Description of the Metadata tag.", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "entityScope": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "Specify if scope of entity is Data center or Enterprise level", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "EntityScope", 
+        "unique": false
+      }, 
+      "name": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "name of the Metadata tag.", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": true, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }
+    }, 
+    "description": "Metadata tag associated to a metadata", 
+    "entityName": "MetadataTag", 
+    "package": "/common", 
+    "resourceName": "metadatatags"
+  }
 }

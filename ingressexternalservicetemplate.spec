@@ -1,334 +1,311 @@
 {
-    "apis": {
-        "children": {
-            "/ingressexternalservicetemplates/{id}/ingressexternalserviceentrytemplates": {
-                "RESTName": "ingressexternalserviceentrytemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "ingressexternalserviceentrytemplates"
-            }, 
-            "/ingressexternalservicetemplates/{id}/jobs": {
-                "RESTName": "job", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "jobs"
-            }
-        }, 
-        "parents": {
-            "/domains/{id}/ingressexternalservicetemplates": {
-                "RESTName": "domain", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "domains"
-            }, 
-            "/domaintemplates/{id}/ingressexternalservicetemplates": {
-                "RESTName": "domaintemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "domaintemplates"
-            }, 
-            "/l2domains/{id}/ingressexternalservicetemplates": {
-                "RESTName": "l2domain", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "l2domains"
-            }, 
-            "/l2domaintemplates/{id}/ingressexternalservicetemplates": {
-                "RESTName": "l2domaintemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "POST"
-                    }
-                ], 
-                "resourceName": "l2domaintemplates"
-            }
-        }, 
-        "self": {
-            "/ingressexternalservicetemplates/{id}": {
-                "RESTName": "ingressexternalservicetemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "PUT"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "DELETE"
-                    }, 
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "ingressexternalservicetemplates"
-            }
-        }
+  "apis": {
+    "children": {
+      "/ingressexternalservicetemplates/{id}/ingressexternalserviceentrytemplates": {
+        "RESTName": "ingressexternalserviceentrytemplate", 
+        "entityName": "IngressExternalServiceTemplateEntry", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "ingressexternalserviceentrytemplates"
+      }, 
+      "/ingressexternalservicetemplates/{id}/jobs": {
+        "RESTName": "job", 
+        "entityName": "Job", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "jobs"
+      }
     }, 
-    "metadata": {
-        "api_version": "3.2", 
-        "author": "", 
-        "comments": "", 
-        "date": "05-19-2015", 
-        "dev_backend": "", 
-        "dev_frontend": "", 
-        "dev_qd": "", 
-        "plm": "", 
-        "prd_url": "http://", 
-        "revisions": []
+    "parents": {
+      "/domains/{id}/ingressexternalservicetemplates": {
+        "RESTName": "domain", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "domains"
+      }, 
+      "/domaintemplates/{id}/ingressexternalservicetemplates": {
+        "RESTName": "domaintemplate", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "domaintemplates"
+      }, 
+      "/l2domains/{id}/ingressexternalservicetemplates": {
+        "RESTName": "l2domain", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "l2domains"
+      }, 
+      "/l2domaintemplates/{id}/ingressexternalservicetemplates": {
+        "RESTName": "l2domaintemplate", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "l2domaintemplates"
+      }
     }, 
-    "model": {
+    "self": {
+      "/ingressexternalservicetemplates/{id}": {
         "RESTName": "ingressexternalservicetemplate", 
-        "attributes": {
-            "active": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "If enabled, it means that this ACL or QOS entry is active", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "boolean", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "associatedLiveEntityID": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "description": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "A description of the entity", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "flowLoggingEnabled": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Is flow logging enabled for this particular template", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "boolean", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "name": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The name of the entity", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "string", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "policyState": {
-                "allowedChars": null, 
-                "allowedChoices": [
-                    "DRAFT", 
-                    "LIVE"
-                ], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": " Possible values are DRAFT, LIVE, .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "priority": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The priority of the ACL entry that determines the order of entries", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "integer", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "priorityType": {
-                "allowedChars": null, 
-                "allowedChoices": [
-                    "BOTTOM", 
-                    "TOP", 
-                    "NONE"
-                ], 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": " Possible values are TOP, BOTTOM, NONE, .", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "enum", 
-                "unique": false, 
-                "uniqueItems": false
-            }, 
-            "statsLoggingEnabled": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "Is stats logging enabled for this particular template", 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "type": "boolean", 
-                "unique": false, 
-                "uniqueItems": false
-            }
-        }, 
-        "description": "Defines the template for an Ingress External Service Acls", 
-        "entityName": "IngressExternalServiceTemplate", 
-        "package": "/policy/acl", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "PUT"
+          }, 
+          {
+            "availability": null, 
+            "method": "DELETE"
+          }, 
+          {
+            "availability": null, 
+            "method": "GET"
+          }
+        ], 
         "resourceName": "ingressexternalservicetemplates"
+      }
     }
+  }, 
+  "model": {
+    "RESTName": "ingressexternalservicetemplate", 
+    "attributes": {
+      "active": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "If enabled, it means that this ACL or QOS entry is active", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "boolean", 
+        "unique": false
+      }, 
+      "associatedLiveEntityID": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "In the draft mode, the ACL entry refers to this LiveEntity. In non-drafted mode, this is null.", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "description": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "A description of the entity", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "entityScope": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "Specify if scope of entity is Data center or Enterprise level", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "EntityScope", 
+        "unique": false
+      }, 
+      "name": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "The name of the entity", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "string", 
+        "unique": false
+      }, 
+      "policyState": {
+        "allowedChars": null, 
+        "allowedChoices": [], 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "enum", 
+        "unique": false
+      }, 
+      "priority": {
+        "allowedChars": null, 
+        "allowedChoices": null, 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "The priority of the ACL entry that determines the order of entries", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "integer", 
+        "unique": false
+      }, 
+      "priorityType": {
+        "allowedChars": null, 
+        "allowedChoices": [], 
+        "autogenerated": false, 
+        "availability": null, 
+        "channel": null, 
+        "creationOnly": false, 
+        "defaultOrder": false, 
+        "defaultValue": null, 
+        "description": "", 
+        "exposed": true, 
+        "filterable": false, 
+        "format": null, 
+        "maxLength": null, 
+        "maxValue": null, 
+        "minLength": null, 
+        "minValue": null, 
+        "orderable": false, 
+        "readOnly": false, 
+        "required": false, 
+        "transient": false, 
+        "type": "enum", 
+        "unique": false
+      }
+    }, 
+    "description": "Defines the template for an Ingress External Service Acls", 
+    "entityName": "IngressExternalServiceTemplate", 
+    "package": "/policy/acl", 
+    "resourceName": "ingressexternalservicetemplates"
+  }
 }
