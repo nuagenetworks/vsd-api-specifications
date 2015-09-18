@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/externalservices/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/externalservices/{id}/endpoints": {
         "RESTName": "endpoint", 
         "entityName": "EndPoint", 

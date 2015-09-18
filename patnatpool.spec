@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/patnatpools/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/patnatpools/{id}/enterprisepermissions": {
         "RESTName": "enterprisepermission", 
         "entityName": "EnterprisePermission", 

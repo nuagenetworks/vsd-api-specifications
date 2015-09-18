@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/mirrordestinations/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/mirrordestinations/{id}/vportmirrors": {
         "RESTName": "vportmirror", 
         "entityName": "VPortMirror", 

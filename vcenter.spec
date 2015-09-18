@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/vcenters/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/vcenters/{id}/vcenterdatacenters": {
         "RESTName": "vcenterdatacenter", 
         "entityName": "VCenterDataCenter", 

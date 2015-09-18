@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/bridgeinterfaces/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/bridgeinterfaces/{id}/dhcpoptions": {
         "RESTName": "dhcpoption", 
         "entityName": "DHCPOption", 

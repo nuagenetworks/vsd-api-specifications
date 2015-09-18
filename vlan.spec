@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/vlans/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/vlans/{id}/alarms": {
         "RESTName": "alarm", 
         "entityName": "Alarm", 

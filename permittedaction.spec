@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/permissions/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/permissions/{id}/eventlogs": {
         "RESTName": "eventlog", 
         "entityName": "EventLog", 

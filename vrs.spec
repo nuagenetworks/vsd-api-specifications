@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/vrss/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/vrss/{id}/alarms": {
         "RESTName": "alarm", 
         "entityName": "Alarm", 

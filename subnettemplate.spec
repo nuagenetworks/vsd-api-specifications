@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/subnettemplates/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/subnettemplates/{id}/addressranges": {
         "RESTName": "addressrange", 
         "entityName": "AddressRange", 

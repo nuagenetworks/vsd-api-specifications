@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/nsgatewaytemplates/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/nsgatewaytemplates/{id}/nsporttemplates": {
         "RESTName": "nsporttemplate", 
         "entityName": "NSPortTemplate", 

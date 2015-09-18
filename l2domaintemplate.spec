@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/l2domaintemplates/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/l2domaintemplates/{id}/addressranges": {
         "RESTName": "addressrange", 
         "entityName": "AddressRange", 

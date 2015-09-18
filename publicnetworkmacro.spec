@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/publicnetworks/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/publicnetworks/{id}/eventlogs": {
         "RESTName": "eventlog", 
         "entityName": "EventLog", 

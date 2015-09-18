@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/egressaclentrytemplates/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/egressaclentrytemplates/{id}/jobs": {
         "RESTName": "job", 
         "entityName": "Job", 

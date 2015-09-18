@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/networkmacrogroups/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/networkmacrogroups/{id}/enterprisenetworks": {
         "RESTName": "enterprisenetwork", 
         "entityName": "EnterpriseNetwork", 

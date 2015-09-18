@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/ingressadvfwdtemplates/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/ingressadvfwdtemplates/{id}/ingressadvfwdentrytemplates": {
         "RESTName": "ingressadvfwdentrytemplate", 
         "entityName": "IngressAdvFwdEntryTemplate", 

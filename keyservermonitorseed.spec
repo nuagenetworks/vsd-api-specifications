@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/keyservermonitorseeds/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/keyservermonitorseeds/{id}/keyservermonitorencryptedseeds": {
         "RESTName": "keyservermonitorencryptedseed", 
         "entityName": "KeyServerMonitorEncryptedSeed", 

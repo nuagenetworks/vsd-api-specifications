@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/qos/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/qos/{id}/eventlogs": {
         "RESTName": "eventlog", 
         "entityName": "EventLog", 

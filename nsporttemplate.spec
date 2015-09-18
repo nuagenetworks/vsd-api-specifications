@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/nsporttemplates/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/nsporttemplates/{id}/vlantemplates": {
         "RESTName": "vlantemplate", 
         "entityName": "VLANTemplate", 

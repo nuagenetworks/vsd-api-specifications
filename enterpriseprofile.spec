@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/enterpriseprofiles/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/enterpriseprofiles/{id}/enterprises": {
         "RESTName": "enterprise", 
         "entityName": "Enterprise", 

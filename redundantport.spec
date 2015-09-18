@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/nsredundantports/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/nsredundantports/{id}/nsports": {
         "RESTName": "nsport", 
         "entityName": "NSPort", 

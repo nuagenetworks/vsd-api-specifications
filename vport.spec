@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/vports/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/vports/{id}/aggregatemetadatas": {
         "RESTName": "aggregatemetadata", 
         "entityName": "AggregateMetadata", 

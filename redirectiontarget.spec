@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/redirectiontargets/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/redirectiontargets/{id}/eventlogs": {
         "RESTName": "eventlog", 
         "entityName": "EventLog", 

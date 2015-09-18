@@ -1,6 +1,21 @@
 {
   "apis": {
     "children": {
+      "/dscpforwardingclasstables/id/metadatas": {
+        "RESTName": "metadata", 
+        "entityName": "Metadata", 
+        "operations": [
+          {
+            "availability": null, 
+            "method": "GET"
+          }, 
+          {
+            "availability": null, 
+            "method": "POST"
+          }
+        ], 
+        "resourceName": "metadatas"
+      }, 
       "/dscpforwardingclasstables/{id}/dscpforwardingclassmappings": {
         "RESTName": "dscpforwardingclassmapping", 
         "entityName": "DSCPForwardingClassMapping", 
