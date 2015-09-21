@@ -349,7 +349,7 @@
         "description": "IPv6 address of the subnet. In case of zone, this is an optional field for and allows users to allocate an IP address range to a zone. The VSD will auto-assign IP addresses to subnets from this range if a specific IP address is not defined for the subnet",
         "exposed": true,
         "filterable": true,
-        "format": null,
+        "format": "ipv6",
         "maxLength": null,
         "maxValue": null,
         "minLength": null,
