@@ -2,405 +2,405 @@
   "apis": {
     "children": {
       "/permissions/id/metadatas": {
-        "RESTName": "metadata", 
-        "entityName": "Metadata", 
+        "RESTName": "metadata",
+        "entityName": "Metadata",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "metadatas"
-      }, 
+      },
       "/permissions/{id}/eventlogs": {
-        "RESTName": "eventlog", 
-        "entityName": "EventLog", 
+        "RESTName": "eventlog",
+        "entityName": "EventLog",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
           }
-        ], 
+        ],
         "resourceName": "eventlogs"
       }
-    }, 
+    },
     "parents": {
       "/domains/{id}/permissions": {
-        "RESTName": "domain", 
+        "RESTName": "domain",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "domains"
-      }, 
+      },
       "/domaintemplates/{id}/permissions": {
-        "RESTName": "domaintemplate", 
+        "RESTName": "domaintemplate",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "domaintemplates"
-      }, 
+      },
       "/gateways/{id}/permissions": {
-        "RESTName": "gateway", 
+        "RESTName": "gateway",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "gateways"
-      }, 
+      },
       "/l2domains/{id}/permissions": {
-        "RESTName": "l2domain", 
+        "RESTName": "l2domain",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "l2domains"
-      }, 
+      },
       "/l2domaintemplates/{id}/permissions": {
-        "RESTName": "l2domaintemplate", 
+        "RESTName": "l2domaintemplate",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "l2domaintemplates"
-      }, 
+      },
       "/nsgateways/{id}/permissions": {
-        "RESTName": "nsgateway", 
+        "RESTName": "nsgateway",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "nsgateways"
-      }, 
+      },
       "/nsports/{id}/permissions": {
-        "RESTName": "nsport", 
+        "RESTName": "nsport",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "nsports"
-      }, 
+      },
       "/ports/{id}/permissions": {
-        "RESTName": "port", 
+        "RESTName": "port",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "ports"
-      }, 
+      },
       "/redundancygroups/{id}/permissions": {
-        "RESTName": "redundancygroup", 
+        "RESTName": "redundancygroup",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "redundancygroups"
-      }, 
+      },
       "/services/{id}/permissions": {
-        "RESTName": "service", 
+        "RESTName": "service",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "services"
-      }, 
+      },
       "/vlans/{id}/permissions": {
-        "RESTName": "vlan", 
+        "RESTName": "vlan",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "vlans"
-      }, 
+      },
       "/zones/{id}/permissions": {
-        "RESTName": "zone", 
+        "RESTName": "zone",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "POST"
           }
-        ], 
+        ],
         "resourceName": "zones"
       }
-    }, 
+    },
     "self": {
       "/permissions/{id}": {
-        "RESTName": "permission", 
+        "RESTName": "permission",
         "operations": [
           {
-            "availability": null, 
+            "availability": null,
             "method": "PUT"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "DELETE"
-          }, 
+          },
           {
-            "availability": null, 
+            "availability": null,
             "method": "GET"
           }
-        ], 
+        ],
         "resourceName": "permissions"
       }
     }
-  }, 
+  },
   "model": {
-    "RESTName": "permission", 
+    "RESTName": "permission",
     "attributes": {
       "entityScope": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Specify if scope of entity is Data center or Enterprise level", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "EntityScope", 
+        "allowedChars": null,
+        "allowedChoices": null,
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "Specify if scope of entity is Data center or Enterprise level",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": false,
+        "transient": false,
+        "type": "EntityScope",
         "unique": false
-      }, 
+      },
       "name": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Name of the  Permission", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "string", 
+        "allowedChars": null,
+        "allowedChoices": null,
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "Name of the  Permission",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": false,
+        "transient": false,
+        "type": "string",
         "unique": false
-      }, 
+      },
       "permittedAction": {
-        "allowedChars": null, 
+        "allowedChars": null,
         "allowedChoices": [
-          "EXTEND", 
-          "INSTANTIATE", 
-          "DEPLOY", 
-          "USE", 
-          "READ", 
+          "EXTEND",
+          "INSTANTIATE",
+          "DEPLOY",
+          "USE",
+          "READ",
           "ALL"
-        ], 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": true, 
-        "transient": false, 
-        "type": "enum", 
+        ],
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": true,
+        "transient": false,
+        "type": "enum",
         "unique": false
-      }, 
+      },
       "permittedEntityDescription": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Description for the permittedEntity", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "string", 
+        "allowedChars": null,
+        "allowedChoices": null,
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "Description for the permittedEntity",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": false,
+        "transient": false,
+        "type": "string",
         "unique": false
-      }, 
+      },
       "permittedEntityID": {
-        "allowedChars": null, 
-        "allowedChoices": [], 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "The  entity ID for which this permission action is associated against Possible values are .", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": true, 
-        "transient": false, 
-        "type": "enum", 
+        "allowedChars": null,
+        "allowedChoices": [],
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "The  entity ID for which this permission action is associated against Possible values are .",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": true,
+        "transient": false,
+        "type": "enum",
         "unique": false
-      }, 
+      },
       "permittedEntityName": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Name of the entity for which we have given permission.", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "string", 
+        "allowedChars": null,
+        "allowedChoices": null,
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "Name of the entity for which we have given permission.",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": false,
+        "transient": false,
+        "type": "string",
         "unique": false
-      }, 
+      },
       "permittedEntityType": {
-        "allowedChars": null, 
-        "allowedChoices": null, 
-        "autogenerated": false, 
-        "availability": null, 
-        "channel": null, 
-        "creationOnly": false, 
-        "defaultOrder": false, 
-        "defaultValue": null, 
-        "description": "Type of the entity for which we have given permission.", 
-        "exposed": true, 
-        "filterable": false, 
-        "format": null, 
-        "maxLength": null, 
-        "maxValue": null, 
-        "minLength": null, 
-        "minValue": null, 
-        "orderable": false, 
-        "readOnly": false, 
-        "required": false, 
-        "transient": false, 
-        "type": "string", 
+        "allowedChars": null,
+        "allowedChoices": null,
+        "autogenerated": false,
+        "availability": null,
+        "channel": null,
+        "creationOnly": false,
+        "defaultOrder": false,
+        "defaultValue": null,
+        "description": "Type of the entity for which we have given permission.",
+        "exposed": true,
+        "filterable": false,
+        "format": null,
+        "maxLength": null,
+        "maxValue": null,
+        "minLength": null,
+        "minValue": null,
+        "orderable": false,
+        "readOnly": false,
+        "required": false,
+        "transient": false,
+        "type": "string",
         "unique": false
       }
-    }, 
-    "description": "Represents  Permitted action on an  entity for a group", 
-    "entityName": "PermittedAction", 
-    "package": "/usermgmt", 
+    },
+    "description": "Represents  Permitted action on an  entity for a group",
+    "entityName": "PermittedAction",
+    "package": "/usermgmt",
     "resourceName": "permissions"
   }
 }
