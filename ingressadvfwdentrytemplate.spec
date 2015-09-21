@@ -211,7 +211,7 @@
         "description": "Overrides the source IPv6 for Ingress and destination IP for Egress, macentries will use this adress as the match criteria.",
         "exposed": true,
         "filterable": false,
-        "format": null,
+        "format": "ipv6",
         "maxLength": null,
         "maxValue": null,
         "minLength": null,

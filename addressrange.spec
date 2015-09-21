@@ -244,7 +244,7 @@
       "readOnly": false,
       "required": true,
       "transient": false,
-      "type": "string",
+      "type": "enum",
       "unique": false
     },
     "description": "This is the definition of a Address Range associated with a Network",

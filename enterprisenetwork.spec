@@ -121,7 +121,7 @@
         "readOnly": false,
         "required": true,
         "transient": false,
-        "type": "string",
+        "type": "enum",
         "unique": false
       },
       "address": {
