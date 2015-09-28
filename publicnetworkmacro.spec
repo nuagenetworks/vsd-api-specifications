@@ -90,7 +90,7 @@
         "minValue": null,
         "orderable": false,
         "readOnly": true,
-        "required": false,
+        "required": true,
         "transient": false,
         "type": "enum",
         "unique": false

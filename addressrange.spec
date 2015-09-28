@@ -241,7 +241,7 @@
       "minLength": null,
       "minValue": null,
       "orderable": true,
-      "readOnly": false,
+      "readOnly": true,
       "required": true,
       "transient": false,
       "type": "enum",
