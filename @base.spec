@@ -85,7 +85,7 @@
                 "description": "Metadata field to store flow related data.",
                 "exposed": true,
                 "filterable": false,
-                "format": 'date',
+                "format": "date",
                 "maxLength": null,
                 "maxValue": null,
                 "minLength": null,
