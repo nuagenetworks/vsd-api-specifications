@@ -1,251 +1,255 @@
 {
-  "apis": {
-    "children": {
-      "/flows/id/metadatas": {
-        "RESTName": "metadata",
-        "entityName": "Metadata",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "metadatas"
-      },
-      "/flows/{id}/eventlogs": {
-        "RESTName": "eventlog",
-        "entityName": "EventLog",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "eventlogs"
-      },
-      "/flows/{id}/flowforwardingpolicies": {
-        "RESTName": "flowforwardingpolicy",
-        "entityName": "FlowForwardingPolicy",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "flowforwardingpolicies"
-      },
-      "/flows/{id}/flowsecuritypolicies": {
-        "RESTName": "flowsecuritypolicy",
-        "entityName": "FlowSecurityPolicy",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "flowsecuritypolicies"
-      }
-    },
-    "parents": {
-      "/applications/{id}/flows": {
-        "RESTName": "application",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "applications"
-      }
-    },
-    "self": {
-      "/flows/{id}": {
-        "RESTName": "flow",
-        "operations": [
-          {
-            "availability": null,
-            "method": "PUT"
-          },
-          {
-            "availability": null,
-            "method": "DELETE"
-          },
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
+    "apis": {
+        "children": {
+            "/flows/id/metadatas": {
+                "RESTName": "metadata", 
+                "entityName": "Metadata", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "metadatas"
+            }, 
+            "/flows/{id}/eventlogs": {
+                "RESTName": "eventlog", 
+                "entityName": "EventLog", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "eventlogs"
+            }, 
+            "/flows/{id}/flowforwardingpolicies": {
+                "RESTName": "flowforwardingpolicy", 
+                "entityName": "FlowForwardingPolicy", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "flowforwardingpolicies"
+            }, 
+            "/flows/{id}/flowsecuritypolicies": {
+                "RESTName": "flowsecuritypolicy", 
+                "entityName": "FlowSecurityPolicy", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "flowsecuritypolicies"
+            }
+        }, 
+        "parents": {
+            "/applications/{id}/flows": {
+                "RESTName": "application", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "applications"
+            }
+        }, 
+        "self": {
+            "/flows/{id}": {
+                "RESTName": "flow", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "DELETE"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "flows"
+            }
+        }
+    }, 
+    "model": {
+        "RESTName": "flow", 
+        "attributes": {
+            "description": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Description of the flow.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "destinationTierID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Flow destination tier id.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "entityScope": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Specify if scope of entity is Data center or Enterprise level", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "EntityScope", 
+                "unique": false
+            }, 
+            "metadata": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Metadata field to store flow related data.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "name": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of the flow.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "originTierID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Flow origin tier id.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }
+        }, 
+        "description": "Flow represents the traffic between two different tiers.", 
+        "entityName": "Flow", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "package": "/appd", 
         "resourceName": "flows"
-      }
     }
-  },
-  "model": {
-    "RESTName": "flow",
-    "attributes": {
-      "description": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Description of the flow.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "destinationTierID": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Flow destination tier id.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "entityScope": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Specify if scope of entity is Data center or Enterprise level",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "EntityScope",
-        "unique": false
-      },
-      "metadata": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Metadata field to store flow related data.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "name": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Name of the flow.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "originTierID": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Flow origin tier id.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      }
-    },
-    "description": "Flow represents the traffic between two different tiers.",
-    "entityName": "Flow",
-    "package": "/appd",
-    "resourceName": "flows"
-  }
 }

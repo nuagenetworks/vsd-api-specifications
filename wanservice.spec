@@ -1,615 +1,619 @@
 {
-  "apis": {
-    "children": {
-      "/services/id/metadatas": {
-        "RESTName": "metadata",
-        "entityName": "Metadata",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "metadatas"
-      },
-      "/services/{id}/alarms": {
-        "RESTName": "alarm",
-        "entityName": "Alarm",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "alarms"
-      },
-      "/services/{id}/enterprisepermissions": {
-        "RESTName": "enterprisepermission",
-        "entityName": "EnterprisePermission",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "enterprisepermissions"
-      },
-      "/services/{id}/eventlogs": {
-        "RESTName": "eventlog",
-        "entityName": "EventLog",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "eventlogs"
-      },
-      "/services/{id}/permissions": {
-        "RESTName": "permission",
-        "entityName": "PermittedAction",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "permissions"
-      }
-    },
-    "parents": {
-      "/autodiscoveredgateways/{id}/services": {
-        "RESTName": "autodiscoveredgateway",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "autodiscoveredgateways"
-      },
-      "/gateways/{id}/services": {
-        "RESTName": "gateway",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "gateways"
-      },
-      "/redundancygroups/{id}/services": {
-        "RESTName": "redundancygroup",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "redundancygroups"
-      }
-    },
-    "self": {
-      "/services/{id}": {
-        "RESTName": "service",
-        "operations": [
-          {
-            "availability": null,
-            "method": "PUT"
-          },
-          {
-            "availability": null,
-            "method": "DELETE"
-          },
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
+    "apis": {
+        "children": {
+            "/services/id/metadatas": {
+                "RESTName": "metadata", 
+                "entityName": "Metadata", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "metadatas"
+            }, 
+            "/services/{id}/alarms": {
+                "RESTName": "alarm", 
+                "entityName": "Alarm", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "alarms"
+            }, 
+            "/services/{id}/enterprisepermissions": {
+                "RESTName": "enterprisepermission", 
+                "entityName": "EnterprisePermission", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "enterprisepermissions"
+            }, 
+            "/services/{id}/eventlogs": {
+                "RESTName": "eventlog", 
+                "entityName": "EventLog", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "eventlogs"
+            }, 
+            "/services/{id}/permissions": {
+                "RESTName": "permission", 
+                "entityName": "PermittedAction", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "permissions"
+            }
+        }, 
+        "parents": {
+            "/autodiscoveredgateways/{id}/services": {
+                "RESTName": "autodiscoveredgateway", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "autodiscoveredgateways"
+            }, 
+            "/gateways/{id}/services": {
+                "RESTName": "gateway", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "gateways"
+            }, 
+            "/redundancygroups/{id}/services": {
+                "RESTName": "redundancygroup", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "redundancygroups"
+            }
+        }, 
+        "self": {
+            "/services/{id}": {
+                "RESTName": "service", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "DELETE"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "services"
+            }
+        }
+    }, 
+    "model": {
+        "RESTName": "service", 
+        "attributes": {
+            "IRBEnabled": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Determines whether Integrated Routing and Bridging is enabled on the WAN Service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "boolean", 
+                "unique": false
+            }, 
+            "WANServiceIdentifier": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Identifier of the WAN Service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "associatedDomainID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "ID of the entity to which the WAN Service is attached to. This could be ID DOMAIN/L2DOMAIN", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "associatedVPNConnectID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "The associated vpn connect ID.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "configType": {
+                "allowedChars": null, 
+                "allowedChoices": [
+                    "STATIC", 
+                    "DYNAMIC"
+                ], 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Type of the CONFIG -  STATIC Possible values are STATIC, DYNAMIC, .", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "enum", 
+                "unique": false
+            }, 
+            "description": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "A description of the WAN Service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "domainName": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "The associated domain name.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "enterpriseName": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "The associated enterprise name.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "entityScope": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Specify if scope of entity is Data center or Enterprise level", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "EntityScope", 
+                "unique": false
+            }, 
+            "externalRouteTarget": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Route target associated with the WAN. It is an optional parameterthat can be provided by the user", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "name": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of the WAN Service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "orphan": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Indicates if this WAN Service is orphan or not.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "boolean", 
+                "unique": false
+            }, 
+            "permittedAction": {
+                "allowedChars": null, 
+                "allowedChoices": [
+                    "EXTEND", 
+                    "INSTANTIATE", 
+                    "DEPLOY", 
+                    "USE", 
+                    "READ", 
+                    "ALL"
+                ], 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "enum", 
+                "unique": false
+            }, 
+            "servicePolicy": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of 7X50 Policy assoicated with service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "serviceType": {
+                "allowedChars": null, 
+                "allowedChoices": [
+                    "L2", 
+                    "L3"
+                ], 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Type of the SERVICE -  L3,L2 Possible values are L3, L2, .", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "enum", 
+                "unique": false
+            }, 
+            "tunnelType": {
+                "allowedChars": null, 
+                "allowedChoices": [
+                    "DC_DEFAULT", 
+                    "VXLAN", 
+                    "GRE"
+                ], 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Type of the SERVICE - GRE,VXLAN Possible values are DC_DEFAULT, GRE, VXLAN, .", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "enum", 
+                "unique": false
+            }, 
+            "useUserMnemonic": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Determines whether to use user mnemonic of the WAN Service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "boolean", 
+                "unique": false
+            }, 
+            "userMnemonic": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "user mnemonic of the WAN Service", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "vnId": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "VNID of the BackHaul Subnet of L3Domain /L2Domain to which this WANService is associated", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "long", 
+                "unique": false
+            }
+        }, 
+        "description": "Represents WAN Service Object.", 
+        "entityName": "WANService", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "package": "/gateway", 
         "resourceName": "services"
-      }
     }
-  },
-  "model": {
-    "RESTName": "service",
-    "attributes": {
-      "IRBEnabled": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Determines whether Integrated Routing and Bridging is enabled on the WAN Service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "boolean",
-        "unique": false
-      },
-      "WANServiceIdentifier": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Identifier of the WAN Service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "associatedDomainID": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "ID of the entity to which the WAN Service is attached to. This could be ID DOMAIN/L2DOMAIN",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "associatedVPNConnectID": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "The associated vpn connect ID.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "configType": {
-        "allowedChars": null,
-        "allowedChoices": [
-          "STATIC",
-          "DYNAMIC"
-        ],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Type of the CONFIG -  STATIC Possible values are STATIC, DYNAMIC, .",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "description": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "A description of the WAN Service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "domainName": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "The associated domain name.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "enterpriseName": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "The associated enterprise name.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "entityScope": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Specify if scope of entity is Data center or Enterprise level",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "EntityScope",
-        "unique": false
-      },
-      "externalRouteTarget": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Route target associated with the WAN. It is an optional parameterthat can be provided by the user",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "name": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Name of the WAN Service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "orphan": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Indicates if this WAN Service is orphan or not.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "boolean",
-        "unique": false
-      },
-      "permittedAction": {
-        "allowedChars": null,
-        "allowedChoices": [
-          "EXTEND",
-          "INSTANTIATE",
-          "DEPLOY",
-          "USE",
-          "READ",
-          "ALL"
-        ],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "servicePolicy": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Name of 7X50 Policy assoicated with service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "serviceType": {
-        "allowedChars": null,
-        "allowedChoices": [
-          "L2",
-          "L3"
-        ],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Type of the SERVICE -  L3,L2 Possible values are L3, L2, .",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "tunnelType": {
-        "allowedChars": null,
-        "allowedChoices": [
-          "DC_DEFAULT",
-          "VXLAN",
-          "GRE"
-        ],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Type of the SERVICE - GRE,VXLAN Possible values are DC_DEFAULT, GRE, VXLAN, .",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "useUserMnemonic": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Determines whether to use user mnemonic of the WAN Service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "boolean",
-        "unique": false
-      },
-      "userMnemonic": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "user mnemonic of the WAN Service",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "vnId": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "VNID of the BackHaul Subnet of L3Domain /L2Domain to which this WANService is associated",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "long",
-        "unique": false
-      }
-    },
-    "description": "Represents WAN Service Object.",
-    "entityName": "WANService",
-    "package": "/gateway",
-    "resourceName": "services"
-  }
 }

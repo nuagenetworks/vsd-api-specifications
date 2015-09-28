@@ -1,246 +1,250 @@
 {
-  "apis": {
-    "children": {
-      "/redirectiontargettemplates/id/metadatas": {
-        "RESTName": "metadata",
-        "entityName": "Metadata",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "metadatas"
-      },
-      "/redirectiontargettemplates/{id}/eventlogs": {
-        "RESTName": "eventlog",
-        "entityName": "EventLog",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "eventlogs"
-      },
-      "/redirectiontargettemplates/{id}/jobs": {
-        "RESTName": "job",
-        "entityName": "Job",
-        "operations": [
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "jobs"
-      }
-    },
-    "parents": {
-      "/domaintemplates/{id}/redirectiontargettemplates": {
-        "RESTName": "domaintemplate",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "domaintemplates"
-      },
-      "/l2domaintemplates/{id}/redirectiontargettemplates": {
-        "RESTName": "l2domaintemplate",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "l2domaintemplates"
-      }
-    },
-    "self": {
-      "/redirectiontargettemplates/{id}": {
-        "RESTName": "redirectiontargettemplate",
-        "operations": [
-          {
-            "availability": null,
-            "method": "PUT"
-          },
-          {
-            "availability": null,
-            "method": "DELETE"
-          },
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
+    "apis": {
+        "children": {
+            "/redirectiontargettemplates/id/metadatas": {
+                "RESTName": "metadata", 
+                "entityName": "Metadata", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "metadatas"
+            }, 
+            "/redirectiontargettemplates/{id}/eventlogs": {
+                "RESTName": "eventlog", 
+                "entityName": "EventLog", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "eventlogs"
+            }, 
+            "/redirectiontargettemplates/{id}/jobs": {
+                "RESTName": "job", 
+                "entityName": "Job", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "jobs"
+            }
+        }, 
+        "parents": {
+            "/domaintemplates/{id}/redirectiontargettemplates": {
+                "RESTName": "domaintemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "domaintemplates"
+            }, 
+            "/l2domaintemplates/{id}/redirectiontargettemplates": {
+                "RESTName": "l2domaintemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "l2domaintemplates"
+            }
+        }, 
+        "self": {
+            "/redirectiontargettemplates/{id}": {
+                "RESTName": "redirectiontargettemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "DELETE"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "redirectiontargettemplates"
+            }
+        }
+    }, 
+    "model": {
+        "RESTName": "redirectiontargettemplate", 
+        "attributes": {
+            "description": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Description of this redirection target template", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "endPointType": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "VPortTagEndPointType is an enum. It defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. Possible values are NONE, L3, VIRTUAL_WIRE.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "VPortTagEndPointType", 
+                "unique": false
+            }, 
+            "entityScope": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Specify if scope of entity is Data center or Enterprise level", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "EntityScope", 
+                "unique": false
+            }, 
+            "name": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of this redirection target template", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "redundancyEnabled": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Allow/Disallow redundant appliances and VIP", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "boolean", 
+                "unique": false
+            }, 
+            "triggerType": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Trigger type, could be NONE/GARP - THIS IS READONNLY", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "TriggerType", 
+                "unique": false
+            }
+        }, 
+        "description": "Template for a vporttag. Can be created only at the template level and available for all instances.", 
+        "entityName": "RedirectionTargetTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "package": "/vport", 
         "resourceName": "redirectiontargettemplates"
-      }
     }
-  },
-  "model": {
-    "RESTName": "redirectiontargettemplate",
-    "attributes": {
-      "description": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Description of this redirection target template",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "endPointType": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "VPortTagEndPointType is an enum. It defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. Possible values are NONE, L3, VIRTUAL_WIRE.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "VPortTagEndPointType",
-        "unique": false
-      },
-      "entityScope": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Specify if scope of entity is Data center or Enterprise level",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "EntityScope",
-        "unique": false
-      },
-      "name": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Name of this redirection target template",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "redundancyEnabled": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Allow/Disallow redundant appliances and VIP",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "boolean",
-        "unique": false
-      },
-      "triggerType": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Trigger type, could be NONE/GARP - THIS IS READONNLY",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "TriggerType",
-        "unique": false
-      }
-    },
-    "description": "Template for a vporttag. Can be created only at the template level and available for all instances.",
-    "entityName": "RedirectionTargetTemplate",
-    "package": "/vport",
-    "resourceName": "redirectiontargettemplates"
-  }
 }

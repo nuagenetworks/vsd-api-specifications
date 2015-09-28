@@ -1,167 +1,171 @@
 {
-  "apis": {
-    "children": {
-      "/networkmacrogroups/id/metadatas": {
-        "RESTName": "metadata",
-        "entityName": "Metadata",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "metadatas"
-      },
-      "/networkmacrogroups/{id}/enterprisenetworks": {
-        "RESTName": "enterprisenetwork",
-        "entityName": "EnterpriseNetwork",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "PUT"
-          }
-        ],
-        "resourceName": "enterprisenetworks"
-      }
-    },
-    "parents": {
-      "/enterprisenetworks/{id}/networkmacrogroups": {
-        "RESTName": "enterprisenetwork",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "PUT"
-          }
-        ],
-        "resourceName": "enterprisenetworks"
-      },
-      "/enterprises/{id}/networkmacrogroups": {
-        "RESTName": "enterprise",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "enterprises"
-      }
-    },
-    "self": {
-      "/networkmacrogroups/{id}": {
-        "RESTName": "networkmacrogroup",
-        "operations": [
-          {
-            "availability": null,
-            "method": "PUT"
-          },
-          {
-            "availability": null,
-            "method": "DELETE"
-          },
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
+    "apis": {
+        "children": {
+            "/networkmacrogroups/id/metadatas": {
+                "RESTName": "metadata", 
+                "entityName": "Metadata", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "metadatas"
+            }, 
+            "/networkmacrogroups/{id}/enterprisenetworks": {
+                "RESTName": "enterprisenetwork", 
+                "entityName": "EnterpriseNetwork", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }
+                ], 
+                "resourceName": "enterprisenetworks"
+            }
+        }, 
+        "parents": {
+            "/enterprisenetworks/{id}/networkmacrogroups": {
+                "RESTName": "enterprisenetwork", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }
+                ], 
+                "resourceName": "enterprisenetworks"
+            }, 
+            "/enterprises/{id}/networkmacrogroups": {
+                "RESTName": "enterprise", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "enterprises"
+            }
+        }, 
+        "self": {
+            "/networkmacrogroups/{id}": {
+                "RESTName": "networkmacrogroup", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "DELETE"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "networkmacrogroups"
+            }
+        }
+    }, 
+    "model": {
+        "RESTName": "networkmacrogroup", 
+        "attributes": {
+            "description": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Description of the macro group", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "entityScope": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Specify if scope of entity is Data center or Enterprise level", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "EntityScope", 
+                "unique": false
+            }, 
+            "name": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of the macro group", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }
+        }, 
+        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks", 
+        "entityName": "NetworkMacroGroup", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "package": "/network", 
         "resourceName": "networkmacrogroups"
-      }
     }
-  },
-  "model": {
-    "RESTName": "networkmacrogroup",
-    "attributes": {
-      "description": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Description of the macro group",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "entityScope": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Specify if scope of entity is Data center or Enterprise level",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "EntityScope",
-        "unique": false
-      },
-      "name": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Name of the macro group",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      }
-    },
-    "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks",
-    "entityName": "NetworkMacroGroup",
-    "package": "/network",
-    "resourceName": "networkmacrogroups"
-  }
 }
