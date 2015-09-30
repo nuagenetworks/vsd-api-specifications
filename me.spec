@@ -1068,7 +1068,7 @@
             }
         }, 
         "description": "Object that identifies the user functions", 
-        "entityName": "RESTUser", 
+        "entityName": "Me", 
         "extends": [
             "@base", 
             "@metadata"
