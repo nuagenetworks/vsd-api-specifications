@@ -1,7 +1,0 @@
-{
-  "api_version": "3.2",
-  "api_prefix": "nuage/api",
-  "api_root": "me",
-  "sdk_root_object_class": "RESTUser",
-  "sdk_root_object_property": "user"
-}
