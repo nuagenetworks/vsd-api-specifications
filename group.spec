@@ -239,7 +239,7 @@
                 "minValue": null, 
                 "orderable": false, 
                 "readOnly": false, 
-                "required": false, 
+                "required": true, 
                 "transient": false, 
                 "type": "boolean", 
                 "unique": false
@@ -252,7 +252,7 @@
                 "channel": null, 
                 "creationOnly": false, 
                 "defaultOrder": false, 
-                "defaultValue": null, 
+                "defaultValue": false, 
                 "description": "When the group was disabled.", 
                 "exposed": true, 
                 "filterable": false, 
