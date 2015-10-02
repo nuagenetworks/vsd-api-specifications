@@ -1,334 +1,299 @@
 {
-  "apis": {
-    "children": {
-      "/applications/id/metadatas": {
-        "RESTName": "metadata",
-        "entityName": "Metadata",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "metadatas"
-      },
-      "/applications/{id}/eventlogs": {
-        "RESTName": "eventlog",
-        "entityName": "EventLog",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "eventlogs"
-      },
-      "/applications/{id}/flows": {
-        "RESTName": "flow",
-        "entityName": "Flow",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "flows"
-      },
-      "/applications/{id}/jobs": {
-        "RESTName": "job",
-        "entityName": "Job",
-        "operations": [
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "jobs"
-      },
-      "/applications/{id}/tiers": {
-        "RESTName": "tier",
-        "entityName": "Tier",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "tiers"
-      }
-    },
-    "parents": {
-      "/enterprises/{id}/applications": {
-        "RESTName": "enterprise",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "enterprises"
-      }
-    },
-    "self": {
-      "/applications/{id}": {
-        "RESTName": "application",
-        "operations": [
-          {
-            "availability": null,
-            "method": "PUT"
-          },
-          {
-            "availability": null,
-            "method": "DELETE"
-          },
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
+    "apis": {
+        "children": {
+            "/applications/{id}/eventlogs": {
+                "RESTName": "eventlog", 
+                "entityName": "EventLog", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "eventlogs"
+            }, 
+            "/applications/{id}/flows": {
+                "RESTName": "flow", 
+                "entityName": "Flow", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "flows"
+            }, 
+            "/applications/{id}/jobs": {
+                "RESTName": "job", 
+                "entityName": "Job", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "jobs"
+            }, 
+            "/applications/{id}/tiers": {
+                "RESTName": "tier", 
+                "entityName": "Tier", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "tiers"
+            }
+        }, 
+        "parents": {
+            "/enterprises/{id}/applications": {
+                "RESTName": "enterprise", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "enterprises"
+            }
+        }, 
+        "self": {
+            "/applications/{id}": {
+                "RESTName": "application", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "DELETE"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "applications"
+            }
+        }
+    }, 
+    "model": {
+        "RESTName": "application", 
+        "attributes": {
+            "assocEgressACLTemplateId": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "The ID of the ACL template that this application is pointing to", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "assocIngressACLTemplateId": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "The ID of the ACL template that this application is pointing to", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "associatedDomainID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Domain id where the application is running.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "associatedDomainType": {
+                "allowedChars": null, 
+                "allowedChoices": [], 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Type of domain (DOMAIN, L2DOMAIN). Refer to API section for supported types.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "enum", 
+                "unique": false
+            }, 
+            "associatedNetworkObjectID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "ID of the network object that this App is associated with.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "associatedNetworkObjectType": {
+                "allowedChars": null, 
+                "allowedChoices": [], 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Type of network object this App is associated with (ENTERPRISE, DOMAIN) Refer to API section for supported types.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "enum", 
+                "unique": false
+            }, 
+            "description": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Description of the application.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "name": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Name of the application.", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }
+        }, 
+        "description": "Represents a real life application like a vendor website, or a social network.", 
+        "entityName": "App", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "package": "/appd", 
         "resourceName": "applications"
-      }
     }
-  },
-  "model": {
-    "RESTName": "application",
-    "attributes": {
-      "assocEgressACLTemplateId": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "The ID of the ACL template that this application is pointing to",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "assocIngressACLTemplateId": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "The ID of the ACL template that this application is pointing to",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "associatedDomainID": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Domain id where the application is running.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "associatedDomainType": {
-        "allowedChars": null,
-        "allowedChoices": [],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Type of domain (DOMAIN, L2DOMAIN). Refer to API section for supported types.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "associatedNetworkObjectID": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "ID of the network object that this App is associated with.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "associatedNetworkObjectType": {
-        "allowedChars": null,
-        "allowedChoices": [],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Type of network object this App is associated with (ENTERPRISE, DOMAIN) Refer to API section for supported types.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "description": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Description of the application.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "entityScope": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Specify if scope of entity is Data center or Enterprise level",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "EntityScope",
-        "unique": false
-      },
-      "name": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Name of the application.",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      }
-    },
-    "description": "Represents a real life application like a vendor website, or a social network.",
-    "entityName": "App",
-    "package": "/appd",
-    "resourceName": "applications"
-  }
 }

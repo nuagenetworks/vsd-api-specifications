@@ -1,331 +1,248 @@
 {
-  "apis": {
-    "children": {
-      "/staticroutes/id/metadatas": {
-        "RESTName": "metadata",
-        "entityName": "Metadata",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "metadatas"
-      },
-      "/staticroutes/{id}/eventlogs": {
-        "RESTName": "eventlog",
-        "entityName": "EventLog",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "eventlogs"
-      }
+    "apis": {
+        "children": {
+            "/staticroutes/{id}/eventlogs": {
+                "RESTName": "eventlog",
+                "entityName": "EventLog",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    }
+                ],
+                "resourceName": "eventlogs"
+            }
+        },
+        "parents": {
+            "/domains/{id}/staticroutes": {
+                "RESTName": "domain",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    },
+                    {
+                        "availability": null,
+                        "method": "POST"
+                    }
+                ],
+                "resourceName": "domains"
+            },
+            "/hostinterfaces/{id}/staticroutes": {
+                "RESTName": "hostinterface",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    }
+                ],
+                "resourceName": "hostinterfaces"
+            },
+            "/l2domains/{id}/staticroutes": {
+                "RESTName": "l2domain",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    },
+                    {
+                        "availability": null,
+                        "method": "POST"
+                    }
+                ],
+                "resourceName": "l2domains"
+            },
+            "/sharednetworkresources/{id}/staticroutes": {
+                "RESTName": "sharednetworkresource",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    },
+                    {
+                        "availability": null,
+                        "method": "POST"
+                    }
+                ],
+                "resourceName": "sharednetworkresources"
+            },
+            "/staticroutes": {
+                "RESTName": "staticroute",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    }
+                ],
+                "resourceName": "staticroutes"
+            },
+            "/vminterfaces/{id}/staticroutes": {
+                "RESTName": "vminterface",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    }
+                ],
+                "resourceName": "vminterfaces"
+            }
+        },
+        "self": {
+            "/staticroutes/{id}": {
+                "RESTName": "staticroute",
+                "operations": [
+                    {
+                        "availability": null,
+                        "method": "PUT"
+                    },
+                    {
+                        "availability": null,
+                        "method": "DELETE"
+                    },
+                    {
+                        "availability": null,
+                        "method": "GET"
+                    }
+                ],
+                "resourceName": "staticroutes"
+            }
+        }
     },
-    "parents": {
-      "/domains/{id}/staticroutes": {
-        "RESTName": "domain",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "domains"
-      },
-      "/hostinterfaces/{id}/staticroutes": {
-        "RESTName": "hostinterface",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "hostinterfaces"
-      },
-      "/l2domains/{id}/staticroutes": {
-        "RESTName": "l2domain",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "l2domains"
-      },
-      "/sharednetworkresources/{id}/staticroutes": {
-        "RESTName": "sharednetworkresource",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          },
-          {
-            "availability": null,
-            "method": "POST"
-          }
-        ],
-        "resourceName": "sharednetworkresources"
-      },
-      "/staticroutes": {
+    "model": {
         "RESTName": "staticroute",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
+        "attributes": {
+            "IPType": {
+                "allowedChars": null,
+                "allowedChoices": [
+                    "DUALSTACK",
+                    "IPV4",
+                    "IPV6"
+                ],
+                "autogenerated": false,
+                "availability": null,
+                "channel": null,
+                "creationOnly": false,
+                "defaultOrder": false,
+                "defaultValue": "IPV4",
+                "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, .",
+                "exposed": true,
+                "filterable": true,
+                "format": null,
+                "maxLength": null,
+                "maxValue": null,
+                "minLength": null,
+                "minValue": null,
+                "orderable": true,
+                "readOnly": false,
+                "required": true,
+                "transient": false,
+                "type": "enum",
+                "unique": false
+            },
+            "address": {
+                "allowedChars": null,
+                "allowedChoices": null,
+                "autogenerated": false,
+                "availability": null,
+                "channel": null,
+                "creationOnly": false,
+                "defaultOrder": false,
+                "defaultValue": null,
+                "description": "IP address of the route",
+                "exposed": true,
+                "filterable": false,
+                "format": null,
+                "maxLength": null,
+                "maxValue": null,
+                "minLength": null,
+                "minValue": null,
+                "orderable": false,
+                "readOnly": false,
+                "required": true,
+                "transient": false,
+                "type": "string",
+                "unique": false
+            },
+            "netmask": {
+                "allowedChars": null,
+                "allowedChoices": null,
+                "autogenerated": false,
+                "availability": null,
+                "channel": null,
+                "creationOnly": false,
+                "defaultOrder": false,
+                "defaultValue": null,
+                "description": "Netmask associated with the route",
+                "exposed": true,
+                "filterable": false,
+                "format": null,
+                "maxLength": null,
+                "maxValue": null,
+                "minLength": null,
+                "minValue": null,
+                "orderable": false,
+                "readOnly": false,
+                "required": true,
+                "transient": false,
+                "type": "string",
+                "unique": false
+            },
+            "nextHopIp": {
+                "allowedChars": null,
+                "allowedChoices": null,
+                "autogenerated": false,
+                "availability": null,
+                "channel": null,
+                "creationOnly": false,
+                "defaultOrder": false,
+                "defaultValue": null,
+                "description": "IP address of the next hop. This must be a VM attached to the dVRS",
+                "exposed": true,
+                "filterable": false,
+                "format": null,
+                "maxLength": null,
+                "maxValue": null,
+                "minLength": null,
+                "minValue": null,
+                "orderable": false,
+                "readOnly": false,
+                "required": true,
+                "transient": false,
+                "type": "string",
+                "unique": false
+            },
+            "routeDistinguisher": {
+                "allowedChars": null,
+                "allowedChoices": null,
+                "autogenerated": false,
+                "availability": null,
+                "channel": null,
+                "creationOnly": false,
+                "defaultOrder": false,
+                "defaultValue": null,
+                "description": "Route distinguisher associated with the nexthop. System generates this identifier automatically",
+                "exposed": true,
+                "filterable": false,
+                "format": null,
+                "maxLength": null,
+                "maxValue": null,
+                "minLength": null,
+                "minValue": null,
+                "orderable": false,
+                "readOnly": false,
+                "required": false,
+                "transient": false,
+                "type": "string",
+                "unique": false
+            }
+        },
+        "description": "Static routes allow end users to define how traffic is routed through the dVRS in addition to the routes learned by VSC through VM activation. By using static routes, end users can define for example that all traffic with a destination address towards a specific subnet must be forwarded to a specific VM attached in the dVRS and this VM could be a firewall",
+        "entityName": "StaticRoute",
+        "extends": [
+            "@base",
+            "@metadata"
         ],
+        "package": "/network",
         "resourceName": "staticroutes"
-      },
-      "/vminterfaces/{id}/staticroutes": {
-        "RESTName": "vminterface",
-        "operations": [
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "vminterfaces"
-      }
-    },
-    "self": {
-      "/staticroutes/{id}": {
-        "RESTName": "staticroute",
-        "operations": [
-          {
-            "availability": null,
-            "method": "PUT"
-          },
-          {
-            "availability": null,
-            "method": "DELETE"
-          },
-          {
-            "availability": null,
-            "method": "GET"
-          }
-        ],
-        "resourceName": "staticroutes"
-      }
     }
-  },
-  "model": {
-    "RESTName": "staticroute",
-    "attributes": {
-      "IPType": {
-        "allowedChars": null,
-        "allowedChoices": [
-            "DUALSTACK",
-            "IPV4",
-            "IPV6"
-        ],
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "IPv4 or IPv6 (only IPv4 supported in R1.0) Possible values are IPV4, IPV6, .",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": true,
-        "required": false,
-        "transient": false,
-        "type": "enum",
-        "unique": false
-      },
-      "address": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "IP address of the route",
-        "exposed": true,
-        "filterable": false,
-        "format": "ipv4",
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "IPv6Address": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "IPv6 address of the route",
-        "exposed": true,
-        "filterable": true,
-        "format": "ipv6",
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "entityScope": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Specify if scope of entity is Data center or Enterprise level",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "EntityScope",
-        "unique": false
-      },
-      "netmask": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Netmask associated with the route",
-        "exposed": true,
-        "filterable": false,
-        "format": "ipv4",
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "IPv6Netmask": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Netmask of the IPv6 interface",
-        "exposed": true,
-        "filterable": true,
-        "format": "ipv6",
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "nextHopIp": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "IP address of the next hop. This must be a VM attached to the dVRS",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": true,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      },
-      "routeDistinguisher": {
-        "allowedChars": null,
-        "allowedChoices": null,
-        "autogenerated": false,
-        "availability": null,
-        "channel": null,
-        "creationOnly": false,
-        "defaultOrder": false,
-        "defaultValue": null,
-        "description": "Route distinguisher associated with the nexthop. System generates this identifier automatically",
-        "exposed": true,
-        "filterable": false,
-        "format": null,
-        "maxLength": null,
-        "maxValue": null,
-        "minLength": null,
-        "minValue": null,
-        "orderable": false,
-        "readOnly": false,
-        "required": false,
-        "transient": false,
-        "type": "string",
-        "unique": false
-      }
-    },
-    "description": "Static routes allow end users to define how traffic is routed through the dVRS in addition to the routes learned by VSC through VM activation. By using static routes, end users can define for example that all traffic with a destination address towards a specific subnet must be forwarded to a specific VM attached in the dVRS and this VM could be a firewall",
-    "entityName": "StaticRoute",
-    "package": "/network",
-    "resourceName": "staticroutes"
-  }
 }

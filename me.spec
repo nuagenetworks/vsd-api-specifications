@@ -1,39 +1,24 @@
 {
     "apis": {
-        "children": {}, 
-        "parents": {
-            "/addressranges/{id}/eventlogs": {
-                "RESTName": "addressrange", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "addressranges"
-            }, 
-            "/applications/{id}/eventlogs": {
-                "RESTName": "application", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "applications"
-            }, 
-            "/applicationservices/{id}/eventlogs": {
+        "children": {
+            "/applicationservices": {
                 "RESTName": "applicationservice", 
+                "entityName": "ApplicationService", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "applicationservices"
             }, 
-            "/autodiscoveredgateways/{id}/eventlogs": {
+            "/autodiscoveredgateways": {
                 "RESTName": "autodiscoveredgateway", 
+                "entityName": "AutoDiscoveredGateway", 
                 "operations": [
                     {
                         "availability": null, 
@@ -42,28 +27,35 @@
                 ], 
                 "resourceName": "autodiscoveredgateways"
             }, 
-            "/bridgeinterfaces/{id}/eventlogs": {
-                "RESTName": "bridgeinterface", 
+            "/certificates": {
+                "RESTName": "certificate", 
+                "entityName": "Certificate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "certificates"
+            }, 
+            "/cms": {
+                "RESTName": "cms", 
+                "entityName": "CloudMgmtSystem", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
-                    }
-                ], 
-                "resourceName": "bridgeinterfaces"
-            }, 
-            "/dhcpoptions/{id}/eventlogs": {
-                "RESTName": "dhcpoption", 
-                "operations": [
+                    }, 
                     {
                         "availability": null, 
-                        "method": "GET"
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "dhcpoptions"
+                "resourceName": "cms"
             }, 
-            "/domains/{id}/eventlogs": {
+            "/domains": {
                 "RESTName": "domain", 
+                "entityName": "Domain", 
                 "operations": [
                     {
                         "availability": null, 
@@ -72,18 +64,50 @@
                 ], 
                 "resourceName": "domains"
             }, 
-            "/domaintemplates/{id}/eventlogs": {
-                "RESTName": "domaintemplate", 
+            "/eamconfigs": {
+                "RESTName": "eamconfig", 
+                "entityName": "VCenterEAMConfig", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "domaintemplates"
+                "resourceName": "eamconfigs"
             }, 
-            "/egressacltemplates/{id}/eventlogs": {
+            "/eamconfigs/{id}": {
+                "RESTName": "eamconfig", 
+                "entityName": "VCenterEAMConfig", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "eamconfigs"
+            }, 
+            "/egressaclentrytemplates": {
+                "RESTName": "egressaclentrytemplate", 
+                "entityName": "EgressACLEntryTemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "egressaclentrytemplates"
+            }, 
+            "/egressacltemplates": {
                 "RESTName": "egressacltemplate", 
+                "entityName": "EgressACLTemplate", 
                 "operations": [
                     {
                         "availability": null, 
@@ -92,58 +116,84 @@
                 ], 
                 "resourceName": "egressacltemplates"
             }, 
-            "/endpoints/{id}/eventlogs": {
-                "RESTName": "endpoint", 
+            "/egressqospolicies": {
+                "RESTName": "egressqospolicy", 
+                "entityName": "EgressQOSPolicy", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
-                    }
-                ], 
-                "resourceName": "endpoints"
-            }, 
-            "/enterprisenetworks/{id}/eventlogs": {
-                "RESTName": "enterprisenetwork", 
-                "operations": [
+                    }, 
                     {
                         "availability": null, 
-                        "method": "GET"
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "enterprisenetworks"
+                "resourceName": "egressqospolicies"
             }, 
-            "/enterpriseprofiles/{id}/eventlogs": {
+            "/enterpriseprofiles": {
                 "RESTName": "enterpriseprofile", 
+                "entityName": "EnterpriseProfile", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "enterpriseprofiles"
             }, 
-            "/enterprises/{id}/eventlogs": {
+            "/enterprises": {
                 "RESTName": "enterprise", 
+                "entityName": "Enterprise", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "enterprises"
             }, 
-            "/externalservices/{id}/eventlogs": {
-                "RESTName": "externalservice", 
+            "/externalappservices": {
+                "RESTName": "externalappservice", 
+                "entityName": "ExternalAppService", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "externalappservices"
+            }, 
+            "/externalservices": {
+                "RESTName": "externalservice", 
+                "entityName": "ExternalService", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "externalservices"
             }, 
-            "/floatingips/{id}/eventlogs": {
+            "/floatingips": {
                 "RESTName": "floatingip", 
+                "entityName": "FloatingIp", 
                 "operations": [
                     {
                         "availability": null, 
@@ -152,58 +202,54 @@
                 ], 
                 "resourceName": "floatingips"
             }, 
-            "/flowforwardingpolicies/{id}/eventlogs": {
-                "RESTName": "flowforwardingpolicy", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "flowforwardingpolicies"
-            }, 
-            "/flows/{id}/eventlogs": {
-                "RESTName": "flow", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "flows"
-            }, 
-            "/flowsecuritypolicies/{id}/eventlogs": {
-                "RESTName": "flowsecuritypolicy", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "flowsecuritypolicies"
-            }, 
-            "/gateways/{id}/eventlogs": {
+            "/gateways": {
                 "RESTName": "gateway", 
+                "entityName": "Gateway", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "gateways"
             }, 
-            "/groups/{id}/eventlogs": {
-                "RESTName": "group", 
+            "/gatewaytemplates": {
+                "RESTName": "gatewaytemplate", 
+                "entityName": "GatewayTemplate", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "groups"
+                "resourceName": "gatewaytemplates"
             }, 
-            "/hostinterfaces/{id}/eventlogs": {
+            "/globalmetadatas": {
+                "RESTName": "globalmetadata", 
+                "entityName": "GlobalMetadata", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "globalmetadatas"
+            }, 
+            "/hostinterfaces": {
                 "RESTName": "hostinterface", 
+                "entityName": "HostInterface", 
                 "operations": [
                     {
                         "availability": null, 
@@ -212,18 +258,65 @@
                 ], 
                 "resourceName": "hostinterfaces"
             }, 
-            "/hscs/{id}/eventlogs": {
-                "RESTName": "hsc", 
+            "/infrastructuregatewayprofiles": {
+                "RESTName": "infrastructuregatewayprofile", 
+                "entityName": "InfrastructureGatewayProfile", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "infrastructuregatewayprofiles"
+            }, 
+            "/infrastructureportprofiles": {
+                "RESTName": "infrastructureportprofile", 
+                "entityName": "InfrastructurePortProfile", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "infrastructureportprofiles"
+            }, 
+            "/infrastructurevscprofiles": {
+                "RESTName": "infrastructurevscprofile", 
+                "entityName": "InfrastructureVscProfile", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "infrastructurevscprofiles"
+            }, 
+            "/ingressaclentrytemplates": {
+                "RESTName": "ingressaclentrytemplate", 
+                "entityName": "IngressACLEntryTemplate", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "hscs"
+                "resourceName": "ingressaclentrytemplates"
             }, 
-            "/ingressacltemplates/{id}/eventlogs": {
+            "/ingressacltemplates": {
                 "RESTName": "ingressacltemplate", 
+                "entityName": "IngressACLTemplate", 
                 "operations": [
                     {
                         "availability": null, 
@@ -232,18 +325,35 @@
                 ], 
                 "resourceName": "ingressacltemplates"
             }, 
-            "/ipreservations/{id}/eventlogs": {
-                "RESTName": "ipreservation", 
+            "/ingressadvfwdentrytemplates": {
+                "RESTName": "ingressadvfwdentrytemplate", 
+                "entityName": "IngressAdvFwdEntryTemplate", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "ipreservations"
+                "resourceName": "ingressadvfwdentrytemplates"
             }, 
-            "/l2domains/{id}/eventlogs": {
+            "/jobs": {
+                "RESTName": "job", 
+                "entityName": "Job", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "jobs"
+            }, 
+            "/l2domains": {
                 "RESTName": "l2domain", 
+                "entityName": "L2Domain", 
                 "operations": [
                     {
                         "availability": null, 
@@ -252,68 +362,80 @@
                 ], 
                 "resourceName": "l2domains"
             }, 
-            "/l2domaintemplates/{id}/eventlogs": {
-                "RESTName": "l2domaintemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "l2domaintemplates"
-            }, 
-            "/licenses/{id}/eventlogs": {
+            "/licenses": {
                 "RESTName": "license", 
+                "entityName": "License", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "licenses"
             }, 
-            "/metadatas/{id}/eventlogs": {
-                "RESTName": "metadata", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "metadatas"
-            }, 
-            "/metadatatags/{id}/eventlogs": {
+            "/metadatatags": {
                 "RESTName": "metadatatag", 
+                "entityName": "MetadataTag", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "metadatatags"
             }, 
-            "/multicastchannelmaps/{id}/eventlogs": {
-                "RESTName": "multicastchannelmap", 
+            "/mirrordestinations": {
+                "RESTName": "mirrordestination", 
+                "entityName": "MirrorDestination", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "mirrordestinations"
+            }, 
+            "/multicastchannelmaps": {
+                "RESTName": "multicastchannelmap", 
+                "entityName": "MultiCastChannelMap", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "multicastchannelmaps"
             }, 
-            "/multicastranges/{id}/eventlogs": {
-                "RESTName": "multicastrange", 
+            "/networklayout": {
+                "RESTName": "networklayout", 
+                "entityName": "NetworkLayout", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "multicastranges"
+                "resourceName": "networklayout"
             }, 
-            "/nsgateways/{id}/eventlogs": {
+            "/nsgateways": {
                 "RESTName": "nsgateway", 
+                "entityName": "NSGateway", 
                 "operations": [
                     {
                         "availability": null, 
@@ -322,8 +444,24 @@
                 ], 
                 "resourceName": "nsgateways"
             }, 
-            "/nsgredundancygroups/{id}/eventlogs": {
+            "/nsgatewaytemplates": {
+                "RESTName": "nsgatewaytemplate", 
+                "entityName": "NSGatewayTemplate", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "nsgatewaytemplates"
+            }, 
+            "/nsgredundancygroups": {
                 "RESTName": "nsgredundancygroup", 
+                "entityName": "NSRedundantGWGrp", 
                 "operations": [
                     {
                         "availability": null, 
@@ -332,28 +470,35 @@
                 ], 
                 "resourceName": "nsgredundancygroups"
             }, 
-            "/nsports/{id}/eventlogs": {
-                "RESTName": "nsport", 
+            "/nsportstaticconfigurations": {
+                "RESTName": "nsportstaticconfiguration", 
+                "entityName": "NSPortStaticConfiguration", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "nsports"
+                "resourceName": "nsportstaticconfigurations"
             }, 
-            "/permissions/{id}/eventlogs": {
-                "RESTName": "permission", 
+            "/patnatpools": {
+                "RESTName": "patnatpool", 
+                "entityName": "PATNATPool", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "permissions"
+                "resourceName": "patnatpools"
             }, 
-            "/policygroups/{id}/eventlogs": {
+            "/policygroups": {
                 "RESTName": "policygroup", 
+                "entityName": "PolicyGroup", 
                 "operations": [
                     {
                         "availability": null, 
@@ -362,48 +507,24 @@
                 ], 
                 "resourceName": "policygroups"
             }, 
-            "/policygrouptemplates/{id}/eventlogs": {
-                "RESTName": "policygrouptemplate", 
+            "/ratelimiters": {
+                "RESTName": "ratelimiter", 
+                "entityName": "RateLimiter", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
-                    }
-                ], 
-                "resourceName": "policygrouptemplates"
-            }, 
-            "/ports/{id}/eventlogs": {
-                "RESTName": "port", 
-                "operations": [
+                    }, 
                     {
                         "availability": null, 
-                        "method": "GET"
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "ports"
+                "resourceName": "ratelimiters"
             }, 
-            "/publicnetworks/{id}/eventlogs": {
-                "RESTName": "publicnetwork", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "publicnetworks"
-            }, 
-            "/qos/{id}/eventlogs": {
-                "RESTName": "qos", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "qos"
-            }, 
-            "/redirectiontargets/{id}/eventlogs": {
+            "/redirectiontargets": {
                 "RESTName": "redirectiontarget", 
+                "entityName": "RedirectionTarget", 
                 "operations": [
                     {
                         "availability": null, 
@@ -412,38 +533,54 @@
                 ], 
                 "resourceName": "redirectiontargets"
             }, 
-            "/redirectiontargettemplates/{id}/eventlogs": {
-                "RESTName": "redirectiontargettemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "redirectiontargettemplates"
-            }, 
-            "/redundancygroups/{id}/eventlogs": {
+            "/redundancygroups": {
                 "RESTName": "redundancygroup", 
+                "entityName": "RedundancyGroup", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "redundancygroups"
             }, 
-            "/services/{id}/eventlogs": {
-                "RESTName": "service", 
+            "/sharednetworkresources": {
+                "RESTName": "sharednetworkresource", 
+                "entityName": "SharedNetworkResource", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "services"
+                "resourceName": "sharednetworkresources"
             }, 
-            "/staticroutes/{id}/eventlogs": {
+            "/sites": {
+                "RESTName": "site", 
+                "entityName": "SiteInfo", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }
+                ], 
+                "resourceName": "sites"
+            }, 
+            "/staticroutes": {
                 "RESTName": "staticroute", 
+                "entityName": "StaticRoute", 
                 "operations": [
                     {
                         "availability": null, 
@@ -452,8 +589,20 @@
                 ], 
                 "resourceName": "staticroutes"
             }, 
-            "/subnets/{id}/eventlogs": {
+            "/statisticscollector": {
+                "RESTName": "statisticscollector", 
+                "entityName": "StatsCollectorInfo", 
+                "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }
+                ], 
+                "resourceName": "statisticscollector"
+            }, 
+            "/subnets": {
                 "RESTName": "subnet", 
+                "entityName": "Subnet", 
                 "operations": [
                     {
                         "availability": null, 
@@ -462,18 +611,20 @@
                 ], 
                 "resourceName": "subnets"
             }, 
-            "/subnettemplates/{id}/eventlogs": {
-                "RESTName": "subnettemplate", 
+            "/systemconfigs": {
+                "RESTName": "systemconfig", 
+                "entityName": "SystemConfig", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "subnettemplates"
+                "resourceName": "systemconfigs"
             }, 
-            "/tcas/{id}/eventlogs": {
+            "/tcas": {
                 "RESTName": "tca", 
+                "entityName": "TCA", 
                 "operations": [
                     {
                         "availability": null, 
@@ -482,48 +633,61 @@
                 ], 
                 "resourceName": "tcas"
             }, 
-            "/tiers/{id}/eventlogs": {
-                "RESTName": "tier", 
+            "/uplinkroutedistinguishers": {
+                "RESTName": "uplinkroutedistinguisher", 
+                "entityName": "UplinkRD", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "tiers"
+                "resourceName": "uplinkroutedistinguishers"
             }, 
-            "/users/{id}/eventlogs": {
+            "/users": {
                 "RESTName": "user", 
+                "entityName": "User", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "users"
             }, 
-            "/virtualips/{id}/eventlogs": {
-                "RESTName": "virtualip", 
+            "/vcenterhypervisors": {
+                "RESTName": "vcenterhypervisor", 
+                "entityName": "VCenterHypervisor", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "virtualips"
+                "resourceName": "vcenterhypervisors"
             }, 
-            "/vlans/{id}/eventlogs": {
-                "RESTName": "vlan", 
+            "/vcenters": {
+                "RESTName": "vcenter", 
+                "entityName": "VCenter", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
-                "resourceName": "vlans"
+                "resourceName": "vcenters"
             }, 
-            "/vminterfaces/{id}/eventlogs": {
+            "/vminterfaces": {
                 "RESTName": "vminterface", 
+                "entityName": "VMInterface", 
                 "operations": [
                     {
                         "availability": null, 
@@ -532,59 +696,59 @@
                 ], 
                 "resourceName": "vminterfaces"
             }, 
-            "/vms/{id}/eventlogs": {
+            "/vms": {
                 "RESTName": "vm", 
+                "entityName": "VM", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
                     }
                 ], 
                 "resourceName": "vms"
             }, 
-            "/vports/{id}/eventlogs": {
-                "RESTName": "vport", 
+            "/vrsconfigs": {
+                "RESTName": "vrsconfig", 
+                "entityName": "VCenterVRSConfig", 
                 "operations": [
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "vports"
+                "resourceName": "vrsconfigs"
             }, 
-            "/vrss/{id}/eventlogs": {
-                "RESTName": "vrs", 
+            "/vrsconfigs/{id}": {
+                "RESTName": "vrsconfig", 
+                "entityName": "VCenterVRSConfig", 
                 "operations": [
+                    {
+                        "availability": null, 
+                        "method": "PUT"
+                    }, 
+                    {
+                        "availability": null, 
+                        "method": "POST"
+                    }, 
                     {
                         "availability": null, 
                         "method": "GET"
                     }
                 ], 
-                "resourceName": "vrss"
+                "resourceName": "vrsconfigs"
             }, 
-            "/vscs/{id}/eventlogs": {
-                "RESTName": "vsc", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "vscs"
-            }, 
-            "/vsds/{id}/eventlogs": {
-                "RESTName": "vsd", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "vsds"
-            }, 
-            "/vsps/{id}/eventlogs": {
+            "/vsps": {
                 "RESTName": "vsp", 
+                "entityName": "VSP", 
                 "operations": [
+                    {
+                        "availability": null, 
+                        "method": "GET"
+                    }, 
                     {
                         "availability": null, 
                         "method": "GET"
@@ -592,8 +756,9 @@
                 ], 
                 "resourceName": "vsps"
             }, 
-            "/zones/{id}/eventlogs": {
+            "/zones": {
                 "RESTName": "zone", 
+                "entityName": "Zone", 
                 "operations": [
                     {
                         "availability": null, 
@@ -601,35 +766,15 @@
                     }
                 ], 
                 "resourceName": "zones"
-            }, 
-            "/zonetemplates/{id}/eventlogs": {
-                "RESTName": "zonetemplate", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "zonetemplates"
             }
         }, 
-        "self": {
-            "/eventlogs/{id}": {
-                "RESTName": "eventlog", 
-                "operations": [
-                    {
-                        "availability": null, 
-                        "method": "GET"
-                    }
-                ], 
-                "resourceName": "eventlogs"
-            }
-        }
+        "parents": {}, 
+        "self": {}
     }, 
     "model": {
-        "RESTName": "eventlog", 
+        "RESTName": "me", 
         "attributes": {
-            "diff": {
+            "avatarData": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -638,31 +783,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "Holds the results of diff between two objects of same type.", 
-                "exposed": true, 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "transient": false, 
-                "type": "DiffResult", 
-                "unique": false
-            }, 
-            "enterprise": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "channel": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The enterprise name of the user who triggered this event.", 
+                "description": "URL to the avatar data associated with the enterprise. If the avatarType is URL then value of avatarData should an URL of the image. If the avatarType BASE64 then avatarData should be BASE64 encoded value of the image", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -677,16 +798,20 @@
                 "type": "string", 
                 "unique": false
             }, 
-            "entities": {
+            "avatarType": {
                 "allowedChars": null, 
-                "allowedChoices": null, 
+                "allowedChoices": [
+                    "COMPUTEDURL", 
+                    "BASE64", 
+                    "URL"
+                ], 
                 "autogenerated": false, 
                 "availability": null, 
                 "channel": null, 
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "List of entities associated with the event.", 
+                "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -698,10 +823,10 @@
                 "readOnly": false, 
                 "required": false, 
                 "transient": false, 
-                "type": "Array[Dto]", 
+                "type": "enum", 
                 "unique": false
             }, 
-            "entityID": {
+            "disabled": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -710,7 +835,55 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The entity id associated with this event.", 
+                "description": "Status of the user account; true=disabled, false=not disabled; default value = false", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": false, 
+                "transient": false, 
+                "type": "boolean", 
+                "unique": false
+            }, 
+            "email": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Email address of the user", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "enterpriseID": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Identifier of the enterprise.", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -725,7 +898,7 @@
                 "type": "string", 
                 "unique": false
             }, 
-            "entityParentID": {
+            "enterpriseName": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -734,7 +907,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The entity parent id associated with this event. It can be null.", 
+                "description": "Name of the enterprise.", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -749,7 +922,7 @@
                 "type": "string", 
                 "unique": false
             }, 
-            "entityParentType": {
+            "firstName": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -758,7 +931,55 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "Event parent entity type.  Generally reported against enterprise.", 
+                "description": "First name of the user", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "lastName": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Last name of the user", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "mobileNumber": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Mobile Number of the user", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -773,7 +994,7 @@
                 "type": "string", 
                 "unique": false
             }, 
-            "entityType": {
+            "password": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -782,7 +1003,31 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The entity type of this event. It may be Domain, VirtualMachine, etc.,", 
+                "description": "User password stored as a hash (SHA-1 encrpted)", 
+                "exposed": true, 
+                "filterable": false, 
+                "format": null, 
+                "maxLength": null, 
+                "maxValue": null, 
+                "minLength": null, 
+                "minValue": null, 
+                "orderable": false, 
+                "readOnly": false, 
+                "required": true, 
+                "transient": false, 
+                "type": "string", 
+                "unique": false
+            }, 
+            "role": {
+                "allowedChars": null, 
+                "allowedChoices": null, 
+                "autogenerated": false, 
+                "availability": null, 
+                "channel": null, 
+                "creationOnly": false, 
+                "defaultOrder": false, 
+                "defaultValue": null, 
+                "description": "Role of the user.", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -797,7 +1042,7 @@
                 "type": "string", 
                 "unique": false
             }, 
-            "eventReceivedTime": {
+            "userName": {
                 "allowedChars": null, 
                 "allowedChoices": null, 
                 "autogenerated": false, 
@@ -806,7 +1051,7 @@
                 "creationOnly": false, 
                 "defaultOrder": false, 
                 "defaultValue": null, 
-                "description": "The time that event was received.", 
+                "description": "Unique Username of the user. Valid characters are alphabets, numbers and hyphen( - ).", 
                 "exposed": true, 
                 "filterable": false, 
                 "format": null, 
@@ -816,67 +1061,19 @@
                 "minValue": null, 
                 "orderable": false, 
                 "readOnly": false, 
-                "required": false, 
-                "transient": false, 
-                "type": "date", 
-                "unique": false
-            }, 
-            "type": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "channel": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The event type (CREATE, UPDATE or DELETE).", 
-                "exposed": true, 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
-                "transient": false, 
-                "type": "string", 
-                "unique": false
-            }, 
-            "user": {
-                "allowedChars": null, 
-                "allowedChoices": null, 
-                "autogenerated": false, 
-                "availability": null, 
-                "channel": null, 
-                "creationOnly": false, 
-                "defaultOrder": false, 
-                "defaultValue": null, 
-                "description": "The authenticated user who triggered this event.", 
-                "exposed": true, 
-                "filterable": false, 
-                "format": null, 
-                "maxLength": null, 
-                "maxValue": null, 
-                "minLength": null, 
-                "minValue": null, 
-                "orderable": false, 
-                "readOnly": false, 
-                "required": false, 
+                "required": true, 
                 "transient": false, 
                 "type": "string", 
                 "unique": false
             }
         }, 
-        "description": "The API retrieves the events related to a particular entity", 
-        "entityName": "EventLog", 
+        "description": "Object that identifies the user functions", 
+        "entityName": "Me", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "package": "/eventlog", 
-        "resourceName": "eventlogs"
+        "package": "/usermgmt", 
+        "resourceName": "me"
     }
 }
