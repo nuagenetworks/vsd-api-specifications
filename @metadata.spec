@@ -1,9 +1,9 @@
 {
     "children": {
-        "metadata": {
+        "root": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
     }
 }
