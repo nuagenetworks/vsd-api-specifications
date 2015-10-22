@@ -95,7 +95,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/nsg", 
+    "package": "nsg", 
     "resource_name": "nsporttemplates", 
     "rest_name": "nsporttemplate", 
     "update": true

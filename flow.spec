@@ -71,7 +71,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/appd", 
+    "package": "appd", 
     "resource_name": "flows", 
     "rest_name": "flow", 
     "update": true

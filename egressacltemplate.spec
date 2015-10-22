@@ -119,7 +119,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/acl", 
+    "package": "policy/acl", 
     "resource_name": "egressacltemplates", 
     "rest_name": "egressacltemplate", 
     "update": true

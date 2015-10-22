@@ -28,7 +28,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "multicastlists", 
     "rest_name": "multicastlist"
 }

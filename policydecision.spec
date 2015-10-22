@@ -86,7 +86,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy", 
+    "package": "policy", 
     "resource_name": "policydecisions", 
     "rest_name": "policydecision"
 }

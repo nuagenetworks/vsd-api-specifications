@@ -100,7 +100,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/infrastructure", 
+    "package": "infrastructure", 
     "resource_name": "infrastructureportprofiles", 
     "rest_name": "infrastructureportprofile", 
     "update": true

@@ -54,7 +54,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/nsg", 
+    "package": "nsg", 
     "resource_name": "nsgatewaytemplates", 
     "rest_name": "nsgatewaytemplate", 
     "update": true

@@ -48,7 +48,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "addressranges", 
     "rest_name": "addressrange", 
     "update": true

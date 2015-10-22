@@ -168,7 +168,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/gateway",
+    "package": "gateway",
     "resource_name": "nsredundantports",
     "rest_name": "nsredundantport",
     "update": true

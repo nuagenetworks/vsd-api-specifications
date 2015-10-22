@@ -57,7 +57,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/common",
+    "package": "common",
     "resource_name": "sites",
     "rest_name": "site",
     "update": true

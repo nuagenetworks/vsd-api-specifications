@@ -95,7 +95,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "vportmirrors", 
     "rest_name": "vportmirror", 
     "update": true

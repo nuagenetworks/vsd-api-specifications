@@ -174,7 +174,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "redundancygroups", 
     "rest_name": "redundancygroup", 
     "update": true

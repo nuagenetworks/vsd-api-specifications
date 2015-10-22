@@ -87,7 +87,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/appd", 
+    "package": "appd", 
     "resource_name": "flowsecuritypolicies", 
     "rest_name": "flowsecuritypolicy", 
     "update": true

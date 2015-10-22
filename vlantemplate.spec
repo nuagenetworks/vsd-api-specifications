@@ -36,7 +36,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "vlantemplates", 
     "rest_name": "vlantemplate", 
     "update": true

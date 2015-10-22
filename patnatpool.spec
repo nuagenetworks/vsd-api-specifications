@@ -94,7 +94,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "patnatpools", 
     "rest_name": "patnatpool", 
     "update": true

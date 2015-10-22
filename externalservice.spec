@@ -80,7 +80,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy", 
+    "package": "policy", 
     "resource_name": "externalservices", 
     "rest_name": "externalservice", 
     "update": true

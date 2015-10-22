@@ -89,7 +89,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/usermgmt", 
+    "package": "usermgmt", 
     "resource_name": "groups", 
     "rest_name": "group", 
     "update": true

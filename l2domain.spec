@@ -327,7 +327,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "l2domains", 
     "rest_name": "l2domain", 
     "update": true

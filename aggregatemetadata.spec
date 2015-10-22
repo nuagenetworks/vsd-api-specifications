@@ -61,7 +61,7 @@
     "extends": [
         "@base"
     ], 
-    "package": "/common", 
+    "package": "common", 
     "resource_name": "aggregatemetadatas", 
     "rest_name": "aggregatemetadata"
 }

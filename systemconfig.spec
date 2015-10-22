@@ -1007,7 +1007,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/systemconfig", 
+    "package": "systemconfig", 
     "resource_name": "systemconfigs", 
     "rest_name": "systemconfig", 
     "update": true

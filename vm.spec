@@ -272,7 +272,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vm", 
+    "package": "vm", 
     "resource_name": "vms", 
     "rest_name": "vm", 
     "update": true

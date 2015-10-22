@@ -112,7 +112,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/usermgmt", 
+    "package": "usermgmt", 
     "resource_name": "ldapconfigurations", 
     "rest_name": "ldapconfiguration", 
     "update": true

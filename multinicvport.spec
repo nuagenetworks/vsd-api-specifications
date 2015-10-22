@@ -23,7 +23,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "multinicvports", 
     "rest_name": "multinicvport"
 }

@@ -261,7 +261,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/acl", 
+    "package": "policy/acl", 
     "resource_name": "egressaclentrytemplates", 
     "rest_name": "egressaclentrytemplate", 
     "update": true

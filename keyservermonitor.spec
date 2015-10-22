@@ -93,7 +93,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/keyserver", 
+    "package": "keyserver", 
     "resource_name": "keyservermonitors", 
     "rest_name": "keyservermonitor", 
     "update": true

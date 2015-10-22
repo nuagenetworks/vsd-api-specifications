@@ -44,7 +44,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "ipreservations", 
     "rest_name": "ipreservation", 
     "update": true

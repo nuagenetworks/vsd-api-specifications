@@ -55,7 +55,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/qos", 
+    "package": "policy/qos", 
     "resource_name": "ratelimiters", 
     "rest_name": "ratelimiter", 
     "update": true

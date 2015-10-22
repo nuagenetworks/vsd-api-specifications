@@ -527,7 +527,7 @@
         "@base",
         "@metadata"
     ],
-    "package": "/vmware",
+    "package": "vmware",
     "resource_name": "vrsconfigs",
     "rest_name": "vrsconfig"
 }

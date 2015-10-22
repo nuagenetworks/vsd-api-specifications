@@ -25,7 +25,7 @@
         "@base",
         "@metadata"
     ],
-    "package": "/gateway",
+    "package": "gateway",
     "resource_name": "infraconfig",
     "rest_name": "infraconfig"
 }

@@ -52,7 +52,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "virtualips", 
     "rest_name": "virtualip", 
     "update": true

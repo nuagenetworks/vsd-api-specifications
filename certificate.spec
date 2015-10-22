@@ -52,7 +52,7 @@
         "@base", 
         "@metadata"
     ], 
-    "package": "/certificate", 
+    "package": "certificate", 
     "resource_name": "certificates", 
     "rest_name": "certificate"
 }

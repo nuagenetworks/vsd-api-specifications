@@ -35,7 +35,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy", 
+    "package": "policy", 
     "resource_name": "dscpforwardingclasstables", 
     "rest_name": "dscpforwardingclasstable", 
     "update": true

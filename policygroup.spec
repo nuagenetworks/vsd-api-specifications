@@ -93,7 +93,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "policygroups", 
     "rest_name": "policygroup", 
     "update": true

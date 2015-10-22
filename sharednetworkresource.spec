@@ -238,7 +238,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "sharednetworkresources", 
     "rest_name": "sharednetworkresource", 
     "update": true

@@ -114,7 +114,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "redirectiontargets", 
     "rest_name": "redirectiontarget", 
     "update": true

@@ -235,7 +235,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "hscs", 
     "rest_name": "hsc", 
     "update": true

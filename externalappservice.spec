@@ -162,7 +162,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/appd", 
+    "package": "appd", 
     "resource_name": "externalappservices", 
     "rest_name": "externalappservice", 
     "update": true

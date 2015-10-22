@@ -130,7 +130,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "zonetemplates", 
     "rest_name": "zonetemplate", 
     "update": true

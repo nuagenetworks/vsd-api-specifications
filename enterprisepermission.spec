@@ -72,7 +72,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "enterprisepermissions", 
     "rest_name": "enterprisepermission", 
     "update": true

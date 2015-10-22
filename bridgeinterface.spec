@@ -179,7 +179,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "bridgeinterfaces", 
     "rest_name": "bridgeinterface", 
     "update": true

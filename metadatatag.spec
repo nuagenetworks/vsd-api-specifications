@@ -61,7 +61,7 @@
         "@base"
     ], 
     "get": true, 
-    "package": "/common", 
+    "package": "common", 
     "resource_name": "metadatatags", 
     "rest_name": "metadatatag", 
     "update": true

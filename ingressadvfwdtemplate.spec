@@ -83,7 +83,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/acl", 
+    "package": "policy/acl", 
     "resource_name": "ingressadvfwdtemplates", 
     "rest_name": "ingressadvfwdtemplate", 
     "update": true

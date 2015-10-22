@@ -214,7 +214,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/gateway",
+    "package": "gateway",
     "resource_name": "services",
     "rest_name": "service",
     "update": true

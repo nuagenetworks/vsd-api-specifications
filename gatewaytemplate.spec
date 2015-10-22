@@ -63,7 +63,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "gatewaytemplates", 
     "rest_name": "gatewaytemplate", 
     "update": true

@@ -274,7 +274,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/infrastructure", 
+    "package": "infrastructure", 
     "resource_name": "infrastructuregatewayprofiles", 
     "rest_name": "infrastructuregatewayprofile", 
     "update": true

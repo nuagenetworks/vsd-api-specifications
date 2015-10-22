@@ -58,7 +58,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "publicnetworks", 
     "rest_name": "publicnetwork", 
     "update": true

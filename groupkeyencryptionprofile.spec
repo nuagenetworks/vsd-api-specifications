@@ -228,7 +228,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/keyserver", 
+    "package": "keyserver", 
     "resource_name": "groupkeyencryptionprofiles", 
     "rest_name": "groupkeyencryptionprofile", 
     "update": true

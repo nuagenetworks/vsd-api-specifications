@@ -171,7 +171,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/qos", 
+    "package": "policy/qos", 
     "resource_name": "egressqospolicies", 
     "rest_name": "egressqospolicy", 
     "update": true

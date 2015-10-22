@@ -32,7 +32,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy", 
+    "package": "policy", 
     "resource_name": "endpoints", 
     "rest_name": "endpoint"
 }

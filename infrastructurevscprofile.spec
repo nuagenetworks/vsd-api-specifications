@@ -73,7 +73,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/infrastructure", 
+    "package": "infrastructure", 
     "resource_name": "infrastructurevscprofiles", 
     "rest_name": "infrastructurevscprofile", 
     "update": true

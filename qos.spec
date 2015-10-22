@@ -248,7 +248,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/qos", 
+    "package": "policy/qos", 
     "resource_name": "qos", 
     "rest_name": "qos", 
     "update": true

@@ -38,7 +38,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/stats", 
+    "package": "stats", 
     "resource_name": "statisticspolicies", 
     "rest_name": "statisticspolicy", 
     "update": true

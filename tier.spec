@@ -152,7 +152,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/appd", 
+    "package": "appd", 
     "resource_name": "tiers", 
     "rest_name": "tier", 
     "update": true

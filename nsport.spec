@@ -188,7 +188,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/nsg", 
+    "package": "nsg", 
     "resource_name": "nsports", 
     "rest_name": "nsport", 
     "update": true

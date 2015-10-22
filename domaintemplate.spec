@@ -146,7 +146,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "domaintemplates", 
     "rest_name": "domaintemplate", 
     "update": true

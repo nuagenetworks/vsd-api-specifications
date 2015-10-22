@@ -638,7 +638,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vmware", 
+    "package": "vmware", 
     "resource_name": "vcenters", 
     "rest_name": "vcenter", 
     "update": true

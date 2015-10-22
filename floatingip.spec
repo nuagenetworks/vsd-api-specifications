@@ -56,7 +56,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "floatingips", 
     "rest_name": "floatingip", 
     "update": true

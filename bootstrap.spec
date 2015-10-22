@@ -33,7 +33,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "bootstraps", 
     "rest_name": "bootstrap", 
     "update": true

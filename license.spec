@@ -232,7 +232,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/licensemgmt", 
+    "package": "licensemgmt", 
     "resource_name": "licenses", 
     "rest_name": "license"
 }

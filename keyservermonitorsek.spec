@@ -74,7 +74,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/keyserver", 
+    "package": "keyserver", 
     "resource_name": "keyservermonitorseks", 
     "rest_name": "keyservermonitorsek", 
     "update": true

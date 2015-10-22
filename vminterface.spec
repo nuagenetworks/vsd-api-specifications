@@ -218,7 +218,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vm", 
+    "package": "vm", 
     "resource_name": "vminterfaces", 
     "rest_name": "vminterface", 
     "update": true

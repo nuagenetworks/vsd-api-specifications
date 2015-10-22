@@ -128,7 +128,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/acl", 
+    "package": "policy/acl", 
     "resource_name": "ingressacltemplates", 
     "rest_name": "ingressacltemplate", 
     "update": true

@@ -145,7 +145,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "subnettemplates", 
     "rest_name": "subnettemplate", 
     "update": true

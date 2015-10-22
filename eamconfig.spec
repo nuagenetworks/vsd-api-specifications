@@ -65,7 +65,7 @@
         "@base",
         "@metadata"
     ],
-    "package": "/vmware",
+    "package": "vmware",
     "resource_name": "eamconfigs",
     "rest_name": "eamconfig"
 }

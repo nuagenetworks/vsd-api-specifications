@@ -63,7 +63,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "enterprisenetworks", 
     "rest_name": "enterprisenetwork", 
     "update": true

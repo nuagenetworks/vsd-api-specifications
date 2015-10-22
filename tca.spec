@@ -121,7 +121,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/stats", 
+    "package": "stats", 
     "resource_name": "tcas", 
     "rest_name": "tca", 
     "update": true

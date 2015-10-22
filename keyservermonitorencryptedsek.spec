@@ -54,7 +54,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/keyserver", 
+    "package": "keyserver", 
     "resource_name": "keyservermonitorencryptedseks", 
     "rest_name": "keyservermonitorencryptedsek"
 }

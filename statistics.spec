@@ -52,7 +52,7 @@
         "@base", 
         "@metadata"
     ], 
-    "package": "/stats", 
+    "package": "stats", 
     "resource_name": "statistics", 
     "rest_name": "statistics"
 }

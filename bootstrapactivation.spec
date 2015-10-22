@@ -97,7 +97,7 @@
         "@base", 
         "@metadata"
     ], 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "bootstrapactivations", 
     "rest_name": "bootstrapactivation", 
     "update": true

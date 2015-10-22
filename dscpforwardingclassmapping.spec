@@ -27,7 +27,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy", 
+    "package": "policy", 
     "resource_name": "dscpforwardingclassmappings", 
     "rest_name": "dscpforwardingclassmapping", 
     "update": true

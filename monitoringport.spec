@@ -84,7 +84,7 @@
         "@base", 
         "@metadata"
     ], 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "monitoringports", 
     "rest_name": "monitoringport"
 }

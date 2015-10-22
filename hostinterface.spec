@@ -206,7 +206,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "hostinterfaces", 
     "rest_name": "hostinterface", 
     "update": true

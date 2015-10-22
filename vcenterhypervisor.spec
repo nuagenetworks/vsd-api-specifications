@@ -712,7 +712,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vmware", 
+    "package": "vmware", 
     "resource_name": "vcenterhypervisors", 
     "rest_name": "vcenterhypervisor", 
     "update": true

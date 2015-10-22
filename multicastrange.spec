@@ -35,7 +35,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "multicastranges", 
     "rest_name": "multicastrange", 
     "update": true

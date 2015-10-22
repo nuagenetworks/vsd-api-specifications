@@ -39,7 +39,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "multicastchannelmaps", 
     "rest_name": "multicastchannelmap", 
     "update": true

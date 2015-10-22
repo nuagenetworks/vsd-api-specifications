@@ -380,7 +380,7 @@
         "@base", 
         "@metadata"
     ], 
-    "package": "/usermgmt", 
+    "package": "usermgmt", 
     "resource_name": "me", 
     "rest_name": "me"
 }

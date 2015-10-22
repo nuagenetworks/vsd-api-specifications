@@ -114,7 +114,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/usermgmt", 
+    "package": "usermgmt", 
     "resource_name": "users", 
     "rest_name": "user", 
     "update": true

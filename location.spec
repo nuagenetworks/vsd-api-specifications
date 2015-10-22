@@ -80,7 +80,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "locations", 
     "rest_name": "location", 
     "update": true

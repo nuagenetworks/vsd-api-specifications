@@ -153,7 +153,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "vlans", 
     "rest_name": "vlan", 
     "update": true

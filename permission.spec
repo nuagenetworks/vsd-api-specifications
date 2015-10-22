@@ -79,7 +79,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/usermgmt",
+    "package": "usermgmt",
     "resource_name": "permissions",
     "rest_name": "permission",
     "update": true

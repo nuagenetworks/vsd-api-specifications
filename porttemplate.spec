@@ -77,7 +77,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "porttemplates", 
     "rest_name": "porttemplate", 
     "update": true

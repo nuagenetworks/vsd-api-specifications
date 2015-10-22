@@ -67,7 +67,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "redirectiontargettemplates", 
     "rest_name": "redirectiontargettemplate", 
     "update": true

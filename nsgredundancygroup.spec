@@ -196,7 +196,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/nsg",
+    "package": "nsg",
     "resource_name": "nsgredundancygroups",
     "rest_name": "nsgredundancygroup",
     "update": true

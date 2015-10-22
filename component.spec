@@ -93,7 +93,7 @@
         "@base",
         "@metadata"
     ],
-    "package": "/sysmon",
+    "package": "sysmon",
     "resource_name": "components",
     "rest_name": "component"
 }

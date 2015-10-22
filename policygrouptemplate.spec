@@ -70,7 +70,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "policygrouptemplates", 
     "rest_name": "policygrouptemplate", 
     "update": true

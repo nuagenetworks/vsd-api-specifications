@@ -326,7 +326,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "subnets", 
     "rest_name": "subnet", 
     "update": true

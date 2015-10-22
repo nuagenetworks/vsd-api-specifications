@@ -224,7 +224,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "vsds", 
     "rest_name": "vsd", 
     "update": true

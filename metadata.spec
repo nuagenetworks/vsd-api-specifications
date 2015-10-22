@@ -74,7 +74,7 @@
         "@base"
     ], 
     "get": true, 
-    "package": "/common", 
+    "package": "common", 
     "resource_name": "metadatas", 
     "rest_name": "metadata", 
     "update": true

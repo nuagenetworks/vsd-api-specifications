@@ -143,7 +143,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/usermgmt", 
+    "package": "usermgmt", 
     "resource_name": "enterpriseprofiles", 
     "rest_name": "enterpriseprofile", 
     "update": true

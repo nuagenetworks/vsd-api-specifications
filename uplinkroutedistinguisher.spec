@@ -32,7 +32,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/network",
+    "package": "network",
     "resource_name": "uplinkroutedistinguishers",
     "rest_name": "uplinkroutedistinguisher"
 }

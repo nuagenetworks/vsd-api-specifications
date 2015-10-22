@@ -221,7 +221,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "zones", 
     "rest_name": "zone", 
     "update": true

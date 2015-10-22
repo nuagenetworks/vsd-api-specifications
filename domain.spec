@@ -486,7 +486,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "domains", 
     "rest_name": "domain", 
     "update": true

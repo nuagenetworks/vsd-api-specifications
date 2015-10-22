@@ -49,7 +49,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/stats",
+    "package": "stats",
     "resource_name": "statisticscollector",
     "rest_name": "statisticscollector",
     "update": true

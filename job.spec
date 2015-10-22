@@ -93,7 +93,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/job", 
+    "package": "job", 
     "resource_name": "jobs", 
     "rest_name": "job", 
     "update": true

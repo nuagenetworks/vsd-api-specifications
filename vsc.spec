@@ -211,7 +211,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "vscs", 
     "rest_name": "vsc", 
     "update": true

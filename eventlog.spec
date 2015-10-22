@@ -98,7 +98,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/eventlog", 
+    "package": "eventlog", 
     "resource_name": "eventlogs", 
     "rest_name": "eventlog"
 }

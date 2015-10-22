@@ -97,7 +97,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/appd", 
+    "package": "appd", 
     "resource_name": "applicationservices", 
     "rest_name": "applicationservice", 
     "update": true

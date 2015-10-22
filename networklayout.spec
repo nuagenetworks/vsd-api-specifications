@@ -41,7 +41,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "networklayout", 
     "rest_name": "networklayout", 
     "update": true

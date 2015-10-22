@@ -18,7 +18,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/cms",
+    "package": "cms",
     "resource_name": "cms",
     "rest_name": "cms"
 }

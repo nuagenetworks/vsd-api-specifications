@@ -158,7 +158,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "gateways", 
     "rest_name": "gateway", 
     "update": true

@@ -42,7 +42,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "mirrordestinations", 
     "rest_name": "mirrordestination", 
     "update": true

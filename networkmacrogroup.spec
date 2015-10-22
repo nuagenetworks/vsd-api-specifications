@@ -35,7 +35,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "networkmacrogroups", 
     "rest_name": "networkmacrogroup", 
     "update": true

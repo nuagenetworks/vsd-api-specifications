@@ -37,7 +37,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "vpnconnections", 
     "rest_name": "vpnconnection", 
     "update": true

@@ -39,7 +39,7 @@
         "@base", 
         "@metadata"
     ], 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "bgppeers", 
     "rest_name": "bgppeer"
 }

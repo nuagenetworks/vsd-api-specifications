@@ -38,7 +38,7 @@
         "@base",
         "@metadata"
     ],
-    "package": "/vm",
+    "package": "vm",
     "resource_name": "resync",
     "rest_name": "resync"
 }

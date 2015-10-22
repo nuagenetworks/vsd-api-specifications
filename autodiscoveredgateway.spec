@@ -91,7 +91,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "autodiscoveredgateways", 
     "rest_name": "autodiscoveredgateway"
 }

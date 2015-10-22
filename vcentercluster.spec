@@ -563,7 +563,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vmware", 
+    "package": "vmware", 
     "resource_name": "vcenterclusters", 
     "rest_name": "vcentercluster", 
     "update": true

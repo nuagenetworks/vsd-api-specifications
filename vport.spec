@@ -265,7 +265,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/vport", 
+    "package": "vport", 
     "resource_name": "vports", 
     "rest_name": "vport", 
     "update": true

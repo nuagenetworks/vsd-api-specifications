@@ -39,7 +39,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/gateway", 
+    "package": "gateway", 
     "resource_name": "natmapentries", 
     "rest_name": "natmapentry"
 }

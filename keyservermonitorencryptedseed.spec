@@ -72,7 +72,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/keyserver", 
+    "package": "keyserver", 
     "resource_name": "keyservermonitorencryptedseeds", 
     "rest_name": "keyservermonitorencryptedseed", 
     "update": true

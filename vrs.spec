@@ -403,7 +403,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "vrss", 
     "rest_name": "vrs", 
     "update": true

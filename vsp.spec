@@ -62,7 +62,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/sysmon", 
+    "package": "sysmon", 
     "resource_name": "vsps", 
     "rest_name": "vsp", 
     "update": true

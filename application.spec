@@ -104,7 +104,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/appd",
+    "package": "appd",
     "resource_name": "applications",
     "rest_name": "application",
     "update": true

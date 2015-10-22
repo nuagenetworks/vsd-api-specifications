@@ -177,7 +177,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "l2domaintemplates", 
     "rest_name": "l2domaintemplate", 
     "update": true

@@ -71,7 +71,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/common", 
+    "package": "common", 
     "resource_name": "globalmetadatas", 
     "rest_name": "globalmetadata", 
     "update": true

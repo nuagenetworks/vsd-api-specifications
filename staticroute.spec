@@ -67,7 +67,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/network", 
+    "package": "network", 
     "resource_name": "staticroutes", 
     "rest_name": "staticroute", 
     "update": true

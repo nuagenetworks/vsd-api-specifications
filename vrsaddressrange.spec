@@ -29,7 +29,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/vmware",
+    "package": "vmware",
     "resource_name": "vrsaddressranges",
     "rest_name": "vrsaddressrange",
     "update": true

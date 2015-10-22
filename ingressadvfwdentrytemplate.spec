@@ -297,7 +297,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/policy/acl", 
+    "package": "policy/acl", 
     "resource_name": "ingressadvfwdentrytemplates", 
     "rest_name": "ingressadvfwdentrytemplate", 
     "update": true

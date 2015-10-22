@@ -376,7 +376,7 @@
         "@metadata"
     ],
     "get": true,
-    "package": "/usermgmt",
+    "package": "usermgmt",
     "resource_name": "enterprises",
     "rest_name": "enterprise",
     "update": true

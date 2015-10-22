@@ -242,7 +242,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/nsg", 
+    "package": "nsg", 
     "resource_name": "nsgateways", 
     "rest_name": "nsgateway", 
     "update": true

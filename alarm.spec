@@ -109,7 +109,7 @@
         "@metadata"
     ], 
     "get": true, 
-    "package": "/alarm", 
+    "package": "alarm", 
     "resource_name": "alarms", 
     "rest_name": "alarm", 
     "update": true
