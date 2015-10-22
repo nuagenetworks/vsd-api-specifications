@@ -3,24 +3,36 @@
         "description": {
             "description": "Description of the VSP", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "location": {
             "description": "Installed location of the VSP product", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the VSP", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "productVersion": {
             "description": "Product version number for VSP", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }

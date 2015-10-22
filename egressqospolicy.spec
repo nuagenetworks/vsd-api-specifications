@@ -3,24 +3,36 @@
         "assocEgressQos": {
             "description": "Object associated with this Qos object.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "assocEgressQosId": {
             "description": "ID of object associated with this QoS object", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the QoS object", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "A unique name of the QoS object", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -28,12 +40,18 @@
         "parentQueueAssociatedRateLimiterID": {
             "description": "ID of the parent rate limiter associated with this Egress QOS policy.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "queue1AssociatedRateLimiterID": {
             "description": "ID of the queue1 rate limiter associated with this Egress QOS policy.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -51,12 +69,18 @@
             ], 
             "description": "Queue1 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "queue2AssociatedRateLimiterID": {
             "description": "ID of the queue2 rate limiter associated with this Egress QOS policy.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -74,12 +98,18 @@
             ], 
             "description": "Queue2 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "queue3AssociatedRateLimiterID": {
             "description": "ID of the queue3 rate limiter associated with this Egress QOS policy.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -97,12 +127,18 @@
             ], 
             "description": "Queue3 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "queue4AssociatedRateLimiterID": {
             "description": "ID of the queue4 rate limiter associated with this Egress QOS policy.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -120,6 +156,9 @@
             ], 
             "description": "Queue4 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }

@@ -3,24 +3,36 @@
         "EVPNCommunityTag": {
             "description": "An extended community or other similar BGP attribute to the specific EVPN / IP-VPN NLRI where the VM or network macro is being advertised.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "Describes this policy group", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "external": {
             "description": "Indicates whether this PG is internal to VSP or not.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "boolean", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the policy group", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -32,6 +44,9 @@
             ], 
             "description": "Type of policy group - possible values SOFTWARE/HARDWARE Possible values are SOFTWARE, HARDWARE, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "enum", 
             "uniqueScope": "no"

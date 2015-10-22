@@ -3,6 +3,9 @@
         "description": {
             "description": "Description of the External Service.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -12,12 +15,18 @@
             ], 
             "description": "Direction -  INGRESS Possible values are INGRESS, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "unique name of the External Service. ", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -29,6 +38,9 @@
             ], 
             "description": "Type of the SERVICE -  L3,L2 Possible values are L3, L2, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "enum", 
             "uniqueScope": "no"
@@ -39,6 +51,9 @@
             ], 
             "description": "Stage -  START,END Possible values are START, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }

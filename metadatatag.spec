@@ -3,24 +3,36 @@
         "associatedExternalServiceID": {
             "description": "ID of the entity to which the Metadata tag is  associated to", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "autoCreated": {
             "description": "set to true if it is the default metadata tag created as part of external service creation", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "boolean", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "Description of the Metadata tag.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "name of the Metadata tag.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"

@@ -3,12 +3,18 @@
         "address": {
             "description": "IP of the BGP peer.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "lastStateChange": {
             "description": "Last state change timestamp.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
@@ -20,6 +26,9 @@
             ], 
             "description": "Current connection status of the BGP peer. Possible values are UP, DOWN, ADMIN_DOWN, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }

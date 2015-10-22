@@ -3,12 +3,18 @@
         "lastRequestTimestamp": {
             "description": "Time of the last timestamp received", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "lastTimeResyncInitiated": {
             "description": "Time that the resync was initiated", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
@@ -19,6 +25,9 @@
             ], 
             "description": "Status of the resync - IN_PROGRESS, SUCCESS Possible values are IN_PROGRESS, SUCCESS, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }

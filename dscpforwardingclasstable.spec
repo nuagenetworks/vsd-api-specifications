@@ -3,12 +3,18 @@
         "description": {
             "description": "A description of the dscp-fc mapping table.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "A unique name of the dscp-fc mapping table.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"

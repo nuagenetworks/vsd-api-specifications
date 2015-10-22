@@ -7,24 +7,36 @@
             ], 
             "description": "Type for stats collector address Possible values are ip, fqdn, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "ipAddress": {
             "description": "IP address(es) of the stats collector process", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "port": {
             "description": "Port(s) of the stats collector process", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "protoBufPort": {
             "description": "Protobuf Port(s) of the stats collector process", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }

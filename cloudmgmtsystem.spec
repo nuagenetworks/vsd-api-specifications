@@ -3,6 +3,9 @@
         "name": {
             "description": "Name of the cloud management system", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }

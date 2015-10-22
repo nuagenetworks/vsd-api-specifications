@@ -3,60 +3,90 @@
         "address": {
             "description": "IP address of the tier defined.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "associatedApplicationID": {
             "description": "The associated network macro ID.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "associatedFloatingIPPoolID": {
             "description": "The associated floating IP Pool ID.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "associatedNetworkMacroID": {
             "description": "The associated network macro ID.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "associatedNetworkObjectID": {
             "description": "The associated network object id.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "associatedNetworkObjectType": {
             "description": "The associated network object type. Refer to API section for supported types.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "Description of the application tier.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "gateway": {
             "description": "The IP address of the gateway for this tier.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "metadata": {
             "description": "Metadata field to store tier related data.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the application tier.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -64,6 +94,9 @@
         "netmask": {
             "description": "Netmask for the tier.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -76,6 +109,9 @@
             ], 
             "description": "Type of the application tier. (Example: STANDARD, NETWORK_MACRO, APPLICATION or APPLICATION_EXTENDED_NETWORK Possible values are STANDARD, NETWORK_MACRO, APPLICATION, APPLICATION_EXTENDED_NETWORK, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "enum", 
             "uniqueScope": "no"

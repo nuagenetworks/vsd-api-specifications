@@ -3,6 +3,9 @@
         "IPAddress": {
             "description": "Static IP Address", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -10,6 +13,9 @@
         "MAC": {
             "description": "MAC Address", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -17,6 +23,9 @@
         "dynamicAllocationEnabled": {
             "description": "Binding is static or dynamic", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "boolean", 
             "uniqueScope": "no"
         }

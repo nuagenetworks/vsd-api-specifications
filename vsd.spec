@@ -3,78 +3,117 @@
         "URL": {
             "description": "An optional web url for management.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "address": {
             "description": "An optional IP to access this component.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "alreadyMarkedForUnavailable": {
             "description": "Flag to indicate that it is already marked a unavailable.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "boolean", 
             "uniqueScope": "no"
         }, 
         "averageCPUUsage": {
             "description": "Average CPU usage percentage.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "averageMemoryUsage": {
             "description": "Average memory usage percentage.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "currentCPUUsage": {
             "description": "Current CPU usage percentage.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "currentMemoryUsage": {
             "description": "Current memory usage percentage.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "Description of the entity.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "disks": {
             "description": "Set of disk usage details.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "list", 
             "uniqueScope": "no"
         }, 
         "lastStateChange": {
             "description": "Last state change timestamp (in millis).", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "location": {
             "description": "Identifies the entity to be associated with a location.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "managementIP": {
             "description": "An optional management IP to log into this component.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "messages": {
             "description": "An array of degraded messages.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "list", 
             "uniqueScope": "no"
         }, 
@@ -85,36 +124,54 @@
             ], 
             "description": "Standalone or cluster mode. Possible values are CLUSTER, STANDALONE, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Identifies the entity with a name.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "peakCPUUsage": {
             "description": "Peek CPU usage percentage.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "peakMemoryUsage": {
             "description": "Peek memory usage percentage.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "peerAddresses": {
             "description": "A comma separated list of peer addresses, if it is in cluster mode.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "productVersion": {
             "description": "Product version supported by this entity.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -126,12 +183,18 @@
             ], 
             "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "unavailableTimestamp": {
             "description": "The duration the controller is unavailable (in millis).", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }

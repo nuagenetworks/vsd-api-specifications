@@ -3,24 +3,36 @@
         "controllers": {
             "description": "Controllers to which this gateway instance is associated with.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "list", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the Gateway", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "gatewayID": {
             "description": "The Gateway associated with this  Auto Discovered Gateway  . This is a read only attribute", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the Gateway", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -37,6 +49,9 @@
             ], 
             "description": "Personality of the Gateway - VSG,VRSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "enum", 
             "uniqueScope": "no"
@@ -44,6 +59,9 @@
         "systemID": {
             "description": "Identifier of the Gateway", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }

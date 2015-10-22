@@ -3,12 +3,18 @@
         "creationTime": {
             "description": "The time this entry was created (milliseconds since epoch)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }, 
         "lifetime": {
             "description": "The lifetime of this entry (seconds)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
@@ -20,6 +26,9 @@
             ], 
             "description": "SEK Payload Signature Algorithm Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA512, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
@@ -31,12 +40,18 @@
             ], 
             "description": "SEK Payload Encryption Algorithm Possible values are AES_128_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "startTime": {
             "description": "The time this entry  was activated (milliseconds since epoch)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }

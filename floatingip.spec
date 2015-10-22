@@ -3,24 +3,36 @@
         "address": {
             "description": "Floating IP address assigned to the Domain", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "assigned": {
             "description": "True if this floating IP is assigned to a network interface else the value is false", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "boolean", 
             "uniqueScope": "no"
         }, 
         "assignedToObjectType": {
             "description": "The object type to which this floating ip is assigned. Eg. vport or virtualip", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "associatedSharedNetworkResourceID": {
             "description": "Id of the shared network resource subnet which was used to get this floating IP address", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"

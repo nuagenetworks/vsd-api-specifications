@@ -3,12 +3,18 @@
         "SEKGenerationInterval": {
             "description": "Group Key SEK Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
         "SEKLifetime": {
             "description": "Group Key SEK Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
@@ -18,18 +24,27 @@
             ], 
             "description": "Group Key SEK Payload Encryption Algorithm. Possible values are RSA_1024, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "SEKPayloadEncryptionBCAlgorithm": {
             "description": "Group Key Sek Payload Encryption BC Algorithm (read only)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "SEKPayloadEncryptionKeyLength": {
             "description": "Group Key Sek Payload Encryption Key Length (read only)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
@@ -43,30 +58,45 @@
             ], 
             "description": "Group Key SEK Payload Signature Algorithm. Possible values are SHA1withRSA, SHA224withRSA, SHA256withRSA, SHA384withRSA, SHA512withRSA, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the Profile instance created.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the Encryption Profile", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "seedGenerationInterval": {
             "description": "Group Key SEED Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
         "seedLifetime": {
             "description": "Group Key SEED Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
@@ -78,18 +108,27 @@
             ], 
             "description": "Group Key SEK Payload Signature Algorithm. Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA512, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "seedPayloadAuthenticationBCAlgorithm": {
             "description": "Group Key Seed Payload Authentication Algorithm (read only)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "seedPayloadAuthenticationKeyLength": {
             "description": "Group Key Seed Payload Authentication Key Length  (read only)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
@@ -101,18 +140,27 @@
             ], 
             "description": "Group Key SEED Payload Encryption Algorithm. Possible values are AES_128_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "seedPayloadEncryptionBCAlgorithm": {
             "description": "Group Key Seed Payload Encryption Algorithm (read only)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "seedPayloadEncryptionKeyLength": {
             "description": "Group Key Seed Payload Encryption Key Length (read only)", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
@@ -126,6 +174,9 @@
             ], 
             "description": "Group Key Seed Payload Signature Algorithm. Possible values are SHA1withRSA, SHA224withRSA, SHA256withRSA, SHA384withRSA, SHA512withRSA, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
@@ -139,6 +190,9 @@
             ], 
             "description": "Group Key traffic Authentication Algorithm. Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA384, HMAC_SHA512, HMAC_MD5, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
@@ -151,12 +205,18 @@
             ], 
             "description": "Group Key traffic Encryption Algorithm. Possible values are AES_128_CBC, AES_192_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "trafficEncryptionKeyLifetime": {
             "description": "Group Key Traffic Encryption Key Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }

@@ -3,18 +3,27 @@
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the Port", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "value": {
             "description": "value of VLAN", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }

@@ -3,36 +3,54 @@
         "address": {
             "description": "An optional IP to access this component.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "description": {
             "description": "Description of the entity.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "location": {
             "description": "Identifies the entity to be associated with a location.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "managementIP": {
             "description": "An optional management IP to log into this component.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Identifies the entity with a name.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "productVersion": {
             "description": "Product version supported by this entity.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -44,6 +62,9 @@
             ], 
             "description": "Current status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
@@ -59,6 +80,9 @@
             ], 
             "description": "Type of the component Possible values are JBOSS, MEDIATOR, PERCONA, EJABBERD, TCA, STATSCOLLECTOR, STATSSERVER, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }

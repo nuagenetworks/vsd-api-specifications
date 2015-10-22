@@ -3,6 +3,9 @@
         "name": {
             "description": "Name for the Multi NIC VPort.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }

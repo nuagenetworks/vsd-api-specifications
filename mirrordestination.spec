@@ -3,18 +3,27 @@
         "destinationIp": {
             "description": "IP address of the destination server where you want your traffic to be mirrored.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the mirror destination. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
         "serviceId": {
             "description": "Service ID of the mirror destination.", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "float", 
             "uniqueScope": "no"
         }

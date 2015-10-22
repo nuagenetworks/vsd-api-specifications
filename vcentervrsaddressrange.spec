@@ -3,6 +3,9 @@
         "maxAddress": {
             "description": "Higest address in the address range", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -10,6 +13,9 @@
         "minAddress": {
             "description": "Lowest address in the address range", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"

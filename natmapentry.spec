@@ -3,6 +3,9 @@
         "associatedPATNATPoolID": {
             "description": "Read Only - Indicates which PATNATPool this entry belongs to", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -10,6 +13,9 @@
         "privateIP": {
             "description": "Private IP address of the interface", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -17,6 +23,9 @@
         "publicIP": {
             "description": "Public IP address of the interface", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"

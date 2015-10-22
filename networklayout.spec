@@ -3,12 +3,18 @@
         "autonomousSystemNum": {
             "description": "The AS number associated with this data center", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
         "routeReflectorIP": {
             "description": "The IP address of the route reflector that can be used by the VSCs", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }, 
@@ -20,6 +26,9 @@
             ], 
             "description": "Identifies whether L3 or L2 services are supported. Only L3services are supported in R1.0. Possible values are ROUTER_ONLY, ROUTER_SWITCH, SUBNET_ONLY, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }

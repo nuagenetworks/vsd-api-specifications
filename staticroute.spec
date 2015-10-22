@@ -7,12 +7,18 @@
             ], 
             "description": "IPv4 or IPv6 (only IPv4 supported in R1.0) Possible values are IPV4, IPV6, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }, 
         "address": {
             "description": "IP address of the route", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -20,6 +26,9 @@
         "netmask": {
             "description": "Netmask associated with the route", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -27,6 +36,9 @@
         "nextHopIp": {
             "description": "IP address of the next hop. This must be a VM attached to the dVRS", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
             "type": "string", 
             "uniqueScope": "no"
@@ -34,6 +46,9 @@
         "routeDistinguisher": {
             "description": "Route distinguisher associated with the nexthop. System generates this identifier automatically", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
         }

@@ -7,6 +7,9 @@
             ], 
             "description": "Type of multicast list - send or receive Possible values are SEND, RECEIVE, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
         }
