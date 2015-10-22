@@ -1,70 +1,70 @@
 {
     "attributes": {
-        "autoCreated": {
-            "description": "set to true if it is the default metadata tag created as part of external service creation", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
         "associatedExternalServiceID": {
             "description": "ID of the entity to which the Metadata tag is  associated to", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "autoCreated": {
+            "description": "set to true if it is the default metadata tag created as part of external service creation", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "Description of the Metadata tag.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "name of the Metadata tag.", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "globalmetadata": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
+        }, 
+        "metadata": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
         }
     }, 
     "model": {
-        "resource_name": "metadatatags", 
+        "delete": true, 
         "description": "Metadata tag associated to a metadata", 
         "entity_name": "MetadataTag", 
-        "package": "common", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "metadatatag", 
         "extends": [
             "@base"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "globalmetadata": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "metadata": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "common", 
+        "resource_name": "metadatatags", 
+        "rest_name": "metadatatag", 
+        "update": true
     }
 }

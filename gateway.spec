@@ -1,47 +1,52 @@
 {
     "attributes": {
-        "description": {
-            "description": "A description of the Gateway", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
         "autoDiscGatewayID": {
             "description": "The Auto Discovered Gateway associated with this Gateway Instance", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "description": {
+            "description": "A description of the Gateway", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "redundancyGroupID": {
-            "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute", 
-            "format": "free", 
-            "filterable": true, 
+        "name": {
+            "description": "Name of the Gateway", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "pending": {
+            "description": "Indicates that this gateway is pending state or state. When in pending state it cannot be modified from REST.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "permittedAction": {
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -50,34 +55,15 @@
                 "READ", 
                 "ALL"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "templateID": {
-            "description": "The ID of the template that this Gateway was created from. This should be set when instantiating a Gateway", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "systemID": {
-            "description": "Identifier of the Gateway, cannot be modified after creation", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "personality": {
-            "required": true, 
-            "description": "Personality of the Gateway - VSG,VRSG,NSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "DC7X50", 
                 "OTHER", 
@@ -87,81 +73,95 @@
                 "HARDWARE_VTEP", 
                 "NSG"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "pending": {
-            "description": "Indicates that this gateway is pending state or state. When in pending state it cannot be modified from REST.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Personality of the Gateway - VSG,VRSG,NSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "name": {
-            "description": "Name of the Gateway", 
-            "format": "free", 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "redundancyGroupID": {
+            "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "systemID": {
+            "description": "Identifier of the Gateway, cannot be modified after creation", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "templateID": {
+            "description": "The ID of the template that this Gateway was created from. This should be set when instantiating a Gateway", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "alarm": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "enterprisepermission": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "job": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "patnatpool": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
+        }, 
+        "permission": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "port": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "service": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "gateways", 
+        "delete": true, 
         "description": "Represents Gateway object.", 
         "entity_name": "Gateway", 
-        "package": "gateway", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "gateway", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "service": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "permission": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "alarm": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "enterprisepermission": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "job": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "patnatpool": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "port": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "gateways", 
+        "rest_name": "gateway", 
+        "update": true
     }
 }

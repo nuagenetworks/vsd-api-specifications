@@ -2,38 +2,14 @@
     "attributes": {
         "name": {
             "description": "Name of the  Permission", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "permittedEntityType": {
-            "description": "Type of the entity for which we have given permission.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "permittedEntityDescription": {
-            "description": "Description for the permittedEntity", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "permittedAction": {
-            "required": true, 
-            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -42,40 +18,64 @@
                 "READ", 
                 "ALL"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "permittedEntityName": {
-            "description": "Name of the entity for which we have given permission.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "permittedEntityDescription": {
+            "description": "Description for the permittedEntity", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "permittedEntityID": {
             "description": "The enterprise permitted to use/extend  this Gateway", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "permittedEntityName": {
+            "description": "Name of the entity for which we have given permission.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "permittedEntityType": {
+            "description": "Type of the entity for which we have given permission.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "enterprisepermissions", 
+        "delete": true, 
         "description": "Represents Enterprise Permission for a CSP entity", 
         "entity_name": "EnterprisePermission", 
-        "package": "gateway", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "enterprisepermission", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "enterprisepermissions", 
+        "rest_name": "enterprisepermission", 
+        "update": true
     }
 }

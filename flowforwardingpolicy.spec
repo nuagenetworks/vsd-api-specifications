@@ -1,96 +1,96 @@
 {
     "attributes": {
-        "associatedNetworkObjectType": {
-            "description": "The associated network object type. Refer to API section for supported types.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "enum"
-        }, 
         "associatedApplicationServiceID": {
             "description": "The associated service id.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "redirectTargetID": {
-            "description": "The associated service id.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedNetworkObjectID": {
             "description": "The associated network object id.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "flowID": {
-            "description": "The associated service id.", 
-            "format": "free", 
-            "filterable": true, 
+        "associatedNetworkObjectType": {
+            "description": "The associated network object type. Refer to API section for supported types.", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "type": {
-            "description": "The redirect type.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "destinationAddressOverwrite": {
             "description": "The destination address overwrite. Needs to be in CIDR format x.x.x.x/n", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "flowID": {
+            "description": "The associated service id.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "redirectTargetID": {
+            "description": "The associated service id.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "sourceAddressOverwrite": {
             "description": "The source address overwrite. Needs to be in CIDR format x.x.x.x/n", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "type": {
+            "description": "The redirect type.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "flowforwardingpolicies", 
+        "delete": true, 
         "description": "The redirect policy on the flow.", 
         "entity_name": "FlowForwardingPolicy", 
-        "package": "appd", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "flowforwardingpolicy", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "appd", 
+        "resource_name": "flowforwardingpolicies", 
+        "rest_name": "flowforwardingpolicy", 
+        "update": true
     }
 }

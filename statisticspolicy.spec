@@ -2,46 +2,46 @@
     "attributes": {
         "dataCollectionFrequency": {
             "description": "How frequent to collect statistics in seconds", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "float"
+            "required": true, 
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the statistics policy", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of statistics policy", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "statisticspolicies", 
+        "delete": true, 
         "description": "Defines the frequency of statistics collection associated with an object", 
         "entity_name": "StatisticsPolicy", 
-        "package": "stats", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "statisticspolicy", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "stats", 
+        "resource_name": "statisticspolicies", 
+        "rest_name": "statisticspolicy", 
+        "update": true
     }
 }

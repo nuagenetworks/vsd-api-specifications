@@ -1,92 +1,92 @@
 {
     "attributes": {
-        "description": {
-            "description": "A description of the entity", 
-            "format": "free", 
-            "filterable": true, 
+        "active": {
+            "description": "If enabled, it means that this ACL or QOS entry is active", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "priorityType": {
-            "description": "", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "priority": {
-            "description": "The priority of the ACL entry that determines the order of entries", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "integer"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "associatedLiveEntityID": {
             "description": "In the draft mode, the ACL entry refers to this LiveEntity. In non-drafted mode, this is null.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "active": {
-            "description": "If enabled, it means that this ACL or QOS entry is active", 
-            "format": "free", 
-            "filterable": true, 
+        "description": {
+            "description": "A description of the entity", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "policyState": {
-            "description": "", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "The name of the entity", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "policyState": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "priority": {
+            "description": "The priority of the ACL entry that determines the order of entries", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "integer", 
+            "uniqueScope": "no"
+        }, 
+        "priorityType": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "ingressadvfwdtemplates", 
-        "description": "Defines the template for an Ingress Advanced Forwarding", 
-        "entity_name": "IngressAdvFwdTemplate", 
-        "package": "policy/acl", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "ingressadvfwdtemplate", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
     }, 
     "children": {
         "ingressadvfwdentrytemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "job": {
             "create": true, 
             "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Defines the template for an Ingress Advanced Forwarding", 
+        "entity_name": "IngressAdvFwdTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "policy/acl", 
+        "resource_name": "ingressadvfwdtemplates", 
+        "rest_name": "ingressadvfwdtemplate", 
+        "update": true
     }
 }

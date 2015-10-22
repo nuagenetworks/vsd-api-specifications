@@ -1,233 +1,233 @@
 {
     "attributes": {
+        "URL": {
+            "description": "An optional web url for management.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "address": {
+            "description": "An optional IP to access this component.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "alreadyMarkedForUnavailable": {
+            "description": "Flag to indicate that it is already marked a unavailable.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "averageCPUUsage": {
+            "description": "Average CPU usage percentage.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "averageMemoryUsage": {
+            "description": "Average memory usage percentage.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "currentCPUUsage": {
+            "description": "Current CPU usage percentage.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "currentMemoryUsage": {
+            "description": "Current memory usage percentage.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "description": {
+            "description": "Description of the entity.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "disks": {
+            "description": "Set of disk usage details.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "list", 
+            "uniqueScope": "no"
+        }, 
         "lastStateChange": {
             "description": "Last state change timestamp (in millis).", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "location": {
+            "description": "Identifies the entity to be associated with a location.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "managementIP": {
+            "description": "An optional management IP to log into this component.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "messages": {
+            "description": "An array of degraded messages.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "list", 
+            "uniqueScope": "no"
+        }, 
+        "mode": {
+            "allowed_choices": [
+                "CLUSTER", 
+                "STANDALONE"
+            ], 
+            "description": "Standalone or cluster mode. Possible values are CLUSTER, STANDALONE, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Identifies the entity with a name.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "peakCPUUsage": {
+            "description": "Peek CPU usage percentage.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "peakMemoryUsage": {
+            "description": "Peek memory usage percentage.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "peerAddresses": {
+            "description": "A comma separated list of peer addresses, if it is in cluster mode.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "productVersion": {
+            "description": "Product version supported by this entity.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "status": {
-            "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "DOWN", 
                 "UP", 
                 "ADMIN_DOWN"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "disks": {
-            "description": "Set of disk usage details.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "list"
-        }, 
-        "description": {
-            "description": "Description of the entity.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "alreadyMarkedForUnavailable": {
-            "description": "Flag to indicate that it is already marked a unavailable.", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean"
-        }, 
-        "URL": {
-            "description": "An optional web url for management.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Identifies the entity with a name.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "managementIP": {
-            "description": "An optional management IP to log into this component.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "currentCPUUsage": {
-            "description": "Current CPU usage percentage.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "messages": {
-            "description": "An array of degraded messages.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "list"
-        }, 
-        "productVersion": {
-            "description": "Product version supported by this entity.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "peakMemoryUsage": {
-            "description": "Peek memory usage percentage.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "mode": {
-            "description": "Standalone or cluster mode. Possible values are CLUSTER, STANDALONE, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "allowed_choices": [
-                "CLUSTER", 
-                "STANDALONE"
-            ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "currentMemoryUsage": {
-            "description": "Current memory usage percentage.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "unavailableTimestamp": {
             "description": "The duration the controller is unavailable (in millis).", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "location": {
-            "description": "Identifies the entity to be associated with a location.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "peakCPUUsage": {
-            "description": "Peek CPU usage percentage.", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float"
-        }, 
-        "address": {
-            "description": "An optional IP to access this component.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "averageCPUUsage": {
-            "description": "Average CPU usage percentage.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "peerAddresses": {
-            "description": "A comma separated list of peer addresses, if it is in cluster mode.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "averageMemoryUsage": {
-            "description": "Average memory usage percentage.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "vsds", 
-        "description": "System Monitoring details for VSD", 
-        "entity_name": "VSD", 
-        "package": "sysmon", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "vsd", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ]
     }, 
     "children": {
         "alarm": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "component": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
         }, 
         "job": {
             "create": true, 
             "relationship": "child"
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
         }
+    }, 
+    "model": {
+        "description": "System Monitoring details for VSD", 
+        "entity_name": "VSD", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "sysmon", 
+        "resource_name": "vsds", 
+        "rest_name": "vsd", 
+        "update": true
     }
 }

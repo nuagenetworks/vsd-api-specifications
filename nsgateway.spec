@@ -1,47 +1,124 @@
 {
     "attributes": {
-        "configurationReloadState": {
-            "description": "", 
-            "format": "free", 
-            "filterable": true, 
+        "NATTraversalEnabled": {
+            "description": "Boolean value that states if the NSG instance is in a network that is behind a NAT device and will use NAT Traversal procedures to talk to other NSGs and the Internet.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "bootstrapID": {
-            "description": "The bootstrap details associated with this NSGateway. NOTE: this is a read only property, it can only be set during creation of an NSG", 
-            "format": "free", 
-            "filterable": true, 
+        "associatedGatewaySecurityID": {
+            "description": "Readonly Id of the associated gateway security object", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedGatewaySecurityProfileID": {
             "description": "Readonly Id of the associated gateway security profile object", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "autoDiscGatewayID": {
+            "description": "The Auto Discovered Gateway associated with this Gateway Instance", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "bootstrapID": {
+            "description": "The bootstrap details associated with this NSGateway. NOTE: this is a read only property, it can only be set during creation of an NSG", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "configurationReloadState": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "configurationStatus": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "datapathID": {
+            "description": "Identifier of the Gateway, based on the systemId", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the Gateway", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "enterpriseID": {
+            "description": "The enterprise associated with this Gateway. This is a read only attribute", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "locationID": {
+            "description": "The NSGateway's Location. NOTE: this is a read only property, it can only be set through the location object", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Name of the Gateway", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "pending": {
+            "description": "Indicates that this gateway is pending state or state. When in pending state it cannot be modified from REST.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "permittedAction": {
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -50,202 +127,125 @@
                 "READ", 
                 "ALL"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "NATTraversalEnabled": {
-            "description": "Boolean value that states if the NSG instance is in a network that is behind a NAT device and will use NAT Traversal procedures to talk to other NSGs and the Internet.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "systemID": {
-            "description": "Identifier of the Gateway, cannot be modified after creation", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "configurationStatus": {
-            "description": "", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "enum"
-        }, 
-        "associatedGatewaySecurityID": {
-            "description": "Readonly Id of the associated gateway security object", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "enterpriseID": {
-            "description": "The enterprise associated with this Gateway. This is a read only attribute", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "locationID": {
-            "description": "The NSGateway's Location. NOTE: this is a read only property, it can only be set through the location object", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "pending": {
-            "description": "Indicates that this gateway is pending state or state. When in pending state it cannot be modified from REST.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "templateID": {
-            "description": "The ID of the template that this Gateway was created from. This should be set when instantiating a Gateway", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "redundancyGroupID": {
-            "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "personality": {
             "description": "Personality of the Gateway - NSG, cannot be changed after creation.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "datapathID": {
-            "description": "Identifier of the Gateway, based on the systemId", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "ports": {
             "description": "Collection of ports associated with the NSG.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "list"
-        }, 
-        "autoDiscGatewayID": {
-            "description": "The Auto Discovered Gateway associated with this Gateway Instance", 
-            "format": "free", 
             "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "list", 
+            "uniqueScope": "no"
+        }, 
+        "redundancyGroupID": {
+            "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Name of the Gateway", 
-            "format": "free", 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "systemID": {
+            "description": "Identifier of the Gateway, cannot be modified after creation", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "templateID": {
+            "description": "The ID of the template that this Gateway was created from. This should be set when instantiating a Gateway", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
-    "model": {
-        "resource_name": "nsgateways", 
-        "description": "Represents Network Service Gateway object.", 
-        "entity_name": "NSGateway", 
-        "package": "nsg", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "nsgateway", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
-    }, 
     "children": {
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "permission": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
         "alarm": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "bootstrap": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "enterprisepermission": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "job": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "infraconfig": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "location": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "bootstrapactivation": {
             "create": true, 
             "relationship": "child"
         }, 
-        "patnatpool": {
-            "update": true, 
+        "enterprisepermission": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "infraconfig": {
+            "get": true, 
             "relationship": "child", 
-            "get": true
+            "update": true
+        }, 
+        "job": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "location": {
+            "get": true, 
+            "relationship": "child"
         }, 
         "nsport": {
             "create": true, 
-            "update": true, 
+            "get": true, 
             "relationship": "child", 
-            "get": true
+            "update": true
+        }, 
+        "patnatpool": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
+        }, 
+        "permission": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Represents Network Service Gateway object.", 
+        "entity_name": "NSGateway", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "nsg", 
+        "resource_name": "nsgateways", 
+        "rest_name": "nsgateway", 
+        "update": true
     }
 }

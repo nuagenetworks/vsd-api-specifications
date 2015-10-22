@@ -2,39 +2,39 @@
     "attributes": {
         "routeDistinguisher": {
             "description": "The uplink route distinguisher value is used to identify which route packets should be flowing through with regards to having multiple network ports on the VRS/NSG.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "uplinkType": {
-            "description": "Indicates the uplink type associated with the instance of Uplink Route Distinguisher.  Default value is RD Primary1 Possible values are RD_PRIMARY1, RD_PRIMARY2, RD_SECONDARY1, RD_SECONDARY2, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "RD_PRIMARY2", 
                 "RD_PRIMARY1", 
                 "RD_SECONDARY1", 
                 "RD_SECONDARY2"
             ], 
+            "description": "Indicates the uplink type associated with the instance of Uplink Route Distinguisher.  Default value is RD Primary1 Possible values are RD_PRIMARY1, RD_PRIMARY2, RD_SECONDARY1, RD_SECONDARY2, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "uplinkroutedistinguishers", 
         "description": "Represents a network port uplink Route Distinguisher value.", 
         "entity_name": "UplinkRD", 
-        "package": "network", 
-        "get": true, 
-        "rest_name": "uplinkroutedistinguisher", 
         "extends": [
             "@base", 
             "@metadata"
-        ]
+        ], 
+        "get": true, 
+        "package": "network", 
+        "resource_name": "uplinkroutedistinguishers", 
+        "rest_name": "uplinkroutedistinguisher"
     }
 }

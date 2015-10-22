@@ -1,186 +1,186 @@
 {
     "attributes": {
-        "policyChangeStatus": {
-            "description": "", 
-            "format": "free", 
-            "filterable": true, 
+        "DHCPManaged": {
+            "description": "decides whether L2Domain / L2Domain template DHCP is managed by VSD", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "IPType": {
             "allowed_choices": [
                 "IPV6", 
                 "IPV4"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "description": {
-            "description": "A description field provided by the user that identifies the L2Domain / L2Domain template.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "DHCPManaged": {
-            "description": "decides whether L2Domain / L2Domain template DHCP is managed by VSD", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "name": {
-            "description": "Name of the L2Domain / L2Domain template,has to be unique within a Enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "address": {
+            "description": "Network address of the L2Domain / L2Domain template defined. ", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedMulticastChannelMapID": {
             "description": "The ID of the Multi Cast Channel Map this L2Domain / L2Domain template template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "netmask": {
-            "description": "Netmask of the L2Domain / L2Domain template defined", 
-            "format": "free", 
-            "filterable": true, 
+        "description": {
+            "description": "A description field provided by the user that identifies the L2Domain / L2Domain template.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "gateway": {
+            "description": "The IP address of the gateway of this l2 domain", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "multicast": {
-            "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "ENABLED", 
                 "INHERITED", 
                 "DISABLED"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "address": {
-            "description": "Network address of the L2Domain / L2Domain template defined. ", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "gateway": {
-            "description": "The IP address of the gateway of this l2 domain", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "IPType": {
-            "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .", 
             "format": "free", 
-            "filterable": true, 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Name of the L2Domain / L2Domain template,has to be unique within a Enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "netmask": {
+            "description": "Netmask of the L2Domain / L2Domain template defined", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "policyChangeStatus": {
             "allowed_choices": [
                 "IPV6", 
                 "IPV4"
             ], 
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }
     }, 
-    "model": {
-        "resource_name": "l2domaintemplates", 
-        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template", 
-        "entity_name": "L2DomainTemplate", 
-        "package": "network", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "l2domaintemplate", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
-    }, 
     "children": {
-        "group": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "permission": {
+        "addressrange": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "egressacltemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "l2domain": {
-            "relationship": "child", 
-            "get": true
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
         }, 
-        "addressrange": {
+        "group": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
+        }, 
+        "ingressacltemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "ingressadvfwdtemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "policygrouptemplate": {
+        "ingressexternalservicetemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "job": {
             "create": true, 
             "relationship": "child"
         }, 
-        "redirectiontargettemplate": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
+        "l2domain": {
+            "get": true, 
+            "relationship": "child"
         }, 
-        "ingressexternalservicetemplate": {
+        "permission": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "ingressacltemplate": {
+        "policygrouptemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "qos": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "redirectiontargettemplate": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template", 
+        "entity_name": "L2DomainTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "network", 
+        "resource_name": "l2domaintemplates", 
+        "rest_name": "l2domaintemplate", 
+        "update": true
     }
 }

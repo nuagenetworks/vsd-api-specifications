@@ -1,21 +1,24 @@
 {
     "attributes": {
+        "URLEndPoint": {
+            "description": "URL endpoint to post Alarm data to when TCA is triggered", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
         "description": {
             "description": "Desription of the TCA", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "metric": {
-            "required": true, 
-            "description": "The metric associated with the TCA - PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR and PACKETS_DROPPED_BY_RATE_LIMIT Possible values are PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT, PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR, PACKETS_DROPPED_BY_RATE_LIMIT, INGRESS_BYTE_COUNT, INGRESS_PACKET_COUNT, EGRESS_BYTE_COUNT, EGRESS_PACKET_COUNT, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "BYTES_IN", 
                 "EGRESS_BYTE_COUNT", 
@@ -31,100 +34,97 @@
                 "PACKETS_OUT", 
                 "EGRESS_PACKET_COUNT"
             ], 
+            "description": "The metric associated with the TCA - PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR and PACKETS_DROPPED_BY_RATE_LIMIT Possible values are PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT, PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR, PACKETS_DROPPED_BY_RATE_LIMIT, INGRESS_BYTE_COUNT, INGRESS_PACKET_COUNT, EGRESS_BYTE_COUNT, EGRESS_PACKET_COUNT, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "The name of the TCA", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "period": {
             "description": "The averaging period", 
-            "format": "free", 
+            "exposed": true, 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "URLEndPoint": {
-            "description": "URL endpoint to post Alarm data to when TCA is triggered", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "threshold": {
-            "description": "The threshold that must be exceeded before an alarm is issued", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "scope": {
-            "required": true, 
-            "description": "GLOBAL or LOCAL scope. Global refers to aggregate values across subnets, zones or domains. Local refers to traffic from/to individual VMs Possible values are GLOBAL, LOCAL, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "LOCAL", 
                 "GLOBAL"
             ], 
+            "description": "GLOBAL or LOCAL scope. Global refers to aggregate values across subnets, zones or domains. Local refers to traffic from/to individual VMs Possible values are GLOBAL, LOCAL, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "threshold": {
+            "description": "The threshold that must be exceeded before an alarm is issued", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "type": {
-            "required": true, 
-            "description": "Rolling average or sequence of samples over the averaging period - ROLLING_AVERAGE or BREACH Possible values are ROLLING_AVERAGE, BREACH, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "ROLLING_AVERAGE", 
                 "BREACH"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "name": {
-            "description": "The name of the TCA", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
+            "description": "Rolling average or sequence of samples over the averaging period - ROLLING_AVERAGE or BREACH Possible values are ROLLING_AVERAGE, BREACH, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "tcas", 
-        "description": "Provides the definition of the Threshold Control Alarms", 
-        "entity_name": "TCA", 
-        "package": "stats", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "tca", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
     }, 
     "children": {
         "alarm": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "eventlog": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Provides the definition of the Threshold Control Alarms", 
+        "entity_name": "TCA", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "stats", 
+        "resource_name": "tcas", 
+        "rest_name": "tca", 
+        "update": true
     }
 }

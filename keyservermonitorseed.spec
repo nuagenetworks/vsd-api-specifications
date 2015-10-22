@@ -1,62 +1,24 @@
 {
     "attributes": {
-        "seedTrafficEncryptionAlgorithm": {
-            "description": "Seed traffic Encryption Algorithm. Possible values are AES_128_CBC, AES_192_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "allowed_choices": [
-                "AES_128_CBC", 
-                "AES_256_CBC", 
-                "AES_192_CBC", 
-                "TRIPLE_DES_CBC"
-            ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
         "creationTime": {
             "description": "The time this entry was created (milliseconds since epoch)", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "startTime": {
-            "description": "The time this entry  was activated (milliseconds since epoch)", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "lifetime": {
             "description": "The lifetime of this entry (seconds)", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "integer"
-        }, 
-        "seedTrafficEncryptionKeyLifetime": {
-            "description": "Seed Traffic Encryption Key Lifetime in Seconds", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "seedTrafficAuthenticationAlgorithm": {
-            "description": "Seed traffic Authentication Algorithm. Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA384, HMAC_SHA512, HMAC_MD5, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "HMAC_SHA384", 
                 "HMAC_SHA512", 
@@ -64,28 +26,66 @@
                 "HMAC_MD5", 
                 "HMAC_SHA256"
             ], 
+            "description": "Seed traffic Authentication Algorithm. Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA384, HMAC_SHA512, HMAC_MD5, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "seedTrafficEncryptionAlgorithm": {
+            "allowed_choices": [
+                "AES_128_CBC", 
+                "AES_256_CBC", 
+                "AES_192_CBC", 
+                "TRIPLE_DES_CBC"
+            ], 
+            "description": "Seed traffic Encryption Algorithm. Possible values are AES_128_CBC, AES_192_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "seedTrafficEncryptionKeyLifetime": {
+            "description": "Seed Traffic Encryption Key Lifetime in Seconds", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "integer", 
+            "uniqueScope": "no"
+        }, 
+        "startTime": {
+            "description": "The time this entry  was activated (milliseconds since epoch)", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "keyservermonitorencryptedseed": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "keyservermonitorseeds", 
+        "delete": true, 
         "description": "Represents a Keyserver Monitor Seed Snapshot", 
         "entity_name": "KeyServerMonitorSeed", 
-        "package": "keyserver", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "keyservermonitorseed", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "keyservermonitorencryptedseed": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "keyserver", 
+        "resource_name": "keyservermonitorseeds", 
+        "rest_name": "keyservermonitorseed", 
+        "update": true
     }
 }

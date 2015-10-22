@@ -2,38 +2,14 @@
     "attributes": {
         "name": {
             "description": "Name of the  Permission", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "permittedEntityType": {
-            "description": "Type of the entity for which we have given permission.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "permittedEntityDescription": {
-            "description": "Description for the permittedEntity", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "permittedAction": {
-            "required": true, 
-            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -42,47 +18,71 @@
                 "READ", 
                 "ALL"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "permittedEntityName": {
-            "description": "Name of the entity for which we have given permission.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "permittedEntityDescription": {
+            "description": "Description for the permittedEntity", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "permittedEntityID": {
             "description": "The  entity ID for which this permission action is associated against Possible values are .", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "permittedEntityName": {
+            "description": "Name of the entity for which we have given permission.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "permittedEntityType": {
+            "description": "Type of the entity for which we have given permission.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "permissions", 
+        "delete": true, 
         "description": "Represents  Permitted action on an  entity for a group", 
         "entity_name": "PermittedAction", 
-        "package": "usermgmt", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "permission", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "usermgmt", 
+        "resource_name": "permissions", 
+        "rest_name": "permission", 
+        "update": true
     }
 }

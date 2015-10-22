@@ -1,21 +1,34 @@
 {
     "attributes": {
+        "description": {
+            "description": "A description of the Gateway", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Name of the Gateway", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "personality": {
-            "required": true, 
-            "description": "Personality of the Gateway - VSG,VRSG,NSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "DC7X50", 
                 "OTHER", 
@@ -25,48 +38,35 @@
                 "HARDWARE_VTEP", 
                 "NSG"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "description": {
-            "description": "A description of the Gateway", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Personality of the Gateway - VSG,VRSG,NSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Name of the Gateway", 
-            "format": "free", 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "gatewaytemplates", 
-        "description": "Represents Gateway Template object", 
-        "entity_name": "GatewayTemplate", 
-        "package": "gateway", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "gatewaytemplate", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
     }, 
     "children": {
         "porttemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Represents Gateway Template object", 
+        "entity_name": "GatewayTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "gatewaytemplates", 
+        "rest_name": "gatewaytemplate", 
+        "update": true
     }
 }

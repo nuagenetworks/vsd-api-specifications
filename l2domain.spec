@@ -1,56 +1,178 @@
 {
     "attributes": {
-        "routeDistinguisher": {
-            "description": "The Route Distinguisher value assigned by VSD for this subnet that is used by the BGP-EVPN protocol in VSC", 
-            "format": "free", 
-            "filterable": true, 
+        "DHCPManaged": {
+            "description": "decides whether L2Domain / L2Domain template DHCP is managed by VSD", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "policyChangeStatus": {
-            "description": "", 
-            "format": "free", 
-            "filterable": true, 
+        "IPType": {
+            "allowed_choices": [
+                "IPV6", 
+                "IPV4"
+            ], 
+            "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
-        "routeTarget": {
-            "description": "The Route Target value assigned by VSD for this subnet that is used by the BGP-EVPN protocol in VSC", 
-            "format": "free", 
-            "filterable": true, 
+        "address": {
+            "description": "Network address of the L2Domain / L2Domain template defined. ", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "associatedMulticastChannelMapID": {
+            "description": "The ID of the Multi Cast Channel Map this L2Domain / L2Domain template template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "associatedSharedNetworkResourceID": {
+            "description": "The ID of the L2 Domain  that this L2 Domain object is pointing to", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description field provided by the user that identifies the L2Domain / L2Domain template.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "DHCPManaged": {
-            "description": "decides whether L2Domain / L2Domain template DHCP is managed by VSD", 
-            "format": "free", 
-            "filterable": true, 
+        "gateway": {
+            "description": "The IP address of the gateway of this l2 domain", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "gatewayMACAddress": {
+            "description": "The MAC address of the Gateway.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "maintenanceMode": {
+            "description": "maintenanceMode is an enum that indicates if the L2Domain is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "multicast": {
+            "allowed_choices": [
+                "ENABLED", 
+                "INHERITED", 
+                "DISABLED"
+            ], 
+            "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Name of the L2Domain / L2Domain template,has to be unique within a Enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "netmask": {
+            "description": "Netmask of the L2Domain / L2Domain template defined", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "policyChangeStatus": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "routeDistinguisher": {
+            "description": "The Route Distinguisher value assigned by VSD for this subnet that is used by the BGP-EVPN protocol in VSC", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "routeTarget": {
+            "description": "The Route Target value assigned by VSD for this subnet that is used by the BGP-EVPN protocol in VSC", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "serviceID": {
+            "description": "The service ID used by the VSCs to identify this subnet", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "stretched": {
+            "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "templateID": {
+            "description": "The ID of the L2 Domain template that this L2 Domain object was derived from", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "uplinkPreference": {
-            "description": "Indicates the preferencial path selection for network traffic in this domain - Default is Primary 1 and Secondary 2. Possible values are PRIMARY_SECONDARY, SECONDARY_PRIMARY, PRIMARY, SECONDARY, SYMMETRIC, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "SECONDARY", 
                 "SYMMETRIC", 
@@ -58,279 +180,157 @@
                 "PRIMARY", 
                 "PRIMARY_SECONDARY"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "serviceID": {
-            "description": "The service ID used by the VSCs to identify this subnet", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Indicates the preferencial path selection for network traffic in this domain - Default is Primary 1 and Secondary 2. Possible values are PRIMARY_SECONDARY, SECONDARY_PRIMARY, PRIMARY, SECONDARY, SYMMETRIC, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "templateID": {
-            "description": "The ID of the L2 Domain template that this L2 Domain object was derived from", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Name of the L2Domain / L2Domain template,has to be unique within a Enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
             "orderable": true, 
-            "type": "string"
-        }, 
-        "associatedMulticastChannelMapID": {
-            "description": "The ID of the Multi Cast Channel Map this L2Domain / L2Domain template template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "netmask": {
-            "description": "Netmask of the L2Domain / L2Domain template defined", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "multicast": {
-            "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "allowed_choices": [
-                "ENABLED", 
-                "INHERITED", 
-                "DISABLED"
-            ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "gatewayMACAddress": {
-            "description": "The MAC address of the Gateway.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "stretched": {
-            "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "vnId": {
             "description": "Current Network's  globally unique  VXLAN network identifier generated by VSD", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "address": {
-            "description": "Network address of the L2Domain / L2Domain template defined. ", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "maintenanceMode": {
-            "description": "maintenanceMode is an enum that indicates if the L2Domain is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "enum"
-        }, 
-        "associatedSharedNetworkResourceID": {
-            "description": "The ID of the L2 Domain  that this L2 Domain object is pointing to", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "gateway": {
-            "description": "The IP address of the gateway of this l2 domain", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "IPType": {
-            "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "allowed_choices": [
-                "IPV6", 
-                "IPV4"
-            ], 
-            "orderable": true, 
-            "type": "enum"
+            "type": "float", 
+            "uniqueScope": "no"
         }
     }, 
-    "model": {
-        "resource_name": "l2domains", 
-        "description": "This is the definition of a l2 domain associated with a Enterprise", 
-        "entity_name": "L2Domain", 
-        "package": "network", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "l2domain", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
-    }, 
     "children": {
-        "qos": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
         "addressrange": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "vm": {
-            "relationship": "child", 
-            "get": true
+        "bridgeinterface": {
+            "get": true, 
+            "relationship": "child"
         }, 
-        "ingressexternalservicetemplate": {
+        "dhcpoption": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "vport": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "vpnconnection": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "tca": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "statistics": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "policygroup": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
+        "egressaclentrytemplate": {
+            "get": true, 
+            "relationship": "child"
         }, 
         "egressacltemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "statisticspolicy": {
-            "create": true, 
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "group": {
+            "get": true, 
             "relationship": "child", 
-            "get": true
+            "update": true
+        }, 
+        "hostinterface": {
+            "get": true, 
+            "relationship": "child"
         }, 
         "ingressaclentrytemplate": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "permission": {
+        "ingressacltemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "ingressadvfwdtemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "hostinterface": {
-            "relationship": "child", 
-            "get": true
+        "ingressexternalservicetemplate": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }, 
         "job": {
             "create": true, 
             "relationship": "child"
         }, 
-        "vminterface": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "staticroute": {
+        "permission": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "group": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
+        "policygroup": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "qos": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }, 
         "redirectiontarget": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "dhcpoption": {
+        "staticroute": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "egressaclentrytemplate": {
-            "relationship": "child", 
-            "get": true
+        "statistics": {
+            "get": true, 
+            "relationship": "child"
         }, 
-        "bridgeinterface": {
-            "relationship": "child", 
-            "get": true
+        "statisticspolicy": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "tca": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }, 
         "uplinkroutedistinguisher": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
-        "ingressacltemplate": {
+        "vm": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "vminterface": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "vpnconnection": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "vport": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "This is the definition of a l2 domain associated with a Enterprise", 
+        "entity_name": "L2Domain", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "network", 
+        "resource_name": "l2domains", 
+        "rest_name": "l2domain", 
+        "update": true
     }
 }

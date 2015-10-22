@@ -1,63 +1,63 @@
 {
     "attributes": {
-        "netmask": {
-            "description": "IP address netmask of the Network NSPort.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "gateway": {
-            "description": "IP address of the gateway bound to the Network NSPort.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "enabled": {
-            "description": "Boolean value that states if the NSG Port static configuration needs to be applied.", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
         "DNSAddress": {
             "description": "DNS Address for Network NSPort.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "address": {
             "description": "IP address of the Network NSPort.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "enabled": {
+            "description": "Boolean value that states if the NSG Port static configuration needs to be applied.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "gateway": {
+            "description": "IP address of the gateway bound to the Network NSPort.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "netmask": {
+            "description": "IP address netmask of the Network NSPort.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "nsportstaticconfigurations", 
+        "delete": true, 
         "description": "Represents a network port static configuration in the context of an NSG.", 
         "entity_name": "NSPortStaticConfiguration", 
-        "package": "nsg", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "nsportstaticconfiguration", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "nsg", 
+        "resource_name": "nsportstaticconfigurations", 
+        "rest_name": "nsportstaticconfiguration", 
+        "update": true
     }
 }

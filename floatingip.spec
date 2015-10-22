@@ -1,65 +1,65 @@
 {
     "attributes": {
+        "address": {
+            "description": "Floating IP address assigned to the Domain", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
         "assigned": {
             "description": "True if this floating IP is assigned to a network interface else the value is false", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "associatedSharedNetworkResourceID": {
-            "description": "Id of the shared network resource subnet which was used to get this floating IP address", 
-            "format": "free", 
             "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "assignedToObjectType": {
             "description": "The object type to which this floating ip is assigned. Eg. vport or virtualip", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "address": {
-            "description": "Floating IP address assigned to the Domain", 
-            "format": "free", 
-            "filterable": true, 
+        "associatedSharedNetworkResourceID": {
+            "description": "Id of the shared network resource subnet which was used to get this floating IP address", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "vport": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "floatingips", 
+        "delete": true, 
         "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality", 
         "entity_name": "FloatingIp", 
-        "package": "network", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "floatingip", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "vport": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "network", 
+        "resource_name": "floatingips", 
+        "rest_name": "floatingip", 
+        "update": true
     }
 }

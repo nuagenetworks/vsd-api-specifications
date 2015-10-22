@@ -1,128 +1,128 @@
 {
     "attributes": {
-        "priority": {
-            "description": "The priority of the ACL entry that determines the order of entries", 
-            "format": "free", 
-            "filterable": true, 
+        "active": {
+            "description": "If enabled, it means that this ACL or QOS entry is active", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "integer"
-        }, 
-        "description": {
-            "description": "A description of the entity", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "priorityType": {
-            "description": "", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "enum"
-        }, 
-        "defaultInstallACLImplicitRules": {
-            "description": "If enabled, implicit rule will allow intra domain traffic by default", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "associatedLiveEntityID": {
             "description": "In the draft mode, the ACL entry refers to this LiveEntity. In non-drafted mode, this is null.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "defaultAllowNonIP": {
-            "description": "If enabled, non ip traffic will be dropped", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "defaultAllowIP": {
             "description": "If enabled a default ACL of Allow All is added as the last entry in the list of ACL entries", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "active": {
-            "description": "If enabled, it means that this ACL or QOS entry is active", 
-            "format": "free", 
-            "filterable": true, 
+        "defaultAllowNonIP": {
+            "description": "If enabled, non ip traffic will be dropped", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "policyState": {
-            "description": "", 
-            "format": "free", 
-            "filterable": true, 
+        "defaultInstallACLImplicitRules": {
+            "description": "If enabled, implicit rule will allow intra domain traffic by default", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "description": {
+            "description": "A description of the entity", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "The name of the entity", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "policyState": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "priority": {
+            "description": "The priority of the ACL entry that determines the order of entries", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "integer", 
+            "uniqueScope": "no"
+        }, 
+        "priorityType": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
         }
     }, 
-    "model": {
-        "resource_name": "egressacltemplates", 
-        "description": "Defines the template for an Egress ACL", 
-        "entity_name": "EgressACLTemplate", 
-        "package": "policy/acl", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "egressacltemplate", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
-    }, 
     "children": {
+        "egressaclentrytemplate": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
         "job": {
             "create": true, 
             "relationship": "child"
         }, 
-        "egressaclentrytemplate": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }, 
         "vm": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Defines the template for an Egress ACL", 
+        "entity_name": "EgressACLTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "policy/acl", 
+        "resource_name": "egressacltemplates", 
+        "rest_name": "egressacltemplate", 
+        "update": true
     }
 }

@@ -2,43 +2,43 @@
     "attributes": {
         "description": {
             "description": "Description of the macro group", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the macro group", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "enterprisenetwork": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
         }
     }, 
     "model": {
-        "resource_name": "networkmacrogroups", 
+        "delete": true, 
         "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks", 
         "entity_name": "NetworkMacroGroup", 
-        "package": "network", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "networkmacrogroup", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "enterprisenetwork": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "network", 
+        "resource_name": "networkmacrogroups", 
+        "rest_name": "networkmacrogroup", 
+        "update": true
     }
 }

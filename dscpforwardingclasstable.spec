@@ -2,43 +2,43 @@
     "attributes": {
         "description": {
             "description": "A description of the dscp-fc mapping table.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "A unique name of the dscp-fc mapping table.", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "dscpforwardingclasstables", 
-        "description": "Provides the definition of a table that holds multiple DSCP -> Forwarding class mappings. Used in QoS policies.", 
-        "entity_name": "DSCPForwardingClassTable", 
-        "package": "policy", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "dscpforwardingclasstable", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
     }, 
     "children": {
         "dscpforwardingclassmapping": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Provides the definition of a table that holds multiple DSCP -> Forwarding class mappings. Used in QoS policies.", 
+        "entity_name": "DSCPForwardingClassTable", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "policy", 
+        "resource_name": "dscpforwardingclasstables", 
+        "rest_name": "dscpforwardingclasstable", 
+        "update": true
     }
 }

@@ -2,61 +2,61 @@
     "attributes": {
         "NSGCertificateSerialNumber": {
             "description": "NSG Certificate Serial Number", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "keyServerCertificateSerialNumber": {
-            "description": "KeyServer Certificate Serial Number", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "gatewaySecuredDataID": {
-            "description": "Gateway Secured ID record this monitor represents", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "associatedKeyServerMonitorSEKCreationTime": {
             "description": "The ID of the associated KeyServer Monitor Seed ID", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "associatedKeyServerMonitorSEKID": {
             "description": "The ID of the associated KeyServer Monitor SEK ID", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "gatewaySecuredDataID": {
+            "description": "Gateway Secured ID record this monitor represents", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "keyServerCertificateSerialNumber": {
+            "description": "KeyServer Certificate Serial Number", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "keyservermonitorencryptedseks", 
+        "delete": true, 
         "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot", 
         "entity_name": "KeyServerMonitorEncryptedSEK", 
-        "package": "keyserver", 
-        "get": true, 
-        "rest_name": "keyservermonitorencryptedsek", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "keyserver", 
+        "resource_name": "keyservermonitorencryptedseks", 
+        "rest_name": "keyservermonitorencryptedsek"
     }
 }

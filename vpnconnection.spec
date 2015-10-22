@@ -2,45 +2,45 @@
     "attributes": {
         "associatedWANServiceID": {
             "description": "Assosciated WAN Service", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the VPNConnect", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the VPNConnect", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "vpnconnections", 
+        "delete": true, 
         "description": "This is the definition of a VPN Connect which holds the PE service assocaition with a DOMAIN", 
         "entity_name": "VPNConnection", 
-        "package": "network", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "vpnconnection", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "network", 
+        "resource_name": "vpnconnections", 
+        "rest_name": "vpnconnection", 
+        "update": true
     }
 }

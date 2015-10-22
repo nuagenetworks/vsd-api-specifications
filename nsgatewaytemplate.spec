@@ -1,63 +1,63 @@
 {
     "attributes": {
-        "infrastructureProfileID": {
-            "description": "The ID of the infrastructure gateway profile this instance of a Gateway is associated with.", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
+        "description": {
+            "description": "A description of the Gateway", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "description": {
-            "description": "A description of the Gateway", 
-            "format": "free", 
-            "filterable": true, 
+        "infrastructureProfileID": {
+            "description": "The ID of the infrastructure gateway profile this instance of a Gateway is associated with.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "Name of the Gateway", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "nsgatewaytemplates", 
-        "description": "Represents Network Service Gateway Template object", 
-        "entity_name": "NSGatewayTemplate", 
-        "package": "nsg", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "nsgatewaytemplate", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
     }, 
     "children": {
         "nsporttemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Represents Network Service Gateway Template object", 
+        "entity_name": "NSGatewayTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "nsg", 
+        "resource_name": "nsgatewaytemplates", 
+        "rest_name": "nsgatewaytemplate", 
+        "update": true
     }
 }

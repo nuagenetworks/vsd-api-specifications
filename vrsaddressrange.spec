@@ -2,37 +2,37 @@
     "attributes": {
         "maxAddress": {
             "description": "Higest address in the address range", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "minAddress": {
             "description": "Lowest address in the address range", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "vrsaddressranges", 
+        "delete": true, 
         "description": "This is the definition of a Address Range associated with a VRS", 
         "entity_name": "VRSAddressRange", 
-        "package": "vmware", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "vrsaddressrange", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "vmware", 
+        "resource_name": "vrsaddressranges", 
+        "rest_name": "vrsaddressrange", 
+        "update": true
     }
 }

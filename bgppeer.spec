@@ -1,47 +1,47 @@
 {
     "attributes": {
+        "address": {
+            "description": "IP of the BGP peer.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
         "lastStateChange": {
             "description": "Last state change timestamp.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "status": {
-            "description": "Current connection status of the BGP peer. Possible values are UP, DOWN, ADMIN_DOWN, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "DOWN", 
                 "UP", 
                 "ADMIN_DOWN"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "address": {
-            "description": "IP of the BGP peer.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Current connection status of the BGP peer. Possible values are UP, DOWN, ADMIN_DOWN, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "bgppeers", 
         "description": "Encapsulates the BGP peer information for system monitor entity.", 
         "entity_name": "BGPPeer", 
-        "package": "sysmon", 
-        "rest_name": "bgppeer", 
         "extends": [
             "@base", 
             "@metadata"
-        ]
+        ], 
+        "package": "sysmon", 
+        "resource_name": "bgppeers", 
+        "rest_name": "bgppeer"
     }
 }

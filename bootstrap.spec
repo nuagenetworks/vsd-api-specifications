@@ -1,11 +1,15 @@
 {
     "attributes": {
-        "status": {
-            "description": "Bootstrap status; can be, for example, Active, Inactive, or Notified. Possible values are INACTIVE, NOTIFICATION_APP_REQ_SENT, NOTIFICATION_APP_REQ_ACK, CERTIFICATE_SIGNED, ACTIVE, .", 
-            "format": "free", 
-            "filterable": true, 
+        "installerID": {
+            "description": "The Installer ID", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "status": {
             "allowed_choices": [
                 "CERTIFICATE_SIGNED", 
                 "NOTIFICATION_APP_REQ_SENT", 
@@ -13,30 +17,26 @@
                 "NOTIFICATION_APP_REQ_ACK", 
                 "ACTIVE"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "installerID": {
-            "description": "The Installer ID", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Bootstrap status; can be, for example, Active, Inactive, or Notified. Possible values are INACTIVE, NOTIFICATION_APP_REQ_SENT, NOTIFICATION_APP_REQ_ACK, CERTIFICATE_SIGNED, ACTIVE, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "bootstraps", 
         "description": "Gateway bootstrap details", 
         "entity_name": "Bootstrap", 
-        "package": "gateway", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "bootstrap", 
         "extends": [
             "@base", 
             "@metadata"
-        ]
+        ], 
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "bootstraps", 
+        "rest_name": "bootstrap", 
+        "update": true
     }
 }

@@ -2,80 +2,80 @@
     "attributes": {
         "SEKCreationTime": {
             "description": "SEK Creation Time", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "enterpriseSecuredDataID": {
-            "description": "Enterprise Secured ID record this monitor represents", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "associatedKeyServerMonitorSeedID": {
-            "description": "The ID of the associated KeyServer Monitor Seed ID", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string"
-        }, 
-        "keyServerCertificateSerialNumber": {
-            "description": "KeyServer Certificate Serial Number", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
-        }, 
-        "associatedKeyServerMonitorSeedCreationTime": {
-            "description": "The ID of the associated KeyServer Monitor Seed ID", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "associatedKeyServerMonitorSEKCreationTime": {
             "description": "The ID of the associated KeyServer Monitor Seed ID", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "float"
+            "type": "float", 
+            "uniqueScope": "no"
         }, 
         "associatedKeyServerMonitorSEKID": {
             "description": "The ID of the associated KeyServer Monitor SEK ID", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "associatedKeyServerMonitorSeedCreationTime": {
+            "description": "The ID of the associated KeyServer Monitor Seed ID", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
+        }, 
+        "associatedKeyServerMonitorSeedID": {
+            "description": "The ID of the associated KeyServer Monitor Seed ID", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "enterpriseSecuredDataID": {
+            "description": "Enterprise Secured ID record this monitor represents", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "keyServerCertificateSerialNumber": {
+            "description": "KeyServer Certificate Serial Number", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "keyservermonitorencryptedseeds", 
+        "delete": true, 
         "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot", 
         "entity_name": "KeyServerMonitorEncryptedSeed", 
-        "package": "keyserver", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "keyservermonitorencryptedseed", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "keyserver", 
+        "resource_name": "keyservermonitorencryptedseeds", 
+        "rest_name": "keyservermonitorencryptedseed", 
+        "update": true
     }
 }

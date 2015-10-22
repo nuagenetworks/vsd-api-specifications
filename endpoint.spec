@@ -2,39 +2,39 @@
     "attributes": {
         "description": {
             "description": "Description of the External Service.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "unique name of the External Service. ", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "endpoints", 
-        "description": "Representation of End Point", 
-        "entity_name": "EndPoint", 
-        "package": "policy", 
-        "get": true, 
-        "rest_name": "endpoint", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ]
     }, 
     "children": {
         "eventlog": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "description": "Representation of End Point", 
+        "entity_name": "EndPoint", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "policy", 
+        "resource_name": "endpoints", 
+        "rest_name": "endpoint"
     }
 }

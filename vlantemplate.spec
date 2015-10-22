@@ -2,44 +2,44 @@
     "attributes": {
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the Port", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "value": {
             "description": "value of VLAN", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "vlantemplates", 
+        "delete": true, 
         "description": "Represents VLAN Template under a PORT Template object.", 
         "entity_name": "VLANTemplate", 
-        "package": "gateway", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "vlantemplate", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "vlantemplates", 
+        "rest_name": "vlantemplate", 
+        "update": true
     }
 }

@@ -1,47 +1,47 @@
 {
     "attributes": {
-        "publicIP": {
-            "description": "Public IP address of the interface", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "string"
-        }, 
         "associatedPATNATPoolID": {
             "description": "Read Only - Indicates which PATNATPool this entry belongs to", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "privateIP": {
             "description": "Private IP address of the interface", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "publicIP": {
+            "description": "Public IP address of the interface", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
-        "resource_name": "natmapentries", 
+        "delete": true, 
         "description": "Defines a MAP between the private ip and public ip", 
         "entity_name": "NATMapEntry", 
-        "package": "gateway", 
-        "get": true, 
-        "rest_name": "natmapentry", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "natmapentries", 
+        "rest_name": "natmapentry"
     }
 }

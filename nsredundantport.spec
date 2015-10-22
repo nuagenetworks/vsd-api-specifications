@@ -1,90 +1,52 @@
 {
     "attributes": {
-        "infrastructureProfileID": {
-            "description": "The ID of the infrastructure profile this instance is associated with.", 
-            "format": "free", 
-            "filterable": true, 
+        "VLANRange": {
+            "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "status": {
-            "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
-            "format": "free", 
-            "filterable": true, 
+        "associatedEgressQOSPolicyID": {
+            "description": "ID of the Egress QOS Policy associated with this Vlan.", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "allowed_choices": [
-                "ORPHAN", 
-                "MISMATCH", 
-                "INITIALIZED", 
-                "READY"
-            ], 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "A description of the Port", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "portPeer2ID": {
-            "description": "The slave gateway peer port id.", 
-            "format": "free", 
             "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "infrastructureProfileID": {
+            "description": "The ID of the infrastructure profile this instance is associated with.", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "useUserMnemonic": {
-            "description": "determines whether to use user mnemonic of the Port", 
-            "format": "free", 
             "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Name of the Port", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "physicalName": {
-            "description": "Identifier of the Port", 
-            "format": "free", 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "useUntaggedHeartbeatVlan": {
-            "description": "A flag to indicate if for this redundant port an untagged heartbeat VLAN is to be used. If this is not set then will use the heartbeat VLAN set by the NS redundant group", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "boolean"
-        }, 
-        "userMnemonic": {
-            "description": "user mnemonic of the Port", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "permittedAction": {
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -93,85 +55,123 @@
                 "READ", 
                 "ALL"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "VLANRange": {
-            "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "associatedEgressQOSPolicyID": {
-            "description": "ID of the Egress QOS Policy associated with this Vlan.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "physicalName": {
+            "description": "Identifier of the Port", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "portPeer1ID": {
+            "description": "The master gateway peer port id.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "portPeer2ID": {
+            "description": "The slave gateway peer port id.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "portType": {
-            "required": true, 
-            "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "ACCESS", 
                 "NETWORK"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "portPeer1ID": {
-            "description": "The master gateway peer port id.", 
-            "format": "free", 
-            "filterable": true, 
+            "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Name of the Port", 
-            "format": "free", 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "status": {
+            "allowed_choices": [
+                "ORPHAN", 
+                "MISMATCH", 
+                "INITIALIZED", 
+                "READY"
+            ], 
+            "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "useUntaggedHeartbeatVlan": {
+            "description": "A flag to indicate if for this redundant port an untagged heartbeat VLAN is to be used. If this is not set then will use the heartbeat VLAN set by the NS redundant group", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "useUserMnemonic": {
+            "description": "determines whether to use user mnemonic of the Port", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }, 
+        "userMnemonic": {
+            "description": "user mnemonic of the Port", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }
-    }, 
-    "model": {
-        "resource_name": "nsredundantports", 
-        "description": "Represents Port under a particular gateway object or redundant group object.", 
-        "entity_name": "RedundantPort", 
-        "package": "gateway", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "nsredundantport", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
     }, 
     "children": {
         "nsport": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }, 
         "vlan": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Represents Port under a particular gateway object or redundant group object.", 
+        "entity_name": "RedundantPort", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "gateway", 
+        "resource_name": "nsredundantports", 
+        "rest_name": "nsredundantport", 
+        "update": true
     }
 }

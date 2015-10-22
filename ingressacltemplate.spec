@@ -1,137 +1,137 @@
 {
     "attributes": {
-        "assocAclTemplateId": {
-            "description": "ID of the ACL template associated with this ACL template", 
-            "format": "free", 
-            "filterable": true, 
+        "active": {
+            "description": "If enabled, it means that this ACL or QOS entry is active", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "description": {
-            "description": "A description of the entity", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "allowL2AddressSpoof": {
             "description": "If enabled, it will disable the default anti-spoof ACL for this domain that essentially prevents any VM to send packets that do not originate from that particular VM", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "priorityType": {
-            "description": "", 
-            "format": "free", 
-            "filterable": true, 
+        "assocAclTemplateId": {
+            "description": "ID of the ACL template associated with this ACL template", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "priority": {
-            "description": "The priority of the ACL entry that determines the order of entries", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedLiveEntityID": {
             "description": "In the draft mode, the ACL entry refers to this LiveEntity. In non-drafted mode, this is null.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "defaultAllowNonIP": {
-            "description": "If enabled, non ip traffic will be dropped", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "defaultAllowIP": {
             "description": "If enabled a default ACL of Allow All is added as the last entry in the list of ACL entries", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "active": {
-            "description": "If enabled, it means that this ACL or QOS entry is active", 
-            "format": "free", 
-            "filterable": true, 
+        "defaultAllowNonIP": {
+            "description": "If enabled, non ip traffic will be dropped", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "policyState": {
-            "description": "", 
-            "format": "free", 
-            "filterable": true, 
+        "description": {
+            "description": "A description of the entity", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": "The name of the entity", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "policyState": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
+        "priority": {
+            "description": "The priority of the ACL entry that determines the order of entries", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "integer", 
+            "uniqueScope": "no"
+        }, 
+        "priorityType": {
+            "description": "", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
         }
     }, 
-    "model": {
-        "resource_name": "ingressacltemplates", 
-        "description": "Defines the template for an Ingress ACL", 
-        "entity_name": "IngressACLTemplate", 
-        "package": "policy/acl", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "ingressacltemplate", 
-        "extends": [
-            "@base", 
-            "@metadata"
-        ], 
-        "delete": true
-    }, 
     "children": {
-        "job": {
-            "create": true, 
+        "eventlog": {
+            "get": true, 
             "relationship": "child"
         }, 
         "ingressaclentrytemplate": {
             "create": true, 
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "job": {
+            "create": true, 
+            "relationship": "child"
         }, 
         "vm": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
+            "get": true, 
+            "relationship": "child"
         }
+    }, 
+    "model": {
+        "delete": true, 
+        "description": "Defines the template for an Ingress ACL", 
+        "entity_name": "IngressACLTemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "get": true, 
+        "package": "policy/acl", 
+        "resource_name": "ingressacltemplates", 
+        "rest_name": "ingressacltemplate", 
+        "update": true
     }
 }

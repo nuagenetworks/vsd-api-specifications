@@ -1,48 +1,53 @@
 {
     "attributes": {
-        "restrictionDate": {
-            "description": "When the group was disabled.", 
-            "format": "free", 
-            "filterable": true, 
+        "accountRestrictions": {
+            "description": "Determines whether group is disabled or not.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "time"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": "Description of the group", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "A unique name of the group", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "private": {
             "description": "A private group is visible only by the owner of the group. Public groups are visible by all users in the enterprise", 
-            "format": "free", 
+            "exposed": true, 
             "filterable": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
+            "orderable": true, 
             "required": true, 
-            "exposed": true, 
-            "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
-        "accountRestrictions": {
-            "description": "Determines whether group is disabled or not.", 
-            "format": "free", 
-            "filterable": true, 
+        "restrictionDate": {
+            "description": "When the group was disabled.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "time", 
+            "uniqueScope": "no"
         }, 
         "role": {
-            "description": "The role associated with this group - CSPROOT, CSPOPERATOR, ORGADMIN, ORGNETWORKDESIGNER, ORGUSER and USER Possible values are SYSTEM, JMS, CSPROOT, CMS, CSPOPERATOR, ORGADMIN, ORGAPPDESIGNER, ORGNETWORKDESIGNER, ORGUSER, USER, UNKNOWN, .", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "allowed_choices": [
                 "ORGAPPDESIGNER", 
                 "CMS", 
@@ -56,43 +61,38 @@
                 "ORGUSER", 
                 "USER"
             ], 
-            "orderable": true, 
-            "type": "enum"
-        }, 
-        "name": {
-            "description": "A unique name of the group", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
+            "description": "The role associated with this group - CSPROOT, CSPOPERATOR, ORGADMIN, ORGNETWORKDESIGNER, ORGUSER and USER Possible values are SYSTEM, JMS, CSPROOT, CMS, CSPOPERATOR, ORGADMIN, ORGAPPDESIGNER, ORGNETWORKDESIGNER, ORGUSER, USER, UNKNOWN, .", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "user": {
+            "get": true, 
+            "relationship": "child", 
+            "update": true
         }
     }, 
     "model": {
-        "resource_name": "groups", 
+        "delete": true, 
         "description": "Identifies a group within an enterprise", 
         "entity_name": "Group", 
-        "package": "usermgmt", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "group", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "user": {
-            "update": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "usermgmt", 
+        "resource_name": "groups", 
+        "rest_name": "group", 
+        "update": true
     }
 }

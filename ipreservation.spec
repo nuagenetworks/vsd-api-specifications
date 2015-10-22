@@ -1,53 +1,53 @@
 {
     "attributes": {
-        "dynamicAllocationEnabled": {
-            "description": "Binding is static or dynamic", 
-            "format": "free", 
-            "filterable": true, 
+        "IPAddress": {
+            "description": "Static IP Address", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "MAC": {
             "description": "MAC Address", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "IPAddress": {
-            "description": "Static IP Address", 
-            "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
+        "dynamicAllocationEnabled": {
+            "description": "Binding is static or dynamic", 
             "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "ipreservations", 
+        "delete": true, 
         "description": "This is the definition of a IP Bindings associated with in a Network", 
         "entity_name": "IPReservation", 
-        "package": "network", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "ipreservation", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "network", 
+        "resource_name": "ipreservations", 
+        "rest_name": "ipreservation", 
+        "update": true
     }
 }

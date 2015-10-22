@@ -1,96 +1,96 @@
 {
     "attributes": {
-        "associatedNetworkObjectType": {
-            "description": "The associated network object type. Refer to API section for supported types.", 
-            "format": "free", 
-            "filterable": true, 
+        "action": {
+            "description": "The flow action. The action can be either FORWARD or DROP.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedApplicationServiceID": {
             "description": "The associated service id.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedNetworkObjectID": {
             "description": "The associated network object id.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "priority": {
-            "description": "The priority of the flow security policy that determines the order of entries.", 
-            "format": "free", 
-            "filterable": true, 
+        "associatedNetworkObjectType": {
+            "description": "The associated network object type. Refer to API section for supported types.", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "integer"
-        }, 
-        "flowID": {
-            "description": "The associated service id.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "action": {
-            "description": "The flow action. The action can be either FORWARD or DROP.", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "destinationAddressOverwrite": {
             "description": "The destination address overwrite. Needs to be in CIDR format x.x.x.x/n", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "flowID": {
+            "description": "The associated service id.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "priority": {
+            "description": "The priority of the flow security policy that determines the order of entries.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "sourceAddressOverwrite": {
             "description": "The source address overwrite. Needs to be in CIDR format x.x.x.x/n", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "flowsecuritypolicies", 
+        "delete": true, 
         "description": "The security policy on the flow.", 
         "entity_name": "FlowSecurityPolicy", 
-        "package": "appd", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "flowsecuritypolicy", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "appd", 
+        "resource_name": "flowsecuritypolicies", 
+        "rest_name": "flowsecuritypolicy", 
+        "update": true
     }
 }

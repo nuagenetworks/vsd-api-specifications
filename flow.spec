@@ -1,80 +1,80 @@
 {
     "attributes": {
-        "originTierID": {
-            "description": "Flow origin tier id.", 
-            "format": "free", 
-            "filterable": true, 
+        "description": {
+            "description": "Description of the flow.", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "destinationTierID": {
             "description": "Flow destination tier id.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "description": {
-            "description": "Description of the flow.", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Name of the flow.", 
             "format": "free", 
-            "filterable": true, 
-            "uniqueScope": "no", 
-            "required": true, 
-            "exposed": true, 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "metadata": {
             "description": "Metadata field to store flow related data.", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "name": {
+            "description": "Name of the flow.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "required": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "originTierID": {
+            "description": "Flow origin tier id.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "flowforwardingpolicy": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "flowsecuritypolicy": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "flows", 
+        "delete": true, 
         "description": "Flow represents the traffic between two different tiers.", 
         "entity_name": "Flow", 
-        "package": "appd", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "flow", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "flowsecuritypolicy": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "flowforwardingpolicy": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "appd", 
+        "resource_name": "flows", 
+        "rest_name": "flow", 
+        "update": true
     }
 }

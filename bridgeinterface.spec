@@ -1,188 +1,188 @@
 {
     "attributes": {
-        "domainID": {
-            "description": "ID of the domain that the VM is attached to", 
-            "format": "free", 
-            "filterable": true, 
+        "VPortID": {
+            "description": "ID of the vport that the interface is attached to", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "name": {
-            "description": "Device name associated with this interface", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "zoneName": {
-            "description": "Name of the zone that the VM is attached to", 
             "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string"
-        }, 
-        "domainName": {
-            "description": "Name of the domain that the VM is attached to", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "associatedFloatingIPAddress": {
-            "description": "Floating Ip Address of this network interface eg: 10.1.2.1", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "zoneID": {
-            "description": "ID of the zone that the interface is attached to", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "netmask": {
-            "description": "Netmask of the subnet that the VM is attached to", 
-            "format": "free", 
-            "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "VPortName": {
             "description": "Name of the vport that the VM is attached to", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "associatedFloatingIPAddress": {
+            "description": "Floating Ip Address of this network interface eg: 10.1.2.1", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "attachedNetworkID": {
             "description": "ID of the l2 domain or Subnet that the VM is attached to", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "attachedNetworkType": {
             "description": "l2 domain or Subnet that the interface is attached to", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "tierID": {
-            "description": "ID of the tier that the interface is attached to.", 
-            "format": "free", 
-            "filterable": true, 
+        "domainID": {
+            "description": "ID of the domain that the VM is attached to", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "policyDecisionID": {
-            "description": "The policy decision ID for this particular  interface", 
-            "format": "free", 
-            "filterable": true, 
+        "domainName": {
+            "description": "Name of the domain that the VM is attached to", 
             "exposed": true, 
-            "uniqueScope": "no", 
-            "orderable": true, 
-            "type": "string"
-        }, 
-        "networkName": {
-            "description": "Name of the network that the VM is attached to", 
-            "format": "free", 
             "filterable": true, 
-            "exposed": true, 
-            "uniqueScope": "no", 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "gateway": {
             "description": "Gateway of the subnet that the VM is connected to", 
-            "format": "free", 
-            "filterable": true, 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "VPortID": {
-            "description": "ID of the vport that the interface is attached to", 
-            "format": "free", 
-            "filterable": true, 
+        "name": {
+            "description": "Device name associated with this interface", 
             "exposed": true, 
-            "uniqueScope": "no", 
+            "filterable": true, 
+            "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "netmask": {
+            "description": "Netmask of the subnet that the VM is attached to", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "networkName": {
+            "description": "Name of the network that the VM is attached to", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "policyDecisionID": {
+            "description": "The policy decision ID for this particular  interface", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "tierID": {
+            "description": "ID of the tier that the interface is attached to.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "zoneID": {
+            "description": "ID of the zone that the interface is attached to", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
+        "zoneName": {
+            "description": "Name of the zone that the VM is attached to", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }
+    }, 
+    "children": {
+        "dhcpoption": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "eventlog": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "policydecision": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "policygroup": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "qos": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "redirectiontarget": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "statistics": {
+            "get": true, 
+            "relationship": "child"
+        }, 
+        "tca": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
-        "resource_name": "bridgeinterfaces", 
+        "delete": true, 
         "description": "Provides information for each bridge interface", 
         "entity_name": "BridgeInterface", 
-        "package": "vport", 
-        "get": true, 
-        "update": true, 
-        "rest_name": "bridgeinterface", 
         "extends": [
             "@base", 
             "@metadata"
         ], 
-        "delete": true
-    }, 
-    "children": {
-        "statistics": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "redirectiontarget": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "eventlog": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "dhcpoption": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "policydecision": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "policygroup": {
-            "relationship": "child", 
-            "get": true
-        }, 
-        "qos": {
-            "create": true, 
-            "relationship": "child", 
-            "get": true
-        }, 
-        "tca": {
-            "relationship": "child", 
-            "get": true
-        }
+        "get": true, 
+        "package": "vport", 
+        "resource_name": "bridgeinterfaces", 
+        "rest_name": "bridgeinterface", 
+        "update": true
     }
 }
