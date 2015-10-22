@@ -1,70 +1,91 @@
 {
     "attributes": {
-        "VLANRange": {
-            "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedEgressQOSPolicyID": {
-            "description": "ID of the Egress QOS Policy associated with this Vlan.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedRedundantPortID": {
-            "description": "ID of the redundant port to which the Port is associated to.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
         "associatedVSCProfileID": {
             "description": "The ID of the infrastructure VSC profile this is associated with this instance of a port or port template.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "description": {
-            "description": "A description of the Port", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "infrastructureProfileID": {
             "description": "The ID of the infrastructure profile this instance is associated with.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "name": {
-            "description": "Name of the Port", 
-            "exposed": true, 
-            "filterable": true, 
+        "useUserMnemonic": {
+            "description": "determines whether to use user mnemonic of the Port", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
+            "type": "boolean"
+        }, 
+        "description": {
+            "description": "A description of the Port", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "userMnemonic": {
+            "description": "user mnemonic of the Port", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "templateID": {
+            "description": "The ID of the template that this Port was created from", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "physicalName": {
+            "description": "Identifier of the Port", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "status": {
+            "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ORPHAN", 
+                "MISMATCH", 
+                "INITIALIZED", 
+                "READY"
+            ], 
+            "orderable": true, 
+            "type": "enum"
         }, 
         "permittedAction": {
+            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -73,123 +94,104 @@
                 "READ", 
                 "ALL"
             ], 
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
-        "physicalName": {
-            "description": "Identifier of the Port", 
-            "exposed": true, 
-            "filterable": true, 
+        "associatedRedundantPortID": {
+            "description": "ID of the redundant port to which the Port is associated to.", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "VLANRange": {
+            "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "associatedEgressQOSPolicyID": {
+            "description": "ID of the Egress QOS Policy associated with this Vlan.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "portType": {
+            "required": true, 
+            "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "ACCESS", 
                 "NETWORK"
             ], 
-            "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
+            "type": "enum"
+        }, 
+        "name": {
+            "description": "Name of the Port", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "status": {
-            "allowed_choices": [
-                "ORPHAN", 
-                "MISMATCH", 
-                "INITIALIZED", 
-                "READY"
-            ], 
-            "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "templateID": {
-            "description": "The ID of the template that this Port was created from", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "useUserMnemonic": {
-            "description": "determines whether to use user mnemonic of the Port", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "userMnemonic": {
-            "description": "user mnemonic of the Port", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }
     }, 
+    "model": {
+        "resource_name": "nsports", 
+        "description": "Represents Port under a particular NS gateway object.", 
+        "entity_name": "NSPort", 
+        "package": "nsg", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "nsport", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }, 
     "children": {
-        "alarm": {
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "enterprisepermission": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "eventlog": {
-            "get": true, 
-            "relationship": "child"
-        }, 
         "nsportstaticconfiguration": {
             "create": true, 
-            "get": true, 
+            "update": true, 
             "relationship": "child", 
-            "update": true
+            "get": true
+        }, 
+        "eventlog": {
+            "relationship": "child", 
+            "get": true
         }, 
         "permission": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
+        }, 
+        "alarm": {
+            "relationship": "child", 
+            "get": true
         }, 
         "vlan": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
+        }, 
+        "enterprisepermission": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represents Port under a particular NS gateway object.", 
-    "entity_name": "NSPort", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "nsg", 
-    "resource_name": "nsports", 
-    "rest_name": "nsport", 
-    "update": true
+    }
 }

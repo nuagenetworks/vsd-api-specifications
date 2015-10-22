@@ -1,59 +1,61 @@
 {
     "attributes": {
+        "subnetID": {
+            "description": "Id of subnet to which this ip address belongs", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "MAC": {
             "description": "The MAC address of the virtual port", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "associatedFloatingIPID": {
             "description": "Id of Floating IP address associated to this virtual ip", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "subnetID": {
-            "description": "Id of subnet to which this ip address belongs", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "virtualIP": {
             "description": "Virtual IP address", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "virtualips", 
+        "description": "Virtual IP address", 
+        "entity_name": "VirtualIP", 
+        "package": "vport", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "virtualip", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "eventlog": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Virtual IP address", 
-    "entity_name": "VirtualIP", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "vport", 
-    "resource_name": "virtualips", 
-    "rest_name": "virtualip", 
-    "update": true
+    }
 }

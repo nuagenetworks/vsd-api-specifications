@@ -1,153 +1,155 @@
 {
     "attributes": {
-        "associatedMulticastChannelMapID": {
-            "description": "The ID of the Multi Cast Channel Map  this domain template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
-            "exposed": true, 
-            "filterable": true, 
+        "policyChangeStatus": {
+            "description": "", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "description": {
-            "description": "Domain template description provided by the user", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "encryption": {
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "ENABLED", 
                 "DISABLED"
             ], 
-            "description": "Determines whether IPSEC is enabled. Possible values are ENABLED, DISABLED, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "description": {
+            "description": "Domain template description provided by the user", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "encryption": {
+            "description": "Determines whether IPSEC is enabled. Possible values are ENABLED, DISABLED, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ENABLED", 
+                "DISABLED"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "associatedMulticastChannelMapID": {
+            "description": "The ID of the Multi Cast Channel Map  this domain template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "multicast": {
+            "description": "multicast is enum that indicates multicast policy on domain. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "ENABLED", 
                 "INHERITED", 
                 "DISABLED"
             ], 
-            "description": "multicast is enum that indicates multicast policy on domain. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "name": {
             "description": "The name of the domain template, that is unique within an enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "policyChangeStatus": {
-            "allowed_choices": [
-                "ENABLED", 
-                "DISABLED"
-            ], 
-            "description": "", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "domaintemplates", 
+        "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate", 
+        "entity_name": "DomainTemplate", 
+        "package": "network", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "domaintemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "domain": {
-            "get": true, 
+            "update": true, 
             "relationship": "child", 
-            "update": true
+            "get": true
+        }, 
+        "group": {
+            "update": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "eventlog": {
+            "relationship": "child", 
+            "get": true
+        }, 
+        "permission": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
         }, 
         "egressacltemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "eventlog": {
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "group": {
-            "get": true, 
             "relationship": "child", 
-            "update": true
-        }, 
-        "ingressacltemplate": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "get": true
         }, 
         "ingressadvfwdtemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
-        "ingressexternalservicetemplate": {
+        "policygrouptemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "job": {
             "create": true, 
             "relationship": "child"
         }, 
-        "permission": {
+        "zonetemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "policygrouptemplate": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "qos": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "redirectiontargettemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "subnettemplate": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
-        "zonetemplate": {
+        "ingressexternalservicetemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
+        }, 
+        "ingressacltemplate": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "qos": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate", 
-    "entity_name": "DomainTemplate", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "network", 
-    "resource_name": "domaintemplates", 
-    "rest_name": "domaintemplate", 
-    "update": true
+    }
 }

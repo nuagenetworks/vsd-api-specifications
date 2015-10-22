@@ -1,9 +1,10 @@
 {
+    "model": {}, 
     "children": {
         "metadata": {
-            "create": true,
-            "get": true,
-            "relationship": "child"
+            "create": true, 
+            "relationship": "child", 
+            "get": true
         }
     }
 }

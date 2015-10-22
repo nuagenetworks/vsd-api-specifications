@@ -1,61 +1,63 @@
 {
     "attributes": {
-        "description": {
-            "description": "A description of the Gateway", 
-            "exposed": true, 
-            "filterable": true, 
+        "infrastructureProfileID": {
+            "description": "The ID of the infrastructure gateway profile this instance of a Gateway is associated with.", 
             "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "infrastructureProfileID": {
-            "description": "The ID of the infrastructure gateway profile this instance of a Gateway is associated with.", 
-            "exposed": true, 
-            "filterable": true, 
+        "description": {
+            "description": "A description of the Gateway", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of the Gateway", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "nsgatewaytemplates", 
+        "description": "Represents Network Service Gateway Template object", 
+        "entity_name": "NSGatewayTemplate", 
+        "package": "nsg", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "nsgatewaytemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "nsporttemplate": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represents Network Service Gateway Template object", 
-    "entity_name": "NSGatewayTemplate", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "nsg", 
-    "resource_name": "nsgatewaytemplates", 
-    "rest_name": "nsgatewaytemplate", 
-    "update": true
+    }
 }

@@ -1,141 +1,47 @@
 {
     "attributes": {
-        "VLANID": {
-            "description": "associated Vlan of this vport - applicable for type host/bridge", 
-            "exposed": true, 
-            "filterable": true, 
+        "hasAttachedInterfaces": {
+            "description": "Indicates that this vport has attached interfaces", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "active": {
-            "description": "Indicates if this vport is up or down", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "addressSpoofing": {
-            "allowed_choices": [
-                "ENABLED", 
-                "INHERITED", 
-                "DISABLED"
-            ], 
-            "description": "Indicates if address spoofing is ENABLED/DISABLED/INHERITED for this vport Possible values are INHERITED, ENABLED, DISABLED, .", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "associatedFloatingIPID": {
-            "description": "Id of Floating IP address associated to this vport", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedMulticastChannelMapID": {
-            "description": "The ID of the receive Multicast Channel Map this Vport is associated with. This has to be set when enableMultiCast is set to ENABLED", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedSendMulticastChannelMapID": {
-            "description": "The ID of the send Multicast Channel Map this Vport is associated with. This has to be set when enableMultiCast is set to ENABLED", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "description": {
-            "description": "Description for this vport", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
         "domainID": {
             "description": "ID the Domain associated with the VPort", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "hasAttachedInterfaces": {
-            "description": "Indicates that this vport has attached interfaces", 
-            "exposed": true, 
-            "filterable": true, 
+        "zoneID": {
+            "description": "ID the Zone associated with the VPort", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "multiNICVPortID": {
-            "description": "ID of the Multi NIC VPort associated with the VPort", 
-            "exposed": true, 
-            "filterable": true, 
+        "description": {
+            "description": "Description for this vport", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicast": {
-            "allowed_choices": [
-                "ENABLED", 
-                "INHERITED", 
-                "DISABLED"
-            ], 
-            "description": "multicast is enum that indicates multicast policy on Vport. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "name": {
-            "description": "Name of the vport. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "operationalState": {
-            "allowed_choices": [
-                "DOWN", 
-                "UP", 
-                "INIT"
-            ], 
-            "description": "Operational State of the VPort - RUNNING/SHUTDOWN Possible values are INIT, UP, DOWN, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "systemType": {
+            "description": "Indicates what system it is - SOFTWARE/HARDWARE_VTEP/HARDWARE/ (possible values)  Possible values are HARDWARE, SOFTWARE, HARDWARE_VTEP, NUAGE_1, NUAGE_2, NUAGE_VRSG, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "HARDWARE", 
                 "NUAGE_VRSG", 
@@ -144,129 +50,225 @@
                 "HARDWARE_VTEP", 
                 "SOFTWARE"
             ], 
-            "description": "Indicates what system it is - SOFTWARE/HARDWARE_VTEP/HARDWARE/ (possible values)  Possible values are HARDWARE, SOFTWARE, HARDWARE_VTEP, NUAGE_1, NUAGE_2, NUAGE_VRSG, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "associatedFloatingIPID": {
+            "description": "Id of Floating IP address associated to this vport", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "addressSpoofing": {
+            "required": true, 
+            "description": "Indicates if address spoofing is ENABLED/DISABLED/INHERITED for this vport Possible values are INHERITED, ENABLED, DISABLED, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ENABLED", 
+                "INHERITED", 
+                "DISABLED"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "operationalState": {
+            "description": "Operational State of the VPort - RUNNING/SHUTDOWN Possible values are INIT, UP, DOWN, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "DOWN", 
+                "UP", 
+                "INIT"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "associatedMulticastChannelMapID": {
+            "description": "The ID of the receive Multicast Channel Map this Vport is associated with. This has to be set when enableMultiCast is set to ENABLED", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicast": {
+            "description": "multicast is enum that indicates multicast policy on Vport. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ENABLED", 
+                "INHERITED", 
+                "DISABLED"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "VLANID": {
+            "description": "associated Vlan of this vport - applicable for type host/bridge", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multiNICVPortID": {
+            "description": "ID of the Multi NIC VPort associated with the VPort", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "active": {
+            "description": "Indicates if this vport is up or down", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "associatedSendMulticastChannelMapID": {
+            "description": "The ID of the send Multicast Channel Map this Vport is associated with. This has to be set when enableMultiCast is set to ENABLED", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "type": {
+            "required": true, 
+            "description": "Type of vport - possible values VM/HOST/BRIDGE Possible values are VM, HOST, BRIDGE, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "HOST", 
                 "BRIDGE", 
                 "VM"
             ], 
-            "description": "Type of vport - possible values VM/HOST/BRIDGE Possible values are VM, HOST, BRIDGE, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "required": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
-        "zoneID": {
-            "description": "ID the Zone associated with the VPort", 
-            "exposed": true, 
-            "filterable": true, 
+        "name": {
+            "description": "Name of the vport. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }
     }, 
+    "model": {
+        "resource_name": "vports", 
+        "description": "VPorts are a new level in the domain hierarchy, intended to provide more granular configuration than at subnet, and also support a split workflow, where the vPort is configured and associated with a VM port (or gateway port) before the port exists on the hypervisor or gateway", 
+        "entity_name": "VPort", 
+        "package": "vport", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vport", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }, 
     "children": {
-        "aggregatemetadata": {
-            "get": true, 
-            "relationship": "child"
+        "vrs": {
+            "relationship": "child", 
+            "get": true
+        }, 
+        "redirectiontarget": {
+            "update": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "statistics": {
+            "relationship": "child", 
+            "get": true
+        }, 
+        "policygroup": {
+            "update": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "eventlog": {
+            "relationship": "child", 
+            "get": true
         }, 
         "alarm": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
-        "bridgeinterface": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
+        "aggregatemetadata": {
+            "relationship": "child", 
+            "get": true
         }, 
         "dhcpoption": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
-        "eventlog": {
-            "get": true, 
-            "relationship": "child"
+        "vm": {
+            "relationship": "child", 
+            "get": true
         }, 
         "hostinterface": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "policygroup": {
-            "get": true, 
             "relationship": "child", 
-            "update": true
+            "get": true
         }, 
-        "qos": {
+        "bridgeinterface": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "redirectiontarget": {
-            "get": true, 
             "relationship": "child", 
-            "update": true
-        }, 
-        "statistics": {
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "statisticspolicy": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "tca": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "virtualip": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "vm": {
-            "get": true, 
-            "relationship": "child"
+            "get": true
         }, 
         "vminterface": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "vportmirror": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
-        "vrs": {
-            "get": true, 
-            "relationship": "child"
+        "virtualip": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "qos": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "tca": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
+        "statisticspolicy": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "VPorts are a new level in the domain hierarchy, intended to provide more granular configuration than at subnet, and also support a split workflow, where the vPort is configured and associated with a VM port (or gateway port) before the port exists on the hypervisor or gateway", 
-    "entity_name": "VPort", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "vport", 
-    "resource_name": "vports", 
-    "rest_name": "vport", 
-    "update": true
+    }
 }

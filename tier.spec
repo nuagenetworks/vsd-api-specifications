@@ -1,159 +1,161 @@
 {
     "attributes": {
-        "address": {
-            "description": "IP address of the tier defined.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
         "associatedApplicationID": {
             "description": "The associated network macro ID.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedFloatingIPPoolID": {
-            "description": "The associated floating IP Pool ID.", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "associatedNetworkMacroID": {
             "description": "The associated network macro ID.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "associatedNetworkObjectID": {
-            "description": "The associated network object id.", 
-            "exposed": true, 
-            "filterable": true, 
+        "associatedFloatingIPPoolID": {
+            "description": "The associated floating IP Pool ID.", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedNetworkObjectType": {
-            "description": "The associated network object type. Refer to API section for supported types.", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "description": {
             "description": "Description of the application tier.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "gateway": {
-            "description": "The IP address of the gateway for this tier.", 
-            "exposed": true, 
-            "filterable": true, 
+        "associatedNetworkObjectType": {
+            "description": "The associated network object type. Refer to API section for supported types.", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "metadata": {
-            "description": "Metadata field to store tier related data.", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "name": {
             "description": "Name of the application tier.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "associatedNetworkObjectID": {
+            "description": "The associated network object id.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "netmask": {
             "description": "Netmask for the tier.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "address": {
+            "description": "IP address of the tier defined.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "type": {
+            "required": true, 
+            "description": "Type of the application tier. (Example: STANDARD, NETWORK_MACRO, APPLICATION or APPLICATION_EXTENDED_NETWORK Possible values are STANDARD, NETWORK_MACRO, APPLICATION, APPLICATION_EXTENDED_NETWORK, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "NETWORK_MACRO", 
                 "APPLICATION", 
                 "STANDARD", 
                 "APPLICATION_EXTENDED_NETWORK"
             ], 
-            "description": "Type of the application tier. (Example: STANDARD, NETWORK_MACRO, APPLICATION or APPLICATION_EXTENDED_NETWORK Possible values are STANDARD, NETWORK_MACRO, APPLICATION, APPLICATION_EXTENDED_NETWORK, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "required": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "gateway": {
+            "description": "The IP address of the gateway for this tier.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "metadata": {
+            "description": "Metadata field to store tier related data.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "tiers", 
+        "description": "Tier represents a portion of an application.", 
+        "entity_name": "Tier", 
+        "package": "appd", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "tier", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
-        "eventlog": {
-            "get": true, 
-            "relationship": "child"
-        }, 
         "statistics": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
-        "statisticspolicy": {
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "tca": {
-            "get": true, 
-            "relationship": "child"
+        "eventlog": {
+            "relationship": "child", 
+            "get": true
         }, 
         "vm": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "vport": {
-            "get": true, 
+            "update": true, 
             "relationship": "child", 
-            "update": true
+            "get": true
+        }, 
+        "statisticspolicy": {
+            "relationship": "child", 
+            "get": true
+        }, 
+        "tca": {
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Tier represents a portion of an application.", 
-    "entity_name": "Tier", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "appd", 
-    "resource_name": "tiers", 
-    "rest_name": "tier", 
-    "update": true
+    }
 }

@@ -1,64 +1,66 @@
 {
     "attributes": {
-        "address": {
-            "description": "unique fqdn/address of the remote site",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "required": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
-        "description": {
-            "description": "Description of the Remote Site.",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
-        "name": {
-            "description": "name of the Remote Site.",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "required": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
-        "siteIdentifier": {
-            "description": "unique identifier of the remote site",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "xmppDomain": {
-            "description": "unique xmpp domain name of the remote site",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "required": true,
-            "type": "string",
-            "uniqueScope": "no"
+            "description": "unique xmpp domain name of the remote site", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "siteIdentifier": {
+            "description": "unique identifier of the remote site", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "description": {
+            "description": "Description of the Remote Site.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "name": {
+            "description": "name of the Remote Site.", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "address": {
+            "description": "unique fqdn/address of the remote site", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
-    },
-    "delete": true,
-    "description": "Remote Site info",
-    "entity_name": "SiteInfo",
-    "extends": [
-        "@base",
-        "@metadata"
-    ],
-    "get": true,
-    "package": "common",
-    "resource_name": "sites",
-    "rest_name": "site",
-    "update": true
+    }, 
+    "model": {
+        "resource_name": "sites", 
+        "description": "Remote Site info", 
+        "entity_name": "SiteInfo", 
+        "package": "common", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "site", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

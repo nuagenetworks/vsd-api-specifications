@@ -1,33 +1,91 @@
 {
     "attributes": {
-        "associatedEgressQOSPolicyID": {
-            "description": "ID of the Egress QOS Policy associated with this Vlan.", 
-            "exposed": true, 
-            "filterable": true, 
+        "status": {
+            "description": "Status of the VLAN. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ORPHAN", 
+                "MISMATCH", 
+                "INITIALIZED", 
+                "READY"
+            ], 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "description": {
             "description": "A description of the Port", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "restricted": {
+            "description": "Determines whether this entity can be used in associations with other properties.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "useUserMnemonic": {
+            "description": "determines whether to use user mnemonic of the Port", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "value": {
+            "description": "value of VLAN", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "integer"
         }, 
         "gatewayID": {
             "description": "The Gateway associated with this  VLAN  . This is a read only attribute", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "readonly": {
+            "description": "Determines whether this entity is read only.  Read only objects cannot be modified or deleted.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "userMnemonic": {
+            "description": "user mnemonic of the Port", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }, 
         "permittedAction": {
+            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -36,125 +94,69 @@
                 "READ", 
                 "ALL"
             ], 
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "readonly": {
-            "description": "Determines whether this entity is read only.  Read only objects cannot be modified or deleted.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "restricted": {
-            "description": "Determines whether this entity can be used in associations with other properties.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "status": {
-            "allowed_choices": [
-                "ORPHAN", 
-                "MISMATCH", 
-                "INITIALIZED", 
-                "READY"
-            ], 
-            "description": "Status of the VLAN. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "templateID": {
             "description": "The ID of the template that this Port was created from", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "useUserMnemonic": {
-            "description": "determines whether to use user mnemonic of the Port", 
-            "exposed": true, 
-            "filterable": true, 
+        "associatedEgressQOSPolicyID": {
+            "description": "ID of the Egress QOS Policy associated with this Vlan.", 
             "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "userMnemonic": {
-            "description": "user mnemonic of the Port", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "value": {
-            "description": "value of VLAN", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "vportID": {
             "description": "The Vport associated with this  VLAN  . This is a read only attribute", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "vlans", 
+        "description": "Represents VLAN object under a given PORT object", 
+        "entity_name": "VLAN", 
+        "package": "gateway", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vlan", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "alarm": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "enterprisepermission": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "eventlog": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "permission": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represents VLAN object under a given PORT object", 
-    "entity_name": "VLAN", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "gateway", 
-    "resource_name": "vlans", 
-    "rest_name": "vlan", 
-    "update": true
+    }
 }

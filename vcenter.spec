@@ -1,645 +1,647 @@
 {
     "attributes": {
-        "allowDataDHCP": {
-            "description": "Whether to get the Data IP for the VRS VM from DHCP or statically", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "allowMgmtDHCP": {
-            "description": "Whether to get the management IP for the VRS VM from DHCP or statically", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "autoResolveFrequency": {
-            "description": "Frequency at which VCenter issues are to be resolved", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "customizedScriptURL": {
-            "description": "To provide a URL to install a custom app on VRS", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "dataDNS1": {
-            "description": "Data DNS 1", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "dataDNS2": {
-            "description": "Data DNS 2", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "dataGateway": {
-            "description": "Data Gateway", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "dataNetworkPortgroup": {
-            "description": "Data Network Port Group", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "datapathSyncTimeout": {
-            "description": "Datapath Sync Timeout", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "description": {
-            "description": "Description of the VCenter", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "dhcpRelayServer": {
-            "description": "To provide IP address of the interface from which you will connect to the DHCP relay server", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "flowEvictionThreshold": {
-            "description": "Flow Eviction Threshold", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "hostLevelManagement": {
-            "description": "Flag to say if host level management is enabled", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "httpPort": {
-            "description": "Http proxy port for VCenter", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "httpsPort": {
-            "description": "Https proxy port of the VCenter", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "ipAddress": {
-            "description": "IP Address of the VCenter", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
         "metadataServerIP": {
             "description": "Metadata Server IP", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "metadataServerListenPort": {
             "description": "Metadata Server Listen Port", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "metadataServerPort": {
-            "description": "Metadata Server Port", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "metadataServiceEnabled": {
-            "description": "Metadata Service Enabled", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "mgmtDNS1": {
-            "description": "DNS server 1", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "mgmtDNS2": {
-            "description": "DNS server 2", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "mgmtGateway": {
-            "description": "Gateway for the IP address", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "mgmtNetworkPortgroup": {
-            "description": "Management Network Port group", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "mtu": {
-            "description": "Maximum Transmission Unit for eth2 interface", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "multiVMSsupport": {
-            "description": "Whether Multi VM is to be used or not", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "multicastReceiveInterface": {
-            "description": "Multicast Receive Interface", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastReceiveInterfaceIP": {
-            "description": "IP address for eth3 interface", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastReceiveInterfaceNetmask": {
-            "description": "Multicast Interface netmask", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastReceiveRange": {
-            "description": "Allowed Range to receive the Multicast traffic from", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastSendInterface": {
-            "description": "Multicast Send Interface", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastSendInterfaceIP": {
-            "description": "IP address for eth3 interface", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastSendInterfaceNetmask": {
-            "description": "Multicast Interface netmask", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "multicastSourcePortgroup": {
-            "description": "Multi Cast Source Port Group Name", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "name": {
-            "description": "Name of the VCenter", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "networkUplinkInterface": {
-            "description": "Network Upling Interface to support PAT/NAT with no tunnels on VRS-VM", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "networkUplinkInterfaceGateway": {
-            "description": "Network Uplink Interface Gateway", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "networkUplinkInterfaceIp": {
-            "description": "Ip Address to support PAT/NAT with no tunnels on VRS-VM", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "networkUplinkInterfaceNetmask": {
-            "description": "Network Uplink Interface Netmask", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "nfsLogServer": {
-            "description": "IP address of NFS server to send the VRS log", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "nfsMountPath": {
-            "description": "Location to mount the NFS server", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaClientVersion": {
-            "description": "Nova client Version ", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
-        "novaMetadataServiceAuthUrl": {
-            "description": "Nova metadata service auth url", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaMetadataServiceEndpoint": {
-            "description": "Nova metadata service endpoint", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaMetadataServicePassword": {
-            "description": "Nova metadata service password", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaMetadataServiceTenant": {
-            "description": "Nova metadata service tenant", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaMetadataServiceUsername": {
-            "description": "Nova metadata service username", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaMetadataSharedSecret": {
-            "description": "Nova metadata shared secret", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "novaRegionName": {
-            "description": "Nova region name", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "ntpServer1": {
-            "description": "IP of the NTP server 1", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "ntpServer2": {
-            "description": "IP of the NTP server 1", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "ovfURL": {
-            "description": "The url for the ovf", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "password": {
-            "description": "Password for the VCenter user", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "personality": {
-            "description": "VRS/VRS-G", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "portgroupMetadata": {
-            "description": "Port Group Meta data", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "primaryNuageController": {
-            "description": "IP address of the primary Controller (VSC)", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "secondaryNuageController": {
-            "description": "IP address of the secondary Controller (VSC)", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "integer"
         }, 
         "separateDataNetwork": {
             "description": "Whether Data will use the management network or not", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
-        "siteId": {
-            "description": "Site ID field for object profiles to support VSD Geo-redundancy", 
-            "exposed": true, 
-            "filterable": true, 
+        "secondaryNuageController": {
+            "description": "IP address of the secondary Controller (VSC)", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "staticRoute": {
-            "description": "static route to be configured in the VRS", 
-            "exposed": true, 
-            "filterable": true, 
+        "ovfURL": {
+            "description": "The url for the ovf", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "staticRouteGateway": {
-            "description": "Gateway for the static route given above", 
-            "exposed": true, 
-            "filterable": true, 
+        "hostLevelManagement": {
+            "description": "Flag to say if host level management is enabled", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "staticRouteNetmask": {
-            "description": "Nova region name", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "userName": {
-            "description": "User name of the VCenter", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
         "vRequireNuageMetadata": {
             "description": "Whether split-activation or not (Openstack/CloudStack)", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
-        "vmNetworkPortgroup": {
-            "description": "VM Network Port Group Name", 
-            "exposed": true, 
-            "filterable": true, 
+        "multicastSendInterfaceIP": {
+            "description": "IP address for eth3 interface", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "vrsConfigID": {
-            "description": "The ID of the template that this Port was created from", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "vrsPassword": {
-            "description": "VRS password to be used by toolbox to communicate with VRS", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "vrsUserName": {
             "description": "VRS user name to be used by toolbox to communicate with VRS", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "novaMetadataServiceTenant": {
+            "description": "Nova metadata service tenant", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicastReceiveInterface": {
+            "description": "Multicast Receive Interface", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "dataGateway": {
+            "description": "Data Gateway", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicastReceiveInterfaceNetmask": {
+            "description": "Multicast Interface netmask", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "networkUplinkInterfaceGateway": {
+            "description": "Network Uplink Interface Gateway", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "portgroupMetadata": {
+            "description": "Port Group Meta data", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "flowEvictionThreshold": {
+            "description": "Flow Eviction Threshold", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "multicastReceiveInterfaceIP": {
+            "description": "IP address for eth3 interface", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicastSendInterfaceNetmask": {
+            "description": "Multicast Interface netmask", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "novaMetadataServiceAuthUrl": {
+            "description": "Nova metadata service auth url", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "vrsPassword": {
+            "description": "VRS password to be used by toolbox to communicate with VRS", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "staticRouteGateway": {
+            "description": "Gateway for the static route given above", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "staticRouteNetmask": {
+            "description": "Nova region name", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "metadataServerPort": {
+            "description": "Metadata Server Port", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "httpPort": {
+            "description": "Http proxy port for VCenter", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "httpsPort": {
+            "description": "Https proxy port of the VCenter", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "datapathSyncTimeout": {
+            "description": "Datapath Sync Timeout", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "autoResolveFrequency": {
+            "description": "Frequency at which VCenter issues are to be resolved", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "mgmtGateway": {
+            "description": "Gateway for the IP address", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "novaMetadataServiceUsername": {
+            "description": "Nova metadata service username", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "dhcpRelayServer": {
+            "description": "To provide IP address of the interface from which you will connect to the DHCP relay server", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "novaClientVersion": {
+            "description": "Nova client Version ", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "description": {
+            "description": "Description of the VCenter", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "metadataServiceEnabled": {
+            "description": "Metadata Service Enabled", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "vrsConfigID": {
+            "description": "The ID of the template that this Port was created from", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "vmNetworkPortgroup": {
+            "description": "VM Network Port Group Name", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "mgmtNetworkPortgroup": {
+            "description": "Management Network Port group", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "networkUplinkInterfaceNetmask": {
+            "description": "Network Uplink Interface Netmask", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "nfsLogServer": {
+            "description": "IP address of NFS server to send the VRS log", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "networkUplinkInterfaceIp": {
+            "description": "Ip Address to support PAT/NAT with no tunnels on VRS-VM", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "mgmtDNS1": {
+            "description": "DNS server 1", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "mgmtDNS2": {
+            "description": "DNS server 2", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "siteId": {
+            "description": "Site ID field for object profiles to support VSD Geo-redundancy", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicastReceiveRange": {
+            "description": "Allowed Range to receive the Multicast traffic from", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "allowDataDHCP": {
+            "description": "Whether to get the Data IP for the VRS VM from DHCP or statically", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "novaMetadataServicePassword": {
+            "description": "Nova metadata service password", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicastSendInterface": {
+            "description": "Multicast Send Interface", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "novaMetadataSharedSecret": {
+            "description": "Nova metadata shared secret", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "userName": {
+            "description": "User name of the VCenter", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "customizedScriptURL": {
+            "description": "To provide a URL to install a custom app on VRS", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "primaryNuageController": {
+            "description": "IP address of the primary Controller (VSC)", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "name": {
+            "description": "Name of the VCenter", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "ntpServer2": {
+            "description": "IP of the NTP server 1", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "networkUplinkInterface": {
+            "description": "Network Upling Interface to support PAT/NAT with no tunnels on VRS-VM", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "novaRegionName": {
+            "description": "Nova region name", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "ntpServer1": {
+            "description": "IP of the NTP server 1", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multicastSourcePortgroup": {
+            "description": "Multi Cast Source Port Group Name", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "staticRoute": {
+            "description": "static route to be configured in the VRS", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "mtu": {
+            "description": "Maximum Transmission Unit for eth2 interface", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "allowMgmtDHCP": {
+            "description": "Whether to get the management IP for the VRS VM from DHCP or statically", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "password": {
+            "description": "Password for the VCenter user", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "dataNetworkPortgroup": {
+            "description": "Data Network Port Group", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "nfsMountPath": {
+            "description": "Location to mount the NFS server", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "novaMetadataServiceEndpoint": {
+            "description": "Nova metadata service endpoint", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "personality": {
+            "description": "VRS/VRS-G", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "ipAddress": {
+            "description": "IP Address of the VCenter", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "dataDNS2": {
+            "description": "Data DNS 2", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "dataDNS1": {
+            "description": "Data DNS 1", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "multiVMSsupport": {
+            "description": "Whether Multi VM is to be used or not", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
         }
+    }, 
+    "model": {
+        "resource_name": "vcenters", 
+        "description": "Represent a VCenter", 
+        "entity_name": "VCenter", 
+        "package": "vmware", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vcenter", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
-        "vcenterdatacenter": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child", 
-            "update": true
-        }, 
         "vrsaddressrange": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
+        }, 
+        "vcenterdatacenter": {
+            "create": true, 
+            "update": true, 
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represent a VCenter", 
-    "entity_name": "VCenter", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "vmware", 
-    "resource_name": "vcenters", 
-    "rest_name": "vcenter", 
-    "update": true
+    }
 }

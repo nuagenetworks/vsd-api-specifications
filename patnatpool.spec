@@ -1,62 +1,49 @@
 {
     "attributes": {
-        "addressRange": {
-            "description": "Pool of IP Address that is available for use ex : 130.12.0.0/16", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
         "associatedGatewayId": {
             "description": "Default PAT IP Address, must belong to the pool above", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "associatedGatewayType": {
             "description": "", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "defaultPATIP": {
-            "description": "Default PAT IP Address, must belong to the pool above", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "description": {
-            "description": "A description of the PATNATPool", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "name": {
             "description": "Name of the PATNATPool", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "addressRange": {
+            "description": "Pool of IP Address that is available for use ex : 130.12.0.0/16", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }, 
         "permittedAction": {
+            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "EXTEND", 
                 "INSTANTIATE", 
@@ -65,37 +52,52 @@
                 "READ", 
                 "ALL"
             ], 
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "defaultPATIP": {
+            "description": "Default PAT IP Address, must belong to the pool above", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "description": {
+            "description": "A description of the PATNATPool", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "patnatpools", 
+        "description": "Represents PAT NAT Pool object.", 
+        "entity_name": "PATNATPool", 
+        "package": "gateway", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "patnatpool", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
-        "enterprisepermission": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
         "natmapentry": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
+        }, 
+        "enterprisepermission": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represents PAT NAT Pool object.", 
-    "entity_name": "PATNATPool", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "gateway", 
-    "resource_name": "patnatpools", 
-    "rest_name": "patnatpool", 
-    "update": true
+    }
 }

@@ -1,87 +1,89 @@
 {
     "attributes": {
-        "address": {
-            "description": "Formatted address including property number, street name, suite or office number, ...", 
-            "exposed": true, 
-            "filterable": true, 
+        "timeZoneID": {
+            "description": "Time zone in which the Gateway is located.  This can be in the form of a UTC/GMT offset, continent/city location, or country/region.  The available time zones can be found in /usr/share/zoneinfo on a Linux machine or retrieved with TimeZone.getAvailableIDs() in Java.  Refer to the IANA (Internet Assigned Numbers Authority) for a list of time zones.  URL :  http://www.iana.org/time-zones  Default value is UTC (translating to Etc/Zulu)", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "country": {
-            "description": "Country", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "ignoreGeocode": {
             "description": "Request BSS to perform a geocode on the address - If no value passed, requestGeocode will be set to true", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "latitude": {
-            "description": "Latitude in decimal format.", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
         "locality": {
             "description": "Locality/City/County", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "country": {
+            "description": "Country", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "longitude": {
             "description": "Longitude in decimal format.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "float"
         }, 
         "state": {
             "description": "State/Province/Region", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "timeZoneID": {
-            "description": "Time zone in which the Gateway is located.  This can be in the form of a UTC/GMT offset, continent/city location, or country/region.  The available time zones can be found in /usr/share/zoneinfo on a Linux machine or retrieved with TimeZone.getAvailableIDs() in Java.  Refer to the IANA (Internet Assigned Numbers Authority) for a list of time zones.  URL :  http://www.iana.org/time-zones  Default value is UTC (translating to Etc/Zulu)", 
-            "exposed": true, 
-            "filterable": true, 
+        "address": {
+            "description": "Formatted address including property number, street name, suite or office number, ...", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "latitude": {
+            "description": "Latitude in decimal format.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
         }
     }, 
-    "description": "Gateway location details", 
-    "entity_name": "Location", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "gateway", 
-    "resource_name": "locations", 
-    "rest_name": "location", 
-    "update": true
+    "model": {
+        "resource_name": "locations", 
+        "description": "Gateway location details", 
+        "entity_name": "Location", 
+        "package": "gateway", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "location", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }
 }

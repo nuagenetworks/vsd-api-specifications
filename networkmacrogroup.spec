@@ -2,41 +2,43 @@
     "attributes": {
         "description": {
             "description": "Description of the macro group", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of the macro group", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "networkmacrogroups", 
+        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks", 
+        "entity_name": "NetworkMacroGroup", 
+        "package": "network", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "networkmacrogroup", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "enterprisenetwork": {
-            "get": true, 
+            "update": true, 
             "relationship": "child", 
-            "update": true
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks", 
-    "entity_name": "NetworkMacroGroup", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "network", 
-    "resource_name": "networkmacrogroups", 
-    "rest_name": "networkmacrogroup", 
-    "update": true
+    }
 }

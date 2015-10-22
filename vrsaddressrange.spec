@@ -1,36 +1,38 @@
 {
     "attributes": {
         "maxAddress": {
-            "description": "Higest address in the address range",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "required": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
+            "description": "Higest address in the address range", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "minAddress": {
-            "description": "Lowest address in the address range",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "required": true,
-            "type": "string",
-            "uniqueScope": "no"
+            "description": "Lowest address in the address range", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
-    },
-    "delete": true,
-    "description": "This is the definition of a Address Range associated with a VRS",
-    "entity_name": "VRSAddressRange",
-    "extends": [
-        "@base",
-        "@metadata"
-    ],
-    "get": true,
-    "package": "vmware",
-    "resource_name": "vrsaddressranges",
-    "rest_name": "vrsaddressrange",
-    "update": true
+    }, 
+    "model": {
+        "resource_name": "vrsaddressranges", 
+        "description": "This is the definition of a Address Range associated with a VRS", 
+        "entity_name": "VRSAddressRange", 
+        "package": "vmware", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vrsaddressrange", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

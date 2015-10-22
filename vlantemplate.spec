@@ -2,42 +2,44 @@
     "attributes": {
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "description": {
             "description": "A description of the Port", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "value": {
             "description": "value of VLAN", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
+            "type": "integer"
         }
     }, 
-    "delete": true, 
-    "description": "Represents VLAN Template under a PORT Template object.", 
-    "entity_name": "VLANTemplate", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "gateway", 
-    "resource_name": "vlantemplates", 
-    "rest_name": "vlantemplate", 
-    "update": true
+    "model": {
+        "resource_name": "vlantemplates", 
+        "description": "Represents VLAN Template under a PORT Template object.", 
+        "entity_name": "VLANTemplate", 
+        "package": "gateway", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vlantemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

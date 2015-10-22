@@ -1,51 +1,53 @@
 {
     "attributes": {
-        "IPAddress": {
-            "description": "Static IP Address", 
-            "exposed": true, 
-            "filterable": true, 
+        "dynamicAllocationEnabled": {
+            "description": "Binding is static or dynamic", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
         "MAC": {
             "description": "MAC Address", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "dynamicAllocationEnabled": {
-            "description": "Binding is static or dynamic", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "IPAddress": {
+            "description": "Static IP Address", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "ipreservations", 
+        "description": "This is the definition of a IP Bindings associated with in a Network", 
+        "entity_name": "IPReservation", 
+        "package": "network", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "ipreservation", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "eventlog": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "This is the definition of a IP Bindings associated with in a Network", 
-    "entity_name": "IPReservation", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "network", 
-    "resource_name": "ipreservations", 
-    "rest_name": "ipreservation", 
-    "update": true
+    }
 }

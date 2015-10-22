@@ -2,45 +2,47 @@
     "attributes": {
         "description": {
             "description": "A description field provided by the user that identifies the MultiCast Channel Map", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of the current entity", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "multicastchannelmaps", 
+        "description": "This is the definition of a MultiCast Channel Map", 
+        "entity_name": "MultiCastChannelMap", 
+        "package": "network", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "multicastchannelmap", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "eventlog": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "multicastrange": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "This is the definition of a MultiCast Channel Map", 
-    "entity_name": "MultiCastChannelMap", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "network", 
-    "resource_name": "multicastchannelmaps", 
-    "rest_name": "multicastchannelmap", 
-    "update": true
+    }
 }

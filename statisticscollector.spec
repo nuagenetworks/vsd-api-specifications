@@ -1,56 +1,58 @@
 {
     "attributes": {
-        "addressType": {
-            "allowed_choices": [
-                "fqdn",
-                "ip"
-            ],
-            "description": "Type for stats collector address Possible values are ip, fqdn, .",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "enum",
-            "uniqueScope": "no"
-        },
-        "ipAddress": {
-            "description": "IP address(es) of the stats collector process",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
-        "port": {
-            "description": "Port(s) of the stats collector process",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "protoBufPort": {
-            "description": "Protobuf Port(s) of the stats collector process",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
+            "description": "Protobuf Port(s) of the stats collector process", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "addressType": {
+            "description": "Type for stats collector address Possible values are ip, fqdn, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "fqdn", 
+                "ip"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "ipAddress": {
+            "description": "IP address(es) of the stats collector process", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "port": {
+            "description": "Port(s) of the stats collector process", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
-    },
-    "delete": true,
-    "description": "Identifies the IP address of the stats collector entity that must be used",
-    "entity_name": "StatsCollectorInfo",
-    "extends": [
-        "@base",
-        "@metadata"
-    ],
-    "get": true,
-    "package": "stats",
-    "resource_name": "statisticscollector",
-    "rest_name": "statisticscollector",
-    "update": true
+    }, 
+    "model": {
+        "resource_name": "statisticscollector", 
+        "description": "Identifies the IP address of the stats collector entity that must be used", 
+        "entity_name": "StatsCollectorInfo", 
+        "package": "stats", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "statisticscollector", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

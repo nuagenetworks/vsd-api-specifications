@@ -1,104 +1,106 @@
 {
     "attributes": {
-        "action": {
-            "description": "The bootstrap action to perform", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "cacert": {
-            "description": "The CA Certificate Chain", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "cert": {
-            "description": "The signed Certificate", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "configURL": {
-            "description": "The configuration URL", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "csr": {
-            "description": "The CSR of the request", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "hash": {
-            "description": "The authentication hash of this request", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "seed": {
-            "description": "The random seed for this request", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "srkPassword": {
-            "description": "TPM SRK passphrase", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
         "status": {
             "description": "The agent status for the request", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "tpmOwnerPassword": {
             "description": "TPM owner passphrase", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "hash": {
+            "description": "The authentication hash of this request", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "configURL": {
+            "description": "The configuration URL", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "cacert": {
+            "description": "The CA Certificate Chain", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "cert": {
+            "description": "The signed Certificate", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "seed": {
+            "description": "The random seed for this request", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "action": {
+            "description": "The bootstrap action to perform", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "srkPassword": {
+            "description": "TPM SRK passphrase", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "csr": {
+            "description": "The CSR of the request", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
-    "description": "NSG Gateway initiated Bootstrap Activation", 
-    "entity_name": "BootstrapActivation", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "package": "gateway", 
-    "resource_name": "bootstrapactivations", 
-    "rest_name": "bootstrapactivation", 
-    "update": true
+    "model": {
+        "resource_name": "bootstrapactivations", 
+        "description": "NSG Gateway initiated Bootstrap Activation", 
+        "entity_name": "BootstrapActivation", 
+        "package": "gateway", 
+        "update": true, 
+        "rest_name": "bootstrapactivation", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }
 }

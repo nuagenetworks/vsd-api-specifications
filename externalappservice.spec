@@ -1,169 +1,171 @@
 {
     "attributes": {
-        "associatedServiceEgressGroupID": {
-            "description": "ID of service port group identifying the output ports", 
-            "exposed": true, 
-            "filterable": true, 
+        "sourceNATAddress": {
+            "description": "Source NAT Address", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedServiceEgressRedirectID": {
-            "description": "the redirect target ID that identifies the output ports", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedServiceIngressGroupID": {
-            "description": "ID of service port group identifying the input ports", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "associatedServiceIngressRedirectID": {
-            "description": "the redirect target ID that identifies the input ports", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "description": {
             "description": "Description of the flow.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "destinationNATAddress": {
-            "description": "Destination NAT Address", 
-            "exposed": true, 
-            "filterable": true, 
+        "egressType": {
+            "description": "Egress type: ROUTE / REDIRECT Possible values are ROUTE, REDIRECT, .", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ROUTE", 
+                "REDIRECT"
+            ], 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "associatedServiceEgressRedirectID": {
+            "description": "the redirect target ID that identifies the output ports", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "destinationNATEnabled": {
             "description": "Boolean flag to indicate whether source NAT is enabled", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
+            "type": "boolean"
         }, 
-        "destinationNATMask": {
-            "description": "netmask of the Destination NAT", 
-            "exposed": true, 
-            "filterable": true, 
+        "destinationNATAddress": {
+            "description": "Destination NAT Address", 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "egressType": {
-            "allowed_choices": [
-                "ROUTE", 
-                "REDIRECT"
-            ], 
-            "description": "Egress type: ROUTE / REDIRECT Possible values are ROUTE, REDIRECT, .", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "ingressType": {
-            "allowed_choices": [
-                "ROUTE", 
-                "REDIRECT"
-            ], 
-            "description": "Ingress type: ROUTE / REDIRECT Possible values are ROUTE, REDIRECT, .", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "metadata": {
-            "description": "metadata", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of the flow.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "sourceNATAddress": {
-            "description": "Source NAT Address", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "sourceNATEnabled": {
-            "description": "Boolean flag to indicate whether source NAT is enabled", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "virtualIP": {
-            "description": "Virtual IP Address", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "virtualIPRequired": {
             "description": "Boolean flag to indicate whether we require a VIP", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
+            "type": "boolean"
+        }, 
+        "associatedServiceIngressGroupID": {
+            "description": "ID of service port group identifying the input ports", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "sourceNATEnabled": {
+            "description": "Boolean flag to indicate whether source NAT is enabled", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
+        "ingressType": {
+            "description": "Ingress type: ROUTE / REDIRECT Possible values are ROUTE, REDIRECT, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "allowed_choices": [
+                "ROUTE", 
+                "REDIRECT"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "associatedServiceIngressRedirectID": {
+            "description": "the redirect target ID that identifies the input ports", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "destinationNATMask": {
+            "description": "netmask of the Destination NAT", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "virtualIP": {
+            "description": "Virtual IP Address", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "associatedServiceEgressGroupID": {
+            "description": "ID of service port group identifying the output ports", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "metadata": {
+            "description": "metadata", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
-    "delete": true, 
-    "description": "Represents an External Service in the Application Designer", 
-    "entity_name": "ExternalAppService", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "appd", 
-    "resource_name": "externalappservices", 
-    "rest_name": "externalappservice", 
-    "update": true
+    "model": {
+        "resource_name": "externalappservices", 
+        "description": "Represents an External Service in the Application Designer", 
+        "entity_name": "ExternalAppService", 
+        "package": "appd", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "externalappservice", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

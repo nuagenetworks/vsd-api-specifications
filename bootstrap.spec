@@ -1,15 +1,11 @@
 {
     "attributes": {
-        "installerID": {
-            "description": "The Installer ID", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
         "status": {
+            "description": "Bootstrap status; can be, for example, Active, Inactive, or Notified. Possible values are INACTIVE, NOTIFICATION_APP_REQ_SENT, NOTIFICATION_APP_REQ_ACK, CERTIFICATE_SIGNED, ACTIVE, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "CERTIFICATE_SIGNED", 
                 "NOTIFICATION_APP_REQ_SENT", 
@@ -17,24 +13,30 @@
                 "NOTIFICATION_APP_REQ_ACK", 
                 "ACTIVE"
             ], 
-            "description": "Bootstrap status; can be, for example, Active, Inactive, or Notified. Possible values are INACTIVE, NOTIFICATION_APP_REQ_SENT, NOTIFICATION_APP_REQ_ACK, CERTIFICATE_SIGNED, ACTIVE, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "installerID": {
+            "description": "The Installer ID", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
-    "description": "Gateway bootstrap details", 
-    "entity_name": "Bootstrap", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "gateway", 
-    "resource_name": "bootstraps", 
-    "rest_name": "bootstrap", 
-    "update": true
+    "model": {
+        "resource_name": "bootstraps", 
+        "description": "Gateway bootstrap details", 
+        "entity_name": "Bootstrap", 
+        "package": "gateway", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "bootstrap", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }
 }

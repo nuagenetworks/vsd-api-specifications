@@ -1,81 +1,83 @@
 {
     "attributes": {
-        "creationTime": {
-            "description": "The time this entry was created (milliseconds since epoch)", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
-        }, 
-        "lifetime": {
-            "description": "The lifetime of this entry (seconds)", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
-            "uniqueScope": "no"
-        }, 
         "seedPayloadAuthenticationAlgorithm": {
+            "description": "SEK Payload Signature Algorithm Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA512, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "HMAC_SHA512", 
                 "HMAC_SHA1", 
                 "HMAC_SHA256"
             ], 
-            "description": "SEK Payload Signature Algorithm Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA512, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
+        }, 
+        "lifetime": {
+            "description": "The lifetime of this entry (seconds)", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "integer"
+        }, 
+        "creationTime": {
+            "description": "The time this entry was created (milliseconds since epoch)", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
         }, 
         "seedPayloadEncryptionAlgorithm": {
+            "description": "SEK Payload Encryption Algorithm Possible values are AES_128_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "AES_128_CBC", 
                 "AES_256_CBC", 
                 "TRIPLE_DES_CBC"
             ], 
-            "description": "SEK Payload Encryption Algorithm Possible values are AES_128_CBC, AES_256_CBC, TRIPLE_DES_CBC, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "startTime": {
             "description": "The time this entry  was activated (milliseconds since epoch)", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "float"
         }
+    }, 
+    "model": {
+        "resource_name": "keyservermonitorseks", 
+        "description": "Represents a Keyserver Monitor SEK Snapshot", 
+        "entity_name": "KeyServerMonitorSEK", 
+        "package": "keyserver", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "keyservermonitorsek", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "keyservermonitorencryptedseed": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "keyservermonitorencryptedsek": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represents a Keyserver Monitor SEK Snapshot", 
-    "entity_name": "KeyServerMonitorSEK", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "keyserver", 
-    "resource_name": "keyservermonitorseks", 
-    "rest_name": "keyservermonitorsek", 
-    "update": true
+    }
 }

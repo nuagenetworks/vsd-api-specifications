@@ -1,49 +1,51 @@
 {
     "attributes": {
-        "destinationIp": {
-            "description": "IP address of the destination server where you want your traffic to be mirrored.", 
-            "exposed": true, 
-            "filterable": true, 
+        "serviceId": {
+            "description": "Service ID of the mirror destination.", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "float"
         }, 
         "name": {
             "description": "Name of the mirror destination. Valid characters are alphabets, numbers, space and hyphen( - ).", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "serviceId": {
-            "description": "Service ID of the mirror destination.", 
-            "exposed": true, 
-            "filterable": true, 
+        "destinationIp": {
+            "description": "IP address of the destination server where you want your traffic to be mirrored.", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "mirrordestinations", 
+        "description": "Represents the mirror destination entity.", 
+        "entity_name": "MirrorDestination", 
+        "package": "vport", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "mirrordestination", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "vportmirror": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "Represents the mirror destination entity.", 
-    "entity_name": "MirrorDestination", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "vport", 
-    "resource_name": "mirrordestinations", 
-    "rest_name": "mirrordestination", 
-    "update": true
+    }
 }

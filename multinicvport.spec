@@ -2,28 +2,30 @@
     "attributes": {
         "name": {
             "description": "Name for the Multi NIC VPort.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "multinicvports", 
+        "description": "Encapsulates the Multi NIC VPort information for system monitor entity.", 
+        "entity_name": "MultiNICVPort", 
+        "package": "sysmon", 
+        "get": true, 
+        "rest_name": "multinicvport", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
     }, 
     "children": {
         "vport": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "description": "Encapsulates the Multi NIC VPort information for system monitor entity.", 
-    "entity_name": "MultiNICVPort", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "sysmon", 
-    "resource_name": "multinicvports", 
-    "rest_name": "multinicvport"
+    }
 }

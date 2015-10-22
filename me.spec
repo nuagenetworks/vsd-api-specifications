@@ -1,386 +1,388 @@
 {
     "attributes": {
+        "userName": {
+            "description": "Unique Username of the user. Valid characters are alphabets, numbers and hyphen( - ).", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "mobileNumber": {
+            "description": "Mobile Number of the user", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "firstName": {
+            "description": "First name of the user", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "avatarData": {
             "description": "URL to the avatar data associated with the enterprise. If the avatarType is URL then value of avatarData should an URL of the image. If the avatarType BASE64 then avatarData should be BASE64 encoded value of the image", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "enterpriseName": {
+            "description": "Name of the enterprise.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "disabled": {
+            "description": "Status of the user account; true=disabled, false=not disabled; default value = false", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
         }, 
         "avatarType": {
+            "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "COMPUTEDURL", 
                 "BASE64", 
                 "URL"
             ], 
-            "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
-        }, 
-        "disabled": {
-            "description": "Status of the user account; true=disabled, false=not disabled; default value = false", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "email": {
-            "description": "Email address of the user", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "enum"
         }, 
         "enterpriseID": {
             "description": "Identifier of the enterprise.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "enterpriseName": {
-            "description": "Name of the enterprise.", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "firstName": {
-            "description": "First name of the user", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "lastName": {
-            "description": "Last name of the user", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "mobileNumber": {
-            "description": "Mobile Number of the user", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "password": {
-            "description": "User password stored as a hash (SHA-1 encrpted)", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "role": {
             "description": "Role of the user.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "userName": {
-            "description": "Unique Username of the user. Valid characters are alphabets, numbers and hyphen( - ).", 
-            "exposed": true, 
-            "filterable": true, 
+        "lastName": {
+            "description": "Last name of the user", 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "password": {
+            "description": "User password stored as a hash (SHA-1 encrpted)", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "email": {
+            "description": "Email address of the user", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
+            "required": true, 
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
+    "model": {
+        "resource_name": "me", 
+        "description": "Object that identifies the user functions", 
+        "entity_name": "Me", 
+        "package": "usermgmt", 
+        "rest_name": "me", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }, 
     "children": {
-        "applicationservice": {
+        "vsp": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "ingressadvfwdentrytemplate": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "domain": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "egressqospolicy": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
         "autodiscoveredgateway": {
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
+        }, 
+        "sharednetworkresource": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "mirrordestination": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "networklayout": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "multicastchannelmap": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "redundancygroup": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "gateway": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "tca": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "nsgateway": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "policygroup": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "ratelimiter": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
         }, 
         "certificate": {
             "create": true, 
             "relationship": "root"
         }, 
-        "cms": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "domain": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "eamconfig": {
-            "create": true, 
-            "get": true, 
+        "floatingip": {
             "relationship": "root", 
-            "update": true
-        }, 
-        "egressaclentrytemplate": {
-            "get": true, 
-            "relationship": "root"
+            "get": true
         }, 
         "egressacltemplate": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "egressqospolicy": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "enterprise": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "enterpriseprofile": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "externalappservice": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "externalservice": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "floatingip": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "gateway": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "gatewaytemplate": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "globalmetadata": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "hostinterface": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "infrastructuregatewayprofile": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "infrastructureportprofile": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "infrastructurevscprofile": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "ingressaclentrytemplate": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "ingressacltemplate": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "ingressadvfwdentrytemplate": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "job": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "l2domain": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "license": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "metadatatag": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "mirrordestination": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "multicastchannelmap": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "networklayout": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "nsgateway": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "nsgatewaytemplate": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "nsgredundancygroup": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "nsportstaticconfiguration": {
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
         "patnatpool": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
-        "policygroup": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "ratelimiter": {
+        "infrastructuregatewayprofile": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
-        "redirectiontarget": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "redundancygroup": {
+        "infrastructureportprofile": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
-        "sharednetworkresource": {
+        "nsgredundancygroup": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "externalservice": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
-        "site": {
+        "eamconfig": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "update": true, 
+            "relationship": "root", 
+            "get": true
         }, 
-        "staticroute": {
-            "get": true, 
-            "relationship": "root"
+        "applicationservice": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
         }, 
         "statisticscollector": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "subnet": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "systemconfig": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "tca": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "uplinkroutedistinguisher": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "user": {
-            "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
         "vcenter": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
+        }, 
+        "ingressaclentrytemplate": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "gatewaytemplate": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "vrsconfig": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "nsportstaticconfiguration": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "infrastructurevscprofile": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "subnet": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "l2domain": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "hostinterface": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "site": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "uplinkroutedistinguisher": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "externalappservice": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "job": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "vminterface": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "staticroute": {
+            "relationship": "root", 
+            "get": true
         }, 
         "vcenterhypervisor": {
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
+        }, 
+        "metadatatag": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "redirectiontarget": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "zone": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "license": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "enterpriseprofile": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "egressaclentrytemplate": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "globalmetadata": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "nsgatewaytemplate": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
+        }, 
+        "systemconfig": {
+            "relationship": "root", 
+            "get": true
+        }, 
+        "enterprise": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
         }, 
         "vm": {
             "create": true, 
-            "get": true, 
-            "relationship": "root"
+            "relationship": "root", 
+            "get": true
         }, 
-        "vminterface": {
-            "get": true, 
-            "relationship": "root"
+        "ingressacltemplate": {
+            "relationship": "root", 
+            "get": true
         }, 
-        "vrsconfig": {
-            "get": true, 
-            "relationship": "root"
+        "cms": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
         }, 
-        "vsp": {
-            "get": true, 
-            "relationship": "root"
-        }, 
-        "zone": {
-            "get": true, 
-            "relationship": "root"
+        "user": {
+            "create": true, 
+            "relationship": "root", 
+            "get": true
         }
-    }, 
-    "description": "Object that identifies the user functions", 
-    "entity_name": "Me", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "package": "usermgmt", 
-    "resource_name": "me", 
-    "rest_name": "me"
+    }
 }

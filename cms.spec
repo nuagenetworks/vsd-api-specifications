@@ -1,24 +1,26 @@
 {
     "attributes": {
         "name": {
-            "description": "Name of the cloud management system",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
+            "description": "Name of the cloud management system", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
         }
-    },
-    "delete": true,
-    "description": "Object that identifies a cloud management system",
-    "entity_name": "CloudMgmtSystem",
-    "extends": [
-        "@base",
-        "@metadata"
-    ],
-    "get": true,
-    "package": "cms",
-    "resource_name": "cms",
-    "rest_name": "cms"
+    }, 
+    "model": {
+        "resource_name": "cms", 
+        "description": "Object that identifies a cloud management system", 
+        "entity_name": "CloudMgmtSystem", 
+        "package": "cms", 
+        "get": true, 
+        "rest_name": "cms", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

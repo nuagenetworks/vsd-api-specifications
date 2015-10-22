@@ -2,41 +2,43 @@
     "attributes": {
         "maxAddress": {
             "description": "Highest address in the MultiCast range", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }, 
         "minAddress": {
             "description": "Lowest address in the MultiCast range", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "multicastranges", 
+        "description": "This is the definition of a MultiCast Range associated with a MultiCast Channel Map", 
+        "entity_name": "MultiCastRange", 
+        "package": "network", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "multicastrange", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
     }, 
     "children": {
         "eventlog": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "This is the definition of a MultiCast Range associated with a MultiCast Channel Map", 
-    "entity_name": "MultiCastRange", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "network", 
-    "resource_name": "multicastranges", 
-    "rest_name": "multicastrange", 
-    "update": true
+    }
 }

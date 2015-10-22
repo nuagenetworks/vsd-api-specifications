@@ -1,100 +1,102 @@
 {
     "attributes": {
-        "enterpriseSecuredDataRecordCount": {
-            "description": "Total number of Enterprise Secured Data records", 
-            "exposed": true, 
-            "filterable": true, 
+        "lastUpdateTime": {
+            "description": "The time the latest SEK or Seed was created/removed (milliseconds since epoch)", 
             "format": "free", 
-            "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
-        }, 
-        "gatewaySecuredDataRecordCount": {
-            "description": "Total number of Gateway Secured Data records", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
-        }, 
-        "keyserverMonitorEncryptedSEKCount": {
-            "description": "Total number of Keyserver Monitor Encrypted SEK records", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
-        }, 
-        "keyserverMonitorEncryptedSeedCount": {
-            "description": "Total number of Keyserver Monitor Encrypted Seed records", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
-        }, 
-        "keyserverMonitorSEKCount": {
-            "description": "Total number of Keyserver Monitor SEK records", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "float"
         }, 
         "keyserverMonitorSeedCount": {
             "description": "Total number of Keyserver Monitor Seed records", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "float"
         }, 
-        "lastUpdateTime": {
-            "description": "The time the latest SEK or Seed was created/removed (milliseconds since epoch)", 
-            "exposed": true, 
-            "filterable": true, 
+        "keyserverMonitorEncryptedSeedCount": {
+            "description": "Total number of Keyserver Monitor Encrypted Seed records", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "type": "float"
+        }, 
+        "enterpriseSecuredDataRecordCount": {
+            "description": "Total number of Enterprise Secured Data records", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
+        }, 
+        "gatewaySecuredDataRecordCount": {
+            "description": "Total number of Gateway Secured Data records", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
+        }, 
+        "keyserverMonitorSEKCount": {
+            "description": "Total number of Keyserver Monitor SEK records", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
+        }, 
+        "keyserverMonitorEncryptedSEKCount": {
+            "description": "Total number of Keyserver Monitor Encrypted SEK records", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
         }
     }, 
+    "model": {
+        "resource_name": "keyservermonitors", 
+        "description": "Represents a Keyserver Monitor Snapshot", 
+        "entity_name": "KeyServerMonitor", 
+        "package": "keyserver", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "keyservermonitor", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }, 
     "children": {
+        "keyservermonitorsek": {
+            "create": true, 
+            "relationship": "child", 
+            "get": true
+        }, 
         "keyservermonitorencryptedseed": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "keyservermonitorencryptedsek": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "keyservermonitorseed": {
             "create": true, 
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "keyservermonitorsek": {
-            "create": true, 
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "description": "Represents a Keyserver Monitor Snapshot", 
-    "entity_name": "KeyServerMonitor", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "keyserver", 
-    "resource_name": "keyservermonitors", 
-    "rest_name": "keyservermonitor", 
-    "update": true
+    }
 }

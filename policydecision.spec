@@ -1,92 +1,94 @@
 {
     "attributes": {
-        "egressACLs": {
-            "description": "List of actual Egress ACLs that will be applied on the interface of this VM", 
-            "exposed": true, 
-            "filterable": true, 
+        "qos": {
+            "description": "QoS primitive that was selected based on inheritance policies", 
             "format": "free", 
-            "orderable": true, 
-            "type": "list", 
-            "uniqueScope": "no"
-        }, 
-        "egressQos": {
-            "description": "Egress QoS primitive that was selected", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "fipACLs": {
-            "description": "List of actual Egress ACLs that will be applied on the interface of this VM", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "list", 
-            "uniqueScope": "no"
-        }, 
-        "ingressACLs": {
-            "description": "List of actual Ingress ACLs that will be applied on the interface of this VM", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "list", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "ingressAdvFwd": {
             "description": "List of actual Ingress Redirect ACLs that will be applied on the interface of this VM", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "list", 
-            "uniqueScope": "no"
+            "type": "list"
+        }, 
+        "egressACLs": {
+            "description": "List of actual Egress ACLs that will be applied on the interface of this VM", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "list"
+        }, 
+        "fipACLs": {
+            "description": "List of actual Egress ACLs that will be applied on the interface of this VM", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "list"
         }, 
         "ingressExternalServiceACLs": {
             "description": "List of actual Ingress External Service ACLs that will be applied on the interface of this VM", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "list", 
-            "uniqueScope": "no"
+            "type": "list"
         }, 
-        "qos": {
-            "description": "QoS primitive that was selected based on inheritance policies", 
-            "exposed": true, 
-            "filterable": true, 
+        "egressQos": {
+            "description": "Egress QoS primitive that was selected", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "stats": {
             "description": "Stats primitive that was selected based on inheritance policies", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
+        }, 
+        "ingressACLs": {
+            "description": "List of actual Ingress ACLs that will be applied on the interface of this VM", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "list"
         }
+    }, 
+    "model": {
+        "resource_name": "policydecisions", 
+        "description": "This object is a read only object that provides the policy decisions for a particular VM interface", 
+        "entity_name": "PolicyDecision", 
+        "package": "policy", 
+        "get": true, 
+        "rest_name": "policydecision", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
     }, 
     "children": {
         "qos": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "description": "This object is a read only object that provides the policy decisions for a particular VM interface", 
-    "entity_name": "PolicyDecision", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "policy", 
-    "resource_name": "policydecisions", 
-    "rest_name": "policydecision"
+    }
 }

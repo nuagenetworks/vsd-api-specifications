@@ -1,44 +1,46 @@
 {
     "attributes": {
-        "lastRequestTimestamp": {
-            "description": "Time of the last timestamp received",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "float",
-            "uniqueScope": "no"
-        },
-        "lastTimeResyncInitiated": {
-            "description": "Time that the resync was initiated",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "float",
-            "uniqueScope": "no"
-        },
         "status": {
+            "description": "Status of the resync - IN_PROGRESS, SUCCESS Possible values are IN_PROGRESS, SUCCESS, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
-                "SUCCESS",
+                "SUCCESS", 
                 "IN_PROGRESS"
-            ],
-            "description": "Status of the resync - IN_PROGRESS, SUCCESS Possible values are IN_PROGRESS, SUCCESS, .",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "enum",
-            "uniqueScope": "no"
+            ], 
+            "orderable": true, 
+            "type": "enum"
+        }, 
+        "lastRequestTimestamp": {
+            "description": "Time of the last timestamp received", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
+        }, 
+        "lastTimeResyncInitiated": {
+            "description": "Time that the resync was initiated", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "float"
         }
-    },
-    "description": "Provide information about the state of a VM resync request",
-    "entity_name": "VMResync",
-    "extends": [
-        "@base",
-        "@metadata"
-    ],
-    "package": "vm",
-    "resource_name": "resync",
-    "rest_name": "resync"
+    }, 
+    "model": {
+        "resource_name": "resync", 
+        "description": "Provide information about the state of a VM resync request", 
+        "entity_name": "VMResync", 
+        "package": "vm", 
+        "rest_name": "resync", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }
 }

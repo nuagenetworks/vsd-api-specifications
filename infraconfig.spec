@@ -1,31 +1,33 @@
 {
     "attributes": {
-        "config": {
-            "description": "Infrastructure Config",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "object",
-            "uniqueScope": "no"
-        },
         "configStatus": {
-            "description": "Status of the configuration application",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
+            "description": "Status of the configuration application", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "config": {
+            "description": "Infrastructure Config", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "object"
         }
-    },
-    "description": "Represents Infrastructure Config",
-    "entity_name": "InfrastructureConfig",
-    "extends": [
-        "@base",
-        "@metadata"
-    ],
-    "package": "gateway",
-    "resource_name": "infraconfig",
-    "rest_name": "infraconfig"
+    }, 
+    "model": {
+        "resource_name": "infraconfig", 
+        "description": "Represents Infrastructure Config", 
+        "entity_name": "InfrastructureConfig", 
+        "package": "gateway", 
+        "rest_name": "infraconfig", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
+    }
 }

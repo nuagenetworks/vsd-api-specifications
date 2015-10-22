@@ -2,43 +2,45 @@
     "attributes": {
         "associatedWANServiceID": {
             "description": "Assosciated WAN Service", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "description": {
             "description": "A description of the VPNConnect", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of the VPNConnect", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
-    "delete": true, 
-    "description": "This is the definition of a VPN Connect which holds the PE service assocaition with a DOMAIN", 
-    "entity_name": "VPNConnection", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "network", 
-    "resource_name": "vpnconnections", 
-    "rest_name": "vpnconnection", 
-    "update": true
+    "model": {
+        "resource_name": "vpnconnections", 
+        "description": "This is the definition of a VPN Connect which holds the PE service assocaition with a DOMAIN", 
+        "entity_name": "VPNConnection", 
+        "package": "network", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vpnconnection", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

@@ -2,76 +2,78 @@
     "attributes": {
         "EVPNCommunityTag": {
             "description": "An extended community or other similar BGP attribute to the specific EVPN / IP-VPN NLRI where the VM or network macro is being advertised.", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "description": {
-            "description": "Describes this policy group", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "external": {
-            "description": "Indicates whether this PG is internal to VSP or not.", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "boolean", 
-            "uniqueScope": "no"
-        }, 
-        "name": {
-            "description": "Name of the policy group", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "type": {
+            "required": true, 
+            "description": "Type of policy group - possible values SOFTWARE/HARDWARE Possible values are SOFTWARE, HARDWARE, .", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "allowed_choices": [
                 "HARDWARE", 
                 "SOFTWARE"
             ], 
-            "description": "Type of policy group - possible values SOFTWARE/HARDWARE Possible values are SOFTWARE, HARDWARE, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
             "orderable": true, 
+            "type": "enum"
+        }, 
+        "description": {
+            "description": "Describes this policy group", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "name": {
+            "description": "Name of the policy group", 
+            "format": "free", 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "enum", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
+        }, 
+        "external": {
+            "description": "Indicates whether this PG is internal to VSP or not.", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "boolean"
         }
     }, 
+    "model": {
+        "resource_name": "policygrouptemplates", 
+        "description": "PolicyGroupTemplate represents the template of a policy group object. PolicyGroup is group of vports on which a user can policies like ACL, QoS etc.", 
+        "entity_name": "PolicyGroupTemplate", 
+        "package": "vport", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "policygrouptemplate", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }, 
     "children": {
-        "eventlog": {
-            "get": true, 
-            "relationship": "child"
-        }, 
         "job": {
             "create": true, 
             "relationship": "child"
+        }, 
+        "eventlog": {
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "delete": true, 
-    "description": "PolicyGroupTemplate represents the template of a policy group object. PolicyGroup is group of vports on which a user can policies like ACL, QoS etc.", 
-    "entity_name": "PolicyGroupTemplate", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "vport", 
-    "resource_name": "policygrouptemplates", 
-    "rest_name": "policygrouptemplate", 
-    "update": true
+    }
 }

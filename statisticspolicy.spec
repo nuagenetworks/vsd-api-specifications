@@ -2,44 +2,46 @@
     "attributes": {
         "dataCollectionFrequency": {
             "description": "How frequent to collect statistics in seconds", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "float", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "float"
         }, 
         "description": {
             "description": "A description of the statistics policy", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of statistics policy", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "filterable": true, 
+            "uniqueScope": "no", 
             "required": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "exposed": true, 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
-    "delete": true, 
-    "description": "Defines the frequency of statistics collection associated with an object", 
-    "entity_name": "StatisticsPolicy", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "stats", 
-    "resource_name": "statisticspolicies", 
-    "rest_name": "statisticspolicy", 
-    "update": true
+    "model": {
+        "resource_name": "statisticspolicies", 
+        "description": "Defines the frequency of statistics collection associated with an object", 
+        "entity_name": "StatisticsPolicy", 
+        "package": "stats", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "statisticspolicy", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ], 
+        "delete": true
+    }
 }

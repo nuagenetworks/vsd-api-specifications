@@ -1,69 +1,71 @@
 {
     "attributes": {
+        "productVersion": {
+            "description": "Product version number for VSP", 
+            "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "description": {
             "description": "Description of the VSP", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "location": {
-            "description": "Installed location of the VSP product", 
-            "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
         "name": {
             "description": "Name of the VSP", 
-            "exposed": true, 
-            "filterable": true, 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }, 
-        "productVersion": {
-            "description": "Product version number for VSP", 
-            "exposed": true, 
-            "filterable": true, 
+        "location": {
+            "description": "Installed location of the VSP product", 
             "format": "free", 
+            "filterable": true, 
+            "exposed": true, 
+            "uniqueScope": "no", 
             "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
+            "type": "string"
         }
+    }, 
+    "model": {
+        "resource_name": "vsps", 
+        "description": "System Monitoring details for VSP", 
+        "entity_name": "VSP", 
+        "package": "sysmon", 
+        "get": true, 
+        "update": true, 
+        "rest_name": "vsp", 
+        "extends": [
+            "@base", 
+            "@metadata"
+        ]
     }, 
     "children": {
-        "eventlog": {
-            "get": true, 
-            "relationship": "child"
-        }, 
         "hsc": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "vsc": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
         }, 
         "vsd": {
-            "get": true, 
-            "relationship": "child"
+            "relationship": "child", 
+            "get": true
+        }, 
+        "eventlog": {
+            "relationship": "child", 
+            "get": true
         }
-    }, 
-    "description": "System Monitoring details for VSP", 
-    "entity_name": "VSP", 
-    "extends": [
-        "@base", 
-        "@metadata"
-    ], 
-    "get": true, 
-    "package": "sysmon", 
-    "resource_name": "vsps", 
-    "rest_name": "vsp", 
-    "update": true
+    }
 }
