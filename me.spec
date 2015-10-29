@@ -383,6 +383,7 @@
         ], 
         "package": "usermgmt", 
         "resource_name": "me", 
-        "rest_name": "me"
+        "rest_name": "me", 
+        "root": true
     }
 }
