@@ -1,6 +1,6 @@
 {
     "attributes": {
-            "mirrorDestinationID": {
+        "mirrorDestinationID": {
             "description": "Destination ID of the mirror destination object.",
             "exposed": true,
             "filterable": true,
