@@ -9,11 +9,13 @@
             "type": "string"
         }, 
         "name": {
+            "creation_only": true, 
             "description": "Per enterprise unique name", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
+            "required": true, 
             "type": "string"
         }
     }, 
