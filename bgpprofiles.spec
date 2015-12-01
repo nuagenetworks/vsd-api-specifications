@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "associatedImportPolicyID": {
+            "description": "import BGP policy ID", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "description": {
             "description": null, 
             "exposed": true, 
