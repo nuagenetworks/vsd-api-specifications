@@ -1,7 +1,7 @@
 {
     "attributes": {
         "associatedExportPolicyID": {
-            "description": "export BGP policy", 
+            "description": "export BGP policy ID", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
