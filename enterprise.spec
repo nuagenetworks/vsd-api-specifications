@@ -222,6 +222,11 @@
             "get": true, 
             "relationship": "child"
         }, 
+        "bgpprofiles": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "domain": {
             "create": true, 
             "get": true, 
