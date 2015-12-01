@@ -37,7 +37,7 @@
     }, 
     "model": {
         "delete": true, 
-        "entity_name": "BgpProfiles", 
+        "entity_name": "BgpProfile", 
         "get": true, 
         "resource_name": "bgpprofiles", 
         "rest_name": "bgpprofiles", 
