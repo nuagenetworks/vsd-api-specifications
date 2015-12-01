@@ -1,7 +1,7 @@
 {
     "model": {
         "delete": true, 
-        "entity_name": "BgpNeighbors", 
+        "entity_name": "BgpNeighbor", 
         "get": true, 
         "resource_name": "bgpneighbors", 
         "rest_name": "bgpneighbors", 
