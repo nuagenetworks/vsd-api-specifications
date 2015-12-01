@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "description": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "name": {
             "creation_only": true, 
             "description": "policy name, unique within an enterprise", 
