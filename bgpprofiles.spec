@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "description": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "name": {
             "description": "Per enterprise unique name", 
             "exposed": true, 
