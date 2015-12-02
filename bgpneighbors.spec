@@ -6,7 +6,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "peerAS": {
             "description": "neighbor's autonomous system", 
