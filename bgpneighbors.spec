@@ -8,6 +8,14 @@
             "orderable": true, 
             "required": true, 
             "type": "integer"
+        }, 
+        "peerIP": {
+            "description": "IP Address of the neighbor. If the neighbor is attached to a host vPort this is optional or must be the same as the host's IP.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "model": {
