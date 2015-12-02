@@ -38,6 +38,9 @@
     "model": {
         "delete": true, 
         "entity_name": "BGPProfile", 
+        "extends": [
+            "@base"
+        ], 
         "get": true, 
         "resource_name": "bgpprofiles", 
         "rest_name": "bgpprofile", 
