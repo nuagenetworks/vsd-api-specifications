@@ -6,7 +6,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "associatedMulticastChannelMapID": {
             "description": "The ID of the Multi Cast Channel Map  this domain template is associated with. This has to be set when  enableMultiCast is set to ENABLED", 
