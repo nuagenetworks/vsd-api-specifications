@@ -178,6 +178,14 @@
             "type": "integer", 
             "uniqueScope": "no"
         }, 
+        "localBgpAS": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "name": {
             "description": "The unique name of the enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
             "exposed": true, 
