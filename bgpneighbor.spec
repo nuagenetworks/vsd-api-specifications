@@ -54,7 +54,8 @@
         "delete": true, 
         "entity_name": "BGPNeighbor", 
         "extends": [
-            "@base"
+            "@base", 
+            "@metadata"
         ], 
         "get": true, 
         "resource_name": "bgpneighbors", 
