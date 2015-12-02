@@ -6,7 +6,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "string"
         }, 
         "associatedImportPolicyID": {
             "description": "import BGP policy ID", 
