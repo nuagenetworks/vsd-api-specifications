@@ -43,6 +43,9 @@
     "model": {
         "delete": true, 
         "entity_name": "RoutingPolicy", 
+        "extends": [
+            "@base"
+        ], 
         "get": true, 
         "resource_name": "routingpolicies", 
         "rest_name": "routingpolicy", 
