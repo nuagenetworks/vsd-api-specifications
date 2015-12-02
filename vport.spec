@@ -186,6 +186,11 @@
             "get": true, 
             "relationship": "child"
         }, 
+        "bgpneighbors": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "bridgeinterface": {
             "create": true, 
             "get": true, 
