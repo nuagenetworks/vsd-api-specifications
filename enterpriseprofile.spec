@@ -65,6 +65,14 @@
             "type": "string", 
             "uniqueScope": "no"
         }, 
+        "enableBGP": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "encryptionManagementMode": {
             "allowed_choices": [
                 "DISABLED", 
