@@ -1,12 +1,12 @@
 {
     "attributes": {
-        "associatedExportPolicyID": {
+        "associatedExportRoutingPolicyID": {
             "description": "export policy ID", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "string"
         }, 
         "associatedImportPolicyID": {
             "description": "import routing policy ID", 
