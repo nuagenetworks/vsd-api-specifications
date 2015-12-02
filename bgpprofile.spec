@@ -39,7 +39,8 @@
         "delete": true, 
         "entity_name": "BGPProfile", 
         "extends": [
-            "@base"
+            "@base", 
+            "@metadata"
         ], 
         "get": true, 
         "resource_name": "bgpprofiles", 
