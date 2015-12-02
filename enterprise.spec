@@ -359,6 +359,11 @@
             "get": true, 
             "relationship": "child"
         }, 
+        "routingpolicies": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "sharednetworkresource": {
             "get": true, 
             "relationship": "child"
