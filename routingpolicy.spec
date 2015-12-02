@@ -44,7 +44,8 @@
         "delete": true, 
         "entity_name": "RoutingPolicy", 
         "extends": [
-            "@base"
+            "@base", 
+            "@metadata"
         ], 
         "get": true, 
         "resource_name": "routingpolicies", 
