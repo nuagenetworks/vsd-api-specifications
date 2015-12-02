@@ -186,8 +186,7 @@
             "get": true, 
             "relationship": "child"
         }, 
-        "bgpneighbors": {
-            "create": true, 
+        "bgpneighbor": {
             "get": true, 
             "relationship": "child"
         }, 
