@@ -428,8 +428,7 @@
             "get": true, 
             "relationship": "child"
         }, 
-        "routingpolicies": {
-            "create": true, 
+        "routingpolicy": {
             "get": true, 
             "relationship": "child"
         }, 
