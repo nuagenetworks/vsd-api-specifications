@@ -66,12 +66,13 @@
             "uniqueScope": "no"
         }, 
         "enableBGP": {
+            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "encryptionManagementMode": {
             "allowed_choices": [
