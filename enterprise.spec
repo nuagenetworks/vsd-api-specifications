@@ -184,7 +184,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "name": {
             "description": "The unique name of the enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).", 
