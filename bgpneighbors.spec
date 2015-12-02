@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "enableDampening": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "peerAS": {
             "description": "neighbor's autonomous system", 
             "exposed": true, 
