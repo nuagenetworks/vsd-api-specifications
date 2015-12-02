@@ -1,6 +1,9 @@
 {
     "attributes": {
         "defaultAction": {
+            "allowed_choices": [
+                "ACCEPT"
+            ], 
             "description": "accept/reject", 
             "exposed": true, 
             "filterable": true, 
