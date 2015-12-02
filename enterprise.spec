@@ -231,6 +231,7 @@
             "relationship": "child"
         }, 
         "bgpprofile": {
+            "create": true, 
             "get": true, 
             "relationship": "child"
         }, 
