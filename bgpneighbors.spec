@@ -40,6 +40,14 @@
             "format": "free", 
             "orderable": true, 
             "type": "string"
+        }, 
+        "session": {
+            "description": "neighbor session yang blob", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "model": {
