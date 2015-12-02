@@ -1,7 +1,7 @@
 {
     "attributes": {
         "defaultAction": {
-            "description": "", 
+            "description": "accept", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
