@@ -1,7 +1,7 @@
 {
     "attributes": {
         "defaultAction": {
-            "description": "accept", 
+            "description": "accept/reject", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
