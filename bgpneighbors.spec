@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "associatedImportPolicyID": {
+            "description": "import routing policy ID", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "enableDampening": {
             "description": null, 
             "exposed": true, 
