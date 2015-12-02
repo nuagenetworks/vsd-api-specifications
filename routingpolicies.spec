@@ -2,6 +2,7 @@
     "attributes": {
         "defaultAction": {
             "allowed_choices": [
+                "REJECT", 
                 "ACCEPT"
             ], 
             "description": "accept/reject", 
