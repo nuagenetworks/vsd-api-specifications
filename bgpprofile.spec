@@ -8,13 +8,13 @@
             "orderable": true, 
             "type": "string"
         }, 
-        "associatedImportPolicyID": {
+        "associatedImportRoutingPolicyID": {
             "description": "import BGP policy ID", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "string"
         }, 
         "description": {
             "description": null, 
