@@ -53,6 +53,9 @@
     "model": {
         "delete": true, 
         "entity_name": "BGPNeighbor", 
+        "extends": [
+            "@base"
+        ], 
         "get": true, 
         "resource_name": "bgpneighbors", 
         "rest_name": "bgpneighbor", 
