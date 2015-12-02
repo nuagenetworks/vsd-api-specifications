@@ -230,7 +230,7 @@
             "get": true, 
             "relationship": "child"
         }, 
-        "bgpprofiles": {
+        "bgpprofile": {
             "create": true, 
             "get": true, 
             "relationship": "child"
@@ -367,8 +367,7 @@
             "get": true, 
             "relationship": "child"
         }, 
-        "routingpolicies": {
-            "create": true, 
+        "routingpolicy": {
             "get": true, 
             "relationship": "child"
         }, 
