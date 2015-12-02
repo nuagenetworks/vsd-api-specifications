@@ -10,7 +10,7 @@
             "type": "integer"
         }, 
         "peerIP": {
-            "description": "IP Address of the neighbor. If the neighbor is attached to a host vPort this is optional or must be the same as the host's IP.", 
+            "description": "IP Address of the neighbor. If the neighbor is attached to a host vPort this is optional or must be the same as the host's IP. For uplink or bridge vPort neighbors the IP address must be specified ", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
