@@ -26,6 +26,14 @@
             "orderable": true, 
             "required": true, 
             "type": "string"
+        }, 
+        "policyDefinition": {
+            "description": "String blob", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "model": {
