@@ -1,4 +1,14 @@
 {
+    "attributes": {
+        "peerAS": {
+            "description": "neighbor's autonomous system", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }
+    }, 
     "model": {
         "delete": true, 
         "entity_name": "BgpNeighbor", 
