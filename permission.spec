@@ -74,7 +74,7 @@
     "model": {
         "delete": true, 
         "description": "Represents  Permitted action on an  entity for a group", 
-        "entity_name": "PermittedAction", 
+        "entity_name": "Permission", 
         "extends": [
             "@base", 
             "@metadata"
