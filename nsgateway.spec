@@ -232,6 +232,10 @@
             "create": true, 
             "get": true, 
             "relationship": "child"
+        }, 
+        "subnet": {
+            "get": true, 
+            "relationship": "child"
         }
     }, 
     "model": {
