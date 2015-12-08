@@ -132,6 +132,7 @@
         }, 
         "ISAKMPHashAlgorithm": {
             "allowed_choices": [
+                "SHA1", 
                 "MD5"
             ], 
             "description": null, 
