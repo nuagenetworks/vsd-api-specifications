@@ -271,6 +271,11 @@
             "get": true, 
             "relationship": "child"
         }, 
+        "ikev2gatewayconnection": {
+            "get": true, 
+            "relationship": "member", 
+            "update": true
+        }, 
         "ipreservation": {
             "create": true, 
             "get": true, 
