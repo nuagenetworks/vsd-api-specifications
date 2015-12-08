@@ -9,6 +9,10 @@
             "type": "string"
         }, 
         "NSGIdentifierType": {
+            "allowed_choices": [
+                "ID_IPV4_ADDR"
+            ], 
+            "default_value": "ID_IPV4_ADDR", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
