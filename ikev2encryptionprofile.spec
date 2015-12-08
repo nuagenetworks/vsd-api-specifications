@@ -2,6 +2,7 @@
     "attributes": {
         "IPSECAuthenticationAlgorithm": {
             "allowed_choices": [
+                "HMAC_SHA512", 
                 "HMAC_SHA256", 
                 "HMAC_SHA1"
             ], 
