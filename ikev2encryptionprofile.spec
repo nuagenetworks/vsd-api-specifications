@@ -56,6 +56,14 @@
             "orderable": true, 
             "type": "string"
         }, 
+        "ISAKMPAuthenticationMode": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "name": {
             "description": null, 
             "exposed": true, 
