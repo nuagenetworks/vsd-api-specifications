@@ -66,6 +66,7 @@
             "type": "integer"
         }, 
         "IPSECSAReplayWindowSize": {
+            "default_value": "3600", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
