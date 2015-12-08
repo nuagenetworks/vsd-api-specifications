@@ -71,6 +71,14 @@
             "format": "free", 
             "orderable": true, 
             "type": "string"
+        }, 
+        "priority": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "model": {
