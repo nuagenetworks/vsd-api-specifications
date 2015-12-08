@@ -48,6 +48,7 @@
             "type": "enum"
         }, 
         "IPSECPreFragment": {
+            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
