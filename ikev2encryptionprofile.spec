@@ -15,6 +15,7 @@
             "type": "enum"
         }, 
         "IPSECDontFragment": {
+            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
