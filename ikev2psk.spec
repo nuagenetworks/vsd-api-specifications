@@ -6,7 +6,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": null, 
@@ -14,7 +15,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "encryptedPSK": {
             "description": null, 
@@ -22,7 +24,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "encryptingCertificateSerialNumber": {
             "description": null, 
@@ -30,7 +33,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": null, 
@@ -38,7 +42,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "signature": {
             "description": null, 
@@ -46,7 +51,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "signingCertificateSerialNumber": {
             "description": null, 
@@ -54,7 +60,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "unencryptedPSK": {
             "description": null, 
@@ -62,7 +69,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
