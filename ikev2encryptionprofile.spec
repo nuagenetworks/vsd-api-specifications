@@ -107,12 +107,19 @@
             "type": "enum"
         }, 
         "ISAKMPEncryptionAlgorithm": {
+            "allowed_choices": [
+                "AES256", 
+                "AES192", 
+                "AES128", 
+                "TRIPLE_DES"
+            ], 
+            "default_value": "AES256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "ISAKMPEncryptionKeyLifetime": {
             "description": null, 
