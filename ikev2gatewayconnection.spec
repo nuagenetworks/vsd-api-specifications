@@ -10,6 +10,7 @@
         }, 
         "NSGIdentifierType": {
             "allowed_choices": [
+                "ID_DER_ASN1_DN", 
                 "ID_KEY_ID\nID_KEY_ID", 
                 "ID_RFC822_ADDR", 
                 "ID_FQDN", 
