@@ -31,6 +31,9 @@
         }, 
         "IPSECEncryptionAlgorithm": {
             "allowed_choices": [
+                "AES256", 
+                "AES192", 
+                "AES128", 
                 "TRIPLE_DES"
             ], 
             "description": null, 
