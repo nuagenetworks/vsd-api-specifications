@@ -65,7 +65,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "ISAKMPAuthenticationMode": {
             "description": null, 
