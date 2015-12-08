@@ -210,7 +210,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list[string]", 
             "uniqueScope": "no"
         }, 
         "multiNICVPortEnabled": {
@@ -264,7 +264,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list[string]", 
             "uniqueScope": "no"
         }, 
         "peakCPUUsage": {
