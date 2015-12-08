@@ -10,6 +10,7 @@
         }, 
         "NSGIdentifierType": {
             "allowed_choices": [
+                "ID_KEY_ID\nID_KEY_ID", 
                 "ID_RFC822_ADDR", 
                 "ID_FQDN", 
                 "ID_IPV4_ADDR"
