@@ -47,6 +47,14 @@
             "format": "free", 
             "orderable": true, 
             "type": "string"
+        }, 
+        "ikev2GatewayIdentifierType": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "model": {
