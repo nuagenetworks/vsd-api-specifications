@@ -73,7 +73,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "ISAKMPDiffieHelmanGroupIdentifier": {
             "description": null, 
