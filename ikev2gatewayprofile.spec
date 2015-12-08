@@ -62,6 +62,7 @@
         }, 
         "ikev2GatewayIdentifierType": {
             "allowed_choices": [
+                "ID_FQDN", 
                 "ID_IPV4_ADDR"
             ], 
             "default_value": "ID_IPV4_ADDR", 
