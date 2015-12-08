@@ -82,7 +82,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "unencryptedPSK": {
             "description": null, 
