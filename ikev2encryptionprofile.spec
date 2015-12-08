@@ -154,12 +154,16 @@
             "type": "integer"
         }, 
         "ISAKMPKeepAliveMode": {
+            "allowed_choices": [
+                "ON_DEMAND"
+            ], 
+            "default_value": "ON_DEMAND", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "ISAKMPKeepAliveRetryInterval": {
             "description": null, 
