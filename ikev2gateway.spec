@@ -33,6 +33,13 @@
             "type": "string"
         }
     }, 
+    "children": {
+        "ikev2subnet": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }
+    }, 
     "model": {
         "delete": true, 
         "entity_name": "IKEv2Gateway", 
