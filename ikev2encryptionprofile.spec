@@ -72,6 +72,14 @@
             "orderable": true, 
             "type": "string"
         }, 
+        "ISAKMPEncryptionAlgorithm": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "name": {
             "description": null, 
             "exposed": true, 
