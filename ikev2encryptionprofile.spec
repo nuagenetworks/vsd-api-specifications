@@ -69,8 +69,10 @@
         }, 
         "ISAKMPAuthenticationMode": {
             "allowed_choices": [
+                "PRE_SHARED_KEY", 
                 "RSA_SIGNATURE"
             ], 
+            "default_value": "PRE_SHARED_KEY", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
