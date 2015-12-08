@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "NSGIdentifier": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "associatedIKEv2AuthenticationID": {
             "description": null, 
             "exposed": true, 
