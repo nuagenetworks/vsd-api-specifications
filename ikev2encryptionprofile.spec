@@ -136,6 +136,7 @@
                 "SHA1", 
                 "MD5"
             ], 
+            "default_value": "SHA256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
