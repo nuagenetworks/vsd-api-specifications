@@ -304,6 +304,11 @@
             "get": true, 
             "relationship": "child"
         }, 
+        "ikev2psk": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "infrastructureportprofile": {
             "create": true, 
             "get": true, 
