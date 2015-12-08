@@ -68,6 +68,9 @@
             "type": "integer"
         }, 
         "ISAKMPAuthenticationMode": {
+            "allowed_choices": [
+                "RSA_SIGNATURE"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
