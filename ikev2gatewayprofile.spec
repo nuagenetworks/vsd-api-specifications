@@ -62,6 +62,7 @@
         }, 
         "ikev2GatewayIdentifierType": {
             "allowed_choices": [
+                "ID_KEY_ID", 
                 "ID_RFC822_ADDR\n", 
                 "ID_FQDN", 
                 "ID_IPV4_ADDR"
