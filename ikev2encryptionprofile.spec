@@ -30,12 +30,15 @@
             "type": "boolean"
         }, 
         "IPSECEncryptionAlgorithm": {
+            "allowed_choices": [
+                "TRIPLE_DES"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "IPSECPreFragment": {
             "description": null, 
