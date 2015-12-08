@@ -61,12 +61,16 @@
             "type": "string"
         }, 
         "ikev2GatewayIdentifierType": {
+            "allowed_choices": [
+                "ID_IPV4_ADDR"
+            ], 
+            "default_value": "ID_IPV4_ADDR", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "name": {
             "description": null, 
