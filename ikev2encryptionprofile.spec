@@ -27,7 +27,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "IPSECEncryptionAlgorithm": {
             "description": null, 
