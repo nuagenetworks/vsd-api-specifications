@@ -131,12 +131,15 @@
             "type": "integer"
         }, 
         "ISAKMPHashAlgorithm": {
+            "allowed_choices": [
+                "MD5"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "ISAKMPKeepAliveInterval": {
             "description": null, 
