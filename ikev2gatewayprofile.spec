@@ -62,6 +62,7 @@
         }, 
         "ikev2GatewayIdentifierType": {
             "allowed_choices": [
+                "ID_DER_ASN1_DN", 
                 "ID_KEY_ID", 
                 "ID_RFC822_ADDR\n", 
                 "ID_FQDN", 
