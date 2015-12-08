@@ -145,12 +145,13 @@
             "type": "enum"
         }, 
         "ISAKMPKeepAliveInterval": {
+            "default_value": "300", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "ISAKMPKeepAliveMode": {
             "description": null, 
