@@ -24,6 +24,7 @@
             "type": "boolean"
         }, 
         "IPSECEnablePFS": {
+            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
