@@ -1,4 +1,14 @@
 {
+    "attributes": {
+        "associatedIKEv2GatewayID": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }
+    }, 
     "model": {
         "delete": true, 
         "entity_name": "IKEv2Subnet", 
