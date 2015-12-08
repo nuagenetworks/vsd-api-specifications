@@ -34,11 +34,12 @@
         }, 
         "IPSECEncryptionAlgorithm": {
             "allowed_choices": [
-                "AES256", 
-                "AES192", 
+                "TRIPLE_DES", 
                 "AES128", 
-                "TRIPLE_DES"
+                "AES192", 
+                "AES256"
             ], 
+            "default_value": "AES256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
