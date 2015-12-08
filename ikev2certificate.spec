@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "PEMEncoded": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "issuerDN": {
             "description": null, 
             "exposed": true, 
