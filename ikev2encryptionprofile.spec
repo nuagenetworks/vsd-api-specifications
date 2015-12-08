@@ -167,12 +167,13 @@
             "type": "enum"
         }, 
         "ISAKMPKeepAliveRetryInterval": {
+            "default_value": "300", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "associatedEnterpriseID": {
             "description": null, 
