@@ -14,7 +14,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "associatedIKEv2AuthenticationID": {
             "description": null, 
