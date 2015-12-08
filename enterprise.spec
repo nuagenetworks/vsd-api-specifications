@@ -284,6 +284,11 @@
             "get": true, 
             "relationship": "child"
         }, 
+        "ikev2certificate": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "ikev2encryptionprofile": {
             "create": true, 
             "get": true, 
