@@ -155,6 +155,7 @@
         }, 
         "ISAKMPKeepAliveMode": {
             "allowed_choices": [
+                "PERIODIC", 
                 "ON_DEMAND"
             ], 
             "default_value": "ON_DEMAND", 
