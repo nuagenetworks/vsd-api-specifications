@@ -122,12 +122,13 @@
             "type": "enum"
         }, 
         "ISAKMPEncryptionKeyLifetime": {
+            "default_value": "1200", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "ISAKMPHashAlgorithm": {
             "description": null, 
