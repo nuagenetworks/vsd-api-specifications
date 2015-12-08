@@ -104,6 +104,14 @@
             "orderable": true, 
             "type": "string"
         }, 
+        "ISAKMPKeepAliveMode": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "name": {
             "description": null, 
             "exposed": true, 
