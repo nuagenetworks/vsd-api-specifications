@@ -69,7 +69,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list[diskstats]", 
             "uniqueScope": "no"
         }, 
         "lastStateChange": {
