@@ -6,7 +6,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "IPSECDontFragment": {
             "description": null, 
