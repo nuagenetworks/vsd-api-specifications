@@ -1,6 +1,9 @@
 {
     "attributes": {
         "IPSECAuthenticationAlgorithm": {
+            "allowed_choices": [
+                "HMAC_SHA1"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
