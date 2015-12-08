@@ -132,6 +132,7 @@
         }, 
         "ISAKMPHashAlgorithm": {
             "allowed_choices": [
+                "SHA256", 
                 "SHA1", 
                 "MD5"
             ], 
