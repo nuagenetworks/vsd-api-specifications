@@ -18,6 +18,7 @@
         }, 
         "associatedIKEv2AuthenticationType": {
             "allowed_choices": [
+                "ikev2psk", 
                 "ikev2certificate"
             ], 
             "description": null, 
