@@ -7,6 +7,14 @@
             "format": "free", 
             "orderable": true, 
             "type": "string"
+        }, 
+        "prefix": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "model": {
