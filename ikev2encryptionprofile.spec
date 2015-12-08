@@ -88,12 +88,17 @@
             "type": "enum"
         }, 
         "ISAKMPDiffieHelmanGroupIdentifier": {
+            "allowed_choices": [
+                "GROUP_5_1024_BIT_DH", 
+                "GROUP_2_1024_BIT_DH", 
+                "GROUP_1_768_BIT_DH"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "ISAKMPEncryptionAlgorithm": {
             "description": null, 
