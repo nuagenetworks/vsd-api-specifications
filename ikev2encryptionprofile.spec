@@ -2,10 +2,11 @@
     "attributes": {
         "IPSECAuthenticationAlgorithm": {
             "allowed_choices": [
-                "HMAC_SHA512", 
+                "HMAC_SHA1", 
                 "HMAC_SHA256", 
-                "HMAC_SHA1"
+                "HMAC_SHA512"
             ], 
+            "default_value": "HMAC_SHA256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
