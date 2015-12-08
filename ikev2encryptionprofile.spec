@@ -89,6 +89,7 @@
         }, 
         "ISAKMPDiffieHelmanGroupIdentifier": {
             "allowed_choices": [
+                "GROUP_14_2048_BIT_DH", 
                 "GROUP_5_1024_BIT_DH", 
                 "GROUP_2_1024_BIT_DH", 
                 "GROUP_1_768_BIT_DH"
