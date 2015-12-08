@@ -17,12 +17,15 @@
             "type": "string"
         }, 
         "associatedIKEv2AuthenticationType": {
+            "allowed_choices": [
+                "ikev2certificate"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "enum"
         }, 
         "associatedIKEv2EncryptionProfileID": {
             "description": null, 
