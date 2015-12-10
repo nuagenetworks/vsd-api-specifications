@@ -6,7 +6,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "NSGIdentifierType": {
             "allowed_choices": [
@@ -16,13 +17,13 @@
                 "ID_FQDN", 
                 "ID_IPV4_ADDR"
             ], 
-            "default_value": "ID_KEY_ID", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2AuthenticationID": {
             "description": null, 
@@ -30,7 +31,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2AuthenticationType": {
             "allowed_choices": [
@@ -42,7 +44,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2EncryptionProfileID": {
             "description": null, 
@@ -50,7 +53,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2GatewayProfileID": {
             "description": null, 
@@ -58,7 +62,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedVlanID": {
             "description": null, 
@@ -66,7 +71,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": null, 
@@ -74,15 +80,17 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
-        "portVlanName": {
+        "portVLANName": {
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "priority": {
             "description": null, 
@@ -90,7 +98,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "unencryptedPSK": {
             "description": null, 
@@ -98,7 +107,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
