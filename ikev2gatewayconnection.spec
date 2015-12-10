@@ -11,11 +11,11 @@
         }, 
         "NSGIdentifierType": {
             "allowed_choices": [
-                "ID_DER_ASN1_DN", 
-                "ID_KEY_ID\nID_KEY_ID", 
-                "ID_RFC822_ADDR", 
+                "ID_IPV4_ADDR", 
                 "ID_FQDN", 
-                "ID_IPV4_ADDR"
+                "ID_RFC822_ADDR", 
+                "ID_KEY_ID", 
+                "ID_DER_ASN1_DN"
             ], 
             "description": null, 
             "exposed": true, 
