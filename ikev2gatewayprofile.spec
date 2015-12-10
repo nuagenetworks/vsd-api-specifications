@@ -25,6 +25,15 @@
             "type": "enum", 
             "uniqueScope": "no"
         }, 
+        "NSGRole": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
         "associatedEnterpriseID": {
             "description": null, 
             "exposed": true, 
@@ -84,15 +93,6 @@
             "uniqueScope": "no"
         }, 
         "name": {
-            "description": null, 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "nsgRole": {
             "description": null, 
             "exposed": true, 
             "filterable": true, 
