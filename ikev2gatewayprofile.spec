@@ -1,12 +1,22 @@
 {
     "attributes": {
+        "IKEv2GatewayIdentifier": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string", 
+            "uniqueScope": "no"
+        }, 
         "associatedEnterpriseID": {
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2AuthenticationID": {
             "description": null, 
@@ -14,7 +24,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2AuthenticationType": {
             "allowed_choices": [
@@ -26,7 +37,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2EncryptionProfileID": {
             "description": null, 
@@ -34,7 +46,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "associatedIKEv2GatewayID": {
             "description": null, 
@@ -42,7 +55,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": null, 
@@ -50,15 +64,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
-        }, 
-        "ikev2GatewayIdentifier": {
-            "description": null, 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "ikev2GatewayIdentifierType": {
             "allowed_choices": [
@@ -68,13 +75,13 @@
                 "ID_FQDN", 
                 "ID_IPV4_ADDR"
             ], 
-            "default_value": "ID_IPV4_ADDR", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": null, 
@@ -82,7 +89,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "nsgRole": {
             "description": null, 
@@ -90,7 +98,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
