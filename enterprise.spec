@@ -71,7 +71,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum", 
+            "type": "list[enum]", 
             "uniqueScope": "no"
         }, 
         "associatedEnterpriseSecurityID": {
