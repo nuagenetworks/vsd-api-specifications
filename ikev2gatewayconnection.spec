@@ -65,7 +65,7 @@
             "type": "string", 
             "uniqueScope": "no"
         }, 
-        "associatedVlanID": {
+        "associatedVLANID": {
             "description": null, 
             "exposed": true, 
             "filterable": true, 
