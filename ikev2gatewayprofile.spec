@@ -9,6 +9,22 @@
             "type": "string", 
             "uniqueScope": "no"
         }, 
+        "IKEv2GatewayIdentifierType": {
+            "allowed_choices": [
+                "ID_IPV4_ADDR", 
+                "ID_FQDN", 
+                "ID_RFC822_ADDR\n", 
+                "ID_KEY_ID", 
+                "ID_DER_ASN1_DN"
+            ], 
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum", 
+            "uniqueScope": "no"
+        }, 
         "associatedEnterpriseID": {
             "description": null, 
             "exposed": true, 
@@ -65,22 +81,6 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "ikev2GatewayIdentifierType": {
-            "allowed_choices": [
-                "ID_DER_ASN1_DN", 
-                "ID_KEY_ID", 
-                "ID_RFC822_ADDR\n", 
-                "ID_FQDN", 
-                "ID_IPV4_ADDR"
-            ], 
-            "description": null, 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "enum", 
             "uniqueScope": "no"
         }, 
         "name": {
