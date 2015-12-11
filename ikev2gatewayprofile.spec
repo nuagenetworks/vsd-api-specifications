@@ -27,8 +27,10 @@
         }, 
         "NSGRole": {
             "allowed_choices": [
+                "RESPONDER", 
                 "INITIATOR"
             ], 
+            "default_value": "INITIATOR", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
