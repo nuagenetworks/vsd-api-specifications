@@ -11,11 +11,11 @@
         }, 
         "IKEv2GatewayIdentifierType": {
             "allowed_choices": [
-                "ID_IPV4_ADDR", 
-                "ID_FQDN", 
-                "ID_RFC822_ADDR\n", 
+                "ID_DER_ASN1_DN", 
                 "ID_KEY_ID", 
-                "ID_DER_ASN1_DN"
+                "ID_RFC822_ADDR", 
+                "ID_FQDN", 
+                "ID_IPV4_ADDR"
             ], 
             "description": null, 
             "exposed": true, 
