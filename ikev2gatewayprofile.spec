@@ -26,12 +26,15 @@
             "uniqueScope": "no"
         }, 
         "NSGRole": {
+            "allowed_choices": [
+                "INITIATOR"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string", 
+            "type": "enum", 
             "uniqueScope": "no"
         }, 
         "associatedEnterpriseID": {
