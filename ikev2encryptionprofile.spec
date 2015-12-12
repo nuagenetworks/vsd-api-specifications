@@ -177,12 +177,13 @@
             "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveTimeout": {
+            "default_value": "150", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "associatedEnterpriseID": {
             "description": null, 
