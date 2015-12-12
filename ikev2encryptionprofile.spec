@@ -6,31 +6,31 @@
                 "HMAC_SHA256", 
                 "HMAC_SHA512"
             ], 
-            "default_value": "HMAC_SHA256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "IPSECDontFragment": {
-            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "IPSECEnablePFS": {
-            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "IPSECEncryptionAlgorithm": {
             "allowed_choices": [
@@ -39,53 +39,53 @@
                 "AES192", 
                 "AES256"
             ], 
-            "default_value": "AES256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "IPSECPreFragment": {
-            "default_value": "false", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "boolean", 
+            "uniqueScope": "no"
         }, 
         "IPSECSALifetime": {
-            "default_value": "3600", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "IPSECSAReplayWindowSize": {
-            "default_value": "3600", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPAuthenticationMode": {
             "allowed_choices": [
                 "PRE_SHARED_KEY", 
                 "RSA_SIGNATURE"
             ], 
-            "default_value": "PRE_SHARED_KEY", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPDiffieHelmanGroupIdentifier": {
             "allowed_choices": [
@@ -104,7 +104,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPEncryptionAlgorithm": {
             "allowed_choices": [
@@ -113,22 +114,22 @@
                 "AES128", 
                 "TRIPLE_DES"
             ], 
-            "default_value": "AES256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPEncryptionKeyLifetime": {
-            "default_value": "1200", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPHashAlgorithm": {
             "allowed_choices": [
@@ -136,44 +137,52 @@
                 "SHA1", 
                 "MD5"
             ], 
-            "default_value": "SHA256", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveInterval": {
-            "default_value": "300", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveMode": {
             "allowed_choices": [
                 "PERIODIC", 
                 "ON_DEMAND"
             ], 
-            "default_value": "ON_DEMAND", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum"
+            "type": "enum", 
+            "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveRetryInterval": {
-            "default_value": "300", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer"
+            "type": "integer", 
+            "uniqueScope": "no"
+        }, 
+        "ISAKMPKeepAliveTimeout": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }, 
         "associatedEnterpriseID": {
             "description": null, 
@@ -181,7 +190,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "description": {
             "description": null, 
@@ -189,7 +199,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }, 
         "name": {
             "description": null, 
@@ -197,7 +208,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "string", 
+            "uniqueScope": "no"
         }
     }, 
     "model": {
