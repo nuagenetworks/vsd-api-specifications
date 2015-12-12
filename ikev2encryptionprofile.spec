@@ -146,6 +146,7 @@
             "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveInterval": {
+            "default_value": "30", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
