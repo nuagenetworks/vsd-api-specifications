@@ -186,7 +186,10 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "enum", 
+            "type": "enum",
+            "allowed_choices": [
+                "ENABLED", "DISABLED", "ENABLED_INHERITED"
+            ], 
             "uniqueScope": "no"
         }, 
         "multicast": {
