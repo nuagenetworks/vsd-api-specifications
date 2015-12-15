@@ -98,6 +98,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
+            "required": true, 
             "type": "integer", 
             "uniqueScope": "no"
         }, 
