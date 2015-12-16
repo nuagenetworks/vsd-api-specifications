@@ -35,6 +35,7 @@
             "format": "free", 
             "orderable": true, 
             "type": "list", 
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "name": {

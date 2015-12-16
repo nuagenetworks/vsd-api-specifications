@@ -56,14 +56,14 @@
         }, 
         "allowedForwardingClasses": {
             "allowed_choices": [
-                "D", 
+                "A",
+                "B",
+                "C",
+                "D",
                 "E", 
                 "F", 
                 "G", 
-                "A", 
-                "B", 
-                "C", 
-                "H", 
+                "H",
                 "NONE"
             ], 
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .", 
@@ -71,7 +71,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[enum]", 
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         }, 
         "associatedEnterpriseSecurityID": {

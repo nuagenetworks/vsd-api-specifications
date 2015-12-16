@@ -3,23 +3,23 @@
         "SEKGenerationInterval": {
             "description": "Group Key SEK Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer",
             "min_value": 15,
             "max_value": 86400,
-            "default_value": 1200, 
+            "default_value": 1200,
             "uniqueScope": "no"
         }, 
         "SEKLifetime": {
             "description": "Group Key SEK Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer",
             "min_value": 60,
             "max_value": 86400,
-            "default_value": 86400, 
+            "default_value": 86400,
             "uniqueScope": "no"
         }, 
         "SEKPayloadEncryptionAlgorithm": {

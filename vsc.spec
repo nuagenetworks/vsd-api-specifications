@@ -69,7 +69,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[diskstats]", 
+            "type": "list",
+            "subtype": "diskstats",
             "uniqueScope": "no"
         }, 
         "lastStateChange": {
@@ -105,7 +106,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "name": {
@@ -173,7 +175,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }
     }, 

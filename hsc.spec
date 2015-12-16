@@ -70,6 +70,7 @@
             "format": "free", 
             "orderable": true, 
             "type": "list", 
+            "subtype": "diskstats",
             "uniqueScope": "no"
         }, 
         "lastStateChange": {
@@ -106,6 +107,7 @@
             "format": "free", 
             "orderable": true, 
             "type": "list", 
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "model": {
@@ -198,6 +200,7 @@
             "format": "free", 
             "orderable": true, 
             "type": "list", 
+            "subtype": "string",
             "uniqueScope": "no"
         }
     }, 

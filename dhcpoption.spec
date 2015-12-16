@@ -15,7 +15,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "length": {

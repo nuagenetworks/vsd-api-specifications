@@ -103,6 +103,19 @@
             "orderable": true, 
             "type": "enum", 
             "uniqueScope": "no"
+        },
+        "encryption": {
+            "allowed_choices": [
+                "ENABLED",
+                "DISABLED"
+            ],
+            "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED, .",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "enum",
+            "uniqueScope": "no"
         }
     }, 
     "children": {

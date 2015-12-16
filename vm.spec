@@ -55,7 +55,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "enterpriseID": {
@@ -100,7 +101,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "name": {
@@ -209,7 +211,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "userID": {
@@ -236,7 +239,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }
     }, 

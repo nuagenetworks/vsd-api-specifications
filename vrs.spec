@@ -98,6 +98,7 @@
             "format": "free", 
             "orderable": true, 
             "type": "list", 
+            "subtype": "diskstats",
             "uniqueScope": "no"
         }, 
         "dynamic": {
@@ -210,7 +211,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "multiNICVPortEnabled": {
@@ -264,7 +266,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[string]", 
+            "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         }, 
         "peakCPUUsage": {
