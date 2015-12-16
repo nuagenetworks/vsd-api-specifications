@@ -4,9 +4,11 @@
             "description": "Consecutive failure count. Default 3", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "type": "integer", 
+            "min_value": 3,
+            "max_value": 3,
+            "default_value": 3,
             "uniqueScope": "no"
         }, 
         "description": {
@@ -85,18 +87,22 @@
             "description": "Heartbeat interval in milliseconds to declare the neighbor dead. Default 500 milliseconds", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "float", 
+            "orderable": true,
+            "type": "integer",
+            "min_value": 500,
+            "max_value": 2000,
+            "default_value": 500,
             "uniqueScope": "no"
         }, 
         "heartbeatVLANID": {
             "description": "Heartbeat VLAN used for BFD. Default 4094", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "type": "integer", 
+            "min_value": 0,
+            "max_value": 4096,
+            "default_value": 4094,
             "uniqueScope": "no"
         }, 
         "name": {

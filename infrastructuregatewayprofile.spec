@@ -13,9 +13,11 @@
             "description": "Correspond to the key ID on the NTP server that matches the ntpServerKey value.  Valid values are from 1 to 255 as specified by SR-OS and 0 to specify unused (VSD/NSG only).", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
             "orderable": true, 
             "type": "integer", 
+            "min_value": 0,
+            "max_value": 255,
+            "default_value": 0,
             "uniqueScope": "no"
         }, 
         "activeController": {
@@ -31,9 +33,11 @@
             "description": "Datapath flows sync-time-interval specified in milliseconds (default: 1000)", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "min_value": 1000,
+            "max_value": 60000,
+            "default_value": 1000, 
             "uniqueScope": "no"
         }, 
         "deadTimer": {
@@ -88,9 +92,11 @@
             "description": "Number of flows at which eviction from kernel flow table will be triggered (default: 2500)", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "min_value": 100,
+            "max_value": 200000,
+	    "default_value": 2500, 
             "uniqueScope": "no"
         }, 
         "metadataUpgradePath": {
@@ -110,15 +116,6 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
-            "uniqueScope": "no"
-        }, 
-        "probeInterval": {
-            "description": "Openflow echo timer in millisecond", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "float", 
             "uniqueScope": "no"
         }, 
         "proxyDNSName": {
@@ -177,9 +174,11 @@
             "description": "Port to be used to access the Remote Syslog server.  By default, this is port 514.", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 1,
+            "max_value": 65535,
+            "default_value": 514, 
             "uniqueScope": "no"
         }, 
         "remoteLogUsername": {
@@ -204,7 +203,6 @@
             "description": "The port to open by the proxy for stats collector to use", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
             "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"

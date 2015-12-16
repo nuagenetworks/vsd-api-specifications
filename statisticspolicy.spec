@@ -4,10 +4,10 @@
             "description": "How frequent to collect statistics in seconds", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "required": true, 
-            "type": "float", 
+            "type": "integer",
+            "min_value": 1,
             "uniqueScope": "no"
         }, 
         "description": {

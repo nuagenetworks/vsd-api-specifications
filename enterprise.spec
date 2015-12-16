@@ -164,9 +164,11 @@
             "description": "Quota set for the number of floating IPs to be used by an enterprise.", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "type": "integer", 
+            "min_value": 0,
+            "max_value": 250000,
+            "default_value": 0,
             "uniqueScope": "no"
         }, 
         "floatingIPsUsed": {

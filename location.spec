@@ -34,6 +34,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "float", 
+            "min_value": -90,
+            "max_value": 90,
             "uniqueScope": "no"
         }, 
         "locality": {
@@ -51,7 +53,9 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "float",
+            "min_value": -180,
+            "max_value": 180, 
             "uniqueScope": "no"
         }, 
         "state": {

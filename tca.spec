@@ -57,10 +57,11 @@
             "description": "The averaging period", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "float", 
+            "format": "long",
+            "orderable": true,
+            "required": true,
+            "type": "integer",
+            "min_value": 1,
             "uniqueScope": "no"
         }, 
         "scope": {
@@ -81,10 +82,11 @@
             "description": "The threshold that must be exceeded before an alarm is issued", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "format": "long",
+            "orderable": true,
             "required": true, 
-            "type": "float", 
+            "type": "integer",
+            "min_value": 1,
             "uniqueScope": "no"
         }, 
         "type": {
