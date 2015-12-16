@@ -56,14 +56,14 @@
         }, 
         "allowedForwardingClasses": {
             "allowed_choices": [
-                "D", 
+                "A",
+                "B",
+                "C",
+                "D",
                 "E", 
                 "F", 
                 "G", 
-                "A", 
-                "B", 
-                "C", 
-                "H", 
+                "H",
                 "NONE"
             ], 
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .", 
@@ -71,7 +71,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list[enum]", 
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         }, 
         "associatedEnterpriseSecurityID": {
@@ -164,9 +165,11 @@
             "description": "Quota set for the number of floating IPs to be used by an enterprise.", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "type": "integer", 
+            "min_value": 0,
+            "max_value": 250000,
+            "default_value": 0,
             "uniqueScope": "no"
         }, 
         "floatingIPsUsed": {

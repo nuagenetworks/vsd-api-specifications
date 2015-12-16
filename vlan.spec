@@ -112,7 +112,9 @@
             "format": "free", 
             "orderable": true, 
             "required": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 0,
+            "max_value": 4096,
             "uniqueScope": "no"
         }, 
         "vportID": {

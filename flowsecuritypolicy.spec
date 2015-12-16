@@ -58,9 +58,9 @@
             "description": "The priority of the flow security policy that determines the order of entries.", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "integer", 
+            "orderable": true,
+            "type": "integer",
+            "min_value": 0,
             "uniqueScope": "no"
         }, 
         "sourceAddressOverwrite": {

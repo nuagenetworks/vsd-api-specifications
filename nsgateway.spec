@@ -150,7 +150,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list",
             "uniqueScope": "no"
         }, 
         "redundancyGroupID": {

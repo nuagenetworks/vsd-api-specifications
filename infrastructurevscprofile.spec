@@ -49,10 +49,12 @@
         "probeInterval": {
             "description": "Openflow echo timer in millisecond", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "min_value": 1000,
+            "max_value": 60000,
+            "default_value": 5000,
             "uniqueScope": "no"
         }, 
         "secondController": {

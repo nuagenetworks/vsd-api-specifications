@@ -3,19 +3,23 @@
         "SEKGenerationInterval": {
             "description": "Group Key SEK Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 15,
+            "max_value": 86400,
+            "default_value": 1200,
             "uniqueScope": "no"
         }, 
         "SEKLifetime": {
             "description": "Group Key SEK Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 60,
+            "max_value": 86400,
+            "default_value": 86400,
             "uniqueScope": "no"
         }, 
         "SEKPayloadEncryptionAlgorithm": {
@@ -85,19 +89,23 @@
         "seedGenerationInterval": {
             "description": "Group Key SEED Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 15,
+            "max_value": 86400,
+            "default_value": 1200,
             "uniqueScope": "no"
         }, 
         "seedLifetime": {
             "description": "Group Key SEED Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 30,
+            "max_value": 86400,
+            "default_value": 14400,
             "uniqueScope": "no"
         }, 
         "seedPayloadAuthenticationAlgorithm": {
@@ -214,10 +222,12 @@
         "trafficEncryptionKeyLifetime": {
             "description": "Group Key Traffic Encryption Key Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 5,
+            "max_value": 86400,
+            "default_value": 300,
             "uniqueScope": "no"
         }
     }, 

@@ -44,10 +44,12 @@
         "mtu": {
             "description": "Port MTU (Maximum Transmission Unit) :  The size in octets of the largest protocol data unit (PDU) that the layer can pass on.  The default value is normally 1500 octets for Ethernet v2 and can go up to 9198 for Jumbo Frames.", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 68,
+            "max_value": 9198,
+            "default_value": 1500,
             "uniqueScope": "no"
         }, 
         "name": {

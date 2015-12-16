@@ -218,10 +218,10 @@
             "description": "The priority of the ACL entry that determines the order of entries", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "required": true, 
-            "type": "integer", 
+            "type": "integer",
+            "min_value": 0,
             "uniqueScope": "no"
         }, 
         "protocol": {
