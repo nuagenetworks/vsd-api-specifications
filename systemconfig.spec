@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "ADGatewayPurgeTime": {
@@ -402,6 +404,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "avatarBaseURL": {
@@ -411,6 +415,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "customerIDUpperLimit": {
@@ -465,6 +471,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "ejbcaNSGEndEntityProfile": {
@@ -474,6 +482,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "ejbcaOCSPResponderCN": {
@@ -483,6 +493,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "ejbcaOCSPResponderURI": {
@@ -492,6 +504,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "ejbcaVspRootCa": {
@@ -501,6 +515,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "esiID": {
@@ -839,6 +855,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "nsgConfigEndpoint": {
@@ -848,6 +866,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "nsgLocalUiUrl": {
@@ -857,6 +877,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "offsetCustomerID": {
@@ -964,6 +986,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "statsCollectorPort": {
@@ -1020,6 +1044,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "subnetResyncInterval": {
@@ -1051,6 +1077,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "syslogDestinationPort": {

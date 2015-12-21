@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 32,
             "uniqueScope": "no"
         }, 
         "NTPServerKeyID": {
@@ -70,6 +72,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "enterprise": {
@@ -108,6 +112,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 2048,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -118,6 +124,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "proxyDNSName": {
@@ -137,6 +145,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 4095,
             "uniqueScope": "no"
         }, 
         "remoteLogMode": {
@@ -161,6 +171,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "remoteLogServerAddress": {
@@ -170,6 +182,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "remoteLogServerPort": {
@@ -190,6 +204,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 32,
             "uniqueScope": "no"
         }, 
         "standbyController": {
@@ -199,6 +215,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "statsCollectorPort": {
@@ -216,6 +234,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 64,
             "uniqueScope": "no"
         }, 
         "systemSyncWindow": {

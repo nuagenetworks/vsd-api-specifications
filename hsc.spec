@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "alreadyMarkedForUnavailable": {
@@ -61,6 +63,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "disks": {
@@ -89,6 +93,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "managementIP": {
@@ -98,6 +104,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "messages": {
@@ -117,6 +125,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -126,6 +136,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "peakCPUUsage": {
@@ -153,6 +165,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "status": {
