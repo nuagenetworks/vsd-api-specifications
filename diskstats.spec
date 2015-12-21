@@ -8,6 +8,8 @@
         "name": {
             "description": "Name of the disk.",
             "type": "string",
+            "min_length": 1,
+            "max_length": 255,
             "required": false
         },
         "size": {

@@ -21,6 +21,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "averageCPUUsage": {
@@ -89,6 +91,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "disks": {
@@ -131,6 +135,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "hypervisorName": {
@@ -140,6 +146,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "hypervisorType": {
@@ -149,6 +157,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "lastEventName": {
@@ -158,6 +168,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "lastEventObject": {
@@ -167,6 +179,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "lastEventTimestamp": {
@@ -194,6 +208,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "managementIP": {
@@ -203,6 +219,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "messages": {
@@ -231,6 +249,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "numberOfBridgeInterfaces": {
@@ -295,6 +315,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "personality": {
@@ -320,6 +342,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "role": {

@@ -40,9 +40,11 @@
             "description": "The destination address overwrite. Needs to be in CIDR format x.x.x.x/n", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "format": "CIDR",
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "flowID": {
@@ -67,9 +69,11 @@
             "description": "The source address overwrite. Needs to be in CIDR format x.x.x.x/n", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
+            "format": "CIDR",
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }
     }, 
