@@ -16,6 +16,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "value": {
@@ -25,7 +27,7 @@
             "orderable": true,
             "type": "integer",
             "min_value": 0,
-            "max_value": 4096, 
+            "max_value": 4096,
             "uniqueScope": "no"
         }
     }, 

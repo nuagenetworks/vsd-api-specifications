@@ -1,5 +1,14 @@
 {
     "attributes": {
+        "mirrorDestinationID": {
+            "description": "Destination ID of the mirror destination object.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "DSCP": {
             "description": "DSCP match condition to be set in the rule. It is either * or from 0-63", 
             "exposed": true, 

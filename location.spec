@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "country": {
@@ -16,6 +18,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "ignoreGeocode": {
@@ -45,6 +49,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "longitude": {
@@ -55,7 +61,7 @@
             "orderable": true, 
             "type": "float",
             "min_value": -180,
-            "max_value": 180, 
+            "max_value": 180,
             "uniqueScope": "no"
         }, 
         "state": {
@@ -65,6 +71,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "timeZoneID": {

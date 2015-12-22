@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "associatedEgressQOSPolicyID": {
@@ -34,6 +36,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "infrastructureProfileID": {
@@ -53,6 +57,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "physicalName": {
@@ -63,6 +69,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "portType": {
@@ -73,8 +81,7 @@
             "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .", 
             "exposed": true, 
             "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "required": true, 
             "type": "enum", 
             "uniqueScope": "no"

@@ -14,8 +14,10 @@
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "orderable": true,
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "gatewayID": {
@@ -103,6 +105,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "value": {
@@ -114,7 +118,7 @@
             "required": true, 
             "type": "integer",
             "min_value": 0,
-            "max_value": 4096, 
+            "max_value": 4096,
             "uniqueScope": "no"
         }, 
         "vportID": {

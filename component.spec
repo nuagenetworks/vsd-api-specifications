@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "description": {
@@ -16,6 +18,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "location": {
@@ -25,6 +29,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "managementIP": {
@@ -34,6 +40,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -43,6 +51,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "productVersion": {
@@ -52,6 +62,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "status": {

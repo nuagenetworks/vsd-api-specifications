@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "alreadyMarkedForUnavailable": {
@@ -61,6 +63,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "disks": {
@@ -69,7 +73,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list",
             "subtype": "diskstats",
             "uniqueScope": "no"
         }, 
@@ -89,6 +93,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "managementIP": {
@@ -98,6 +104,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "messages": {
@@ -106,7 +114,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list",
             "subtype": "string",
             "uniqueScope": "no"
         }, 
@@ -117,6 +125,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -126,6 +136,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 128,
             "uniqueScope": "no"
         }, 
         "peakCPUUsage": {
@@ -153,6 +165,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 50,
             "uniqueScope": "no"
         }, 
         "status": {

@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "associatedEgressQOSPolicyID": {
@@ -43,6 +45,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "infrastructureProfileID": {
@@ -62,6 +66,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "permittedAction": {
@@ -89,6 +95,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "portType": {
@@ -103,6 +111,8 @@
             "orderable": true, 
             "required": true, 
             "type": "enum", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "status": {
@@ -146,6 +156,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }
     }, 

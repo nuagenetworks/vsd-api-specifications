@@ -18,6 +18,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "enterpriseID": {
@@ -113,6 +115,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "permittedAction": {
@@ -156,7 +160,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "list", 
+            "type": "list",
             "subtype": "string",
             "uniqueScope": "no"
         }, 

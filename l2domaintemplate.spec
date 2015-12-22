@@ -80,6 +80,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 64,
             "uniqueScope": "no"
         }, 
         "netmask": {

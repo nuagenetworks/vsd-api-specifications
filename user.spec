@@ -50,6 +50,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "lastName": {
@@ -60,6 +62,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "mobileNumber": {
@@ -89,6 +93,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 32,
             "uniqueScope": "no"
         }
     }, 

@@ -8,6 +8,8 @@
         "name": {
             "description": "Name of the disk.",
             "type": "string",
+            "min_length": 1,
+            "max_length": 255,
             "required": false
         },
         "size": {
@@ -27,7 +29,7 @@
             "description": "Disk space used.",
             "type": "double",
             "required": false
-        }              
+        }
     },
     "model": {
         "description": "Encapsulates the disk usage metrics for system monitor entity.",
@@ -37,6 +39,6 @@
         "delete": false,
         "package": "vm",
         "resource_name": "diskstats",
-        "rest_name": "diskstat" 
+        "rest_name": "diskstat"
     }
 }

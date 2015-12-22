@@ -7,13 +7,15 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 32,
             "uniqueScope": "no"
         }, 
         "NTPServerKeyID": {
             "description": "Correspond to the key ID on the NTP server that matches the ntpServerKey value.  Valid values are from 1 to 255 as specified by SR-OS and 0 to specify unused (VSD/NSG only).", 
             "exposed": true, 
-            "filterable": true, 
-            "orderable": true, 
+            "filterable": true,
+            "orderable": true,
             "type": "integer", 
             "min_value": 0,
             "max_value": 255,
@@ -27,17 +29,20 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "datapathSyncTimeout": {
             "description": "Datapath flows sync-time-interval specified in milliseconds (default: 1000)", 
             "exposed": true, 
             "filterable": true, 
+            "format": "free", 
             "orderable": true, 
             "type": "integer",
             "min_value": 1000,
             "max_value": 60000,
-            "default_value": 1000, 
+            "default_value": 1000,
             "uniqueScope": "no"
         }, 
         "deadTimer": {
@@ -68,6 +73,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "enterprise": {
@@ -91,12 +98,12 @@
         "flowEvictionThreshold": {
             "description": "Number of flows at which eviction from kernel flow table will be triggered (default: 2500)", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer",
             "min_value": 100,
             "max_value": 200000,
-	    "default_value": 2500, 
+	        "default_value": 2500,
             "uniqueScope": "no"
         }, 
         "metadataUpgradePath": {
@@ -106,6 +113,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 2048,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -115,7 +124,18 @@
             "format": "free", 
             "orderable": true, 
             "required": true, 
-            "type": "string", 
+            "type": "string",
+            "min_length": 1,
+            "max_length": 255,
+            "uniqueScope": "no"
+        }, 
+        "probeInterval": {
+            "description": "Openflow echo timer in millisecond", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "float", 
             "uniqueScope": "no"
         }, 
         "proxyDNSName": {
@@ -135,6 +155,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 4095,
             "uniqueScope": "no"
         }, 
         "remoteLogMode": {
@@ -159,6 +181,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "remoteLogServerAddress": {
@@ -168,17 +192,20 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "remoteLogServerPort": {
             "description": "Port to be used to access the Remote Syslog server.  By default, this is port 514.", 
             "exposed": true, 
             "filterable": true, 
+            "format": "free", 
             "orderable": true, 
             "type": "integer",
             "min_value": 1,
             "max_value": 65535,
-            "default_value": 514, 
+            "default_value": 514,
             "uniqueScope": "no"
         }, 
         "remoteLogUsername": {
@@ -188,6 +215,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 32,
             "uniqueScope": "no"
         }, 
         "standbyController": {
@@ -197,12 +226,14 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "statsCollectorPort": {
             "description": "The port to open by the proxy for stats collector to use", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer", 
             "uniqueScope": "no"
@@ -214,6 +245,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 64,
             "uniqueScope": "no"
         }, 
         "systemSyncWindow": {

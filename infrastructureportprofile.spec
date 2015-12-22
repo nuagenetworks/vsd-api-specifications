@@ -7,6 +7,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "duplex": {
@@ -44,12 +46,12 @@
         "mtu": {
             "description": "Port MTU (Maximum Transmission Unit) :  The size in octets of the largest protocol data unit (PDU) that the layer can pass on.  The default value is normally 1500 octets for Ethernet v2 and can go up to 9198 for Jumbo Frames.", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer",
             "min_value": 68,
             "max_value": 9198,
-            "default_value": 1500, 
+            "default_value": 1500,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -59,7 +61,9 @@
             "format": "free", 
             "orderable": true, 
             "required": true, 
-            "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         }, 
         "speed": {

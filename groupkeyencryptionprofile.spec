@@ -75,6 +75,8 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 0,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "name": {
@@ -84,28 +86,31 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "seedGenerationInterval": {
             "description": "Group Key SEED Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
-            "orderable": true, 
+            "filterable": true,
+            "filterable": true,
+            "orderable": true,
             "type": "integer",
             "min_value": 15,
             "max_value": 86400,
-            "default_value": 1200, 
+            "default_value": 1200,
             "uniqueScope": "no"
         }, 
         "seedLifetime": {
             "description": "Group Key SEED Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer",
             "min_value": 30,
             "max_value": 86400,
-            "default_value": 14400, 
+            "default_value": 14400,
             "uniqueScope": "no"
         }, 
         "seedPayloadAuthenticationAlgorithm": {
@@ -222,12 +227,12 @@
         "trafficEncryptionKeyLifetime": {
             "description": "Group Key Traffic Encryption Key Lifetime in Seconds. Min=1, Max=86400", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": true,
             "orderable": true, 
             "type": "integer",
             "min_value": 5,
             "max_value": 86400,
-            "default_value": 300, 
+            "default_value": 300,
             "uniqueScope": "no"
         }
     }, 
