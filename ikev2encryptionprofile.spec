@@ -89,15 +89,15 @@
         }, 
         "ISAKMPDiffieHelmanGroupIdentifier": {
             "allowed_choices": [
-                "GROUP_24_2048_BIT_ECDH", 
-                "GROUP_20_384_BIT_ECDH", 
-                "GROUP_19_256_BIT_ECDH", 
-                "GROUP_16_4096_BIT_DH", 
-                "GROUP_15_3072_BIT_DH", 
-                "GROUP_14_2048_BIT_DH", 
-                "GROUP_5_1024_BIT_DH", 
+                "GROUP_1_768_BIT_DH", 
                 "GROUP_2_1024_BIT_DH", 
-                "GROUP_1_768_BIT_DH"
+                "GROUP_5_1536_BIT_DH", 
+                "GROUP_14_2048_BIT_DH", 
+                "GROUP_15_3072_BIT_DH", 
+                "GROUP_16_4096_BIT_DH", 
+                "GROUP_19_256_BIT_ECDH", 
+                "GROUP_20_384_BIT_ECDH", 
+                "GROUP_24_2048_BIT_ECDH"
             ], 
             "description": null, 
             "exposed": true, 
