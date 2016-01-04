@@ -75,7 +75,7 @@
                 "INHERITED", 
                 "DISABLED"
             ], 
-            "description": "Determines whether or not IPSEC is enabled. Possible values are INHERITED, ENABLED, DISABLED, .", 
+            "description": "Determines whether or not IPSEC is enabled. Possible values are INHERITED, ENABLED, DISABLED.",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
@@ -84,7 +84,12 @@
             "uniqueScope": "no"
         }, 
         "maintenanceMode": {
-            "description": "maintenanceMode is an enum that indicates if the Zone is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .", 
+            "allowed_choices": [
+                "DISABLED",
+                "ENABLED",
+                "ENABLED_INHERITED"
+            ],
+            "description": "maintenanceMode is an enum that indicates if the Zone is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED.",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
@@ -98,7 +103,7 @@
                 "INHERITED", 
                 "DISABLED"
             ], 
-            "description": "multicast is enum that indicates multicast policy on zone/zone template. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .", 
+            "description": "multicast is enum that indicates multicast policy on zone/zone template. Possible values are ENABLED, DISABLED and INHERITED.",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 

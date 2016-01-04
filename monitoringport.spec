@@ -41,6 +41,11 @@
             "uniqueScope": "no"
         }, 
         "resiliencyState": {
+            "allowed_choices": [
+                "none",
+                "master",
+                "backup"
+            ],
             "description": "", 
             "exposed": true, 
             "filterable": true, 

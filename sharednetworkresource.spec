@@ -141,6 +141,12 @@
             "uniqueScope": "no"
         }, 
         "type": {
+            allowed_choices: [
+                "PUBLIC",
+                "FLOATING",
+                "L2DOMAIN",
+                "UPLINK_SUBNET"
+            ],
             "description": "Type of the shared resource. This is an enum with possible values PUBLIC/FLOATING/L2DOMAIN/UPLINK_SUBNET", 
             "exposed": true, 
             "filterable": true, 
