@@ -94,7 +94,6 @@
             "description": "Group Key SEED Generation Interval in Seconds. Min=1, Max=86400", 
             "exposed": true, 
             "filterable": true,
-            "filterable": true,
             "orderable": true,
             "type": "integer",
             "min_value": 15,
