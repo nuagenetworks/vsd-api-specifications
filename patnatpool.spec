@@ -22,6 +22,12 @@
             "uniqueScope": "no"
         }, 
         "associatedGatewayType": {
+            "allowed_choices": [
+                "GATEWAY",
+                "NSGATEWAY",
+                "AUTO_DISC_GATEWAY",
+                "IKEV2_GATEWAY"
+            ],
             "description": "", 
             "exposed": true, 
             "filterable": true, 

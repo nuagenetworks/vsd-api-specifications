@@ -128,6 +128,10 @@
             "uniqueScope": "no"
         }, 
         "licenseType": {
+            "allowed_choices": [
+                "STANDARD",
+            	"CLUSTERED"
+            ],
             "description": "", 
             "exposed": true, 
             "filterable": true, 

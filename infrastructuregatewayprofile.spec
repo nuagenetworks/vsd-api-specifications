@@ -227,6 +227,9 @@
             "filterable": true,
             "orderable": true, 
             "type": "integer", 
+            "min_value": 1024,
+            "max_value": 65535,
+            "default_value": 39090,
             "uniqueScope": "no"
         }, 
         "systemSyncScheduler": {

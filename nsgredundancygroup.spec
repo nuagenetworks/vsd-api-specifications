@@ -103,7 +103,7 @@
             "orderable": true,
             "type": "integer", 
             "min_value": 0,
-            "max_value": 4096,
+            "max_value": 4095,
             "default_value": 4094,
             "uniqueScope": "no"
         }, 

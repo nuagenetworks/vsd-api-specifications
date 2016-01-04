@@ -59,7 +59,12 @@
             "uniqueScope": "no"
         }, 
         "priorityType": {
-            "description": "", 
+            allowed_choices: [
+                "TOP",
+                "BOTTOM",
+                "NONE"
+            ],
+            "description": "",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 

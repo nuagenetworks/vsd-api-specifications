@@ -888,7 +888,7 @@
             "format": "long",
             "orderable": true, 
             "type": "integer",
-            "min_value": 1000,
+            "min_value": 10000,
             "max_value": 2147483646,
             "default_value": 10000,
             "uniqueScope": "no"

@@ -46,7 +46,13 @@
             "uniqueScope": "no"
         }, 
         "configurationReloadState": {
-            "description": "", 
+            "allowed_choices": [
+                "PENDING",
+                "SENT",
+                "APPLIED",
+                "UNKNOWN"
+            ],
+            "description": "",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
@@ -55,6 +61,12 @@
             "uniqueScope": "no"
         }, 
         "configurationStatus": {
+            "allowed_choices": [
+                "UNKNOWN",
+                "SUCCESS",
+                "FAILURE"
+            ],
+
             "description": "", 
             "exposed": true, 
             "filterable": true, 
