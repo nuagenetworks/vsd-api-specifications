@@ -134,7 +134,10 @@
             "uniqueScope": "no"
         }, 
         "maintenanceMode": {
-            "description": "maintenanceMode is an enum that indicates if the SubNetwork is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .", 
+            "allowed_choices": [
+                "ENABLED", "DISABLED", "ENABLED_INHERITED"
+            ],
+            "description": "maintenanceMode is an enum that indicates if the SubNetwork is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
