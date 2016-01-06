@@ -124,7 +124,12 @@
             "uniqueScope": "no"
         }, 
         "policyChangeStatus": {
-            "description": "", 
+            "allowed_choices": [
+                "STARTED",
+                "DISCARDED",
+                "APPLIED"
+            ],
+            "description": "",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 

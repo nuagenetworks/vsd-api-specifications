@@ -95,8 +95,9 @@
         }, 
         "policyChangeStatus": {
             "allowed_choices": [
-                "IPV6", 
-                "IPV4"
+                "STARTED",
+                "DISCARDED",
+                "APPLIED"
             ], 
             "description": "", 
             "exposed": true, 
