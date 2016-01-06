@@ -61,8 +61,9 @@
         }, 
         "policyChangeStatus": {
             "allowed_choices": [
-                "ENABLED", 
-                "DISABLED"
+                "STARTED",
+                "DISCARDED",
+                "APPLIED"
             ], 
             "description": "", 
             "exposed": true, 

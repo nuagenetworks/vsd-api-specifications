@@ -242,12 +242,9 @@
         }, 
         "policyChangeStatus": {
             "allowed_choices": [
-                "EXTEND", 
-                "INSTANTIATE", 
-                "DEPLOY", 
-                "USE", 
-                "READ", 
-                "ALL"
+                "STARTED",
+                "DISCARDED",
+                "APPLIED"
             ], 
             "description": "", 
             "exposed": true, 
