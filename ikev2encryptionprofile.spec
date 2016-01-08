@@ -179,6 +179,7 @@
                 "WINDOW_SIZE_32", 
                 "WINDOW_SIZE_0"
             ], 
+            "default_value": "WINDOW_SIZE_32", 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
