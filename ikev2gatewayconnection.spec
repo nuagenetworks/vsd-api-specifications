@@ -26,12 +26,13 @@
             "uniqueScope": "no"
         }, 
         "allowAnySubnet": {
+            "default_value": "false", 
             "description": "configures 0.0.0.0/0 as the local subnet for this connection", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "associatedIKEv2AuthenticationID": {
             "description": null, 
