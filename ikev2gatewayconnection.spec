@@ -25,6 +25,14 @@
             "type": "enum", 
             "uniqueScope": "no"
         }, 
+        "allowAnySubnet": {
+            "description": "configures 0.0.0.0/0 as the local subnet for this connection", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "associatedIKEv2AuthenticationID": {
             "description": null, 
             "exposed": true, 
