@@ -170,12 +170,21 @@
             "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveRetryInterval": {
+            "allowed_choices": [
+                "WINDOW_SIZE_1024", 
+                "WINDOW_SIZE_512", 
+                "WINDOW_SIZE_256", 
+                "WINDOW_SIZE_128", 
+                "WINDOW_SIZE_64", 
+                "WINDOW_SIZE_32", 
+                "WINDOW_SIZE_0"
+            ], 
             "description": null, 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "integer", 
+            "type": "enum", 
             "uniqueScope": "no"
         }, 
         "ISAKMPKeepAliveTimeout": {
