@@ -87,7 +87,7 @@
             "uniqueScope": "no"
         }, 
         "priorityType": {
-            allowed_choices: [
+            "allowed_choices": [
                 "TOP",
                 "BOTTOM",
                 "NONE"
