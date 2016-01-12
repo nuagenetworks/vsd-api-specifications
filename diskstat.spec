@@ -39,6 +39,7 @@
         "delete": false,
         "package": "vm",
         "resource_name": "diskstats",
-        "rest_name": "diskstat"
+        "rest_name": "diskstat",
+        "entity_name": "DiskStat"
     }
 }
