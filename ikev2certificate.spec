@@ -46,12 +46,12 @@
             "uniqueScope": "no"
         }, 
         "notAfter": {
-            "description": null, 
+            "description": "Not valid after", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "time"
         }, 
         "notBefore": {
             "description": null, 
