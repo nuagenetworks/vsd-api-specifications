@@ -24,7 +24,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "statsData": {
@@ -42,7 +43,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     }, 
