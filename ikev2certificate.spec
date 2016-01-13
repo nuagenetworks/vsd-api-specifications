@@ -45,6 +45,14 @@
             "type": "string", 
             "uniqueScope": "no"
         }, 
+        "notAfter": {
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "notBefore": {
             "description": null, 
             "exposed": true, 
