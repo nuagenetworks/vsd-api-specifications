@@ -10,6 +10,8 @@
             "type": "string",
             "min_length": 1,
             "max_length": 255,
+            "orderable": true,
+            "filterable": true,
             "required": false
         },
         "size": {
