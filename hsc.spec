@@ -23,37 +23,41 @@
         "averageCPUUsage": {
             "description": "Average CPU usage percentage.", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": false,
             "format": "free", 
-            "orderable": true, 
-            "type": "float", 
+            "orderable": false,
+            "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         }, 
         "averageMemoryUsage": {
             "description": "Average memory usage percentage.", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": false,
             "format": "free", 
-            "orderable": true, 
+            "orderable": false,
             "type": "float", 
+            "subtype": "double",
             "uniqueScope": "no"
         }, 
         "currentCPUUsage": {
             "description": "Current CPU usage percentage.", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": false,
             "format": "free", 
-            "orderable": true, 
+            "orderable": false,
             "type": "float", 
+            "subtype": "double",
             "uniqueScope": "no"
         }, 
         "currentMemoryUsage": {
             "description": "Current memory usage percentage.", 
             "exposed": true, 
-            "filterable": true, 
+            "filterable": false,
             "format": "free", 
-            "orderable": true, 
+            "orderable": false,
             "type": "float", 
+            "subtype": "double",
             "uniqueScope": "no"
         }, 
         "description": {
@@ -61,7 +65,7 @@
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
-            "orderable": true, 
+            "orderable": false,
             "type": "string", 
             "min_length": 0,
             "max_length": 255,
@@ -83,7 +87,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "location": {
@@ -146,7 +151,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         }, 
         "peakMemoryUsage": {
@@ -156,6 +162,7 @@
             "format": "free", 
             "orderable": true, 
             "type": "float", 
+            "subtype": "double",
             "uniqueScope": "no"
         }, 
         "productVersion": {
@@ -204,7 +211,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "vsds": {
