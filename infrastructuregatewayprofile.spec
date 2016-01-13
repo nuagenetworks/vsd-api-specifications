@@ -127,7 +127,18 @@
             "min_length": 1,
             "max_length": 255,
             "uniqueScope": "no"
-        }, 
+        },
+        "probeInterval": {
+            "description": "Openflow echo timer in millisecond",
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "integer",
+            "min_value": 1000,
+            "max_value": 60000,
+            "default_value": 5000,
+            "uniqueScope": "no"
+        },
         "proxyDNSName": {
             "description": "Proxy DNS Name :  DNS Name of the system acting as a proxy between the NSG instances and the VSD.", 
             "exposed": true, 
