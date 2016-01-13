@@ -64,7 +64,7 @@
         "associatedBGPProfileID": {
             "description": "",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "orderable": false,
             "type": "string",

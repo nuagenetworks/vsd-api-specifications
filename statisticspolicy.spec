@@ -7,6 +7,7 @@
             "orderable": true,
             "required": true,
             "type": "integer",
+            "subtype": "long",
             "min_value": 1,
             "uniqueScope": "no"
         },

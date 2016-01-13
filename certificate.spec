@@ -31,9 +31,9 @@
             "description": "The serial number of this certificate.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "subjectDN": {

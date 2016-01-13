@@ -70,6 +70,9 @@
         },
         "policyState": {
             "description": "",
+            "allowed_choices": [
+                "DRAFT", "LIVE"
+            ],
             "exposed": true,
             "filterable": true,
             "format": "free",

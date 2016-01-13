@@ -61,7 +61,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "description": {
@@ -124,11 +125,18 @@
         },
         "permittedActionType": {
             "description": "Permitted action on this shared network resource",
+            "allowed_choices": [
+                "USE",
+                "READ",
+                "ALL",
+                "INSTANTIATE",
+                "EXTEND",
+                "DEPLOY"
+            ],
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "sharedResourceParentID": {
@@ -207,7 +215,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
