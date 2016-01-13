@@ -61,6 +61,14 @@
             "orderable": true, 
             "type": "time"
         }, 
+        "serialNumber": {
+            "description": "certificate serial number", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "subjectDN": {
             "description": null, 
             "exposed": true, 
