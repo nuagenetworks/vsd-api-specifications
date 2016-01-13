@@ -151,7 +151,11 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string", 
+            "type": "enum",
+            "allowed_choices": [
+                "DISABLED,
+                "MANAGED"
+            ],
             "uniqueScope": "no"
         }, 
         "enterpriseProfileID": {
