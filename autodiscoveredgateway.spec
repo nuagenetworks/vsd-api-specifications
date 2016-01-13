@@ -1,106 +1,106 @@
 {
     "attributes": {
         "controllers": {
-            "description": "Controllers to which this gateway instance is associated with.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
+            "description": "Controllers to which this gateway instance is associated with.",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "orderable": false,
             "type": "list",
             "subtype": "string",
             "uniqueScope": "no"
-        }, 
+        },
         "description": {
-            "description": "A description of the Gateway", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "A description of the Gateway",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
             "min_length": 0,
             "max_length": 255,
             "uniqueScope": "no"
-        }, 
+        },
         "gatewayID": {
-            "description": "The Gateway associated with this  Auto Discovered Gateway  . This is a read only attribute", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "The Gateway associated with this  Auto Discovered Gateway  . This is a read only attribute",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "orderable": false,
+            "type": "string",
             "uniqueScope": "no"
-        }, 
+        },
         "name": {
-            "description": "Name of the Gateway", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
+            "description": "Name of the Gateway",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "required": true,
+            "type": "string",
             "min_length": 1,
             "max_length": 255,
             "uniqueScope": "no"
-        }, 
+        },
         "personality": {
             "allowed_choices": [
-                "DC7X50", 
-                "OTHER", 
-                "VRSG", 
-                "VSG", 
-                "VSA", 
-                "HARDWARE_VTEP", 
+                "DC7X50",
+                "OTHER",
+                "VRSG",
+                "VSG",
+                "VSA",
+                "HARDWARE_VTEP",
                 "NSG"
-            ], 
-            "description": "Personality of the Gateway - VSG,VRSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "enum", 
+            ],
+            "description": "Personality of the Gateway - VSG,VRSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "required": true,
+            "type": "enum",
             "uniqueScope": "no"
-        }, 
+        },
         "systemID": {
-            "description": "Identifier of the Gateway", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "Identifier of the Gateway",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
             "min_length": 1,
             "max_length": 255,
             "uniqueScope": "no"
         }
-    }, 
+    },
     "children": {
         "eventlog": {
-            "get": true, 
+            "get": true,
             "relationship": "child"
-        }, 
+        },
         "nsport": {
-            "get": true, 
+            "get": true,
             "relationship": "child"
-        }, 
+        },
         "port": {
-            "get": true, 
+            "get": true,
             "relationship": "child"
-        }, 
+        },
         "service": {
-            "get": true, 
+            "get": true,
             "relationship": "child"
         }
-    }, 
+    },
     "model": {
-        "description": "Represents Auto discovered Gateway", 
-        "entity_name": "AutoDiscoveredGateway", 
+        "description": "Represents Auto discovered Gateway",
+        "entity_name": "AutoDiscoveredGateway",
         "extends": [
-            "@base", 
+            "@base",
             "@metadata"
-        ], 
-        "get": true, 
-        "package": "gateway", 
-        "resource_name": "autodiscoveredgateways", 
+        ],
+        "get": true,
+        "package": "gateway",
+        "resource_name": "autodiscoveredgateways",
         "rest_name": "autodiscoveredgateway"
     }
 }

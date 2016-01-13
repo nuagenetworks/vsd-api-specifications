@@ -21,7 +21,15 @@
             "description": "Storage unit type (example: bytes, KB, MB, etc.,).",
             "type": "enum",
             "allowed_choices": [
-                "Bytes", "PB", "MB", "KB", "ZB", "YB", "GB", "EB", "TB"
+                "Bytes",
+                "PB",
+                "MB",
+                "KB",
+                "ZB",
+                "YB",
+                "GB",
+                "EB",
+                "TB"
             ],
             "required": false
         },

@@ -1,86 +1,86 @@
 {
     "attributes": {
         "description": {
-            "description": "Description of the flow.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "Description of the flow.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
             "min_length": 1,
             "max_length": 255,
             "uniqueScope": "no"
-        }, 
+        },
         "destinationTierID": {
-            "description": "Flow destination tier id.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "Flow destination tier id.",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "orderable": false,
+            "type": "string",
             "uniqueScope": "no"
-        }, 
+        },
         "metadata": {
-            "description": "Metadata field to store flow related data.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "Metadata field to store flow related data.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
             "min_length": 0,
             "max_length": 255,
             "uniqueScope": "no"
-        }, 
+        },
         "name": {
-            "description": "Name of the flow.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "required": true, 
-            "type": "string", 
+            "description": "Name of the flow.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "required": true,
+            "type": "string",
             "min_length": 1,
             "max_length": 60,
             "uniqueScope": "no"
-        }, 
+        },
         "originTierID": {
-            "description": "Flow origin tier id.", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string", 
+            "description": "Flow origin tier id.",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "orderable": false,
+            "type": "string",
             "uniqueScope": "no"
         }
-    }, 
+    },
     "children": {
         "eventlog": {
-            "get": true, 
+            "get": true,
             "relationship": "child"
-        }, 
+        },
         "flowforwardingpolicy": {
-            "create": true, 
-            "get": true, 
+            "create": true,
+            "get": true,
             "relationship": "child"
-        }, 
+        },
         "flowsecuritypolicy": {
-            "create": true, 
-            "get": true, 
+            "create": true,
+            "get": true,
             "relationship": "child"
         }
-    }, 
+    },
     "model": {
-        "delete": true, 
-        "description": "Flow represents the traffic between two different tiers.", 
-        "entity_name": "Flow", 
+        "delete": true,
+        "description": "Flow represents the traffic between two different tiers.",
+        "entity_name": "Flow",
         "extends": [
-            "@base", 
+            "@base",
             "@metadata"
-        ], 
-        "get": true, 
-        "package": "appd", 
-        "resource_name": "flows", 
-        "rest_name": "flow", 
+        ],
+        "get": true,
+        "package": "appd",
+        "resource_name": "flows",
+        "rest_name": "flow",
         "update": true
     }
 }
