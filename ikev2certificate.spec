@@ -67,7 +67,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "integer"
         }, 
         "subjectDN": {
             "description": null, 
