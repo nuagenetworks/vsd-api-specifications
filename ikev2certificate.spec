@@ -54,12 +54,12 @@
             "type": "time"
         }, 
         "notBefore": {
-            "description": null, 
+            "description": "not valid before", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "time"
         }, 
         "subjectDN": {
             "description": null, 
