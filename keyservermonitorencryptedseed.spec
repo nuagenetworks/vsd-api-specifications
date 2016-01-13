@@ -4,18 +4,18 @@
             "description": "SEK Creation Time",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSEKCreationTime": {
-            "description": "The ID of the associated KeyServer Monitor Seed ID",
+            "description": "The creation time of the associated KeyServer Monitor Seed ID",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSEKID": {
@@ -28,12 +28,12 @@
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSeedCreationTime": {
-            "description": "The ID of the associated KeyServer Monitor Seed ID",
+            "description": "The creation time of the associated KeyServer Monitor Seed ID",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSeedID": {
@@ -58,9 +58,9 @@
             "description": "KeyServer Certificate Serial Number",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
