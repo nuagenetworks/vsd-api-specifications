@@ -153,7 +153,7 @@
             "orderable": true, 
             "type": "enum",
             "allowed_choices": [
-                "DISABLED,
+                "DISABLED",
                 "MANAGED"
             ],
             "uniqueScope": "no"
