@@ -27,6 +27,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "averageMemoryUsage": {
@@ -36,6 +37,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "currentCPUUsage": {
@@ -45,6 +47,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "currentMemoryUsage": {
@@ -54,6 +57,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "description": {
@@ -83,7 +87,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "location": {
@@ -147,6 +152,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "peakMemoryUsage": {
@@ -156,6 +162,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "productVersion": {
@@ -204,7 +211,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "vsds": {

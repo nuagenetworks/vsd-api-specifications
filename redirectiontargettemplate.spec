@@ -11,12 +11,17 @@
         },
         "endPointType": {
             "description": "VPortTagEndPointType is an enum. It defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. Possible values are NONE, L3, VIRTUAL_WIRE.",
+            "allowed_choices": [
+                "NONE",
+                "L3",
+                "VIRTUAL_WIRE"
+            ],
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
             "required": true,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "name": {
@@ -40,12 +45,16 @@
             "uniqueScope": "no"
         },
         "triggerType": {
-            "description": "Trigger type, could be NONE/GARP - THIS IS READONNLY",
+            "description": "Trigger type, could be NONE/GARP - THIS IS READONLY",
+            "allowed_choices": [
+                "NONE",
+                "GARP"
+            ],
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         }
     },
