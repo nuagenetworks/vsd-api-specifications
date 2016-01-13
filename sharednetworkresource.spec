@@ -141,7 +141,7 @@
             "uniqueScope": "no"
         }, 
         "type": {
-            allowed_choices: [
+            "allowed_choices": [
                 "PUBLIC",
                 "FLOATING",
                 "L2DOMAIN",

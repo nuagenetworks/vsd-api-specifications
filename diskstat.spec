@@ -10,6 +10,8 @@
             "type": "string",
             "min_length": 1,
             "max_length": 255,
+            "orderable": true,
+            "filterable": true,
             "required": false
         },
         "size": {
@@ -39,6 +41,7 @@
         "delete": false,
         "package": "vm",
         "resource_name": "diskstats",
-        "rest_name": "diskstat"
+        "rest_name": "diskstat",
+        "entity_name": "DiskStat"
     }
 }
