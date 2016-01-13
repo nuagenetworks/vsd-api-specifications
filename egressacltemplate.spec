@@ -69,6 +69,10 @@
             "uniqueScope": "no"
         }, 
         "policyState": {
+            "allowed_choices": [
+                "DRAFT",
+                "LIVE"
+            ],
             "description": "", 
             "exposed": true, 
             "filterable": true, 
