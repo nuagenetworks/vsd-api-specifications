@@ -43,6 +43,9 @@
     },
     "model": {
         "description": "Encapsulates the disk usage metrics for system monitor entity.",
+        "extends": [
+            "@base"
+        ],
         "create": false,
         "get": false,
         "update": false,

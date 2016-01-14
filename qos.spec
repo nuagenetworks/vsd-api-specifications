@@ -250,6 +250,7 @@
         "entity_name": "QOS",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

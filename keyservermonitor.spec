@@ -6,7 +6,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "gatewaySecuredDataRecordCount": {
@@ -15,7 +16,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "keyserverMonitorEncryptedSEKCount": {
@@ -24,7 +26,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "keyserverMonitorEncryptedSeedCount": {
@@ -33,7 +36,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "keyserverMonitorSEKCount": {
@@ -42,7 +46,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "keyserverMonitorSeedCount": {
@@ -51,7 +56,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "lastUpdateTime": {
@@ -60,7 +66,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
@@ -91,6 +98,7 @@
         "entity_name": "KeyServerMonitor",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

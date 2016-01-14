@@ -96,6 +96,7 @@
         "entity_name": "BootstrapActivation",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "package": "gateway",

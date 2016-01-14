@@ -99,6 +99,7 @@
         "entity_name": "ApplicationService", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

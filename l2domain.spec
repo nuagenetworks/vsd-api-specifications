@@ -163,7 +163,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "stretched": {
@@ -206,7 +207,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "encryption": {
@@ -350,6 +352,7 @@
         "entity_name": "L2Domain",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

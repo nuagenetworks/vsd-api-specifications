@@ -43,7 +43,8 @@
             "filterable": true,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "templateID": {
@@ -91,6 +92,7 @@
         "entity_name": "PolicyGroup",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

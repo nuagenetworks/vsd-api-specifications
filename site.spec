@@ -65,6 +65,7 @@
         "entity_name": "SiteInfo", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

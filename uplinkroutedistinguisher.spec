@@ -30,6 +30,7 @@
         "entity_name": "UplinkRD",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

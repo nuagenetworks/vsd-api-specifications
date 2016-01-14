@@ -96,6 +96,7 @@
         "entity_name": "AutoDiscoveredGateway",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -76,6 +76,7 @@
         "entity_name": "GlobalMetadata",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

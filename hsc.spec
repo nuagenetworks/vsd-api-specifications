@@ -258,6 +258,7 @@
         "entity_name": "HSC",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

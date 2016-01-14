@@ -47,6 +47,7 @@
         "entity_name": "StatsCollectorInfo", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

@@ -72,6 +72,7 @@
         "entity_name": "EnterprisePermission",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

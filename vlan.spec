@@ -157,6 +157,7 @@
         "entity_name": "VLAN",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

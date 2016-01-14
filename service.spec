@@ -194,7 +194,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
@@ -224,6 +225,7 @@
         "entity_name": "WANService",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

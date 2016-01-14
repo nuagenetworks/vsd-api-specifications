@@ -54,6 +54,7 @@
         "entity_name": "FloatingIp",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

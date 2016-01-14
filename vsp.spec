@@ -66,6 +66,7 @@
         "entity_name": "VSP", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

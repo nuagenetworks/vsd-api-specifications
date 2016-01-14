@@ -37,6 +37,7 @@
         "entity_name": "NetworkMacroGroup",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

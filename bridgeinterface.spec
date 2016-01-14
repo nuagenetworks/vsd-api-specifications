@@ -38,11 +38,14 @@
         },
         "attachedNetworkType": {
             "description": "l2 domain or Subnet that the interface is attached to",
+            "allowed_choices": [
+                "L2DOMAIN", "SUBNET"
+            ],
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "domainID": {
@@ -177,6 +180,7 @@
         "entity_name": "BridgeInterface",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

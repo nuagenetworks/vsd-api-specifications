@@ -39,6 +39,7 @@
         "entity_name": "NetworkLayout",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -104,6 +104,7 @@
         "entity_name": "InfrastructurePortProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

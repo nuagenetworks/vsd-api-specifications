@@ -42,9 +42,11 @@
         },
         "policyState": {
             "description": "",
+            "allowed_choices": [
+                "DRAFT", "LIVE"
+            ],
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -90,6 +92,7 @@
         "entity_name": "IngressAdvFwdTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

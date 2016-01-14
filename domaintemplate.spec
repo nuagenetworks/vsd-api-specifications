@@ -149,6 +149,7 @@
         "entity_name": "DomainTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

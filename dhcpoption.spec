@@ -62,6 +62,7 @@
         "entity_name": "DHCPOption",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

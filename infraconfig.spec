@@ -11,11 +11,16 @@
         },
         "configStatus": {
             "description": "Status of the configuration application",
+            "allowed_choices": [
+                "UNKNOWN",
+                "SUCCESS",
+                "FAILURE"
+            ],
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         }
     },
@@ -24,6 +29,7 @@
         "entity_name": "InfrastructureConfig",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "package": "gateway",

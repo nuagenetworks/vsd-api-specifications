@@ -34,7 +34,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "deleteMode": {
@@ -276,6 +277,7 @@
         "entity_name": "VM",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

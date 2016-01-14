@@ -83,6 +83,7 @@
         "entity_name": "PortTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

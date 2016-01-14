@@ -75,6 +75,7 @@
         "entity_name": "Flow",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

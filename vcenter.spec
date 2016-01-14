@@ -636,6 +636,7 @@
         "entity_name": "VCenter",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -39,6 +39,7 @@
             "filterable": false,
             "orderable": false,
             "type": "integer",
+            "subtype": "long",
             "min_value": 1000,
             "max_value": 60000,
             "default_value": 1000,
@@ -46,15 +47,14 @@
         },
         "deadTimer": {
             "allowed_choices": [
-                "THREE_HOURS",
-                "THIRTY_MINUTES",
                 "TEN_MINUTES",
+                "THIRTY_MINUTES",
                 "ONE_HOUR",
-                "FOUR_HOURS",
-                "SIX_HOURS",
-                "MAXIMUM_DURATION",
                 "TWO_HOURS",
+                "THREE_HOURS",
+                "FOUR_HOURS",
                 "FIVE_HOURS",
+                "SIX_HOURS",
                 "NONE"
             ],
             "description": "Time, in seconds, allowed for a Gateway to be inactive before the VSD revokes its certificates and marks it as untrusted.  Default value is 1 hour (3600) Possible values are NONE, TEN_MINUTES, THIRTY_MINUTES, ONE_HOUR, TWO_HOURS, THREE_HOURS, FOUR_HOURS, FIVE_HOURS, SIX_HOURS, MAXIMUM_DURATION, .",
@@ -100,6 +100,7 @@
             "filterable": false,
             "orderable": false,
             "type": "integer",
+            "subtype": "long",
             "min_value": 100,
             "max_value": 200000,
             "default_value": 2500,
@@ -126,17 +127,6 @@
             "type": "string",
             "min_length": 1,
             "max_length": 255,
-            "uniqueScope": "no"
-        },
-        "probeInterval": {
-            "description": "Openflow echo timer in millisecond",
-            "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "min_value": 1000,
-            "max_value": 60000,
-            "default_value": 5000,
             "uniqueScope": "no"
         },
         "proxyDNSName": {
@@ -255,15 +245,14 @@
         },
         "systemSyncWindow": {
             "allowed_choices": [
-                "THREE_HOURS",
-                "THIRTY_MINUTES",
                 "TEN_MINUTES",
+                "THIRTY_MINUTES",
                 "ONE_HOUR",
-                "FOUR_HOURS",
-                "SIX_HOURS",
-                "MAXIMUM_DURATION",
                 "TWO_HOURS",
+                "THREE_HOURS",
+                "FOUR_HOURS",
                 "FIVE_HOURS",
+                "SIX_HOURS",
                 "NONE"
             ],
             "description": "Length of time, in seconds, given to a Gateway to apply a configuration change.  This property is closely linked to systemSyncScheduler.  Default value is 1 hour (3600 s) Possible values are NONE, TEN_MINUTES, THIRTY_MINUTES, ONE_HOUR, TWO_HOURS, THREE_HOURS, FOUR_HOURS, FIVE_HOURS, SIX_HOURS, MAXIMUM_DURATION, .",
@@ -307,6 +296,7 @@
         "entity_name": "InfrastructureGatewayProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

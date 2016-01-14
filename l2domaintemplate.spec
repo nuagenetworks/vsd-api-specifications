@@ -191,6 +191,7 @@
         "entity_name": "L2DomainTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

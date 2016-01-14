@@ -69,11 +69,10 @@
             "uniqueScope": "no"
         },
         "policyState": {
-            "allowed_choices": [
-                "DRAFT",
-                "LIVE"
-            ],
             "description": "",
+            "allowed_choices": [
+                "DRAFT", "LIVE"
+            ],
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -130,6 +129,7 @@
         "entity_name": "EgressACLTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

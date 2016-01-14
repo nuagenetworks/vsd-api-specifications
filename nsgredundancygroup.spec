@@ -91,6 +91,7 @@
             "filterable": false,
             "orderable": false,
             "type": "integer",
+            "subtype": "long",
             "min_value": 500,
             "max_value": 2000,
             "default_value": 500,
@@ -205,6 +206,7 @@
         "entity_name": "NSRedundantGatewayGroup",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

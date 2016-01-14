@@ -164,6 +164,7 @@
         "entity_name": "ExternalAppService", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

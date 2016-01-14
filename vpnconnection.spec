@@ -39,6 +39,7 @@
         "entity_name": "VPNConnection",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

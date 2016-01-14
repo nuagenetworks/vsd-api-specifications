@@ -7,6 +7,7 @@
             "orderable": true,
             "required": true,
             "type": "integer",
+            "subtype": "long",
             "min_value": 1,
             "uniqueScope": "no"
         },
@@ -40,6 +41,7 @@
         "entity_name": "StatisticsPolicy",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

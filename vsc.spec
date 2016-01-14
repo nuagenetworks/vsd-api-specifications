@@ -27,6 +27,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "averageMemoryUsage": {
@@ -36,6 +37,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "currentCPUUsage": {
@@ -45,6 +47,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "currentMemoryUsage": {
@@ -54,6 +57,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "description": {
@@ -83,7 +87,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "location": {
@@ -136,6 +141,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "peakMemoryUsage": {
@@ -145,6 +151,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "productVersion": {
@@ -167,7 +174,6 @@
             "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -178,7 +184,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "vsds": {
@@ -224,6 +231,7 @@
         "entity_name": "VSC",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

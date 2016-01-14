@@ -104,6 +104,7 @@
         "entity_name": "PATNATPool",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

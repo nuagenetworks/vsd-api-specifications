@@ -82,6 +82,7 @@
         "entity_name": "ExternalService", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

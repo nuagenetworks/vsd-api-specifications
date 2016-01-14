@@ -41,6 +41,7 @@
         "entity_name": "MultiCastChannelMap",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

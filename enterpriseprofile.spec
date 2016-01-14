@@ -40,13 +40,13 @@
         },
         "allowedForwardingClasses": {
             "allowed_choices": [
+                "A",
+                "B",
+                "C",
                 "D",
                 "E",
                 "F",
                 "G",
-                "A",
-                "B",
-                "C",
                 "H",
                 "NONE"
             ],
@@ -55,7 +55,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "enum",
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         },
         "description": {
@@ -149,6 +150,7 @@
         "entity_name": "EnterpriseProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -163,6 +163,7 @@
         "entity_name": "Port",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -131,7 +131,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "description": {
@@ -147,15 +148,15 @@
         },
         "encryptionManagementMode": {
             "description": "Readonly encryption management mode of the associated profile",
+            "allowed_choices": [
+                "DISABLED",
+                "MANAGED"
+            ],
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
             "type": "enum",
-            "allowed_choices": [
-                "DISABLED",
-                "MANAGED"
-            ],
             "uniqueScope": "no"
         },
         "enterpriseProfileID": {
@@ -385,6 +386,7 @@
         "entity_name": "Enterprise",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -265,6 +265,7 @@
         "entity_name": "VPort",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -37,6 +37,7 @@
         "entity_name": "NATMapEntry",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

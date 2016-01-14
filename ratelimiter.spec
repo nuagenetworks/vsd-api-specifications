@@ -57,6 +57,7 @@
         "entity_name": "RateLimiter", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

@@ -31,6 +31,7 @@
         "entity_name": "Bootstrap",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,
