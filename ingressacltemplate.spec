@@ -9,7 +9,7 @@
             "type": "boolean",
             "uniqueScope": "no"
         },
-        "allowL2AddressSpoof": {
+        "allowAddressSpoof": {
             "description": "If enabled, it will disable the default anti-spoof ACL for this domain that essentially prevents any VM to send packets that do not originate from that particular VM",
             "exposed": true,
             "filterable": true,
