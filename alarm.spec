@@ -97,7 +97,8 @@
             "filterable": false,
             "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },

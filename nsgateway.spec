@@ -152,11 +152,20 @@
         },
         "personality": {
             "description": "Personality of the Gateway - NSG, cannot be changed after creation.",
+            "allowed_choices": [
+                "VSG",
+                "VSA",
+                "VRSG",
+                "DC7X50",
+                "NSG",
+                "HARDWARE_VTEP",
+                "OTHER"
+            ],
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "ports": {

@@ -38,6 +38,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "averageMemoryUsage": {
@@ -164,6 +165,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "peakMemoryUsage": {

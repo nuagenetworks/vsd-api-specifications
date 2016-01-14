@@ -61,22 +61,22 @@
         },
         "queue1ForwardingClasses": {
             "allowed_choices": [
+                "A",
+                "B",
+                "C",
                 "D",
                 "E",
                 "F",
                 "G",
-                "A",
-                "B",
-                "C",
                 "H",
                 "NONE"
             ],
             "description": "Queue1 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
-            "type": "enum",
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         },
         "queue2AssociatedRateLimiterID": {
@@ -90,22 +90,22 @@
         },
         "queue2ForwardingClasses": {
             "allowed_choices": [
+                "A",
+                "B",
+                "C",
                 "D",
                 "E",
                 "F",
                 "G",
-                "A",
-                "B",
-                "C",
                 "H",
                 "NONE"
             ],
             "description": "Queue2 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
-            "type": "enum",
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         },
         "queue3AssociatedRateLimiterID": {
@@ -119,22 +119,22 @@
         },
         "queue3ForwardingClasses": {
             "allowed_choices": [
+                "A",
+                "B",
+                "C",
                 "D",
                 "E",
                 "F",
                 "G",
-                "A",
-                "B",
-                "C",
                 "H",
                 "NONE"
             ],
             "description": "Queue3 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
-            "type": "enum",
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         },
         "queue4AssociatedRateLimiterID": {
@@ -148,22 +148,22 @@
         },
         "queue4ForwardingClasses": {
             "allowed_choices": [
+                "A",
+                "B",
+                "C",
                 "D",
                 "E",
                 "F",
                 "G",
-                "A",
-                "B",
-                "C",
                 "H",
                 "NONE"
             ],
             "description": "Queue4 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
-            "type": "enum",
+            "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         }
     },

@@ -34,7 +34,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "deleteMode": {

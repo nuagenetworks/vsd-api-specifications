@@ -30,9 +30,12 @@
         },
         "associatedDomainType": {
             "description": "Type of domain (DOMAIN, L2DOMAIN). Refer to API section for supported types.",
+            "allowed_choices": [
+                "DOMAIN",
+                "L2DOMAIN",
+            ],
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
             "required": true,
             "type": "enum",
@@ -49,9 +52,12 @@
         },
         "associatedNetworkObjectType": {
             "description": "Type of network object this App is associated with (ENTERPRISE, DOMAIN) Refer to API section for supported types.",
+            "allowed_choices": [
+                "ENTERPRISE",
+                "DOMAIN",
+            ],
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"

@@ -58,6 +58,7 @@
             "filterable": false,
             "orderable": false,
             "type": "integer",
+            "subtype": "long",
             "min_value": 1000,
             "max_value": 60000,
             "default_value": 5000,

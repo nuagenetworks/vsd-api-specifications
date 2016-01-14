@@ -6,7 +6,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "numberOfDataPoints": {
@@ -24,7 +25,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "statsData": {
@@ -42,7 +44,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
@@ -50,7 +53,6 @@
         "description": "Retrieves the statistics for a particular domain, zone, subnet, or VM",
         "entity_name": "Statistics",
         "extends": [
-            "@base",
             "@metadata"
         ],
         "package": "stats",

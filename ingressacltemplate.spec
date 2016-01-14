@@ -79,9 +79,12 @@
         },
         "policyState": {
             "description": "",
+            "allowed_choices": [
+                "DRAFT",
+                "LIVE"
+            ],
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"

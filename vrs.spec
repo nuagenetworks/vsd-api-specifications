@@ -32,6 +32,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "averageMemoryUsage": {
@@ -41,6 +42,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "clusterNodeRole": {
@@ -64,6 +66,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "currentMemoryUsage": {
@@ -73,6 +76,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "dbSynced": {
@@ -189,7 +193,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "lastStateChange": {
@@ -198,7 +203,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "location": {
@@ -297,6 +303,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "peakMemoryUsage": {
@@ -306,6 +313,7 @@
             "format": "free",
             "orderable": false,
             "type": "float",
+            "subtype": "double",
             "uniqueScope": "no"
         },
         "peer": {
@@ -380,7 +388,8 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "float",
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
