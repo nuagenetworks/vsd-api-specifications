@@ -41,6 +41,7 @@
         "entity_name": "StatisticsPolicy",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

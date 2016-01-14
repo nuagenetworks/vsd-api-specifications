@@ -98,6 +98,7 @@
         "entity_name": "KeyServerMonitor",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

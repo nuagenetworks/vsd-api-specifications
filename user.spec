@@ -118,6 +118,7 @@
         "entity_name": "User",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -39,6 +39,7 @@
         "entity_name": "VMResync", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "package": "vm", 

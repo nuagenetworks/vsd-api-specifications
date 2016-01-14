@@ -84,6 +84,7 @@
         "entity_name": "PolicyDecision",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

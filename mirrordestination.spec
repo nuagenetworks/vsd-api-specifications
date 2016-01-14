@@ -43,6 +43,7 @@
         "entity_name": "MirrorDestination",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

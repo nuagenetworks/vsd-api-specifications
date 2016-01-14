@@ -198,6 +198,7 @@
         "entity_name": "NSPort",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

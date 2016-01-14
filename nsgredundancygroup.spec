@@ -206,6 +206,7 @@
         "entity_name": "NSRedundantGatewayGroup",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

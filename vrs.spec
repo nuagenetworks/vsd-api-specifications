@@ -437,6 +437,7 @@
         "entity_name": "VRS",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

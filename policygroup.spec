@@ -92,6 +92,7 @@
         "entity_name": "PolicyGroup",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

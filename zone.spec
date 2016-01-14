@@ -462,6 +462,7 @@
         "entity_name": "Zone",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

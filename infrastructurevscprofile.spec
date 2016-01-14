@@ -82,6 +82,7 @@
         "entity_name": "InfrastructureVscProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

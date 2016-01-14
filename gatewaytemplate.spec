@@ -65,6 +65,7 @@
         "entity_name": "GatewayTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

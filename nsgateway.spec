@@ -266,6 +266,7 @@
         "entity_name": "NSGateway",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

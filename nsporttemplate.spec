@@ -100,6 +100,7 @@
         "entity_name": "NSPortTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

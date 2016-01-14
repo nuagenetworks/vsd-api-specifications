@@ -180,6 +180,7 @@
         "entity_name": "BridgeInterface",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

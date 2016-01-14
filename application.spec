@@ -112,6 +112,7 @@
         "entity_name": "App",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

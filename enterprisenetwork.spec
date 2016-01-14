@@ -63,6 +63,7 @@
         "entity_name": "EnterpriseNetwork", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

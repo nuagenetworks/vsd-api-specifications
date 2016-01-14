@@ -29,6 +29,7 @@
         "entity_name": "InfrastructureConfig",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "package": "gateway",

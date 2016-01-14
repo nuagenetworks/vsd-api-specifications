@@ -58,6 +58,7 @@
         "entity_name": "PublicNetworkMacro", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

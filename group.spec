@@ -91,6 +91,7 @@
         "entity_name": "Group",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -487,6 +487,7 @@
         "entity_name": "IngressExternalServiceTemplateEntry",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

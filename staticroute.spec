@@ -67,6 +67,7 @@
         "entity_name": "StaticRoute", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

@@ -248,6 +248,7 @@
         "entity_name": "VSD",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

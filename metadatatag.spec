@@ -63,8 +63,9 @@
         "description": "Metadata tag associated to a metadata", 
         "entity_name": "MetadataTag", 
         "extends": [
-            "@base"
-        ], 
+            "@base",
+            "@audited"
+        ],
         "get": true, 
         "package": "common", 
         "resource_name": "metadatatags", 

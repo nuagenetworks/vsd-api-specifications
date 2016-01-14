@@ -70,6 +70,7 @@
         "entity_name": "KeyServerMonitorEncryptedSeed",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

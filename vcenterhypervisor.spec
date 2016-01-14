@@ -710,6 +710,7 @@
         "entity_name": "VCenterHypervisor",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

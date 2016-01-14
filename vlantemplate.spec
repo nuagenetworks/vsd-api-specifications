@@ -37,6 +37,7 @@
         "entity_name": "VLANTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

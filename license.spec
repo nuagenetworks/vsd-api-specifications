@@ -241,6 +241,7 @@
         "entity_name": "License",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -132,6 +132,7 @@
         "entity_name": "ZoneTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

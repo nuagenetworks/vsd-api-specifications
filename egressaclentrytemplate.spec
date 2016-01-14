@@ -486,6 +486,7 @@
         "entity_name": "EgressACLEntryTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

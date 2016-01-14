@@ -323,6 +323,7 @@
         "entity_name": "Job",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

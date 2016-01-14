@@ -561,6 +561,7 @@
         "entity_name": "VCenterCluster",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

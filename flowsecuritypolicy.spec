@@ -9,9 +9,8 @@
             ],
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "associatedApplicationServiceID": {

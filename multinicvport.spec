@@ -23,6 +23,7 @@
         "entity_name": "MultiNICVPort", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

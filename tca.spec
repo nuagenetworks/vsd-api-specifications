@@ -127,6 +127,7 @@
         "entity_name": "TCA",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

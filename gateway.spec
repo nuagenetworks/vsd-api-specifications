@@ -162,6 +162,7 @@
         "entity_name": "Gateway",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -56,6 +56,7 @@
         "entity_name": "NSGatewayTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

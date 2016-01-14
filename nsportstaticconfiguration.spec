@@ -60,6 +60,7 @@
         "entity_name": "NSPortStaticConfiguration",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

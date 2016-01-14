@@ -388,6 +388,7 @@
         "entity_name": "Tier",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

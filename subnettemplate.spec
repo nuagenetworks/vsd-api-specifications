@@ -147,6 +147,7 @@
         "entity_name": "SubnetTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

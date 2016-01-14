@@ -64,6 +64,7 @@
         "entity_name": "VCenterEAMConfig",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "package": "vmware",

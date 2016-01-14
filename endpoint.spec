@@ -34,6 +34,7 @@
         "entity_name": "EndPoint", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

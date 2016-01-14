@@ -112,6 +112,7 @@
         "entity_name": "RedirectionTarget",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

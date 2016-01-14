@@ -39,13 +39,13 @@
             "uniqueScope": "no"
         },
         "permittedEntityID": {
-            "description": "The  entity ID for which this permission action is associated against Possible values are .",
+            "description": "The  entity ID for which this permission action is associated against.",
             "exposed": true,
             "filterable": false,
             "format": "free",
             "orderable": false,
             "required": true,
-            "type": "enum",
+            "type": "string",
             "uniqueScope": "no"
         },
         "permittedEntityName": {
@@ -79,6 +79,7 @@
         "entity_name": "Permission",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

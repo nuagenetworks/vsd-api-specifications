@@ -296,6 +296,7 @@
         "entity_name": "InfrastructureGatewayProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

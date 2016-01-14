@@ -138,6 +138,7 @@
         "entity_name": "IngressACLTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

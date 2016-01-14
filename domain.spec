@@ -508,6 +508,7 @@
         "entity_name": "Domain",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

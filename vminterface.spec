@@ -216,6 +216,7 @@
         "entity_name": "VMInterface",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

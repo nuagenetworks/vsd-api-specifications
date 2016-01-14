@@ -129,6 +129,7 @@
         "entity_name": "EgressACLTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

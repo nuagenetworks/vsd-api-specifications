@@ -207,6 +207,7 @@
         "entity_name": "HostInterface",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

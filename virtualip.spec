@@ -50,6 +50,7 @@
         "entity_name": "VirtualIP",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

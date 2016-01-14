@@ -112,6 +112,7 @@
         "entity_name": "LDAPConfiguration",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

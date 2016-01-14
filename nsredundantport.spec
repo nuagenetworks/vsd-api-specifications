@@ -178,6 +178,7 @@
         "entity_name": "RedundantPort",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

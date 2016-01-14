@@ -108,6 +108,7 @@
         "entity_name": "Alarm",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

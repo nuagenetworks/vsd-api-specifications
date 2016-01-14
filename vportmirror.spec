@@ -93,6 +93,7 @@
         "entity_name": "VPortMirror",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

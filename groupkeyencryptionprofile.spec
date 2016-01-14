@@ -240,6 +240,7 @@
         "entity_name": "GroupKeyEncryptionProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

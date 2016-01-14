@@ -90,6 +90,7 @@
         "entity_name": "Location",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

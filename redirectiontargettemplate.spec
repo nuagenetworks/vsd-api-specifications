@@ -74,6 +74,7 @@
         "entity_name": "RedirectionTargetTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

@@ -176,6 +176,7 @@
         "entity_name": "RedundancyGroup",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

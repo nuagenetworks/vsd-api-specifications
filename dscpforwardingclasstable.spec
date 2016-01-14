@@ -35,6 +35,7 @@
         "entity_name": "DSCPForwardingClassTable", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

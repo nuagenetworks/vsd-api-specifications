@@ -173,6 +173,7 @@
         "entity_name": "EgressQOSPolicy",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

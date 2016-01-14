@@ -386,6 +386,7 @@
         "entity_name": "Enterprise",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

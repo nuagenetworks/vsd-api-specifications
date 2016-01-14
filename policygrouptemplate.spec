@@ -68,6 +68,7 @@
         "entity_name": "PolicyGroupTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

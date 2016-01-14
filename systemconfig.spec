@@ -1182,6 +1182,7 @@
         "entity_name": "SystemConfig",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

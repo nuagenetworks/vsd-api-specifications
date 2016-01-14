@@ -225,6 +225,7 @@
         "entity_name": "WANService",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

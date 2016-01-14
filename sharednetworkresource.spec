@@ -253,6 +253,7 @@
         "entity_name": "SharedNetworkResource",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

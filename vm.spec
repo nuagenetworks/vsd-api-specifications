@@ -277,6 +277,7 @@
         "entity_name": "VM",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

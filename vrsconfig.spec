@@ -526,6 +526,7 @@
         "entity_name": "VCenterVRSConfig",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "package": "vmware",

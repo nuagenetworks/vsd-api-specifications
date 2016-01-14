@@ -150,6 +150,7 @@
         "entity_name": "EnterpriseProfile",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,

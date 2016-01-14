@@ -522,6 +522,7 @@
         "entity_name": "IngressAdvFwdEntryTemplate",
         "extends": [
             "@base",
+            "@audited",
             "@metadata"
         ],
         "get": true,
