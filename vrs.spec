@@ -349,7 +349,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "float"
         }, 
         "revertRetryCount": {
             "description": "This value indicates the number of retries for the revert to take place.", 
