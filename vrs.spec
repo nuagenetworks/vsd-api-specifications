@@ -333,7 +333,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "float"
         }, 
         "role": {
             "allowed_choices": [
