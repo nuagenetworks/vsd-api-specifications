@@ -343,6 +343,14 @@
             "orderable": true, 
             "type": "string"
         }, 
+        "revertFailedRetryCount": {
+            "description": "This value indicates the number of failed attempts for the revert to happen successfully.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "revertRetryCount": {
             "description": "This value indicates the number of retries for the revert to take place.", 
             "exposed": true, 
