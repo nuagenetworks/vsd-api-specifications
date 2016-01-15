@@ -327,6 +327,14 @@
             "orderable": true, 
             "type": "boolean"
         }, 
+        "revertRetryCount": {
+            "description": "This value indicates the number of retries for the revert to take place.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "role": {
             "allowed_choices": [
                 "SLAVE", 
