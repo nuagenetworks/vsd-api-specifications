@@ -51,6 +51,14 @@
             "orderable": true, 
             "type": "string", 
             "uniqueScope": "no"
+        }, 
+        "type": {
+            "description": "type flag for static-route provisioning for exit-domain (break-to-underlay) prefixes", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
         }
     }, 
     "children": {
