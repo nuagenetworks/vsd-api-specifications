@@ -357,7 +357,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "boolean"
+            "type": "float"
         }, 
         "role": {
             "allowed_choices": [
