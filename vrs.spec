@@ -316,7 +316,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "productVersion": {
             "description": "Product version supported by this entity.", 
