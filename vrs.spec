@@ -319,6 +319,14 @@
             "type": "string", 
             "uniqueScope": "no"
         }, 
+        "revertBehavior": {
+            "description": "Flag to indicate if this behaviour is on or off", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "role": {
             "allowed_choices": [
                 "SLAVE", 
