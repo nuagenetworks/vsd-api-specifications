@@ -341,7 +341,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "revertFailedRetryCount": {
             "description": "This value indicates the number of failed attempts for the revert to happen successfully.", 
