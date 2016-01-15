@@ -327,7 +327,7 @@
             "type": "string", 
             "uniqueScope": "no"
         }, 
-        "revertBehavior": {
+        "revertBehaviorEnabled": {
             "description": "Flag to indicate if this behaviour is on or off", 
             "exposed": true, 
             "filterable": true, 
