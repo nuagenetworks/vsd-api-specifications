@@ -327,6 +327,14 @@
             "orderable": true, 
             "type": "boolean"
         }, 
+        "revertCompleted": {
+            "description": "Flag indicates whether revert was completed successfully", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "revertRetryCount": {
             "description": "This value indicates the number of retries for the revert to take place.", 
             "exposed": true, 
