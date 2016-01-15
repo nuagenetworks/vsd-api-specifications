@@ -310,6 +310,14 @@
             "type": "enum", 
             "uniqueScope": "no"
         }, 
+        "primaryVSCConnectionLost": {
+            "description": "Flag indicates whether the cpnnection with the primary is lost.", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "productVersion": {
             "description": "Product version supported by this entity.", 
             "exposed": true, 
