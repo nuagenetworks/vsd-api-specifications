@@ -1,5 +1,14 @@
 {
     "attributes": {
+        "associatedBGPProfileID": {
+            "description": "The ID of the associated BGP profile",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": false,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
             "exposed": true,
