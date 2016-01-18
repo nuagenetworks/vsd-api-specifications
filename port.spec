@@ -45,7 +45,7 @@
             "exposed": true,
             "filterable": true,
             "orderable": true,
-            "type": "boolean"
+            "type": "boolean",
             "uniqueScope": "no"
         },
         "name": {
