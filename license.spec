@@ -95,6 +95,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "encryptionMode": {
+            "description": "Indicates if the system is associated with a license that allows encryption or not",
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "boolean",
+            "uniqueScope": "no"
+        },
         "expirationDate": {
             "description": "Expiration date of this license",
             "exposed": true,
@@ -121,6 +129,18 @@
             "orderable": false,
             "required": true,
             "type": "string",
+            "uniqueScope": "no"
+        },
+        "licenseEncryption": {
+            "description": "License encryption",
+            "allowed_choices": [
+                "ENCRYPTION_ENABLED",
+            	"ENCRYPTION_DISABLED"
+            ],
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "enum",
             "uniqueScope": "no"
         },
         "licenseID": {

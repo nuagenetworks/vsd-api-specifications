@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "BGPEnabled": {
+            "description": "Read only flag to display if BGP is enabled for this enterprise",
+            "exposed": true,
+            "filterable": true,
+            "orderable": false,
+            "type": "boolean",
+            "uniqueScope": "no"
+        },
         "DHCPLeaseInterval": {
             "description": "DHCP Lease Interval (in hrs) to be used by an enterprise.",
             "exposed": true,
@@ -186,6 +194,17 @@
             "format": "free",
             "orderable": false,
             "type": "integer",
+            "uniqueScope": "no"
+        },
+        "localAS": {
+            "description": "Local autonomous system for the enterprise",
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "integer",
+            "subtype": "long",
+            "min_value": 1,
+            "max_value": 64495,
             "uniqueScope": "no"
         },
         "name": {

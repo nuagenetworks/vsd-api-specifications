@@ -7,6 +7,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "egressQos": {
@@ -15,7 +16,7 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "object",
             "uniqueScope": "no"
         },
         "fipACLs": {
@@ -25,6 +26,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "ingressACLs": {
@@ -34,6 +36,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "ingressAdvFwd": {
@@ -43,6 +46,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "ingressExternalServiceACLs": {
@@ -52,6 +56,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "qos": {
@@ -60,7 +65,7 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "object",
             "uniqueScope": "no"
         },
         "stats": {
@@ -69,7 +74,7 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "object",
             "uniqueScope": "no"
         }
     },

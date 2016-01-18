@@ -45,6 +45,21 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "bootstrapStatus": {
+            "description": "The bootstrap status of this NSGateway. NOTE: this is a read only property",
+            "allowed_choices": [
+                "INACTIVE",
+                "NOTIFICATION_APP_REQ_SENT",
+                "NOTIFICATION_APP_REQ_ACK",
+                "CERTIFICATE_SIGNED",
+                "ACTIVE"
+            ],
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "enum"
+            "uniqueScope": "no"
+        },
         "configurationReloadState": {
             "allowed_choices": [
                 "PENDING",
@@ -175,6 +190,7 @@
             "format": "free",
             "orderable": true,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "redundancyGroupID": {

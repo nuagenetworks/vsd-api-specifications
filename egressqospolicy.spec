@@ -1,14 +1,5 @@
 {
     "attributes": {
-        "assocEgressQos": {
-            "description": "Object associated with this Qos object.",
-            "exposed": true,
-            "filterable": false,
-            "format": "free",
-            "orderable": false,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "assocEgressQosId": {
             "description": "ID of object associated with this QoS object",
             "exposed": true,

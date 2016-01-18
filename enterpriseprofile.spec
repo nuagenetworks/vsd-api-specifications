@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "BGPEnabled": {
+            "description": "Enable BGP for this enterprise profile",
+            "exposed": true,
+            "filterable": true,
+            "orderable": false,
+            "type": "boolean",
+            "uniqueScope": "no"
+        },
         "DHCPLeaseInterval": {
             "description": "DHCP Lease Interval (in hours) to be used by an enterprise.",
             "exposed": true,

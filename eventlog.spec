@@ -6,7 +6,7 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "object",
             "uniqueScope": "no"
         },
         "enterprise": {
