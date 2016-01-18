@@ -20,6 +20,18 @@
             "max_length": 255,
             "uniqueScope": "no"
         },
+        "managementMode": {
+            "description": "Management mode of the user object - allows for override of external authorization and syncup",
+            "exposed": true,
+            "allowed_choices": [
+                "CMS",
+                "DEFAULT"
+            ],
+            "filterable": false,
+            "orderable": false,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
         "name": {
             "description": "A unique name of the group",
             "exposed": true,

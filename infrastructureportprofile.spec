@@ -25,15 +25,6 @@
             "type": "enum",
             "uniqueScope": "no"
         },
-        "enterprise": {
-            "description": "Name of the enterprise/organisation associated with this Profile instance.  This is a read only attribute",
-            "exposed": true,
-            "filterable": false,
-            "format": "free",
-            "orderable": false,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "enterpriseID": {
             "description": "Enterprise/Organisation associated with this Profile instance.",
             "exposed": true,

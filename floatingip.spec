@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "accessControl": {
+            "description": "If access control is enabled this FIP is part of the Internet PG.",
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "boolean",
+            "uniqueScope": "no"
+        },
         "address": {
             "description": "Floating IP address assigned to the Domain",
             "exposed": true,
@@ -13,7 +21,6 @@
             "description": "True if this floating IP is assigned to a network interface else the value is false",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"

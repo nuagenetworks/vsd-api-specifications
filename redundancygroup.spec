@@ -133,6 +133,17 @@
             "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
+        },
+        "vtep": {
+            "description": "Represent the system ID or the Virtual IP of a service used by a Gateway (VSG for now) to establish a tunnel with a remote VSG or hypervisor.  The format of this field is consistent with an IP address.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "min_length": 0,
+            "max_length": 255,
+            "uniqueScope": "no"
         }
     },
     "children": {

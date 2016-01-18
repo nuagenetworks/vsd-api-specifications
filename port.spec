@@ -20,6 +20,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "associatedRedundantPortID": {
+            "description": "ID of the redundant port to which this Port instance may be associated to.",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "orderable": false,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "description": {
             "description": "A description of the Port",
             "exposed": true,
@@ -29,6 +38,14 @@
             "type": "string",
             "min_length": 0,
             "max_length": 255,
+            "uniqueScope": "no"
+        },
+        "isResilient": {
+            "description": "States if this port instance is resilient (redundant).  An example would be a Multi-Chassis LAG port.",
+            "exposed": true,
+            "filterable": true,
+            "orderable": true,
+            "type": "boolean",
             "uniqueScope": "no"
         },
         "name": {

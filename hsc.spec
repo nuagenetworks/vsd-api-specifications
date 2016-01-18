@@ -78,7 +78,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
-            "subtype": "diskstats",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "lastStateChange": {

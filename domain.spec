@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "BGPEnabled": {
+            "description": "Read only flag to display if BGP is enabled for this domain",
+            "exposed": true,
+            "filterable": true,
+            "orderable": false,
+            "type": "boolean",
+            "uniqueScope": "no"
+        },
         "DHCPBehavior": {
             "allowed_choices": [
                 "CONSUME",
@@ -332,10 +340,23 @@
                 "VXLAN",
                 "GRE"
             ],
-            "description": "Default Domain Tunnel Type .Possible values are VXLAN,GRE Possible values are DC_DEFAULT, GRE, VXLAN, .",
+            "description": "Default Domain Tunnel Type",
             "exposed": true,
             "filterable": false,
             "format": "free",
+            "orderable": false,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
+        "underlayEnabled": {
+            "description": "Indicates whether UNDERLAY is enabled for the subnets in this domain",
+            "exposed": true,
+            "allowed_choices": [
+                "INHERITED",
+                "ENABLED",
+                "DISABLED"
+            ],
+            "filterable": true,
             "orderable": false,
             "type": "enum",
             "uniqueScope": "no"

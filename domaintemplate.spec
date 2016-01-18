@@ -1,5 +1,14 @@
 {
     "attributes": {
+        "associatedBGPProfileID": {
+            "description": "The ID of the associated BGP profile",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": false,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "associatedMulticastChannelMapID": {
             "description": "The ID of the Multi Cast Channel Map  this domain template is associated with. This has to be set when  enableMultiCast is set to ENABLED",
             "exposed": true,

@@ -94,6 +94,7 @@
             "format": "free",
             "orderable": false,
             "type": "list",
+            "subtype": "object",
             "uniqueScope": "no"
         },
         "l2DomainIDs": {
@@ -173,7 +174,7 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "object",
             "uniqueScope": "no"
         },
         "siteIdentifier": {

@@ -2,11 +2,25 @@
     "attributes": {
         "action": {
             "description": "The bootstrap action to perform",
+            "allowed_choices": [
+                "INITIATE",
+                "AUTHENTICATE",
+                "CONFIRM",
+                "ROLLBACK",
+                "NEW_NCPE_AUTH_REQUIRED",
+                "NO_AUTH_REQUIRED",
+                "CERTIFICATE_SIGNED",
+                "ROLLED_BACK",
+                "BOOTSTRAP_COMPLETE",
+                "UNSPECIFIED",
+                "INITIATE_RENEW",
+                "CERTIFICATE_RENEW",
+                "CERTIFICATE_REVOKE"
+            ],
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
-            "type": "string",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "cacert": {
@@ -88,6 +102,15 @@
             "format": "free",
             "orderable": false,
             "type": "string",
+            "uniqueScope": "no"
+        },
+        "vsdTime": {
+            "description": "VSD Server time when an NSG is initiating a Bootstrapping request",
+            "exposed": true,
+            "filterable": false,
+            "orderable": false,
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },
