@@ -57,7 +57,7 @@
             "exposed": true,
             "filterable": false,
             "orderable": false,
-            "type": "enum"
+            "type": "enum",
             "uniqueScope": "no"
         },
         "configurationReloadState": {
