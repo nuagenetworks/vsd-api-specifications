@@ -1,14 +1,5 @@
 {
     "attributes": {
-        "associatedBGPProfileID": {
-            "description": "The ID of the associated BGP profile",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": false,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
             "exposed": true,
@@ -58,18 +49,18 @@
         "readonly": {
             "description": "Determines whether this entity is read only.  Read only objects cannot be modified or deleted.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "restricted": {
             "description": "Determines whether this entity can be used in associations with other properties.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -121,9 +112,9 @@
         "value": {
             "description": "value of VLAN",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "required": true,
             "type": "integer",
             "min_value": 0,

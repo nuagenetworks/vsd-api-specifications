@@ -23,8 +23,8 @@
         "value": {
             "description": "value of VLAN",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
+            "filterable": true,
+            "orderable": true,
             "type": "integer",
             "min_value": 0,
             "max_value": 4096,

@@ -196,17 +196,6 @@
             "type": "integer",
             "uniqueScope": "no"
         },
-        "localAS": {
-            "description": "Local autonomous system for the enterprise",
-            "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "subtype": "long",
-            "min_value": 1,
-            "max_value": 64495,
-            "uniqueScope": "no"
-        },
         "name": {
             "description": "The unique name of the enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).",
             "exposed": true,

@@ -22,17 +22,6 @@
             "default_value": 0,
             "uniqueScope": "no"
         },
-        "activeController": {
-            "description": "VSC Active Controller :  IP Address of the primary VSC system NSG instances associated to this profile will be reaching for.",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "min_length": 0,
-            "max_length": 255,
-            "uniqueScope": "no"
-        },
         "datapathSyncTimeout": {
             "description": "Datapath flows sync-time-interval specified in milliseconds (default: 1000)",
             "exposed": true,
@@ -199,17 +188,6 @@
             "type": "string",
             "min_length": 0,
             "max_length": 32,
-            "uniqueScope": "no"
-        },
-        "standbyController": {
-            "description": "VSC Standby Controller :  IP Address of the standby VSC system NSG instances associated to this profile will be reaching for.",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "statsCollectorPort": {
