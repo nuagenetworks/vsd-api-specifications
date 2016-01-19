@@ -3,7 +3,7 @@
         "BGPEnabled": {
             "description": "Enable BGP for this enterprise profile",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"

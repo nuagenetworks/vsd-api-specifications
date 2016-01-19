@@ -39,7 +39,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },

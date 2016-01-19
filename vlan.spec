@@ -5,7 +5,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -58,18 +58,18 @@
         "readonly": {
             "description": "Determines whether this entity is read only.  Read only objects cannot be modified or deleted.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "restricted": {
             "description": "Determines whether this entity can be used in associations with other properties.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -121,9 +121,9 @@
         "value": {
             "description": "value of VLAN",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
-            "orderable": false,
+            "orderable": true,
             "required": true,
             "type": "integer",
             "min_value": 0,
