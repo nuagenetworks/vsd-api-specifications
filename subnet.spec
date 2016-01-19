@@ -33,7 +33,7 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "required": true,
+            "required": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -404,7 +404,7 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "required": true,
+            "required": false,
             "type": "string",
             "uniqueScope": "no"
         },
