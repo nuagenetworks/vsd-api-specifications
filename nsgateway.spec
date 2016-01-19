@@ -183,16 +183,6 @@
             "type": "enum",
             "uniqueScope": "no"
         },
-        "ports": {
-            "description": "Collection of ports associated with the NSG.",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "list",
-            "subtype": "object",
-            "uniqueScope": "no"
-        },
         "redundancyGroupID": {
             "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute",
             "exposed": true,
