@@ -343,6 +343,14 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "primaryVSCConnectionLost": {
+            "description": "Flag indicates whether the cpnnection with the primary is lost.", 
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "boolean"
+        }, 
         "productVersion": {
             "description": "Product version supported by this entity.",
             "exposed": true,
@@ -354,6 +362,38 @@
             "max_length": 50,
             "uniqueScope": "no"
         },
+        "revertBehaviorEnabled": {
+            "description": "Flag to indicate if this behaviour is on or off", 
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "boolean"
+        },
+        "revertCompleted": {
+            "description": "Flag indicates whether revert was completed successfully",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "boolean"
+        }, 
+        "revertFailedRetryCount": {
+            "description": "This value indicates the number of failed attempts for the revert to happen successfully.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "float"
+        }, 
+        "revertRetryCount": {
+            "description": "This value indicates the number of retries for the revert to take place.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "float"
+        }, 
         "role": {
             "allowed_choices": [
                 "SLAVE",
