@@ -56,15 +56,6 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "gatewayPeer2ID": {
-            "description": "The gateway peer in this Redundant Group. when Redundant Group is deleted this gateway will not recieve vport associations ",
-            "exposed": true,
-            "filterable": false,
-            "format": "free",
-            "orderable": false,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "gatewayPeer2Name": {
             "description": "The gateway peer name in this Redundant Group",
             "exposed": true,
