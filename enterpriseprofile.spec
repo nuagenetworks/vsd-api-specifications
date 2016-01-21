@@ -77,7 +77,16 @@
             "min_length": 1,
             "max_length": 255,
             "uniqueScope": "no"
-        },
+        }, 
+        "enableBGP": {
+            "default_value": "false", 
+            "description": null, 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "boolean"
+        }, 
         "encryptionManagementMode": {
             "allowed_choices": [
                 "DISABLED",
