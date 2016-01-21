@@ -109,7 +109,7 @@
             "uniqueScope": "no"
         }, 
         "managedObjectID": {
-            "description": "maps to the moid of the cluster in the vcenter", 
+            "description": "maps to the moid of the datacenter in the vcenter", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
