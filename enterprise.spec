@@ -315,6 +315,31 @@
             "get": true,
             "relationship": "child"
         },
+        "ikev2certificate": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "ikev2encryptionprofile": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        }, 
+        "ikev2gateway": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "ikev2gatewayprofile": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        }, 
+        "ikev2psk": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        }, 
         "infrastructureportprofile": {
             "create": true,
             "get": true,

@@ -153,7 +153,12 @@
         "eventlog": {
             "get": true,
             "relationship": "child"
-        },
+        }, 
+        "ikev2gatewayconnection": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "permission": {
             "create": true,
             "get": true,
