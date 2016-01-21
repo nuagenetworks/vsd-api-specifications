@@ -26,6 +26,7 @@
         "entity_name": "MultiCastList", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

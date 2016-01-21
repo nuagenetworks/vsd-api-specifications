@@ -11,7 +11,18 @@
         }, 
         "forwardingClass": {
             "description": "Class of service to be used.  Service classes in order of priority are A, B, C, D, E, F, G, and H.", 
-            "exposed": true, 
+            "allowed_choices": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "NONE"
+            ],
+            "exposed": true,
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
@@ -25,6 +36,7 @@
         "entity_name": "DSCPForwardingClassMapping", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

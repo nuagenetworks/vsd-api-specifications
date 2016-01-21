@@ -42,7 +42,9 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string", 
+            "type": "string",
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         }, 
         "destinationNATAddress": {
@@ -114,7 +116,9 @@
             "format": "free", 
             "orderable": true, 
             "required": true, 
-            "type": "string", 
+            "type": "string",
+            "min_length": 1,
+            "max_length": 60,
             "uniqueScope": "no"
         }, 
         "sourceNATAddress": {
@@ -160,6 +164,7 @@
         "entity_name": "ExternalAppService", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

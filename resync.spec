@@ -6,7 +6,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "lastTimeResyncInitiated": {
@@ -15,7 +16,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "status": {
@@ -23,7 +25,7 @@
                 "SUCCESS", 
                 "IN_PROGRESS"
             ], 
-            "description": "Status of the resync - IN_PROGRESS, SUCCESS Possible values are IN_PROGRESS, SUCCESS, .", 
+            "description": "Status of the resync",
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
@@ -37,6 +39,7 @@
         "entity_name": "VMResync", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "package": "vm", 

@@ -46,6 +46,7 @@
         "entity_name": "AddressRange", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

@@ -52,6 +52,7 @@
         "entity_name": "KeyServerMonitorEncryptedSEK", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

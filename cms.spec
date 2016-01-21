@@ -16,6 +16,7 @@
         "entity_name": "CloudMgmtSystem", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 
