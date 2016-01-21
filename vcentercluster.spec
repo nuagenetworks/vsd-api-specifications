@@ -108,6 +108,14 @@
             "type": "integer", 
             "uniqueScope": "no"
         }, 
+        "managedObjectID": {
+            "description": "corresponds to the moid of the cluster in the vcenter", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "string"
+        }, 
         "metadataServerIP": {
             "description": "Metadata Server IP", 
             "exposed": true, 
