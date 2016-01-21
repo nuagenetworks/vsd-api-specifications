@@ -460,12 +460,13 @@
             "uniqueScope": "no"
         }, 
         "scope": {
+            "default_value": "false", 
             "description": "vrs vms deployed or not", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "secondaryNuageController": {
             "description": "IP address of the secondary Controller (VSC)", 
