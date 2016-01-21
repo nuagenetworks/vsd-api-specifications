@@ -63,6 +63,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "IPv6AddressOverride": {
+            "description": "Overrides the source IPv6 for Ingress and destination IPv6 for Egress, macentries will use this adress as the match criteria.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "associatedApplicationID": {
             "description": "The associated application ID",
             "exposed": true,
@@ -445,6 +454,7 @@
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "required": true,
             "type": "integer",
