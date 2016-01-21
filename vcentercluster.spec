@@ -108,6 +108,14 @@
             "type": "integer",
             "uniqueScope": "no"
         },
+        "managedObjectID": {
+            "description": "corresponds to the moid of the cluster in the vcenter",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        }, 
         "metadataServerIP": {
             "description": "Metadata Server IP",
             "exposed": true,
@@ -451,6 +459,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "scope": {
+            "default_value": "false",
+            "description": "vrs vms deployed or not",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "boolean"
+        }, 
         "secondaryNuageController": {
             "description": "IP address of the secondary Controller (VSC)",
             "exposed": true,
