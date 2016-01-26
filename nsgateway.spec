@@ -225,6 +225,9 @@
         },
         "bootstrapactivation": {
             "create": true,
+            "get": true,
+            "update": true,
+            "delete": true,
             "relationship": "child"
         },
         "enterprisepermission": {

@@ -19,7 +19,8 @@
             "@audited",
             "@metadata"
         ], 
-        "get": true, 
+        "get": true,
+        "update": true,
         "package": "cms", 
         "resource_name": "cms", 
         "rest_name": "cms"

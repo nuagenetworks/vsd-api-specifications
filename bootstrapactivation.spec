@@ -125,6 +125,7 @@
         "package": "gateway",
         "resource_name": "bootstrapactivations",
         "rest_name": "bootstrapactivation",
+        "get": true,
         "update": true
     }
 }

@@ -200,11 +200,15 @@
         "bridgeinterface": {
             "create": true,
             "get": true,
+            "bulk_update": true,
+            "bulk_delete": true,
             "relationship": "child"
         },
         "dhcpoption": {
             "create": true,
             "get": true,
+            "bulk_update": true,
+            "bulk_delete": true,
             "relationship": "child"
         },
         "eventlog": {
