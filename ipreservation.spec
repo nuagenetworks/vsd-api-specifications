@@ -42,6 +42,7 @@
         "entity_name": "IPReservation", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

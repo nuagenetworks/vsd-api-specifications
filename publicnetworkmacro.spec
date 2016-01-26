@@ -31,6 +31,8 @@
             "orderable": true, 
             "required": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 64,
             "uniqueScope": "no"
         }, 
         "netmask": {
@@ -56,6 +58,7 @@
         "entity_name": "PublicNetworkMacro", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

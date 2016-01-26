@@ -379,6 +379,7 @@
         "entity_name": "Me", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "package": "usermgmt", 

@@ -33,6 +33,7 @@
         "entity_name": "MultiCastRange", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 
