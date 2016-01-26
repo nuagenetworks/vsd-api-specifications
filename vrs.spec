@@ -319,8 +319,8 @@
             "type": "boolean", 
             "uniqueScope": "no"
         }, 
-        "revertFailedCount": {
-            "description": "This value indicates the number of failed attempts for the revert to happen successfully.", 
+        "revertCount": {
+            "description": "This value indicates the number of retries for the revert to take place.", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
@@ -328,8 +328,8 @@
             "type": "float", 
             "uniqueScope": "no"
         }, 
-        "revertRetryCount": {
-            "description": "This value indicates the number of retries for the revert to take place.", 
+        "revertFailedCount": {
+            "description": "This value indicates the number of failed attempts for the revert to happen successfully.", 
             "exposed": true, 
             "filterable": true, 
             "format": "free", 
