@@ -3,10 +3,10 @@
         "creationTime": {
             "description": "The time this entry was created (milliseconds since epoch)", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "lifetime": {
@@ -49,10 +49,10 @@
         "startTime": {
             "description": "The time this entry  was activated (milliseconds since epoch)", 
             "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
+            "filterable": true,
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     }, 
@@ -72,6 +72,7 @@
         "entity_name": "KeyServerMonitorSEK", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

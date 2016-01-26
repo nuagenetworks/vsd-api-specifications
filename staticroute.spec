@@ -50,7 +50,22 @@
             "format": "free", 
             "orderable": true, 
             "type": "string", 
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
+        }, 
+        "type": {
+            "allowed_choices": [
+                "EXIT_DOMAIN", 
+                "OVERLAY"
+            ], 
+            "default_value": "OVERLAY", 
+            "description": "type flag for static-route provisioning for exit-domain (break-to-underlay) prefixes", 
+            "exposed": true, 
+            "filterable": true, 
+            "format": "free", 
+            "orderable": true, 
+            "type": "enum"
         }
     }, 
     "children": {
@@ -65,6 +80,7 @@
         "entity_name": "StaticRoute", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

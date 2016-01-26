@@ -27,6 +27,7 @@
         "entity_name": "VRSAddressRange", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 

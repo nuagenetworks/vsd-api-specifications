@@ -6,7 +6,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }, 
         "lifetime": {
@@ -64,7 +65,8 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "float", 
+            "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     }, 
@@ -80,6 +82,7 @@
         "entity_name": "KeyServerMonitorSeed", 
         "extends": [
             "@base", 
+            "@audited",
             "@metadata"
         ], 
         "get": true, 
