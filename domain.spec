@@ -308,7 +308,6 @@
             "exposed": true,
             "filterable": true,
             "orderable": true,
-            "format": "long",
             "type": "integer",
             "subtype": "long",
             "min_value": 1,
