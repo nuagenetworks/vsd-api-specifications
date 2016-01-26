@@ -3,8 +3,8 @@
         "creationTime": {
             "description": "The time this entry was created (milliseconds since epoch)", 
             "exposed": true, 
-            "filterable": true,
-            "orderable": true, 
+            "filterable": true, 
+            "orderable": true,
             "type": "integer",
             "subtype": "long",
             "uniqueScope": "no"
@@ -49,8 +49,8 @@
         "startTime": {
             "description": "The time this entry  was activated (milliseconds since epoch)", 
             "exposed": true, 
-            "filterable": true,
-            "orderable": true, 
+            "filterable": true, 
+            "orderable": true,
             "type": "integer",
             "subtype": "long",
             "uniqueScope": "no"

@@ -65,7 +65,7 @@
         "extends": [
             "@base",
             "@audited"
-        ], 
+        ],
         "get": true, 
         "package": "common", 
         "resource_name": "metadatatags", 

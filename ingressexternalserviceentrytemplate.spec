@@ -368,15 +368,6 @@
             "type": "enum",
             "uniqueScope": "no"
         },
-        "mirrorDestinationID": {
-            "description": "Destination ID of the mirror destination object.",
-            "exposed": true,
-            "filterable": false,
-            "format": "free",
-            "orderable": false,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "networkID": {
             "description": "The destination network entity that is referenced(subnet/zone/macro)",
             "exposed": true,

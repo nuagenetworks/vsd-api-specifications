@@ -35,7 +35,6 @@
             "description": "The associated application object ID.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
             "orderable": false,
             "type": "string",
             "uniqueScope": "no"

@@ -32,7 +32,7 @@
             "description": "Type of domain (DOMAIN, L2DOMAIN). Refer to API section for supported types.",
             "allowed_choices": [
                 "DOMAIN",
-                "L2DOMAIN"
+                "L2DOMAIN",
             ],
             "exposed": true,
             "filterable": true,
@@ -54,7 +54,7 @@
             "description": "Type of network object this App is associated with (ENTERPRISE, DOMAIN) Refer to API section for supported types.",
             "allowed_choices": [
                 "ENTERPRISE",
-                "DOMAIN"
+                "DOMAIN",
             ],
             "exposed": true,
             "filterable": true,

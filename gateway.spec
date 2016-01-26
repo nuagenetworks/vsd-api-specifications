@@ -137,7 +137,6 @@
             "max_length": 255,
             "uniqueScope": "no"
         }
-
     },
     "children": {
         "alarm": {

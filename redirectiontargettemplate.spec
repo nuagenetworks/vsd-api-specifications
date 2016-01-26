@@ -18,6 +18,7 @@
             ],
             "exposed": true,
             "filterable": false,
+            "format": "free",
             "orderable": false,
             "required": true,
             "type": "enum",
