@@ -462,7 +462,7 @@
             "filterable": true, 
             "format": "free", 
             "orderable": true, 
-            "type": "string"
+            "type": "boolean"
         }, 
         "underlayEnabled": {
             "allowed_choices": [
