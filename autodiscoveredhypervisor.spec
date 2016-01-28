@@ -15,6 +15,14 @@
             "format": "free",
             "orderable": true,
             "type": "string"
+        },
+        "networkList": {
+            "description": "The available network list",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "model": {
