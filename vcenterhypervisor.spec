@@ -15,7 +15,7 @@
             "uniqueScope": "no"
         },
         "assocEntityId": {
-            "description": "The ID of the cluster or datacenter to which this host is attached",
+            "description": "ID of the entity to which the Hypervisor is associated to. This could be ID of a Cluster or Datacenter",
             "exposed": true,
             "format": "free",
             "type": "string",
