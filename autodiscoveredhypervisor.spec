@@ -7,6 +7,14 @@
             "format": "free",
             "orderable": true,
             "type": "string"
+        },
+        "hypervisorIP": {
+            "description": "IP Address of the Hypervisor",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "model": {
