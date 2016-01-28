@@ -27,7 +27,7 @@
     },
     "model": {
         "delete": true,
-        "entity_name": "AutoDiscoverClusters",
+        "entity_name": "AutoDiscoverCluster",
         "get": true,
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
