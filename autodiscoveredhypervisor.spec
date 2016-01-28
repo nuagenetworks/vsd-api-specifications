@@ -22,7 +22,7 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "list"
         }
     },
     "model": {
