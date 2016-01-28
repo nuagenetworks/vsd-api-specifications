@@ -41,6 +41,15 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "DPDTimeout": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "integer",
+            "uniqueScope": "no"
+        },
         "IPSECAuthenticationAlgorithm": {
             "allowed_choices": [
                 "HMAC_SHA1",
@@ -184,15 +193,6 @@
             "format": "free",
             "orderable": true,
             "type": "enum",
-            "uniqueScope": "no"
-        },
-        "ISAKMPKeepAliveInterval": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "integer",
             "uniqueScope": "no"
         },
         "associatedEnterpriseID": {
