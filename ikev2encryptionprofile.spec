@@ -9,6 +9,20 @@
             "type": "integer",
             "uniqueScope": "no"
         },
+        "DPDMode": {
+            "allowed_choices": [
+                "PERIODIC",
+                "ON_DEMAND",
+                "REPLY_ONLY"
+            ],
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
         "IPSECAuthenticationAlgorithm": {
             "allowed_choices": [
                 "HMAC_SHA1",
@@ -161,20 +175,6 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
-            "uniqueScope": "no"
-        },
-        "ISAKMPKeepAliveMode": {
-            "allowed_choices": [
-                "REPLY_ONLY",
-                "ON_DEMAND",
-                "PERIODIC"
-            ],
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "enum",
             "uniqueScope": "no"
         },
         "ISAKMPKeepAliveRetryInterval": {
