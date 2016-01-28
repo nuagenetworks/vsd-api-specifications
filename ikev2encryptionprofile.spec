@@ -23,6 +23,24 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "DPDRetryInterval": {
+            "allowed_choices": [
+                "WINDOW_SIZE_0",
+                "WINDOW_SIZE_32",
+                "WINDOW_SIZE_64",
+                "WINDOW_SIZE_128",
+                "WINDOW_SIZE_256",
+                "WINDOW_SIZE_512",
+                "WINDOW_SIZE_1024"
+            ],
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
         "IPSECAuthenticationAlgorithm": {
             "allowed_choices": [
                 "HMAC_SHA1",
@@ -175,24 +193,6 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
-            "uniqueScope": "no"
-        },
-        "ISAKMPKeepAliveRetryInterval": {
-            "allowed_choices": [
-                "WINDOW_SIZE_1024",
-                "WINDOW_SIZE_512",
-                "WINDOW_SIZE_256",
-                "WINDOW_SIZE_128",
-                "WINDOW_SIZE_64",
-                "WINDOW_SIZE_32",
-                "WINDOW_SIZE_0"
-            ],
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "enum",
             "uniqueScope": "no"
         },
         "associatedEnterpriseID": {
