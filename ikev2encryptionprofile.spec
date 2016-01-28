@@ -23,6 +23,15 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "DPDRetryInterval": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "integer",
+            "uniqueScope": "no"
+        },
         "DPDTimeout": {
             "description": null,
             "exposed": true,
@@ -89,15 +98,6 @@
             "uniqueScope": "no"
         },
         "IPSECSALifetime": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "integer",
-            "uniqueScope": "no"
-        },
-        "IPSECSAReplayWindowSize": {
             "description": null,
             "exposed": true,
             "filterable": true,
