@@ -7,6 +7,14 @@
             "format": "free",
             "orderable": true,
             "type": "string"
+        },
+        "name": {
+            "description": "Name of the shared resource. Valid characters are alphabets, numbers, space and hyphen( - ).",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "model": {
