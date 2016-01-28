@@ -21,6 +21,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "assocEntityType": {
+            "description": "Type of the entity to which the Hypervisor is associated to. This could be a Cluster or Datacenter",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "customizedScriptURL": {
             "description": "To provide a URL to install a custom app on VRS",
             "exposed": true,
