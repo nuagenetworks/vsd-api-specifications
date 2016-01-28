@@ -7,6 +7,14 @@
             "format": "free",
             "orderable": true,
             "type": "string"
+        },
+        "name": {
+            "description": "Name of the shared resource",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "model": {
