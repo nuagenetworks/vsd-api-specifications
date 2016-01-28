@@ -8,6 +8,14 @@
             "orderable": true,
             "type": "string"
         },
+        "managedObjectID": {
+            "description": "VCenter Managed Object ID of the Datacenter",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "name": {
             "description": "Name of the shared resource. Valid characters are alphabets, numbers, space and hyphen( - ).",
             "exposed": true,
