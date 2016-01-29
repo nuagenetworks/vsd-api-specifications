@@ -23,6 +23,14 @@
             "format": "free",
             "orderable": true,
             "type": "string"
+        },
+        "vrsProcess": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "model": {
