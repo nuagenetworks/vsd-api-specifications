@@ -3,23 +3,18 @@
         "associatedApplicationServiceID": {
             "description": "The associated service id.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedNetworkObjectID": {
             "description": "The associated network object id.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedNetworkObjectType": {
-            "description": "The associated network object type. Refer to API section for supported types.",
             "allowed_choices": [
                 "UNSUPPORTED",
                 "NETWORK_ELEMENT",
@@ -253,6 +248,7 @@
                 "ROUTING_POL_MED_RESPONSE",
                 "BGP_NEIGHBOR_MED_RESPONSE"
             ],
+            "description": "The associated network object type. Refer to API section for supported types.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -260,55 +256,29 @@
             "type": "enum",
             "uniqueScope": "no"
         },
-        "destinationAddressOverwrite": {
-            "description": "The destination address overwrite. Needs to be in CIDR format x.x.x.x/n",
-            "exposed": true,
-            "filterable": true,
-            "format": "CIDR",
-            "orderable": true,
-            "type": "string",
-            "min_length": 1,
-            "max_length": 50,
-            "uniqueScope": "no"
-        },
         "flowID": {
             "description": "The associated service id.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "redirectTargetID": {
             "description": "The associated service id.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
-            "uniqueScope": "no"
-        },
-        "sourceAddressOverwrite": {
-            "description": "The source address overwrite. Needs to be in CIDR format x.x.x.x/n",
-            "exposed": true,
-            "filterable": true,
-            "format": "CIDR",
-            "orderable": true,
-            "type": "string",
-            "min_length": 1,
-            "max_length": 50,
             "uniqueScope": "no"
         },
         "type": {
-            "description": "The redirect type.",
             "allowed_choices": [
-                "SERVICECHAIN",
-                "SERVICEPROVIDER"
+                "SERVICEPROVIDER",
+                "SERVICECHAIN"
             ],
+            "description": "The redirect type.",
             "exposed": true,
             "filterable": true,
-            "orderable": false,
+            "format": "free",
             "type": "enum",
             "uniqueScope": "no"
         }
