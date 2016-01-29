@@ -16,6 +16,14 @@
             "orderable": true,
             "type": "string"
         },
+        "jesxmonProcess": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "memUtilization": {
             "description": null,
             "exposed": true,
