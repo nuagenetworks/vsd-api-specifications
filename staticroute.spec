@@ -3,7 +3,8 @@
         "IPType": {
             "allowed_choices": [
                 "IPV6",
-                "IPV4"
+                "IPV4",
+                "DUALSTACK"
             ],
             "description": "IPv4 or IPv6 (only IPv4 supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -30,6 +31,16 @@
             "format": "free",
             "orderable": true,
             "required": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "IPv6Address": {
+            "description": "IPv6 address of the route",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "required": false,
             "type": "string",
             "uniqueScope": "no"
         },
