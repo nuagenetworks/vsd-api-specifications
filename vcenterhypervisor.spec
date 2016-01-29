@@ -541,6 +541,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "vrsMetricsId": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "vrsPassword": {
             "description": "VRS password to be used by toolbox to communicate with VRS",
             "exposed": true,
