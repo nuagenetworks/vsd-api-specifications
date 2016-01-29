@@ -1,8 +1,8 @@
 {
     "children": {
         "metadata": {
-            "create": true, 
-            "get": true, 
+            "create": true,
+            "get": true,
             "relationship": "child"
         }
     }
