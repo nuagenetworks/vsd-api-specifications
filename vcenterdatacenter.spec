@@ -444,6 +444,11 @@
             "relationship": "child",
             "update": true
         },
+        "vcenterhypervisor": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "vrsaddressrange": {
             "create": true,
             "get": true,
