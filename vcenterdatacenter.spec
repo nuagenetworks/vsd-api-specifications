@@ -438,6 +438,10 @@
             "get": true,
             "relationship": "child"
         },
+        "autodiscoveredhypervisor": {
+            "get": true,
+            "relationship": "child"
+        },
         "vcentercluster": {
             "create": true,
             "get": true,
