@@ -484,6 +484,10 @@
         }
     },
     "children": {
+        "autodiscovereddatacenter": {
+            "get": true,
+            "relationship": "child"
+        },
         "job": {
             "create": true,
             "relationship": "child"
