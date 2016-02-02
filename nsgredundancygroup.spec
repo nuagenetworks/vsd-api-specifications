@@ -3,12 +3,10 @@
         "consecutiveFailuresCount": {
             "description": "Consecutive failure count. Default 3",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "min_value": 3,
+            "format": "free",
             "max_value": 3,
-            "default_value": 3,
+            "min_value": 3,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "description": {
@@ -16,87 +14,68 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "enterpriseID": {
             "description": "The enterprise associated with this Redundant Group. This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "gatewayPeer1AutodiscoveredGatewayID": {
             "description": "The Auto Discovered Gateway configuration owner in this Redundant Group. ",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "gatewayPeer1ID": {
             "description": "The gateway configuration owner in this Redundant Group. when Redundant Group is deleted this gateway will recieve vport associations ",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "gatewayPeer1Name": {
             "description": "The gateway   configuration owner name in this Redundant Group",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "gatewayPeer2AutodiscoveredGatewayID": {
             "description": "The Auto Discovered Gateway  peer in this Redundant Group",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "gatewayPeer2Name": {
             "description": "The gateway peer name in this Redundant Group",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "heartbeatInterval": {
             "description": "Heartbeat interval in milliseconds to declare the neighbor dead. Default 500 milliseconds",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "subtype": "long",
-            "min_value": 500,
+            "format": "free",
             "max_value": 2000,
-            "default_value": 500,
+            "min_value": 500,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "heartbeatVLANID": {
             "description": "Heartbeat VLAN used for BFD. Default 4094",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "min_value": 0,
+            "format": "free",
             "max_value": 4095,
-            "default_value": 4094,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "name": {
@@ -104,11 +83,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "permittedAction": {
@@ -122,9 +101,7 @@
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -149,11 +126,8 @@
         "redundancyPortIDs": {
             "description": "Collections resilient port ids associated with this redundant group.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "list",
-            "subtype": "string",
             "uniqueScope": "no"
         },
         "redundantGatewayStatus": {
@@ -163,18 +137,12 @@
             ],
             "description": "The status of  Redundant Group, possible values are FAILED, SUCCESS Possible values are FAILED, SUCCESS, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
     },
     "children": {
-        "alarm": {
-            "get": true,
-            "relationship": "child"
-        },
         "eventlog": {
             "get": true,
             "relationship": "child"
@@ -196,8 +164,8 @@
         "description": "Represents Redundant Group formed by two VNS Gateways",
         "entity_name": "NSRedundantGatewayGroup",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
