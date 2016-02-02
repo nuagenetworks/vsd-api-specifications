@@ -2,12 +2,12 @@
     "attributes": {
         "NATTraversal": {
             "allowed_choices": [
-                "1:1_NAT",
+                "NONE",
                 "FULL_NAT",
-                "NONE"
+                "1:1_NAT"
             ],
             "default_value": "NONE",
-            "description": "",
+            "description": "Define the NSG Traversal mode",
             "exposed": true,
             "format": "free",
             "type": "enum",
