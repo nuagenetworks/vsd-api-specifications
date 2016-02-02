@@ -194,7 +194,6 @@
         },
         "bootstrapactivation": {
             "create": true,
-            "get": true,
             "relationship": "child"
         },
         "enterprisepermission": {

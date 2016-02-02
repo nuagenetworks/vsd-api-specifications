@@ -11,8 +11,7 @@
         }
     }, 
     "model": {
-        "delete": true, 
-        "description": "Object that identifies a cloud management system", 
+        "description": "Object that identifies a cloud management system",
         "entity_name": "CloudMgmtSystem", 
         "extends": [
             "@base", 
@@ -20,8 +19,8 @@
             "@metadata"
         ], 
         "get": true,
-        "update": true,
-        "package": "cms", 
+        "delete": true,
+        "package": "cms",
         "resource_name": "cms", 
         "rest_name": "cms"
     }

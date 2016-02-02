@@ -57,18 +57,9 @@
         }
     }, 
     "children": {
-        "keyservermonitorencryptedseed": {
-            "get": true, 
-            "relationship": "child"
-        }, 
-        "keyservermonitorencryptedsek": {
-            "get": true, 
-            "relationship": "child"
-        }
-    }, 
+    },
     "model": {
-        "delete": true, 
-        "description": "Represents a Keyserver Monitor SEK Snapshot", 
+        "description": "Represents a Keyserver Monitor SEK Snapshot",
         "entity_name": "KeyServerMonitorSEK", 
         "extends": [
             "@base", 

@@ -77,11 +77,6 @@
             "get": true,
             "relationship": "child"
         },
-        "keyservermonitorencryptedsek": {
-            "create": true,
-            "get": true,
-            "relationship": "child"
-        },
         "keyservermonitorseed": {
             "create": true,
             "get": true,
