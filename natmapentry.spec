@@ -29,12 +29,15 @@
             "uniqueScope": "no"
         },
         "type": {
+            "allowed_choices": [
+                "1:1 PAT"
+            ],
             "description": "Choose the type of address map",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "enum"
         }
     },
     "model": {
