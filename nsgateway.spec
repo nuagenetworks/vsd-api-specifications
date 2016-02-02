@@ -6,6 +6,7 @@
                 "FULL_NAT",
                 "NONE"
             ],
+            "default_value": "NONE",
             "description": "",
             "exposed": true,
             "format": "free",
