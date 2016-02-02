@@ -67,9 +67,10 @@
             "@metadata"
         ], 
         "get": true, 
-        "package": "keyserver", 
+        "update": true,
+        "delete": true,
+        "package": "keyserver",
         "resource_name": "keyservermonitorseks", 
-        "rest_name": "keyservermonitorsek", 
-        "update": true
+        "rest_name": "keyservermonitorsek"
     }
 }
