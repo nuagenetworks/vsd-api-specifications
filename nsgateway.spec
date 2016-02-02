@@ -230,11 +230,6 @@
             "relationship": "child",
             "update": true
         },
-        "patnatpool": {
-            "get": true,
-            "relationship": "child",
-            "update": true
-        },
         "permission": {
             "create": true,
             "get": true,
