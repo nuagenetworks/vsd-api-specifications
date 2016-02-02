@@ -34,6 +34,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "publicPort": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "type": {
             "allowed_choices": [
                 "1:1_NAT",
