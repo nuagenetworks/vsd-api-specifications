@@ -55,7 +55,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Defines a MAP between the private ip and public ip",
+        "description": "Defines an Address MAP between the private ip and public ip",
         "entity_name": "NATMapEntry",
         "extends": [
             "@audited",
