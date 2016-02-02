@@ -282,8 +282,6 @@
         ],
         "get": true,
         "delete": true,
-        "bulk_update": true,
-        "bulk_delete": true,
         "package": "vm",
         "resource_name": "vms",
         "rest_name": "vm",
