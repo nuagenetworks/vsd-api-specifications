@@ -2,7 +2,7 @@
     "attributes": {
         "NATTraversal": {
             "allowed_choices": [
-                "FULLNAT",
+                "FULL_NAT",
                 "NONE"
             ],
             "description": "",
