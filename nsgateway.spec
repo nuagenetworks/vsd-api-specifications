@@ -1,10 +1,13 @@
 {
     "attributes": {
         "NATTraversal": {
+            "allowed_choices": [
+                "NONE"
+            ],
             "description": "",
             "exposed": true,
             "format": "free",
-            "type": "boolean",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "associatedGatewaySecurityID": {
