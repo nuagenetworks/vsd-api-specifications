@@ -1,52 +1,41 @@
 {
     "attributes": {
-        "NATTraversalEnabled": {
-            "description": "Boolean value that states if the NSG instance is in a network that is behind a NAT device and will use NAT Traversal procedures to talk to other NSGs and the Internet.",
+        "NATTraversal": {
+            "description": "",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "associatedGatewaySecurityID": {
             "description": "Readonly Id of the associated gateway security object",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedGatewaySecurityProfileID": {
             "description": "Readonly Id of the associated gateway security profile object",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "autoDiscGatewayID": {
             "description": "The Auto Discovered Gateway associated with this Gateway Instance",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "bootstrapID": {
             "description": "The bootstrap details associated with this NSGateway. NOTE: this is a read only property, it can only be set during creation of an NSG",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "bootstrapStatus": {
-            "description": "The bootstrap status of this NSGateway. NOTE: this is a read only property",
             "allowed_choices": [
                 "INACTIVE",
                 "NOTIFICATION_APP_REQ_SENT",
@@ -54,9 +43,9 @@
                 "CERTIFICATE_SIGNED",
                 "ACTIVE"
             ],
+            "description": "The bootstrap status of this NSGateway. NOTE: this is a read only property",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
+            "format": "free",
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -69,9 +58,7 @@
             ],
             "description": "",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -83,18 +70,14 @@
             ],
             "description": "",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "datapathID": {
             "description": "Identifier of the Gateway, based on the systemId",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -103,27 +86,22 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "locationID": {
             "description": "The NSGateway's Location. NOTE: this is a read only property, it can only be set through the location object",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -132,11 +110,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "pending": {
@@ -144,7 +122,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -159,14 +136,11 @@
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "personality": {
-            "description": "Personality of the Gateway - NSG, cannot be changed after creation.",
             "allowed_choices": [
                 "VSG",
                 "VSA",
@@ -176,19 +150,16 @@
                 "HARDWARE_VTEP",
                 "OTHER"
             ],
+            "description": "Personality of the Gateway - NSG, cannot be changed after creation.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "redundancyGroupID": {
             "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -197,18 +168,16 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the template that this Gateway was created from. This should be set when instantiating a Gateway",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "string",
             "uniqueScope": "no"
@@ -271,8 +240,8 @@
         "description": "Represents Network Service Gateway object.",
         "entity_name": "NSGateway",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
