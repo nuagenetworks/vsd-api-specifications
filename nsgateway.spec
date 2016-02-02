@@ -184,6 +184,10 @@
         }
     },
     "children": {
+        "alarm": {
+            "get": true,
+            "relationship": "child"
+        },
         "bootstrap": {
             "get": true,
             "relationship": "child"

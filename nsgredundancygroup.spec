@@ -143,6 +143,10 @@
         }
     },
     "children": {
+        "alarm": {
+            "get": true,
+            "relationship": "child"
+        },
         "eventlog": {
             "get": true,
             "relationship": "child"

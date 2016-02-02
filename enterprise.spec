@@ -246,29 +246,21 @@
         "application": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "applicationservice": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "domain": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "domaintemplate": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "dscpforwardingclasstable": {

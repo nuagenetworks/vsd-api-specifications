@@ -143,6 +143,10 @@
         }
     },
     "children": {
+        "alarm": {
+            "get": true,
+            "relationship": "child"
+        },
         "enterprisepermission": {
             "create": true,
             "get": true,

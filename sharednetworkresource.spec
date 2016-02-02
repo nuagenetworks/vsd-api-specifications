@@ -207,6 +207,11 @@
         }
     },
     "children": {
+        "addressrange": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "dhcpoption": {
             "create": true,
             "get": true,
