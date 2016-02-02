@@ -1,12 +1,16 @@
 {
     "attributes": {
         "NATTraversal": {
+            "allowed_choices": [
+                "NONE"
+            ],
+            "default_value": "NONE",
             "description": "Defines the NAT traversal mode of the NSG Port",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "enum"
         },
         "VLANRange": {
             "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.",
