@@ -92,8 +92,6 @@
         "egressacltemplate": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "eventlog": {
@@ -108,35 +106,25 @@
         "ingressacltemplate": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "ingressadvfwdtemplate": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "ingressexternalservicetemplate": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "job": {
             "create": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "permission": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "policygrouptemplate": {
@@ -147,8 +135,6 @@
         "qos": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "redirectiontargettemplate": {
@@ -160,15 +146,11 @@
         },
         "subnettemplate": {
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         },
         "zonetemplate": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         }
     },

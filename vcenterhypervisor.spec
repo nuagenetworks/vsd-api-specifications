@@ -701,8 +701,6 @@
         "vrsaddressrange": {
             "create": true,
             "get": true,
-            "bulk_update": true,
-            "bulk_delete": true,
             "relationship": "child"
         }
     },

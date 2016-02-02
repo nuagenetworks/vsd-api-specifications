@@ -385,8 +385,6 @@
         "dhcpoption": {
             "create": true,
             "get": true,
-            "bulk_update": true,
-            "bulk_delete": true,
             "relationship": "child"
         },
         "domain": {
@@ -467,8 +465,6 @@
         "qos": {
             "create": true,
             "get": true,
-            "bulk_update": true,
-            "bulk_delete": true,
             "relationship": "child"
         },
         "redirectiontarget": {
@@ -523,8 +519,6 @@
         "zone": {
             "create": true,
             "get": true,
-            "update": true,
-            "delete": true,
             "relationship": "child"
         }
     },
