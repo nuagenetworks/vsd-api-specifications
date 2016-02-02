@@ -18,6 +18,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "privatePort": {
+            "description": "",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "publicIP": {
             "description": "Public IP address of the interface",
             "exposed": true,
