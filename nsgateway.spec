@@ -1,16 +1,16 @@
 {
     "attributes": {
-        "NATTraversal": {
+        "NATTraversalEnabled": {
             "allowed_choices": [
-                "NONE",
+                "1:1_NAT",
                 "FULL_NAT",
-                "1:1_NAT"
+                "NONE"
             ],
-            "default_value": "NONE",
-            "description": "Define the NSG Traversal mode",
+            "deprecated": true,
+            "description": "This attribute is deprecated in version 4.0",
             "exposed": true,
             "format": "free",
-            "type": "enum",
+            "type": "boolean",
             "uniqueScope": "no"
         },
         "associatedGatewaySecurityID": {
