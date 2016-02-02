@@ -3,27 +3,21 @@
         "DHCPManaged": {
             "description": "true if DHCP is enabled else it is false. This value is always true for network resource of type PUBLIC or FLOATING.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "ECMPCount": {
             "description": "Domain specific Equal-cost multi-path routing count, ECMPCount = 1 means no ECMP",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "accessRestrictionEnabled": {
             "description": "Boolean indicates that this shared network resource is avaiable to everyone by default or not",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -62,7 +56,6 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
-            "subtype": "long",
             "uniqueScope": "no"
         },
         "description": {
@@ -70,7 +63,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -106,11 +98,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -124,7 +116,6 @@
             "uniqueScope": "no"
         },
         "permittedActionType": {
-            "description": "Permitted action on this shared network resource",
             "allowed_choices": [
                 "USE",
                 "READ",
@@ -133,8 +124,10 @@
                 "EXTEND",
                 "DEPLOY"
             ],
+            "description": "Permitted action on this shared network resource",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -185,27 +178,21 @@
         "uplinkInterfaceIP": {
             "description": "IP address of the host interface",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "uplinkInterfaceMAC": {
             "description": "MAC address of the host interface",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "uplinkVPortName": {
             "description": "Name of the uplink vport",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -216,16 +203,10 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
-            "subtype": "long",
             "uniqueScope": "no"
         }
     },
     "children": {
-        "addressrange": {
-            "create": true,
-            "get": true,
-            "relationship": "child"
-        },
         "dhcpoption": {
             "create": true,
             "get": true,
@@ -252,8 +233,8 @@
         "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain etc.",
         "entity_name": "SharedNetworkResource",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
