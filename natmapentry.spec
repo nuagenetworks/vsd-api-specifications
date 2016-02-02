@@ -30,6 +30,7 @@
         },
         "type": {
             "allowed_choices": [
+                "1:N_PAT",
                 "1:1_PAT"
             ],
             "description": "Choose the type of address map",
