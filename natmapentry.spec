@@ -38,15 +38,14 @@
         },
         "type": {
             "allowed_choices": [
-                "1:N_PAT",
-                "1:1_NAT"
+                "1:1_NAT",
+                "1:N_PAT"
             ],
             "default_value": "1:1_NAT",
             "description": "Choose the type of address map",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum"
         }
     },
