@@ -50,10 +50,10 @@
         },
         "type": {
             "allowed_choices": [
-                "ONE_TO_MANY_PAT",
-                "ONE_TO_ONE_NAT"
+                "ONE_TO_ONE_NAT",
+                "ONE_TO_MANY_PAT"
             ],
-            "description": "Choose the type of address map",
+            "description": "Identifies the type of address mapping",
             "exposed": true,
             "filterable": true,
             "format": "free",
