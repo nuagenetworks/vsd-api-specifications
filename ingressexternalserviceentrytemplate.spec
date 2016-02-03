@@ -37,18 +37,14 @@
         "associatedApplicationID": {
             "description": "The associated application ID",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedApplicationObjectID": {
             "description": "The associated application object ID",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -299,7 +295,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -308,7 +303,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -341,6 +335,14 @@
             "type": "boolean",
             "uniqueScope": "no"
         },
+        "icmpType": {
+            "description": "The ICMP Type when protocol selected is ICMP.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "locationID": {
             "description": "The ID of the location entity (Subnet/Zone/VportTag)",
             "exposed": true,
@@ -371,9 +373,7 @@
         "mirrorDestinationID": {
             "description": "Destination ID of the mirror destination object.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -426,10 +426,10 @@
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "required": true,
             "type": "integer",
-            "min_value": 0,
             "uniqueScope": "no"
         },
         "protocol": {
@@ -495,8 +495,8 @@
         "description": "Defines the template of Ingress External Service ACL entries",
         "entity_name": "IngressExternalServiceTemplateEntry",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
