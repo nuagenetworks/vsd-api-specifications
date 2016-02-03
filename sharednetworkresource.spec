@@ -56,6 +56,7 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "description": {
@@ -203,6 +204,7 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },

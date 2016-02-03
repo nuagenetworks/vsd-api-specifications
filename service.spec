@@ -175,6 +175,7 @@
             "exposed": true,
             "format": "free",
             "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         }
     },

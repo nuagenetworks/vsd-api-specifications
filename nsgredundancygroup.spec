@@ -68,6 +68,7 @@
             "max_value": 2000,
             "min_value": 500,
             "type": "integer",
+            "subtype": "long",
             "uniqueScope": "no"
         },
         "heartbeatVLANID": {
@@ -128,6 +129,7 @@
             "exposed": true,
             "format": "free",
             "type": "list",
+            "subtype": "string",
             "uniqueScope": "no"
         },
         "redundantGatewayStatus": {
@@ -143,6 +145,10 @@
         }
     },
     "children": {
+        "alarm": {
+            "get": true,
+            "relationship": "child"
+        },
         "eventlog": {
             "get": true,
             "relationship": "child"
