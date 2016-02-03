@@ -2,9 +2,9 @@
     "attributes": {
         "NATTraversalEnabled": {
             "allowed_choices": [
-                "1:1_NAT",
+                "NONE",
                 "FULL_NAT",
-                "NONE"
+                "1:1_NAT"
             ],
             "deprecated": true,
             "description": "This attribute is deprecated in version 4.0",
