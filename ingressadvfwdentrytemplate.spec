@@ -356,7 +356,7 @@
             "uniqueScope": "no"
         },
         "icmpCode": {
-            "description": "The ICMP Type when protocol selected is ICMP.",
+            "description": "The ICMP Code when protocol selected is ICMP.",
             "exposed": true,
             "format": "free",
             "type": "string"
