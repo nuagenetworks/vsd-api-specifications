@@ -2,17 +2,17 @@
     "attributes": {
         "NATTraversal": {
             "allowed_choices": [
-                "1:1_NAT",
+                "NONE",
                 "FULL_NAT",
-                "NONE"
+                "ONE_TO_ONE_NAT"
             ],
-            "default_value": "NONE",
             "description": "Defines the NAT traversal mode of the NSG Port",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "enum"
+            "type": "enum",
+            "uniqueScope": "no"
         },
         "VLANRange": {
             "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.",
@@ -20,27 +20,34 @@
             "filterable": true,
             "format": "free",
             "max_length": 255,
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedRedundantPortID": {
             "description": "ID of the redundant port to which the Port is associated to.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedVSCProfileID": {
             "description": "The ID of the infrastructure VSC profile this is associated with this instance of a port or port template.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -57,7 +64,9 @@
         "infrastructureProfileID": {
             "description": "The ID of the infrastructure profile this instance is associated with.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -84,7 +93,9 @@
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -124,14 +135,18 @@
             ],
             "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the template that this Port was created from",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
