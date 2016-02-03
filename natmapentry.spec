@@ -3,7 +3,9 @@
         "associatedPATNATPoolID": {
             "description": "Read Only - Indicates which PATNATPool this entry belongs to",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "required": true,
             "type": "string",
             "uniqueScope": "no"
@@ -21,8 +23,11 @@
         "privatePort": {
             "description": "",
             "exposed": true,
+            "filterable": true,
             "format": "free",
-            "type": "string"
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
         },
         "publicIP": {
             "description": "Public IP address of the interface",
@@ -37,20 +42,24 @@
         "publicPort": {
             "description": null,
             "exposed": true,
+            "filterable": true,
             "format": "free",
-            "type": "string"
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
         },
         "type": {
             "allowed_choices": [
-                "1:1_NAT",
-                "1:N_PAT"
+                "ONE_TO_MANY_PAT",
+                "ONE_TO_ONE_NAT"
             ],
-            "default_value": "1:1_NAT",
             "description": "Choose the type of address map",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "type": "enum"
+            "orderable": true,
+            "type": "enum",
+            "uniqueScope": "no"
         }
     },
     "model": {
