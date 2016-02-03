@@ -1,14 +1,5 @@
 {
     "attributes": {
-        "mirrorDestinationID": {
-            "description": "Destination ID of the mirror destination object.",
-            "exposed": true,
-            "filterable": false,
-            "format": "free",
-            "orderable": false,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "DSCP": {
             "description": "DSCP match condition to be set in the rule. It is either * or from 0-63",
             "exposed": true,
@@ -66,18 +57,14 @@
         "associatedApplicationID": {
             "description": "The associated application ID",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedApplicationObjectID": {
             "description": "The associated application object ID",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -318,6 +305,7 @@
             "description": "The associated application object type Refer to API section for supported types.",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -327,7 +315,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -336,7 +323,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -369,6 +355,12 @@
             "type": "boolean",
             "uniqueScope": "no"
         },
+        "icmpCode": {
+            "description": "The ICMP Type when protocol selected is ICMP.",
+            "exposed": true,
+            "format": "free",
+            "type": "string"
+        },
         "locationID": {
             "description": "The ID of the location entity (Subnet/Zone/VportTag)",
             "exposed": true,
@@ -394,6 +386,13 @@
             "orderable": true,
             "required": true,
             "type": "enum",
+            "uniqueScope": "no"
+        },
+        "mirrorDestinationID": {
+            "description": "Destination ID of the mirror destination object.",
+            "exposed": true,
+            "format": "free",
+            "type": "string",
             "uniqueScope": "no"
         },
         "networkID": {
@@ -445,10 +444,10 @@
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "required": true,
             "type": "integer",
-            "min_value": 0,
             "uniqueScope": "no"
         },
         "protocol": {
@@ -508,9 +507,7 @@
             ],
             "description": "Indicates the preferencial path selection for network traffic for this ACL - Default is Primary 1 and Secondary 2 when the attribute is applicable. Possible values are PRIMARY_SECONDARY, SECONDARY_PRIMARY, PRIMARY, SECONDARY, SYMMETRIC, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
@@ -530,8 +527,8 @@
         "description": "Defines the template of Ingress Advanced Forwarding entries",
         "entity_name": "IngressAdvFwdEntryTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
