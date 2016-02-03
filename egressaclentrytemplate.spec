@@ -335,6 +335,14 @@
             "type": "boolean",
             "uniqueScope": "no"
         },
+        "icmpType": {
+            "description": "The ICMP Type when protocol selected is ICMP.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "locationID": {
             "description": "The ID of the location entity (Subnet/Zone/VportTag)",
             "exposed": true,
