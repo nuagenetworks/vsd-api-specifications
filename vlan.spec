@@ -10,9 +10,11 @@
             "uniqueScope": "no"
         },
         "associatedEgressQOSPolicyID": {
-            "description": "ID of the Egress QOS Policy associated with this Vlan.",
+            "description": "ID of the Egress QoS Policy associated with this VLAN.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -29,7 +31,9 @@
         "gatewayID": {
             "description": "The Gateway associated with this  VLAN  . This is a read only attribute",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -44,7 +48,9 @@
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -75,14 +81,18 @@
             ],
             "description": "Status of the VLAN. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the template that this Port was created from",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -120,7 +130,9 @@
         "vportID": {
             "description": "The Vport associated with this  VLAN  . This is a read only attribute",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         }
