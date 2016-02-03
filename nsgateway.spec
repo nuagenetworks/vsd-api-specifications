@@ -261,6 +261,10 @@
             "relationship": "child",
             "update": true
         },
+        "patnatpool": {
+            "get": true,
+            "relationship": "member"
+        },
         "permission": {
             "create": true,
             "get": true,
