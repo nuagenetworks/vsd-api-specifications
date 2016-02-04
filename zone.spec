@@ -455,7 +455,12 @@
         "vminterface": {
             "get": true,
             "relationship": "child"
+        },
+        "vport": {
+            "get": true,
+            "relationship": "child"
         }
+
     },
     "model": {
         "delete": true,
