@@ -763,6 +763,7 @@
             "uniqueScope": "no"
         },
         "statefulAclNonTcpTimeout": {
+            "default_value": "180",
             "description": "Defines the timeout in seconds for non TCP stateful ACLs in version 4.0.",
             "exposed": true,
             "type": "integer"
