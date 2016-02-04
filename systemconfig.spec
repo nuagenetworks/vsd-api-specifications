@@ -314,7 +314,8 @@
             "description": "Maximum alarms per object for example max distinct alarms for specific VM (min = 5, max =20)",
             "exposed": true,
             "max_value": 20,
-            "min_value": 6,
+            "min_value": 5,
+            "subtype": "toto",
             "type": "integer",
             "uniqueScope": "no"
         },
