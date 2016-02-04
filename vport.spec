@@ -34,15 +34,6 @@
             "type": "enum",
             "uniqueScope": "no"
         },
-        "associatedBGPProfileID": {
-            "description": "The ID of the associated BGP profile",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "associatedFloatingIPID": {
             "description": "Id of Floating IP address associated to this vport",
             "exposed": true,
