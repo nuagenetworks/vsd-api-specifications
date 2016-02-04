@@ -43,7 +43,7 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "endAddress": {
+        "endAddressRange": {
             "description": "Pool ends at this IP Address",
             "exposed": true,
             "filterable": true,
