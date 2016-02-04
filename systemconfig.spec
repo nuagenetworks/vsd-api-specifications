@@ -737,15 +737,6 @@
             "type": "integer",
             "uniqueScope": "no"
         },
-        "reflexiveACLTimeout": {
-            "description": "Defines the timeout in seconds for reflexive ACLs. This value applies for both TCP and UDP connections. Default value is 180 seconds and the timeout should be between 10 to 86400 seconds.",
-            "exposed": true,
-            "format": "free",
-            "max_value": 86400,
-            "min_value": 10,
-            "type": "integer",
-            "uniqueScope": "no"
-        },
         "serviceIDUpperLimit": {
             "description": "Service id upper limit system wide value",
             "exposed": true,
