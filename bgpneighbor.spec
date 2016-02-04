@@ -27,7 +27,7 @@
             "uniqueScope": "no"
         },
         "description": {
-            "description": null,
+            "description": "Short description for this peer",
             "exposed": true,
             "filterable": true,
             "format": "free",
