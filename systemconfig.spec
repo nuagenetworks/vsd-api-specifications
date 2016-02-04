@@ -315,7 +315,6 @@
             "exposed": true,
             "max_value": 20,
             "min_value": 5,
-            "subtype": "toto",
             "type": "integer",
             "uniqueScope": "no"
         },
