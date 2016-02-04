@@ -35,7 +35,7 @@
             "type": "string"
         },
         "name": {
-            "description": null,
+            "description": "Name of the peer",
             "exposed": true,
             "filterable": true,
             "format": "free",
