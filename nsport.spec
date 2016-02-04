@@ -167,6 +167,15 @@
             "get": true,
             "relationship": "child"
         },
+        "statistics": {
+            "get": true,
+            "relationship": "child"
+        },
+        "statisticspolicy": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "vlan": {
             "create": true,
             "get": true,

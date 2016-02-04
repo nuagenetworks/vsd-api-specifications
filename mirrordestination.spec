@@ -32,6 +32,18 @@
         }
     },
     "children": {
+        "egressaclentrytemplate": {
+            "get": true,
+            "relationship": "child"
+        },
+        "ingressaclentrytemplate": {
+            "get": true,
+            "relationship": "child"
+        },
+        "ingressadvfwdentrytemplate": {
+            "get": true,
+            "relationship": "child"
+        },
         "vportmirror": {
             "get": true,
             "relationship": "child"

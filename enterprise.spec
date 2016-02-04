@@ -371,6 +371,11 @@
             "get": true,
             "relationship": "child"
         },
+        "publicnetwork": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "patnatpool": {
             "get": true,
             "relationship": "child"

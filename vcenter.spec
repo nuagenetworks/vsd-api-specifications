@@ -618,6 +618,10 @@
         }
     },
     "children": {
+        "job": {
+            "create": true,
+            "relationship": "child"
+        },
         "vcenterdatacenter": {
             "create": true,
             "get": true,
