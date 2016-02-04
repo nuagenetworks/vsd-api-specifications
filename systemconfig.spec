@@ -768,6 +768,14 @@
             "exposed": true,
             "type": "integer"
         },
+        "statefulAclTcpTimeout": {
+            "description": "Defines the timeout in seconds for stateful ACLs that are of type TCP. Default value is 3600 secs and the timeout should be between 3600 to 86400 seconds.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "staticWANServicePurgeTime": {
             "description": "Timers in sec for unreacheable static WAN Services to be deleted(min =3600, max = 7200)",
             "exposed": true,
