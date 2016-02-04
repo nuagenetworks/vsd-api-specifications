@@ -37,18 +37,18 @@
         "associatedApplicationID": {
             "description": "The associated application ID",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedApplicationObjectID": {
             "description": "The associated application object ID",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -299,7 +299,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -308,7 +308,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -344,9 +344,9 @@
         "icmpCode": {
             "description": "The ICMP Code when protocol selected is ICMP.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -387,9 +387,9 @@
         "mirrorDestinationID": {
             "description": "Destination ID of the mirror destination object.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
