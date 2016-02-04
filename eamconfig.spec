@@ -62,7 +62,7 @@
     "model": {
         "description": "The EAM solution configuration",
         "get": true,
-        "update": "true",
+        "update": true,
         "entity_name": "VCenterEAMConfig",
         "extends": [
             "@base",
