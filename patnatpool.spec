@@ -1,17 +1,5 @@
 {
     "attributes": {
-        "addressRange": {
-            "description": "Pool of IP Address that is available for use ex : 130.12.0.0/16",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "max_length": 255,
-            "min_length": 1,
-            "orderable": true,
-            "required": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
         "associatedGatewayId": {
             "description": "Default PAT IP Address, must belong to the pool above",
             "exposed": true,
