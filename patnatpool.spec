@@ -49,7 +49,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "name": {
             "description": "Name of the PATNATPool",
@@ -81,12 +82,13 @@
             "uniqueScope": "no"
         },
         "startAddressRange": {
-            "description": "Pool start at this address",
+            "description": "Starting IP Address for the pool of available addresses for use",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         }
     },
     "children": {
