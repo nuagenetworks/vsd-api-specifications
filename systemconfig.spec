@@ -765,10 +765,7 @@
         "statefulAclNonTcpTimeout": {
             "description": "Defines the timeout in seconds for non TCP stateful ACLs in version 4.0.",
             "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string"
+            "type": "integer"
         },
         "staticWANServicePurgeTime": {
             "description": "Timers in sec for unreacheable static WAN Services to be deleted(min =3600, max = 7200)",
