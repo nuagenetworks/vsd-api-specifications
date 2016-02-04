@@ -29,9 +29,8 @@
             "description": "The maximum duration in minutes that a route will be suppressed; range: 1-720, default: 60",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "integer"
         },
         "dampeningName": {
             "description": "Name for the dampening profile. Unique per enterprise",
