@@ -22,9 +22,8 @@
             "description": "The time in minutes to wait before decrementing dampening penalty; range 1 - 45, default: 15",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "integer"
         },
         "dampeningMaxSuppress": {
             "description": "The maximum duration in minutes that a route will be suppressed; range: 1-720, default: 60",
