@@ -762,6 +762,14 @@
             "type": "boolean",
             "uniqueScope": "no"
         },
+        "statefulAclNonTcpTimeout": {
+            "description": "Defines the timeout in seconds for non TCP and stateful ACLs in version 4.0. Default value is 180 seconds the the timeout should be between 10 and 86400 seconds",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "statefulAclTcpTimeout": {
             "default_value": "3600",
             "description": "defines the timeout in seconds for stateful ACLs that are of type TCP. Default value is 3600 secs and the timeout should be between 3600 to 86400 seconds",
