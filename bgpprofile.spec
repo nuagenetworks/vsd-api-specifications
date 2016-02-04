@@ -40,6 +40,14 @@
             "orderable": true,
             "type": "string"
         },
+        "dampeningSuppress": {
+            "description": "Specifies the penalty that will be used if a route is suppressed; range 1-20 000, default 3000.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "description": {
             "description": null,
             "exposed": true,
