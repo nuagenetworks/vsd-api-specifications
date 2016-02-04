@@ -523,6 +523,9 @@
     },
     "model": {
         "description": "Default VRS Configuration parameters",
+        "create": true,
+        "update": true,
+        "get": true,
         "entity_name": "VCenterVRSConfig",
         "extends": [
             "@base",
