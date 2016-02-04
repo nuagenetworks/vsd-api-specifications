@@ -450,15 +450,6 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "reflexive": {
-            "description": "true means that this ACL entry is reflexive, so there will be a corresponding egress rule that will be created by OVS in the network. false means that there is no corresponding egress rule created by OVS in the network",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "boolean",
-            "uniqueScope": "no"
-        },
         "sourcePort": {
             "description": "Source port to be matched if protocol is UDP or TCP. Value can be either * or single port number or a port range",
             "exposed": true,
@@ -467,6 +458,14 @@
             "orderable": true,
             "required": true,
             "type": "string",
+            "uniqueScope": "no"
+        },
+        "stateful": {
+            "description": "true means that this ACL entry is reflexive, so there will be a corresponding egress rule that will be created by OVS in the network. false means that there is no corresponding egress rule created by OVS in the network",
+            "exposed": true,
+            "filterable": true,
+            "orderable": true,
+            "type": "boolean",
             "uniqueScope": "no"
         },
         "statsID": {
