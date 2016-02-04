@@ -104,6 +104,21 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "status": {
+            "allowed_choices": [
+                "ORPHAN",
+                "MISMATCH",
+                "INITIALIZED",
+                "READY"
+            ],
+            "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "orderable": false,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
         "useUserMnemonic": {
             "description": "determines whether to use user mnemonic of the Port",
             "exposed": true,
@@ -128,7 +143,17 @@
         }
     },
     "children": {
-        "nsport": {
+        "alarm": {
+            "get": true,
+            "relationship": "child"
+        },
+        "enterprisepermission": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "permission": {
+            "create": true,
             "get": true,
             "relationship": "child"
         },

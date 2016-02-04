@@ -170,6 +170,12 @@
             "create": true,
             "get": true,
             "relationship": "child"
+        },
+        "vsgredundantport": {
+            "create": true,
+            "get": true,
+            "update": true,
+            "relationship": "child"
         }
     },
     "model": {
