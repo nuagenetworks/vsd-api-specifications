@@ -80,7 +80,7 @@
             "type": "enum",
             "uniqueScope": "no"
         },
-        "startAddress": {
+        "startAddressRange": {
             "description": "Pool start at this address",
             "exposed": true,
             "filterable": true,
