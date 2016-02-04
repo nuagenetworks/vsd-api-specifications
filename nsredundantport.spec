@@ -162,7 +162,6 @@
     },
     "children": {
         "nsport": {
-            "create": true,
             "get": true,
             "relationship": "child"
         },
