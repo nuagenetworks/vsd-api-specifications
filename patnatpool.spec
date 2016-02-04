@@ -15,7 +15,9 @@
         "associatedGatewayId": {
             "description": "Default PAT IP Address, must belong to the pool above",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -28,7 +30,9 @@
             ],
             "description": "",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -44,8 +48,10 @@
         "description": {
             "description": "A description of the PATNATPool",
             "exposed": true,
+            "filterable": true,
             "format": "free",
             "max_length": 255,
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -72,9 +78,19 @@
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
+        },
+        "startAddress": {
+            "description": "Pool start at this address",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "children": {
