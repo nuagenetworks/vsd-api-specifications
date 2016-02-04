@@ -44,9 +44,8 @@
             "description": "This value is compared with penalty to determine route reusability, If the penalty is greater than the suppress limit, the route will be suppressed; if not, it will be reused;  Range: 1-20 000, default 750.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "integer"
         },
         "dampeningSuppress": {
             "description": "Specifies the penalty that will be used if a route is suppressed; range 1-20 000, default 3000.",
