@@ -44,7 +44,7 @@
             "uniqueScope": "no"
         },
         "endAddressRange": {
-            "description": "Pool ends at this IP Address",
+            "description": "Ending IP Address for the pool of available addresses for use",
             "exposed": true,
             "filterable": true,
             "format": "free",
