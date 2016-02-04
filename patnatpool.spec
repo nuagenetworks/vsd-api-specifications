@@ -55,6 +55,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "endAddress": {
+            "description": "Pool ends at this IP Address",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "name": {
             "description": "Name of the PATNATPool",
             "exposed": true,
