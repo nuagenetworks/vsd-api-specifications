@@ -19,7 +19,7 @@
             "uniqueScope": "no"
         },
         "dampeningName": {
-            "description": "Name for the dampening profile",
+            "description": "Name for the dampening profile. Unique per enterprise",
             "exposed": true,
             "filterable": true,
             "format": "free",
