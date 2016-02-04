@@ -48,24 +48,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
-        },
-        "type": {
-            "allowed_choices": [
-                "EXIT_DOMAIN",
-                "OVERLAY"
-            ],
-            "default_value": "OVERLAY",
-            "description": "type flag for static-route provisioning for exit-domain (break-to-underlay) prefixes",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "enum"
         }
     },
     "children": {
@@ -79,8 +66,8 @@
         "description": "Static routes allow end users to define how traffic is routed through the dVRS in addition to the routes learned by VSC through VM activation. By using static routes, end users can define for example that all traffic with a destination address towards a specific subnet must be forwarded to a specific VM attached in the dVRS and this VM could be a firewall",
         "entity_name": "StaticRoute",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
