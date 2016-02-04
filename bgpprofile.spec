@@ -18,6 +18,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "dampeningHalfLife": {
+            "description": "The time in minutes to wait before decrementing dampening penalty; range 1 - 45, default: 15",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "dampeningName": {
             "description": "Name for the dampening profile. Unique per enterprise",
             "exposed": true,
