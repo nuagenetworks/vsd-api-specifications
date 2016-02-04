@@ -143,8 +143,7 @@
             "relationship": "root"
         }, 
         "eamconfig": {
-            "create": true, 
-            "get": true, 
+            "get": true,
             "relationship": "root"
         }, 
         "egressaclentrytemplate": {
