@@ -18,7 +18,7 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "assocVCenterHypervisorId": {
+        "assocVCenterHypervisorID": {
             "description": null,
             "exposed": true,
             "filterable": true,
