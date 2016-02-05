@@ -3,7 +3,7 @@
     "associatedExportRoutingPolicyID" : {
       "type" : "string",
       "format" : "free",
-      "description" : "???",
+      "description" : "ID of the associated export routing policy",
       "filterable" : true,
       "exposed" : true,
       "uniqueScope" : "no"
@@ -11,7 +11,7 @@
     "associatedImportRoutingPolicyID" : {
       "type" : "string",
       "format" : "free",
-      "description" : "???",
+      "description" : "ID of the associated import routing policy",
       "filterable" : true,
       "exposed" : true,
       "uniqueScope" : "no"

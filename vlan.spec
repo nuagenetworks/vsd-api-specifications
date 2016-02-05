@@ -145,6 +145,11 @@
             "get": true,
             "relationship": "child"
         },
+        "bgpneighbor": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "enterprisepermission": {
             "create": true,
             "get": true,

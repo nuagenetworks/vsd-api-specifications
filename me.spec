@@ -128,7 +128,15 @@
         "autodiscoveredgateway": {
             "get": true, 
             "relationship": "root"
-        }, 
+        },
+        "bgpneigbor": {
+            "get": true,
+            "relationship": "root"
+        },
+        "bgpprofile": {
+            "get": true,
+            "relationship": "child"
+        },
         "certificate": {
             "create": true, 
             "relationship": "root"

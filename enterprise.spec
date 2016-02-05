@@ -253,6 +253,11 @@
             "get": true,
             "relationship": "child"
         },
+        "bgpprofile": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "domain": {
             "create": true,
             "get": true,
@@ -312,6 +317,11 @@
             "relationship": "child"
         },
         "groupkeyencryptionprofile": {
+            "get": true,
+            "relationship": "child"
+        },
+        "ikev2encryptionprofile": {
+            "create": true,
             "get": true,
             "relationship": "child"
         },

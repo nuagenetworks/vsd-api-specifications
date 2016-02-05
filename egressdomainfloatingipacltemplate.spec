@@ -42,6 +42,13 @@
       "exposed" : true,
       "uniqueScope" : "no"
     },
+    "entries" : {
+      "type" : "list",
+      "subtype": "object",
+      "description" : "List of Egress Domain ACL entries associated with this ACL",
+      "exposed" : true,
+      "uniqueScope" : "no"
+    },
     "name" : {
       "type" : "string",
       "format" : "free",
@@ -73,7 +80,7 @@
     "priorityType" : {
       "type" : "enum",
       "allowed_choices" : [ "TOP", "BOTTOM", "NONE" ],
-      "description" : "Priority type",
+      "description" : "",
       "filterable" : true,
       "orderable" : true,
       "exposed" : true,
@@ -81,19 +88,19 @@
     }
   },
   "children" : {
-    "egressfloatingipaclentrytemplate" : {
+    "egressdomainfloatingipaclentrytemplate" : {
       "get" : true,
       "create" : true,
       "relationship" : "child"
     }
   },
   "model" : {
-    "description" : "Defines the template for an Floating IP ACL",
-    "entity_name" : "FloatingIPACLTemplate",
+    "description" : "Defines the template for an Domain Floating IP ACL",
+    "entity_name" : "DomainFIPAclTemplate",
     "extends" : [ "@audited", "@base", "@metadata" ],
     "package" : "policy",
-    "resource_name" : "egressfloatingipacltemplates",
-    "rest_name" : "egressfloatingipacltemplate",
+    "resource_name" : "egressdomainfloatingipacltemplates",
+    "rest_name" : "egressdomainfloatingipacltemplate",
     "create" : true,
     "get" : true,
     "update" : true,

@@ -59,7 +59,7 @@
     "associatedLiveEntityID" : {
       "type" : "string",
       "format" : "free",
-      "description" : "???",
+      "description" : "ID of the associated live entity",
       "filterable" : true,
       "exposed" : true,
       "uniqueScope" : "no"
