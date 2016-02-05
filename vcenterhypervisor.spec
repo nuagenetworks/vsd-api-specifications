@@ -688,7 +688,7 @@
             "uniqueScope": "no"
         },
         "vrsMetricsID": {
-            "description": null,
+            "description": "ID of the vrsMetrics Entity",
             "exposed": true,
             "filterable": true,
             "format": "free",
