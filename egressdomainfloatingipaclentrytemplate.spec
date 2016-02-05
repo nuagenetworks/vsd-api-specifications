@@ -19,7 +19,7 @@
       "uniqueScope" : "no"
     },
     "actionDetails" : {
-      "type" : "???",
+      "type" : "object",
       "description" : "Type of action to be performed when a ACL match criteria succeeds",
       "exposed" : true,
       "uniqueScope" : "no"
