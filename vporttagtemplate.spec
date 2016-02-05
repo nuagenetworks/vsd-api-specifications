@@ -55,8 +55,5 @@
     "package" : "vport",
     "resource_name" : "vporttagtemplates",
     "rest_name" : "vporttagtemplate",
-    "get" : true,
-    "update" : true,
-    "delete" : true
   }
 }

@@ -406,6 +406,16 @@
             "get": true,
             "relationship": "child"
         },
+        "egressdomainfloatingipacltemplate": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "egressfloatingipacltemplate": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "eventlog": {
             "get": true,
             "relationship": "child"

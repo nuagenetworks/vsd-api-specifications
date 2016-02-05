@@ -162,6 +162,16 @@
             "get": true, 
             "relationship": "root"
         }, 
+        "egressdomainfloatingipacltemplate": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "egressfloatingipacltemplate": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "egressqospolicy": {
             "create": true, 
             "get": true, 
