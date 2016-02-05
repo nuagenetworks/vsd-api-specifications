@@ -27,6 +27,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "VRSVSCStatus": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "agentName": {
             "description": null,
             "exposed": true,
@@ -55,15 +64,6 @@
             "uniqueScope": "no"
         },
         "memUtilization": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
-        "vrsVscStatus": {
             "description": null,
             "exposed": true,
             "filterable": true,
