@@ -9,6 +9,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "CPUUtilization": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "agentName": {
             "description": null,
             "exposed": true,
@@ -19,15 +28,6 @@
             "uniqueScope": "no"
         },
         "assocVCenterHypervisorID": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
-            "uniqueScope": "no"
-        },
-        "cpuUtilization": {
             "description": null,
             "exposed": true,
             "filterable": true,
