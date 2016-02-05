@@ -204,6 +204,19 @@
             "get": true,
             "relationship": "child"
         },
+        "gatewaysecurity": {
+            "get": true,
+            "relationship": "child"
+        },
+        "gatewaysecurityprofile": {
+            "get": true,
+            "relationship": "child"
+        },
+        "ikev2gateway": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "infraconfig": {
             "get": true,
             "relationship": "child",
