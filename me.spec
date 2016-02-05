@@ -129,7 +129,7 @@
             "get": true, 
             "relationship": "root"
         },
-        "bgpneigbor": {
+        "bgpneighbor": {
             "get": true,
             "relationship": "root"
         },
