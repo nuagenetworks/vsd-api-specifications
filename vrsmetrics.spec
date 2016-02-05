@@ -1,20 +1,22 @@
 {
     "attributes": {
+        "ALUbr0Status": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "agentName": {
             "description": null,
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
-        },
-        "alubr0Status": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "assocVCenterHypervisorId": {
             "description": null,
@@ -22,7 +24,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "cpuUtilization": {
             "description": null,
@@ -30,7 +33,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "jesxmonProcess": {
             "description": null,
@@ -38,7 +42,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "memUtilization": {
             "description": null,
@@ -46,7 +51,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "vrsProcess": {
             "description": null,
@@ -54,7 +60,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "vrsVscStatus": {
             "description": null,
@@ -62,7 +69,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         }
     },
     "model": {
