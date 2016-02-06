@@ -252,7 +252,12 @@
             "create": true,
             "get": true,
             "relationship": "child"
-        },
+        }, 
+        "bgpprofile": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "domain": {
             "create": true,
             "get": true,
@@ -384,7 +389,12 @@
             "create": true,
             "get": true,
             "relationship": "child"
-        },
+        }, 
+        "routingpolicy": {
+            "create": true, 
+            "get": true, 
+            "relationship": "child"
+        }, 
         "sharednetworkresource": {
             "get": true,
             "relationship": "child"
