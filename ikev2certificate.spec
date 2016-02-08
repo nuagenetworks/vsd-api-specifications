@@ -46,8 +46,7 @@
             "uniqueScope" : "no"
         },
         "notAfter" : {
-            "type" : "integer",
-            "subtype" : "long",
+            "type" : "time",
             "description" : "Date this Certificate is valid to - Read Only Attribute",
             "filterable" : true,
             "orderable" : true,
@@ -55,8 +54,7 @@
             "uniqueScope" : "no"
         },
         "notBefore" : {
-            "type" : "integer",
-            "subtype" : "long",
+            "type" : "time",
             "description" : "Date this Certificate is valid from - Read Only Attribute",
             "filterable" : true,
             "orderable" : true,
