@@ -5,61 +5,48 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "DHCPLeaseInterval": {
             "description": "DHCP Lease Interval (in hrs) to be used by an enterprise.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "integer",
             "uniqueScope": "no"
         },
         "LDAPAuthorizationEnabled": {
             "description": "Read-only flag - indicates if LDAP is used for authorization for the enterprise. For detailed explanation, see definition in LDAPConfiguration class",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "LDAPEnabled": {
             "description": "Read-only flag - indicates if LDAP is used for authentication for the enterprise. For detailed explanation, see definition in LDAPConfiguration class",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "allowAdvancedQOSConfiguration": {
             "description": "Controls whether this enterprise has access to advanced QoS settings",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "allowGatewayManagement": {
             "description": "This flag indicates if the enterprise/organization can manage gateways. If yes then it can create gateway templates, instantiate them etc.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "allowTrustedForwardingClass": {
             "description": "Controls whether QoS policies and templates created under this enterprise set the trusted flag to true",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -77,9 +64,7 @@
             ],
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "subtype": "enum",
             "type": "list",
             "uniqueScope": "no"
@@ -87,36 +72,28 @@
         "associatedEnterpriseSecurityID": {
             "description": "Readonly Id of the associated group key encryption profile",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedGroupKeyEncryptionProfileID": {
             "description": "Readonly Id of the associated group key encryption profile",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorID": {
             "description": "Readonly Id of the associated keyserver monitor",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "avatarData": {
             "description": "URL to the avatar data associated with the enterprise. If the avatarType is URL then value of avatarData should an URL of the image. If the avatarType BASE64 then avatarData should be BASE64 encoded value of the image",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -128,18 +105,14 @@
             ],
             "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
         "customerID": {
             "description": "CustomerID that is used by VSC to identify this enterprise. This is a read only attribute.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
@@ -150,7 +123,6 @@
             "filterable": true,
             "format": "free",
             "max_length": 255,
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -161,47 +133,38 @@
             ],
             "description": "Readonly encryption management mode of the associated profile",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
         "enterpriseProfileID": {
             "description": "Enterprise profile id for this enterprise",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "floatingIPsQuota": {
             "description": "Quota set for the number of floating IPs to be used by an enterprise.",
             "exposed": true,
-            "filterable": true,
+            "format": "free",
             "max_value": 250000,
-            "orderable": true,
             "type": "integer",
             "uniqueScope": "no"
         },
         "floatingIPsUsed": {
             "description": "Number of floating IPs used by the enterprise from the assigned floatingIPsQuota",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "integer",
             "uniqueScope": "no"
         },
         "localAS": {
             "description": "Local autonomous system for the enterprise",
             "exposed": true,
-            "filterable": true,
             "format": "free",
             "max_value": 64495,
             "min_value": 1,
-            "orderable": true,
             "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
@@ -221,18 +184,14 @@
         "receiveMultiCastListID": {
             "description": "Readonly Id of the auto generated receive multicast list associated with this enterprise profile",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "sendMultiCastListID": {
             "description": "Readonly Id of the auto generated send multicast list associated with this enterprise profile",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         }

@@ -434,6 +434,7 @@
             "orderable": true,
             "required": true,
             "type": "integer",
+            "min_value": 0,
             "uniqueScope": "no"
         },
         "protocol": {

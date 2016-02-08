@@ -75,6 +75,7 @@
             "description": "Heartbeat VLAN used for BFD. Default 4094",
             "exposed": true,
             "format": "free",
+            "min_value": 0,
             "max_value": 4095,
             "type": "integer",
             "uniqueScope": "no"
