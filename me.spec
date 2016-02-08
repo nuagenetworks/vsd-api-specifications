@@ -320,6 +320,10 @@
             "get": true, 
             "relationship": "root"
         }, 
+        "routingpolicy": {
+            "get": true,
+            "relationship": "child"
+        },
         "sharednetworkresource": {
             "create": true, 
             "get": true, 

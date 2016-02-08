@@ -35,7 +35,13 @@
       "uniqueScope" : "no"
     }
   },
-  "children" : { },
+  "children" : {
+      "ikev2subnet": {
+          "create": true,
+          "get": true,
+          "relationship": "child"
+      }
+  },
   "model" : {
     "description" : "Represents an IKEv2 Gateway",
     "entity_name" : "IKEv2Gateway",

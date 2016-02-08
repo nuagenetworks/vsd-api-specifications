@@ -159,6 +159,11 @@
             "get": true,
             "relationship": "child"
         },
+        "ikev2gatewayconnections": {
+            "get": true,
+            "create": true,
+            "relationship": "child"
+        },
         "permission": {
             "create": true,
             "get": true,

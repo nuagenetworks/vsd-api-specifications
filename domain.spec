@@ -482,6 +482,11 @@
             "get": true,
             "relationship": "child"
         },
+        "routingpolicy": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "staticroute": {
             "create": true,
             "get": true,
