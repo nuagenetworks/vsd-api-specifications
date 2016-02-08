@@ -303,7 +303,7 @@
             "get": true,
             "relationship": "child"
         },
-        "ikev2psks": {
+        "ikev2psk": {
             "create": true,
             "get": true,
             "relationship": "child"
