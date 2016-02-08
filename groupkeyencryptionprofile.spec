@@ -68,6 +68,13 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "associatedEnterpriseID": {
+            "description": "The ID of the associated Enterprise",
+            "exposed": true,
+            "format": "free",
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "description": {
             "description": "A description of the Profile instance created.",
             "exposed": true,

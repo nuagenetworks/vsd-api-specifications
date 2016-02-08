@@ -1,32 +1,36 @@
 {
   "attributes" : {
-    "address" : {
+    "IPAddress" : {
       "type" : "string",
       "format" : "free",
-      "description" : "IKEv2 Third Party Gateway IP Address or FQDN.",
+      "description" : "IP Address of the IKEv2 Gateway",
+      "filterable" : true,
+      "orderable" : true,
       "exposed" : true,
       "uniqueScope" : "no"
     },
-    "associatedIKEv2EncryptionProfileID" : {
+    "associatedEnterpriseID" : {
       "type" : "string",
       "format" : "free",
-      "description" : "The ID of the associated IKEv2 Encryption Profile",
+      "description" : "The ID of the associated Enterprise",
       "exposed" : true,
       "uniqueScope" : "no"
     },
-    "associatedNSGatewayID" : {
+    "description" : {
       "type" : "string",
       "format" : "free",
-      "description" : "The ID of the NSGateway associated with this object. This is a read only attribute",
+      "description" : "Description of the IKEv2 Gateway",
+      "filterable" : true,
+      "orderable" : true,
       "exposed" : true,
       "uniqueScope" : "no"
     },
-    "preSharedKey" : {
+    "name" : {
       "type" : "string",
       "format" : "free",
-      "description" : "IKE preSharedKey. Min=5 chars, Max=255 chars",
-      "min_length" : 5,
-      "max_length" : 255,
+      "description" : "Name of the IKEv2 Gateway",
+      "filterable" : true,
+      "orderable" : true,
       "exposed" : true,
       "uniqueScope" : "no"
     }
