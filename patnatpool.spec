@@ -94,9 +94,8 @@
             "description": "Used to clear out the dynamic address translations and free up the IP addresses for re-assignment.  Units are in second",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "integer"
         }
     },
     "children": {
