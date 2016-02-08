@@ -143,14 +143,6 @@
           "exposed" : true,
           "uniqueScope" : "no"
         },
-        "securityAssociationLifetime" : {
-          "type" : "integer",
-          "description" : "IKE Security Association Lifetime in Seconds. Min=60, Max=86400",
-          "min_value" : 60,
-          "max_value" : 86400,
-          "exposed" : true,
-          "uniqueScope" : "no"
-        },
         "sequence": {
             "type" : "integer",
             "subtype" : "long",

@@ -288,6 +288,11 @@
             "get": true,
             "relationship": "child"
         },
+        "ikev2gateway": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "infrastructureportprofile": {
             "create": true,
             "get": true,

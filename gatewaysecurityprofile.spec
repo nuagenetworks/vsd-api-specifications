@@ -16,11 +16,6 @@
     }
   },
   "children" : {
-    "gatewaysecureddata" : {
-      "get" : true,
-      "create" : true,
-      "relationship" : "child"
-    }
   },
   "model" : {
     "description" : "This object represents the gateway security object",
@@ -28,8 +23,6 @@
     "extends" : [ "@audited", "@base", "@metadata" ],
     "package" : "ipsec",
     "resource_name" : "gatewaysecurityprofiles",
-    "rest_name" : "gatewaysecurityprofile",
-    "get" : true,
-    "update" : true
+    "rest_name" : "gatewaysecurityprofile"
   }
 }

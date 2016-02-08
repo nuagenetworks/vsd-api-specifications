@@ -212,11 +212,6 @@
             "get": true,
             "relationship": "child"
         },
-        "ikev2gateway": {
-            "create": true,
-            "get": true,
-            "relationship": "child"
-        },
         "infraconfig": {
             "get": true,
             "relationship": "child",
@@ -246,7 +241,12 @@
             "create": true,
             "get": true,
             "relationship": "child"
+        },
+        "subnet": {
+            "get": true,
+            "relationship": "child"
         }
+
     },
     "model": {
         "delete": true,
