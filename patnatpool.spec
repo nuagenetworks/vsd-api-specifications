@@ -47,9 +47,7 @@
             "description": "Set to True if the address translation pool at the address translation pool definition level",
             "exposed": true,
             "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string"
+            "type": "boolean"
         },
         "endAddressRange": {
             "description": "Ending IP Address for the pool of available addresses for use",
