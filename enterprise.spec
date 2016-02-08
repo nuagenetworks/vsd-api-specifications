@@ -283,12 +283,27 @@
             "get": true,
             "relationship": "child"
         },
+        "ikev2certificate": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "ikev2encryptionprofile": {
             "create": true,
             "get": true,
             "relationship": "child"
         },
         "ikev2gateway": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "ikev2gatewayprofile": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "ikev2psks": {
             "create": true,
             "get": true,
             "relationship": "child"
@@ -364,6 +379,11 @@
             "relationship": "child"
         },
         "redundancygroup": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "routingpolicy": {
             "create": true,
             "get": true,
             "relationship": "child"

@@ -208,10 +208,6 @@
             "get": true,
             "relationship": "child"
         },
-        "gatewaysecurityprofile": {
-            "get": true,
-            "relationship": "child"
-        },
         "infraconfig": {
             "get": true,
             "relationship": "child",
