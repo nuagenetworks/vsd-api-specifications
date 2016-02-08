@@ -43,6 +43,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "dynamicSourceEnabled": {
+            "description": "Set to True if the address translation pool at the address translation pool definition level",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "endAddressRange": {
             "description": "Ending IP Address for the pool of available addresses for use",
             "exposed": true,
