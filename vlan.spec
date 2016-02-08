@@ -159,7 +159,7 @@
             "get": true,
             "relationship": "child"
         },
-        "ikev2gatewayconnections": {
+        "ikev2gatewayconnection": {
             "get": true,
             "create": true,
             "relationship": "child"
