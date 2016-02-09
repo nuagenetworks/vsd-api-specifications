@@ -7,7 +7,7 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "required": true,
+            "required": false,
             "type": "string",
             "uniqueScope": "no"
         }
