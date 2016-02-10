@@ -32,7 +32,7 @@
             "uniqueScope": "no"
         },
         "assocPATMapperID": {
-            "description": null,
+            "description": "The ID of the PatMapper entity to which this pool is associated to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
