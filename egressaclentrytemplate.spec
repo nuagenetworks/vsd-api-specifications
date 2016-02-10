@@ -380,9 +380,7 @@
         "mirrorDestinationID": {
             "description": "Destination ID of the mirror destination object.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
