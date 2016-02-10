@@ -43,12 +43,6 @@
             "type": "string"
         }
     },
-    "children": {
-        "sharednetworkresource": {
-            "get": true,
-            "relationship": "child"
-        }
-    },
     "model": {
         "delete": true,
         "entity_name": "PATIPEntry",
