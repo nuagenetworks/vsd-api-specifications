@@ -74,6 +74,8 @@
       "description" : "The priority of the ACL entry that determines the order of entries",
       "filterable" : true,
       "orderable" : true,
+      "min_value" : 0,
+      "default_value" : 0,
       "exposed" : true,
       "uniqueScope" : "no"
     },

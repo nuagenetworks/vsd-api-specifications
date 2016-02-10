@@ -164,6 +164,7 @@
       "filterable" : true,
       "orderable" : true,
       "min_value" : 0,
+      "default_value" : 0,
       "exposed" : true,
       "uniqueScope" : "no"
     },
