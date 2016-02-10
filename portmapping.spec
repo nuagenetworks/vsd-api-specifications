@@ -32,7 +32,7 @@
             "type": "string"
         },
         "publicPort": {
-            "description": null,
+            "description": "The public port used for Static PAT.",
             "exposed": true,
             "filterable": true,
             "orderable": true,
