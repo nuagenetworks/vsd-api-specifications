@@ -26,8 +26,8 @@
             "orderable": true,
             "type": "boolean"
         },
-        "domainID": {
-            "description": null,
+        "associatedDomainID": {
+            "description": "The ID of the associated l3-domain.",
             "exposed": true,
             "filterable": true,
             "format": "free",
