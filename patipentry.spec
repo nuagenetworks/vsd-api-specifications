@@ -20,7 +20,7 @@
             "type": "enum"
         },
         "PATCentralized": {
-            "description": null,
+            "description": "This flag will determine whether we can expect anchor point or not.",
             "exposed": true,
             "filterable": true,
             "orderable": true,
