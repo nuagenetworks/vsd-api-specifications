@@ -18,6 +18,12 @@
             "unique": true
         }
     },
+    "children": {
+        "sharednetworkresource": {
+            "get": true,
+            "relationship": "member"
+        }
+    },
     "model": {
         "delete": true,
         "entity_name": "PATMapper",
