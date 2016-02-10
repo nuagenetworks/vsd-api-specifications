@@ -1,7 +1,7 @@
 {
     "attributes": {
         "IPAddress": {
-            "description": null,
+            "description": "Its own IPAddress.",
             "exposed": true,
             "filterable": true,
             "format": "free",
