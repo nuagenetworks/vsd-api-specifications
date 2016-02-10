@@ -16,7 +16,7 @@
             "uniqueScope": "no"
         },
         "associatedPATMapperID": {
-            "description": null,
+            "description": "The ID of the PatMapper entity to which this domain-template is associated to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
