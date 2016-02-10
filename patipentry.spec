@@ -45,7 +45,7 @@
     },
     "model": {
         "delete": true,
-        "entity_name": "PATIpEntry",
+        "entity_name": "PATIPEntry",
         "get": true,
         "resource_name": "patipentries",
         "rest_name": "patipentry",
