@@ -6,7 +6,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "unique": true
         }
     },
     "model": {
