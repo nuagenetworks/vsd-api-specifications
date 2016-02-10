@@ -1,7 +1,7 @@
 {
     "attributes": {
-        "assocPATIpEntryID": {
-            "description": null,
+        "associatedPATIpEntryID": {
+            "description": "The ID of the associated PATIPENTRY.",
             "exposed": true,
             "filterable": true,
             "format": "free",
