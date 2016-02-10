@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "privateIP": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "privatePort": {
             "description": null,
             "exposed": true,
