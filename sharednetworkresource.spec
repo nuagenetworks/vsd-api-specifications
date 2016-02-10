@@ -89,9 +89,8 @@
             "description": "Indicates if PAT Mapping is enabled for the SharedNetworkResource or not",
             "exposed": true,
             "filterable": true,
-            "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "boolean"
         },
         "gateway": {
             "description": "Gatemask configured on the shared resource",
