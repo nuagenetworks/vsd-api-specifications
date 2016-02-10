@@ -89,7 +89,7 @@
             "uniqueScope": "no"
         },
         "associatedPATMapperID": {
-            "description": null,
+            "description": "The ID of the PatMapper entity to which this l3-domain is associated to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
