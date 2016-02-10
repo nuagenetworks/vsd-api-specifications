@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "IPAddress": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "IPType": {
             "allowed_choices": [
                 "IPV4",
@@ -27,14 +35,6 @@
             "type": "string"
         },
         "hypervisorID": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string"
-        },
-        "ipAddress": {
             "description": null,
             "exposed": true,
             "filterable": true,
