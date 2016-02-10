@@ -1,5 +1,16 @@
 {
     "attributes": {
+        "IPType": {
+            "allowed_choices": [
+                "IPV4",
+                "IPV6"
+            ],
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "orderable": true,
+            "type": "enum"
+        },
         "PATCentralized": {
             "description": null,
             "exposed": true,
@@ -30,17 +41,6 @@
             "format": "free",
             "orderable": true,
             "type": "string"
-        },
-        "ipType": {
-            "allowed_choices": [
-                "IPV6",
-                "IPV4"
-            ],
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "orderable": true,
-            "type": "enum"
         }
     },
     "model": {
