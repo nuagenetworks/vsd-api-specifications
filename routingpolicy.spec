@@ -16,9 +16,9 @@
         "description": {
             "description": null,
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string"
         },
         "name": {
