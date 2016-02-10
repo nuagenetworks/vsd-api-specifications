@@ -15,6 +15,14 @@
             "orderable": true,
             "type": "integer"
         },
+        "publicIP": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "publicPort": {
             "description": null,
             "exposed": true,
