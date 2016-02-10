@@ -35,7 +35,7 @@
             "type": "string"
         },
         "hypervisorID": {
-            "description": null,
+            "description": "The ID of the PatMapper entity to which this domain is associated to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
