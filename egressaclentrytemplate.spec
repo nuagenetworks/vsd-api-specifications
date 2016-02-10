@@ -37,9 +37,7 @@
         "associatedApplicationID": {
             "description": "The associated application ID",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
