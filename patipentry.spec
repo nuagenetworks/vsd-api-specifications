@@ -25,11 +25,14 @@
             "type": "string"
         },
         "ipType": {
+            "allowed_choices": [
+                "IPV4"
+            ],
             "description": null,
             "exposed": true,
             "filterable": true,
             "orderable": true,
-            "type": "object"
+            "type": "enum"
         },
         "isPATCentralized": {
             "description": null,
