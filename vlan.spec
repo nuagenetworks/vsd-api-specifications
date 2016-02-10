@@ -18,6 +18,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "associatedBGPProfileID": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "description": {
             "description": "A description of the Port",
             "exposed": true,

@@ -1,105 +1,99 @@
 {
-  "attributes" : {
-    "associatedExportRoutingPolicyID" : {
-      "type" : "string",
-      "format" : "free",
-      "description" : "ID of the associated export routing policy",
-      "filterable" : true,
-      "exposed" : true,
-      "uniqueScope" : "no"
+    "attributes": {
+        "associatedExportRoutingPolicyID": {
+            "description": "export BGP policy ID",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "associatedImportRoutingPolicyID": {
+            "description": "import BGP policy ID",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "dampeningHalfLife": {
+            "description": "The time in minutes to wait before decrementing dampening penalty; range 1 - 45, default: 15",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "integer",
+            "uniqueScope": "no"
+        },
+        "dampeningMaxSuppress": {
+            "description": "The maximum duration in minutes that a route will be suppressed; range: 1-720, default: 60",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "integer",
+            "uniqueScope": "no"
+        },
+        "dampeningName": {
+            "description": "Name for the dampening profile. Unique per enterprise",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "dampeningReuse": {
+            "description": "This value is compared with penalty to determine route reusability, If the penalty is greater than the suppress limit, the route will be suppressed; if not, it will be reused;  Range: 1-20 000, default 750.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "integer",
+            "uniqueScope": "no"
+        },
+        "dampeningSuppress": {
+            "description": "Specifies the penalty that will be used if a route is suppressed; range 1-20 000, default 3000.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "integer",
+            "uniqueScope": "no"
+        },
+        "description": {
+            "description": "The description of the BGP Profile",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "name": {
+            "creation_only": true,
+            "description": "Per enterprise unique name",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "required": true,
+            "type": "string",
+            "uniqueScope": "no"
+        }
     },
-    "associatedImportRoutingPolicyID" : {
-      "type" : "string",
-      "format" : "free",
-      "description" : "ID of the associated import routing policy",
-      "filterable" : true,
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "dampeningHalfLife" : {
-      "type" : "integer",
-      "description" : "The time in minutes to wait before decrementing dampening penalty; range 1 - 45, default: 15",
-      "filterable" : true,
-      "orderable" : true,
-      "min_value" : 1,
-      "max_value" : 45,
-      "default_value" : 15,
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "dampeningMaxSuppress" : {
-      "type" : "integer",
-      "description" : "The maximum duration in minutes that a route will be suppressed; range: 1-720, default: 60",
-      "filterable" : true,
-      "orderable" : true,
-      "min_value" : 1,
-      "max_value" : 720,
-      "default_value" : 60,
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "dampeningName" : {
-      "type" : "string",
-      "format" : "free",
-      "description" : "The name of the BGP Dampening object. Valid characters are alphabets, numbers, space and hyphen( - ).",
-      "filterable" : true,
-      "orderable" : true,
-      "min_length" : 1,
-      "max_length" : 255,
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "dampeningReuse" : {
-      "type" : "integer",
-      "description" : "This value is compared with penalty to determine route reusability.If the penalty is greater than the suppress limit, the route will be suppressed; if not, it will be reused; Range: 1-20 000, default 750.",
-      "filterable" : true,
-      "orderable" : true,
-      "min_value" : 1,
-      "max_value" : 20000,
-      "default_value" : 750,
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "dampeningSuppress" : {
-      "type" : "integer",
-      "description" : "Specifies the penalty that will be used if a route is suppressed; range 1-20 000, default 3000.",
-      "filterable" : true,
-      "orderable" : true,
-      "min_value" : 1,
-      "max_value" : 20000,
-      "default_value" : 3000,
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "description" : {
-      "type" : "string",
-      "format" : "free",
-      "description" : "A short description for this BGP profile",
-      "exposed" : true,
-      "uniqueScope" : "no"
-    },
-    "name" : {
-      "type" : "string",
-      "format" : "free",
-      "description" : "The name of the BGP profile unique within the enterprise. Valid characters are alphabets, numbers, space and hyphen( - ).",
-      "filterable" : true,
-      "orderable" : true,
-      "min_length" : 1,
-      "max_length" : 255,
-      "exposed" : true,
-      "uniqueScope" : "no"
+    "model": {
+        "delete": true,
+        "entity_name": "BGPProfile",
+        "extends": [
+            "@base",
+            "@metadata"
+        ],
+        "get": true,
+        "resource_name": "bgpprofiles",
+        "rest_name": "bgpprofile",
+        "update": true
     }
-  },
-  "children" : { },
-  "model" : {
-    "description" : "Definition of a BGP Profile object.",
-    "entity_name" : "BGPProfile",
-    "extends" : [ "@audited", "@base", "@metadata" ],
-    "package" : "bgp",
-    "resource_name" : "bgpprofiles",
-    "rest_name" : "bgpprofile",
-    "get" : true,
-    "update" : true,
-    "delete" : true
-  }
 }
