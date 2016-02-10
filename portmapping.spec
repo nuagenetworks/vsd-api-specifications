@@ -24,7 +24,7 @@
             "type": "integer"
         },
         "publicIP": {
-            "description": null,
+            "description": "This is the PATIPENTRY value, for the traffic to go out of VM.",
             "exposed": true,
             "filterable": true,
             "format": "free",
