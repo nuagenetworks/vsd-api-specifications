@@ -9,7 +9,7 @@
             "type": "string"
         },
         "privateIP": {
-            "description": null,
+            "description": "VM's ip-address",
             "exposed": true,
             "filterable": true,
             "format": "free",
