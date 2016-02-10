@@ -388,11 +388,6 @@
             "get": true,
             "relationship": "child"
         },
-        "routingpolicy": {
-            "create": true,
-            "get": true,
-            "relationship": "child"
-        },
         "sharednetworkresource": {
             "get": true,
             "relationship": "child"
