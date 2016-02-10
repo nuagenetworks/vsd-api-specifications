@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "ipAddress": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "ipType": {
             "description": null,
             "exposed": true,
