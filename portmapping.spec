@@ -39,6 +39,12 @@
             "type": "integer"
         }
     },
+    "children": {
+        "vport": {
+            "get": true,
+            "relationship": "child"
+        }
+    },
     "model": {
         "delete": true,
         "entity_name": "PortMapping",
