@@ -39,7 +39,6 @@
             "filterable": false,
             "format": "free",
             "orderable": false,
-            "required": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
