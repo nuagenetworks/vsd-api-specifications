@@ -434,6 +434,7 @@
             "filterable": true,
             "orderable": true,
             "type": "integer",
+            "min_value": 0,
             "uniqueScope": "no"
         },
         "protocol": {
