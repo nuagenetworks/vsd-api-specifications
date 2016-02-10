@@ -431,6 +431,8 @@
             "default_value": "0",
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
+            "filterable": true,
+            "orderable": true,
             "type": "integer",
             "uniqueScope": "no"
         },
