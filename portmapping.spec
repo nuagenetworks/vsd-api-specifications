@@ -37,6 +37,14 @@
             "filterable": true,
             "orderable": true,
             "type": "integer"
+        },
+        "vport": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
         }
     },
     "model": {
