@@ -10,8 +10,9 @@
         },
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "DUALSTACK",
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6 (only IPv4 supported in R1.0)",
             "exposed": true,
