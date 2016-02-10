@@ -17,7 +17,7 @@
             "type": "string"
         },
         "privatePort": {
-            "description": null,
+            "description": "The vport's port-number.",
             "exposed": true,
             "filterable": true,
             "orderable": true,
