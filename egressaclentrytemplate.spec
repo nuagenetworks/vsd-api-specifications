@@ -428,9 +428,11 @@
             "uniqueScope": "no"
         },
         "priority": {
-            "default_value": "0",
-            "min_value": "0",
+            "default_value": 0,
+            "min_value": 0,
             "description": "The priority of the ACL entry that determines the order of entries",
+            "filterable": true,
+            "orderable": true,
             "exposed": true,
             "type": "integer",
             "uniqueScope": "no"
