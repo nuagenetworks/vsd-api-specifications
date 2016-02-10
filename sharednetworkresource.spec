@@ -31,6 +31,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "assocPATMapperID": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "backHaulRouteDistinguisher": {
             "description": "backHaulRouteDistinguisher of the Shared Resource",
             "exposed": true,
