@@ -1,12 +1,13 @@
 {
     "attributes": {
-        "associatedPATIpEntryID": {
+        "associatedPATIPEntryID": {
             "description": "The ID of the associated PATIPENTRY.",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "privateIP": {
             "description": "VM's ip-address",
@@ -14,14 +15,17 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "privatePort": {
             "description": "The vport's port-number.",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer"
+            "type": "integer",
+            "uniqueScope": "no"
         },
         "publicIP": {
             "description": "This is the PATIPENTRY value, for the traffic to go out of VM.",
@@ -29,14 +33,17 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "publicPort": {
             "description": "The public port used for Static PAT.",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer"
+            "type": "integer",
+            "uniqueScope": "no"
         }
     },
     "model": {
