@@ -19,7 +19,6 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "required": true,
             "type": "string",
             "uniqueScope": "no"
         },

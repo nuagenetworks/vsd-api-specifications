@@ -15,7 +15,6 @@
             "filterable": true,
             "format": "free",
             "orderable": false,
-            "required": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -62,7 +61,6 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "required": true,
             "type": "string",
             "uniqueScope": "no"
         },
