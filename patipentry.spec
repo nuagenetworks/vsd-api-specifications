@@ -26,6 +26,7 @@
         },
         "ipType": {
             "allowed_choices": [
+                "IPV6",
                 "IPV4"
             ],
             "description": null,
