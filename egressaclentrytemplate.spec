@@ -44,9 +44,7 @@
         "associatedApplicationObjectID": {
             "description": "The associated application object ID",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
