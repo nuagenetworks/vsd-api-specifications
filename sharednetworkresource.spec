@@ -93,7 +93,7 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "dynamicPATAllocation": {
+        "dynamicPATAllocationEnabled": {
             "description": "Indicates if PAT Mapping is enabled for the SharedNetworkResource or not",
             "exposed": true,
             "filterable": true,
