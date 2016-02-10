@@ -1,5 +1,12 @@
 {
     "attributes": {
+        "PATCentralized": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "orderable": true,
+            "type": "boolean"
+        },
         "domainID": {
             "description": null,
             "exposed": true,
@@ -34,13 +41,6 @@
             "filterable": true,
             "orderable": true,
             "type": "enum"
-        },
-        "isPATCentralized": {
-            "description": null,
-            "exposed": true,
-            "filterable": true,
-            "orderable": true,
-            "type": "boolean"
         }
     },
     "model": {
