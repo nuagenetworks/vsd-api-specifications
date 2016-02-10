@@ -239,6 +239,10 @@
             "get": true,
             "relationship": "child"
         },
+        "patipentry": {
+            "get": true,
+            "relationship": "child"
+        },
         "staticroute": {
             "create": true,
             "get": true,
