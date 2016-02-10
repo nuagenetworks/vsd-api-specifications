@@ -443,9 +443,9 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "required": true,
             "type": "integer",
             "min_value": 0,
+            "default_value": 0,
             "uniqueScope": "no"
         },
         "protocol": {

@@ -429,6 +429,7 @@
         },
         "priority": {
             "default_value": "0",
+            "min_value": "0",
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "type": "integer",

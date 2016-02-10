@@ -58,6 +58,7 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
+            "default_value": 0,
             "uniqueScope": "no"
         },
         "priorityType": {

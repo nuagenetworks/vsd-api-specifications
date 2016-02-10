@@ -298,6 +298,7 @@
             "orderable": false,
             "type": "integer",
             "min_value": 0,
+            "default_value": 0,
             "uniqueScope": "no"
         },
         "sourceAddressOverwrite": {
