@@ -24,6 +24,14 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "associatedVlanId": {
+            "description": "",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "defaultPATIP": {
             "description": "Default PAT IP Address, must belong to the pool above",
             "exposed": true,
