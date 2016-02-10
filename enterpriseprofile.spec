@@ -53,6 +53,7 @@
             "exposed": true,
             "format": "free",
             "type": "list",
+            "subtype": "enum",
             "uniqueScope": "no"
         },
         "description": {
@@ -80,7 +81,9 @@
             "description": "Quota set for the number of floating IPs to be used by an enterprise.",
             "exposed": true,
             "format": "free",
+            "min_value": 0,
             "max_value": 250000,
+            "default_value": 0,
             "type": "integer",
             "uniqueScope": "no"
         },

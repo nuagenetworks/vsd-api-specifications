@@ -5,7 +5,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -14,7 +14,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -29,9 +29,9 @@
         "description": {
             "description": "Short description for this peer",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string"
         },
         "name": {
@@ -40,6 +40,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
+            "min_length": 1,
+            "max_length": 255,
             "type": "string"
         },
         "peerAS": {
@@ -50,6 +52,9 @@
             "orderable": true,
             "required": true,
             "type": "integer",
+            "subtype": "long",
+            "min_value": 1,
+            "max_value": 65535,
             "uniqueScope": "no"
         },
         "peerIP": {
@@ -59,14 +64,15 @@
             "format": "free",
             "orderable": true,
             "type": "string",
+            "max_length": 255,
             "uniqueScope": "no"
         },
         "session": {
             "description": "neighbor session yang blob",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         }

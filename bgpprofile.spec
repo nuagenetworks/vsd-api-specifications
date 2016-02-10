@@ -5,7 +5,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -14,7 +14,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -25,6 +25,9 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
+            "min_value": 1,
+            "max_value": 45,
+            "default_value": 15,
             "uniqueScope": "no"
         },
         "dampeningMaxSuppress": {
@@ -34,6 +37,9 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
+            "min_value": 1,
+            "max_value": 720,
+            "default_value": 60,
             "uniqueScope": "no"
         },
         "dampeningName": {
@@ -43,6 +49,8 @@
             "format": "free",
             "orderable": true,
             "type": "string",
+            "min_length": 1,
+            "max_length": 255,
             "uniqueScope": "no"
         },
         "dampeningReuse": {
@@ -52,6 +60,9 @@
             "format": "free",
             "orderable": true,
             "type": "integer",
+            "min_value": 1,
+            "max_value": 20000,
+            "default_value": 750,
             "uniqueScope": "no"
         },
         "dampeningSuppress": {
@@ -59,6 +70,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "min_value": 1,
+            "max_value": 20000,
+            "default_value": 3000,
             "orderable": true,
             "type": "integer",
             "uniqueScope": "no"
@@ -66,9 +80,9 @@
         "description": {
             "description": "The description of the BGP Profile",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -78,6 +92,8 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "min_length": 1,
+            "max_length": 255,
             "orderable": true,
             "required": true,
             "type": "string",

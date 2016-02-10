@@ -7,9 +7,9 @@
             ],
             "description": "accept/reject",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "required": true,
             "type": "enum"
         },
@@ -25,18 +25,20 @@
             "creation_only": true,
             "description": "policy name, unique within an enterprise",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "min_length": 1,
+            "max_length": 255,
+            "orderable": false,
             "required": true,
             "type": "string"
         },
         "policyDefinition": {
             "description": "String blob",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "orderable": true,
+            "orderable": false,
             "type": "string"
         }
     },
