@@ -37,14 +37,18 @@
         "associatedApplicationID": {
             "description": "The associated application ID",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedApplicationObjectID": {
             "description": "The associated application object ID",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -294,6 +298,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -302,6 +307,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -337,14 +343,18 @@
         "icmpCode": {
             "description": "The ICMP Code when protocol selected is ICMP.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "icmpType": {
             "description": "The ICMP Type when protocol selected is ICMP.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -378,7 +388,9 @@
         "mirrorDestinationID": {
             "description": "Destination ID of the mirror destination object.",
             "exposed": true,
+            "filterable": true,
             "format": "free",
+            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -428,13 +440,12 @@
             "uniqueScope": "no"
         },
         "priority": {
+            "default_value": "0",
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "filterable": true,
             "orderable": true,
-            "required": true,
             "type": "integer",
-            "min_value": 0,
             "uniqueScope": "no"
         },
         "protocol": {
