@@ -1,5 +1,13 @@
 {
     "attributes": {
+        "assocPATIpEntryID": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "privateIP": {
             "description": null,
             "exposed": true,
