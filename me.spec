@@ -281,6 +281,11 @@
             "get": true,
             "relationship": "root"
         },
+        "patmapper": {
+            "create": true,
+            "get": true,
+            "relationship": "root"
+        },
         "patnatpool": {
             "create": true,
             "get": true,
@@ -378,8 +383,8 @@
         "description": "Object that identifies the user functions",
         "entity_name": "Me",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "package": "usermgmt",
