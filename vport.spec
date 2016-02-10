@@ -3,18 +3,14 @@
         "VLANID": {
             "description": "associated Vlan of this vport - applicable for type host/bridge",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "active": {
             "description": "Indicates if this vport is up or down",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "boolean",
             "uniqueScope": "no"
@@ -27,9 +23,7 @@
             ],
             "description": "Indicates if address spoofing is ENABLED/DISABLED/INHERITED for this vport Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -46,63 +40,49 @@
         "associatedFloatingIPID": {
             "description": "Id of Floating IP address associated to this vport",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedMulticastChannelMapID": {
             "description": "The ID of the receive Multicast Channel Map this Vport is associated with. This has to be set when enableMultiCast is set to ENABLED",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedSendMulticastChannelMapID": {
             "description": "The ID of the send Multicast Channel Map this Vport is associated with. This has to be set when enableMultiCast is set to ENABLED",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "description": {
             "description": "Description for this vport",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "domainID": {
             "description": "ID the Domain associated with the VPort",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "hasAttachedInterfaces": {
             "description": "Indicates that this vport has attached interfaces",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "multiNICVPortID": {
             "description": "ID of the Multi NIC VPort associated with the VPort",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -116,7 +96,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -125,11 +104,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "operationalState": {
@@ -140,9 +119,7 @@
             ],
             "description": "Operational State of the VPort - RUNNING/SHUTDOWN Possible values are INIT, UP, DOWN, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -159,7 +136,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -173,7 +149,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -181,9 +156,7 @@
         "zoneID": {
             "description": "ID the Zone associated with the VPort",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         }
@@ -201,7 +174,7 @@
             "create": true,
             "get": true,
             "relationship": "child"
-        }, 
+        },
         "bridgeinterface": {
             "create": true,
             "get": true,
@@ -225,6 +198,10 @@
             "get": true,
             "relationship": "child",
             "update": true
+        },
+        "portmapping": {
+            "get": true,
+            "relationship": "child"
         },
         "qos": {
             "create": true,
@@ -278,8 +255,8 @@
         "description": "VPorts are a new level in the domain hierarchy, intended to provide more granular configuration than at subnet, and also support a split workflow, where the vPort is configured and associated with a VM port (or gateway port) before the port exists on the hypervisor or gateway",
         "entity_name": "VPort",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
