@@ -556,7 +556,7 @@
             "get": true,
             "relationship": "child"
         },
-        "autodiscoveredcomputeresource": {
+        "autodiscoveredhypervisor": {
             "create": true,
             "get": true,
             "relationship": "child"
