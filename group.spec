@@ -3,9 +3,7 @@
         "accountRestrictions": {
             "description": "Determines whether group is disabled or not.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -14,21 +12,18 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "managementMode": {
-            "description": "Management mode of the user object - allows for override of external authorization and syncup",
-            "exposed": true,
             "allowed_choices": [
                 "CMS",
                 "DEFAULT"
             ],
-            "filterable": false,
-            "orderable": false,
+            "description": "Management mode of the user object - allows for override of external authorization and syncup",
+            "exposed": true,
+            "format": "free",
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -37,11 +32,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "private": {
@@ -57,9 +52,7 @@
         "restrictionDate": {
             "description": "When the group was disabled.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "time",
             "uniqueScope": "no"
         },
@@ -93,7 +86,7 @@
         },
         "user": {
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         }
     },
@@ -102,8 +95,8 @@
         "description": "Identifies a group within an enterprise",
         "entity_name": "Group",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
