@@ -10,6 +10,14 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "ICMPType": {
+            "description": "The ICMP Type when protocol selected is ICMP",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "action": {
             "allowed_choices": [
                 "DROP",
