@@ -291,7 +291,7 @@
     },
     "model": {
         "delete": true,
-        "description": "The redirect policy on the flow",
+        "description": "The redirect policy on the flow.",
         "entity_name": "FlowForwardingPolicy",
         "extends": [
             "@base",
