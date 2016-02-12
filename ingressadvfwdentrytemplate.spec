@@ -30,6 +30,14 @@
             "type": "enum",
             "uniqueScope": "no"
         },
+        "ICMPCode": {
+            "description": null,
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string"
+        },
         "action": {
             "allowed_choices": [
                 "DROP",
