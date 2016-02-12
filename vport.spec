@@ -17,9 +17,9 @@
         },
         "addressSpoofing": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "Indicates if address spoofing is ENABLED/DISABLED/INHERITED for this vport Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
@@ -88,9 +88,9 @@
         },
         "multicast": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "multicast is enum that indicates multicast policy on Vport. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
@@ -114,8 +114,8 @@
         "operationalState": {
             "allowed_choices": [
                 "DOWN",
-                "UP",
-                "INIT"
+                "INIT",
+                "UP"
             ],
             "description": "Operational State of the VPort - RUNNING/SHUTDOWN Possible values are INIT, UP, DOWN, .",
             "exposed": true,
@@ -126,10 +126,10 @@
         "systemType": {
             "allowed_choices": [
                 "HARDWARE",
-                "NUAGE_VRSG",
-                "NUAGE_2",
-                "NUAGE_1",
                 "HARDWARE_VTEP",
+                "NUAGE_1",
+                "NUAGE_2",
+                "NUAGE_VRSG",
                 "SOFTWARE"
             ],
             "description": "Indicates what system it is - SOFTWARE/HARDWARE_VTEP/HARDWARE/ (possible values)  Possible values are HARDWARE, SOFTWARE, HARDWARE_VTEP, NUAGE_1, NUAGE_2, NUAGE_VRSG, .",
@@ -141,8 +141,8 @@
         },
         "type": {
             "allowed_choices": [
-                "HOST",
                 "BRIDGE",
+                "HOST",
                 "VM"
             ],
             "description": "Type of vport - possible values VM/HOST/BRIDGE Possible values are VM, HOST, BRIDGE, .",
@@ -252,7 +252,7 @@
     },
     "model": {
         "delete": true,
-        "description": "VPorts are a new level in the domain hierarchy, intended to provide more granular configuration than at subnet, and also support a split workflow, where the vPort is configured and associated with a VM port (or gateway port) before the port exists on the hypervisor or gateway",
+        "description": "VPorts are a new level in the domain hierarchy, intended to provide more granular configuration than at subnet, and also support a split workflow, where the vPort is configured and associated with a VM port (or gateway port) before the port exists on the hypervisor or gateway.",
         "entity_name": "VPort",
         "extends": [
             "@audited",

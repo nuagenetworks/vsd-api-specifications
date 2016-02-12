@@ -34,8 +34,8 @@
         },
         "encryption": {
             "allowed_choices": [
-                "ENABLED",
-                "DISABLED"
+                "DISABLED",
+                "ENABLED"
             ],
             "description": "Determines whether IPSEC is enabled. Possible values are ENABLED, DISABLED, .",
             "exposed": true,
@@ -46,9 +46,9 @@
         },
         "multicast": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "multicast is enum that indicates multicast policy on domain. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
@@ -71,9 +71,9 @@
         },
         "policyChangeStatus": {
             "allowed_choices": [
-                "STARTED",
+                "APPLIED",
                 "DISCARDED",
-                "APPLIED"
+                "STARTED"
             ],
             "description": "",
             "exposed": true,
@@ -154,7 +154,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate",
+        "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate.",
         "entity_name": "DomainTemplate",
         "extends": [
             "@audited",

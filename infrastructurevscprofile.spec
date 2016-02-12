@@ -5,18 +5,15 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "enterpriseID": {
             "description": "Enterprise/Organisation associated with this Profile instance.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -25,10 +22,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "name": {
@@ -36,23 +32,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "probeInterval": {
             "description": "Openflow echo timer in millisecond",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "subtype": "long",
-            "min_value": 1000,
+            "format": "free",
             "max_value": 60000,
-            "default_value": 5000,
+            "min_value": 1000,
+            "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "secondController": {
@@ -60,20 +54,19 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
     "model": {
         "delete": true,
-        "description": "Represents an Infrastructure VSC Profile",
+        "description": "Represents an Infrastructure VSC Profile.",
         "entity_name": "InfrastructureVscProfile",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -3,18 +3,14 @@
         "EVPNCommunityTag": {
             "description": "Assigned by VSD. An extended community or other similar BGP attribute to the specific EVPN / IP-VPN NLRI where the VM or network macro is being advertised.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "description": {
             "description": "Describes this policy group",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -23,7 +19,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -42,17 +37,14 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "Determines which template ID this policy group belongs to.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -65,7 +57,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -88,11 +79,11 @@
     },
     "model": {
         "delete": true,
-        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS etc.",
+        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS, etc.",
         "entity_name": "PolicyGroup",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

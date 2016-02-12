@@ -5,10 +5,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "description": {
@@ -16,10 +15,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 255,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "location": {
@@ -27,10 +25,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "managementIP": {
@@ -38,10 +36,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "name": {
@@ -49,10 +46,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "productVersion": {
@@ -60,17 +57,17 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 50,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 50,
             "uniqueScope": "no"
         },
         "status": {
             "allowed_choices": [
+                "ADMIN_DOWN",
                 "DOWN",
-                "UP",
-                "ADMIN_DOWN"
+                "UP"
             ],
             "description": "Current status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
@@ -82,25 +79,24 @@
         },
         "type": {
             "allowed_choices": [
-                "STATSCOLLECTOR",
                 "EJABBERD",
-                "PERCONA",
+                "JBOSS",
                 "MEDIATOR",
+                "PERCONA",
+                "STATSCOLLECTOR",
                 "STATSSERVER",
-                "TCA",
-                "JBOSS"
+                "TCA"
             ],
             "description": "Type of the component Possible values are JBOSS, MEDIATOR, PERCONA, EJABBERD, TCA, STATSCOLLECTOR, STATSSERVER, .",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
     },
     "model": {
-        "description": "System Monitoring details for components of VSD system",
+        "description": "System Monitoring details for components of VSD system.",
         "entity_name": "VSDComponent",
         "extends": [
             "@base",

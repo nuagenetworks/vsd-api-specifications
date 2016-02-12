@@ -3,20 +3,16 @@
         "actualType": {
             "description": "This will be used to send actual type instead of the hexadecimal. Note: If actualType is set, it will override the entry set in the type attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "actualValues": {
             "description": "This will be used to send actual values instead of the hexadecimal. Note: If actualValues are set, it will override entry set in the value attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         },
         "length": {
@@ -58,11 +54,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Allows the definition of one or more DHCP options that will be provided to all VMs that are associated with a given domain. DHCP options are provided as Type- Length-Value (TLV). There is no validation by VSD on whether these options are valid or not. It is up to the user to guarantee that the options make sense for their application",
+        "description": "Allows the definition of one or more DHCP options that will be provided to all VMs that are associated with a given domain. DHCP options are provided as Type- Length-Value (TLV). There is no validation by VSD on whether these options are valid or not. It is up to the user to guarantee that the options make sense for their application.",
         "entity_name": "DHCPOption",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

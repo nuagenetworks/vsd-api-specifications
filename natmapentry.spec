@@ -3,9 +3,7 @@
         "associatedPATNATPoolID": {
             "description": "Read Only - Indicates which PATNATPool this entry belongs to",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "string",
             "uniqueScope": "no"
@@ -33,11 +31,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Defines a MAP between the private ip and public ip",
+        "description": "Defines a MAP between the private ip and public ip.",
         "entity_name": "NATMapEntry",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

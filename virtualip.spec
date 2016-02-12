@@ -3,27 +3,21 @@
         "MAC": {
             "description": "The MAC address of the virtual port",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedFloatingIPID": {
             "description": "Id of Floating IP address associated to this virtual ip",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "subnetID": {
             "description": "Id of subnet to which this ip address belongs",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -46,11 +40,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Virtual IP address",
+        "description": "Virtual IP address.",
         "entity_name": "VirtualIP",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

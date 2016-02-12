@@ -1,125 +1,105 @@
 {
     "attributes": {
         "action": {
-            "description": "The bootstrap action to perform",
             "allowed_choices": [
-                "INITIATE",
                 "AUTHENTICATE",
+                "BOOTSTRAP_COMPLETE",
+                "CERTIFICATE_RENEW",
+                "CERTIFICATE_REVOKE",
+                "CERTIFICATE_SIGNED",
                 "CONFIRM",
-                "ROLLBACK",
+                "INITIATE",
+                "INITIATE_RENEW",
                 "NEW_NCPE_AUTH_REQUIRED",
                 "NO_AUTH_REQUIRED",
-                "CERTIFICATE_SIGNED",
+                "ROLLBACK",
                 "ROLLED_BACK",
-                "BOOTSTRAP_COMPLETE",
-                "UNSPECIFIED",
-                "INITIATE_RENEW",
-                "CERTIFICATE_RENEW",
-                "CERTIFICATE_REVOKE"
+                "UNSPECIFIED"
             ],
+            "description": "The bootstrap action to perform",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
+            "format": "free",
             "type": "enum",
             "uniqueScope": "no"
         },
         "cacert": {
             "description": "The CA Certificate Chain",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "cert": {
             "description": "The signed Certificate",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "configURL": {
             "description": "The configuration URL",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "csr": {
             "description": "The CSR of the request",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "hash": {
             "description": "The authentication hash of this request",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "seed": {
             "description": "The random seed for this request",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "srkPassword": {
             "description": "TPM SRK passphrase",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "status": {
             "description": "The agent status for the request",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "tpmOwnerPassword": {
             "description": "TPM owner passphrase",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "vsdTime": {
             "description": "VSD Server time when an NSG is initiating a Bootstrapping request",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
+            "format": "free",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
     "model": {
-        "description": "NSG Gateway initiated Bootstrap Activation",
+        "description": "NSG Gateway initiated Bootstrap Activation.",
         "entity_name": "BootstrapActivation",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "package": "gateway",

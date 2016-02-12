@@ -2,8 +2,8 @@
     "attributes": {
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6 (only IPv4 supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -48,10 +48,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "type": {
@@ -59,13 +59,13 @@
                 "EXIT_DOMAIN",
                 "OVERLAY"
             ],
-            "default_value": "OVERLAY",
             "description": "type flag for static-route provisioning for exit-domain (break-to-underlay) prefixes",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "enum"
+            "type": "enum",
+            "uniqueScope": "no"
         }
     },
     "children": {
@@ -76,11 +76,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Static routes allow end users to define how traffic is routed through the dVRS in addition to the routes learned by VSC through VM activation. By using static routes, end users can define for example that all traffic with a destination address towards a specific subnet must be forwarded to a specific VM attached in the dVRS and this VM could be a firewall",
+        "description": "Static routes allow end users to define how traffic is routed through the dVRS in addition to the routes learned by VSC through VM activation. By using static routes, end users can define for example that all traffic with a destination address towards a specific subnet must be forwarded to a specific VM attached in the dVRS and this VM could be a firewall.",
         "entity_name": "StaticRoute",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

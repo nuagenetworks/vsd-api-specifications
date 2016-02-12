@@ -5,27 +5,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedVSCProfileID": {
             "description": "The ID of the infrastructure VSC profile this is associated with this instance of a port or port template.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -34,18 +28,15 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "infrastructureProfileID": {
             "description": "The ID of the infrastructure profile this instance is associated with.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -54,11 +45,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "physicalName": {
@@ -66,11 +57,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "portType": {
@@ -81,6 +72,7 @@
             "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "required": true,
             "type": "enum",
@@ -96,11 +88,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents Port Template object under a given gateway template object",
+        "description": "Represents Port Template object under a given gateway template object.",
         "entity_name": "NSPortTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -133,12 +133,12 @@
         },
         "permittedActionType": {
             "allowed_choices": [
-                "USE",
-                "READ",
                 "ALL",
-                "INSTANTIATE",
+                "DEPLOY",
                 "EXTEND",
-                "DEPLOY"
+                "INSTANTIATE",
+                "READ",
+                "USE"
             ],
             "description": "Permitted action on this shared network resource",
             "exposed": true,
@@ -159,9 +159,9 @@
         },
         "type": {
             "allowed_choices": [
-                "PUBLIC",
                 "FLOATING",
                 "L2DOMAIN",
+                "PUBLIC",
                 "UPLINK_SUBNET"
             ],
             "description": "Type of the shared resource. This is an enum with possible values PUBLIC/FLOATING/L2DOMAIN/UPLINK_SUBNET",
@@ -256,7 +256,7 @@
     },
     "model": {
         "delete": true,
-        "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain etc.",
+        "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain, etc.",
         "entity_name": "SharedNetworkResource",
         "extends": [
             "@audited",

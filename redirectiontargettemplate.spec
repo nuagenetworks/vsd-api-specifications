@@ -3,22 +3,19 @@
         "description": {
             "description": "Description of this redirection target template",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "endPointType": {
-            "description": "VPortTagEndPointType is an enum. It defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. Possible values are NONE, L3, VIRTUAL_WIRE.",
             "allowed_choices": [
-                "NONE",
                 "L3",
+                "NONE",
                 "VIRTUAL_WIRE"
             ],
+            "description": "VPortTagEndPointType is an enum. It defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. Possible values are NONE, L3, VIRTUAL_WIRE.",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
+            "format": "free",
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -36,23 +33,19 @@
         "redundancyEnabled": {
             "description": "Allow/Disallow redundant appliances and VIP",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "triggerType": {
-            "description": "Trigger type, could be NONE/GARP - THIS IS READONLY",
             "allowed_choices": [
-                "NONE",
-                "GARP"
+                "GARP",
+                "NONE"
             ],
+            "description": "Trigger type, could be NONE/GARP - THIS IS READONLY",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
@@ -69,11 +62,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Template for a vporttag. Can be created only at the template level and available for all instances.",
+        "description": "Template for a vporttag. It can be created only at the template level and available for all instances.",
         "entity_name": "RedirectionTargetTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -3,9 +3,7 @@
         "diff": {
             "description": "Holds the results of diff between two objects of same type.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "object",
             "uniqueScope": "no"
         },
@@ -21,37 +19,29 @@
         "entities": {
             "description": "List of entities associated with the event.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "entity",
+            "type": "list",
             "uniqueScope": "no"
         },
         "entityID": {
             "description": "The entity id associated with this event.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "entityParentID": {
             "description": "The entity parent id associated with this event. It can be null.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "entityParentType": {
             "description": "Event parent entity type.  Generally reported against enterprise.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -93,7 +83,7 @@
         }
     },
     "model": {
-        "description": "The API retrieves the events related to a particular entity",
+        "description": "The API retrieves the events related to a particular entity.",
         "entity_name": "EventLog",
         "extends": [
             "@base",
