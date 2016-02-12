@@ -39,7 +39,7 @@
             "type": "string"
         },
         "ICMPType": {
-            "description": null,
+            "description": "The ICMP Type when protocol selected is ICMP",
             "exposed": true,
             "filterable": true,
             "format": "free",
