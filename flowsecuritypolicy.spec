@@ -315,7 +315,7 @@
     },
     "model": {
         "delete": true,
-        "description": "The security policy on the flow",
+        "description": "The security policy on the flow.",
         "entity_name": "FlowSecurityPolicy",
         "extends": [
             "@base",
