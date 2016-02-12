@@ -2,12 +2,11 @@
     "attributes": {
         "DHCPPoolType": {
             "allowed_choices": [
-                "HOST",
-                "BRIDGE"
+                "BRIDGE",
+                "HOST"
             ],
             "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE. Possible values are HOST, BRIDGE Possible values are HOST, BRIDGE, .",
             "filterable": true,
-            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
