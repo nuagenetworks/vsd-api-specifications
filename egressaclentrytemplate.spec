@@ -10,6 +10,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "ICMPType": {
+            "description": "The ICMP Type when selected protocol is ICMP",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "action": {
             "allowed_choices": [
                 "DROP",
@@ -341,15 +350,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
-        },
-        "icmpType": {
-            "description": "The ICMP Type when selected protocol is ICMP",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "locationID": {
             "description": "The ID of the location entity (Subnet/Zone/VportTag)",
@@ -464,6 +466,7 @@
             "description": "true means that this ACL entry is reflexive, so there will be a corresponding egress rule that will be created by OVS in the network. false means that there is no corresponding egress rule created by OVS in the network",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
