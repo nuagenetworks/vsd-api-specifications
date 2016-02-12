@@ -20,6 +20,7 @@
         },
         "metric": {
             "allowed_choices": [
+                "ADDRESS_MAP_INGRESS_PKT_CNT",
                 "BYTES_IN",
                 "BYTES_OUT",
                 "EGRESS_BYTE_COUNT",
@@ -36,7 +37,6 @@
             ],
             "description": "The metric associated with the TCA - PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR and PACKETS_DROPPED_BY_RATE_LIMIT Possible values are PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT, PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR, PACKETS_DROPPED_BY_RATE_LIMIT, INGRESS_BYTE_COUNT, INGRESS_PACKET_COUNT, EGRESS_BYTE_COUNT, EGRESS_PACKET_COUNT, .",
             "exposed": true,
-            "format": "free",
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
