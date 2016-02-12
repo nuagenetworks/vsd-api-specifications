@@ -35,12 +35,12 @@
         },
         "permittedAction": {
             "allowed_choices": [
+                "ALL",
+                "DEPLOY",
                 "EXTEND",
                 "INSTANTIATE",
-                "DEPLOY",
-                "USE",
                 "READ",
-                "ALL"
+                "USE"
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
@@ -68,9 +68,9 @@
         },
         "status": {
             "allowed_choices": [
-                "ORPHAN",
-                "MISMATCH",
                 "INITIALIZED",
+                "MISMATCH",
+                "ORPHAN",
                 "READY"
             ],
             "description": "Status of the VLAN. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .",
@@ -151,7 +151,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents VLAN object under a given PORT object",
+        "description": "Represents VLAN object under a given PORT object.",
         "entity_name": "VLAN",
         "extends": [
             "@audited",
