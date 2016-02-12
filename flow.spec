@@ -5,18 +5,16 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "destinationTierID": {
             "description": "Flow destination tier id.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -25,10 +23,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "name": {
@@ -36,19 +33,17 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 60,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 60,
             "uniqueScope": "no"
         },
         "originTierID": {
             "description": "Flow origin tier id.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         }
@@ -71,11 +66,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Flow represents the traffic between two different tiers.",
+        "description": "Flow represents the traffic between two different application tiers.",
         "entity_name": "Flow",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -14,10 +14,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "name": {
@@ -25,11 +24,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "peakBurstSize": {
@@ -53,11 +52,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Rate Limiter object that contains peak, burst and cir. Can be associated with Egress QOS policy objects.",
+        "description": "Rate Limiter object that contains peak, burst and cir. It can be associated with Egress QOS policy objects.",
         "entity_name": "RateLimiter",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

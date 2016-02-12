@@ -3,18 +3,14 @@
         "EVPNCommunityTag": {
             "description": "An extended community or other similar BGP attribute to the specific EVPN / IP-VPN NLRI where the VM or network macro is being advertised.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "description": {
             "description": "Describes this policy group",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -23,7 +19,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -46,7 +41,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -64,11 +58,11 @@
     },
     "model": {
         "delete": true,
-        "description": "PolicyGroupTemplate represents the template of a policy group object. PolicyGroup is group of vports on which a user can policies like ACL, QoS etc.",
+        "description": "PolicyGroupTemplate represents the template of a policy group object. PolicyGroup is group of vports on which a user can policies like ACL, QoS, etc.",
         "entity_name": "PolicyGroupTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
