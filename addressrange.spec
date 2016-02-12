@@ -6,7 +6,6 @@
                 "BRIDGE"
             ],
             "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE. Possible values are HOST, BRIDGE Possible values are HOST, BRIDGE, .",
-            "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
@@ -15,7 +14,6 @@
         },
         "maxAddress": {
             "description": "Higest address in the address range",
-            "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
@@ -25,7 +23,6 @@
         },
         "minAddress": {
             "description": "Lowest address in the address range",
-            "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
@@ -42,11 +39,11 @@
     },
     "model": {
         "delete": true,
-        "description": "This is the definition of a Address Range associated with a Network",
+        "description": "This is the definition of a Address Range associated with a Network.",
         "entity_name": "AddressRange",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
