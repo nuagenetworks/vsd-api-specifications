@@ -2,57 +2,58 @@
     "attributes": {
         "available": {
             "description": "Available disk space.",
-            "type": "double",
-            "required": false
+            "format": "free",
+            "type": "float",
+            "uniqueScope": "no"
         },
         "name": {
             "description": "Name of the disk.",
-            "type": "string",
-            "min_length": 1,
-            "max_length": 255,
-            "orderable": true,
             "filterable": true,
-            "required": false
+            "format": "free",
+            "max_length": 255,
+            "min_length": 1,
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
         },
         "size": {
             "description": "Total disk space.",
-            "type": "double",
-            "required": false
+            "format": "free",
+            "type": "float",
+            "uniqueScope": "no"
         },
         "unit": {
-            "description": "Storage unit type (example: bytes, KB, MB, etc.,).",
-            "type": "enum",
             "allowed_choices": [
                 "Bytes",
-                "PB",
-                "MB",
-                "KB",
-                "ZB",
-                "YB",
-                "GB",
                 "EB",
-                "TB"
+                "GB",
+                "KB",
+                "MB",
+                "PB",
+                "TB",
+                "YB",
+                "ZB"
             ],
-            "required": false
+            "description": "Storage unit type (example: bytes, KB, MB, etc.,).",
+            "format": "free",
+            "type": "enum",
+            "uniqueScope": "no"
         },
         "used": {
             "description": "Disk space used.",
-            "type": "double",
-            "required": false
+            "format": "free",
+            "type": "float",
+            "uniqueScope": "no"
         }
     },
     "model": {
-        "description": "Encapsulates the disk usage metrics for system monitor entity.",
+        "description": "Encapsulates the disk usage metrics for system monitor entity",
+        "entity_name": "DiskStat",
         "extends": [
             "@base"
         ],
-        "create": false,
-        "get": false,
-        "update": false,
-        "delete": false,
         "package": "vm",
         "resource_name": "diskstats",
-        "rest_name": "diskstat",
-        "entity_name": "DiskStat"
+        "rest_name": "diskstat"
     }
 }
