@@ -5,7 +5,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -14,33 +13,30 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 255,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "metric": {
             "allowed_choices": [
                 "BYTES_IN",
-                "EGRESS_BYTE_COUNT",
-                "PACKETS_IN_ERROR",
-                "PACKETS_OUT_DROPPED",
                 "BYTES_OUT",
-                "PACKETS_IN_DROPPED",
+                "EGRESS_BYTE_COUNT",
+                "EGRESS_PACKET_COUNT",
                 "INGRESS_BYTE_COUNT",
-                "PACKETS_IN",
-                "PACKETS_OUT_ERROR",
-                "PACKETS_DROPPED_BY_RATE_LIMIT",
                 "INGRESS_PACKET_COUNT",
+                "PACKETS_DROPPED_BY_RATE_LIMIT",
+                "PACKETS_IN",
+                "PACKETS_IN_DROPPED",
+                "PACKETS_IN_ERROR",
                 "PACKETS_OUT",
-                "EGRESS_PACKET_COUNT"
+                "PACKETS_OUT_DROPPED",
+                "PACKETS_OUT_ERROR"
             ],
             "description": "The metric associated with the TCA - PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR and PACKETS_DROPPED_BY_RATE_LIMIT Possible values are PACKETS_IN, BYTES_IN, PACKETS_IN_DROPPED, PACKETS_IN_ERROR, PACKETS_OUT, BYTES_OUT, PACKETS_OUT_DROPPED, PACKETS_OUT_ERROR, PACKETS_DROPPED_BY_RATE_LIMIT, INGRESS_BYTE_COUNT, INGRESS_PACKET_COUNT, EGRESS_BYTE_COUNT, EGRESS_PACKET_COUNT, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -50,28 +46,29 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "period": {
             "description": "The averaging period",
             "exposed": true,
             "filterable": true,
+            "format": "free",
+            "min_value": 1,
             "orderable": true,
             "required": true,
-            "type": "integer",
             "subtype": "long",
-            "min_value": 1,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "scope": {
             "allowed_choices": [
-                "LOCAL",
-                "GLOBAL"
+                "GLOBAL",
+                "LOCAL"
             ],
             "description": "GLOBAL or LOCAL scope. Global refers to aggregate values across subnets, zones or domains. Local refers to traffic from/to individual VMs Possible values are GLOBAL, LOCAL, .",
             "exposed": true,
@@ -86,17 +83,18 @@
             "description": "The threshold that must be exceeded before an alarm is issued",
             "exposed": true,
             "filterable": true,
+            "format": "free",
+            "min_value": 1,
             "orderable": true,
             "required": true,
-            "type": "integer",
             "subtype": "long",
-            "min_value": 1,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "type": {
             "allowed_choices": [
-                "ROLLING_AVERAGE",
-                "BREACH"
+                "BREACH",
+                "ROLLING_AVERAGE"
             ],
             "description": "Rolling average or sequence of samples over the averaging period - ROLLING_AVERAGE or BREACH Possible values are ROLLING_AVERAGE, BREACH, .",
             "exposed": true,
@@ -121,11 +119,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Provides the definition of the Threshold Control Alarms",
+        "description": "Provides the definition of the Threshold Control Alarms.",
         "entity_name": "TCA",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -3,32 +3,26 @@
         "avatarData": {
             "description": "URL to the avatar data associated with the enterprise. If the avatarType is URL then value of avatarData should an URL of the image. If the avatarType BASE64 then avatarData should be BASE64 encoded value of the image",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "avatarType": {
             "allowed_choices": [
-                "COMPUTEDURL",
                 "BASE64",
+                "COMPUTEDURL",
                 "URL"
             ],
             "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "disabled": {
             "description": "Status of the user account; true=disabled, false=not disabled; default value = false",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -47,11 +41,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "lastName": {
@@ -59,22 +53,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "managementMode": {
-            "description": "Management mode of the user object - allows for override of external authorization and syncup",
-            "exposed": true,
             "allowed_choices": [
                 "CMS",
                 "DEFAULT"
             ],
-            "filterable": false,
-            "orderable": false,
+            "description": "Management mode of the user object - allows for override of external authorization and syncup",
+            "exposed": true,
+            "format": "free",
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -90,9 +83,7 @@
         "password": {
             "description": "User password stored as a hash (SHA-1 encrpted)",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "string",
             "uniqueScope": "no"
@@ -102,11 +93,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 32,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 32,
             "uniqueScope": "no"
         }
     },
@@ -126,11 +117,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Object that identifies the user functions",
+        "description": "Object that identifies the user functions.",
         "entity_name": "User",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

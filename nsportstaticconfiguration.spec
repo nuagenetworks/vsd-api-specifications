@@ -5,10 +5,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "address": {
@@ -16,18 +15,15 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "enabled": {
             "description": "Boolean value that states if the NSG Port static configuration needs to be applied.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -36,10 +32,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -47,20 +42,19 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
     "model": {
         "delete": true,
-        "description": "Represents a network port static configuration in the context of an NSG.",
+        "description": "Represents a network port static configuration in the context of an Network Services Gateway.",
         "entity_name": "NSPortStaticConfiguration",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

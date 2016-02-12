@@ -11,8 +11,8 @@
         },
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -34,9 +34,7 @@
         "associatedMulticastChannelMapID": {
             "description": "The ID of the Multi Cast Channel Map this L2Domain / L2Domain template template is associated with. This has to be set when  enableMultiCast is set to ENABLED",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -45,8 +43,19 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
+            "uniqueScope": "no"
+        },
+        "encryption": {
+            "allowed_choices": [
+                "DISABLED",
+                "ENABLED"
+            ],
+            "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED, .",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "gateway": {
@@ -60,15 +69,14 @@
         },
         "multicast": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -77,11 +85,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -95,28 +103,14 @@
         },
         "policyChangeStatus": {
             "allowed_choices": [
-                "STARTED",
+                "APPLIED",
                 "DISCARDED",
-                "APPLIED"
+                "STARTED"
             ],
             "description": "",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "enum",
-            "uniqueScope": "no"
-        },
-        "encryption": {
-            "allowed_choices": [
-                "ENABLED",
-                "DISABLED"
-            ],
-            "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED, .",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
@@ -187,11 +181,11 @@
     },
     "model": {
         "delete": true,
-        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template",
+        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template.",
         "entity_name": "L2DomainTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

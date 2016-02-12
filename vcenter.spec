@@ -506,7 +506,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represent a VCenter",
+        "description": "Represents a VCenter.",
         "entity_name": "VCenter",
         "extends": [
             "@audited",

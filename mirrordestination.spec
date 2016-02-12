@@ -3,9 +3,7 @@
         "destinationIp": {
             "description": "IP address of the destination server where you want your traffic to be mirrored.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -14,20 +12,18 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "serviceId": {
             "description": "Service ID of the mirror destination.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
@@ -39,11 +35,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents the mirror destination entity.",
+        "description": "Represents a mirror destination.",
         "entity_name": "MirrorDestination",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

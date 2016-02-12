@@ -3,9 +3,7 @@
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -14,30 +12,29 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "value": {
             "description": "value of VLAN",
             "exposed": true,
             "filterable": true,
+            "format": "free",
+            "max_value": 4096,
             "orderable": true,
             "type": "integer",
-            "min_value": 0,
-            "max_value": 4096,
             "uniqueScope": "no"
         }
     },
     "model": {
         "delete": true,
-        "description": "Represents VLAN Template under a PORT Template object.",
+        "description": "Represents VLAN Template under a Port Template object.",
         "entity_name": "VLANTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

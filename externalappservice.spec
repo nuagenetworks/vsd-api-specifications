@@ -41,10 +41,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "destinationNATAddress": {
@@ -76,8 +76,8 @@
         },
         "egressType": {
             "allowed_choices": [
-                "ROUTE",
-                "REDIRECT"
+                "REDIRECT",
+                "ROUTE"
             ],
             "description": "Egress type: ROUTE / REDIRECT Possible values are ROUTE, REDIRECT, .",
             "exposed": true,
@@ -89,8 +89,8 @@
         },
         "ingressType": {
             "allowed_choices": [
-                "ROUTE",
-                "REDIRECT"
+                "REDIRECT",
+                "ROUTE"
             ],
             "description": "Ingress type: ROUTE / REDIRECT Possible values are ROUTE, REDIRECT, .",
             "exposed": true,
@@ -114,11 +114,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 60,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 60,
             "uniqueScope": "no"
         },
         "sourceNATAddress": {
@@ -160,11 +160,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents an External Service in the Application Designer",
+        "description": "Represents an External Service in the Application Designer.",
         "entity_name": "ExternalAppService",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -5,11 +5,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 104857600,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 104857600,
             "uniqueScope": "no"
         },
         "description": {
@@ -17,10 +17,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "global": {
@@ -37,9 +36,8 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         },
         "name": {
@@ -47,10 +45,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "networkNotificationDisabled": {
@@ -64,7 +61,7 @@
         }
     },
     "model": {
-        "description": "Metadata associated to a entity",
+        "description": "Metadata associated to a entity.",
         "entity_name": "AggregateMetadata",
         "extends": [
             "@base"

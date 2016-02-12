@@ -2,8 +2,8 @@
     "attributes": {
         "mcastType": {
             "allowed_choices": [
-                "SEND",
-                "RECEIVE"
+                "RECEIVE",
+                "SEND"
             ],
             "description": "Type of multicast list - send or receive Possible values are SEND, RECEIVE, .",
             "exposed": true,
@@ -22,11 +22,11 @@
         }
     },
     "model": {
-        "description": "This is the definition of a MultiCast Channel List",
+        "description": "This is the definition of a MultiCast Channel List.",
         "entity_name": "MultiCastList",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

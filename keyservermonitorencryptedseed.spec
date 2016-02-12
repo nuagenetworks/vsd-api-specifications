@@ -4,18 +4,20 @@
             "description": "SEK Creation Time",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSEKCreationTime": {
             "description": "The creation time of the associated KeyServer Monitor Seed ID",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSEKID": {
@@ -31,9 +33,10 @@
             "description": "The creation time of the associated KeyServer Monitor Seed ID",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorSeedID": {
@@ -48,9 +51,7 @@
         "enterpriseSecuredDataID": {
             "description": "Enterprise Secured ID record this monitor represents",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -58,19 +59,20 @@
             "description": "KeyServer Certificate Serial Number",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
     "model": {
         "delete": true,
-        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot",
+        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot.",
         "entity_name": "KeyServerMonitorEncryptedSeed",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
