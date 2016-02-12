@@ -6,6 +6,7 @@
                 "HOST"
             ],
             "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE. Possible values are HOST, BRIDGE Possible values are HOST, BRIDGE, .",
+            "exposed": true,
             "filterable": true,
             "orderable": true,
             "type": "enum",
