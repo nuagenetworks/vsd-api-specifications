@@ -94,7 +94,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents a networking communication service",
+        "description": "Represents a networking communication service.",
         "entity_name": "ApplicationService",
         "extends": [
             "@audited",
