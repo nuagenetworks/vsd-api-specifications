@@ -31,7 +31,7 @@
             "uniqueScope": "no"
         },
         "ICMPCode": {
-            "description": null,
+            "description": "The ICMP Code when protocol selected is ICMP",
             "exposed": true,
             "filterable": true,
             "format": "free",
