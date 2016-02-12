@@ -58,16 +58,16 @@
         },
         "role": {
             "allowed_choices": [
-                "ORGAPPDESIGNER",
                 "CMS",
-                "CSPROOT",
-                "UNKNOWN",
-                "SYSTEM",
-                "ORGNETWORKDESIGNER",
-                "ORGADMIN",
-                "JMS",
                 "CSPOPERATOR",
+                "CSPROOT",
+                "JMS",
+                "ORGADMIN",
+                "ORGAPPDESIGNER",
+                "ORGNETWORKDESIGNER",
                 "ORGUSER",
+                "SYSTEM",
+                "UNKNOWN",
                 "USER"
             ],
             "description": "The role associated with this group - CSPROOT, CSPOPERATOR, ORGADMIN, ORGNETWORKDESIGNER, ORGUSER and USER Possible values are SYSTEM, JMS, CSPROOT, CMS, CSPOPERATOR, ORGADMIN, ORGAPPDESIGNER, ORGNETWORKDESIGNER, ORGUSER, USER, UNKNOWN, .",
@@ -92,7 +92,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Identifies a group within an enterprise",
+        "description": "Identifies a group within an enterprise.",
         "entity_name": "Group",
         "extends": [
             "@audited",
