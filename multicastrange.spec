@@ -29,11 +29,11 @@
     },
     "model": {
         "delete": true,
-        "description": "This is the definition of a MultiCast Range associated with a MultiCast Channel Map",
+        "description": "This is the definition of a MultiCast Range associated with a MultiCast Channel Map.",
         "entity_name": "MultiCastRange",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
