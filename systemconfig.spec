@@ -23,6 +23,7 @@
             "format": "free",
             "max_value": 300,
             "min_value": 60,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -32,6 +33,7 @@
             "format": "free",
             "max_value": 86400,
             "min_value": 600,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -40,6 +42,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967295,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -64,6 +67,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967295,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -72,6 +76,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967294,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -81,6 +86,7 @@
             "format": "free",
             "max_value": 4294967295,
             "min_value": 1,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -90,6 +96,7 @@
             "format": "free",
             "max_value": 86400,
             "min_value": 600,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -121,6 +128,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967294,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -129,6 +137,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967294,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -138,6 +147,7 @@
             "format": "free",
             "max_value": 4294967295,
             "min_value": 1,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -147,6 +157,7 @@
             "format": "free",
             "max_value": 4294967295,
             "min_value": 1,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -155,6 +166,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967294,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -163,6 +175,7 @@
             "exposed": true,
             "format": "free",
             "max_value": 4294967294,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -172,6 +185,7 @@
             "format": "free",
             "max_value": 4294967295,
             "min_value": 1,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -181,6 +195,7 @@
             "format": "free",
             "max_value": 4294967295,
             "min_value": 1,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -328,6 +343,7 @@
             "format": "free",
             "max_value": 2147483647,
             "min_value": 10000,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -341,8 +357,8 @@
         "domainTunnelType": {
             "allowed_choices": [
                 "DC_DEFAULT",
-                "VXLAN",
-                "GRE"
+                "GRE",
+                "VXLAN"
             ],
             "description": "Default Domain Tunnel Type .Possible values are VXLAN,GRE Possible values are DC_DEFAULT, GRE, VXLAN, .",
             "exposed": true,
@@ -419,6 +435,7 @@
             "format": "free",
             "max_value": 86400,
             "min_value": 3600,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -436,6 +453,7 @@
             "exposed": true,
             "format": "free",
             "min_value": 250,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -454,6 +472,7 @@
             "format": "free",
             "max_value": 100000,
             "min_value": 25000,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -483,10 +502,10 @@
         },
         "groupKeyDefaultSEKPayloadSigningAlgorithm": {
             "allowed_choices": [
-                "SHA256withRSA",
                 "SHA1withRSA",
-                "SHA384withRSA",
                 "SHA224withRSA",
+                "SHA256withRSA",
+                "SHA384withRSA",
                 "SHA512withRSA"
             ],
             "description": "Group Key Encryption Profile Default Sek Payload Signing Algorithm Possible values are SHA1withRSA, SHA224withRSA, SHA256withRSA, SHA384withRSA, SHA512withRSA, .",
@@ -511,9 +530,9 @@
         },
         "groupKeyDefaultSeedPayloadAuthenticationAlgorithm": {
             "allowed_choices": [
-                "HMAC_SHA512",
                 "HMAC_SHA1",
-                "HMAC_SHA256"
+                "HMAC_SHA256",
+                "HMAC_SHA512"
             ],
             "description": "Group Key Encryption Profile Default Seed Payload Authentication Algorithm Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA512, .",
             "exposed": true,
@@ -535,10 +554,10 @@
         },
         "groupKeyDefaultSeedPayloadSigningAlgorithm": {
             "allowed_choices": [
-                "SHA256withRSA",
                 "SHA1withRSA",
-                "SHA384withRSA",
                 "SHA224withRSA",
+                "SHA256withRSA",
+                "SHA384withRSA",
                 "SHA512withRSA"
             ],
             "description": "Group Key Encryption Profile Default Seed Payload Signature Algorithm Possible values are SHA1withRSA, SHA224withRSA, SHA256withRSA, SHA384withRSA, SHA512withRSA, .",
@@ -549,11 +568,11 @@
         },
         "groupKeyDefaultTrafficAuthenticationAlgorithm": {
             "allowed_choices": [
-                "HMAC_SHA384",
-                "HMAC_SHA512",
-                "HMAC_SHA1",
                 "HMAC_MD5",
-                "HMAC_SHA256"
+                "HMAC_SHA1",
+                "HMAC_SHA256",
+                "HMAC_SHA384",
+                "HMAC_SHA512"
             ],
             "description": "Group Key Encryption Profile Default Traffic Authentication Algorithm Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA384, HMAC_SHA512, HMAC_MD5, .",
             "exposed": true,
@@ -564,8 +583,8 @@
         "groupKeyDefaultTrafficEncryptionAlgorithm": {
             "allowed_choices": [
                 "AES_128_CBC",
-                "AES_256_CBC",
                 "AES_192_CBC",
+                "AES_256_CBC",
                 "TRIPLE_DES_CBC"
             ],
             "description": "Group Key Encryption Profile Default Traffic Encryption Algorithm Possible values are AES_128_CBC, AES_192_CBC, AES_256_CBC, TRIPLE_DES_CBC, .",
@@ -635,6 +654,7 @@
             "exposed": true,
             "format": "free",
             "min_value": 25000,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -701,6 +721,7 @@
             "format": "free",
             "max_value": 2147483646,
             "min_value": 10000,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -710,6 +731,7 @@
             "format": "free",
             "max_value": 2148007977,
             "min_value": 20001,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -743,6 +765,7 @@
             "format": "free",
             "max_value": 86400,
             "min_value": 10,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -752,6 +775,7 @@
             "format": "free",
             "max_value": 2148007978,
             "min_value": 20002,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -762,14 +786,14 @@
             "type": "boolean",
             "uniqueScope": "no"
         },
-        "statefulAclNonTcpTimeout": {
+        "statefulACLNonTCPTimeout": {
             "description": "Defines the timeout in seconds for non TCP and stateful ACLs in version 4.0. Default value is 180 seconds the the timeout should be between 10 and 86400 seconds",
             "exposed": true,
             "filterable": true,
             "orderable": true,
             "type": "integer"
         },
-        "statefulAclTcpTimeout": {
+        "statefulACLTCPTimeout": {
             "default_value": "3600",
             "description": "defines the timeout in seconds for stateful ACLs that are of type TCP. Default value is 3600 secs and the timeout should be between 3600 to 86400 seconds",
             "exposed": true,
@@ -821,6 +845,7 @@
             "description": "Default minimum duration for statistics to be displayed in UI is 30 days in seconds.",
             "exposed": true,
             "format": "free",
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -881,6 +906,7 @@
             "format": "free",
             "max_value": 3600,
             "min_value": 10,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -890,6 +916,7 @@
             "format": "free",
             "max_value": 86400,
             "min_value": 600,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -899,6 +926,7 @@
             "format": "free",
             "max_value": 60,
             "min_value": 5,
+            "subtype": "long",
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -925,7 +953,7 @@
         }
     },
     "model": {
-        "description": "The system configuration which can be dynamically managed using rest api.",
+        "description": "The system configuration of the VSP.",
         "entity_name": "SystemConfig",
         "extends": [
             "@audited",

@@ -4,61 +4,49 @@
             "description": "Read only flag to display if BGP is enabled for this enterprise",
             "exposed": true,
             "filterable": true,
-            "orderable": false,
+            "format": "free",
             "type": "boolean",
             "uniqueScope": "no"
         },
         "DHCPLeaseInterval": {
             "description": "DHCP Lease Interval (in hrs) to be used by an enterprise.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "LDAPAuthorizationEnabled": {
             "description": "Read-only flag - indicates if LDAP is used for authorization for the enterprise. For detailed explanation, see definition in LDAPConfiguration class",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "LDAPEnabled": {
             "description": "Read-only flag - indicates if LDAP is used for authentication for the enterprise. For detailed explanation, see definition in LDAPConfiguration class",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "allowAdvancedQOSConfiguration": {
             "description": "Controls whether this enterprise has access to advanced QoS settings",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "allowGatewayManagement": {
             "description": "This flag indicates if the enterprise/organization can manage gateways. If yes then it can create gateway templates, instantiate them etc.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "allowTrustedForwardingClass": {
             "description": "Controls whether QoS policies and templates created under this enterprise set the trusted flag to true",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -76,71 +64,57 @@
             ],
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "enum",
+            "type": "list",
             "uniqueScope": "no"
         },
         "associatedEnterpriseSecurityID": {
             "description": "Readonly Id of the associated group key encryption profile",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedGroupKeyEncryptionProfileID": {
             "description": "Readonly Id of the associated group key encryption profile",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedKeyServerMonitorID": {
             "description": "Readonly Id of the associated keyserver monitor",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "avatarData": {
             "description": "URL to the avatar data associated with the enterprise. If the avatarType is URL then value of avatarData should an URL of the image. If the avatarType BASE64 then avatarData should be BASE64 encoded value of the image",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "avatarType": {
             "allowed_choices": [
-                "COMPUTEDURL",
                 "BASE64",
+                "COMPUTEDURL",
                 "URL"
             ],
             "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "customerID": {
             "description": "CustomerID that is used by VSC to identify this enterprise. This is a read only attribute.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "description": {
@@ -148,63 +122,51 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "encryptionManagementMode": {
-            "description": "Readonly encryption management mode of the associated profile",
             "allowed_choices": [
                 "DISABLED",
                 "MANAGED"
             ],
+            "description": "Readonly encryption management mode of the associated profile",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "enterpriseProfileID": {
             "description": "Enterprise profile id for this enterprise",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "floatingIPsQuota": {
             "description": "Quota set for the number of floating IPs to be used by an enterprise.",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "min_value": 0,
+            "format": "free",
             "max_value": 250000,
-            "default_value": 0,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "floatingIPsUsed": {
             "description": "Number of floating IPs used by the enterprise from the assigned floatingIPsQuota",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "localAS": {
             "description": "Local autonomous system for the enterprise",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
-            "type": "integer",
-            "subtype": "long",
-            "min_value": 1,
+            "format": "free",
             "max_value": 64495,
+            "min_value": 1,
+            "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "name": {
@@ -212,28 +174,24 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "receiveMultiCastListID": {
             "description": "Readonly Id of the auto generated receive multicast list associated with this enterprise profile",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "sendMultiCastListID": {
             "description": "Readonly Id of the auto generated send multicast list associated with this enterprise profile",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         }
@@ -249,6 +207,11 @@
             "relationship": "child"
         },
         "applicationservice": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
+        "bgpprofile": {
             "create": true,
             "get": true,
             "relationship": "child"
@@ -385,6 +348,11 @@
             "get": true,
             "relationship": "child"
         },
+        "routingpolicy": {
+            "create": true,
+            "get": true,
+            "relationship": "child"
+        },
         "sharednetworkresource": {
             "get": true,
             "relationship": "child"
@@ -401,11 +369,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Definition of the enterprise object. This is the top level object that represents an enterprise or organization.",
+        "description": "Definition of the enterprise object. This is the top level object that represents an organization.",
         "entity_name": "Enterprise",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

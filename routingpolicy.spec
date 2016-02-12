@@ -1,20 +1,21 @@
 {
     "attributes": {
-        "addressType": {
+        "defaultAction": {
             "allowed_choices": [
-                "fqdn",
-                "ip"
+                "ACCEPT",
+                "REJECT"
             ],
-            "description": "Type for stats collector address Possible values are ip, fqdn, .",
+            "description": "accept/reject",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
+            "required": true,
             "type": "enum",
             "uniqueScope": "no"
         },
-        "ipAddress": {
-            "description": "IP address(es) of the stats collector process",
+        "description": {
+            "description": null,
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -22,17 +23,19 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "port": {
-            "description": "Port(s) of the stats collector process",
+        "name": {
+            "creation_only": true,
+            "description": "policy name, unique within an enterprise",
             "exposed": true,
             "filterable": true,
             "format": "free",
             "orderable": true,
+            "required": true,
             "type": "string",
             "uniqueScope": "no"
         },
-        "protoBufPort": {
-            "description": "Protobuf Port(s) of the stats collector process",
+        "policyDefinition": {
+            "description": "String blob",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -43,17 +46,15 @@
     },
     "model": {
         "delete": true,
-        "description": "Identifies the IP address of the stats collector entity that must be used.",
-        "entity_name": "StatsCollectorInfo",
+        "description": "missing documentation.",
+        "entity_name": "RoutingPolicy",
         "extends": [
-            "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "stats",
-        "resource_name": "statisticscollector",
-        "rest_name": "statisticscollector",
+        "resource_name": "routingpolicies",
+        "rest_name": "routingpolicy",
         "update": true
     }
 }

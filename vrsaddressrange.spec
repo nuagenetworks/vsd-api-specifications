@@ -23,11 +23,11 @@
     },
     "model": {
         "delete": true,
-        "description": "This is the definition of a Address Range associated with a VRS",
+        "description": "This is the definition of a Address Range associated with a VRS.",
         "entity_name": "VRSAddressRange",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

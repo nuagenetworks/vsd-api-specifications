@@ -14,7 +14,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "string",
             "uniqueScope": "no"
@@ -22,18 +21,14 @@
         "enterpriseID": {
             "description": "Enterprise that this alarm belongs to",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "errorCondition": {
             "description": "Identifies the error condition",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -50,9 +45,7 @@
         "numberOfOccurances": {
             "description": "Number of times that the alarm was triggered",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
@@ -68,11 +61,11 @@
         },
         "severity": {
             "allowed_choices": [
-                "MINOR",
-                "MAJOR",
-                "WARNING",
                 "CRITICAL",
-                "INFO"
+                "INFO",
+                "MAJOR",
+                "MINOR",
+                "WARNING"
             ],
             "description": "Severity of the alarm.  Possible values are MAJOR, MINOR, CRITICAL, INFO, WARNING, .",
             "exposed": true,
@@ -94,11 +87,10 @@
         "timestamp": {
             "description": "Indicates the time that the alarm was triggered",
             "exposed": true,
-            "filterable": false,
             "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
@@ -107,8 +99,8 @@
         "description": "The alarm API allows the management of system alarms.",
         "entity_name": "Alarm",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

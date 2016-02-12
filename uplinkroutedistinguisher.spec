@@ -11,26 +11,24 @@
         },
         "uplinkType": {
             "allowed_choices": [
-                "RD_PRIMARY2",
                 "RD_PRIMARY1",
+                "RD_PRIMARY2",
                 "RD_SECONDARY1",
                 "RD_SECONDARY2"
             ],
             "description": "Indicates the uplink type associated with the instance of Uplink Route Distinguisher.  Default value is RD Primary1 Possible values are RD_PRIMARY1, RD_PRIMARY2, RD_SECONDARY1, RD_SECONDARY2, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
     },
     "model": {
-        "description": "Represents a network port uplink Route Distinguisher value.",
+        "description": "Represents a network port uplink route distinguisher value.",
         "entity_name": "UplinkRD",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

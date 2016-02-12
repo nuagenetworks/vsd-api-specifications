@@ -2,8 +2,8 @@
     "attributes": {
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -28,11 +28,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -54,11 +54,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Similar to the enterprise macros, the public network macro allows an administrator of an enterprise to define range of subnets that can be used by users in the ACL definition",
+        "description": "Similar to the enterprise macros, the public network macro allows an administrator of an enterprise to define range of subnets that can be used by users in the ACL definition.",
         "entity_name": "PublicNetworkMacro",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

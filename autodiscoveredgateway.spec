@@ -3,11 +3,9 @@
         "controllers": {
             "description": "Controllers to which this gateway instance is associated with.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         },
         "description": {
@@ -15,18 +13,15 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "gatewayID": {
             "description": "The Gateway associated with this  Auto Discovered Gateway  . This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -35,33 +30,32 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "peer": {
             "description": "The System ID of the peer gateway associated with this Gateway instance when it is discovered by the network manager (VSD) as being redundant.",
             "exposed": true,
             "filterable": true,
-            "orderable": true,
-            "min_length": 0,
-            "max_length": 255,
-            "type": "string",
             "format": "free",
+            "max_length": 255,
+            "orderable": true,
+            "type": "string",
             "uniqueScope": "no"
         },
         "personality": {
             "allowed_choices": [
                 "DC7X50",
+                "HARDWARE_VTEP",
+                "NSG",
                 "OTHER",
                 "VRSG",
-                "VSG",
                 "VSA",
-                "HARDWARE_VTEP",
-                "NSG"
+                "VSG"
             ],
             "description": "Personality of the Gateway - VSG,VRSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
             "exposed": true,
@@ -77,10 +71,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "vtep": {
@@ -88,10 +82,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
@@ -114,11 +107,11 @@
         }
     },
     "model": {
-        "description": "Represents Auto discovered Gateway",
+        "description": "Represents Auto discovered Gateway.",
         "entity_name": "AutoDiscoveredGateway",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

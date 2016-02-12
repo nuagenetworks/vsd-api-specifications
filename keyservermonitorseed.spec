@@ -6,8 +6,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "lifetime": {
@@ -21,11 +21,11 @@
         },
         "seedTrafficAuthenticationAlgorithm": {
             "allowed_choices": [
-                "HMAC_SHA384",
-                "HMAC_SHA512",
-                "HMAC_SHA1",
                 "HMAC_MD5",
-                "HMAC_SHA256"
+                "HMAC_SHA1",
+                "HMAC_SHA256",
+                "HMAC_SHA384",
+                "HMAC_SHA512"
             ],
             "description": "Seed traffic Authentication Algorithm. Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA384, HMAC_SHA512, HMAC_MD5, .",
             "exposed": true,
@@ -38,8 +38,8 @@
         "seedTrafficEncryptionAlgorithm": {
             "allowed_choices": [
                 "AES_128_CBC",
-                "AES_256_CBC",
                 "AES_192_CBC",
+                "AES_256_CBC",
                 "TRIPLE_DES_CBC"
             ],
             "description": "Seed traffic Encryption Algorithm. Possible values are AES_128_CBC, AES_192_CBC, AES_256_CBC, TRIPLE_DES_CBC, .",
@@ -65,8 +65,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
@@ -78,11 +78,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents a Keyserver Monitor Seed Snapshot",
+        "description": "Represents a Keyserver Monitor Seed Snapshot.",
         "entity_name": "KeyServerMonitorSeed",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -23,10 +23,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "name": {
@@ -34,11 +33,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
@@ -60,11 +59,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Metadata tag associated to a metadata",
+        "description": "Metadata tag associated to a metadata.",
         "entity_name": "MetadataTag",
         "extends": [
-            "@base",
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": "common",
