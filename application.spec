@@ -3,18 +3,14 @@
         "assocEgressACLTemplateId": {
             "description": "The ID of the ACL template that this application is pointing to",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "assocIngressACLTemplateId": {
             "description": "The ID of the ACL template that this application is pointing to",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -29,13 +25,14 @@
             "uniqueScope": "no"
         },
         "associatedDomainType": {
-            "description": "Type of domain (DOMAIN, L2DOMAIN). Refer to API section for supported types.",
             "allowed_choices": [
                 "DOMAIN",
                 "L2DOMAIN"
             ],
+            "description": "Type of domain (DOMAIN, L2DOMAIN). Refer to API section for supported types.",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "required": true,
             "type": "enum",
@@ -44,20 +41,19 @@
         "associatedNetworkObjectID": {
             "description": "ID of the network object that this App is associated with.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedNetworkObjectType": {
-            "description": "Type of network object this App is associated with (ENTERPRISE, DOMAIN) Refer to API section for supported types.",
             "allowed_choices": [
-                "ENTERPRISE",
-                "DOMAIN"
+                "DOMAIN",
+                "ENTERPRISE"
             ],
+            "description": "Type of network object this App is associated with (ENTERPRISE, DOMAIN) Refer to API section for supported types.",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -67,10 +63,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "name": {
@@ -78,11 +73,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         }
     },
@@ -108,11 +103,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents a real life application like a vendor website, or a social network.",
+        "description": "Represents a real life application like a vendor website, or a social network",
         "entity_name": "App",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
