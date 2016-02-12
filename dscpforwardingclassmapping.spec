@@ -10,7 +10,6 @@
             "uniqueScope": "no"
         },
         "forwardingClass": {
-            "description": "Class of service to be used.  Service classes in order of priority are A, B, C, D, E, F, G, and H.",
             "allowed_choices": [
                 "A",
                 "B",
@@ -22,6 +21,7 @@
                 "H",
                 "NONE"
             ],
+            "description": "Class of service to be used.  Service classes in order of priority are A, B, C, D, E, F, G, and H.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -32,11 +32,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Provides the definition of a single DSCP -> Forwarding class mapping that is part of a Table used in QoS policies.",
+        "description": "Provides the definition of a single DSCP to a Forwarding class mapping that is part of a Table used in QoS policies.",
         "entity_name": "DSCPForwardingClassMapping",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
