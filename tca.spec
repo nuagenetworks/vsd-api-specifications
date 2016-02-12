@@ -20,6 +20,7 @@
         },
         "metric": {
             "allowed_choices": [
+                "ADDRESS_MAP_EGRESS_PKT_CNT",
                 "ADDRESS_MAP_INGRESS_BYTE_CNT",
                 "ADDRESS_MAP_INGRESS_PKT_CNT",
                 "BYTES_IN",
