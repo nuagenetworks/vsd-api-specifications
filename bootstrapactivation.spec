@@ -308,8 +308,8 @@
         "description": "NSG Gateway initiated Bootstrap Activation.",
         "entity_name": "BootstrapActivation",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": false,

@@ -1799,8 +1799,8 @@
         "description": "Represents a VCenter.",
         "entity_name": "VCenter",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

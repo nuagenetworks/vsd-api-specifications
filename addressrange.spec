@@ -101,9 +101,9 @@
         "description": "This is the definition of a Address Range associated with a Network.",
         "entity_name": "AddressRange",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

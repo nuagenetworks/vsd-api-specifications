@@ -206,8 +206,8 @@
         "entity_name": "InfrastructurePortProfile",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "infrastructure",

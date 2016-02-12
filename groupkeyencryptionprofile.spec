@@ -561,9 +561,9 @@
         "description": "Represents a Group Key Profile.",
         "entity_name": "GroupKeyEncryptionProfile",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "keyserver",

@@ -274,8 +274,8 @@
         "description": "The alarm API allows the management of system alarms.",
         "entity_name": "Alarm",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

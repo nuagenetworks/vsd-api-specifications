@@ -242,8 +242,8 @@
         "description": "missing documentation.",
         "entity_name": "BGPProfile",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": null,

@@ -259,9 +259,9 @@
         "description": "Provides the definition of the Threshold Control Alarms.",
         "entity_name": "TCA",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "stats",

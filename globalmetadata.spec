@@ -177,8 +177,8 @@
         "entity_name": "GlobalMetadata",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "common",

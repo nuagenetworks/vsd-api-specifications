@@ -66,9 +66,9 @@
         "description": "Gateway bootstrap details.",
         "entity_name": "Bootstrap",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",
