@@ -10,26 +10,24 @@
             "uniqueScope": "no"
         },
         "configStatus": {
-            "description": "Status of the configuration application",
             "allowed_choices": [
-                "UNKNOWN",
+                "FAILURE",
                 "SUCCESS",
-                "FAILURE"
+                "UNKNOWN"
             ],
+            "description": "Status of the configuration application",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         }
     },
     "model": {
-        "description": "Represents Infrastructure Config",
+        "description": "Represents Infrastructure Config.",
         "entity_name": "InfrastructureConfig",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "package": "gateway",
