@@ -96,7 +96,7 @@
     },
     "model": {
         "delete": true,
-        "description": "The alarm API allows the management of system alarms",
+        "description": "The alarm API allows the management of system alarms.",
         "entity_name": "Alarm",
         "extends": [
             "@audited",
