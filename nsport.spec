@@ -2,8 +2,8 @@
     "attributes": {
         "NATTraversal": {
             "allowed_choices": [
-                "NONE",
                 "FULL_NAT",
+                "NONE",
                 "ONE_TO_ONE_NAT"
             ],
             "description": "Defines the NAT traversal mode of the NSG Port",
@@ -20,34 +20,27 @@
             "filterable": true,
             "format": "free",
             "max_length": 255,
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedRedundantPortID": {
             "description": "ID of the redundant port to which the Port is associated to.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedVSCProfileID": {
             "description": "The ID of the infrastructure VSC profile this is associated with this instance of a port or port template.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -64,9 +57,7 @@
         "infrastructureProfileID": {
             "description": "The ID of the infrastructure profile this instance is associated with.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -84,18 +75,16 @@
         },
         "permittedAction": {
             "allowed_choices": [
+                "ALL",
+                "DEPLOY",
                 "EXTEND",
                 "INSTANTIATE",
-                "DEPLOY",
-                "USE",
                 "READ",
-                "ALL"
+                "USE"
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -128,25 +117,21 @@
         },
         "status": {
             "allowed_choices": [
-                "ORPHAN",
-                "MISMATCH",
                 "INITIALIZED",
+                "MISMATCH",
+                "ORPHAN",
                 "READY"
             ],
             "description": "Status of the port. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the template that this Port was created from",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -204,7 +189,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents Port under a particular NS gateway object.",
+        "description": "Represents a Port of a particular NS gateway object.",
         "entity_name": "NSPort",
         "extends": [
             "@audited",

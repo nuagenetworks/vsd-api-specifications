@@ -12,20 +12,10 @@
         "associatedEgressQOSPolicyID": {
             "description": "ID of the Egress QoS Policy associated with this VLAN.",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
-        }, 
-        "associatedBGPProfileID": {
-            "description": null, 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "string"
-        }, 
+        },
         "description": {
             "description": "A description of the Port",
             "exposed": true,
@@ -39,26 +29,22 @@
         "gatewayID": {
             "description": "The Gateway associated with this  VLAN  . This is a read only attribute",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
         "permittedAction": {
             "allowed_choices": [
+                "ALL",
+                "DEPLOY",
                 "EXTEND",
                 "INSTANTIATE",
-                "DEPLOY",
-                "USE",
                 "READ",
-                "ALL"
+                "USE"
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -82,25 +68,21 @@
         },
         "status": {
             "allowed_choices": [
-                "ORPHAN",
-                "MISMATCH",
                 "INITIALIZED",
+                "MISMATCH",
+                "ORPHAN",
                 "READY"
             ],
             "description": "Status of the VLAN. Possible values are - INITIALIZED, ORPHAN, READY, MISMATCH Possible values are INITIALIZED, ORPHAN, READY, MISMATCH, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the template that this Port was created from",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -120,7 +102,6 @@
             "format": "free",
             "max_length": 255,
             "orderable": true,
-            "required": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -138,9 +119,7 @@
         "vportID": {
             "description": "The Vport associated with this  VLAN  . This is a read only attribute",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         }
@@ -154,7 +133,7 @@
             "create": true,
             "get": true,
             "relationship": "child"
-        }, 
+        },
         "enterprisepermission": {
             "create": true,
             "get": true,
@@ -177,7 +156,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents VLAN object under a given PORT object",
+        "description": "Represents VLAN object under a given PORT object.",
         "entity_name": "VLAN",
         "extends": [
             "@audited",

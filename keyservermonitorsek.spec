@@ -4,9 +4,10 @@
             "description": "The time this entry was created (milliseconds since epoch)",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "lifetime": {
@@ -20,9 +21,9 @@
         },
         "seedPayloadAuthenticationAlgorithm": {
             "allowed_choices": [
-                "HMAC_SHA512",
                 "HMAC_SHA1",
-                "HMAC_SHA256"
+                "HMAC_SHA256",
+                "HMAC_SHA512"
             ],
             "description": "SEK Payload Signature Algorithm Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA512, .",
             "exposed": true,
@@ -50,9 +51,10 @@
             "description": "The time this entry  was activated (milliseconds since epoch)",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
@@ -68,11 +70,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents a Keyserver Monitor SEK Snapshot",
+        "description": "Represents a Keyserver Monitor SEK Snapshot.",
         "entity_name": "KeyServerMonitorSEK",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

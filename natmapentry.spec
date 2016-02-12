@@ -1,7 +1,15 @@
 {
     "attributes": {
-        "IPAddress": {
-            "description": "Static IP Address",
+        "associatedPATNATPoolID": {
+            "description": "Read Only - Indicates which PATNATPool this entry belongs to",
+            "exposed": true,
+            "format": "free",
+            "required": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "privateIP": {
+            "description": "Private IP address of the interface",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -10,8 +18,8 @@
             "type": "string",
             "uniqueScope": "no"
         },
-        "MAC": {
-            "description": "MAC Address",
+        "publicIP": {
+            "description": "Public IP address of the interface",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -19,36 +27,20 @@
             "required": true,
             "type": "string",
             "uniqueScope": "no"
-        },
-        "dynamicAllocationEnabled": {
-            "description": "Binding is static or dynamic",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "boolean",
-            "uniqueScope": "no"
-        }
-    },
-    "children": {
-        "eventlog": {
-            "get": true,
-            "relationship": "child"
         }
     },
     "model": {
         "delete": true,
-        "description": "This is the definition of a IP Bindings associated with in a Network.",
-        "entity_name": "IPReservation",
+        "description": "Defines a MAP between the private ip and public ip.",
+        "entity_name": "NATMapEntry",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "network",
-        "resource_name": "ipreservations",
-        "rest_name": "ipreservation",
-        "update": true
+        "package": "gateway",
+        "resource_name": "natmapentries",
+        "rest_name": "natmapentry"
     }
 }

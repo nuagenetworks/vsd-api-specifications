@@ -5,59 +5,48 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "alreadyMarkedForUnavailable": {
             "description": "Flag to indicate that it is already marked a unavailable.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "averageCPUUsage": {
             "description": "Average CPU usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "averageMemoryUsage": {
             "description": "Average memory usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "currentCPUUsage": {
             "description": "Current CPU usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "currentMemoryUsage": {
             "description": "Current memory usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "description": {
@@ -65,30 +54,24 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "disks": {
             "description": "Set of disk usage details.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "object",
+            "type": "list",
             "uniqueScope": "no"
         },
         "lastStateChange": {
             "description": "Last state change timestamp (in millis).",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "location": {
@@ -96,10 +79,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 128,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 128,
             "uniqueScope": "no"
         },
         "managementIP": {
@@ -107,20 +89,17 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "messages": {
             "description": "An array of degraded messages.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         },
         "model": {
@@ -128,10 +107,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 255,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "name": {
@@ -139,30 +117,26 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 128,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 128,
             "uniqueScope": "no"
         },
         "peakCPUUsage": {
             "description": "Peek CPU usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "peakMemoryUsage": {
             "description": "Peek memory usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "productVersion": {
@@ -170,17 +144,17 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 50,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 50,
             "uniqueScope": "no"
         },
         "status": {
             "allowed_choices": [
+                "ADMIN_DOWN",
                 "DOWN",
-                "UP",
-                "ADMIN_DOWN"
+                "UP"
             ],
             "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
@@ -193,9 +167,9 @@
         "type": {
             "allowed_choices": [
                 "DC7X50",
-                "VSG",
+                "NONE",
                 "VSA",
-                "NONE"
+                "VSG"
             ],
             "description": "The type of the hardware service controller Possible values are VSA, VSG, DC7X50, NONE, .",
             "exposed": true,
@@ -208,21 +182,17 @@
         "unavailableTimestamp": {
             "description": "The duration the controller is unavailable (in millis).",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "vsds": {
             "description": "A collection of VSD id(s) which are identified by this controller.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         }
     },
@@ -254,11 +224,11 @@
     },
     "model": {
         "delete": true,
-        "description": "System Monitoring details for hardware service controllers",
+        "description": "System Monitoring details for hardware service controllers.",
         "entity_name": "HSC",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -2,9 +2,9 @@
     "attributes": {
         "JSONRPCConnectionState": {
             "allowed_choices": [
+                "ADMIN_DOWN",
                 "DOWN",
-                "UP",
-                "ADMIN_DOWN"
+                "UP"
             ],
             "description": "The current JSON RPC connection status. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
@@ -19,72 +19,59 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "averageCPUUsage": {
             "description": "Average CPU usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "averageMemoryUsage": {
             "description": "Average memory usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "clusterNodeRole": {
             "allowed_choices": [
-                "SECONDARY",
+                "NONE",
                 "PRIMARY",
-                "NONE"
+                "SECONDARY"
             ],
             "description": "Indicate that the controller associated is primary, secondary or unknown. Possible values are PRIMARY, SECONDARY, NONE, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "currentCPUUsage": {
             "description": "Current CPU usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "currentMemoryUsage": {
             "description": "Current memory usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "dbSynced": {
             "description": "Flag to indicate if the ovs database is synced between the NSG pair part of a redundant group",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -93,42 +80,34 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "disks": {
             "description": "Set of disk usage details.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "object",
+            "type": "list",
             "uniqueScope": "no"
         },
         "dynamic": {
             "description": "Flag to indicate it is dynamically configured or not.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "hypervisorConnectionState": {
             "allowed_choices": [
+                "ADMIN_DOWN",
                 "DOWN",
-                "UP",
-                "ADMIN_DOWN"
+                "UP"
             ],
             "description": "The VRS connection state with the hypervisor. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -137,10 +116,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "hypervisorName": {
@@ -148,10 +126,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 128,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "hypervisorType": {
@@ -159,52 +136,43 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 128,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "lastEventName": {
             "description": "The last event name from the hypervisor.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 128,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "lastEventObject": {
             "description": "The last event object (including metadata) from the hypervisor.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 255,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "lastEventTimestamp": {
             "description": "The last event timestamp from the hypervisor.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "lastStateChange": {
             "description": "Last state change timestamp (in millis).",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "location": {
@@ -212,10 +180,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 128,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 128,
             "uniqueScope": "no"
         },
         "managementIP": {
@@ -223,28 +190,23 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "messages": {
             "description": "An array of degraded messages.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         },
         "multiNICVPortEnabled": {
             "description": "VRS is in Multi-NIC VPORT Mode",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -253,67 +215,55 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 128,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 128,
             "uniqueScope": "no"
         },
         "numberOfBridgeInterfaces": {
             "description": "Number of bridge interfaces defined in this VRS.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "numberOfHostInterfaces": {
             "description": "Number of host interfaces defined in this VRS.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "numberOfVirtualMachines": {
             "description": "Number of VMs defined in this VRS.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "integer",
             "uniqueScope": "no"
         },
         "parentIDs": {
             "description": "Holds VRS controllers ids",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "list",
             "subtype": "string",
+            "type": "list",
             "uniqueScope": "no"
         },
         "peakCPUUsage": {
             "description": "Peek CPU usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "peakMemoryUsage": {
             "description": "Peek memory usage percentage.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "float",
             "subtype": "double",
+            "type": "float",
             "uniqueScope": "no"
         },
         "peer": {
@@ -321,19 +271,18 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 50,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "personality": {
             "allowed_choices": [
-                "VRSG",
-                "VRS",
                 "HARDWARE_VTEP",
                 "NONE",
-                "NSG"
+                "NSG",
+                "VRS",
+                "VRSG"
             ],
             "description": "VRS personality. Possible values are VRSG, VRS, NSG, NONE, HARDWARE_VTEP, .",
             "exposed": true,
@@ -348,31 +297,29 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 50,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 50,
             "uniqueScope": "no"
         },
         "role": {
             "allowed_choices": [
-                "SLAVE",
                 "MASTER",
-                "NONE"
+                "NONE",
+                "SLAVE"
             ],
             "description": "Flag to indicate that VRS-G redundancy state (active/standby/standalone).  Only applicable for gateways. Possible values are MASTER, SLAVE, NONE, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "status": {
             "allowed_choices": [
+                "ADMIN_DOWN",
                 "DOWN",
-                "UP",
-                "ADMIN_DOWN"
+                "UP"
             ],
             "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
@@ -385,11 +332,9 @@
         "uptime": {
             "description": "How long the VRS was up.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
@@ -433,11 +378,11 @@
     },
     "model": {
         "delete": true,
-        "description": "System Monitoring details for VRS connected to VSC or HSC",
+        "description": "System Monitoring details for VRS connected to VSC or HSC.",
         "entity_name": "VRS",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

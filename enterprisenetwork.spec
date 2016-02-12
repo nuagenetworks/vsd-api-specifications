@@ -2,8 +2,8 @@
     "attributes": {
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -28,11 +28,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -59,11 +59,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks",
+        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks.",
         "entity_name": "EnterpriseNetwork",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

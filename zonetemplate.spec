@@ -2,8 +2,8 @@
     "attributes": {
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -25,9 +25,7 @@
         "associatedMulticastChannelMapID": {
             "description": "The ID of the Multi Cast Channel Map  this zone/zone template is associated with. This has to be set when  enableMultiCast is set to ENABLED",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -36,37 +34,33 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "encryption": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "Determines whether or not IPSEC is enabled. Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "multicast": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "multicast is enum that indicates multicast policy on zone/zone template. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -75,11 +69,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -128,11 +122,11 @@
     },
     "model": {
         "delete": true,
-        "description": "As in domains and subnets, zones are derived from templates. This object provides the definition of the template",
+        "description": "As in domains and subnets, zones are derived from templates. This object provides the definition of the template.",
         "entity_name": "ZoneTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

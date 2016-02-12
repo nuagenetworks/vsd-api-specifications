@@ -5,11 +5,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "description": {
@@ -17,10 +17,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "name": {
@@ -28,11 +27,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "siteIdentifier": {
@@ -40,10 +39,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "xmppDomain": {
@@ -51,21 +50,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
     "model": {
         "delete": true,
-        "description": "Remote Site info",
+        "description": "Remote Site info.",
         "entity_name": "SiteInfo",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

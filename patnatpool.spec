@@ -3,24 +3,27 @@
         "associatedGatewayId": {
             "description": "Default PAT IP Address, must belong to the pool above",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "associatedGatewayId": {
+            "description": "Default PAT IP Address, must belong to the pool above",
+            "exposed": true,
+            "format": "free",
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedGatewayType": {
             "allowed_choices": [
-                "GATEWAY",
-                "NSGATEWAY",
                 "AUTO_DISC_GATEWAY",
-                "IKEV2_GATEWAY"
+                "GATEWAY",
+                "IKEV2_GATEWAY",
+                "NSGATEWAY"
             ],
             "description": "",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -43,10 +46,8 @@
         "description": {
             "description": "A description of the PATNATPool",
             "exposed": true,
-            "filterable": true,
             "format": "free",
             "max_length": 255,
-            "orderable": true,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -79,18 +80,16 @@
         },
         "permittedAction": {
             "allowed_choices": [
+                "ALL",
+                "DEPLOY",
                 "EXTEND",
                 "INSTANTIATE",
-                "DEPLOY",
-                "USE",
                 "READ",
-                "ALL"
+                "USE"
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
-            "filterable": true,
             "format": "free",
-            "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -125,7 +124,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents PAT NAT Pool object.",
+        "description": "Represents a PAT NAT Pool object.",
         "entity_name": "PATNATPool",
         "extends": [
             "@audited",

@@ -3,8 +3,7 @@
         "accessControl": {
             "description": "If access control is enabled this FIP is part of the Internet PG.",
             "exposed": true,
-            "filterable": false,
-            "orderable": false,
+            "format": "free",
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -21,7 +20,7 @@
             "description": "True if this floating IP is assigned to a network interface else the value is false",
             "exposed": true,
             "filterable": true,
-            "orderable": false,
+            "format": "free",
             "type": "boolean",
             "uniqueScope": "no"
         },
@@ -37,9 +36,7 @@
         "associatedSharedNetworkResourceID": {
             "description": "Id of the shared network resource subnet which was used to get this floating IP address",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "required": true,
             "type": "string",
             "uniqueScope": "no"
@@ -57,11 +54,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality",
+        "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality.",
         "entity_name": "FloatingIp",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

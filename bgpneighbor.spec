@@ -22,6 +22,7 @@
             "description": null,
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "type": "boolean",
             "uniqueScope": "no"
@@ -32,7 +33,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "name": {
             "description": "Name of the peer",
@@ -40,7 +42,8 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "string"
+            "type": "string",
+            "uniqueScope": "no"
         },
         "peerAS": {
             "description": "neighbor's autonomous system",
@@ -73,6 +76,7 @@
     },
     "model": {
         "delete": true,
+        "description": "missing documentation.",
         "entity_name": "BGPNeighbor",
         "extends": [
             "@base",

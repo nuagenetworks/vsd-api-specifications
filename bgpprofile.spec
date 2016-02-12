@@ -86,6 +86,7 @@
     },
     "model": {
         "delete": true,
+        "description": "missing documentation.",
         "entity_name": "BGPProfile",
         "extends": [
             "@base",

@@ -3,9 +3,7 @@
         "autoDiscGatewayID": {
             "description": "The Auto Discovered Gateway associated with this Gateway Instance",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -14,18 +12,15 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -34,22 +29,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "peer": {
             "description": "The System ID of the peer gateway associated with this Gateway instance when it is discovered by the network manager (VSD) as being redundant.",
             "exposed": true,
             "filterable": true,
-            "orderable": true,
-            "min_length": 0,
-            "max_length": 255,
-            "type": "string",
             "format": "free",
+            "max_length": 255,
+            "orderable": true,
+            "type": "string",
             "uniqueScope": "no"
         },
         "pending": {
@@ -57,36 +51,33 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "permittedAction": {
             "allowed_choices": [
+                "ALL",
+                "DEPLOY",
                 "EXTEND",
                 "INSTANTIATE",
-                "DEPLOY",
-                "USE",
                 "READ",
-                "ALL"
+                "USE"
             ],
             "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "personality": {
             "allowed_choices": [
                 "DC7X50",
+                "HARDWARE_VTEP",
+                "NSG",
                 "OTHER",
                 "VRSG",
-                "VSG",
                 "VSA",
-                "HARDWARE_VTEP",
-                "NSG"
+                "VSG"
             ],
             "description": "Personality of the Gateway - VSG,VRSG,NSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
             "exposed": true,
@@ -100,9 +91,7 @@
         "redundancyGroupID": {
             "description": "The Redundancy Gateway Group associated with this Gateway Instance. This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -111,18 +100,16 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the template that this Gateway was created from. This should be set when instantiating a Gateway",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -131,13 +118,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         }
-
     },
     "children": {
         "alarm": {
@@ -184,8 +169,8 @@
         "description": "Represents Gateway object.",
         "entity_name": "Gateway",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
