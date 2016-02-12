@@ -1,5 +1,19 @@
 {
     "attributes": {
+        "IPType": {
+            "allowed_choices": [
+                "IPV6",
+                "IPV4",
+                "DUALSTACK"
+            ],
+            "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, DUALSTACK.",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
         "DHCPPoolType": {
             "allowed_choices": [
                 "BRIDGE",

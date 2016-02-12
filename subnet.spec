@@ -3,7 +3,8 @@
         "IPType": {
             "allowed_choices": [
                 "IPV4",
-                "IPV6"
+                "IPV6",
+                "DUALSTACK"
             ],
             "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -27,6 +28,15 @@
             "uniqueScope": "no"
         },
         "address": {
+            "description": "IP address of the subnet defined. In case of zone, this is an optional field for and allows users to allocate an IP address range to a zone. The VSD will auto-assign IP addresses to subnets from this range if a specific IP address is not defined for the subnet",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "IPv6Address": {
             "description": "IP address of the subnet defined. In case of zone, this is an optional field for and allows users to allocate an IP address range to a zone. The VSD will auto-assign IP addresses to subnets from this range if a specific IP address is not defined for the subnet",
             "exposed": true,
             "filterable": true,
@@ -305,6 +315,19 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "defaultAction": {
+            "allowed_choices": [
+                "DROP_TRAFFIC",
+                "USE_UNDERLAY"
+            ],
+            "description": "If PAT is disabled then this flag indicates what to do if routes don't exist in overlay, will default to drop | possible values USE_UNDERLAY, DROP_TRAFFIC Possible values are USE_UNDERLAY, DROP_TRAFFIC, .",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "enum",
+            "uniqueScope": "no"
+        },
         "description": {
             "description": "A description field provided by the user that identifies the subnet",
             "exposed": true,
@@ -329,6 +352,15 @@
         },
         "gateway": {
             "description": "The IP address of the gateway of this subnet",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
+        "IPv6Gateway": {
+            "description": "The IPv6 address of the gateway of this subnet",
             "exposed": true,
             "filterable": true,
             "format": "free",
