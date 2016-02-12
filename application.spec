@@ -103,7 +103,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents a real life application like a vendor website, or a social network",
+        "description": "Represents a real life application like a vendor website, or a social network.",
         "entity_name": "App",
         "extends": [
             "@audited",
