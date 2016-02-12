@@ -19,6 +19,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "ICMPType": {
+            "description": "The ICMP Type when protocol selected is ICMP",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "action": {
             "allowed_choices": [
                 "DROP",
@@ -342,15 +351,6 @@
             "format": "free",
             "orderable": true,
             "type": "boolean",
-            "uniqueScope": "no"
-        },
-        "icmpType": {
-            "description": "The ICMP Type when protocol selected is ICMP",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
             "uniqueScope": "no"
         },
         "locationID": {
