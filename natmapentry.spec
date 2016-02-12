@@ -29,6 +29,12 @@
             "uniqueScope": "no"
         }
     },
+    "children": {
+        "statistics": {
+            "get": true,
+            "relationship": "child"
+        }
+    },
     "model": {
         "delete": true,
         "description": "Defines a MAP between the private ip and public ip.",
