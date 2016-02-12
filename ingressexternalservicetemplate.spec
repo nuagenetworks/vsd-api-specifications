@@ -14,7 +14,6 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -23,10 +22,8 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "name": {
@@ -34,20 +31,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "policyState": {
-            "description": "",
             "allowed_choices": [
                 "DRAFT",
                 "LIVE"
             ],
+            "description": "",
             "exposed": true,
             "filterable": true,
+            "format": "free",
             "orderable": true,
             "type": "enum",
             "uniqueScope": "no"
@@ -63,9 +61,9 @@
         },
         "priorityType": {
             "allowed_choices": [
-                "TOP",
                 "BOTTOM",
-                "NONE"
+                "NONE",
+                "TOP"
             ],
             "description": "",
             "exposed": true,
@@ -89,7 +87,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Defines the template for an Ingress External Service Acls",
+        "description": "Defines the template for an Ingress External Service Acls.",
         "entity_name": "IngressExternalServiceTemplate",
         "extends": [
             "@base",
