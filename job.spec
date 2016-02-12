@@ -308,7 +308,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents JOB entity. The job API accepts a command and parameters and executes the job and returns the results. Jobs API are typically used for long running tasks",
+        "description": "Represents JOB entity. The job API accepts a command and parameters and executes the job and returns the results. Jobs API are typically used for long running tasks.",
         "entity_name": "Job",
         "extends": [
             "@audited",
