@@ -166,7 +166,7 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents Gateway object",
+        "description": "Represents Gateway object.",
         "entity_name": "Gateway",
         "extends": [
             "@audited",
