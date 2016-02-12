@@ -10,6 +10,15 @@
             "type": "string",
             "uniqueScope": "no"
         },
+        "ICMPCode": {
+            "description": "The ICMP Code when selected protocol is ICMP",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "orderable": true,
+            "type": "string",
+            "uniqueScope": "no"
+        },
         "ICMPType": {
             "description": "The ICMP Type when selected protocol is ICMP",
             "exposed": true,
@@ -342,15 +351,6 @@
             "format": "free",
             "orderable": true,
             "type": "boolean",
-            "uniqueScope": "no"
-        },
-        "icmpCode": {
-            "description": "The ICMP Code when selected protocol is ICMP",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": true,
-            "type": "string",
             "uniqueScope": "no"
         },
         "locationID": {
