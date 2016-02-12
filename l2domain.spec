@@ -11,8 +11,8 @@
         },
         "IPType": {
             "allowed_choices": [
-                "IPV6",
-                "IPV4"
+                "IPV4",
+                "IPV6"
             ],
             "description": "IPv4 or IPv6(only IPv4 is supported in R2.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
@@ -34,18 +34,14 @@
         "associatedMulticastChannelMapID": {
             "description": "The ID of the Multi Cast Channel Map this L2Domain / L2Domain template template is associated with. This has to be set when  enableMultiCast is set to ENABLED",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "associatedSharedNetworkResourceID": {
             "description": "The ID of the L2 Domain  that this L2 Domain object is pointing to",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -54,8 +50,19 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "string",
+            "uniqueScope": "no"
+        },
+        "encryption": {
+            "allowed_choices": [
+                "DISABLED",
+                "ENABLED"
+            ],
+            "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED, .",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+            "type": "enum",
             "uniqueScope": "no"
         },
         "gateway": {
@@ -70,37 +77,32 @@
         "gatewayMACAddress": {
             "description": "The MAC address of the Gateway.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "maintenanceMode": {
             "allowed_choices": [
-                "ENABLED",
                 "DISABLED",
+                "ENABLED",
                 "ENABLED_INHERITED"
             ],
             "description": "maintenanceMode is an enum that indicates if the L2Domain is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "multicast": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "multicast is enum that indicates multicast policy on L2Domain / L2Domain template. Possible values are ENABLED and DISABLED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -109,11 +111,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         },
         "netmask": {
@@ -127,15 +129,14 @@
         },
         "policyChangeStatus": {
             "allowed_choices": [
-                "STARTED",
+                "APPLIED",
                 "DISCARDED",
-                "APPLIED"
+                "STARTED"
             ],
             "description": "",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
@@ -163,65 +164,44 @@
             "filterable": true,
             "format": "free",
             "orderable": true,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "stretched": {
             "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "templateID": {
             "description": "The ID of the L2 Domain template that this L2 Domain object was derived from",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
         "uplinkPreference": {
             "allowed_choices": [
-                "SECONDARY",
-                "SYMMETRIC",
-                "SECONDARY_PRIMARY",
                 "PRIMARY",
-                "PRIMARY_SECONDARY"
+                "PRIMARY_SECONDARY",
+                "SECONDARY",
+                "SECONDARY_PRIMARY",
+                "SYMMETRIC"
             ],
             "description": "Indicates the preferencial path selection for network traffic in this domain - Default is Primary 1 and Secondary 2. Possible values are PRIMARY_SECONDARY, SECONDARY_PRIMARY, PRIMARY, SECONDARY, SYMMETRIC, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "vnId": {
             "description": "Current Network's  globally unique  VXLAN network identifier generated by VSD",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
-            "uniqueScope": "no"
-        },
-        "encryption": {
-            "allowed_choices": [
-                "ENABLED",
-                "DISABLED"
-            ],
-            "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED, .",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-            "orderable": false,
-            "type": "enum",
+            "type": "integer",
             "uniqueScope": "no"
         }
     },
@@ -348,11 +328,11 @@
     },
     "model": {
         "delete": true,
-        "description": "This is the definition of a l2 domain associated with a Enterprise",
+        "description": "This is the definition of a l2 domain associated with a Enterprise.",
         "entity_name": "L2Domain",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

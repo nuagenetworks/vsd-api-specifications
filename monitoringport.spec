@@ -3,31 +3,25 @@
         "access": {
             "description": "Flag to indicate that it is a access port or network port.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         },
         "description": {
             "description": "Optional port description.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 255,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "lastStateChange": {
             "description": "Last port state change timestamp.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
-            "type": "integer",
             "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         "name": {
@@ -35,17 +29,17 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "resiliencyState": {
             "allowed_choices": [
-                "none",
+                "backup",
                 "master",
-                "backup"
+                "none"
             ],
             "description": "",
             "exposed": true,
@@ -66,30 +60,26 @@
         },
         "state": {
             "allowed_choices": [
+                "ADMIN_DOWN",
                 "DOWN",
-                "UP",
-                "ADMIN_DOWN"
+                "UP"
             ],
             "description": "The current state of the port. Possible values are UP, DOWN, ADMIN_DOWN, .",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "enum",
             "uniqueScope": "no"
         },
         "uplink": {
             "description": "Flag to indicate that is an uplink or downlink port.",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "boolean",
             "uniqueScope": "no"
         }
     },
     "model": {
-        "description": "Encapsulates the port information for system monitor entity.",
+        "description": "Encapsulates the port information for system monitoring entity.",
         "entity_name": "MonitoringPort",
         "extends": [
             "@base",

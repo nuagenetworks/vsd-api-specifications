@@ -38,9 +38,9 @@
         },
         "PATEnabled": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "Indicates whether PAT is enabled for the subnets in this domain - ENABLED/DISABLED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
@@ -51,8 +51,8 @@
         },
         "applicationDeploymentPolicy": {
             "allowed_choices": [
-                "ZONE",
-                "NONE"
+                "NONE",
+                "ZONE"
             ],
             "description": "Application deployment policy. Possible values are NONE, ZONE, .",
             "exposed": true,
@@ -124,8 +124,8 @@
         },
         "encryption": {
             "allowed_choices": [
-                "ENABLED",
-                "DISABLED"
+                "DISABLED",
+                "ENABLED"
             ],
             "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED, .",
             "exposed": true,
@@ -179,8 +179,8 @@
         },
         "maintenanceMode": {
             "allowed_choices": [
-                "ENABLED",
                 "DISABLED",
+                "ENABLED",
                 "ENABLED_INHERITED"
             ],
             "description": "maintenanceMode is an enum that indicates if the Domain is accepting VM activation requests. Possible values are DISABLED, ENABLED and ENABLED_INHERITED Possible values are .",
@@ -191,9 +191,9 @@
         },
         "multicast": {
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
-                "INHERITED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "multicast is enum that indicates multicast policy on domain. Possible values are ENABLED ,DISABLED  and INHERITED Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
@@ -216,12 +216,12 @@
         },
         "permittedAction": {
             "allowed_choices": [
+                "ALL",
+                "DEPLOY",
                 "EXTEND",
                 "INSTANTIATE",
-                "DEPLOY",
-                "USE",
                 "READ",
-                "ALL"
+                "USE"
             ],
             "description": "The permitted  action to USE/DEPLOY for the Domain Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
             "exposed": true,
@@ -231,9 +231,9 @@
         },
         "policyChangeStatus": {
             "allowed_choices": [
-                "STARTED",
+                "APPLIED",
                 "DISCARDED",
-                "APPLIED"
+                "STARTED"
             ],
             "description": "",
             "exposed": true,
@@ -285,8 +285,8 @@
         "tunnelType": {
             "allowed_choices": [
                 "DC_DEFAULT",
-                "VXLAN",
-                "GRE"
+                "GRE",
+                "VXLAN"
             ],
             "description": "Default Domain Tunnel Type",
             "exposed": true,
@@ -296,9 +296,9 @@
         },
         "underlayEnabled": {
             "allowed_choices": [
-                "INHERITED",
+                "DISABLED",
                 "ENABLED",
-                "DISABLED"
+                "INHERITED"
             ],
             "description": "Indicates whether UNDERLAY is enabled for the subnets in this domain",
             "exposed": true,
@@ -309,11 +309,11 @@
         },
         "uplinkPreference": {
             "allowed_choices": [
-                "SECONDARY",
-                "SYMMETRIC",
-                "SECONDARY_PRIMARY",
                 "PRIMARY",
-                "PRIMARY_SECONDARY"
+                "PRIMARY_SECONDARY",
+                "SECONDARY",
+                "SECONDARY_PRIMARY",
+                "SYMMETRIC"
             ],
             "description": "Indicates the preferencial path selection for network traffic in this domain - Default is Primary 1 and Secondary 2. Possible values are PRIMARY_SECONDARY, SECONDARY_PRIMARY, PRIMARY, SECONDARY, SYMMETRIC, .",
             "exposed": true,
@@ -416,12 +416,12 @@
             "create": true,
             "get": true,
             "relationship": "child"
-        }, 
+        },
         "routingpolicy": {
-            "create": true, 
-            "get": true, 
+            "create": true,
+            "get": true,
             "relationship": "child"
-        }, 
+        },
         "staticroute": {
             "create": true,
             "get": true,
@@ -474,7 +474,7 @@
     },
     "model": {
         "delete": true,
-        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS)",
+        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS).",
         "entity_name": "Domain",
         "extends": [
             "@audited",

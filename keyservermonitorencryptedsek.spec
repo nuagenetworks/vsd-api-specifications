@@ -48,11 +48,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot",
+        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot.",
         "entity_name": "KeyServerMonitorEncryptedSEK",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

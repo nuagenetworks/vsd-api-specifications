@@ -4,11 +4,12 @@
             "description": "How frequent to collect statistics in seconds",
             "exposed": true,
             "filterable": true,
+            "format": "free",
+            "min_value": 1,
             "orderable": true,
             "required": true,
-            "type": "integer",
             "subtype": "long",
-            "min_value": 1,
+            "type": "integer",
             "uniqueScope": "no"
         },
         "description": {
@@ -16,10 +17,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 1,
             "max_length": 255,
+            "min_length": 1,
+            "type": "string",
             "uniqueScope": "no"
         },
         "name": {
@@ -27,21 +27,21 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
     "model": {
         "delete": true,
-        "description": "Defines the frequency of statistics collection associated with an object",
+        "description": "Defines the frequency of statistics collection associated with an object.",
         "entity_name": "StatisticsPolicy",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -5,10 +5,8 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "orderable": false,
-            "type": "string",
-            "min_length": 0,
             "max_length": 255,
+            "type": "string",
             "uniqueScope": "no"
         },
         "name": {
@@ -16,11 +14,11 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 64,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 64,
             "uniqueScope": "no"
         }
     },
@@ -37,11 +35,11 @@
     },
     "model": {
         "delete": true,
-        "description": "This is the definition of a MultiCast Channel Map",
+        "description": "This is the definition of a MultiCast Channel Map.",
         "entity_name": "MultiCastChannelMap",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

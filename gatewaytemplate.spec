@@ -5,18 +5,15 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "enterpriseID": {
             "description": "The enterprise associated with this Gateway. This is a read only attribute",
             "exposed": true,
-            "filterable": false,
             "format": "free",
-            "orderable": false,
             "type": "string",
             "uniqueScope": "no"
         },
@@ -25,22 +22,22 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "required": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "personality": {
             "allowed_choices": [
                 "DC7X50",
+                "HARDWARE_VTEP",
+                "NSG",
                 "OTHER",
                 "VRSG",
-                "VSG",
                 "VSA",
-                "HARDWARE_VTEP",
-                "NSG"
+                "VSG"
             ],
             "description": "Personality of the Gateway - VSG,VRSG,NSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
             "exposed": true,
@@ -61,11 +58,11 @@
     },
     "model": {
         "delete": true,
-        "description": "Represents Gateway Template object",
+        "description": "Represents Gateway Template object.",
         "entity_name": "GatewayTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

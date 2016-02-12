@@ -5,10 +5,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 255,
             "uniqueScope": "no"
         },
         "location": {
@@ -16,10 +15,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 128,
             "orderable": true,
             "type": "string",
-            "min_length": 0,
-            "max_length": 128,
             "uniqueScope": "no"
         },
         "name": {
@@ -27,10 +25,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 128,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 128,
             "uniqueScope": "no"
         },
         "productVersion": {
@@ -62,11 +60,11 @@
         }
     },
     "model": {
-        "description": "System Monitoring details for VSP",
+        "description": "System Monitoring details for VSP.",
         "entity_name": "VSP",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -5,10 +5,10 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
+            "max_length": 255,
+            "min_length": 1,
             "orderable": true,
             "type": "string",
-            "min_length": 1,
-            "max_length": 255,
             "uniqueScope": "no"
         }
     },
@@ -19,11 +19,11 @@
         }
     },
     "model": {
-        "description": "Encapsulates the Multi NIC VPort information for system monitor entity.",
+        "description": "Encapsulates the Multi NIC VPort information for system monitoring entity.",
         "entity_name": "MultiNICVPort",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
