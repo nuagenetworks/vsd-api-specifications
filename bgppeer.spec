@@ -33,7 +33,7 @@
         }
     },
     "model": {
-        "description": "Encapsulates the BGP peer information for system monitor entity",
+        "description": "Encapsulates the BGP peer information for system monitor entity.",
         "entity_name": "BGPPeer",
         "extends": [
             "@base",
