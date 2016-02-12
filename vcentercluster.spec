@@ -1613,8 +1613,8 @@
         "description": "VCenter Clusters.",
         "entity_name": "VCenterCluster",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

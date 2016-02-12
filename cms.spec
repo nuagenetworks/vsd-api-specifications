@@ -34,9 +34,9 @@
         "description": "Object that identifies a cloud management system.",
         "entity_name": "CloudMgmtSystem",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "cms",

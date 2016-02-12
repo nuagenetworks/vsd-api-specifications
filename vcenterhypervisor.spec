@@ -2029,8 +2029,8 @@
         "description": "Host or Hypervisors.",
         "entity_name": "VCenterHypervisor",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

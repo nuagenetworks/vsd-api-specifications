@@ -190,8 +190,8 @@
         "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot.",
         "entity_name": "KeyServerMonitorEncryptedSeed",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

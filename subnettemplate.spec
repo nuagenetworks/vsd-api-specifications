@@ -351,8 +351,8 @@
         "entity_name": "SubnetTemplate",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

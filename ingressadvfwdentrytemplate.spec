@@ -955,8 +955,8 @@
         "description": "Defines the template of Ingress Advanced Forwarding entries.",
         "entity_name": "IngressAdvFwdEntryTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

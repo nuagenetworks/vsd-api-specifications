@@ -86,9 +86,9 @@
         "description": "Defines the frequency of statistics collection associated with an object.",
         "entity_name": "StatisticsPolicy",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "stats",

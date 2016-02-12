@@ -161,9 +161,9 @@
         "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality.",
         "entity_name": "FloatingIp",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

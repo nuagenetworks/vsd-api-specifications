@@ -321,8 +321,8 @@
         "entity_name": "EgressACLTemplate",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/acl",
