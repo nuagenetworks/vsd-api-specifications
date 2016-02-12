@@ -47,7 +47,7 @@
         }
     },
     "model": {
-        "description": "Encapsulates the disk usage metrics for system monitor entity",
+        "description": "Encapsulates the disk usage metrics for system monitor entity.",
         "entity_name": "DiskStat",
         "extends": [
             "@base"
