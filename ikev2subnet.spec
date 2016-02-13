@@ -60,6 +60,7 @@
         "description": "missing documentation.",
         "entity_name": "IKEv2Subnet",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
