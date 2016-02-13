@@ -704,9 +704,15 @@
             "update": false
         },
         "patmapper": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "root"
+            "relationship": "root",
+            "update": false
         },
         "patnatpool": {
             "bulk_create": false,
