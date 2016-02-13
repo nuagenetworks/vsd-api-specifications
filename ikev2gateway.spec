@@ -124,6 +124,7 @@
         "description": "missing documentation.",
         "entity_name": "IKEv2Gateway",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
