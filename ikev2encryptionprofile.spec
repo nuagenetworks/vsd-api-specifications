@@ -545,6 +545,7 @@
         "description": "missing documentation.",
         "entity_name": "IKEv2EncryptionProfile",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
