@@ -484,6 +484,7 @@
         "description": "Represents a Port of a particular NS gateway object.",
         "entity_name": "NSPort",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
