@@ -313,9 +313,9 @@
         "description": "As in domains and subnets, zones are derived from templates. This object provides the definition of the template.",
         "entity_name": "ZoneTemplate",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "network",

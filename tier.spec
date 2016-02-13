@@ -624,8 +624,8 @@
         "description": "Tier represents a portion of an Application.",
         "entity_name": "Tier",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

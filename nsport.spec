@@ -468,9 +468,9 @@
         "description": "Represents a Port of a particular NS gateway object.",
         "entity_name": "NSPort",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "nsg",

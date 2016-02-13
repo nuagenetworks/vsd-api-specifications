@@ -378,9 +378,9 @@
         "description": "Enterprise profile, used to store an enterprise's policies, quota etc.",
         "entity_name": "EnterpriseProfile",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "usermgmt",

@@ -171,9 +171,9 @@
         "description": "Represents Enterprise Permission for a CSP entity.",
         "entity_name": "EnterprisePermission",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

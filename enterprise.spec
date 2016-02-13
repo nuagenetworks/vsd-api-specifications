@@ -1020,9 +1020,9 @@
         "description": "Definition of the enterprise object. This is the top level object that represents an organization.",
         "entity_name": "Enterprise",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "usermgmt",
