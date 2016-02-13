@@ -216,6 +216,7 @@
         "description": "missing documentation.",
         "entity_name": "IKEv2PSK",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
