@@ -403,6 +403,7 @@
         "description": "As domain and zone objects, subnet objects are created in VSD as derived by templates. This object describes the subnet template.",
         "entity_name": "SubnetTemplate",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
