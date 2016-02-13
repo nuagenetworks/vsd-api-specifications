@@ -805,30 +805,60 @@
             "update": false
         },
         "ikev2certificate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
+            "relationship": "child",
+            "update": false
         },
         "ikev2encryptionprofile": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
-        }, 
+            "relationship": "child",
+            "update": false
+        },
         "ikev2gateway": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
+            "relationship": "child",
+            "update": false
         },
         "ikev2gatewayprofile": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
-        }, 
+            "relationship": "child",
+            "update": false
+        },
         "ikev2psk": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
-        }, 
+            "relationship": "child",
+            "update": false
+        },
         "infrastructureportprofile": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -1042,12 +1072,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Definition of the enterprise object. This is the top level object that represents an organization.",
+        "description": "Definition of the enterprise object. This is the top level object that represents an enterprise.",
         "entity_name": "Enterprise",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "usermgmt",
