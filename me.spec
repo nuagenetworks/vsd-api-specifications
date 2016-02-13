@@ -947,8 +947,8 @@
         "entity_name": "Me",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": false,
         "package": "usermgmt",

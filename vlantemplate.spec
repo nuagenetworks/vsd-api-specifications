@@ -86,9 +86,9 @@
         "description": "Represents VLAN Template under a Port Template object.",
         "entity_name": "VLANTemplate",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

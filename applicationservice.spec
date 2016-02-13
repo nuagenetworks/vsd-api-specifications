@@ -231,8 +231,8 @@
         "description": "Represents a networking communication service.",
         "entity_name": "ApplicationService",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

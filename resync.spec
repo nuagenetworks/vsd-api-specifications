@@ -90,8 +90,8 @@
         "entity_name": "VMResync",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": false,
         "package": "vm",

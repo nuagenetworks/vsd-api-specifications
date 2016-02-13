@@ -424,9 +424,9 @@
         "description": "Represents Gateway object.",
         "entity_name": "Gateway",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

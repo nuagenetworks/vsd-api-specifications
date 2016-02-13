@@ -416,9 +416,9 @@
         "description": "Represents Redundant Group formed by two Gateways.",
         "entity_name": "RedundancyGroup",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

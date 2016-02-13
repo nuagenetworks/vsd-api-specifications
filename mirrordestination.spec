@@ -98,9 +98,9 @@
         "description": "Represents a mirror destination.",
         "entity_name": "MirrorDestination",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "vport",

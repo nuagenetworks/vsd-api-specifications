@@ -630,9 +630,9 @@
         "description": "System Monitoring details for hardware service controllers.",
         "entity_name": "HSC",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "sysmon",

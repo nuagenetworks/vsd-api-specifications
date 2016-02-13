@@ -221,8 +221,8 @@
         "entity_name": "IngressAdvFwdTemplate",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/acl",

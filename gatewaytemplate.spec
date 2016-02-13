@@ -132,9 +132,9 @@
         "description": "Represents Gateway Template object.",
         "entity_name": "GatewayTemplate",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

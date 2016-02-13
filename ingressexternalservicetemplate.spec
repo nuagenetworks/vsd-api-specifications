@@ -220,8 +220,8 @@
         "description": "Defines the template for an Ingress External Service Acls.",
         "entity_name": "IngressExternalServiceTemplate",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/acl",
