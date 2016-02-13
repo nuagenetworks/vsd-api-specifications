@@ -356,8 +356,8 @@
         "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate.",
         "entity_name": "DomainTemplate",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

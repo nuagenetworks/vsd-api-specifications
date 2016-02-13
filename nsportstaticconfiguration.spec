@@ -138,9 +138,9 @@
         "description": "Represents a network port static configuration in the context of an Network Services Gateway.",
         "entity_name": "NSPortStaticConfiguration",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "nsg",

@@ -164,9 +164,9 @@
         "description": "Represents an Infrastructure VSC Profile.",
         "entity_name": "InfrastructureVscProfile",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "infrastructure",

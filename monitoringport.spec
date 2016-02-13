@@ -224,8 +224,8 @@
         "description": "Encapsulates the port information for system monitoring entity.",
         "entity_name": "MonitoringPort",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": false,
         "package": "sysmon",
