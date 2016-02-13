@@ -242,6 +242,7 @@
         "description": "missing documentation.",
         "entity_name": "IKEv2Certificate",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
