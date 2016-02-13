@@ -654,6 +654,7 @@
         "description": "Represents a Network Service Gateway.",
         "entity_name": "NSGateway",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
