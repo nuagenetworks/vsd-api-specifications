@@ -131,6 +131,7 @@
         "description": "This is the definition of a Address Range associated with a Network.",
         "entity_name": "AddressRange",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
