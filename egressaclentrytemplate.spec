@@ -939,6 +939,7 @@
         "description": "Defines the template of Egress ACL Template entries.",
         "entity_name": "EgressACLEntryTemplate",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
