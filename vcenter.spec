@@ -1771,12 +1771,26 @@
     },
     "children": {
         "autodiscovereddatacenter": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
+            "relationship": "child",
+            "update": false
         },
         "job": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
-            "relationship": "child"
+            "delete": false,
+            "deprecated": false,
+            "get": false,
+            "relationship": "child",
+            "update": false
         },
         "vcenterdatacenter": {
             "bulk_create": false,
