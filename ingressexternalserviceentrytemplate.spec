@@ -939,6 +939,7 @@
         "description": "Defines the template of Ingress External Service ACL entries.",
         "entity_name": "IngressExternalServiceTemplateEntry",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
