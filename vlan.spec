@@ -397,6 +397,12 @@
             "update": false
         },
         "patnatpool": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
             "get": true,
             "relationship": "member",
             "update": true
@@ -419,7 +425,6 @@
         "description": "Represents VLAN object under a given PORT object.",
         "entity_name": "VLAN",
         "extends": [
-            "@audited",
             "@base",
             "@metadata"
         ],
