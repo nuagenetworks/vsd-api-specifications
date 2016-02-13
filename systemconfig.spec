@@ -2853,6 +2853,7 @@
         "description": "The system configuration of the VSP.",
         "entity_name": "SystemConfig",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
