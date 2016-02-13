@@ -366,6 +366,7 @@
         "description": "Represents a PAT NAT Pool object.",
         "entity_name": "PATNATPool",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
