@@ -425,6 +425,7 @@
         "description": "Represents VLAN object under a given PORT object.",
         "entity_name": "VLAN",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
