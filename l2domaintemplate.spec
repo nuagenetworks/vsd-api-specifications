@@ -452,9 +452,9 @@
         "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template.",
         "entity_name": "L2DomainTemplate",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "network",

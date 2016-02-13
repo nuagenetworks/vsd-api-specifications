@@ -896,9 +896,9 @@
         "description": "Defines the template of Ingress ACL entries.",
         "entity_name": "IngressACLEntryTemplate",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/acl",

@@ -309,9 +309,9 @@
         "description": "Object that identifies the user functions.",
         "entity_name": "User",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "usermgmt",

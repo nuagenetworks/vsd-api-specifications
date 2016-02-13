@@ -87,8 +87,8 @@
         "entity_name": "NATMapEntry",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

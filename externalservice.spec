@@ -179,9 +179,9 @@
         "description": "Representation of External Service.",
         "entity_name": "ExternalService",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "policy",

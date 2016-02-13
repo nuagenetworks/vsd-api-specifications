@@ -1591,9 +1591,9 @@
         "description": "VCenter DataCenters.",
         "entity_name": "VCenterDataCenter",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "vmware",

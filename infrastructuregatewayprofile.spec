@@ -586,9 +586,9 @@
         "description": "Represents Infrastructure Gateway Profile.",
         "entity_name": "InfrastructureGatewayProfile",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "infrastructure",

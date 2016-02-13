@@ -172,8 +172,8 @@
         "description": "Flow represents the traffic between two different application tiers.",
         "entity_name": "Flow",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

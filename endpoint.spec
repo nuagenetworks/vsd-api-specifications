@@ -72,9 +72,9 @@
         "description": "Representation of End Point.",
         "entity_name": "EndPoint",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "policy",
