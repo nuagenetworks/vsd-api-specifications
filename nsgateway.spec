@@ -655,8 +655,8 @@
         "entity_name": "NSGateway",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "nsg",

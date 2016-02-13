@@ -360,9 +360,9 @@
         "description": "The object manipulates Egress QoS parameters attached to a Access Port / VLAN or Network port.",
         "entity_name": "EgressQOSPolicy",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "policy/qos",

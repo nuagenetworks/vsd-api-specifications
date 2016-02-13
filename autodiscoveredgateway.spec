@@ -269,8 +269,8 @@
         "description": "Represents Auto discovered Gateway.",
         "entity_name": "AutoDiscoveredGateway",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

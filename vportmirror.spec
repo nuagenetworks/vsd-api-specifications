@@ -246,8 +246,8 @@
         "description": "VPort Mirror represents the relationship between a vport and a mirror destination.",
         "entity_name": "VPortMirror",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

@@ -606,9 +606,9 @@
         "description": "System Monitoring details for VSD.",
         "entity_name": "VSD",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "sysmon",

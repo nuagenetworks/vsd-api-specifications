@@ -115,8 +115,8 @@
         "description": "missing documentation.",
         "entity_name": "RoutingPolicy",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": null,

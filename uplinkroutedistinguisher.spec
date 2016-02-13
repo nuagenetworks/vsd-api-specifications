@@ -65,8 +65,8 @@
         "description": "Represents a network port uplink route distinguisher value.",
         "entity_name": "UplinkRD",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
