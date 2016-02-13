@@ -138,9 +138,9 @@
         "description": "Remote Site info.",
         "entity_name": "SiteInfo",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "common",

@@ -410,9 +410,9 @@
         "description": "Represents a Port under a particular gateway object or redundant group object.",
         "entity_name": "RedundantPort",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

@@ -2801,9 +2801,9 @@
         "description": "The system configuration of the VSP.",
         "entity_name": "SystemConfig",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "systemconfig",

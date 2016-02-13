@@ -461,9 +461,9 @@
         "description": "Represents Redundant Group formed by two VNS Gateways.",
         "entity_name": "NSRedundantGatewayGroup",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "nsg",

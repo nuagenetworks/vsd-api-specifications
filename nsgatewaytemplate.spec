@@ -124,9 +124,9 @@
         "description": "Represents a Network Service Gateway Template.",
         "entity_name": "NSGatewayTemplate",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "nsg",

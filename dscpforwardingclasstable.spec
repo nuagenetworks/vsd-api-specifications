@@ -72,8 +72,8 @@
         "description": "Provides the definition of a table that holds multiple DSCP to Forwarding class mappings. Used in QoS policies.",
         "entity_name": "DSCPForwardingClassTable",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

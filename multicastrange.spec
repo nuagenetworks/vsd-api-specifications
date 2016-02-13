@@ -73,8 +73,8 @@
         "entity_name": "MultiCastRange",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

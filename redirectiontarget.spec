@@ -268,8 +268,8 @@
         "description": "A group/collection of vports that belong to the same domain.",
         "entity_name": "RedirectionTarget",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
