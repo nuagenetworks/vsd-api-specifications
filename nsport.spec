@@ -437,8 +437,15 @@
             "update": false
         },
         "statistics": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
+            "relationship": "child",
+            "update": false
         },
         "vlan": {
             "bulk_create": false,
@@ -455,7 +462,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a Port of a particular NS gateway object.",
+        "description": "Represents a Port of a particular NS Gateway object.",
         "entity_name": "NSPort",
         "extends": [
             "@audited",
