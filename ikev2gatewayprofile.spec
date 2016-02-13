@@ -280,6 +280,7 @@
         "description": "missing documentation.",
         "entity_name": "IKEv2GatewayProfile",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
