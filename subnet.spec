@@ -1165,6 +1165,7 @@
         "description": "This is the definition of a subnet associated with a zone.",
         "entity_name": "Subnet",
         "extends": [
+            "@audited",
             "@base",
             "@metadata"
         ],
