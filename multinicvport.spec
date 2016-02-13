@@ -46,9 +46,9 @@
         "description": "Encapsulates the Multi NIC VPort information for system monitoring entity.",
         "entity_name": "MultiNICVPort",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "sysmon",

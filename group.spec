@@ -228,8 +228,8 @@
         "description": "Identifies a group within an enterprise.",
         "entity_name": "Group",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

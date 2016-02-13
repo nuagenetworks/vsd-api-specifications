@@ -665,9 +665,9 @@
         "description": "The object manipulates the QoS parameters attached to a domain, zone, or subnet.",
         "entity_name": "QOS",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/qos",

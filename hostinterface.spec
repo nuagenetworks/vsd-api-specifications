@@ -564,9 +564,9 @@
         "description": "Provides information for each host interface.",
         "entity_name": "HostInterface",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "vport",
