@@ -2566,7 +2566,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "10",
             "deprecated": false,
             "description": "After resync on a subnet , another resync on the same subnet is allowed based on the below value subnet resync complete wait time in min.",
             "exposed": true,
