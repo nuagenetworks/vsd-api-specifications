@@ -899,7 +899,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates total available VM count for all the licenses in the system",
+            "description": "Indicates total used VM count for all the licenses in the system",
             "exposed": true,
             "filterable": true,
             "format": "free",
