@@ -168,7 +168,7 @@
             "description": "Date this Certificate is valid from - Read Only Attribute",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
