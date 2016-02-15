@@ -347,7 +347,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "LRU Map size per subnet ( to hold the deleted vm's ip addresses.",
+            "description": "LRU Map size per subnet (to hold the deleted vm's ip addresses).",
             "exposed": true,
             "filterable": false,
             "format": null,
