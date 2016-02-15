@@ -1287,7 +1287,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Maximum age in days for cleanup of the eventlog entries (Min: 1 day, Max: 6 months). On every periodic interval run, any eventlog entries older than the max age will be deleted.",
+            "description": "Maximum age in days for cleanup of the eventlog entries. On every periodic interval run, any eventlog entries older than this max age will be deleted.",
             "exposed": true,
             "filterable": false,
             "format": null,
