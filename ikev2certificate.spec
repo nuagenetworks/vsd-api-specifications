@@ -194,7 +194,7 @@
             "description": "Serial Number of the Certificate - Read Only Attribute",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
