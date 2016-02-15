@@ -113,7 +113,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "name of the Metadata.",
+            "description": "Name of the Metadata.",
             "exposed": true,
             "filterable": true,
             "format": "free",
