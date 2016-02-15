@@ -376,7 +376,7 @@
             "description": "Https proxy port of the VCenter",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
