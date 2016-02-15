@@ -1621,7 +1621,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Group Key Encryption Profile Default Seed Payload Signature Algorithm..",
+            "description": "Group Key Encryption Profile Default Seed Payload Signature Algorithm.",
             "exposed": true,
             "filterable": false,
             "format": null,
