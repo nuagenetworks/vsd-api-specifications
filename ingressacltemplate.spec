@@ -116,7 +116,7 @@
             "description": "If enabled a default ACL of Allow All is added as the last entry in the list of ACL entries",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
