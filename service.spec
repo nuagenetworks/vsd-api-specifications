@@ -331,7 +331,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of 7X50 Policy assoicated with service",
+            "description": "Name of 7X50 Policy associated with the service",
             "exposed": true,
             "filterable": true,
             "format": "free",
