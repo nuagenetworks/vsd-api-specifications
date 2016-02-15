@@ -390,7 +390,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the SERVICE.",
+            "description": "Type of the tunnel.",
             "exposed": true,
             "filterable": false,
             "format": null,
