@@ -376,7 +376,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the zone that the VM is attached to",
+            "description": "Name of the zone that the VM is attached to.",
             "exposed": true,
             "filterable": false,
             "format": "free",

@@ -194,7 +194,7 @@
             "description": "Stats primitive that was selected based on inheritance policies",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,

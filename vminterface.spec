@@ -197,7 +197,7 @@
             "description": "l2 domain or Subnet that the interface is attached to",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,

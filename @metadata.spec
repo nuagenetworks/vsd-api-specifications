@@ -11,6 +11,17 @@
             "get": true,
             "relationship": "child",
             "update": false
+        },
+        "globalmetadata": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": true
         }
     },
     "model": {
