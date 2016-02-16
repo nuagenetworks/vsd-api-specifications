@@ -48,7 +48,7 @@
             "description": "Class of service to be used.  Service classes in order of priority are A, B, C, D, E, F, G, and H.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,

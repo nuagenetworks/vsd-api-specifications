@@ -324,7 +324,7 @@
             "description": "Flag to say if host level management is enabled",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -376,7 +376,7 @@
             "description": "Https proxy port of the VCenter",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1770,6 +1770,17 @@
         }
     },
     "children": {
+        "job": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": false,
+            "relationship": "child",
+            "update": false
+        },
         "vcenterdatacenter": {
             "bulk_create": false,
             "bulk_delete": false,
