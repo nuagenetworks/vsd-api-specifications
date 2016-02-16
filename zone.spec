@@ -182,7 +182,6 @@
                 "GATEWAY_CONFIG_RESP",
                 "GATEWAY_SECURED_DATA",
                 "GATEWAY_SECURITY",
-                "GATEWAY_SECURITY_PROFILE",
                 "GATEWAY_SECURITY_PROFILE_REQUEST",
                 "GATEWAY_SECURITY_PROFILE_RESPONSE",
                 "GATEWAY_SECURITY_REQUEST",
