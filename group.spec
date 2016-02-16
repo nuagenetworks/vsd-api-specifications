@@ -119,14 +119,14 @@
             "description": "A private group is visible only by the owner of the group. Public groups are visible by all users in the enterprise",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "boolean",
@@ -218,14 +218,14 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "member",
+            "relationship": "child",
             "update": true
         }
     },
     "model": {
         "create": false,
         "delete": true,
-        "description": "Identifies a group within an enterprise.",
+        "description": "Identifies a group within an enterprise",
         "entity_name": "Group",
         "extends": [
             "@audited",
