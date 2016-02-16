@@ -10,7 +10,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "update: false
+            "update": false
         },
         "globalmetadata": {
             "bulk_create": false,
