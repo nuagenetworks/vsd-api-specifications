@@ -143,7 +143,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a Keyserver Monitor SEK Snapshot",
+        "description": "Represents a Keyserver Monitor SEK Snapshot.",
         "entity_name": "KeyServerMonitorSEK",
         "extends": [
             "@audited",

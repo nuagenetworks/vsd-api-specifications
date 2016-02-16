@@ -221,7 +221,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Encapsulates the port information for system monitor entity.",
+        "description": "Encapsulates the port information for system monitoring entity.",
         "entity_name": "MonitoringPort",
         "extends": [
             "@base",

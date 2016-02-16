@@ -343,7 +343,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template for an Ingress ACL",
+        "description": "Defines the template for an Ingress ACL.",
         "entity_name": "IngressACLTemplate",
         "extends": [
             "@audited",

@@ -173,7 +173,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Metadata associated to a entity",
+        "description": "Metadata associated to a entity.",
         "entity_name": "GlobalMetadata",
         "extends": [
             "@audited",

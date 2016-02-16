@@ -180,7 +180,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents  Permitted action on an  entity for a group",
+        "description": "Represents  Permitted action on an  entity for a group.",
         "entity_name": "Permission",
         "extends": [
             "@audited",

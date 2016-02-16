@@ -46,7 +46,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "This is the definition of a MultiCast Channel List",
+        "description": "This is the definition of a MultiCast Channel List.",
         "entity_name": "MultiCastList",
         "extends": [
             "@audited",

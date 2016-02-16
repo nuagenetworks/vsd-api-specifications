@@ -135,7 +135,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Remote Site info",
+        "description": "Remote Site info.",
         "entity_name": "SiteInfo",
         "extends": [
             "@audited",

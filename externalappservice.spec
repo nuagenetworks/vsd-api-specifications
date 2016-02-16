@@ -427,7 +427,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an External Service in the Application Designer",
+        "description": "Represents an External Service in the Application Designer.",
         "entity_name": "ExternalAppService",
         "extends": [
             "@audited",

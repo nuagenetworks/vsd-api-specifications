@@ -1,15 +1,40 @@
 {
+    "attributes": {},
     "children": {
         "metadata": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "relationship": "child"
+            "relationship": "child",
+            "update: false"
         },
         "globalmetadata": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
             "get": true,
-            "update": true,
-            "relationship": "child"
+            "relationship": "child",
+            "update": true
         }
-
+    },
+    "model": {
+        "create": false,
+        "delete": false,
+        "description": null,
+        "entity_name": null,
+        "extends": [],
+        "get": false,
+        "package": null,
+        "resource_name": null,
+        "rest_name": null,
+        "root": false,
+        "update": false
     }
 }

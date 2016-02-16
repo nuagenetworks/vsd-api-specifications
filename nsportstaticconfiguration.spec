@@ -135,7 +135,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a network port static configuration in the context of an NSG.",
+        "description": "Represents a network port static configuration in the context of an Network Services Gateway.",
         "entity_name": "NSPortStaticConfiguration",
         "extends": [
             "@audited",

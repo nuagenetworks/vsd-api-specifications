@@ -620,7 +620,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Tier represents a portion of an application.",
+        "description": "Tier represents a portion of an Application.",
         "entity_name": "Tier",
         "extends": [
             "@audited",

@@ -217,7 +217,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template for an Ingress External Service Acls",
+        "description": "Defines the template for an Ingress External Service Acls.",
         "entity_name": "IngressExternalServiceTemplate",
         "extends": [
             "@base",

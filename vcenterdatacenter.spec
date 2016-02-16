@@ -1588,7 +1588,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "VCenter DataCenters",
+        "description": "VCenter DataCenters.",
         "entity_name": "VCenterDataCenter",
         "extends": [
             "@audited",

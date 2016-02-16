@@ -375,7 +375,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Enterprise profile, used to store an enterprise's policies, quota etc",
+        "description": "Enterprise profile, used to store an enterprise's policies, quota etc.",
         "entity_name": "EnterpriseProfile",
         "extends": [
             "@audited",

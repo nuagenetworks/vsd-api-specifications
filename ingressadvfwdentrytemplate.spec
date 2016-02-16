@@ -1003,7 +1003,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template of Ingress Advanced Forwarding entries",
+        "description": "Defines the template of Ingress Advanced Forwarding entries.",
         "entity_name": "IngressAdvFwdEntryTemplate",
         "extends": [
             "@audited",

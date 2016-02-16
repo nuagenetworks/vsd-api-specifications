@@ -306,7 +306,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Object that identifies the user functions",
+        "description": "Object that identifies the user functions.",
         "entity_name": "User",
         "extends": [
             "@audited",

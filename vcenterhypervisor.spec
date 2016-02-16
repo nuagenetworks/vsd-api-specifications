@@ -2004,7 +2004,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Host or Hypervisors",
+        "description": "Host or Hypervisors.",
         "entity_name": "VCenterHypervisor",
         "extends": [
             "@audited",

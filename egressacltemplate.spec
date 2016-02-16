@@ -317,7 +317,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template for an Egress ACL",
+        "description": "Defines the template for an Egress ACL.",
         "entity_name": "EgressACLTemplate",
         "extends": [
             "@audited",

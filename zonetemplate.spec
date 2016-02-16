@@ -310,7 +310,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "As in domains and subnets, zones are derived from templates. This object provides the definition of the template",
+        "description": "As in domains and subnets, zones are derived from templates. This object provides the definition of the template.",
         "entity_name": "ZoneTemplate",
         "extends": [
             "@audited",

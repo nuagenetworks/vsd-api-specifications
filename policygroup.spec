@@ -224,7 +224,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS etc.",
+        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS, etc.",
         "entity_name": "PolicyGroup",
         "extends": [
             "@audited",

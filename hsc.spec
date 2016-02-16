@@ -627,7 +627,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "System Monitoring details for hardware service controllers",
+        "description": "System Monitoring details for hardware service controllers.",
         "entity_name": "HSC",
         "extends": [
             "@audited",

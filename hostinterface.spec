@@ -561,7 +561,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Provides information for each host interface",
+        "description": "Provides information for each host interface.",
         "entity_name": "HostInterface",
         "extends": [
             "@audited",

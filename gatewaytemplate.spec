@@ -129,7 +129,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Gateway Template object",
+        "description": "Represents Gateway Template object.",
         "entity_name": "GatewayTemplate",
         "extends": [
             "@audited",

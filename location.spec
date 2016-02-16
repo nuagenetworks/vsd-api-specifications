@@ -213,7 +213,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Gateway location details",
+        "description": "Gateway location details.",
         "entity_name": "Location",
         "extends": [
             "@audited",

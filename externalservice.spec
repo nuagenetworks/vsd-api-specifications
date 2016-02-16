@@ -176,7 +176,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Representation of External Service",
+        "description": "Representation of External Service.",
         "entity_name": "ExternalService",
         "extends": [
             "@audited",

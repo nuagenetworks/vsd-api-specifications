@@ -161,7 +161,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "The EAM solution configuration",
+        "description": "The EAM solution configuration.",
         "entity_name": "VCenterEAMConfig",
         "extends": [
             "@audited",

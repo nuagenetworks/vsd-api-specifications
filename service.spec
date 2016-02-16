@@ -535,7 +535,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents WAN Service Object.",
+        "description": "Represents a WAN Service Object.",
         "entity_name": "WANService",
         "extends": [
             "@audited",

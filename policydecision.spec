@@ -225,7 +225,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "This object is a read only object that provides the policy decisions for a particular VM interface",
+        "description": "This object is a read only object that provides the policy decisions for a particular VM interface.",
         "entity_name": "PolicyDecision",
         "extends": [
             "@audited",

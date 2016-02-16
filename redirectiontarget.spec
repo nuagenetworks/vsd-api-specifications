@@ -265,7 +265,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "A group/collection of vports that belong to the same domain",
+        "description": "A group/collection of vports that belong to the same domain.",
         "entity_name": "RedirectionTarget",
         "extends": [
             "@audited",

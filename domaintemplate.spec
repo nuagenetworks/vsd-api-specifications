@@ -375,7 +375,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate",
+        "description": "Domains in VSD are created from domain templates. This object provides the definition of the DomainTemplate.",
         "entity_name": "DomainTemplate",
         "extends": [
             "@audited",

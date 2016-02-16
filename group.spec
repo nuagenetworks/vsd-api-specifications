@@ -218,14 +218,14 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         }
     },
     "model": {
         "create": false,
         "delete": true,
-        "description": "Identifies a group within an enterprise",
+        "description": "Identifies a group within an enterprise.",
         "entity_name": "Group",
         "extends": [
             "@audited",

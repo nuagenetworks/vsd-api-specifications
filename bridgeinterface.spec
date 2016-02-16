@@ -487,7 +487,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Provides information for each bridge interface",
+        "description": "Provides information for each bridge interface.",
         "entity_name": "BridgeInterface",
         "extends": [
             "@audited",

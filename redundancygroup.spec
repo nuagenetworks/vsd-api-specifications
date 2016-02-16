@@ -424,7 +424,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Redundant Group formed by two Gateways",
+        "description": "Represents Redundant Group formed by two Gateways.",
         "entity_name": "RedundancyGroup",
         "extends": [
             "@audited",

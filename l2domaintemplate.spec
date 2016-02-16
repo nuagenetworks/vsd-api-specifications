@@ -449,7 +449,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template",
+        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template.",
         "entity_name": "L2DomainTemplate",
         "extends": [
             "@audited",

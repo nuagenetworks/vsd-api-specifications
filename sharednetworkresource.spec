@@ -645,7 +645,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain etc.",
+        "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain, etc.",
         "entity_name": "SharedNetworkResource",
         "extends": [
             "@audited",

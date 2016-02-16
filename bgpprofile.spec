@@ -239,7 +239,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": null,
+        "description": "missing documentation.",
         "entity_name": "BGPProfile",
         "extends": [
             "@base",

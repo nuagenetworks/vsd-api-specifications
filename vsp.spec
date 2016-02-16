@@ -154,7 +154,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "System Monitoring details for VSP",
+        "description": "System Monitoring details for VSP.",
         "entity_name": "VSP",
         "extends": [
             "@audited",

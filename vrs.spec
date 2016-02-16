@@ -1067,7 +1067,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "System Monitoring details for VRS connected to VSC or HSC",
+        "description": "System Monitoring details for VRS connected to VSC or HSC.",
         "entity_name": "VRS",
         "extends": [
             "@audited",

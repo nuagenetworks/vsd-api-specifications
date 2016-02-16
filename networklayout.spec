@@ -87,7 +87,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This API defines the AS number that should be used in the data center as well as the IP address of the route reflector",
+        "description": "This API defines the AS number that should be used in the data center as well as the IP address of the route reflector.",
         "entity_name": "NetworkLayout",
         "extends": [
             "@audited",

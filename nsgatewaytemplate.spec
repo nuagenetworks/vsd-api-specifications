@@ -121,7 +121,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Network Service Gateway Template object",
+        "description": "Represents a Network Service Gateway Template.",
         "entity_name": "NSGatewayTemplate",
         "extends": [
             "@audited",

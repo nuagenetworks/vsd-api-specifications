@@ -42,7 +42,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The permitted  action.",
+            "description": "The permitted action.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -168,7 +168,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Enterprise Permission for a CSP entity",
+        "description": "Represents Enterprise Permission for a CSP entity.",
         "entity_name": "EnterprisePermission",
         "extends": [
             "@audited",

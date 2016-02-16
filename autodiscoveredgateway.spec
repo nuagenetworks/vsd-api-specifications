@@ -266,7 +266,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Represents Auto discovered Gateway",
+        "description": "Represents Auto discovered Gateway.",
         "entity_name": "AutoDiscoveredGateway",
         "extends": [
             "@audited",

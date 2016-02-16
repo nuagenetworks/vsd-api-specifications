@@ -291,7 +291,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Configuration of LDAP parameters associated with an enterprise. This will enable authentication through an external LDAP server for this enterprise",
+        "description": "Configuration of LDAP parameters associated with an enterprise. This will enable authentication through an external LDAP server for this enterprise.",
         "entity_name": "LDAPConfiguration",
         "extends": [
             "@audited",

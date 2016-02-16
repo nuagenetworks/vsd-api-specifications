@@ -673,7 +673,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Network Service Gateway object.",
+        "description": "Represents a Network Service Gateway.",
         "entity_name": "NSGateway",
         "extends": [
             "@audited",

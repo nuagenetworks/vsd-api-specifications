@@ -570,7 +570,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "System Monitoring details for VSC",
+        "description": "System Monitoring details for VSC.",
         "entity_name": "VSC",
         "extends": [
             "@audited",

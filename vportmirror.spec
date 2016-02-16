@@ -243,7 +243,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "VPort Mirror Object represents the relationship between a vport and a mirror destination.",
+        "description": "VPort Mirror represents the relationship between a vport and a mirror destination.",
         "entity_name": "VPortMirror",
         "extends": [
             "@audited",

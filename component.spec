@@ -225,7 +225,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "System Monitoring details for components of VSD system",
+        "description": "System Monitoring details for components of VSD system.",
         "entity_name": "VSDComponent",
         "extends": [
             "@base",

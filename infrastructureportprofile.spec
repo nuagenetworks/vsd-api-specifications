@@ -202,7 +202,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an Infrastructure Port Profile",
+        "description": "Represents an Infrastructure Port Profile.",
         "entity_name": "InfrastructurePortProfile",
         "extends": [
             "@audited",

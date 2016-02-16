@@ -862,7 +862,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This is the definition of a l2 domain associated with a Enterprise",
+        "description": "This is the definition of a l2 domain associated with a Enterprise.",
         "entity_name": "L2Domain",
         "extends": [
             "@audited",

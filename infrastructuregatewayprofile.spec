@@ -583,7 +583,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Infrastructure Gateway Profile",
+        "description": "Represents Infrastructure Gateway Profile.",
         "entity_name": "InfrastructureGatewayProfile",
         "extends": [
             "@audited",

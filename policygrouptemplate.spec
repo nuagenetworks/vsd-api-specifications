@@ -161,7 +161,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "PolicyGroupTemplate represents the template of a policy group object. PolicyGroup is group of vports on which a user can policies like ACL, QoS etc.",
+        "description": "PolicyGroupTemplate represents the template of a policy group object. PolicyGroup is group of vports on which a user can policies like ACL, QoS, etc.",
         "entity_name": "PolicyGroupTemplate",
         "extends": [
             "@audited",

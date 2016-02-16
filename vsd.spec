@@ -603,7 +603,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "System Monitoring details for VSD",
+        "description": "System Monitoring details for VSD.",
         "entity_name": "VSD",
         "extends": [
             "@audited",

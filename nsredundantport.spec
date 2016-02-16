@@ -407,7 +407,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Port under a particular gateway object or redundant group object.",
+        "description": "Represents a Port under a particular gateway object or redundant group object.",
         "entity_name": "RedundantPort",
         "extends": [
             "@audited",

@@ -256,7 +256,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Provides the definition of the Threshold Control Alarms",
+        "description": "Provides the definition of the Threshold Control Alarms.",
         "entity_name": "TCA",
         "extends": [
             "@audited",

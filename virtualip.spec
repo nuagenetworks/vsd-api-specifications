@@ -121,7 +121,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Virtual IP address",
+        "description": "Virtual IP address.",
         "entity_name": "VirtualIP",
         "extends": [
             "@audited",

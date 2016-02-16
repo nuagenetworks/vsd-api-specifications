@@ -62,7 +62,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Represents a network port uplink Route Distinguisher value.",
+        "description": "Represents a network port uplink route distinguisher value.",
         "entity_name": "UplinkRD",
         "extends": [
             "@audited",

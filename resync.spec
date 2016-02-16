@@ -86,7 +86,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Provide information about the state of a VM resync request",
+        "description": "Provide information about the state of a VM resync request.",
         "entity_name": "VMResync",
         "extends": [
             "@audited",

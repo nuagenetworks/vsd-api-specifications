@@ -63,7 +63,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Gateway bootstrap details",
+        "description": "Gateway bootstrap details.",
         "entity_name": "Bootstrap",
         "extends": [
             "@audited",

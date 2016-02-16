@@ -39,7 +39,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Higest address in the address range",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
@@ -65,7 +65,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Lowest address in the address range",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
@@ -98,7 +98,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This is the definition of a Address Range associated with a Network",
+        "description": "This is the definition of a Address Range associated with a Network.",
         "entity_name": "AddressRange",
         "extends": [
             "@audited",

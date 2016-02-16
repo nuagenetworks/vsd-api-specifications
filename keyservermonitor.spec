@@ -221,7 +221,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Represents a Keyserver Monitor Snapshot",
+        "description": "Represents a Keyserver Monitor Snapshot.",
         "entity_name": "KeyServerMonitor",
         "extends": [
             "@audited",

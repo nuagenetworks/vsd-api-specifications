@@ -209,6 +209,7 @@
                 "GATEWAY_CONFIG_RESP",
                 "GATEWAY_SECURED_DATA",
                 "GATEWAY_SECURITY",
+                "GATEWAY_SECURITY_PROFILE",
                 "GATEWAY_SECURITY_PROFILE_REQUEST",
                 "GATEWAY_SECURITY_PROFILE_RESPONSE",
                 "GATEWAY_SECURITY_REQUEST",
@@ -935,7 +936,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template of Ingress External Service ACL entries",
+        "description": "Defines the template of Ingress External Service ACL entries.",
         "entity_name": "IngressExternalServiceTemplateEntry",
         "extends": [
             "@audited",

@@ -222,7 +222,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents PAT NAT Pool object.",
+        "description": "Represents a PAT NAT Pool object.",
         "entity_name": "PATNATPool",
         "extends": [
             "@audited",

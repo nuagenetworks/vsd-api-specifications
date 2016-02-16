@@ -800,7 +800,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "The zone is a collection of subnets attached to a domain. The zone concept enables the definition of policies for collections of subnets",
+        "description": "The zone is a collection of subnets attached to a domain. The zone concept enables the definition of policies for collections of subnets.",
         "entity_name": "Zone",
         "extends": [
             "@audited",

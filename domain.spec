@@ -1311,7 +1311,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS)",
+        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS).",
         "entity_name": "Domain",
         "extends": [
             "@audited",

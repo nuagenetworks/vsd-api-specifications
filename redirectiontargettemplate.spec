@@ -165,7 +165,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Template for a vporttag. Can be created only at the template level and available for all instances.",
+        "description": "Template for a vporttag. It can be created only at the template level and available for all instances.",
         "entity_name": "RedirectionTargetTemplate",
         "extends": [
             "@audited",

@@ -458,7 +458,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Redundant Group formed by two VNS Gateways",
+        "description": "Represents Redundant Group formed by two VNS Gateways.",
         "entity_name": "NSRedundantGatewayGroup",
         "extends": [
             "@audited",

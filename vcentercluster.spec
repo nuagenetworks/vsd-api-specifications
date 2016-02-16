@@ -1588,7 +1588,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "VCenter Clusters",
+        "description": "VCenter Clusters.",
         "entity_name": "VCenterCluster",
         "extends": [
             "@audited",
