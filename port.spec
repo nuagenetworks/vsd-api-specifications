@@ -346,7 +346,7 @@
             "min_value": null,
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -414,7 +414,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a Port under a particular gateway object or redundant group object.",
+        "description": "Represents Port under a particular gateway object or redundant group object.",
         "entity_name": "Port",
         "extends": [
             "@audited",
