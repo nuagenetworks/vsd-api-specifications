@@ -266,6 +266,7 @@
                 "BEGIN_POLICY_CHANGES",
                 "CERTIFICATE_NSG_RENEW",
                 "CERTIFICATE_NSG_REVOKE",
+                "CLEAR_IPSEC_DATA",
                 "DISCARD_POLICY_CHANGES",
                 "EXPORT",
                 "FORCE_KEYSERVER_UPDATE",
