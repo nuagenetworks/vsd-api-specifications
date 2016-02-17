@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "alubr0 status",
             "exposed": true,
             "filterable": true,
             "format": null,
