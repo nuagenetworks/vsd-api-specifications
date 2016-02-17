@@ -281,6 +281,7 @@
                 "RELOAD",
                 "RELOAD_GEO_REDUNDANT_INFO",
                 "RELOAD_NSG_CONFIG",
+                "RETRIEVE_ACTIVE_NSGS",
                 "VCENTER_RECONNECT",
                 "VCENTER_RELOAD"
             ],
