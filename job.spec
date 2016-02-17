@@ -262,6 +262,7 @@
             "allowed_choices": [
                 "APPLY_POLICY_CHANGES",
                 "BATCH_CRUD_REQUEST",
+                "BATCH_GATEWAY_SECURED_DATAS",
                 "BEGIN_POLICY_CHANGES",
                 "CERTIFICATE_NSG_RENEW",
                 "CERTIFICATE_NSG_REVOKE",
