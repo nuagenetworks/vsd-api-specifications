@@ -64,7 +64,7 @@
             "description": "Frequency at which VCenter issues are to be resolved",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
