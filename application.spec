@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the ACL template that this application is pointing to",
+            "description": "The ID of the ACL template that this application is pointing to.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -267,9 +267,9 @@
         "description": "Represents a real life application like a vendor website, or a social network.",
         "entity_name": "App",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "appd",

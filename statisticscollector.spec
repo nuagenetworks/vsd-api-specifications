@@ -112,12 +112,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Identifies the IP address of the stats collector entity that must be used",
+        "description": "Identifies the IP address of the stats collector entity that must be used.",
         "entity_name": "StatsCollectorInfo",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "stats",

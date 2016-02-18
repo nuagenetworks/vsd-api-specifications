@@ -90,10 +90,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Direction of the service. Default is UNIDIRECTIONAL. Possible values are UNIDIRECTIONAL, REFLEXIVE, .",
+            "description": "Direction of the service. Default is UNIDIRECTIONAL.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -231,9 +231,9 @@
         "description": "Represents a networking communication service.",
         "entity_name": "ApplicationService",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "appd",

@@ -135,12 +135,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Remote Site info",
+        "description": "Remote Site info.",
         "entity_name": "SiteInfo",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "common",

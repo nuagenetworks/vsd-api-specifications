@@ -67,7 +67,7 @@
             "description": "Status of the resync",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -86,12 +86,12 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Provide information about the state of a VM resync request",
+        "description": "Provide information about the state of a VM resync request.",
         "entity_name": "VMResync",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": false,
         "package": "vm",

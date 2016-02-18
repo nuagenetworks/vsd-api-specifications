@@ -161,12 +161,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an Infrastructure VSC Profile",
+        "description": "Represents an Infrastructure VSC Profile.",
         "entity_name": "InfrastructureVscProfile",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "infrastructure",

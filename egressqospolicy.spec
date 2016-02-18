@@ -214,7 +214,7 @@
             "description": "Queue2 Forwarding Classes for this Egress QOS Policy Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -357,12 +357,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "The object manipulates Egress QoS parameters attached to a Access Port / VLAN or Network port",
+        "description": "The object manipulates Egress QoS parameters attached to a Access Port / VLAN or Network port.",
         "entity_name": "EgressQOSPolicy",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/qos",

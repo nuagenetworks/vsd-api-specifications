@@ -182,7 +182,7 @@
             "min_value": null,
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "enum",
@@ -265,12 +265,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "A group/collection of vports that belong to the same domain",
+        "description": "A group/collection of vports that belong to the same domain.",
         "entity_name": "RedirectionTarget",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "vport",

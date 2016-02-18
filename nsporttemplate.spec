@@ -194,10 +194,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the Port - NETWORK, ACCESS Possible values are ACCESS, NETWORK, .",
+            "description": "Type of the Port.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -228,7 +228,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Port Template object under a given gateway template object",
+        "description": "Represents Port Template object under a given gateway template object.",
         "entity_name": "NSPortTemplate",
         "extends": [
             "@audited",

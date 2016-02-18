@@ -158,12 +158,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality",
+        "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality.",
         "entity_name": "FloatingIp",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "network",

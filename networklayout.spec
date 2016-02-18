@@ -65,10 +65,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Identifies whether L3 or L2 services are supported. Only L3services are supported in R1.0. Possible values are ROUTER_ONLY, ROUTER_SWITCH, SUBNET_ONLY, .",
+            "description": "Identifies whether L3 or L2 services are supported.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -87,12 +87,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This API defines the AS number that should be used in the data center as well as the IP address of the route reflector",
+        "description": "This API defines the AS number that should be used in the data center as well as the IP address of the route reflector.",
         "entity_name": "NetworkLayout",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

@@ -161,18 +161,18 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "The EAM solution configuration",
+        "description": "The EAM solution configuration.",
         "entity_name": "VCenterEAMConfig",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
-        "get": false,
+        "get": true,
         "package": "vmware",
         "resource_name": "eamconfigs",
         "rest_name": "eamconfig",
         "root": false,
-        "update": false
+        "update": true
     }
 }

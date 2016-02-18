@@ -64,7 +64,7 @@
             "description": "value of VLAN",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4096,
             "min_length": null,
@@ -83,12 +83,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents VLAN Template under a PORT Template object.",
+        "description": "Represents VLAN Template under a Port Template object.",
         "entity_name": "VLANTemplate",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

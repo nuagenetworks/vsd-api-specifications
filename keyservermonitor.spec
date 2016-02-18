@@ -142,7 +142,7 @@
             "description": "Total number of Keyserver Monitor Seed records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -168,7 +168,7 @@
             "description": "The time the latest SEK or Seed was created/removed (milliseconds since epoch)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -232,12 +232,12 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Represents a Keyserver Monitor Snapshot",
+        "description": "Represents a Keyserver Monitor Snapshot.",
         "entity_name": "KeyServerMonitor",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "keyserver",

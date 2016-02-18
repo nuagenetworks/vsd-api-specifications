@@ -143,7 +143,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Metadata tag associated to a metadata",
+        "description": "Metadata tag associated to a metadata.",
         "entity_name": "MetadataTag",
         "extends": [
             "@audited",

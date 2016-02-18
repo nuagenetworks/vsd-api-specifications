@@ -64,7 +64,7 @@
             "description": "Service ID of the mirror destination.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -95,7 +95,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents the mirror destination entity.",
+        "description": "Represents a mirror destination.",
         "entity_name": "MirrorDestination",
         "extends": [
             "@audited",

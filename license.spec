@@ -405,7 +405,7 @@
             "description": "Unique identifier of the license file",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -699,7 +699,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Enables retrieval/modification and creation of license files. Most of the attributes are retrieved from the encrypted license. The create API simply provides the encrypted license that is in base64 format",
+        "description": "Enables retrieval/modification and creation of license files. Most of the attributes are retrieved from the encrypted license. The create API simply provides the encrypted license that is in base64 format.",
         "entity_name": "License",
         "extends": [
             "@audited",

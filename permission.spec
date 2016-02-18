@@ -42,10 +42,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
+            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -180,11 +180,11 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents  Permitted action on an  entity for a group",
+        "description": "Represents  Permitted action on an  entity for a group.",
         "entity_name": "Permission",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

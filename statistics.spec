@@ -116,7 +116,7 @@
             "description": "Version of this Sequence number.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -135,7 +135,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Retrieves the statistics for a particular domain, zone, subnet, or VM",
+        "description": "Retrieves the statistics for a particular domain, zone, subnet, or VM.",
         "entity_name": "Statistics",
         "extends": [
             "@metadata"

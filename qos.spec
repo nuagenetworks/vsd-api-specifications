@@ -662,12 +662,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "The object manipulates the QoS parameters attached to a domain, zone, or subnet",
+        "description": "The object manipulates the QoS parameters attached to a domain, zone, or subnet.",
         "entity_name": "QOS",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "policy/qos",

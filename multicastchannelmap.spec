@@ -80,12 +80,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This is the definition of a MultiCast Channel Map",
+        "description": "This is the definition of a MultiCast Channel Map.",
         "entity_name": "MultiCastChannelMap",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

@@ -12,7 +12,7 @@
             "description": "SEK Creation Time",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -187,12 +187,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot",
+        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot.",
         "entity_name": "KeyServerMonitorEncryptedSeed",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "keyserver",

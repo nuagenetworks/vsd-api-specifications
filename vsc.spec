@@ -350,7 +350,7 @@
             "description": "Peek CPU usage percentage.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -429,10 +429,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Computed status of the entity. Possible values are UP, DOWN, ADMIN_DOWN, .",
+            "description": "Computed status of the entity.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -570,12 +570,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "System Monitoring details for VSC",
+        "description": "System Monitoring details for VSC.",
         "entity_name": "VSC",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "sysmon",

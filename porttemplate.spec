@@ -176,12 +176,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents Port Template object under a given gateway template object",
+        "description": "Represents a Port Template object under a given gateway template object.",
         "entity_name": "PortTemplate",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

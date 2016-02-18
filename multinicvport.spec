@@ -43,7 +43,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Encapsulates the Multi NIC VPort information for system monitor entity.",
+        "description": "Encapsulates the Multi NIC VPort information for system monitoring entity.",
         "entity_name": "MultiNICVPort",
         "extends": [
             "@audited",

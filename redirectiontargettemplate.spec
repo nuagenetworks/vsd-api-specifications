@@ -101,7 +101,7 @@
             "min_value": null,
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "boolean",
@@ -123,7 +123,7 @@
             "description": "Trigger type, could be NONE/GARP - THIS IS READONLY",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -165,12 +165,12 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Template for a vporttag. Can be created only at the template level and available for all instances.",
+        "description": "Template for a vporttag. It can be created only at the template level and available for all instances.",
         "entity_name": "RedirectionTargetTemplate",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "vport",

@@ -142,7 +142,7 @@
             "description": "Longitude in decimal format.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 180,
             "min_length": null,
@@ -213,7 +213,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Gateway location details",
+        "description": "Gateway location details.",
         "entity_name": "Location",
         "extends": [
             "@audited",

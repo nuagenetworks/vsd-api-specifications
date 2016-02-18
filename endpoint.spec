@@ -73,8 +73,8 @@
         "entity_name": "EndPoint",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy",
