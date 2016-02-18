@@ -132,19 +132,6 @@
             "type": "string",
             "unique": false,
             "uniqueScope": "no"
-        }, 
-        "type": {
-            "allowed_choices": [
-                "EXIT_DOMAIN", 
-                "OVERLAY"
-            ], 
-            "default_value": "OVERLAY", 
-            "description": "type flag for static-route provisioning for exit-domain (break-to-underlay) prefixes", 
-            "exposed": true, 
-            "filterable": true, 
-            "format": "free", 
-            "orderable": true, 
-            "type": "enum"
         }
     },
     "children": {
