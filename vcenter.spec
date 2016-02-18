@@ -324,7 +324,7 @@
             "description": "Flag to say if host level management is enabled",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -376,7 +376,7 @@
             "description": "Https proxy port of the VCenter",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1796,7 +1796,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represent a VCenter",
+        "description": "Represents a VCenter.",
         "entity_name": "VCenter",
         "extends": [
             "@audited",

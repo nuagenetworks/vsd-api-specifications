@@ -31,7 +31,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Object that identifies a cloud management system",
+        "description": "Object that identifies a cloud management system.",
         "entity_name": "CloudMgmtSystem",
         "extends": [
             "@audited",

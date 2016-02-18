@@ -150,10 +150,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Application deployment policy. Possible values are NONE, ZONE, .",
+            "description": "Application deployment policy.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1278,7 +1278,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS)",
+        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS).",
         "entity_name": "Domain",
         "extends": [
             "@audited",

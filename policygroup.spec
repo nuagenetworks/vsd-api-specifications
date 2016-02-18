@@ -168,7 +168,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of policy group - possible values SOFTWARE/HARDWARE Possible values are SOFTWARE, HARDWARE, .",
+            "description": "Type of policy group.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -224,7 +224,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS etc.",
+        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS, etc.",
         "entity_name": "PolicyGroup",
         "extends": [
             "@audited",

@@ -64,7 +64,7 @@
             "description": "Boolean value that states if the NSG Port static configuration needs to be applied.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -135,7 +135,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a network port static configuration in the context of an NSG.",
+        "description": "Represents a network port static configuration in the context of an Network Services Gateway.",
         "entity_name": "NSPortStaticConfiguration",
         "extends": [
             "@audited",

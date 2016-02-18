@@ -194,7 +194,7 @@
             "description": "Stats primitive that was selected based on inheritance policies",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -225,7 +225,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "This object is a read only object that provides the policy decisions for a particular VM interface",
+        "description": "This object is a read only object that provides the policy decisions for a particular VM interface.",
         "entity_name": "PolicyDecision",
         "extends": [
             "@audited",

@@ -169,7 +169,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Flow represents the traffic between two different tiers.",
+        "description": "Flow represents the traffic between two different application tiers.",
         "entity_name": "Flow",
         "extends": [
             "@audited",

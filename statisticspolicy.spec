@@ -83,7 +83,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the frequency of statistics collection associated with an object",
+        "description": "Defines the frequency of statistics collection associated with an object.",
         "entity_name": "StatisticsPolicy",
         "extends": [
             "@audited",

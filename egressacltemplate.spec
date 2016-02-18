@@ -223,7 +223,7 @@
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -317,7 +317,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template for an Egress ACL",
+        "description": "Defines the template for an Egress ACL.",
         "entity_name": "EgressACLTemplate",
         "extends": [
             "@audited",

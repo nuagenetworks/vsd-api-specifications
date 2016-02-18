@@ -39,10 +39,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
+            "description": "Avatar type.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -306,7 +306,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Object that identifies the user functions",
+        "description": "Object that identifies the user functions.",
         "entity_name": "User",
         "extends": [
             "@audited",

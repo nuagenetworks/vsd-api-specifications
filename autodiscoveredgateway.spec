@@ -147,10 +147,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Personality of the Gateway - VSG,VRSG,NONE,OTHER, cannot be changed after creation. Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
+            "description": "Personality of the Gateway - VSG,VRSG,NONE,OTHER, cannot be changed after creation.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -266,7 +266,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Represents Auto discovered Gateway",
+        "description": "Represents Auto discovered Gateway.",
         "entity_name": "AutoDiscoveredGateway",
         "extends": [
             "@audited",

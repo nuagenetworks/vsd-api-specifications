@@ -83,7 +83,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This is the definition of a VPN Connect which holds the PE service assocaition with a DOMAIN",
+        "description": "This is the definition of a VPN Connect which holds the PE service assocaition with a DOMAIN.",
         "entity_name": "VPNConnection",
         "extends": [
             "@audited",

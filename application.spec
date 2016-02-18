@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the ACL template that this application is pointing to",
+            "description": "The ID of the ACL template that this application is pointing to.",
             "exposed": true,
             "filterable": false,
             "format": "free",

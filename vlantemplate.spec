@@ -83,7 +83,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents VLAN Template under a PORT Template object.",
+        "description": "Represents VLAN Template under a Port Template object.",
         "entity_name": "VLANTemplate",
         "extends": [
             "@audited",

@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Current connection status of the BGP peer. Possible values are UP, DOWN, ADMIN_DOWN, .",
+            "description": "Current connection status of the BGP peer.",
             "exposed": true,
             "filterable": false,
             "format": null,

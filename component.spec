@@ -203,7 +203,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the component Possible values are JBOSS, MEDIATOR, PERCONA, EJABBERD, TCA, STATSCOLLECTOR, STATSSERVER, .",
+            "description": "Type of the component.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -225,7 +225,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "System Monitoring details for components of VSD system",
+        "description": "System Monitoring details for components of VSD system.",
         "entity_name": "VSDComponent",
         "extends": [
             "@base",

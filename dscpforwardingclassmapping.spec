@@ -67,7 +67,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Provides the definition of a single DSCP -> Forwarding class mapping that is part of a Table used in QoS policies.",
+        "description": "Provides the definition of a single DSCP to a Forwarding class mapping that is part of a Table used in QoS policies.",
         "entity_name": "DSCPForwardingClassMapping",
         "extends": [
             "@audited",

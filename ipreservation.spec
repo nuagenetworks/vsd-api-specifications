@@ -95,7 +95,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This is the definition of a IP Bindings associated with in a Network",
+        "description": "This is the definition of a IP Bindings associated with in a Network.",
         "entity_name": "IPReservation",
         "extends": [
             "@audited",

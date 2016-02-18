@@ -177,7 +177,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The permitted  action to USE/EXTEND  this Gateway Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
+            "description": "The permitted  action to USE/EXTEND  this Gateway.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -222,7 +222,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents PAT NAT Pool object.",
+        "description": "Represents a PAT NAT Pool object.",
         "entity_name": "PATNATPool",
         "extends": [
             "@audited",

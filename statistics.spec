@@ -135,7 +135,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Retrieves the statistics for a particular domain, zone, subnet, or VM",
+        "description": "Retrieves the statistics for a particular domain, zone, subnet, or VM.",
         "entity_name": "Statistics",
         "extends": [
             "@metadata"

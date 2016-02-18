@@ -12,7 +12,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of multicast list - send or receive Possible values are SEND, RECEIVE, .",
+            "description": "Type of multicast list.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -46,7 +46,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "This is the definition of a MultiCast Channel List",
+        "description": "This is the definition of a MultiCast Channel List.",
         "entity_name": "MultiCastList",
         "extends": [
             "@audited",

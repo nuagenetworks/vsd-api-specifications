@@ -486,10 +486,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The type of the hardware service controller Possible values are VSA, VSG, DC7X50, NONE, .",
+            "description": "The type of the hardware service controller.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -627,7 +627,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "System Monitoring details for hardware service controllers",
+        "description": "System Monitoring details for hardware service controllers.",
         "entity_name": "HSC",
         "extends": [
             "@audited",

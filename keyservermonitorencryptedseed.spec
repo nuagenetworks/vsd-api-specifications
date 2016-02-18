@@ -187,7 +187,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot",
+        "description": "Represents a Keyserver Monitor Encrypted Seed Snapshot.",
         "entity_name": "KeyServerMonitorEncryptedSeed",
         "extends": [
             "@audited",

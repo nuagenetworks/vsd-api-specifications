@@ -338,7 +338,7 @@
             "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -969,7 +969,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Definition of the enterprise object. This is the top level object that represents an enterprise or organization.",
+        "description": "Definition of the enterprise object. This is the top level object that represents an organization.",
         "entity_name": "Enterprise",
         "extends": [
             "@audited",

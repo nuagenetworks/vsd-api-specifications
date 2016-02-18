@@ -95,7 +95,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents the mirror destination entity.",
+        "description": "Represents a mirror destination.",
         "entity_name": "MirrorDestination",
         "extends": [
             "@audited",

@@ -35,10 +35,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Whether to get the management IP for the VRS VM from DHCP or statically",
+            "description": "Whether to get the management IP for the VRS VM from DHCP or statically.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1588,7 +1588,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "VCenter Clusters",
+        "description": "VCenter Clusters.",
         "entity_name": "VCenterCluster",
         "extends": [
             "@audited",
