@@ -685,7 +685,7 @@
             "description": "The priority of the ACL entry that determines the order of entries",
             "exposed": true,
             "filterable": true,
-            "format": "null,
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
