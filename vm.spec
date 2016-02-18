@@ -248,7 +248,7 @@
             "description": "List of VM interfaces associated with the VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
