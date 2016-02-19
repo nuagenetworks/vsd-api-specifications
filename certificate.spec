@@ -135,11 +135,11 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "This object represents a X509 Certificate Request.",
+        "description": "This object represents a X509 Certificate Request",
         "entity_name": "Certificate",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": false,
         "package": "certificate",

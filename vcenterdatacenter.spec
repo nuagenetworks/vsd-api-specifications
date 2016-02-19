@@ -1468,7 +1468,7 @@
             "description": "Whether split-activation or not (Openstack/CloudStack)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1591,9 +1591,9 @@
         "description": "VCenter DataCenters.",
         "entity_name": "VCenterDataCenter",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "vmware",

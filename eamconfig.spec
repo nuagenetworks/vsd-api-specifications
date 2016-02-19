@@ -164,15 +164,15 @@
         "description": "The EAM solution configuration.",
         "entity_name": "VCenterEAMConfig",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
-        "get": false,
+        "get": true,
         "package": "vmware",
         "resource_name": "eamconfigs",
         "rest_name": "eamconfig",
         "root": false,
-        "update": false
+        "update": true
     }
 }

@@ -65,10 +65,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Current connection status of the BGP peer. Possible values are UP, DOWN, ADMIN_DOWN, .",
+            "description": "Current connection status of the BGP peer.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -90,8 +90,8 @@
         "description": "Encapsulates the BGP peer information for system monitor entity.",
         "entity_name": "BGPPeer",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": false,
         "package": "sysmon",

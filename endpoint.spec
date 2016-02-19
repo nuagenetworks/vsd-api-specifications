@@ -15,7 +15,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -69,12 +69,12 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Representation of End Point.",
+        "description": "Representation of End Point",
         "entity_name": "EndPoint",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "policy",

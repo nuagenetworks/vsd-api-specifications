@@ -41,7 +41,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -138,8 +138,8 @@
         "description": "Rate Limiter object that contains peak, burst and cir. It can be associated with Egress QOS policy objects.",
         "entity_name": "RateLimiter",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

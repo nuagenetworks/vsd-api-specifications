@@ -15,7 +15,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": false,
             "read_only": false,
@@ -84,8 +84,8 @@
         "entity_name": "MultiCastChannelMap",
         "extends": [
             "@audited",
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

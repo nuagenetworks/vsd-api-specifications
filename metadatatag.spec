@@ -67,7 +67,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -146,8 +146,8 @@
         "description": "Metadata tag associated to a metadata.",
         "entity_name": "MetadataTag",
         "extends": [
-            "@base",
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": "common",

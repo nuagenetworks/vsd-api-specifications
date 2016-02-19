@@ -169,10 +169,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Describes what type of traffic needs to be mirrors - ingress/egress/both Possible values are BOTH, INGRESS, EGRESS, .",
+            "description": "Describes what type of traffic needs to be mirrored.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -246,8 +246,8 @@
         "description": "VPort Mirror represents the relationship between a vport and a mirror destination.",
         "entity_name": "VPortMirror",
         "extends": [
-            "@base",
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,

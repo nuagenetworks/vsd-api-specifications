@@ -265,11 +265,11 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "The API retrieves the events related to a particular entity.",
+        "description": "The API retrieves the events related to a particular entity",
         "entity_name": "EventLog",
         "extends": [
-            "@metadata",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "eventlog",

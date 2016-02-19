@@ -64,7 +64,7 @@
             "description": "Service ID of the mirror destination.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -80,6 +80,39 @@
         }
     },
     "children": {
+        "egressaclentrytemplate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ingressaclentrytemplate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ingressadvfwdentrytemplate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "vportmirror": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -98,9 +131,9 @@
         "description": "Represents a mirror destination.",
         "entity_name": "MirrorDestination",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "vport",

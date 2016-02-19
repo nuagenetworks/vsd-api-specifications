@@ -15,7 +15,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -67,7 +67,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -145,7 +145,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -164,9 +164,9 @@
         "description": "Represents an Infrastructure VSC Profile.",
         "entity_name": "InfrastructureVscProfile",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "infrastructure",

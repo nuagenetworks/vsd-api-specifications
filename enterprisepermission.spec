@@ -15,7 +15,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -42,10 +42,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The permitted  action to USE/EXTEND/READ/INSTANTIATE  an entity Possible values are USE, READ, ALL, INSTANTIATE, EXTEND, DEPLOY, .",
+            "description": "The permitted action.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -171,9 +171,9 @@
         "description": "Represents Enterprise Permission for a CSP entity.",
         "entity_name": "EnterprisePermission",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

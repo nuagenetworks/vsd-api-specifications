@@ -41,7 +41,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": false,
             "read_only": false,
@@ -360,9 +360,9 @@
         "description": "The object manipulates Egress QoS parameters attached to a Access Port / VLAN or Network port.",
         "entity_name": "EgressQOSPolicy",
         "extends": [
+            "@audited",
             "@base",
-            "@metadata",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "policy/qos",

@@ -15,7 +15,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -319,7 +319,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "orderable": true,
             "read_only": false,
@@ -408,6 +408,17 @@
             "get": true,
             "relationship": "child",
             "update": false
+        },
+        "vsgredundantport": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": true
         }
     },
     "model": {
@@ -416,9 +427,9 @@
         "description": "Represents Redundant Group formed by two Gateways.",
         "entity_name": "RedundancyGroup",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

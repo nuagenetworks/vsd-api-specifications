@@ -41,10 +41,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Bootstrap status; can be, for example, Active, Inactive, or Notified. Possible values are INACTIVE, NOTIFICATION_APP_REQ_SENT, NOTIFICATION_APP_REQ_ACK, CERTIFICATE_SIGNED, ACTIVE, .",
+            "description": "Bootstrap status.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -66,9 +66,9 @@
         "description": "Gateway bootstrap details.",
         "entity_name": "Bootstrap",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "gateway",

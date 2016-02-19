@@ -338,7 +338,7 @@
             "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -475,7 +475,7 @@
             "max_length": null,
             "max_value": 250000,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -716,6 +716,17 @@
             "relationship": "child",
             "update": false
         },
+        "enterprisesecurity": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "eventlog": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -798,6 +809,61 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ikev2certificate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ikev2encryptionprofile": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ikev2gateway": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ikev2gatewayprofile": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "ikev2psk": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
             "delete": false,
             "deprecated": false,
             "get": true,
@@ -947,6 +1013,17 @@
             "relationship": "child",
             "update": false
         },
+        "publicnetwork": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "ratelimiter": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -1020,9 +1097,9 @@
         "description": "Definition of the enterprise object. This is the top level object that represents an organization.",
         "entity_name": "Enterprise",
         "extends": [
-            "@metadata",
+            "@audited",
             "@base",
-            "@audited"
+            "@metadata"
         ],
         "get": true,
         "package": "usermgmt",

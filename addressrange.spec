@@ -12,10 +12,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE. Possible values are HOST, BRIDGE Possible values are HOST, BRIDGE, .",
+            "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -101,9 +101,9 @@
         "description": "This is the definition of a Address Range associated with a Network.",
         "entity_name": "AddressRange",
         "extends": [
-            "@metadata",
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "network",

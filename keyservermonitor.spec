@@ -142,7 +142,7 @@
             "description": "Total number of Keyserver Monitor Seed records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -185,17 +185,6 @@
     },
     "children": {
         "keyservermonitorencryptedseed": {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "update": false
-        },
-        "keyservermonitorencryptedsek": {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
