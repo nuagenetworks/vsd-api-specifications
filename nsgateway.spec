@@ -40,7 +40,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": "Type of ZFB Attribute to auto match this NSG with",
             "exposed": true,
             "filterable": true,
             "format": null,
