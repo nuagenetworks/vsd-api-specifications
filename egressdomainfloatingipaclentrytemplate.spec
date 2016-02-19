@@ -954,7 +954,7 @@
             "description": "True means that this ACL entry is reflexive, so there will be a corresponding egress rule that will be created by OVS in the network. false means that there is no corresponding egress rule created by OVS in the network.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -964,7 +964,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "boolean",
             "unique": false,
             "uniqueScope": null
         },
