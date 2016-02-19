@@ -26,7 +26,7 @@
             "unique": false,
             "uniqueScope": "no"
         },
-        "ZFBAttributes": {
+        "ZFBMatchAttribute": {
             "allowed_chars": null,
             "allowed_choices": [
                 "HOSTNAME",
@@ -40,7 +40,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Base64 Encoded JSON String of ZFB Attributes from the NSG",
+            "description": "",
             "exposed": true,
             "filterable": true,
             "format": null,
