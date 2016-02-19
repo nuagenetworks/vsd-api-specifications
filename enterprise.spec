@@ -1089,6 +1089,17 @@
             "get": true,
             "relationship": "child",
             "update": false
+        },
+        "zfbrequest": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": true,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "update": false
         }
     },
     "model": {
