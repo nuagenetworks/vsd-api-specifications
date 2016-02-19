@@ -113,7 +113,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates total available NIC count for all the licenses in the system",
+            "description": "Indicates total NIC count for all the licenses in the system",
             "exposed": true,
             "filterable": true,
             "format": "free",
