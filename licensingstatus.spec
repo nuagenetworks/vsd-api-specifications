@@ -3,7 +3,7 @@
     "children": {},
     "model": {
         "create": null,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "LicensingStatus",
         "extends": [],
@@ -12,6 +12,6 @@
         "resource_name": "licensingstatus",
         "rest_name": "licensingstatus",
         "root": null,
-        "update": true
+        "update": false
     }
 }
