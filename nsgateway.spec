@@ -652,11 +652,11 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": false,
-            "get": true,
             "delete": false,
             "deprecated": false,
+            "get": true,
             "relationship": "child",
-            "update": true
+            "update": false
         }
     },
     "model": {
