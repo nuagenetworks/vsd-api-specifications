@@ -811,7 +811,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": true,
-            "description": "True means that this ACL entry is reflexive, so there will be a corresponding egress rule that will be created by OVS in the network. false means that there is no corresponding egress rule created by OVS in the network.",
+            "description": "True means that this ACL entry is reflexive, so there will be a corresponding rule that will be created by OVS in the network. False means that there is no corresponding rule created by OVS in the network.",
             "exposed": true,
             "filterable": true,
             "format": null,
