@@ -29,6 +29,7 @@
         "ZFBAttributes": {
             "allowed_chars": null,
             "allowed_choices": [
+                "IP_ADDRESS",
                 "MAC_ADDRESS",
                 "SERIAL_NUMBER"
             ],
