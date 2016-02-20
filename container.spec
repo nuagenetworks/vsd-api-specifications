@@ -260,7 +260,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "imageName": {
             "allowed_chars": null,
@@ -286,7 +286,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "interfaces": {
             "allowed_chars": null,
@@ -639,6 +639,17 @@
             "relationship": "child",
             "update": false
         },
+        "containerinterface": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "eventlog": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -651,17 +662,6 @@
             "update": false
         },
         "resync": {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "update": false
-        },
-        "vminterface": {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
