@@ -245,7 +245,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Id of the image of the container",
+            "description": "Id of the container image",
             "exposed": true,
             "filterable": true,
             "format": "free",
