@@ -661,6 +661,17 @@
             "relationship": "child",
             "update": false
         },
+        "container": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "domain": {
             "bulk_create": false,
             "bulk_delete": false,
