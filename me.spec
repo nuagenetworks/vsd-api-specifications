@@ -395,6 +395,17 @@
             "relationship": "root",
             "update": false
         },
+        "containerinterface": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "update": false
+        },
         "domain": {
             "bulk_create": false,
             "bulk_delete": false,
