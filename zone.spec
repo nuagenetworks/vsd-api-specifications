@@ -675,6 +675,17 @@
             "relationship": "child",
             "update": false
         },
+        "containerinterface": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "dhcpoption": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -768,17 +779,6 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "update": false
-        },
-        "vm": {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
             "delete": false,
             "deprecated": false,
             "get": true,
