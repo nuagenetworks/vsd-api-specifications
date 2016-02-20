@@ -650,22 +650,22 @@
             "relationship": "child",
             "update": false
         },
-        "eventlog": {
+        "containerresync": {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
             "update": false
         },
-        "resync": {
+        "eventlog": {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": false,
             "get": true,
