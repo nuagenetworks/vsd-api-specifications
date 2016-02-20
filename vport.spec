@@ -387,6 +387,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "BRIDGE",
+                "CONTAINER",
                 "HOST",
                 "VM"
             ],
@@ -399,7 +400,7 @@
             "description": "Type of vport - possible values VM/HOST/BRIDGE Possible values are VM, HOST, BRIDGE, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
