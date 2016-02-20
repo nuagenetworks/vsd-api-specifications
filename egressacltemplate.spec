@@ -269,6 +269,17 @@
         }
     },
     "children": {
+        "container": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "egressaclentrytemplate": {
             "bulk_create": false,
             "bulk_delete": false,
