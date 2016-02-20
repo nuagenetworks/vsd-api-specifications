@@ -874,7 +874,7 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "productVersion": {
             "allowed_chars": null,
@@ -926,7 +926,7 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "revertCompleted": {
             "allowed_chars": null,
@@ -952,7 +952,7 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "revertCount": {
             "allowed_chars": null,
@@ -978,7 +978,7 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "revertFailedCount": {
             "allowed_chars": null,
@@ -1004,7 +1004,7 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "role": {
             "allowed_chars": null,
@@ -1119,7 +1119,7 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "vscCurrentState": {
             "allowed_chars": null,
@@ -1148,7 +1148,7 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         }
     },
     "children": {
@@ -1159,6 +1159,17 @@
             "create": false,
             "delete": false,
             "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "container": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
             "get": true,
             "relationship": "child",
             "update": false
