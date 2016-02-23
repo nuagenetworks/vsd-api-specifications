@@ -39,6 +39,13 @@
             "exposed": true,
             "filterable": true,
             "orderable": true,
+            "read_only": false,
+            "required": false,
+            "subtype": null,
+            "transient": false,
+            "type": "string",
+            "unique": false,
+            "uniqueScope": "no"
         },
         "ICMPCode": {
             "allowed_chars": null,
