@@ -1770,6 +1770,17 @@
         }
     },
     "children": {
+        "autodiscovereddatacenter": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "job": {
             "bulk_create": false,
             "bulk_delete": false,
