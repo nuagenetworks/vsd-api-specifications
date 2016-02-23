@@ -827,7 +827,7 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "sourcePort": {
             "allowed_chars": null,
@@ -848,7 +848,7 @@
             "min_value": null,
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
