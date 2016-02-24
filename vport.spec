@@ -537,7 +537,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         },
         "statistics": {
