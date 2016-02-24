@@ -163,7 +163,11 @@
         "delete": true,
         "description": "Missing description.",
         "entity_name": "Zfbrequest",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "zfbrequests",
