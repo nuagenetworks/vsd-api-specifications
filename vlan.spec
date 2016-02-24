@@ -291,7 +291,7 @@
             "min_value": null,
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -422,7 +422,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents VLAN object under a given PORT object.",
+        "description": "Represents VLAN object under a given Port object.",
         "entity_name": "VLAN",
         "extends": [
             "@audited",

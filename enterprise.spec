@@ -1094,7 +1094,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Definition of the enterprise object. This is the top level object that represents an organization.",
+        "description": "Definition of the enterprise object. This is the top level object that represents an enterprise.",
         "entity_name": "Enterprise",
         "extends": [
             "@audited",
