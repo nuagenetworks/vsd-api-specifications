@@ -24,7 +24,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "NSGatewayTemplateID": {
             "allowed_chars": null,
@@ -50,7 +50,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "ZFBAttributes": {
             "allowed_chars": null,
@@ -76,7 +76,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "enterpriseID": {
             "allowed_chars": null,
@@ -102,7 +102,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "lastConnected": {
             "allowed_chars": null,
@@ -128,7 +128,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         },
         "status": {
             "allowed_chars": null,
@@ -154,14 +154,14 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": "no"
         }
     },
     "children": {},
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Missing description.",
         "entity_name": "Zfbrequest",
         "extends": [],
         "get": true,
