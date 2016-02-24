@@ -124,7 +124,7 @@
             "description": "The time this entry  was activated (milliseconds since epoch)",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -139,30 +139,7 @@
             "uniqueScope": "no"
         }
     },
-    "children": {
-        "keyservermonitorencryptedseed": {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "update": false
-        },
-        "keyservermonitorencryptedsek": {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "update": false
-        }
-    },
+    "children": {},
     "model": {
         "create": false,
         "delete": true,
