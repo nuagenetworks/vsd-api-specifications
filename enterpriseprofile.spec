@@ -335,8 +335,8 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
-            "update": false
+            "relationship": "member",
+            "update": true
         },
         "eventlog": {
             "bulk_create": false,
@@ -357,7 +357,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         },
         "multicastlist": {

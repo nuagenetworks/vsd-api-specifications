@@ -1081,7 +1081,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         },
         "ipreservation": {
@@ -1198,7 +1198,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This is the definition of a subnet associated with a zone.",
+        "description": "This is the definition of a subnet associated with a Zone.",
         "entity_name": "Subnet",
         "extends": [
             "@audited",
