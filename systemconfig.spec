@@ -2308,7 +2308,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Defines the timeout in seconds for non TCP stateful ACLs in version 4.0.",
+            "description": "Defines the timeout in seconds for stateful ACLs that are not of type TCP.",
             "exposed": true,
             "filterable": false,
             "format": null,
