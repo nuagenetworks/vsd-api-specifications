@@ -39,10 +39,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Avatar type - URL or BASE64 Possible values are URL, BASE64, COMPUTEDURL, .",
+            "description": "Avatar type.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -340,6 +340,28 @@
             "relationship": "root",
             "update": false
         },
+        "bgpneighbor": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "update": false
+        },
+        "bgpprofile": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
         "certificate": {
             "bulk_create": false,
             "bulk_delete": false,
@@ -377,12 +399,12 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "update": true
+            "update": false
         },
         "egressaclentrytemplate": {
             "bulk_create": false,
@@ -404,6 +426,28 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
+            "update": false
+        },
+        "egressdomainfloatingipacltemplate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": false
+        },
+        "egressfloatingipacltemplate": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
             "update": false
         },
         "egressqospolicy": {
@@ -767,6 +811,17 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
+            "update": false
+        },
+        "routingpolicy": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
             "update": false
         },
         "sharednetworkresource": {

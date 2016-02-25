@@ -12,10 +12,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of multicast list - send or receive Possible values are SEND, RECEIVE, .",
+            "description": "Type of multicast list.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -39,7 +39,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         }
     },

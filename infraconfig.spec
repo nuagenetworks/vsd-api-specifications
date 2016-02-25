@@ -42,7 +42,7 @@
             "description": "Status of the configuration application",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -61,7 +61,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "Represents Infrastructure Config.",
+        "description": "Represents Infrastructure Config",
         "entity_name": "InfrastructureConfig",
         "extends": [
             "@audited",

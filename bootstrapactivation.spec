@@ -23,10 +23,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The bootstrap action to perform",
+            "description": "The bootstrap action to perform.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -305,7 +305,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "NSG Gateway initiated Bootstrap Activation.",
+        "description": "NSG Gateway initiated Bootstrap Activation",
         "entity_name": "BootstrapActivation",
         "extends": [
             "@audited",
