@@ -1673,7 +1673,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "True = connected",
+            "description": "True = connected, False = not connected, NULL = connect never attempted",
             "exposed": true,
             "filterable": true,
             "format": "free",
