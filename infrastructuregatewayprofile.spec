@@ -117,7 +117,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Time, in seconds, allowed for a Gateway to be inactive before the VSD revokes its certificates and marks it as untrusted.",
+            "description": "The ISO 8601 format for representing a period is as follows:  *              P[date_fields]T[time_fields]  *              P nYnMnD T nHnMnS where n represents the value of the date or time field.  *              The table below shows the meaning of each field:  *  *              +-------+----------------+  *              |Letter |   Meaning      |  *              +------------------------+  *              | P     |   Period field |  *              | Y     |   Year         |  *              | M     |   Month        |  *              | D     |   Day          |  *              | T     |   Time field   |  *              | H     |   Hour         |  *              | M     |   Minute       |  *              | S     |   Second       |  *              +-------+----------------+               Because the years and month are units that vary in length, for the time being those are not supported yet.",
             "exposed": true,
             "filterable": false,
             "format": null,
