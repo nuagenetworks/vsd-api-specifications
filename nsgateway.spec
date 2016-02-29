@@ -668,7 +668,7 @@
             "get": true,
             "relationship": "child",
             "update": false
-        },
+        }
     },
     "model": {
         "create": false,
