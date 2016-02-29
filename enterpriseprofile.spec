@@ -160,7 +160,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": null,
+            "subtype": "enum",
             "transient": false,
             "type": "list",
             "unique": false,
@@ -233,11 +233,11 @@
             "description": "Quota set for the number of floating IPs to be used by an enterprise.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 250000,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -335,8 +335,8 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
-            "update": false
+            "relationship": "member",
+            "update": true
         },
         "eventlog": {
             "bulk_create": false,
@@ -357,7 +357,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "update": true
         },
         "multicastlist": {
