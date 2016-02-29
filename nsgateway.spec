@@ -656,7 +656,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "update": false
+            "update": true
         },
         "subnet": {
             "bulk_create": false,
