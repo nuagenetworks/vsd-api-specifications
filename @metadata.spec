@@ -1,7 +1,7 @@
 {
-    "attributes": [],
-    "children": [
-        {
+    "attributes": {},
+    "children": {
+        "metadata": {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
@@ -10,22 +10,20 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "globalmetadata",
-            "update": true
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "metadata",
             "update": false
+        },
+        "globalmetadata": {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "update": true
         }
-    ],
+    },
     "model": {
         "create": false,
         "delete": false,

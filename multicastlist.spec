@@ -1,6 +1,6 @@
 {
-    "attributes": [
-        {
+    "attributes": {
+        "mcastType": {
             "allowed_chars": null,
             "allowed_choices": [
                 "RECEIVE",
@@ -20,7 +20,6 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "mcastType",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -30,9 +29,9 @@
             "unique": false,
             "uniqueScope": "no"
         }
-    ],
-    "children": [
-        {
+    },
+    "children": {
+        "multicastchannelmap": {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
@@ -41,10 +40,9 @@
             "deprecated": false,
             "get": true,
             "relationship": "member",
-            "rest_name": "multicastchannelmap",
             "update": true
         }
-    ],
+    },
     "model": {
         "create": false,
         "delete": false,
