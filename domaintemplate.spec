@@ -79,7 +79,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
