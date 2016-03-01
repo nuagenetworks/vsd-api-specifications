@@ -256,7 +256,7 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -310,7 +310,7 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -337,7 +337,7 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -364,7 +364,7 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -391,7 +391,7 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -422,7 +422,7 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         }
     ],
     "children": [],
