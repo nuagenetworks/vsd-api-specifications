@@ -25,7 +25,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         }
     ],
     "children": [
