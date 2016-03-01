@@ -25,7 +25,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -52,7 +52,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -79,7 +79,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -114,7 +114,7 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         }
     ],
     "children": [
