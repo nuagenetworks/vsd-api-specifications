@@ -106,7 +106,7 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": "no"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
