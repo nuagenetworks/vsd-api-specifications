@@ -901,7 +901,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2gatewayprofile",
+            "rest_name": "ikegatewayprofile",
             "update": false
         },
         {
