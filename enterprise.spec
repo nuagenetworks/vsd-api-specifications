@@ -877,7 +877,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2encryptionprofile",
+            "rest_name": "ikeencryptionprofile",
             "update": false
         },
         {
