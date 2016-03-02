@@ -119,7 +119,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2subnet",
+            "rest_name": "ikesubnet",
             "update": false
         }
     ],
