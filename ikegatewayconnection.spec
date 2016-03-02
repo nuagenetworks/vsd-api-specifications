@@ -40,7 +40,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "ID_KEY_ID",
             "deprecated": false,
             "description": "NSG Identifier Type. ",
             "exposed": true,
