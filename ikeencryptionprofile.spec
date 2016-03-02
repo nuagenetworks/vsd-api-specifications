@@ -589,7 +589,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Profile",
-        "entity_name": "Ikeencryptionprofile",
+        "entity_name": "IKEEncryptionprofile",
         "extends": [
             "@audited",
             "@base",

@@ -157,7 +157,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Gateway",
-        "entity_name": "Ikegateway",
+        "entity_name": "IKEGateway",
         "extends": [
             "@audited",
             "@base",

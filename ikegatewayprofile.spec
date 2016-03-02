@@ -562,7 +562,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Gateway",
-        "entity_name": "Ikegatewayprofile",
+        "entity_name": "IKEGatewayProfile",
         "extends": [
             "@audited",
             "@base",

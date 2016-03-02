@@ -249,7 +249,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Trusted Certificate",
-        "entity_name": "Ikecertificate",
+        "entity_name": "IKECertificate",
         "extends": [
             "@audited",
             "@base",

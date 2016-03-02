@@ -60,7 +60,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Subnet (remote side)",
-        "entity_name": "Ikesubnet",
+        "entity_name": "IKESubnet",
         "extends": [
             "@audited",
             "@base",

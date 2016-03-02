@@ -649,7 +649,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Gateway Connection object",
-        "entity_name": "Ikegatewayconnection",
+        "entity_name": "IKEGatewayConnection",
         "extends": [
             "@audited",
             "@base",

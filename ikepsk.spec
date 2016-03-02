@@ -249,7 +249,7 @@
         "create": false,
         "delete": true,
         "description": "Represents an IKE Pre Shared Key",
-        "entity_name": "Ikepsk",
+        "entity_name": "IKEPSK",
         "extends": [
             "@audited",
             "@base",
