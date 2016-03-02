@@ -1030,7 +1030,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "member",
-            "rest_name": "ikev2gatewayconnection",
+            "rest_name": "ikegatewayconnection",
             "update": true
         },
         {
