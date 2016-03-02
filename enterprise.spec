@@ -865,7 +865,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2certificate",
+            "rest_name": "ikecertificate",
             "update": false
         },
         {
