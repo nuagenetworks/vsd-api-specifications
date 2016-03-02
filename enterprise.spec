@@ -889,7 +889,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2gateway",
+            "rest_name": "ikegateway",
             "update": false
         },
         {
