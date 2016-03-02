@@ -913,7 +913,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2psk",
+            "rest_name": "ikepsk",
             "update": false
         },
         {
