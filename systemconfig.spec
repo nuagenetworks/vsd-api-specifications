@@ -628,7 +628,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "60",
             "deprecated": false,
             "description": "Timers in sec for undefined vms to be deleted.",
             "exposed": true,
