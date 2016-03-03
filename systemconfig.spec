@@ -655,7 +655,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "2",
             "deprecated": false,
             "description": "After resync on vm , if no controller returns with a VM request with in the below timeframe then it will get deleted deletion wait time in minutes.",
             "exposed": true,
