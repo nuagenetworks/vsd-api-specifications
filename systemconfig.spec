@@ -2582,7 +2582,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "50",
+            "default_value": null,
             "deprecated": false,
             "description": "Specifies the maximum number of data points to support.",
             "exposed": true,
