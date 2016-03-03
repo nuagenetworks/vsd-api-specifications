@@ -2231,7 +2231,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "1",
+            "default_value": "",
             "deprecated": false,
             "description": "Customer id offset, this value has to be set before jboss starts , after that any change of value is ignored (minexclusive = 0, max = 20000) system wide value",
             "exposed": true,
