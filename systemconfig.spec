@@ -709,7 +709,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "7200",
             "deprecated": false,
             "description": "Timers in sec for unreachable VMs for cleanup.",
             "exposed": true,
