@@ -1145,7 +1145,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "1",
             "deprecated": false,
             "description": "Timers in sec for  dynamic WAN Services to be considered not seen by 7X50.",
             "exposed": true,
