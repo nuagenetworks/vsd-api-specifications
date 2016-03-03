@@ -736,7 +736,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "3600",
             "deprecated": false,
             "description": "Timers in sec for unreachable VMs.",
             "exposed": true,
