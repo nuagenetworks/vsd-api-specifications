@@ -601,7 +601,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "5000",
             "deprecated": false,
             "description": "LRU Map size for vm, this value has to set based on memory given to VSD jvm not finalized.",
             "exposed": true,
