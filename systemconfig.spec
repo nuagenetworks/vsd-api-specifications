@@ -2285,7 +2285,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "500",
             "deprecated": false,
             "description": "Defines upper bound for the page size. Configured or input page size should be less than this max page size.",
             "exposed": true,
