@@ -248,17 +248,17 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an IKEv2 Trusted Certificate",
-        "entity_name": "IKEv2Certificate",
+        "description": "Represents an IKE Trusted Certificate",
+        "entity_name": "IKECertificate",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "ikev2",
-        "resource_name": "ikev2certificates",
-        "rest_name": "ikev2certificate",
+        "package": "ike",
+        "resource_name": "ikecertificates",
+        "rest_name": "ikecertificate",
         "root": false,
         "update": true
     }
