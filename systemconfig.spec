@@ -2312,7 +2312,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "50",
             "deprecated": false,
             "description": "Defines the page size for the results returned by the REST call.",
             "exposed": true,
