@@ -682,7 +682,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "1000",
             "deprecated": false,
             "description": "Outstanding VM resync interval (in secs). System wide value.",
             "exposed": true,
