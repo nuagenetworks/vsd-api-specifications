@@ -2609,7 +2609,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "2592000",
             "deprecated": false,
             "description": "Default minimum duration for statistics to be displayed in UI is 30 days in seconds.",
             "exposed": true,
