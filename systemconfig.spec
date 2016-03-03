@@ -2258,7 +2258,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "1",
+            "default_value": "",
             "deprecated": false,
             "description": "Service id offset, this value has to be set before jboss starts during install time, after that any change of value is ignored (minexclusive = 0, max = 40000) system wide value",
             "exposed": true,
