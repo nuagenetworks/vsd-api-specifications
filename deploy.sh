@@ -1,17 +1,15 @@
 #!/bin/bash
 
-GIT_BRANCH=`git rev-parse --abbrev-ref HEAD`
-
 pip install -U git+https://github.com/nuagenetworks/monolithe.git && \
 pip install -U git+https://github.com/nuagenetworks/vspkgenerator.git && \
 \
 mkdir -p repos && \
 cd repos && \
 \
-git clone git@github.com:nuagenetworks/vspk-python.git -b ${GIT_BRANCH} && \
+git clone git@github.com:nuagenetworks/vspk-python.git -b ${TRAVIS_BRANCH} && \
 rm -rf vspk-python/* && \
 \
-git clone git@github.com:nuagenetworks/vspk-go.git -b ${GIT_BRANCH} && \
+git clone git@github.com:nuagenetworks/vspk-go.git -b ${TRAVIS_BRANCH} && \
 rm -rf vspk-go/* && \
 \
 git clone git@github.com:nuagenetworks/vsd-api-documentation.git -b gh-pages && \
@@ -43,12 +41,12 @@ fi
 
 cd repos/vspk-python
 git commit -a -m "Auto generated from specifications change."
-git push origin $GIT_BRANCH
+git push origin $TRAVIS_BRANCH
 cd -
 
 cd repos/vspk-go
 git commit -a -m "Auto generated from specifications change."
-git push origin $GIT_BRANCH
+git push origin $TRAVIS_BRANCH
 cd -
 
 cd repos/vsd-api-documentation
