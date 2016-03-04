@@ -981,7 +981,7 @@
             "default_order": false,
             "default_value": "true",
             "deprecated": false,
-            "description": null,
+            "description": "Allow Enterprise Avatar to be populated on NSG Portal",
             "exposed": true,
             "filterable": true,
             "format": null,
