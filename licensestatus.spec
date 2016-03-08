@@ -65,7 +65,7 @@
             "deprecated": false,
             "description": "Indicates total used NIC count for all the licenses in the system",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
