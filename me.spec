@@ -339,7 +339,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "root",
-            "rest_name": "L7AppType",
+            "rest_name": "L7applicationtype",
             "update": false
         },
         {
