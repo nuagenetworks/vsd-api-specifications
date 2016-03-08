@@ -8,7 +8,7 @@
         "entity_name": "Applicationgroup",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "applicationgroups",
         "rest_name": "applicationgroup",
         "root": null,
