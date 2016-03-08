@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": 1,
             "min_value": null,
-            "name": "associatedL7AppType",
+            "name": "associatedL7ApplicationType",
             "orderable": true,
             "read_only": false,
             "required": true,
