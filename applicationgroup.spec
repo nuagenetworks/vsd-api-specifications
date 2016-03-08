@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "differentiated services code point (DSCP) in the 8-bit differentiated services field (DS field) in the IP header for packet classification purposes.",
+            "description": "differentiated services code point (DSCP) in the 8-bit differentiated services field (DS field) in the IP header for packet classification purposes.DSCP value range from enumeration of 65 values :  *, 0, 1, ..., 63",
             "exposed": true,
             "filterable": true,
             "format": "free",
