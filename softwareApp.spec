@@ -8,7 +8,7 @@
         "entity_name": "Softwareapp",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "softwareApps",
         "rest_name": "softwareApp",
         "root": null,
