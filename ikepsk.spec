@@ -248,17 +248,17 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an IKEv2 Pre Shared Key",
-        "entity_name": "IKEv2PSK",
+        "description": "Represents an IKE Pre Shared Key",
+        "entity_name": "IKEPSK",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "ikev2",
-        "resource_name": "ikev2psks",
-        "rest_name": "ikev2psk",
+        "package": "ike",
+        "resource_name": "ikepsks",
+        "rest_name": "ikepsk",
         "root": false,
         "update": true
     }
