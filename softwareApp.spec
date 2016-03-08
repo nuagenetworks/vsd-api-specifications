@@ -4,7 +4,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "represents a application with L4/L7 classification",
         "entity_name": "Softwareapp",
         "extends": [],
         "get": true,
