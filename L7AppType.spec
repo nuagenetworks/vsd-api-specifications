@@ -77,7 +77,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "softwareApp",
+            "rest_name": "softwareapplication",
             "update": false
         }
     ],
