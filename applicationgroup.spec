@@ -118,9 +118,9 @@
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "softwareapplication",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
