@@ -39,7 +39,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "UNKNOWN",
             "deprecated": false,
             "description": "TPM Status of the NSG based on the information received by the device during bootstrapping or upgrade.",
             "exposed": true,
