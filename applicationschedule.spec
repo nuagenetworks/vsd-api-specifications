@@ -126,7 +126,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Application Schedule to trigger the probe in NSG per vport",
         "entity_name": "Applicationschedule",
         "extends": [],
         "get": true,
