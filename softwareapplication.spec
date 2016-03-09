@@ -93,7 +93,7 @@
             "description": null,
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": "cidr",
             "max_length": null,
             "max_value": null,
             "min_length": null,
