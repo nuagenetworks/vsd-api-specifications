@@ -8,7 +8,7 @@
         "entity_name": "Applicationschedule",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "applicationschedules",
         "rest_name": "applicationschedule",
         "root": null,
