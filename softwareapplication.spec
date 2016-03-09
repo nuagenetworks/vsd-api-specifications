@@ -198,7 +198,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Protocol number or *",
             "exposed": true,
             "filterable": true,
             "format": "free",
