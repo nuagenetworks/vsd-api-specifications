@@ -84,7 +84,7 @@
     "model": {
         "create": null,
         "delete": false,
-        "description": "Layer 7 ApplicationType",
+        "description": "Layer 7 ApplicationType , these are auto created as part of VSD bringup",
         "entity_name": "L7applicationtype",
         "extends": [],
         "get": true,
