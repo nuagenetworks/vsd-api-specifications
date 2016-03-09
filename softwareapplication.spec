@@ -258,7 +258,7 @@
             "format": "free",
             "max_length": 5,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "sourcePort",
             "orderable": true,
