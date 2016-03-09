@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Time in a Cron format in UTC when probe is initiated  on the Gateway (NSG). \"\n            + \"  Example (0 0 * * * *).  Format:  Minutes Hours DayOfMonth Month DayOfWeek Year",
+            "description": "Time in a Cron format in UTC when probe is initiated  on the Gateway, for example (0 0 * * * *).  Format:  Minutes Hours DayOfMonth Month DayOfWeek Year",
             "exposed": true,
             "filterable": true,
             "format": "free",
