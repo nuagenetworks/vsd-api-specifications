@@ -30,6 +30,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED_NOT_OPERATIONAL",
                 "ENABLED_OPERATIONAL",
                 "UNKNOWN"
