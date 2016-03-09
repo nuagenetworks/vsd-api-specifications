@@ -228,7 +228,7 @@
             "description": "source IP address",
             "exposed": true,
             "filterable": true,
-            "format": "cidr",
+            "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
