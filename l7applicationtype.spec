@@ -84,11 +84,11 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Layer 7 ApplicationType",
         "entity_name": "L7applicationtype",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "l7applicationtypes",
         "rest_name": "l7applicationtype",
         "root": null,
