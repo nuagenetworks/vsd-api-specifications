@@ -182,7 +182,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": null,
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -213,7 +213,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": null,
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -556,6 +556,18 @@
             "relationship": "child",
             "rest_name": "alarm",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "applicationschedule",
+            "update": true
         },
         {
             "bulk_create": false,
