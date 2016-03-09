@@ -51,7 +51,7 @@
             "subtype": null,
             "transient": false,
             "type": "string",
-            "unique": true,
+            "unique": false,
             "uniqueScope": null
         }
     ],
