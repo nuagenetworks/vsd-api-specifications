@@ -11,7 +11,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "INHERITED",
             "deprecated": false,
             "description": "determines whether or not Deep packet inspection is enabled",
             "exposed": true,
