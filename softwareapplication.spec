@@ -144,7 +144,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Detect  based on first Packet ",
             "exposed": true,
             "filterable": true,
             "format": null,
