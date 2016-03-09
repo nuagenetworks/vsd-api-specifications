@@ -8,7 +8,7 @@
         "entity_name": "Probe",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "probes",
         "rest_name": "probe",
         "root": null,
