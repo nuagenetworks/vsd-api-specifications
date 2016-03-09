@@ -12,6 +12,9 @@ rm -rf vspk-python/* && \
 git clone git@github.com:nuagenetworks/vspk-go.git -b ${TRAVIS_BRANCH} && \
 rm -rf vspk-go/* && \
 \
+git clone git@github.com:nuagenetworks/vspk-objj.git -b ${TRAVIS_BRANCH} && \
+rm -rf vspk-objj/* && \
+\
 git clone git@github.com:nuagenetworks/vsd-api-documentation.git -b gh-pages && \
 rm -rf vsd-api-documentation/* && \
 \
@@ -26,6 +29,12 @@ cd - && \
 generate-vspk -f . -L go && \
 mv codegen/go/* repos/vspk-go && \
 cd repos/vspk-go && \
+git add --all && \
+cd - && \
+\
+generate-vspk -f . -L objj && \
+mv codegen/objj/* repos/vspk-objj && \
+cd repos/vspk-objj && \
 git add --all && \
 cd - && \
 \
@@ -45,6 +54,11 @@ git push origin $TRAVIS_BRANCH
 cd -
 
 cd repos/vspk-go
+git commit -a -m "Auto generated from specifications change."
+git push origin $TRAVIS_BRANCH
+cd -
+
+cd repos/vspk-objj
 git commit -a -m "Auto generated from specifications change."
 git push origin $TRAVIS_BRANCH
 cd -
