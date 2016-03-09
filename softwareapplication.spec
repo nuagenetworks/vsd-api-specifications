@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "destination IP in CIDR format",
             "exposed": true,
             "filterable": true,
             "format": "cidr",
