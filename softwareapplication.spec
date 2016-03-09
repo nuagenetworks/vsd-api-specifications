@@ -171,7 +171,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "name of the application",
             "exposed": true,
             "filterable": true,
             "format": "free",
