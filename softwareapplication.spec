@@ -252,7 +252,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "source Port ,value should be either * or single port number ",
             "exposed": true,
             "filterable": true,
             "format": "free",
