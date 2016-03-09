@@ -111,7 +111,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Application Group is a container for group of applications ",
         "entity_name": "Applicationgroup",
         "extends": [],
         "get": true,
