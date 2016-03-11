@@ -130,9 +130,9 @@
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "member",
+            "relationship": "child",
             "rest_name": "softwareapplication",
-            "update": true
+            "update": false
         }
     ],
     "model": {
