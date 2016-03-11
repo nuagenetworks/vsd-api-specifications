@@ -292,7 +292,7 @@
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "member",
+            "relationship": "child",
             "rest_name": "applicationschedule",
             "update": false
         }
