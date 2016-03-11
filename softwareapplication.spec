@@ -294,7 +294,7 @@
             "get": true,
             "relationship": "member",
             "rest_name": "applicationschedule",
-            "update": true
+            "update": false
         }
     ],
     "model": {
