@@ -40,7 +40,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "ID_IPV4_ADDR",
             "deprecated": false,
             "description": "IKE Gateway Identifier Type.",
             "exposed": true,
