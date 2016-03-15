@@ -146,8 +146,6 @@
                 "HEALTH_REQ",
                 "HOSTINTERFACE",
                 "HSC",
-                "IKEV2_ENCRYPTION_PROFILE",
-                "IKEV2_GATEWAY",
                 "INFRASTRUCTURE_CONFIG",
                 "INFRASTRUCTURE_GATEWAY_PROFILE",
                 "INFRASTRUCTURE_PORT_PROFILE",
