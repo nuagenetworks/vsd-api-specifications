@@ -147,6 +147,7 @@
                 "HOSTINTERFACE",
                 "HSC",
                 "IKE_ENCRYPTION_PROFILE",
+                "IKE_GATEWAY",
                 "INFRASTRUCTURE_CONFIG",
                 "INFRASTRUCTURE_GATEWAY_PROFILE",
                 "INFRASTRUCTURE_PORT_PROFILE",
