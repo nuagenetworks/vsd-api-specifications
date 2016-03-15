@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": true,
-            "description": null,
+            "description": "If enabled, it will disable the default anti-spoof ACL for this domain that essentially prevents any VM to send packets that do not originate from that particular VM",
             "exposed": true,
             "filterable": false,
             "format": null,
