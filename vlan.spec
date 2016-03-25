@@ -422,7 +422,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2gatewayconnection",
+            "rest_name": "ikegatewayconnection",
             "update": false
         },
         {

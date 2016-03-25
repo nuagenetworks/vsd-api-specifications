@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the associated IKEv2Gateway",
+            "description": "The ID of the associated IKEGateway",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "associatedIKEv2GatewayID",
+            "name": "associatedIKEGatewayID",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -59,17 +59,17 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an IKEv2 Subnet (right side)",
-        "entity_name": "IKEv2Subnet",
+        "description": "Represents an IKE Subnet (remote side)",
+        "entity_name": "IKESubnet",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "ikev2",
-        "resource_name": "ikev2subnets",
-        "rest_name": "ikev2subnet",
+        "package": "ike",
+        "resource_name": "ikesubnets",
+        "rest_name": "ikesubnet",
         "root": false,
         "update": true
     }
