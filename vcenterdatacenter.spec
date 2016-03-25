@@ -333,11 +333,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
-            "description": "maps to the moid of the datacenter in the vcenter",
-=======
             "description": "VCenter Managed Object ID of the Datacenter.",
->>>>>>> 7299754ec3562706d5db14fdfcfd5cdcbdde555a
             "exposed": true,
             "filterable": true,
             "format": "free",

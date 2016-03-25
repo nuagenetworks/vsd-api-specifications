@@ -360,11 +360,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
-            "description": "corresponds to the moid of the cluster in the vcenter",
-=======
             "description": "VCenter Managed Object ID of the Cluster.",
->>>>>>> 7299754ec3562706d5db14fdfcfd5cdcbdde555a
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -1417,27 +1413,16 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
-            "description": "vrs vms deployed or not",
-            "exposed": true,
-            "filterable": true,
-            "format": "free",
-=======
             "description": "Cluster in scope or not in scope.",
             "exposed": true,
             "filterable": false,
             "format": null,
->>>>>>> 7299754ec3562706d5db14fdfcfd5cdcbdde555a
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "scope",
-<<<<<<< HEAD
-            "orderable": true,
-=======
             "orderable": false,
->>>>>>> 7299754ec3562706d5db14fdfcfd5cdcbdde555a
             "read_only": false,
             "required": false,
             "subtype": null,

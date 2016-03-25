@@ -90,26 +90,16 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
-            "description": "A list of available networks",
-            "exposed": true,
-            "filterable": true,
-=======
             "description": "List of the available network list for the hypervisor.",
             "exposed": true,
             "filterable": false,
->>>>>>> 7299754ec3562706d5db14fdfcfd5cdcbdde555a
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "availableNetworks",
-<<<<<<< HEAD
-            "orderable": true,
-=======
             "orderable": false,
->>>>>>> 7299754ec3562706d5db14fdfcfd5cdcbdde555a
             "read_only": false,
             "required": false,
             "subtype": "string",
