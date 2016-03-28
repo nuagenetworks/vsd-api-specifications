@@ -328,8 +328,8 @@
                 "GROUP_15_3072_BIT_DH",
                 "GROUP_16_4096_BIT_DH",
                 "GROUP_17_6144_BIT_DH",
+                "GROUP_18_8192_BIT_DH",
                 "GROUP_1_768_BIT_DH",
-                "GROUP_24_2048_BIT_ECDH",
                 "GROUP_2_1024_BIT_DH",
                 "GROUP_5_1536_BIT_DH"
             ],
