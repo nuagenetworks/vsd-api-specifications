@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The ID of the associated BGP profile",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the Egress QOS Policy associated with this Vlan.",
+            "description": "ID of the Egress QOS Policy associated with this VLAN.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -424,6 +424,18 @@
             "relationship": "child",
             "rest_name": "ikegatewayconnection",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "patnatpool",
+            "update": true
         },
         {
             "bulk_create": false,
