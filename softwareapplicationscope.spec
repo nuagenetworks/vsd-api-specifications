@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "List of source NSGs from which the probe needs to be started.",
             "exposed": true,
             "filterable": true,
             "format": null,
