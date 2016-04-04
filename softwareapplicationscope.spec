@@ -86,7 +86,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "This class tries to define the scope of probe (the NSGs between which the probe needs) to run.",
         "entity_name": "ApplicationScope",
         "extends": [],
         "get": true,
