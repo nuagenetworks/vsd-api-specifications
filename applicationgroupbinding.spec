@@ -45,7 +45,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Association object for maintaining the priority of AppliationGroup(s) associated to a Domain",
         "entity_name": "ApplicationGroupBinding",
         "extends": [],
         "get": true,
