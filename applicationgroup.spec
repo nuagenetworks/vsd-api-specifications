@@ -112,7 +112,7 @@
         "create": null,
         "delete": true,
         "description": "Application Group is a container for group of applications ",
-        "entity_name": "Applicationgroup",
+        "entity_name": "ApplicationGroup",
         "extends": [],
         "get": true,
         "package": "perfrouting",
