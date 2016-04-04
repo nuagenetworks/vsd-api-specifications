@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Name for the given scope",
             "exposed": true,
             "filterable": true,
             "format": "free",
