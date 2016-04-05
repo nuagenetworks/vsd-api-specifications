@@ -73,7 +73,7 @@
         "create": null,
         "delete": false,
         "description": "Layer 7 ApplicationType , these are auto created as part of VSD bringup",
-        "entity_name": "L7applicationtype",
+        "entity_name": "L7ApplicationType",
         "extends": [],
         "get": true,
         "package": "perfrouting",
