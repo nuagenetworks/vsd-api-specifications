@@ -276,7 +276,7 @@
         "create": null,
         "delete": false,
         "description": null,
-        "entity_name": "Licensestatus",
+        "entity_name": "LicenseStatus",
         "extends": [],
         "get": true,
         "package": null,
