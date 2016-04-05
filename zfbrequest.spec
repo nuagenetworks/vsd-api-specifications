@@ -103,7 +103,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "enterpriseID",
+            "name": "associatedEnterpriseID",
             "orderable": true,
             "read_only": false,
             "required": false,
