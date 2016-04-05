@@ -30,6 +30,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "HOSTNAME",
                 "IP_ADDRESS",
                 "MAC_ADDRESS"
             ],
