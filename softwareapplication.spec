@@ -361,9 +361,9 @@
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "softwareapplicationbinding",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
