@@ -171,7 +171,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The NSG's serial number",
             "exposed": true,
             "filterable": true,
             "format": "free",
