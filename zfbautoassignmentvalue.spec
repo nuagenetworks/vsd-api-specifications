@@ -59,7 +59,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "ZFB Enterprise Auto Assignment Value",
         "entity_name": "ZFBAutoAssignmentValue",
         "extends": [],
         "get": true,
