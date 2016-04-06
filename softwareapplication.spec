@@ -363,7 +363,7 @@
             "get": true,
             "relationship": "member",
             "rest_name": "softwareapplicationbinding",
-            "update": true
+            "update": false
         },
         {
             "bulk_create": false,
