@@ -146,7 +146,7 @@
         "create": null,
         "delete": true,
         "description": "Missing description.",
-        "entity_name": "Zfbrequest",
+        "entity_name": "ZFBRequest",
         "extends": [
             "@audited",
             "@base",
