@@ -222,7 +222,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Nsginfo",
+        "entity_name": "NSGInfo",
         "extends": [],
         "get": true,
         "package": null,
