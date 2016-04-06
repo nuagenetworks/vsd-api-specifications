@@ -60,7 +60,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Zfbautoassignmentvalue",
+        "entity_name": "ZFBAutoAssignmentValue",
         "extends": [],
         "get": true,
         "package": null,
