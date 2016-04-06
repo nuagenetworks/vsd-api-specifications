@@ -69,7 +69,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Associated Enterprise ID",
             "exposed": true,
             "filterable": true,
             "format": "free",
