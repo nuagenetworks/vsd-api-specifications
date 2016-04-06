@@ -50,7 +50,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "zfbMatchAttribute",
+            "name": "associatedZFBAutoAssignmentID",
             "orderable": true,
             "read_only": false,
             "required": false,
