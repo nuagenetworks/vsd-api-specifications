@@ -87,12 +87,12 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "member",
-            "rest_name": "applicationgroupbinding",
+            "relationship": "child",
+            "rest_name": "softwareapplicationbinding",
             "update": false
         }
     ],
