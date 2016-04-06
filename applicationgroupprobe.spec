@@ -145,7 +145,7 @@
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "applicationgroup",
             "update": false
         }
