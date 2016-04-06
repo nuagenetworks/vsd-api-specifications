@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "MAC Address fo the NSG Port1 interface",
             "exposed": true,
             "filterable": true,
             "format": "free",
