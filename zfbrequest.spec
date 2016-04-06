@@ -311,7 +311,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "hostname of the NSG",
             "exposed": true,
             "filterable": true,
             "format": "free",
