@@ -117,7 +117,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The part number of the NSG",
             "exposed": true,
             "filterable": true,
             "format": "free",
