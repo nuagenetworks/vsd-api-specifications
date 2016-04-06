@@ -338,7 +338,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "the date in which the last GET was made from the NSG",
+            "description": "the time in which the last GET was made from the NSG",
             "exposed": true,
             "filterable": true,
             "format": null,
