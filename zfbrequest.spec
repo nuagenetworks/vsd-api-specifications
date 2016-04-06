@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The Nuage NSG Version",
             "exposed": true,
             "filterable": true,
             "format": "free",
