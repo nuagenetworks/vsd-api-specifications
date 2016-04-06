@@ -221,7 +221,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Device information coming from the NSG",
         "entity_name": "NSGInfo",
         "extends": [],
         "get": true,
