@@ -145,7 +145,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "Missing description.",
+        "description": "A ZFB Request from an NSG",
         "entity_name": "ZFBRequest",
         "extends": [
             "@audited",
