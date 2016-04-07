@@ -4,11 +4,11 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "The link between a source and destination domain",
         "entity_name": "Link",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "network",
         "resource_name": "link",
         "rest_name": "links",
         "root": null,
