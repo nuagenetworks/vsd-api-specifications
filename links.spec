@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "This is the domain leaking/exporting the routes to a destination domain",
+            "description": "The ID of the domain leaking/exporting the routes to a destination domain",
             "exposed": true,
             "filterable": true,
             "format": "free",
