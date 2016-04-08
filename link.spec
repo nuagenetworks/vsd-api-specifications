@@ -12,7 +12,7 @@
             "description": "A route filtering criteria enum. Values: SUBNETS_ONLY for the time being.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -23,7 +23,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "enum",
             "unique": false,
             "uniqueScope": null
         },
