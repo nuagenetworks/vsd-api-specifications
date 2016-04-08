@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A set of next-hop objects.",
+            "description": "A set of NextHop objects. a NextHop can be either an InetAddress (IPv4 or IPV6) address",
             "exposed": true,
             "filterable": true,
             "format": null,
