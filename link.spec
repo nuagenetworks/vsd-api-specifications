@@ -10,7 +10,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "NONE",
+            "default_value": "ALL",
             "deprecated": false,
             "description": "A route filtering criteria enum. Values: SUBNETS_ONLY for the time being.",
             "exposed": true,
