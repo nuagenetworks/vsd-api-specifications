@@ -692,6 +692,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "container",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -865,7 +877,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2certificate",
+            "rest_name": "ikecertificate",
             "update": false
         },
         {
@@ -877,7 +889,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2encryptionprofile",
+            "rest_name": "ikeencryptionprofile",
             "update": false
         },
         {
@@ -889,7 +901,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2gateway",
+            "rest_name": "ikegateway",
             "update": false
         },
         {
@@ -901,7 +913,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2gatewayprofile",
+            "rest_name": "ikegatewayprofile",
             "update": false
         },
         {
@@ -913,7 +925,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "ikev2psk",
+            "rest_name": "ikepsk",
             "update": false
         },
         {

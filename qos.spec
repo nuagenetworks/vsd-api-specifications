@@ -616,7 +616,7 @@
             "description": "Class of service to be used. Service classes in order of priority are A(1), B(2), C(3), D(4), E(5), F(6), G(7) and H(8) Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -624,7 +624,7 @@
             "name": "serviceClass",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "enum",
@@ -660,6 +660,18 @@
         }
     ],
     "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "container",
+            "update": false
+        },
         {
             "bulk_create": false,
             "bulk_delete": false,

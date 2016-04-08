@@ -588,17 +588,17 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents an IKEv2 Profile",
-        "entity_name": "IKEv2EncryptionProfile",
+        "description": "Represents an IKE Profile",
+        "entity_name": "IKEEncryptionprofile",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "keyserver",
-        "resource_name": "ikev2encryptionprofiles",
-        "rest_name": "ikev2encryptionprofile",
+        "package": "ike",
+        "resource_name": "ikeencryptionprofiles",
+        "rest_name": "ikeencryptionprofile",
         "root": false,
         "update": true
     }
