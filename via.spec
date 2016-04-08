@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A set of NextHop objects. a NextHop can be either an InetAddress (IPv4 or IPV6) address",
+            "description": "A set of NextHop objects. A NextHop can be either an InetAddress (IPv4 or IPV6) address or a VLAN ID (for NSGBR)",
             "exposed": true,
             "filterable": true,
             "format": null,
