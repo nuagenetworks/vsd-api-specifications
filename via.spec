@@ -59,7 +59,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "This is the mechanism to interconnect a source domain to a destination domain. Is a child object of the ",
         "entity_name": "Via",
         "extends": [],
         "get": true,
