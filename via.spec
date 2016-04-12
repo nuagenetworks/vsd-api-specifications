@@ -59,7 +59,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "This is the mechanism to interconnect a source domain to a destination domain. Is a child object of the Link object. The can only be one via object per Link.",
+        "description": "This is the mechanism to interconnect a source domain to a destination domain. Is a child object of the Link object. There can be max one via object per Link.",
         "entity_name": "Via",
         "extends": [],
         "get": true,
