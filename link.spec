@@ -87,6 +87,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "BORDER_ROUTER",
                 "HUB_AND_SPOKE",
                 "IP"
             ],
