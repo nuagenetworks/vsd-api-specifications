@@ -120,7 +120,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The source entity type.",
+            "description": "The source entity type sourceID refers to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
