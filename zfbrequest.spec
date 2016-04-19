@@ -257,7 +257,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ZFB Request retry timer on NSG",
+            "description": "ZFB Request retry timer on NSG. Set from System Config",
             "exposed": true,
             "filterable": true,
             "format": "free",
