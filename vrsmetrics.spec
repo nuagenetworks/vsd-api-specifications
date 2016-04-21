@@ -249,7 +249,7 @@
         "create": false,
         "delete": true,
         "description": null,
-        "entity_name": "VrsMetrics",
+        "entity_name": "VRSMetrics",
         "extends": [],
         "get": true,
         "package": null,
