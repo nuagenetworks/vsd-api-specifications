@@ -276,7 +276,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "VRSRedeploymentPolicy",
+        "entity_name": "VRSRedeploymentpolicy",
         "extends": [],
         "get": true,
         "package": null,
