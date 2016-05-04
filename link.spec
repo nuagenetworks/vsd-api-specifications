@@ -12,7 +12,7 @@
             "default_order": false,
             "default_value": "ALL",
             "deprecated": false,
-            "description": "A route filtering criteria enum. Values: SUBNETS_ONLY for the time being.",
+            "description": "A route filtering criteria enum. Defaults to ALL.",
             "exposed": true,
             "filterable": true,
             "format": null,
