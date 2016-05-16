@@ -306,16 +306,27 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
+<<<<<<< HEAD
+            "description": "Indicates if PAT Mapping is enabled for the SharedNetworkResource or not",
+            "exposed": true,
+            "filterable": true,
+            "format": "free",
+=======
             "description": "Indicates if PAT Mapping is enabled for the SharedNetworkResource or not.",
             "exposed": true,
             "filterable": false,
             "format": null,
+>>>>>>> c6b48c3228af2b4f544267b3ef9956dfa78350b4
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "dynamicPATAllocationEnabled",
+<<<<<<< HEAD
+            "orderable": true,
+=======
             "orderable": false,
+>>>>>>> c6b48c3228af2b4f544267b3ef9956dfa78350b4
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -702,6 +713,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "patipentry",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -726,7 +749,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain, etc.",
+        "description": "This defines shared infrastructure resources that are created by user with CSPROOT role. These resources can be used by all the enterprises in the data center for various purposes. Examples of  shared resources are public subnet, floating subnet, public L2 domain.",
         "entity_name": "SharedNetworkResource",
         "extends": [
             "@audited",

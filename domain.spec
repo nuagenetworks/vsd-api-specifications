@@ -236,7 +236,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the PatMapper entity to which this domain is associated to.",
+            "description": "The ID of the PatMapper entity to which this l3-domain is associated to.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -1430,7 +1430,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS).",
+        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch.",
         "entity_name": "Domain",
         "extends": [
             "@audited",
