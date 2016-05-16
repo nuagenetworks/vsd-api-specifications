@@ -401,6 +401,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "BRIDGE",
+                "CONTAINER",
                 "HOST",
                 "VM"
             ],
@@ -413,7 +414,7 @@
             "description": "Type of vport - possible values VM/HOST/BRIDGE Possible values are VM, HOST, BRIDGE, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -503,6 +504,30 @@
             "get": true,
             "relationship": "child",
             "rest_name": "bridgeinterface",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "container",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "containerinterface",
             "update": false
         },
         {

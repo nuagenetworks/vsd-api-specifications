@@ -1,0 +1,12 @@
+language: python
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_b72403491445_key -iv $encrypted_b72403491445_iv -in deploy.key.enc -out deploy.key -d
+  - chmod 600 deploy.key
+  - eval "$(ssh-agent -s)"
+  - ssh-add deploy.key
+  - git config --global user.email "antoine@nuagenetworks.net"
+  - git config --global user.name "Antoine Mercadal"
+
+script:
+  - ./deploy.sh
