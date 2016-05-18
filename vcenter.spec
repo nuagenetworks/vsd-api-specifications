@@ -470,7 +470,7 @@
             "deprecated": false,
             "description": "IP Address of the VCenter",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
