@@ -266,7 +266,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the PatMapper entity to which this domain is associated to.",
+            "description": "The ID of the PatMapper entity to which this l3-domain is associated to.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -1052,6 +1052,30 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "container",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "containerinterface",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -1448,7 +1472,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch (dVRS).",
+        "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch.",
         "entity_name": "Domain",
         "extends": [
             "@audited",
