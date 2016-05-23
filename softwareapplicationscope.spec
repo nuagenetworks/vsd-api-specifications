@@ -87,7 +87,7 @@
         "create": null,
         "delete": true,
         "description": "This class tries to define the scope of probe (the NSGs between which the probe needs) to run.",
-        "entity_name": "ApplicationScope",
+        "entity_name": "SoftwareApplicationScope",
         "extends": [],
         "get": true,
         "package": null,
