@@ -154,7 +154,7 @@
         "create": null,
         "delete": true,
         "description": "application SLA when not met will trigger a performance routing on NSG",
-        "entity_name": "Applicationsla",
+        "entity_name": "ApplicationSLA",
         "extends": [],
         "get": true,
         "package": null,
