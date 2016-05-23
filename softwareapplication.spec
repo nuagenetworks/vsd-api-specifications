@@ -382,7 +382,7 @@
         "create": null,
         "delete": true,
         "description": "represents a application with L4/L7 classification",
-        "entity_name": "Application",
+        "entity_name": "SoftwareApplication",
         "extends": [],
         "get": true,
         "package": "perfrouting",
