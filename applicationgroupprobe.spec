@@ -98,7 +98,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": 0,
-            "name": "payloadsize",
+            "name": "payloadSize",
             "orderable": true,
             "read_only": false,
             "required": false,
