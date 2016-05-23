@@ -60,7 +60,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "ApplicationBinding",
+        "entity_name": "SoftwareApplicationBinding",
         "extends": [],
         "get": true,
         "package": null,
