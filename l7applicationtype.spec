@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": 1,
             "min_value": null,
-            "name": "GUIDString",
+            "name": "GUID",
             "orderable": true,
             "read_only": false,
             "required": false,
