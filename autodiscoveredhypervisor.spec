@@ -75,7 +75,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": string,
+            "subtype": "string",
             "transient": false,
             "type": "list",
             "unique": false,
