@@ -142,18 +142,18 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": "missing documentation.",
         "entity_name": "PATIPEntry",
         "extends": [
             "@audited",
             "@base"
         ],
-        "get": true,
+        "get": false,
         "package": null,
         "resource_name": "patipentries",
         "rest_name": "patipentry",
         "root": false,
-        "update": true
+        "update": false
     }
 }
