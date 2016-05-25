@@ -349,7 +349,7 @@
             "get": true,
             "relationship": "member",
             "rest_name": "enterprise",
-            "update": true
+            "update": false
         },
         {
             "bulk_create": false,
