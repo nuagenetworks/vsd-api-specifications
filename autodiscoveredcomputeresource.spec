@@ -85,15 +85,15 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "AutoDiscoverHypervisorFromDatacenter",
         "extends": [],
-        "get": true,
+        "get": false,
         "package": null,
         "resource_name": "autodiscoveredcomputeresources",
         "rest_name": "autodiscoveredcomputeresource",
         "root": false,
-        "update": true
+        "update": false
     }
 }
