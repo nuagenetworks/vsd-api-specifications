@@ -374,7 +374,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "bgpprofile",
             "update": false
         },
@@ -482,7 +482,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "egressdomainfloatingipacltemplate",
             "update": false
         },
@@ -494,7 +494,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "egressfloatingipacltemplate",
             "update": false
         },
@@ -914,7 +914,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "routingpolicy",
             "update": false
         },
