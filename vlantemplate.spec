@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the infrastructure VSC profile this is associated with this instance of a vlan template.",
+            "description": "The ID of the infrastructure VSC profile this is associated with this instance of a vlan or vlan template.",
             "exposed": true,
             "filterable": true,
             "format": "free",
