@@ -498,18 +498,6 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "nsportstaticconfiguration",
-            "update": true
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
             "rest_name": "permission",
             "update": false
         },
