@@ -205,12 +205,12 @@
                 "HEALTH_REQ",
                 "HOSTINTERFACE",
                 "HSC",
+                "IKE_CERTIFICATE",
                 "IKE_ENCRYPTION_PROFILE",
                 "IKE_GATEWAY",
                 "IKE_GATEWAY_CONFIG",
-                "IKE_GATEWAY_PROFILE",
                 "IKE_GATEWAY_CONNECTION",
-                "IKE_CERTIFICATE",
+                "IKE_GATEWAY_PROFILE",
                 "IKE_PSK",
                 "IKE_SUBNET",
                 "INFRASTRUCTURE_CONFIG",
@@ -822,6 +822,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "tca",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "vm",
             "update": false
         },
         {
