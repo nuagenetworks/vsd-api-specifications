@@ -5,8 +5,8 @@ before_install:
   - chmod 600 deploy.key
   - eval "$(ssh-agent -s)"
   - ssh-add deploy.key
-  - git config --global user.email "antoine@nuagenetworks.net"
-  - git config --global user.name "Antoine Mercadal"
+  - git config --global user.email "christophe.serafin@nuagenetworks.net"
+  - git config --global user.name "Christophe SERAFIN"
 
 script:
   - ./deploy.sh
