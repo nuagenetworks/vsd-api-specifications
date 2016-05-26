@@ -408,6 +408,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "bulkstatistics",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -426,6 +438,30 @@
             "get": true,
             "relationship": "child",
             "rest_name": "natmapentry",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "statistics",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "statisticspolicy",
             "update": false
         }
     ],

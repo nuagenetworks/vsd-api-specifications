@@ -58,18 +58,18 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": "missing documentation.",
         "entity_name": "PortMapping",
         "extends": [
             "@audited",
             "@base"
         ],
-        "get": true,
+        "get": false,
         "package": null,
         "resource_name": "portmappings",
         "rest_name": "portmapping",
         "root": false,
-        "update": true
+        "update": false
     }
 }
