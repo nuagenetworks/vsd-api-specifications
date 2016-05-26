@@ -1749,7 +1749,7 @@
             "create": true,
             "delete": false,
             "deprecated": null,
-            "get": true,
+            "get": false,
             "relationship": "child",
             "rest_name": "job",
             "update": false

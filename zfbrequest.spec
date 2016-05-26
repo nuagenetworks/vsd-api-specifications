@@ -519,7 +519,20 @@
             "uniqueScope": null
         }
     ],
-    "children": [],
+    "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": false,
+            "relationship": "child",
+            "rest_name": "job",
+            "update": false
+        }
+    ],
     "model": {
         "create": null,
         "delete": true,

@@ -85,18 +85,18 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "AutoDiscoverClusters",
         "extends": [
             "@audited",
             "@base"
         ],
-        "get": true,
+        "get": false,
         "package": null,
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,
-        "update": true
+        "update": false
     }
 }
