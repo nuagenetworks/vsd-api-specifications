@@ -1722,7 +1722,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vcenterhypervisor",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,

@@ -978,7 +978,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "permission",
-            "update": true
+            "update": false
         },
         {
             "bulk_create": false,
