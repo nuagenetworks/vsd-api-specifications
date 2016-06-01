@@ -162,7 +162,9 @@
         "delete": true,
         "description": null,
         "entity_name": "Link",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": null,
         "resource_name": "links",
