@@ -247,7 +247,7 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "VRSMetrics",
         "extends": [

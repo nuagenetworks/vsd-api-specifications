@@ -85,18 +85,18 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "AutoDiscoverHypervisorFromCluster",
         "extends": [
             "@audited",
             "@base"
         ],
-        "get": true,
+        "get": false,
         "package": null,
         "resource_name": "autodiscoveredhypervisors",
         "rest_name": "autodiscoveredhypervisor",
         "root": false,
-        "update": true
+        "update": false
     }
 }

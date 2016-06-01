@@ -534,18 +534,6 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "bgpneighbor",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
             "rest_name": "bridgeinterface",
             "update": false
         },

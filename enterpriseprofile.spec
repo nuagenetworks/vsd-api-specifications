@@ -374,9 +374,9 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "member",
+            "relationship": "child",
             "rest_name": "enterprise",
-            "update": true
+            "update": false
         },
         {
             "bulk_create": false,
