@@ -163,7 +163,8 @@
         "description": null,
         "entity_name": "Link",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": null,
