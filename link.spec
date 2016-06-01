@@ -160,7 +160,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "This object represents the link between a source and destination domain in service chaining",
         "entity_name": "Link",
         "extends": [
             "@audited",
