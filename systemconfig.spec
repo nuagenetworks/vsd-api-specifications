@@ -2476,7 +2476,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "performnace Path Selection Virtual Network ID",
             "exposed": true,
             "filterable": true,
             "format": null,
