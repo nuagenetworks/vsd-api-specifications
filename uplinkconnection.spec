@@ -219,7 +219,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "tag",
+            "name": "role",
             "orderable": true,
             "read_only": false,
             "required": false,
