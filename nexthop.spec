@@ -40,9 +40,9 @@
             "exposed": true,
             "filterable": true,
             "format": null,
-            "max_length": null,
+            "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 1,
             "min_value": null,
             "name": "routeDistinguisher",
             "orderable": true,
@@ -50,7 +50,7 @@
             "required": true,
             "subtype": null,
             "transient": false,
-            "type": "integer",
+            "type": "string",
             "unique": true,
             "uniqueScope": null
         }
@@ -58,15 +58,19 @@
     "children": [],
     "model": {
         "create": null,
-        "delete": true,
+        "delete": false,
         "description": "This represents a /32 IPv4 address as the next-hop. In the future can be a /128 IPv6 address.",
         "entity_name": "NextHopAddress",
-        "extends": [],
-        "get": true,
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
+        "get": false,
         "package": null,
         "resource_name": "nexthops",
         "rest_name": "nexthop",
         "root": false,
-        "update": true
+        "update": false
     }
 }
