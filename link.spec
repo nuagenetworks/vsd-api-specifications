@@ -183,7 +183,7 @@
             "min_length": null,
             "min_value": null,
             "name": "associatedSourceType",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
