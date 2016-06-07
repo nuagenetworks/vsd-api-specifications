@@ -66,11 +66,11 @@
             "@base",
             "@metadata"
         ],
-        "get": true,
+        "get": false,
         "package": null,
         "resource_name": "nexthops",
         "rest_name": "nexthop",
         "root": false,
-        "update": true
+        "update": false
     }
 }
