@@ -80,7 +80,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "enum",
+            "type": "string",
             "unique": false,
             "uniqueScope": null
         },
