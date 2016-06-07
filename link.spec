@@ -95,7 +95,7 @@
             "deprecated": false,
             "description": "Type of the entity type for the source",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": null,
             "max_length": null,
             "max_value": null,
