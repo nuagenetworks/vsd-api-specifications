@@ -40,9 +40,9 @@
             "exposed": true,
             "filterable": true,
             "format": null,
-            "max_length": null,
+            "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 1,
             "min_value": null,
             "name": "routeDistinguisher",
             "orderable": true,
@@ -50,7 +50,7 @@
             "required": true,
             "subtype": null,
             "transient": false,
-            "type": "integer",
+            "type": "string",
             "unique": true,
             "uniqueScope": null
         }
