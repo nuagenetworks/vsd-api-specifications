@@ -33,6 +33,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "AGGRESSIVE",
                 "MAIN",
                 "NONE"
             ],
