@@ -279,7 +279,7 @@
         "entity_name": "LicenseStatus",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "licensemgmt",
         "resource_name": "licensestatus",
         "rest_name": "licensestatus",
         "root": null,

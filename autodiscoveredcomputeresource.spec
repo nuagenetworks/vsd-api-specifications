@@ -90,7 +90,7 @@
         "entity_name": "AutoDiscoverHypervisorFromDatacenter",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscoveredcomputeresources",
         "rest_name": "autodiscoveredcomputeresource",
         "root": false,

@@ -90,7 +90,7 @@
         "entity_name": "AutoDiscoverCluster",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,
