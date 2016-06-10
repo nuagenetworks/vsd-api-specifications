@@ -90,7 +90,7 @@
         "entity_name": "Autodiscovereddatacenter",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscovereddatacenters",
         "rest_name": "autodiscovereddatacenter",
         "root": false,

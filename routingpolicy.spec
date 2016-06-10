@@ -123,7 +123,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "network",
         "resource_name": "routingpolicies",
         "rest_name": "routingpolicy",
         "root": false,
