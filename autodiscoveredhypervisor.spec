@@ -90,7 +90,7 @@
         "entity_name": "AutoDiscoverHypervisorFromCluster",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscoveredhypervisors",
         "rest_name": "autodiscoveredhypervisor",
         "root": false,
