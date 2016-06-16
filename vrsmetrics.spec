@@ -255,7 +255,7 @@
             "@audited"
         ],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "vrsmetrics",
         "rest_name": "vrsmetrics",
         "root": false,

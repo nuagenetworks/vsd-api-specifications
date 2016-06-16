@@ -87,6 +87,7 @@
         "create": false,
         "delete": false,
         "description": null,
+<<<<<<< HEAD
         "entity_name": "AutoDiscoverClusters",
         "extends": [
             "@audited",
@@ -94,6 +95,12 @@
         ],
         "get": false,
         "package": null,
+=======
+        "entity_name": "AutoDiscoverCluster",
+        "extends": [],
+        "get": true,
+        "package": "vmware",
+>>>>>>> github/4.0
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,

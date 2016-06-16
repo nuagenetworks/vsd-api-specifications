@@ -277,11 +277,9 @@
         "delete": false,
         "description": null,
         "entity_name": "LicenseStatus",
-        "extends": [
-            "@base"
-        ],
-        "get": false,
-        "package": null,
+        "extends": [],
+        "get": true,
+        "package": "licensemgmt",
         "resource_name": "licensestatus",
         "rest_name": "licensestatus",
         "root": null,

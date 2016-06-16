@@ -94,6 +94,8 @@
         ],
         "get": false,
         "package": null,
+        "get": true,
+        "package": "vmware",
         "resource_name": "autodiscovereddatacenters",
         "rest_name": "autodiscovereddatacenter",
         "root": false,
