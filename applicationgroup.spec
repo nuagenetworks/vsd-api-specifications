@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "with values  MONITOR_PATH,DISCOVERY, NONE",
+            "description": "with values  MONITOR_PATH,DISCOVERY",
             "exposed": true,
             "filterable": true,
             "format": null,
