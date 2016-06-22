@@ -131,7 +131,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "integer",
+            "type": "float",
             "unique": false,
             "uniqueScope": null
         }
