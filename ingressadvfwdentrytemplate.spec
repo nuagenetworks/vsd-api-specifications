@@ -351,12 +351,12 @@
                 "HEALTH_REQ",
                 "HOSTINTERFACE",
                 "HSC",
+                "IKE_CERTIFICATE",
                 "IKE_ENCRYPTION_PROFILE",
                 "IKE_GATEWAY",
                 "IKE_GATEWAY_CONFIG",
-                "IKE_GATEWAY_PROFILE",
                 "IKE_GATEWAY_CONNECTION",
-                "IKE_CERTIFICATE",
+                "IKE_GATEWAY_PROFILE",
                 "IKE_PSK",
                 "IKE_SUBNET",
                 "INFRASTRUCTURE_CONFIG",
@@ -1065,6 +1065,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DEFAULT",
                 "PRIMARY",
                 "PRIMARY_SECONDARY",
                 "SECONDARY",
