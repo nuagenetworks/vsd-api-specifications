@@ -4,7 +4,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Network Performance Measurement is a container for group of applications and monitor scopes",
         "entity_name": "NetworkPerformanceMeasurement",
         "extends": [],
         "get": true,
