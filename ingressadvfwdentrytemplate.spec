@@ -1078,7 +1078,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates the preferencial path selection for network traffic for this ACL - Default is Primary 1 and Secondary 2 when the attribute is applicable.",
+            "description": "Indicates the preferencial path selection for network traffic for this ACL - default is DEFAULT when the attribute is applicable.",
             "exposed": true,
             "filterable": false,
             "format": null,
