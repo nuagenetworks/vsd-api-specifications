@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "associate Probe ID ",
+            "description": "associated Probe ID ",
             "exposed": true,
             "filterable": true,
             "format": "free",
