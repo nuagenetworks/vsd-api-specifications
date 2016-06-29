@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "associatedApplicationProbeID",
+            "name": "associatedProbeID",
             "orderable": true,
             "read_only": false,
             "required": false,
