@@ -394,7 +394,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "etermines whether this entity is read only.  Read only objects cannot be modified or deleted.",
+            "description": "determines whether this entity is read only.  Read only objects cannot be modified or deleted.",
             "exposed": true,
             "filterable": true,
             "format": null,
