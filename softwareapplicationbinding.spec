@@ -61,7 +61,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "false",
             "deprecated": false,
             "description": "Determines whether this entity is read only.",
             "exposed": true,
