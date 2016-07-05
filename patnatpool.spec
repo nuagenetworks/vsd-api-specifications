@@ -236,7 +236,7 @@
             "format": "free",
             "max_length": 64,
             "max_value": null,
-            "min_length": 1,
+            "min_length": 0,
             "min_value": null,
             "name": "endAddressRange",
             "orderable": true,
