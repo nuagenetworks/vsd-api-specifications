@@ -37,7 +37,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "ID of the Egress QOS Policy associated with this Vlan.",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": null,
