@@ -85,18 +85,20 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "Autodiscovereddatacenter",
         "extends": [
             "@audited",
             "@base"
         ],
-        "get": true,
+        "get": false,
         "package": null,
+        "get": true,
+        "package": "vmware",
         "resource_name": "autodiscovereddatacenters",
         "rest_name": "autodiscovereddatacenter",
         "root": false,
-        "update": true
+        "update": false
     }
 }

@@ -85,18 +85,18 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
-        "entity_name": "AutoDiscoverClusters",
         "extends": [
             "@audited",
             "@base"
         ],
+        "entity_name": "AutoDiscoverCluster",
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,
-        "update": true
+        "update": false
     }
 }

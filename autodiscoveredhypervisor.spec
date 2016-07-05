@@ -85,7 +85,7 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "AutoDiscoverHypervisorFromCluster",
         "extends": [
@@ -93,10 +93,10 @@
             "@base"
         ],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscoveredhypervisors",
         "rest_name": "autodiscoveredhypervisor",
         "root": false,
-        "update": true
+        "update": false
     }
 }

@@ -247,7 +247,7 @@
     "children": [],
     "model": {
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": null,
         "entity_name": "VRSMetrics",
         "extends": [
@@ -255,7 +255,7 @@
             "@audited"
         ],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "vrsmetrics",
         "rest_name": "vrsmetrics",
         "root": false,
