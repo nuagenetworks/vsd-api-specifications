@@ -639,18 +639,6 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "rest_name": "infrastructureportprofile",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "root",
             "rest_name": "infrastructurevscprofile",
             "update": false
         },
@@ -832,18 +820,6 @@
             "get": true,
             "relationship": "root",
             "rest_name": "nsgredundancygroup",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "root",
-            "rest_name": "nsportstaticconfiguration",
             "update": false
         },
         {
