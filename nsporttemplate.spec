@@ -224,6 +224,7 @@
             "allowed_choices": [
                 "AUTONEGOTIATE",
                 "BASET10",
+                "BASET1000",
                 "BASETX100",
                 "BASEX10G"
             ],
