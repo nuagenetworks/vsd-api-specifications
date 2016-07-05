@@ -11,7 +11,7 @@
             "deprecated": false,
             "description": "Indicates which PATNATPool this entry belongs to",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
