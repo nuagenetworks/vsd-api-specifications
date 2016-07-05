@@ -91,7 +91,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "The ID of the infrastructure profile this instance is associated with.",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": null,
