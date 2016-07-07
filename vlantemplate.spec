@@ -109,7 +109,20 @@
             "uniqueScope": null
         }
     ],
-    "children": [],
+    "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "brconnections",
+            "update": false
+        }
+    ],
     "model": {
         "create": false,
         "delete": true,
