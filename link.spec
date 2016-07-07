@@ -39,7 +39,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID for the destination domain.",
+            "description": "This is the  ID of the domain receiving the routes from the source. This can only be set for links of type OVERLAY_ADDRESS_TRANSLATION.",
             "exposed": true,
             "filterable": true,
             "format": "free",
