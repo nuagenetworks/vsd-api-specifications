@@ -67,7 +67,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Possible values: IPv4, IPv6. Currently only IPv4 is supported as such this will be a readonly property for the time being.",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
