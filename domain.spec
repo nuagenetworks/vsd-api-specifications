@@ -382,7 +382,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "backHaulSubnetNetmask",
+            "name": "backHaulSubnetMask",
             "orderable": true,
             "read_only": false,
             "required": false,
