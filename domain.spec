@@ -347,7 +347,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "IP type (IPv4 or IPV6) of the backhaul subnet",
+            "description": "IP type (IPV4 or IPV6) of the backhaul subnet",
             "exposed": true,
             "filterable": true,
             "format": null,
