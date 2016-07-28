@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "associatedSoftwareApplicationID",
+            "name": "associatedApplicationID",
             "orderable": false,
             "read_only": false,
             "required": false,
