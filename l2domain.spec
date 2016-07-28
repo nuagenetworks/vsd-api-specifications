@@ -644,7 +644,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "applicationgroupbinding",
+            "rest_name": "applicationperformancemanagementbinding",
             "update": false
         },
         {
