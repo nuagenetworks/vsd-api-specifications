@@ -547,7 +547,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "softwareapplicationscope",
+            "rest_name": "monitorscope",
             "update": false
         }
     ],
