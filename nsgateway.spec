@@ -267,7 +267,7 @@
             "min_value": null,
             "name": "associatedNSGInfoID",
             "orderable": false,
-            "read_only": true,
+            "read_only": false,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -941,6 +941,18 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
+            "rest_name": "monitorscope",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
             "rest_name": "nsginfo",
             "update": false
         },
@@ -978,18 +990,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "permission",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "softwareapplicationscope",
             "update": false
         },
         {
