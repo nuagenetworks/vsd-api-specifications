@@ -535,7 +535,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "member",
-            "rest_name": "softwareapplicationbinding",
+            "rest_name": "applicationbinding",
             "update": false
         },
         {
