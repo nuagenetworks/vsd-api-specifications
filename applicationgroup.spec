@@ -146,7 +146,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "softwareapplicationbinding",
+            "rest_name": "applicationbinding",
             "update": false
         }
     ],
