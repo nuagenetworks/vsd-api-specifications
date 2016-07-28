@@ -1084,7 +1084,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "l7applicationtype",
+            "rest_name": "l7applicationsignature",
             "update": false
         },
         {
