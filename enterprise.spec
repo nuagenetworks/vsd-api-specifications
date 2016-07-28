@@ -712,7 +712,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "applicationgroup",
+            "rest_name": "applicationperformancemanagement",
             "update": false
         },
         {
