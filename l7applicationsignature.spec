@@ -146,7 +146,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "member",
-            "rest_name": "applications",
+            "rest_name": "application",
             "update": false
         }
     ],
