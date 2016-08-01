@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "description of  Application",
+            "description": "description of Application",
             "exposed": true,
             "filterable": true,
             "format": "free",
