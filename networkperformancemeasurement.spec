@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "associatedPerformanceMonitorID\u00a0",
+            "name": "associatedPerformanceMonitorID",
             "orderable": true,
             "read_only": false,
             "required": false,
