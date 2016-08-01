@@ -154,7 +154,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Performancemonitor",
+        "entity_name": "PerformanceMonitor",
         "extends": [],
         "get": true,
         "package": null,
