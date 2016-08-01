@@ -144,7 +144,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": ",value should be either * or single port number ",
+            "description": "value should be either * or single port number ",
             "exposed": true,
             "filterable": true,
             "format": "free",
