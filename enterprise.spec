@@ -700,7 +700,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "applicationperformancemanagement",
+            "rest_name": "application",
             "update": false
         },
         {
@@ -712,7 +712,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "applications",
+            "rest_name": "applicationperformancemanagement",
             "update": false
         },
         {
