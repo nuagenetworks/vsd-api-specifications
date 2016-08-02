@@ -333,10 +333,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "generic Split Activation",
+            "description": "Whether split-activation is needed from VRO",
             "exposed": true,
             "filterable": false,
-            "format": null,
+            "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1692,6 +1692,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "autodiscoveredhypervisor",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -1710,7 +1722,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vcenterhypervisor",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,

@@ -374,7 +374,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "bgpprofile",
             "update": false
         },
@@ -482,7 +482,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "egressdomainfloatingipacltemplate",
             "update": false
         },
@@ -494,7 +494,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "egressfloatingipacltemplate",
             "update": false
         },
@@ -639,18 +639,6 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "rest_name": "infrastructureportprofile",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "root",
             "rest_name": "infrastructurevscprofile",
             "update": false
         },
@@ -700,6 +688,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "job",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "keyservermember",
             "update": false
         },
         {
@@ -826,18 +826,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "root",
-            "rest_name": "nsportstaticconfiguration",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -914,7 +902,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "routingpolicy",
             "update": false
         },
