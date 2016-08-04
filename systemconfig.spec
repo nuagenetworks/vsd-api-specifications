@@ -1452,7 +1452,7 @@
             "max_value": null,
             "min_length": 1,
             "min_value": null,
-            "name": "elasticSearchServerAddress",
+            "name": "elasticSearchUIAddress",
             "orderable": true,
             "read_only": false,
             "required": false,
