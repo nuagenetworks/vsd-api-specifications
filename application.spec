@@ -393,6 +393,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "NONE",
                 "PRIMARY",
                 "SECONDARY"
             ],
