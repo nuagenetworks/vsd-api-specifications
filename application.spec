@@ -401,7 +401,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "PRIMARY",
+            "default_value": "NONE",
             "deprecated": false,
             "description": "default set to primary , possible values primary/secondary",
             "exposed": true,
