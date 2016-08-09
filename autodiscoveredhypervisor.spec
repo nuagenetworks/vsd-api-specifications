@@ -92,8 +92,8 @@
             "@audited",
             "@base"
         ],
-        "get": false,
-        "package": null,
+        "get": true,
+        "package": "vmware",
         "resource_name": "autodiscoveredhypervisors",
         "rest_name": "autodiscoveredhypervisor",
         "root": false,

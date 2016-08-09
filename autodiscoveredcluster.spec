@@ -87,13 +87,13 @@
         "create": false,
         "delete": false,
         "description": null,
-        "entity_name": "AutoDiscoverClusters",
         "extends": [
             "@audited",
             "@base"
         ],
-        "get": false,
-        "package": null,
+        "entity_name": "AutoDiscoverCluster",
+        "get": true,
+        "package": "vmware",
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,
