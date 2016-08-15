@@ -96,7 +96,7 @@
             "@base",
             "@metadata"
         ],
-        "get": false,
+        "get": true,
         "package": "container",
         "resource_name": "containerresync",
         "rest_name": "containerresync",
