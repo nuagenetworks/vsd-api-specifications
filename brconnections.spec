@@ -92,7 +92,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Connection mode: Dynamic/Static.",
+            "description": "Connection mode: Static.",
             "exposed": true,
             "filterable": true,
             "format": null,
