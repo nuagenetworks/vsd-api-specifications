@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "start address for the address pool",
+            "description": "Start address for the pool range",
             "exposed": true,
             "filterable": true,
             "format": "free",
