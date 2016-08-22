@@ -91,7 +91,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "The route distinguisher associated with the next hop. This is a read only property automatically created by VSD.",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
