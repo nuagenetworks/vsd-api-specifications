@@ -140,7 +140,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "The address pool for public IP of the PAT/NAT entries.",
         "entity_name": "OverlayAddressPool",
         "extends": [],
         "get": true,
