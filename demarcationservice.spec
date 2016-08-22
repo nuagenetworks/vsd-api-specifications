@@ -64,7 +64,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Next hop priority assigned by the user.",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
