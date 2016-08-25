@@ -339,7 +339,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "FIRST_PACKET",
             "deprecated": false,
             "description": "Describes the trigger for the application.",
             "exposed": true,
