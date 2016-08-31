@@ -374,7 +374,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "bgpprofile",
             "update": false
         },
@@ -400,6 +400,30 @@
             "get": true,
             "relationship": "root",
             "rest_name": "cms",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "container",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "containerinterface",
             "update": false
         },
         {
@@ -458,7 +482,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "egressdomainfloatingipacltemplate",
             "update": false
         },
@@ -470,7 +494,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "egressfloatingipacltemplate",
             "update": false
         },
@@ -682,6 +706,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "keyservermember",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -819,6 +855,18 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
+            "rest_name": "patmapper",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
             "rest_name": "patnatpool",
             "update": false
         },
@@ -878,7 +926,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "root",
             "rest_name": "routingpolicy",
             "update": false
         },
@@ -1060,6 +1108,30 @@
             "get": true,
             "relationship": "root",
             "rest_name": "vsp",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "zfbautoassignment",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "zfbrequest",
             "update": false
         },
         {

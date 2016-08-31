@@ -14,14 +14,14 @@
             "deprecated": false,
             "description": "The IKE Version",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "IKEVersion",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -140,6 +140,18 @@
         }
     ],
     "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "ikegatewayconfig",
+            "update": true
+        },
         {
             "bulk_create": false,
             "bulk_delete": false,

@@ -526,7 +526,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Represents a Port of a particular NS gateway object.",
+        "description": "Represents a Port of a particular NS Gateway object.",
         "entity_name": "NSPort",
         "extends": [
             "@audited",
