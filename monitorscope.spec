@@ -117,7 +117,7 @@
         "entity_name": "Monitorscope",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "sysmon",
         "resource_name": "monitorscopes",
         "rest_name": "monitorscope",
         "root": null,

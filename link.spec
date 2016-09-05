@@ -573,7 +573,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "appd",
         "resource_name": "links",
         "rest_name": "link",
         "root": null,
