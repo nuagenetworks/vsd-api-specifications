@@ -1171,7 +1171,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "LOCAL",
             "deprecated": false,
             "description": "Authentication method for csproot when local authentication is not used for CSP organization",
             "exposed": true,
