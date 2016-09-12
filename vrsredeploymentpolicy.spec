@@ -309,7 +309,7 @@
             "@base"
         ],
         "get": true,
-        "package": null,
+        "package": "vmware",
         "resource_name": "vrsredeploymentpolicies",
         "rest_name": "vrsredeploymentpolicy",
         "root": null,

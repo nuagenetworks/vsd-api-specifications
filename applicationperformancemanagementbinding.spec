@@ -90,7 +90,7 @@
         "entity_name": "Applicationperformancemanagementbinding",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "applicationperformancemanagementbindings",
         "rest_name": "applicationperformancemanagementbinding",
         "root": null,

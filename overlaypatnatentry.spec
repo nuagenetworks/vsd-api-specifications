@@ -144,7 +144,7 @@
         "entity_name": "OverlayPATNATEntry",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "gateway",
         "resource_name": "overlaypatnatentries",
         "rest_name": "overlaypatnatentry",
         "root": null,

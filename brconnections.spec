@@ -146,7 +146,7 @@
         "entity_name": "BRConnection",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vport",
         "resource_name": "brconnections",
         "rest_name": "brconnections",
         "root": null,

@@ -90,7 +90,7 @@
         "entity_name": "NetworkPerformanceBinding",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "networkperformancebindings",
         "rest_name": "networkperformancebinding",
         "root": null,

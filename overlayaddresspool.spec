@@ -157,7 +157,7 @@
         "entity_name": "OverlayAddressPool",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "gateway",
         "resource_name": "overlayaddresspools",
         "rest_name": "overlayaddresspool",
         "root": null,

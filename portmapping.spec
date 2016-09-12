@@ -66,7 +66,7 @@
             "@base"
         ],
         "get": false,
-        "package": null,
+        "package": "gateway",
         "resource_name": "portmappings",
         "rest_name": "portmapping",
         "root": false,

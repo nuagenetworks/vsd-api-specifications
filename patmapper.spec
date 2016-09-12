@@ -79,7 +79,7 @@
             "@audited"
         ],
         "get": true,
-        "package": null,
+        "package": "gateway",
         "resource_name": "patmappers",
         "rest_name": "patmapper",
         "root": false,
