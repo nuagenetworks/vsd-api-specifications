@@ -282,7 +282,7 @@
         "create": false,
         "delete": false,
         "description": "The alarm API allows the management of system alarms.",
-        "entity_name": "Alarm",
+        "entity_name": "AllAlarm",
         "extends": [
             "@audited",
             "@base",
