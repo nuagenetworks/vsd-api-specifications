@@ -93,7 +93,7 @@
             "@base"
         ],
         "get": false,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,

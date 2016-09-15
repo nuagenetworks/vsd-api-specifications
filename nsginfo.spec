@@ -263,7 +263,7 @@
             "@base"
         ],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "nsginfos",
         "rest_name": "nsginfo",
         "root": null,

@@ -93,7 +93,7 @@
             "@base"
         ],
         "get": false,
-        "package": null,
+        "package": "vmware",
         "resource_name": "autodiscovereddatacenters",
         "rest_name": "autodiscovereddatacenter",
         "root": false,

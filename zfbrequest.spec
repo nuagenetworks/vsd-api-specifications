@@ -544,7 +544,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "zfbrequests",
         "rest_name": "zfbrequest",
         "root": null,

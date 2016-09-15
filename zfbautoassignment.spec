@@ -153,7 +153,7 @@
             "@audited"
         ],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "zfbautoassignments",
         "rest_name": "zfbautoassignment",
         "root": null,
