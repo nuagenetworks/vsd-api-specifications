@@ -339,7 +339,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "FIRST_PACKET",
             "deprecated": false,
             "description": "Describes the trigger for the application.",
             "exposed": true,
@@ -393,7 +393,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "NONE",
+                "DEFAULT",
                 "PRIMARY",
                 "SECONDARY"
             ],
@@ -401,7 +401,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "NONE",
+            "default_value": "DEFAULT",
             "deprecated": false,
             "description": "default set to primary , possible values primary/secondary",
             "exposed": true,

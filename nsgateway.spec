@@ -712,6 +712,7 @@
                 "DC7X50",
                 "HARDWARE_VTEP",
                 "NSG",
+                "NSGBR",
                 "OTHER",
                 "VRSG",
                 "VSA",

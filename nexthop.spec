@@ -60,7 +60,7 @@
         "create": null,
         "delete": false,
         "description": "This represents a /32 IPv4 address as the next-hop. In the future can be a /128 IPv6 address.",
-        "entity_name": "NextHopAddress",
+        "entity_name": "NextHop",
         "extends": [
             "@audited",
             "@base",
