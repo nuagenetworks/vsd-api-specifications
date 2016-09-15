@@ -408,6 +408,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "ens160",
                 "ens224",
                 "ens256",
                 "no_mirror"
