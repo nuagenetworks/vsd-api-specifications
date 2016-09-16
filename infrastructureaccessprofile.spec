@@ -118,7 +118,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "PASSWORD_BASED",
             "deprecated": false,
             "description": "Indicates the Authentication method used during a SSH session.",
             "exposed": true,
