@@ -84,6 +84,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "GATEWAY_PING",
                 "LINK_BASED",
                 "OPENFLOW"
             ],
