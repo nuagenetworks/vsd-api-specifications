@@ -29,7 +29,8 @@ function update_repo()
     mv ${codegen}/* ${repo}
     cd ${repo}
 
-    git commit -a -m "Auto generated from specifications change."
+    git add .
+    git commit -m "Auto generated from specifications change."
     if [ -n "${TRAVIS_TAG}" ] ; then
         git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
     fi
