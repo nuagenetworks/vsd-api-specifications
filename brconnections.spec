@@ -67,7 +67,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Advertisement Criteria for Traffic Flow",
             "exposed": true,
             "filterable": true,
             "format": null,
