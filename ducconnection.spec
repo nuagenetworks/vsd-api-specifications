@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "IP address of the gateway bound to the port",
             "exposed": true,
             "filterable": true,
             "format": "free",
