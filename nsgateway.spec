@@ -807,7 +807,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "true",
+            "default_value": "INHERITED",
             "deprecated": false,
             "description": "Indicates if SSH Service is enabled/disabled on a NSG. The value configured for this attribute is used only when the associated NSGatewayTemplate has allowInstanceSSHOverride enabled. ",
             "exposed": true,
