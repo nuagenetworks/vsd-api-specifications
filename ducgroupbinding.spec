@@ -68,7 +68,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 9999,
             "min_length": null,
             "min_value": null,
             "name": "onewaydelay",
