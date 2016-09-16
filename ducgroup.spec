@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Name of the DUC Group",
             "exposed": true,
             "filterable": true,
             "format": "free",
