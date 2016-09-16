@@ -6,7 +6,11 @@
         "delete": true,
         "description": "Represents an Infrastructure Access Profile",
         "entity_name": "Infrastructureaccessprofile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "infrastructure",
         "resource_name": "infrastructureaccessprofiles",
