@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "List of DUCs that belong to this DUC Group",
+            "description": "List of NSG DUCs that belong to this Disjoin Underlay Connector Group. ",
             "exposed": true,
             "filterable": true,
             "format": null,
