@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "unique uuid of the DUC Group",
+            "description": "system unique uuid of the DUC Group",
             "exposed": true,
             "filterable": true,
             "format": "free",
