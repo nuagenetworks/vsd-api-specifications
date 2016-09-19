@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Specifies the underlay associated to the connection",
+            "description": "Specifies the underlay associated with the connection. ",
             "exposed": true,
             "filterable": true,
             "format": "free",
