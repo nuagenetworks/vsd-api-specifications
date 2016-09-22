@@ -90,7 +90,7 @@
         "entity_name": "NextHopAddress",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "network",
         "resource_name": "nexthopaddress",
         "rest_name": "nexthopaddress",
         "root": null,

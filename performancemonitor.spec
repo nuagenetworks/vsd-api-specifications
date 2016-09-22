@@ -193,7 +193,7 @@
         "entity_name": "PerformanceMonitor",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "performancemonitors",
         "rest_name": "performancemonitor",
         "root": null,

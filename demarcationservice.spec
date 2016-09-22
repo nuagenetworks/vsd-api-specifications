@@ -147,7 +147,7 @@
         "entity_name": "DemarcationService",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vport",
         "resource_name": "demarcationservices",
         "rest_name": "demarcationservice",
         "root": null,
