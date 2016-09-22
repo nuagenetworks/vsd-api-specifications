@@ -172,7 +172,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "true",
+            "default_value": "ENABLED",
             "deprecated": false,
             "description": "Enable/Disable SSH Service on all the Gateway instances which inherit from this template.",
             "exposed": true,
