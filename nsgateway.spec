@@ -839,7 +839,7 @@
             "default_order": false,
             "default_value": "INHERITED",
             "deprecated": false,
-            "description": "Indicates if SSH Service is enabled/disabled on a NSG. The value configured for this attribute is used only when the associated NSGatewayTemplate has allowInstanceSSHOverride enabled. ",
+            "description": "Indicates if SSH Service is enabled/disabled on a NSG. The value configured for this attribute is used \" +             \"only when instanceSSHOverride is allowed on the associated NSGatewayTemplate.",
             "exposed": true,
             "filterable": true,
             "format": null,
