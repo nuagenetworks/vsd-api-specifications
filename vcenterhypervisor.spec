@@ -1664,7 +1664,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "removedFromVcenterInventory",
+            "name": "removedFromVCenterInventory",
             "orderable": true,
             "read_only": false,
             "required": false,
