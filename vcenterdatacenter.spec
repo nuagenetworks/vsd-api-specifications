@@ -260,7 +260,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "deletedFromVcenter",
+            "name": "deletedFromVCenter",
             "orderable": true,
             "read_only": false,
             "required": false,
