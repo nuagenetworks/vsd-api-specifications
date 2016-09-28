@@ -217,7 +217,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "false",
             "deprecated": false,
             "description": "This flag is used to indicate the status of TCA",
             "exposed": true,
