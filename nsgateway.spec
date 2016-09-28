@@ -557,7 +557,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "inheritedSshServiceState",
+            "name": "inheritedSSHServiceState",
             "orderable": true,
             "read_only": false,
             "required": false,
