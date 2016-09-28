@@ -141,6 +141,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "ACL_DENY_EVENT_COUNT",
                 "ADDRESS_MAP_EGRESS_BYTE_CNT",
                 "ADDRESS_MAP_EGRESS_PKT_CNT",
                 "ADDRESS_MAP_INGRESS_BYTE_CNT",
