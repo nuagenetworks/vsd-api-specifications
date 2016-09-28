@@ -146,6 +146,7 @@
                 "ADDRESS_MAP_EGRESS_PKT_CNT",
                 "ADDRESS_MAP_INGRESS_BYTE_CNT",
                 "ADDRESS_MAP_INGRESS_PKT_CNT",
+                "ANTI_SPOOF_EVENT_COUNT",
                 "BYTES_IN",
                 "BYTES_OUT",
                 "EGRESS_BYTE_COUNT",
