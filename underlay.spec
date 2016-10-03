@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Unique number that identifies this underlay",
+            "description": null,
             "exposed": true,
             "filterable": true,
             "format": null,
