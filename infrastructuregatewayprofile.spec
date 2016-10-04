@@ -61,7 +61,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "PT2H",
+            "default_value": "PT7D",
             "deprecated": false,
             "description": "Duration for a controller-less local operation (in ISO-duration format).",
             "exposed": true,
