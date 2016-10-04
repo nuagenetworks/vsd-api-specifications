@@ -119,7 +119,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "DISABLED",
             "deprecated": false,
             "description": "The forwarding mode to use for controllerLess operations",
             "exposed": true,
