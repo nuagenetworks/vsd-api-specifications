@@ -89,7 +89,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "Flag to enable controller-less operations.",
             "exposed": true,
             "filterable": false,
