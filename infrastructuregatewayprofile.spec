@@ -115,7 +115,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "PT7D",
             "deprecated": false,
             "description": "Duration for a controller-less remote operation (in ISO-duration format).",
             "exposed": true,
