@@ -117,7 +117,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Duration for a controller-less remote operation (in ISO-duration format).",
             "exposed": true,
             "filterable": true,
             "format": "free",
