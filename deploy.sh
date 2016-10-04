@@ -1,85 +1,54 @@
 #!/bin/bash
 
-pip install -U git+https://github.com/nuagenetworks/monolithe.git && \
-pip install -U git+https://github.com/nuagenetworks/vspkgenerator.git && \
-\
-mkdir -p repos && \
-cd repos && \
-\
-git clone git@github.com:nuagenetworks/vspk-python.git -b ${TRAVIS_BRANCH} && \
-rm -rf vspk-python/* && \
-\
-git clone git@github.com:nuagenetworks/vspk-go.git -b ${TRAVIS_BRANCH} && \
-rm -rf vspk-go/* && \
-\
-git clone git@github.com:nuagenetworks/vspk-objj.git -b ${TRAVIS_BRANCH} && \
-rm -rf vspk-objj/* && \
-\
-git clone git@github.com:nuagenetworks/vspk-java.git -b ${TRAVIS_BRANCH} && \
-rm -rf vspk-java/* && \
-\
-git clone git@github.com:nuagenetworks/vsd-api-documentation.git -b gh-pages && \
-rm -rf vsd-api-documentation/* && \
-\
-cd .. && \
-\
-generate-vspk -f . -L python && \
-mv codegen/python/* repos/vspk-python && \
-cd repos/vspk-python && \
-git add --all && \
-cd - && \
-\
-generate-vspk -f . -L go && \
-mv codegen/go/* repos/vspk-go && \
-cd repos/vspk-go && \
-git add --all && \
-cd - && \
-\
-generate-vspk -f . -L objj && \
-mv codegen/objj/* repos/vspk-objj && \
-cd repos/vspk-objj && \
-git add --all && \
-cd - && \
-\
-generate-vspk -f . -L java && \
-mv codegen/java/* repos/vspk-java && \
-cd repos/vspk-java && \
-git add --all && \
-cd - && \
-\
-generate-vspk -f . -L html && \
-mv codegen/html/* repos/vsd-api-documentation && \
-cd repos/vsd-api-documentation && \
-git add --all && \
-cd -
+set -x
+set -e
 
-if [[ $? != 0 ]]; then
-    exit 2
-fi
+WORKSPACE=$(pwd)
 
-cd repos/vspk-python
-git commit -a -m "Auto generated from specifications change."
-git push origin $TRAVIS_BRANCH
-cd -
+function generate_sdk()
+{
+    local language=${1}
+    generate-vspk -f . -L ${language}
+}
 
-cd repos/vspk-go
-git commit -a -m "Auto generated from specifications change."
-git push origin $TRAVIS_BRANCH
-cd -
+function update_repo()
+{
+    local language=${1}
+    local repo=${WORKSPACE}/vspk-${language}
+    local codegen=${WORKSPACE}/codegen/${language}
 
-cd repos/vspk-objj
-git commit -a -m "Auto generated from specifications change."
-git push origin $TRAVIS_BRANCH
-cd -
+    git clone git@github.com:nuagenetworks/vspk-${language}.git ${repo} -b ${TRAVIS_BRANCH}
+    rm -rf ${repo}/*
+    mv ${codegen}/* ${repo}
+    cd ${repo}
+    git commit -a -m "Auto generated from specifications change."
+    if [ -n "${TRAVIS_TAG}" ] ; then
+        git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
+    fi
+    git push --tags origin ${TRAVIS_BRANCH}
+    cd ${WORKSPACE}
+}
 
-cd repos/vspk-java
-git commit -a -m "Auto generated from specifications change."
-git push origin $TRAVIS_BRANCH
-cd -
+function install_vspkgenerator()
+{
+    pip install -U git+https://github.com/nuagenetworks/monolithe.git
+    pip install -U git+https://github.com/nuagenetworks/vspkgenerator.git
+}
 
-cd repos/vsd-api-documentation
-git commit -a -m "Auto generated from specifications change."
-git push origin gh-pages
-cd -
 
-exit 0
+function main()
+{
+    local language=
+    local languages="python go java objj"
+
+    install_vspkgenerator
+    for language in ${languages} ; do
+        generate_sdk ${language}
+        if [[ ${TRAVIS_PULL_REQUEST} == "false" ]] ; then
+            update_repo ${language}
+        fi
+    done
+    exit 0
+}
+
+main

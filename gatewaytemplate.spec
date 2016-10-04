@@ -88,6 +88,7 @@
                 "HARDWARE_VTEP",
                 "NSG",
                 "OTHER",
+                "VRSB",
                 "VRSG",
                 "VSA",
                 "VSG"
