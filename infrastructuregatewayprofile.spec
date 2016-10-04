@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": "PT2H",
             "deprecated": false,
-            "description": "Duration for a controller-less operation (in ISO-duration format).",
+            "description": "Duration for a controller-less local operation (in ISO-duration format).",
             "exposed": true,
             "filterable": false,
             "format": "free",
