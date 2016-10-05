@@ -30,6 +30,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DISABLED",
                 "ENABLED",
                 "INHERITED"
             ],
