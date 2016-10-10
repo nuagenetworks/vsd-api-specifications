@@ -34,7 +34,9 @@ function update_repo()
     if [ -n "${TRAVIS_TAG}" ] ; then
         git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
     fi
-    git push --tags origin ${ACTUAL_BRANCH}
+    # push fails if nothing changed, which causes the script to exit.
+    # to avoid this, we force this line to be always successful.
+    git push --tags origin ${ACTUAL_BRANCH} || true
     cd ${WORKSPACE}
 }
 
