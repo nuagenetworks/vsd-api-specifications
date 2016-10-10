@@ -228,7 +228,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "bgp",
         "resource_name": "bgpneighbors",
         "rest_name": "bgpneighbor",
         "root": false,
