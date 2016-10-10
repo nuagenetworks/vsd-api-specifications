@@ -30,13 +30,13 @@ function update_repo()
     cd ${repo}
 
     git add .
-    git commit -m "Auto generated from specifications change."
+    # commit fails if nothing changed, which causes the script to exit.
+    # to avoid this, we force this line to be always successful.
+    git commit -m "Auto generated from specifications change." || true
     if [ -n "${TRAVIS_TAG}" ] ; then
         git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
     fi
-    # push fails if nothing changed, which causes the script to exit.
-    # to avoid this, we force this line to be always successful.
-    git push --tags origin ${ACTUAL_BRANCH} || true
+    git push --tags origin ${ACTUAL_BRANCH}
     cd ${WORKSPACE}
 }
 
