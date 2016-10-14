@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The maximum wait time limit in minutes to get VRS configured at cluster level",
             "exposed": true,
             "filterable": false,
             "format": null,
