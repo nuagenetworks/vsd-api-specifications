@@ -238,7 +238,7 @@
         "entity_name": "UplinkConnection",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "network",
         "resource_name": "uplinkconnections",
         "rest_name": "uplinkconnection",
         "root": null,
