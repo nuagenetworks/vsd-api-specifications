@@ -57,6 +57,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DEPLOYED",
                 "DEPLOYING",
                 "NOT_DEPLOYED",
                 "UPGRADING"
