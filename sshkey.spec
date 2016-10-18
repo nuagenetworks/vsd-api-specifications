@@ -11,7 +11,7 @@
             "default_order": false,
             "default_value": "RSA",
             "deprecated": false,
-            "description": "Type of SSH Key defined. Can be either RSA (or) DSA.",
+            "description": "Type of SSH Key defined. Only RSA supported for now.",
             "exposed": true,
             "filterable": true,
             "format": null,
