@@ -9,7 +9,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "IPV4",
             "deprecated": false,
             "description": "IPv4 or IPv6 (only IPv4 supported for now).",
             "exposed": true,
