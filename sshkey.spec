@@ -10,7 +10,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "RSA",
             "deprecated": false,
             "description": "Type of SSH Key defined. Can be either RSA (or) DSA.",
             "exposed": true,
