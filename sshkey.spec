@@ -44,7 +44,7 @@
             "format": "free",
             "max_length": 4096,
             "max_value": null,
-            "min_length": 768,
+            "min_length": null,
             "min_value": null,
             "name": "publicKey",
             "orderable": true,
