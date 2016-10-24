@@ -18,6 +18,9 @@ function update_repo()
     if [ ${language} == "html" ] ; then
         local repo=${WORKSPACE}/vsd-api-documentation
         local github_url=git@github.com:nuagenetworks/vsd-api-documentation.git
+    elif [ ${language} == "vro" ] ; then
+        local repo=${WORKSPACE}/vro-plugin-base
+        local github_url=git@github.com:nuagenetworks/vro-plugin-base.git
     else
         local repo=${WORKSPACE}/vspk-${language}
         local github_url=git@github.com:nuagenetworks/vspk-${language}.git
@@ -50,7 +53,7 @@ function install_vspkgenerator()
 function main()
 {
     local language=
-    local languages="python go java objj html"
+    local languages="python go java objj html vro"
 
     install_vspkgenerator
     for language in ${languages} ; do
