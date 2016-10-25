@@ -148,7 +148,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "DISABLED",
             "deprecated": false,
             "description": "Indicates if source based IP filtering is enabled for this access profile.",
             "exposed": true,
