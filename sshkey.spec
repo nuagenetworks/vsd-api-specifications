@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A description of the SSH Key instance created.",
+            "description": "A description of the SSH Key.",
             "exposed": true,
             "filterable": true,
             "format": "free",
