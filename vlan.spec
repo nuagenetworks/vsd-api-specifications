@@ -142,7 +142,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "false",
             "deprecated": false,
             "description": "Specifies if this vlan is associated to an uplink connection that hosts a duc",
             "exposed": true,
