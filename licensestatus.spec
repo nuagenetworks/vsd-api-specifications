@@ -7,7 +7,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "false",
             "deprecated": false,
             "description": "Whether the various VRS license flavours be merged in one pool",
             "exposed": true,
