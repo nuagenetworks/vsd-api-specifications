@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID associated to the DUC Group",
+            "description": "Identification of the UBR Group associated to this group binding instance.",
             "exposed": true,
             "filterable": true,
             "format": "free",
