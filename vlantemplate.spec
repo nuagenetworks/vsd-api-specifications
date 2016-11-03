@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Specifies if this vlan is associated to an uplink connection that hosts a duc",
+            "description": "When set to true, this specifies that this VLAN template instance serves as an underlay connection endpoint on an NSG-UBR gateway.",
             "exposed": true,
             "filterable": true,
             "format": null,
