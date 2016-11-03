@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The priority for NSG Group to DUC Group",
+            "description": "The priority for NSG Group to UBR Group relationship.",
             "exposed": true,
             "filterable": true,
             "format": null,
