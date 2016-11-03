@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Description of the DUC Group",
+            "description": "Description of the UBR Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
