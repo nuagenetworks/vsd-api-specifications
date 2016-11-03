@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "UUID of DUC Group Binding",
+            "description": "VSD UUID of the UBR Group Binding instance.",
             "exposed": true,
             "filterable": true,
             "format": "free",
