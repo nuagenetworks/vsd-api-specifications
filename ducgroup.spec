@@ -90,7 +90,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the DUC Group",
+            "description": "Name given to the UBR Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
