@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "system unique uuid of the DUC Group",
+            "description": "VSD System unique UUID of the UBR Group instance.",
             "exposed": true,
             "filterable": true,
             "format": "free",
