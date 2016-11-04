@@ -774,6 +774,7 @@
                 "HARDWARE_VTEP",
                 "NSG",
                 "NSGBR",
+                "NSGDUC",
                 "OTHER",
                 "VRSG",
                 "VSA",
