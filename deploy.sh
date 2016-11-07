@@ -14,14 +14,23 @@ function generate_sdk()
 function update_repo()
 {
     local language=${1}
-    local repo=${WORKSPACE}/vspk-${language}
     local codegen=${WORKSPACE}/codegen/${language}
+    if [ ${language} == "html" ] ; then
+        local repo=${WORKSPACE}/vsd-api-documentation
+        local github_url=git@github.com:nuagenetworks/vsd-api-documentation.git
+    else
+        local repo=${WORKSPACE}/vspk-${language}
+        local github_url=git@github.com:nuagenetworks/vspk-${language}.git
+    fi
 
-    git clone git@github.com:nuagenetworks/vspk-${language}.git ${repo} -b ${TRAVIS_BRANCH}
+    git clone ${github_url} ${repo} -b ${TRAVIS_BRANCH}
+
     rm -rf ${repo}/*
     mv ${codegen}/* ${repo}
     cd ${repo}
-    git commit -a -m "Auto generated from specifications change."
+
+    git add .
+    git commit -m "Auto generated from specifications change."
     if [ -n "${TRAVIS_TAG}" ] ; then
         git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
     fi
@@ -39,7 +48,7 @@ function install_vspkgenerator()
 function main()
 {
     local language=
-    local languages="python go java objj"
+    local languages="python go java objj html"
 
     install_vspkgenerator
     for language in ${languages} ; do
