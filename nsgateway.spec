@@ -611,7 +611,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": "ENABLED",
-            "deprecated": false,
+            "deprecated": true,
             "description": "Indicates the SSH Service state which is configured on the associated template instance.",
             "exposed": true,
             "filterable": true,
