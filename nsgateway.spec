@@ -486,6 +486,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "INHERITED_ENABLED",
                 "INSTANCE_DISABLED",
                 "INSTANCE_ENABLED"
             ],
