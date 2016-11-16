@@ -469,6 +469,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "ducgroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -841,6 +853,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "nsggroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -871,6 +895,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "patnatpool",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "performancemonitor",
             "update": false
         },
         {
@@ -1015,6 +1051,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "tca",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "underlay",
             "update": false
         },
         {
