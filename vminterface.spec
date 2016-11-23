@@ -65,7 +65,7 @@
             "deprecated": false,
             "description": "UUID of the associated virtual machine",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
