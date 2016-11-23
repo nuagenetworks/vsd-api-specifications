@@ -29,7 +29,7 @@ function update_repo()
     mv ${codegen}/* ${repo}
     cd ${repo}
 
-    git add .
+    git add --all .
     # commit fails if nothing changed, which causes the script to exit.
     # to avoid this, we force this line to be always successful.
     git commit -m "Auto generated from specifications change." || true
