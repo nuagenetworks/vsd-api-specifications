@@ -199,6 +199,7 @@
             "allowed_choices": [
                 "ANY",
                 "POLICYGROUP",
+                "REDIRECTIONTARGET",
                 "SUBNET",
                 "ZONE"
             ],
