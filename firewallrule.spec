@@ -262,6 +262,7 @@
                 "ENDPOINT_SUBNET",
                 "ENDPOINT_ZONE",
                 "ENTERPRISE_NETWORK",
+                "NETWORK_MACRO_GROUP",
                 "POLICYGROUP",
                 "PUBLIC_NETWORK",
                 "SUBNET",
