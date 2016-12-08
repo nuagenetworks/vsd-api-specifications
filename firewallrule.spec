@@ -149,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Source network",
+            "description": "Source network - available in version 1.0 api",
             "exposed": true,
             "filterable": true,
             "format": "free",
