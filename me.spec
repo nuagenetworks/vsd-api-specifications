@@ -408,7 +408,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null
-        },
+        }
     ],
     "children": [
         {
