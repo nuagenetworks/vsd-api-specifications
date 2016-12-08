@@ -258,6 +258,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "ENDPOINT_DOMAIN",
                 "ENDPOINT_SUBNET",
                 "ENDPOINT_ZONE"
             ],
