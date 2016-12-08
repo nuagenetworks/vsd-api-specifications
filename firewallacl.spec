@@ -12,7 +12,7 @@
             "description": "If enabled a default ACL of Allow All is added as the last entry in thelist of ACL entries ",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -23,7 +23,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "boolean",
             "unique": false,
             "uniqueScope": null
         },
