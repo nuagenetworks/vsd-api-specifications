@@ -538,7 +538,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "This is the ID of the mirrorDestrination entity associated with this entity",
             "exposed": true,
             "filterable": true,
             "format": "free",
