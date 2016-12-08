@@ -45,7 +45,7 @@
             "min_length": null,
             "min_value": null,
             "name": "allowAllDestinationNSGs",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": "null",
@@ -53,7 +53,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null
-        },
+	},
 	{
             "allowed_chars": null,
             "allowed_choices": null,
@@ -72,7 +72,7 @@
             "min_length": null,
             "min_value": null,
             "name": "allowAllSourceNSGs",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": "null",
