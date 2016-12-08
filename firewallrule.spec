@@ -261,6 +261,7 @@
                 "ENDPOINT_DOMAIN",
                 "ENDPOINT_SUBNET",
                 "ENDPOINT_ZONE",
+                "ENTERPRISE_NETWORK",
                 "SUBNET",
                 "ZONE"
             ],
