@@ -14,7 +14,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ACL destination type",
+            "description": "Network Type - either PolicyGroup or Network",
             "exposed": true,
             "filterable": true,
             "format": null,
