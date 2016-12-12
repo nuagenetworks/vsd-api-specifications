@@ -107,7 +107,7 @@
             "min_value": null,
             "name": "DPI",
             "orderable": true,
-            "read_only": true,
+            "read_only": false,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -1259,6 +1259,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "externalappservice",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "firewallacl",
             "update": false
         },
         {
