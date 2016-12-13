@@ -202,7 +202,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "This is ISO 8601 format duration:\nP[date_fields]T[time_fields]\nP nYnMnD T nHnMnS where n represents the value of the date or time field.\nThe table below shows the meaning of each field:\n\n+-------+----------------+\n|Letter |   Meaning      |\n+------------------------+\n| P     |   Period field |\n| Y     |   Year         |\n| M     |   Month        |\n| D     |   Day          |\n| T     |   Time field   |\n| H     |   Hour         |\n| M     |   Minute       |\n| S     |   Second       |\n+-------+----------------+\n\nBecause the years and month are units that vary in length, for the time being those are not supported yet.",
+            "description": "ISO 8601 format duration: **P nYnMnD T nHnMnS**. **P** represents the period field and **T** the time field. Period field: **Y** = year, **M** = month, **D** = day. Time field: **H** = hours, **M** = minutes, **S** = seconds. **n** is the value of each field. Because the years and month are units that vary in length, for the time being those are not supported yet.",
             "exposed": true,
             "filterable": false,
             "format": null,
