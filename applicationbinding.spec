@@ -90,7 +90,7 @@
         "entity_name": "ApplicationBinding",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "perfrouting",
         "resource_name": "applicationbindings",
         "rest_name": "applicationbinding",
         "root": null,

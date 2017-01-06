@@ -150,7 +150,7 @@
             "@base"
         ],
         "get": false,
-        "package": null,
+        "package": "gateway",
         "resource_name": "patipentries",
         "rest_name": "patipentry",
         "root": false,
