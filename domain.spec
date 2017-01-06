@@ -596,7 +596,7 @@
             "description": "Flag to mark a Domain to be accessible across DC's",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -607,7 +607,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "boolean",
             "unique": false,
             "uniqueScope": null
         },
