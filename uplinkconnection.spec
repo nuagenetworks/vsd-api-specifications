@@ -61,6 +61,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "CONTROL_SESSION",
+                "FATE_SHARING",
                 "GATEWAY_PING",
                 "OPERATIONAL_LINK"
             ],
