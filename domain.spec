@@ -551,7 +551,7 @@
             "subtype": null,
             "transient": false,
             "type": "integer",
-            "unique": false,
+            "unique": true,
             "uniqueScope": null
         },
         {
