@@ -201,6 +201,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "EMBEDDED",
+                "UNKNOWN",
                 "USB_ETHERNET",
                 "USB_MODEM"
             ],
