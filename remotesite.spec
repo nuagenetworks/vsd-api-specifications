@@ -87,7 +87,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Remotesite",
+        "entity_name": "RemoteSite",
         "extends": [],
         "get": true,
         "package": null,
