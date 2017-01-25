@@ -237,7 +237,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "EMBEDDED",
+            "default_value": "AUTOMATIC",
             "deprecated": false,
             "description": "The way the interface is connected via the NSG.  This value depends on if the interface internal or external to the NSG.",
             "exposed": true,
