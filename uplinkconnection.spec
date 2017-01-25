@@ -227,6 +227,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "AUTOMATIC",
                 "EMBEDDED",
                 "PCI_EXPRESS",
                 "USB_ETHERNET",
