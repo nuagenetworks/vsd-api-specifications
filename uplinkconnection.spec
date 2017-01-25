@@ -229,7 +229,6 @@
             "allowed_choices": [
                 "EMBEDDED",
                 "PCI_EXPRESS",
-                "UNKNOWN",
                 "USB_ETHERNET",
                 "USB_MODEM"
             ],
