@@ -4,11 +4,11 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Retrieves statistics for LTE uplink",
         "entity_name": "Ltestatistics",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "stats",
         "resource_name": "ltestatistics",
         "rest_name": "ltestatistics",
         "root": null,
