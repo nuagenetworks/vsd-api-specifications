@@ -112,15 +112,15 @@
     "children": [],
     "model": {
         "create": null,
-        "delete": true,
+        "delete": false,
         "description": "Retrieves statistics for LTE uplink",
         "entity_name": "Ltestatistics",
         "extends": [],
-        "get": true,
+        "get": false,
         "package": "stats",
         "resource_name": "ltestatistics",
         "rest_name": "ltestatistics",
         "root": null,
-        "update": true
+        "update": false
     }
 }
