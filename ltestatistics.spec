@@ -115,7 +115,9 @@
         "delete": false,
         "description": "Retrieves statistics for LTE uplink",
         "entity_name": "Ltestatistics",
-        "extends": [],
+        "extends": [
+            "@metadata"
+        ],
         "get": false,
         "package": "stats",
         "resource_name": "ltestatistics",
