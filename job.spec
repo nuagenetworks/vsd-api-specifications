@@ -280,6 +280,7 @@
                 "CERTIFICATE_NSG_RENEW",
                 "CERTIFICATE_NSG_REVOKE",
                 "CLEAR_IPSEC_DATA",
+                "DEPLOY",
                 "DISCARD_POLICY_CHANGES",
                 "EXPORT",
                 "FORCE_KEYSERVER_UPDATE",
@@ -298,6 +299,10 @@
                 "RELOAD_GEO_REDUNDANT_INFO",
                 "RELOAD_NSG_CONFIG",
                 "RETRIEVE_ACTIVE_NSGS",
+                "START",
+                "STOP",
+                "SYNC",
+                "UNDEPLOY",
                 "VCENTER_RECONNECT",
                 "VCENTER_RELOAD"
             ],
