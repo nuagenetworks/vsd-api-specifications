@@ -403,7 +403,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Usually the VLAN Number",
+            "description": "Usually the VLAN Number, valid only if the trunkType is SubPort",
             "exposed": true,
             "filterable": true,
             "format": null,
