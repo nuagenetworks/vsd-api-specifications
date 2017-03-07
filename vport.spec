@@ -460,7 +460,7 @@
             "default_order": false,
             "default_value": "NONE",
             "deprecated": false,
-            "description": null,
+            "description": "segmentationType must of type VLAN for vports with trunkRole = SUB_PORT. Cannot be specified for parent vports (trunkRole = PARENT_PORT)",
             "exposed": true,
             "filterable": true,
             "format": null,
