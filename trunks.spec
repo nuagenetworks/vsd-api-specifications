@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "the uuid of the parent vport (the trunkType of the parent vport must be ParentPort)",
+            "description": "the uuid of the parent vport (the trunkRole of the parent vport must be PARENT_PORT)",
             "exposed": true,
             "filterable": true,
             "format": "free",
