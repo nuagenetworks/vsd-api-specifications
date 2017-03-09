@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Maximum number of AVRSs enabled with this license. A value of -1  indicates an unlimited number of AVRSs",
+            "description": "Maximum number of AVRSs enabled with this license. A value of -1 indicates an unlimited number of AVRSs",
             "exposed": true,
             "filterable": false,
             "format": null,
