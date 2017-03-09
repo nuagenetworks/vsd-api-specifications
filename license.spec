@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Maximum number of AVRSGs enabled with this license. A value of -1  indicates an unlimited number of AVRSGs",
+            "description": "Maximum number of AVRSGs enabled with this license. A value of -1 indicates an unlimited number of AVRSGs",
             "exposed": true,
             "filterable": false,
             "format": null,
