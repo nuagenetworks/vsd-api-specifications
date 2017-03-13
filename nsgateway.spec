@@ -209,7 +209,7 @@
             "max_length": null,
             "max_value": 7812,
             "min_length": null,
-            "min_value": 1330,
+            "min_value": 576,
             "name": "TCPMaximumSegmentSize",
             "orderable": true,
             "read_only": false,
