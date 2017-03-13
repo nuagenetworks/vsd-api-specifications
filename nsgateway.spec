@@ -202,7 +202,7 @@
             "default_order": false,
             "default_value": "1330",
             "deprecated": false,
-            "description": "Maximum Segment Size for TCP(min = 1330, max = 7812).",
+            "description": "Maximum Segment Size for TCP(min = 576, max = 7812).",
             "exposed": true,
             "filterable": true,
             "format": null,
