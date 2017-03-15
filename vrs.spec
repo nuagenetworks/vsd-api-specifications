@@ -939,6 +939,8 @@
                 "HARDWARE_VTEP",
                 "NONE",
                 "NSG",
+                "NUAGE_210_WBX_32_Q",
+                "NUAGE_210_WBX_48_S",
                 "VRS",
                 "VRSG"
             ],
