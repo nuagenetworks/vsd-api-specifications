@@ -386,7 +386,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Secondary IP Address for Loopback. ",
+            "description": "Secondary IP Address (Control Address) for Loopback. ",
             "exposed": true,
             "filterable": true,
             "format": "free",
