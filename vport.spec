@@ -430,7 +430,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "the VLAN Number (1-4095), valid only if the trunkRole is SUB_PORT",
+            "description": "The VLAN Number (1-4095), valid only if the trunkRole is SUB_PORT",
             "exposed": true,
             "filterable": false,
             "format": null,
