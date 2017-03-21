@@ -4,7 +4,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Trunk is an object that is an aggregator of sub-vports corresponding to segmentation-ids (vlans) in a trunk",
         "entity_name": "Trunk",
         "extends": [],
         "get": true,
