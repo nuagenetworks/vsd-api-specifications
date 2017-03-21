@@ -64,7 +64,7 @@
         "extends": [],
         "get": true,
         "package": null,
-        "resource_name": "trunks",
+        "resource_name": "trunk",
         "rest_name": "trunks",
         "root": false,
         "update": true
