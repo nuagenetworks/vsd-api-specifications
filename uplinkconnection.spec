@@ -98,7 +98,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "UUID of BGP NEighbor assocaited to the Uplink which will be used for Bootstrap.",
+            "description": "UUID of BGP NEighbor assocaited to the Uplink which will be used for Bootstrap. This is madatory if a secondaryAddress is defined.",
             "exposed": true,
             "filterable": true,
             "format": "free",
