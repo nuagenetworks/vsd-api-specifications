@@ -459,7 +459,7 @@
             "default_order": false,
             "default_value": "NONE",
             "deprecated": false,
-            "description": "The type of segmentation that is used. This must be VLAN for vPorts with trunkRole set to SUB_PORT. This can not be specified for a parent vPort (trunkRole = PARENT_PORT)",
+            "description": "The type of segmentation that is used. This must be VLAN for vports with trunkRole set to SUB_PORT. This can not be specified for a parent vport (trunkRole = PARENT_PORT)",
             "exposed": true,
             "filterable": true,
             "format": null,
