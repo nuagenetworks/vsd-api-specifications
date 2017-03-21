@@ -515,7 +515,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "NONE",
                 "PARENT_PORT",
                 "SUB_PORT"
             ],
