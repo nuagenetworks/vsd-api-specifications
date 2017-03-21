@@ -206,7 +206,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "the trunk uuid associated with another vport of trunkRole PARENT_PORT. Can be specified only if trunkRole of this vport is SUB_PORT.",
+            "description": "The trunk uuid associated with another vport of trunkRole PARENT_PORT. Can be specified only if trunkRole of this vport is SUB_PORT.",
             "exposed": true,
             "filterable": false,
             "format": "free",
