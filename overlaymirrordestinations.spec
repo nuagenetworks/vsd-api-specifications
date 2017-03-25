@@ -38,7 +38,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "EndpointType defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. NONE type is deprecated. Possible values are NONE, L3, VIRTUAL_WIRE, .",
+            "description": "EndpointType defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a PBR destination. NONE type is deprecated. Possible values are L2",
             "exposed": true,
             "filterable": false,
             "format": null,
