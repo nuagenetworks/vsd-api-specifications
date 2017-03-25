@@ -92,7 +92,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Name of this overlay mirror destination",
             "exposed": true,
             "filterable": true,
             "format": "free",
