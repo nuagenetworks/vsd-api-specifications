@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Description of this redirection target",
+            "description": "Description of this overlay mirror destination",
             "exposed": true,
             "filterable": false,
             "format": "free",
