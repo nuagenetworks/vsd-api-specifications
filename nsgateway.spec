@@ -408,7 +408,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Status resulting from a manually triggered configuration reload operation on a NSG.  This value only reflects the state for a manual action requested by the operator, not the automatic periodic configuration reload triggered by the NSG itself.",
+            "description": "Status resulting from a manually triggered configuration reload operation on an NSG.  This value only reflects the state for a manual action requested by the operator, not the automatic periodic configuration reload triggered by the NSG itself.",
             "exposed": true,
             "filterable": false,
             "format": null,
