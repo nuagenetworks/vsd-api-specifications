@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "This holds all the information about the LTE dongle plugged in to NSG. The information is in JSON format and has information like - Model Number, S",
+            "description": "This holds all the information about the LTE dongle plugged in to NSG. The information is in JSON format and has information like - Model Number, Serial Number, Modem Manufacturer, Operator etc.",
             "exposed": true,
             "filterable": true,
             "format": "free",
