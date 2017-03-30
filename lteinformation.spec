@@ -36,7 +36,7 @@
         "entity_name": "LTEInformation",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "lteinformations",
         "rest_name": "lteinformation",
         "root": null,
