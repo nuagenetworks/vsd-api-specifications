@@ -2,12 +2,12 @@ language: python
 
 before_install:
   - if [ "$TRAVIS_PULL_REQUEST" = "false" ] ; then
-      openssl aes-256-cbc -K $encrypted_b72403491445_key -iv $encrypted_b72403491445_iv -in deploy.key.enc -out deploy.key -d &&
-      chmod 600 deploy.key &&
+      openssl aes-256-cbc -K $encrypted_1f872ec35af0_key -iv $encrypted_1f872ec35af0_iv -in nuage_deploy.enc -out nuage_deploy -d &&
+      chmod 600 nuage_deploy &&
       eval "$(ssh-agent -s)" &&
-      ssh-add deploy.key &&
-      git config --global user.email "christophe.serafin@nuagenetworks.net" &&
-      git config --global user.name "Christophe SERAFIN"
+      ssh-add nuage_deploy &&
+      git config --global user.email "corentin.henry@nokia.com" &&
+      git config --global user.name "nuagebot"
     ; fi
 
 script:
