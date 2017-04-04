@@ -62,15 +62,18 @@ function main()
     exit 0
 }
 
-# For builds triggered by a tag, travis set TRAVIS_BRANCH to the tag whereas we
-# really need the branch name. See:
+# For builds triggered by a tagged commit, travis sets TRAVIS_BRANCH to the tag
+# whereas we really need the branch name. See:
 # https://github.com/travis-ci/travis-ci/issues/4745
-#
-# For now the logic is simple since we only build for master, but we'll need to
-# update this for releases based on other branches.
 if [ -n "${TRAVIS_TAG}" ] ; then
-    ACTUAL_BRANCH=master
+    case "${TRAVIS_TAG}" in
+        r3.2*) ACTUAL_BRANCH=3.2 ;;
+        r4.0*) ACTUAL_BRANCH=4.0 ;;
+        r5.0*) ACTUAL_BRANCH=master ;;
+        *)     echo "Invalid tag ${TRAVIS_TAG}" >&2 ; exit 1 ;;
+    esac
 else
     ACTUAL_BRANCH=${TRAVIS_BRANCH}
 fi
+
 main
