@@ -587,6 +587,18 @@
             "relationship": "child",
             "rest_name": "overlayaddresspool",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "routingleakpolicy",
+            "update": false
         }
     ],
     "model": {
