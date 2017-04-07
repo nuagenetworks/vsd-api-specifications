@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "policy locationType",
+            "description": "locationType of Routing Leak Policy",
             "exposed": true,
             "filterable": false,
             "format": null,
