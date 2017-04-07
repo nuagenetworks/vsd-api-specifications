@@ -146,7 +146,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "link",
+            "rest_name": "routingleakpolicy",
             "update": false
         }
     ],
