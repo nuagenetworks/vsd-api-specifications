@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Policy Priority",
+            "description": "Priority of Routing Leak Policy",
             "exposed": true,
             "filterable": true,
             "format": "free",
