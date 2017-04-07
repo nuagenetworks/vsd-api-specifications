@@ -1473,7 +1473,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "name of the user project name that nova service uses(pick this from nova.conf)",
+            "description": "Name of the project that the Nova service uses, can be determined from the nova.conf on the OpenStack controller",
             "exposed": true,
             "filterable": false,
             "format": "free",
