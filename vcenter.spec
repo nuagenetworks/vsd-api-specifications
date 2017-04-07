@@ -1500,7 +1500,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "name of the defaule nova project (for eg. services)",
+            "description": "Name of the default Nova project (example: services)",
             "exposed": true,
             "filterable": false,
             "format": "free",
