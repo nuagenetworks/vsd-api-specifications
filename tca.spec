@@ -178,6 +178,7 @@
                 "BYTES_OUT",
                 "EGRESS_BYTE_COUNT",
                 "EGRESS_PACKET_COUNT",
+                "FIP_RATE_LIMIT_DROPPED_PACKETS",
                 "INGRESS_BYTE_COUNT",
                 "INGRESS_PACKET_COUNT",
                 "PACKETS_DROPPED_BY_RATE_LIMIT",
