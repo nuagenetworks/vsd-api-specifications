@@ -1743,7 +1743,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "upgradePackageURL",
+            "description": "upgrade Package URL upgrade Package Password used for script based upgrades",
             "exposed": true,
             "filterable": true,
             "format": "free",
