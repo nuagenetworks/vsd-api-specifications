@@ -1034,7 +1034,7 @@
             "subtype": null,
             "transient": false,
             "type": "enum",
-            "unique": false,
+            "unique": true,
             "uniqueScope": null
         },
         {
