@@ -120,7 +120,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": null,
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -178,7 +178,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": null,
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -198,18 +198,6 @@
         }
     ],
     "children": [
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "ingressexternalserviceentrytemplate",
-            "update": false
-        },
         {
             "bulk_create": false,
             "bulk_delete": false,
