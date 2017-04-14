@@ -326,7 +326,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Role order: Primary 1, Primary 2, Secondary 3",
+            "description": "Role order: Primary 1, Primary 2, Secondary 3. Note: Order will be only calculated when all uplink connections fetched for gateway",
             "exposed": true,
             "filterable": true,
             "format": "free",
