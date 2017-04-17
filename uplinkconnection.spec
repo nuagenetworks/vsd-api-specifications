@@ -353,7 +353,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Physical port name of this uplink",
+            "description": "Physical port name this uplink belongs to",
             "exposed": true,
             "filterable": false,
             "format": "free",
