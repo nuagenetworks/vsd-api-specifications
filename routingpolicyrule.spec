@@ -195,7 +195,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Routingpolicyrule",
+        "entity_name": "RoutingPolicyRule",
         "extends": [],
         "get": true,
         "package": null,
