@@ -570,7 +570,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "routingleakpolicy",
+            "rest_name": "routingpolicyrule",
             "update": false
         }
     ],
