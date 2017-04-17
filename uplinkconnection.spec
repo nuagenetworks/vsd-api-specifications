@@ -494,7 +494,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "VLAN ID of this uplink",
+            "description": "The tag of the uplink's parent VLAN",
             "exposed": true,
             "filterable": false,
             "format": "free",
