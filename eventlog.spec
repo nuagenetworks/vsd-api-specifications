@@ -227,7 +227,7 @@
             "deprecated": false,
             "description": "Holds the unique ID generated for the rest request associated with this event.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
