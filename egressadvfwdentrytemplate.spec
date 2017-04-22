@@ -754,7 +754,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the source location entity (Subnet/Zone/VportTag)",
+            "description": "The ID of the destination location entity (Subnet/Zone/VportTag)",
             "exposed": true,
             "filterable": true,
             "format": "free",
