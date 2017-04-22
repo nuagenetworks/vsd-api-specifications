@@ -788,7 +788,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the lspource ocation entity.",
+            "description": "Type of the destination location entity.",
             "exposed": true,
             "filterable": true,
             "format": null,
