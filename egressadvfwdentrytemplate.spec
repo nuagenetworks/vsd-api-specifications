@@ -869,7 +869,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The destination network entity that is referenced(subnet/zone/macro)",
+            "description": "The source network entity that is referenced(subnet/zone/macro)",
             "exposed": true,
             "filterable": true,
             "format": "free",
