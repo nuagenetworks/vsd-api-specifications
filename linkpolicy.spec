@@ -65,7 +65,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "routingpolicyrule",
+            "rest_name": "policyentry",
             "update": false
         }
     ],
