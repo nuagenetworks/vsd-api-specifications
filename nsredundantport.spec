@@ -125,7 +125,7 @@
             "max_value": 9198,
             "min_length": null,
             "min_value": 68,
-            "name": "mtu",
+            "name": "MTU",
             "orderable": false,
             "read_only": false,
             "required": false,
