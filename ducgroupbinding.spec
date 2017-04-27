@@ -43,7 +43,7 @@
             "max_length": null,
             "max_value": 9999,
             "min_length": null,
-            "min_value": 1,
+            "min_value": -1,
             "name": "oneWayDelay",
             "orderable": false,
             "read_only": false,
