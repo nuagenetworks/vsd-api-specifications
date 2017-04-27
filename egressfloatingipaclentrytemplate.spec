@@ -117,7 +117,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Overrides the source IPv6 for Ingress and destination IP for Egress, macentries will use this adress as the match criteria.",
             "exposed": true,
             "filterable": true,
             "format": "free",
