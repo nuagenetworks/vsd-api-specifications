@@ -234,7 +234,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Intermediate State of L2 Domain.",
             "exposed": true,
             "filterable": true,
             "format": "free",
