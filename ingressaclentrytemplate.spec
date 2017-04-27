@@ -261,7 +261,6 @@
                 "APPD_FLOW_SECURITY_POLICY",
                 "APPD_SERVICE",
                 "APPD_TIER",
-                "APPLICATION",
                 "AUTO_DISC_GATEWAY",
                 "BACK_HAUL_SERVICE_RESP",
                 "BGPPEER",
