@@ -96,7 +96,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "IPV6 address of the route - Optional",
             "exposed": true,
             "filterable": true,
             "format": "free",
