@@ -1170,7 +1170,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "VSS stats collection frequency",
+            "description": "VSS statistics collection frequency",
             "exposed": true,
             "filterable": false,
             "format": null,
