@@ -1087,7 +1087,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "30",
             "deprecated": false,
             "description": "VSS statistics collection frequency",
             "exposed": true,
