@@ -225,7 +225,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Holds the unique ID generated for the rest request associated with this event.",
+            "description": "Holds the unique ID generated for the REST request associated with this event.",
             "exposed": true,
             "filterable": true,
             "format": "free",
