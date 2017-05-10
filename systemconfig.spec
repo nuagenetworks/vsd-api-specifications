@@ -387,7 +387,7 @@
             "default_order": false,
             "default_value": "5",
             "deprecated": false,
-            "description": "In case of a NSG1 with dual uplinks, when an uplink connection comes back after failure, NSG1 does not use this uplink until the below timer (in secs) expires to account for propagation delay of the reachability information to NSG2.",
+            "description": "In case of an NSG with dual uplinks, when an uplink connection comes back after failure, the NSG does not use this uplink until the below timer (in seconds) expires, to account for propagation delay of the reachability information to neighboring NSGs.",
             "exposed": true,
             "filterable": true,
             "format": null,
