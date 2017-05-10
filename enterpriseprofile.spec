@@ -425,18 +425,6 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "member",
-            "rest_name": "externalservice",
-            "update": true
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
             "relationship": "child",
             "rest_name": "multicastlist",
             "update": false
