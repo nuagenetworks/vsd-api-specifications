@@ -395,7 +395,7 @@
             "max_value": 30,
             "min_length": null,
             "min_value": 0,
-            "name": "NSGUplinkHolddownTimer",
+            "name": "NSGUplinkHoldDownTimer",
             "orderable": true,
             "read_only": false,
             "required": false,
