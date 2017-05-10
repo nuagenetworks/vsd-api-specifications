@@ -631,18 +631,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "root",
-            "rest_name": "externalappservice",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
