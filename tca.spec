@@ -64,7 +64,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "0",
             "deprecated": false,
             "description": "Count of the attempts by maintenanace thread to create/update watcher",
             "exposed": true,
