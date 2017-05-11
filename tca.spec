@@ -188,8 +188,11 @@
                 "PACKETS_OUT_DROPPED",
                 "PACKETS_OUT_ERROR",
                 "TCP_FLAG_ACK_IN",
+                "TCP_FLAG_ACK_OUT",
                 "TCP_FLAG_NULL_IN",
+                "TCP_FLAG_NULL_OUT",
                 "TCP_FLAG_RST_IN",
+                "TCP_FLAG_RST_OUT",
                 "TCP_FLAG_SYN_IN",
                 "TCP_FLAG_SYN_OUT",
                 "TCP_SYN_EVENT_COUNT"
