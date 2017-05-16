@@ -176,6 +176,7 @@
                 "ANTI_SPOOF_EVENT_COUNT",
                 "BYTES_IN",
                 "BYTES_OUT",
+                "CONNECTION_TYPE",
                 "EGRESS_BYTE_COUNT",
                 "EGRESS_PACKET_COUNT",
                 "INGRESS_BYTE_COUNT",
