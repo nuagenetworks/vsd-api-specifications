@@ -23,18 +23,20 @@ function update_repo()
         local github_url=git@github.com:nuagenetworks/vspk-${language}.git
     fi
 
-    git clone ${github_url} ${repo} -b ${TRAVIS_BRANCH}
+    git clone ${github_url} ${repo} -b ${ACTUAL_BRANCH}
 
     rm -rf ${repo}/*
     mv ${codegen}/* ${repo}
     cd ${repo}
 
-    git add .
-    git commit -m "Auto generated from specifications change."
+    git add --all .
+    # commit fails if nothing changed, which causes the script to exit.
+    # to avoid this, we force this line to be always successful.
+    git commit -m "Auto generated from specifications change." || true
     if [ -n "${TRAVIS_TAG}" ] ; then
         git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
     fi
-    git push --tags origin ${TRAVIS_BRANCH}
+    git push --tags origin ${ACTUAL_BRANCH}
     cd ${WORKSPACE}
 }
 
@@ -48,7 +50,7 @@ function install_vspkgenerator()
 function main()
 {
     local language=
-    local languages="python go java objj html"
+    local languages="python go java objj html vro"
 
     install_vspkgenerator
     for language in ${languages} ; do
@@ -59,5 +61,19 @@ function main()
     done
     exit 0
 }
+
+# For builds triggered by a tagged commit, travis sets TRAVIS_BRANCH to the tag
+# whereas we really need the branch name. See:
+# https://github.com/travis-ci/travis-ci/issues/4745
+if [ -n "${TRAVIS_TAG}" ] ; then
+    case "${TRAVIS_TAG}" in
+        r3.2*) ACTUAL_BRANCH=3.2 ;;
+        r4.0*) ACTUAL_BRANCH=4.0 ;;
+        r5.0*) ACTUAL_BRANCH=master ;;
+        *)     echo "Invalid tag ${TRAVIS_TAG}" >&2 ; exit 1 ;;
+    esac
+else
+    ACTUAL_BRANCH=${TRAVIS_BRANCH}
+fi
 
 main
