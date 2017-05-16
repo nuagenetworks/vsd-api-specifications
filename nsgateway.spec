@@ -169,7 +169,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "NONE",
                 "LARGE",
                 "MEDIUM",
                 "SMALL",

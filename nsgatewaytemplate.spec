@@ -33,7 +33,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "NONE",
                 "LARGE",
                 "MEDIUM",
                 "SMALL"
@@ -42,7 +41,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "NONE",
+            "default_value": "SMALL",
             "deprecated": false,
             "description": "Network Acceleration profile type to be used when network acceleration is enabled on port of Gateway instances that are inherited from this template.",
             "exposed": true,
