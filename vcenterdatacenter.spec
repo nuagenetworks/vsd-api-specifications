@@ -1851,26 +1851,16 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
             "description": "upgrade Package Password used for script based upgrades",
             "exposed": true,
             "filterable": false,
-=======
-            "description": "upgradePackagePassword",
-            "exposed": true,
-            "filterable": true,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "upgradePackagePassword",
-<<<<<<< HEAD
             "orderable": false,
-=======
-            "orderable": true,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -1888,26 +1878,16 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
             "description": "upgrade Package URL used for script based upgrades",
             "exposed": true,
             "filterable": false,
-=======
-            "description": "upgradePackageURL",
-            "exposed": true,
-            "filterable": true,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "upgradePackageURL",
-<<<<<<< HEAD
             "orderable": false,
-=======
-            "orderable": true,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -1925,26 +1905,16 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
             "description": "upgrade Package Username used for script based upgrades",
             "exposed": true,
             "filterable": false,
-=======
-            "description": "upgradePackageUsername",
-            "exposed": true,
-            "filterable": true,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "upgradePackageUsername",
-<<<<<<< HEAD
             "orderable": false,
-=======
-            "orderable": true,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -1962,8 +1932,6 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
-=======
             "description": "upgradeScriptTimeLimit",
             "exposed": true,
             "filterable": true,
@@ -1991,7 +1959,6 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
->>>>>>> 4b823ac176412016c8a4cdac9fbbc1594817dde4
             "description": "Whether split-activation or not (Openstack/CloudStack)",
             "exposed": true,
             "filterable": false,
