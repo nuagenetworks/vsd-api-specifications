@@ -44,7 +44,7 @@
             "default_order": false,
             "default_value": "NONE",
             "deprecated": false,
-            "description": "Network Acceleration profile type to be used when port is enabled for network acceleration on Gateway instances which inherit from this template.",
+            "description": "Network Acceleration profile type to be used when network acceleration is enabled on port of Gateway instances that are inherited from this template.",
             "exposed": true,
             "filterable": false,
             "format": null,

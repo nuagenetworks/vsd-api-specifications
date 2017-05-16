@@ -181,7 +181,7 @@
             "default_order": false,
             "default_value": "INHERITED",
             "deprecated": false,
-            "description": "Network Acceleration profile type to be used when port is enabled for network acceleration",
+            "description": "Network Acceleration profile type to be used when network acceleration is enabled on port",
             "exposed": true,
             "filterable": false,
             "format": null,
