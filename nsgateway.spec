@@ -180,7 +180,7 @@
             "default_order": false,
             "default_value": "NONE",
             "deprecated": false,
-            "description": "Network Acceleration profile type to be used when network acceleration is enabled on port",
+            "description": "Network Acceleration type to be used when network acceleration is enabled",
             "exposed": true,
             "filterable": false,
             "format": null,
