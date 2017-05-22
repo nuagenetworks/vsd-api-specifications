@@ -1986,7 +1986,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "upgrade Package Password used for script based upgrades",
+            "description": "Upgrade package password used for script based upgrades",
             "exposed": true,
             "filterable": false,
             "format": "free",
