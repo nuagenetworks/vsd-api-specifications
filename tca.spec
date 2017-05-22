@@ -73,7 +73,7 @@
             "max_length": null,
             "max_value": null,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "name": "count",
             "orderable": false,
             "read_only": false,
