@@ -2046,7 +2046,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Successfully applied version of the vrs vm(Only VRS should update this)",
+            "description": "Successfully applied version of the VRS VM(Only VRS should update this)",
             "exposed": true,
             "filterable": false,
             "format": "free",
