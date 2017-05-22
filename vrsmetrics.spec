@@ -171,7 +171,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Current Version of the VRS VM",
+            "description": "Current version of the VRS VM",
             "exposed": true,
             "filterable": false,
             "format": "free",
