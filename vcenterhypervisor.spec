@@ -2451,7 +2451,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Upgrade package URL  used for script based upgrades",
+            "description": "Upgrade package URL used for script based upgrades",
             "exposed": true,
             "filterable": false,
             "format": "free",
