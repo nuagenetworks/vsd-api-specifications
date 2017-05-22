@@ -1905,7 +1905,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "upgrade Package Username used for script based upgrades",
+            "description": "Upgrade package username used for script based upgrades",
             "exposed": true,
             "filterable": false,
             "format": "free",
