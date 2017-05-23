@@ -708,7 +708,7 @@
             "deprecated": false,
             "description": "Intermediate State of L2 Domain.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
