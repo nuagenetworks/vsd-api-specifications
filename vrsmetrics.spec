@@ -185,7 +185,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "boolean",
+            "type": "string",
             "unique": false,
             "uniqueScope": null
         },
