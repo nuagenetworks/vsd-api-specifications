@@ -71,7 +71,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "IPv6 address of the subnet defined. In case of zone, this is an optional field for and allows users to allocate an IP address range to a zone. The VSD will auto-assign IP addresses to subnets from this range if a specific IP address is not defined for the subnet",
+            "description": "IPv6 range of the subnet. In case of zone, this is an optional field for and allows users to allocate an IP address range to a zone. The VSD will auto-assign IP addresses to subnets from this range if a specific IP address is not defined for the subnet",
             "exposed": true,
             "filterable": true,
             "format": "free",
