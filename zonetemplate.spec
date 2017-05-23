@@ -97,7 +97,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "IP address of the subnet defined. In case of zone, this is an optional field for and allows users to allocate an IP address range to a zone. The VSD will auto-assign IP addresses to subnets from this range if a specific IP address is not defined for the subnet",
+            "description": "IPv4 address range of the zone. This is an optional field that allows users to allocate an address range to a zone. The VSD will auto-assign IP ranges to subnets from this range if an IP range is not defined for a subnet.",
             "exposed": true,
             "filterable": true,
             "format": "free",
