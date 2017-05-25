@@ -61,7 +61,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "500",
             "deprecated": false,
             "description": "Timer for Bidirectional Failure Detection. (min = 200, max = 100,000) Unit is milliseconds.",
             "exposed": true,
