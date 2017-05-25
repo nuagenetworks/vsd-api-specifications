@@ -4,7 +4,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Represents the Bidirectional Failure Detection session that can be configured on an uplink/BR connection.",
         "entity_name": "Bfdsessions",
         "extends": [],
         "get": true,
