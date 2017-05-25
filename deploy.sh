@@ -7,15 +7,6 @@ WORKSPACE=$(pwd)
 
 function fetch_all_branches()
 {
-    # Keep track of where Travis put us.
-    # We are on a detached head, and we need to be able to go back to it.
-    XXX_BUILD_HEAD=$(git rev-parse HEAD)
-
-    # Go back to the branch from which the detached head is from.
-    git checkout -
-    # Keep track of that branch
-    XXX_BUILD_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-
     # Fetch all the remote branches. Travis clones with `--depth`, which
     # implies `--single-branch`, so we need to overwrite remote.origin.fetch to
     # do that. See also http://stackoverflow.com/a/20338558/1836144
@@ -101,7 +92,21 @@ function main()
     # tags look  like r4.0.6.1, we make the version 4.0.6.1
     local version=${last_tag:1}
 
-    fetch_all_branches
+    # Keep track of where Travis put us.
+    # We are on a detached head, and we need to be able to go back to it.
+    XXX_BUILD_HEAD=$(git rev-parse HEAD)
+
+    if [ -n "${TRAVIS_TAG}" ] ; then
+        fetch_all_branches
+        XXX_BUILD_BRANCH=$(git branch --contains "tags/${TRAVIS_TAG}" | grep \* | cut -d ' ' -f2-)
+    else
+        # Go back to the branch from which the detached head is from.
+        git checkout -
+        # Keep track of that branch
+        XXX_BUILD_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+        fetch_all_branches
+    fi
+
     install_vspkgenerator
 
     for language in ${languages} ; do
