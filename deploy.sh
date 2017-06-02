@@ -98,7 +98,8 @@ function main()
 
     if [ -n "${TRAVIS_TAG}" ] ; then
         fetch_all_branches
-        XXX_BUILD_BRANCH=$(git branch --contains "tags/${TRAVIS_TAG}" | grep \* | cut -d ' ' -f2-)
+        # For tagged commit, we already now which branch we're building.
+        XXX_BUILD_BRANCH=${ACTUAL_BRANCH}
     else
         # Go back to the branch from which the detached head is from.
         git checkout -
