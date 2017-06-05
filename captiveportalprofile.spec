@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Contents of the captive portal page displayed to end user.",
+            "description": "Blob type attribute having the contents of the captive portal page displayed to end user.",
             "exposed": true,
             "filterable": true,
             "format": "free",
