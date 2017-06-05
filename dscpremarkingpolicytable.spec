@@ -4,7 +4,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Provides the definition of a table that holds multiple Forwarding class to  DSCP  mappings. Used in Egress QoS policies.",
         "entity_name": "Dscpremarkingpolicytable",
         "extends": [],
         "get": true,
