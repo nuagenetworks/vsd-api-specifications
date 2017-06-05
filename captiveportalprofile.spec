@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Captive Portal Profile.",
+            "description": "Name of the captive portal profile.",
             "exposed": true,
             "filterable": true,
             "format": "free",
