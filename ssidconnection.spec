@@ -260,7 +260,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "URL to be redirected to after the user accepts the use policy.",
+            "description": "URL to be redirected to after the user accepts the use policy of the Captiive Portal.",
             "exposed": true,
             "filterable": false,
             "format": "free",
