@@ -4,7 +4,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Provides the definition of a table that holds multiple FC to Dot1p mappings . Used in Egress QoS policies.",
         "entity_name": "Cosremarkingpolicytable",
         "extends": [],
         "get": true,
