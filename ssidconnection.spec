@@ -288,7 +288,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "ORIGINAL_REQUEST",
             "deprecated": false,
             "description": "Redirect option after user has accepted the use policy of Captive Portal.",
             "exposed": true,
