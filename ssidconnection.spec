@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Identification if the Captive Portal Profile that is associated with this instance of SSID connection.",
+            "description": "Identification of the Captive Portal Profile that is associated with this instance of SSID connection.",
             "exposed": true,
             "filterable": false,
             "format": "free",
