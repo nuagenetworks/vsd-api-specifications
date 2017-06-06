@@ -263,7 +263,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Redirect option after user has accepted the use policy of the Captive Portal.",
+            "description": "Redirect option after user has accepted the use policy of Captive Portal.",
             "exposed": true,
             "filterable": true,
             "format": null,
