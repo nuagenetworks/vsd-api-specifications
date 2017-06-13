@@ -198,7 +198,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the queue2 rate limiter associated with this Egress QOS policy.",
+            "description": "ID of the queue2 rate limiter associated with this Ingress QOS policy.",
             "exposed": true,
             "filterable": false,
             "format": "free",
