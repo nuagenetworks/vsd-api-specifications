@@ -74,7 +74,9 @@
         "delete": true,
         "description": "Provides the definition of a table that holds multiple FC to Dot1p mappings . Used in Egress QoS policies.",
         "entity_name": "COSRemarkingPolicyTable",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": "policy/dscpmapping",
         "resource_name": "cosremarkingpolicytables",
