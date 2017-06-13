@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A unique name of thefc-dot1p mapping table.",
+            "description": "A unique name of the fc - dot1p mapping table.",
             "exposed": true,
             "filterable": true,
             "format": "free",
