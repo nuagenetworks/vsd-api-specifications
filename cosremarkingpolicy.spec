@@ -69,7 +69,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Cosremarkingpolicy",
+        "entity_name": "COSRemarkingPolicy",
         "extends": [],
         "get": true,
         "package": null,
