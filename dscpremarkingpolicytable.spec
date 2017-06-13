@@ -75,7 +75,8 @@
         "description": "Provides the definition of a table that holds multiple Forwarding class to  DSCP  mappings. Used in Egress QoS policies.",
         "entity_name": "DSCPRemarkingPolicyTable",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": "policy/dscpmapping",
