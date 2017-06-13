@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A description of the fc -dscp remarking table.",
+            "description": "A description of the fc-dscp remarking table.",
             "exposed": true,
             "filterable": false,
             "format": "free",
