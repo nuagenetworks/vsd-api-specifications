@@ -72,7 +72,8 @@
         "entity_name": "DSCPRemarkingPolicy",
         "extends": [
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/dscpmapping",
