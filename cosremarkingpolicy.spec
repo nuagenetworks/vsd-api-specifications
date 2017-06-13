@@ -72,7 +72,8 @@
         "entity_name": "COSRemarkingPolicy",
         "extends": [
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": "policy/dscpmapping",
