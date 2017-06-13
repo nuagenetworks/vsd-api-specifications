@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "DSCP value range from enumeration of 65 values :  *, 0, 1, ..., 63",
+            "description": "DSCP value range from enumeration of 65 values: *, 0, 1, ..., 63",
             "exposed": true,
             "filterable": true,
             "format": "free",
