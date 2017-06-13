@@ -76,7 +76,7 @@
         "entity_name": "COSRemarkingPolicyTable",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "policy/dscpmapping",
         "resource_name": "cosremarkingpolicytables",
         "rest_name": "cosremarkingpolicytable",
         "root": null,
