@@ -72,7 +72,7 @@
         "entity_name": "Dscpremarkingpolicy",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "policy/dscpmapping",
         "resource_name": "dscpremarkingpolicies",
         "rest_name": "dscpremarkingpolicy",
         "root": null,
