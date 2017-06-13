@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A description of the fc - dot1p mapping table.",
+            "description": "A description of the fc-dot1p mapping table.",
             "exposed": true,
             "filterable": false,
             "format": "free",
