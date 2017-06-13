@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of theDSCP Remarking Policy Table associated with this Egress QOS policy.",
+            "description": "ID of the DSCP Remarking Policy Table associated with this Egress QOS policy.",
             "exposed": true,
             "filterable": true,
             "format": "free",
