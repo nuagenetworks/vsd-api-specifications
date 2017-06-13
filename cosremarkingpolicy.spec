@@ -68,7 +68,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Provides the definition of a single Forwarding class to CoS mapping that is part of a COS Remarking Policy Table used in QoS policies.",
         "entity_name": "COSRemarkingPolicy",
         "extends": [],
         "get": true,
