@@ -71,7 +71,8 @@
         "description": "Provides the definition of a single Forwarding class to CoS mapping that is part of a COS Remarking Policy Table used in QoS policies.",
         "entity_name": "COSRemarkingPolicy",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": "policy/dscpmapping",
