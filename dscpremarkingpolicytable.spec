@@ -76,7 +76,7 @@
         "entity_name": "Dscpremarkingpolicytable",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "policy/dscpmapping",
         "resource_name": "dscpremarkingpolicytables",
         "rest_name": "dscpremarkingpolicytable",
         "root": null,
