@@ -72,7 +72,7 @@
         "entity_name": "COSRemarkingPolicy",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "policy/dscpmapping",
         "resource_name": "cosremarkingpolicies",
         "rest_name": "cosremarkingpolicy",
         "root": null,
