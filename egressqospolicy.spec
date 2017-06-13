@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Id of the associated CoS Remarking Policy table ID. ",
+            "description": "ID of the associated CoS Remarking Policy table. ",
             "exposed": true,
             "filterable": true,
             "format": "free",
