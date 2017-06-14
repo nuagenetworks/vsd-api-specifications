@@ -20,7 +20,7 @@
             "name": "associatedPATNATPoolID",
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
