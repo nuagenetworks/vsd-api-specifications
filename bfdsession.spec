@@ -88,7 +88,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "False",
             "deprecated": false,
             "description": "Boolean flag to indicate whether the BFD Session has single hop or multi hop capability.",
             "exposed": true,
