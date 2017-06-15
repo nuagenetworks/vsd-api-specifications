@@ -36,7 +36,7 @@
             "default_order": false,
             "default_value": "3",
             "deprecated": false,
-            "description": "Multiplier used for Bidirectional Failure Detection Timer.",
+            "description": "Multiplier used for Bidirectional Forwarding Detection Timer.",
             "exposed": true,
             "filterable": false,
             "format": null,
