@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Destination IP Address used for Bidirectional Failure Detection.",
+            "description": "Destination IP Address used for Bidirectional Forwarding Detection.",
             "exposed": true,
             "filterable": true,
             "format": "free",
