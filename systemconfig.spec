@@ -3208,7 +3208,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Node presence timeout in seconds if no messages.",
+            "description": "Time interval in seconds at which sysmon messages are reported by controller.",
             "exposed": true,
             "filterable": false,
             "format": null,
