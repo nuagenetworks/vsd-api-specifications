@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": "500",
             "deprecated": false,
-            "description": "Timer for Bidirectional Failure Detection. (min = 200, max = 100,000) Unit is milliseconds.",
+            "description": "Timer for Bidirectional Forwarding Detection. (min = 200, max = 100,000) Unit is milliseconds.",
             "exposed": true,
             "filterable": false,
             "format": null,
