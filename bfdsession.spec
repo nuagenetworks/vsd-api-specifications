@@ -117,7 +117,8 @@
         "entity_name": "BFDSession",
         "extends": [
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": null,
