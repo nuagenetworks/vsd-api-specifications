@@ -115,7 +115,9 @@
         "delete": true,
         "description": "Represents the Bidirectional Forwarding Detection session that can be configured on an uplink/BR connection.",
         "entity_name": "BFDSession",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": null,
         "resource_name": "bfdsessions",
