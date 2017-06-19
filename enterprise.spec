@@ -880,22 +880,22 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
-            "deprecated": false,
+            "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "externalappservice",
+            "rest_name": "firewallacl",
             "update": false
         },
         {
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
-            "deprecated": false,
+            "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "externalservice",
+            "rest_name": "firewallrule",
             "update": false
         },
         {
@@ -1088,18 +1088,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "ldapconfiguration",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "metadatatag",
             "update": false
         },
         {
@@ -1312,6 +1300,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "trunk",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
@@ -1328,6 +1328,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vm",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "vnf",
             "update": false
         },
         {
