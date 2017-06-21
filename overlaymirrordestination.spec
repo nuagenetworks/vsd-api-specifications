@@ -230,7 +230,7 @@
         "entity_name": "OverlayMirrorDestination",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vport",
         "resource_name": "overlaymirrordestinations",
         "rest_name": "overlaymirrordestination",
         "root": null,
