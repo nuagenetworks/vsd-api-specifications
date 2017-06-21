@@ -117,7 +117,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The name of the entity",
+            "description": "The name of the template",
             "exposed": true,
             "filterable": true,
             "format": "free",
