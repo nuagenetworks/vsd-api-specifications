@@ -150,7 +150,7 @@
         "entity_name": "Overlaymirrordestinationtemplate",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "vport",
         "resource_name": "overlaymirrordestinationtemplates",
         "rest_name": "overlaymirrordestinationtemplate",
         "root": null,
