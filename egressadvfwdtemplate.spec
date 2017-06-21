@@ -147,7 +147,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "State of the policy.  Possible values are DRAFT, LIVE, .",
             "exposed": true,
             "filterable": true,
             "format": null,
