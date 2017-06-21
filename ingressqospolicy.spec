@@ -306,7 +306,7 @@
         "entity_name": "IngressQOSPolicy",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "policy/qos",
         "resource_name": "ingressqospolicies",
         "rest_name": "ingressqospolicy",
         "root": null,
