@@ -30,7 +30,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "L3",
                 "NONE",
                 "VIRTUAL_WIRE"
             ],
