@@ -154,7 +154,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Overrides the source IPv6 for Egress and destination IPv6 for Egress, macentries will use this adress as the match criteria.",
+            "description": "Overrides the source IPv6 for Egress and destination IPv6 for Egress, mac entries will use this address as the match criteria.",
             "exposed": true,
             "filterable": true,
             "format": "free",
