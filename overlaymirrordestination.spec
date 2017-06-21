@@ -227,7 +227,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Overlaymirrordestination",
+        "entity_name": "OverlayMirrorDestination",
         "extends": [],
         "get": true,
         "package": null,
