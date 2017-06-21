@@ -842,7 +842,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the entity.",
+            "description": "Name of the policy",
             "exposed": true,
             "filterable": true,
             "format": "free",
