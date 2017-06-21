@@ -147,7 +147,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Overlaymirrordestinationtemplate",
+        "entity_name": "OverlayMirrorDestinationTemplate",
         "extends": [],
         "get": true,
         "package": "vport",
