@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "description of the policy group object",
+            "description": "description of the Policy Object Group",
             "exposed": true,
             "filterable": true,
             "format": "free",
