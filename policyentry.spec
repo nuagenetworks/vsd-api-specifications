@@ -114,7 +114,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Policyentry",
+        "entity_name": "PolicyEntry",
         "extends": [],
         "get": true,
         "package": null,
