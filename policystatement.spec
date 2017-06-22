@@ -73,7 +73,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Policystatement",
+        "entity_name": "PolicyStatement",
         "extends": [],
         "get": true,
         "package": null,
