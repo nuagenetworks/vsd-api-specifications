@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the policy group object",
+            "description": "Type of the Policy Object Group",
             "exposed": true,
             "filterable": true,
             "format": null,
