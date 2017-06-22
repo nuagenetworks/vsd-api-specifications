@@ -869,11 +869,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-<<<<<<< HEAD
-            "description": "The destination network entity id that is referenced(subnet/zone/macro)",
-=======
             "description": "The source network entity id that is referenced(subnet/zone/macro)",
->>>>>>> 15a49ddc56380648e4697a4e048dfac83bdf99eb
             "exposed": true,
             "filterable": true,
             "format": "free",
