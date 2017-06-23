@@ -175,18 +175,6 @@
             "relationship": "child",
             "rest_name": "eventlog",
             "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "member",
-            "rest_name": "metadatatag",
-            "update": true
         }
     ],
     "model": {

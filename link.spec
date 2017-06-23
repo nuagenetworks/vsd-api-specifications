@@ -289,7 +289,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "nexthopaddress",
+            "rest_name": "nexthop",
             "update": false
         },
         {
