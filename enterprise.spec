@@ -751,18 +751,6 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "applicationservice",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
             "rest_name": "avatar",
             "update": false
         },
@@ -1196,6 +1184,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "performancemonitor",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "policyobjectgroup",
             "update": false
         },
         {
