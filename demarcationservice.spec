@@ -77,7 +77,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "integer",
             "unique": false,
             "uniqueScope": null
         },
