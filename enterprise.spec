@@ -598,7 +598,7 @@
             "filterable": false,
             "format": "free",
             "max_length": null,
-            "max_value": 64495,
+            "max_value": 64534,
             "min_length": null,
             "min_value": 1,
             "name": "localAS",
