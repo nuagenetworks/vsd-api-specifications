@@ -256,7 +256,9 @@
         "delete": true,
         "description": null,
         "entity_name": "PerformanceMonitor",
-        "extends": [],
+        "extends": [
+            "@base"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "performancemonitors",
