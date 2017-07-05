@@ -41,7 +41,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "DHCPBehaviorType is an enum that indicates DHCP Behavior of VRS having VM's under this domain. Possible values are FLOOD, CONSUME ,RELAY Possible values are CONSUME, FLOOD, RELAY, .",
+            "description": "DHCPBehaviorType is an enum that indicates DHCP Behavior of VRS having VM's under this domain. Possible values are FLOOD, CONSUME, OVERLAY_RELAY, UNDERLAY_RELAY.",
             "exposed": true,
             "filterable": false,
             "format": null,
