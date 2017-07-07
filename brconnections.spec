@@ -57,8 +57,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "FATE_SHARING",
-                "GATEWAY_PING",
+                "BFD",
                 "LINK_BASED",
                 "OPENFLOW"
             ],
