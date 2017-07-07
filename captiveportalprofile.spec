@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Attribute having the contents of captive portal page displayed to end user. User can possible in very basic tags like <p>, <ul> etc. inorder to fomat the information displayed to the user.",
+            "description": "Attribute having the contents of captive portal page displayed to end user. User can possible include very basic HTML tags like <p>, <ul> etc. inorder to fomat the information displayed to the user.",
             "exposed": true,
             "filterable": false,
             "format": "free",
