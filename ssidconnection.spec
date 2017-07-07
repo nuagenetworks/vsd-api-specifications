@@ -317,7 +317,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "URL to be redirected to after user accepts the use policy of Captiive Portal.",
+            "description": "URL to have a newly connected user redirected to once the use policy defined on the Wireless Captive Portal has been accepted by the user.",
             "exposed": true,
             "filterable": false,
             "format": "free",
