@@ -115,7 +115,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "Object representing Captive Portal Profile associated with SSIDConnection where in the end user needs to take specific action before their traffic can start flowing.",
+        "description": "Object representing a Wireless Access Captive Portal Profile which can be associated with SSID entities from which end users may be presented with instructions and condition of use when connecting to an Open wireless access point.",
         "entity_name": "CaptivePortalProfile",
         "extends": [],
         "get": true,
