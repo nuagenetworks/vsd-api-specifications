@@ -287,7 +287,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "Any",
                 "Dynamic",
                 "LTE",
                 "PPPoE",
@@ -299,7 +298,7 @@
             "default_order": false,
             "default_value": "Dynamic",
             "deprecated": false,
-            "description": "Specify how to connect to the network. Possible values: Any, Dynamic (DHCP), Static (static configuration is required), PPPoE (pppoe configuration required), LTE (LTE configuration required). Default: Dynamic",
+            "description": "Specify how to connect to the network. Possible values: Dynamic (DHCP), Static (static configuration is required), PPPoE (pppoe configuration required), LTE (LTE configuration required). Default: Dynamic",
             "exposed": true,
             "filterable": true,
             "format": null,
