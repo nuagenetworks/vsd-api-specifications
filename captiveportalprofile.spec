@@ -90,7 +90,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "CLICK_THROUGH",
             "deprecated": false,
             "description": "Type of the portal page.",
             "exposed": true,
