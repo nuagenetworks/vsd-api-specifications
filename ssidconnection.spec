@@ -290,7 +290,7 @@
             "default_order": false,
             "default_value": "ORIGINAL_REQUEST",
             "deprecated": false,
-            "description": "Redirect option after user has accepted the use policy of Captive Portal.",
+            "description": "Redirection action to exercise once the connecting user has accepted the use policy presented on the Wireless Captive Portal.",
             "exposed": true,
             "filterable": true,
             "format": null,
