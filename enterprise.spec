@@ -701,7 +701,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "This flag indicates whether this is a Shared Infrastructure Enterprise or not. Its a read-only attribute and it cannot be set by anybody.",
             "exposed": true,
             "filterable": true,
             "format": null,
