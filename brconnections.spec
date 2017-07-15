@@ -57,8 +57,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "FATE_SHARING",
-                "GATEWAY_PING",
+                "BFD",
                 "LINK_BASED",
                 "OPENFLOW"
             ],
@@ -197,7 +196,20 @@
             "uniqueScope": null
         }
     ],
-    "children": [],
+    "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "bfdsession",
+            "update": false
+        }
+    ],
     "model": {
         "create": null,
         "delete": true,
