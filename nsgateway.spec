@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "BIOS Version"
         },
         {
             "allowed_chars": null,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "CPU Type"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "MAC Address"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "NAT Traversal Enabled"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "NSG Version"
         },
         {
             "allowed_chars": null,
@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "SKU"
         },
         {
             "allowed_chars": null,
@@ -198,7 +198,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "SSH Service"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "TCPMSS Enabled"
         },
         {
             "allowed_chars": null,
@@ -254,7 +254,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "TCP Maximum Segment Size"
         },
         {
             "allowed_chars": null,
@@ -287,7 +287,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "TPM Status"
         },
         {
             "allowed_chars": null,
@@ -315,7 +315,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "UUID"
         },
         {
             "allowed_chars": null,
@@ -343,7 +343,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Associated Gateway Securi"
         },
         {
             "allowed_chars": null,
@@ -371,7 +371,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Associated Gateway Securi"
         },
         {
             "allowed_chars": null,
@@ -399,7 +399,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Associated NSG Info ID"
         },
         {
             "allowed_chars": null,
@@ -427,7 +427,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Auto Disc Gateway ID"
         },
         {
             "allowed_chars": null,
@@ -455,7 +455,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Bootstrap ID"
         },
         {
             "allowed_chars": null,
@@ -489,7 +489,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Bootstrap Status"
         },
         {
             "allowed_chars": null,
@@ -523,7 +523,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Configuration Reload Stat"
         },
         {
             "allowed_chars": null,
@@ -555,7 +555,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Configuration Status"
         },
         {
             "allowed_chars": null,
@@ -583,7 +583,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Datapath ID"
         },
         {
             "allowed_chars": null,
@@ -617,7 +617,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Derived SSH Service State"
         },
         {
             "allowed_chars": null,
@@ -645,7 +645,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -673,7 +673,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -705,7 +705,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Family"
         },
         {
             "allowed_chars": null,
@@ -736,7 +736,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Inherited SSH Service Sta"
         },
         {
             "allowed_chars": null,
@@ -764,7 +764,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Last Configuration Reload"
         },
         {
             "allowed_chars": null,
@@ -792,7 +792,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Libraries"
         },
         {
             "allowed_chars": null,
@@ -820,7 +820,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Location ID"
         },
         {
             "allowed_chars": null,
@@ -848,7 +848,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -881,7 +881,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Network Acceleration"
         },
         {
             "allowed_chars": null,
@@ -909,7 +909,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Operation Mode"
         },
         {
             "allowed_chars": null,
@@ -937,7 +937,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Operation Status"
         },
         {
             "allowed_chars": null,
@@ -965,7 +965,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Pending"
         },
         {
             "allowed_chars": null,
@@ -1000,7 +1000,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Permitted Action"
         },
         {
             "allowed_chars": null,
@@ -1038,7 +1038,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Personality"
         },
         {
             "allowed_chars": null,
@@ -1066,7 +1066,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Product Name"
         },
         {
             "allowed_chars": null,
@@ -1094,7 +1094,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Redundancy Group ID"
         },
         {
             "allowed_chars": null,
@@ -1122,7 +1122,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Serial Number"
         },
         {
             "allowed_chars": null,
@@ -1150,7 +1150,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "System ID"
         },
         {
             "allowed_chars": null,
@@ -1178,7 +1178,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Template ID"
         }
     ],
     "children": [
@@ -1222,7 +1222,7 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": null,
             "get": true,
