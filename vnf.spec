@@ -172,6 +172,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "DEPLOY",
+                "REDEPLOY",
                 "RESTART",
                 "START",
                 "STOP",
