@@ -179,7 +179,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "75",
+            "default_value": "85",
             "deprecated": false,
             "description": "Threshold for storage usage",
             "exposed": true,
