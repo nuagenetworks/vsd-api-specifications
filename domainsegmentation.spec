@@ -99,6 +99,6 @@
         "resource_name": "domainsegmentations",
         "rest_name": "domainsegmentation",
         "root": null,
-        "update": true
+        "update": false
     }
 }
