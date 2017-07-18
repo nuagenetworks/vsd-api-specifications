@@ -54,7 +54,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Segmentation I D"
+            "userlabel": "Segmentation ID"
         },
         {
             "allowed_chars": null,
