@@ -268,7 +268,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -298,11 +299,12 @@
                 "RELOAD",
                 "RELOAD_GEO_REDUNDANT_INFO",
                 "RELOAD_NSG_CONFIG",
+                "RESTART",
                 "RETRIEVE_ACTIVE_NSGS",
                 "START",
+                "STATUS",
                 "STOP",
                 "SYNC",
-                "STATUS",
                 "UNDEPLOY",
                 "VCENTER_ADD_COMPUTERESOURCE_INSCOPE",
                 "VCENTER_DELETE_AGENCY",
@@ -334,7 +336,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -361,7 +364,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -388,7 +392,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -415,7 +420,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -446,7 +452,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         }
     ],
     "children": [],
