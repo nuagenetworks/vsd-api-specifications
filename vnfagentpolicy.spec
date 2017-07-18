@@ -39,7 +39,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "NONE",
             "deprecated": false,
             "description": "Action to be taken on threshold crossover",
             "exposed": true,
