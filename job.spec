@@ -296,6 +296,7 @@
                 "NOTIFY_NSG_REGISTRATION_TEST",
                 "NSG_NOTIFICATION_TEST",
                 "NSG_REGISTRATION_INFO",
+                "REDEPLOY",
                 "RELOAD",
                 "RELOAD_GEO_REDUNDANT_INFO",
                 "RELOAD_NSG_CONFIG",
