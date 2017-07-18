@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Domain I D"
+            "userlabel": "Domain ID"
         },
         {
             "allowed_chars": null,
