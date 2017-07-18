@@ -26,7 +26,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "CPU Count"
         },
         {
             "allowed_chars": null,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "NSG Name"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "NSG System ID"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "NS Gateway ID"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "VNF Descriptor ID"
         },
         {
             "allowed_chars": null,
@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "VNF Descriptor Name"
         },
         {
             "allowed_chars": null,
@@ -201,7 +201,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Allowed Actions"
         },
         {
             "allowed_chars": null,
@@ -229,7 +229,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -257,7 +257,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -268,7 +268,7 @@
             "default_order": false,
             "default_value": "True",
             "deprecated": false,
-            "description": "This specifies if VNF instance is using VNF descriptor or it is decoupled from it.",
+            "description": "This specifies if VNF instance is using VNF descriptor or it is decoupled from it",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -313,7 +313,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Last Known Error"
         },
         {
             "allowed_chars": null,
@@ -341,7 +341,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Memory MB"
         },
         {
             "allowed_chars": null,
@@ -369,7 +369,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Metadata ID"
         },
         {
             "allowed_chars": null,
@@ -397,7 +397,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -437,7 +437,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Status"
         },
         {
             "allowed_chars": null,
@@ -465,7 +465,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Storage GB"
         },
         {
             "allowed_chars": null,
@@ -499,7 +499,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Task State"
         },
         {
             "allowed_chars": null,
@@ -527,7 +527,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Vendor"
         }
     ],
     "children": [
