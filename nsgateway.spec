@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -191,7 +197,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -218,7 +225,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -245,7 +253,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -277,7 +286,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -304,7 +314,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -331,7 +342,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -358,7 +370,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -385,7 +398,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -412,7 +426,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -439,7 +454,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -472,7 +488,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -505,7 +522,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -536,7 +554,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -563,7 +582,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -596,7 +616,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -623,7 +644,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -650,7 +672,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -681,7 +704,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -711,7 +735,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -738,7 +763,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -765,7 +791,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -792,7 +819,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -819,7 +847,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -851,7 +880,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -878,7 +908,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -905,7 +936,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -932,7 +964,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -966,7 +999,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -1003,7 +1037,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -1030,7 +1065,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -1057,7 +1093,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -1084,7 +1121,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -1111,7 +1149,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         },
         {
             "allowed_chars": null,
@@ -1138,7 +1177,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": null
         }
     ],
     "children": [
@@ -1176,6 +1216,18 @@
             "get": false,
             "relationship": "child",
             "rest_name": "bootstrapactivation",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "domainsegmentation",
             "update": false
         },
         {
