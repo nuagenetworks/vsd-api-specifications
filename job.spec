@@ -269,7 +269,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Assoc Entity Type"
         },
         {
             "allowed_chars": null,
@@ -300,7 +300,7 @@
                 "RELOAD",
                 "RELOAD_GEO_REDUNDANT_INFO",
                 "RELOAD_NSG_CONFIG",
-                "RESTART",
+                "RESTAR",
                 "RETRIEVE_ACTIVE_NSGS",
                 "START",
                 "STATUS",
@@ -338,7 +338,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Command"
         },
         {
             "allowed_chars": null,
@@ -366,7 +366,7 @@
             "type": "object",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Parameters"
         },
         {
             "allowed_chars": null,
@@ -394,7 +394,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Progress"
         },
         {
             "allowed_chars": null,
@@ -422,7 +422,7 @@
             "type": "object",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Result"
         },
         {
             "allowed_chars": null,
@@ -454,7 +454,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": null
+            "userlabel": "Status"
         }
     ],
     "children": [],
