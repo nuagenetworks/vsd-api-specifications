@@ -67,7 +67,7 @@
             "default_order": false,
             "default_value": "VLAN",
             "deprecated": false,
-            "description": "The segmentation type (normally VLAN)",
+            "description": "The type of segmentation that is used.",
             "exposed": true,
             "filterable": true,
             "format": null,
