@@ -300,7 +300,7 @@
                 "RELOAD",
                 "RELOAD_GEO_REDUNDANT_INFO",
                 "RELOAD_NSG_CONFIG",
-                "RESTAR",
+                "RESTART",
                 "RETRIEVE_ACTIVE_NSGS",
                 "START",
                 "STATUS",
