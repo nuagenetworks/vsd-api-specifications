@@ -206,7 +206,7 @@
         "create": null,
         "delete": true,
         "description": "This represents VNF threshold policy",
-        "entity_name": "Vnfthresholdpolicy",
+        "entity_name": "VNFThresholdPolicy",
         "extends": [],
         "get": true,
         "package": "vnf",
