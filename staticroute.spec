@@ -155,7 +155,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "next Hop Type when set to SUBNET , DNA Subnet can be selected",
+            "description": "next Hop Type when set to SUBNET , DNA Subnet  needs to be assoicated to this static route",
             "exposed": true,
             "filterable": true,
             "format": null,
