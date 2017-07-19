@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ACL Allow Origin"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AD Gateway Purge Time"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "API Key Renewal Interval"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "API Key Validity"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AS Number"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DHCP Option Size"
         },
         {
             "allowed_chars": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ECMP Count"
         },
         {
             "allowed_chars": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "EVPNBGP Community Tag AS "
         },
         {
             "allowed_chars": null,
@@ -241,7 +249,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "EVPNBGP Community Tag Low"
         },
         {
             "allowed_chars": null,
@@ -268,7 +277,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "EVPNBGP Community Tag Upp"
         },
         {
             "allowed_chars": null,
@@ -295,7 +305,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "LDAP Sync Interval"
         },
         {
             "allowed_chars": null,
@@ -322,7 +333,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "LDAP Trust Store Certifca"
         },
         {
             "allowed_chars": null,
@@ -349,7 +361,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "LDAP Trust Store Password"
         },
         {
             "allowed_chars": null,
@@ -376,7 +389,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "LRU Cache Size Per Subnet"
         },
         {
             "allowed_chars": null,
@@ -403,7 +417,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "PGID Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -430,7 +445,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "PGID Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -457,7 +473,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RD Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -484,7 +501,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RD Public Network Lower L"
         },
         {
             "allowed_chars": null,
@@ -511,7 +529,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RD Public Network Upper L"
         },
         {
             "allowed_chars": null,
@@ -538,7 +557,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RD Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -565,7 +585,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RT Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -592,7 +613,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RT Public Network Lower L"
         },
         {
             "allowed_chars": null,
@@ -619,7 +641,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RT Public Network Upper L"
         },
         {
             "allowed_chars": null,
@@ -646,7 +669,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "RT Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -673,7 +697,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VLANID Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -700,7 +725,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VLANID Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -727,7 +753,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VM Cache Size"
         },
         {
             "allowed_chars": null,
@@ -754,7 +781,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VM Purge Time"
         },
         {
             "allowed_chars": null,
@@ -781,7 +809,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VM Resync Deletion Wait T"
         },
         {
             "allowed_chars": null,
@@ -808,7 +837,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VM Resync Outstanding Int"
         },
         {
             "allowed_chars": null,
@@ -835,7 +865,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VM Unreachable Cleanup Ti"
         },
         {
             "allowed_chars": null,
@@ -862,7 +893,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VM Unreachable Time"
         },
         {
             "allowed_chars": null,
@@ -889,7 +921,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VNF Task Timeout"
         },
         {
             "allowed_chars": null,
@@ -916,7 +949,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VNID Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -943,7 +977,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VNID Public Network Lower"
         },
         {
             "allowed_chars": null,
@@ -970,7 +1005,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VNID Public Network Upper"
         },
         {
             "allowed_chars": null,
@@ -997,7 +1033,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VNID Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -1024,7 +1061,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "V Port Init Stateful Time"
         },
         {
             "allowed_chars": null,
@@ -1051,7 +1089,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSC On Same Version As VS"
         },
         {
             "allowed_chars": null,
@@ -1078,7 +1117,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSD Read Only Mode"
         },
         {
             "allowed_chars": null,
@@ -1105,7 +1145,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSD Upgrade Is Complete"
         },
         {
             "allowed_chars": null,
@@ -1132,7 +1173,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ZFB Bootstrap Enabled"
         },
         {
             "allowed_chars": null,
@@ -1159,7 +1201,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ZFB Request Retry Timer"
         },
         {
             "allowed_chars": null,
@@ -1186,7 +1229,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ZFB Scheduler Stale Reque"
         },
         {
             "allowed_chars": null,
@@ -1213,7 +1257,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Accumulate Licenses Enabl"
         },
         {
             "allowed_chars": null,
@@ -1240,7 +1285,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Alarms Max Per Object"
         },
         {
             "allowed_chars": null,
@@ -1267,7 +1313,36 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allow Enterprise Avatar O"
+        },
+        {
+            "allowed_chars": null,
+            "allowed_choices": null,
+            "autogenerated": false,
+            "channel": null,
+            "creation_only": false,
+            "default_order": false,
+            "default_value": "false",
+            "deprecated": false,
+            "description": "Flag to attach/remove system generated probe to system generated NPM for IPSEC.",
+            "exposed": true,
+            "filterable": true,
+            "format": null,
+            "max_length": null,
+            "max_value": null,
+            "min_length": null,
+            "min_value": null,
+            "name": "attachProbeToIpsecNPM",
+            "orderable": true,
+            "read_only": false,
+            "required": false,
+            "subtype": null,
+            "transient": false,
+            "type": "boolean",
+            "unique": false,
+            "uniqueScope": null,
+            "userlabel": "Attach  Probe  To  Ipsec "
         },
         {
             "allowed_chars": null,
@@ -1294,7 +1369,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Avatar Base Path"
         },
         {
             "allowed_chars": null,
@@ -1321,7 +1397,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Avatar Base URL"
         },
         {
             "allowed_chars": null,
@@ -1351,7 +1428,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Csproot Authentication Me"
         },
         {
             "allowed_chars": null,
@@ -1378,7 +1456,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Customer ID Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -1405,7 +1484,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Customer Key"
         },
         {
             "allowed_chars": null,
@@ -1436,7 +1516,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain Tunnel Type"
         },
         {
             "allowed_chars": null,
@@ -1463,7 +1544,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dynamic WAN Service Diff "
         },
         {
             "allowed_chars": null,
@@ -1490,7 +1572,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ejbca NSG Certificate Pro"
         },
         {
             "allowed_chars": null,
@@ -1517,7 +1600,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ejbca NSG End Entity Prof"
         },
         {
             "allowed_chars": null,
@@ -1544,7 +1628,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ejbca OCSP Responder CN"
         },
         {
             "allowed_chars": null,
@@ -1571,7 +1656,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ejbca OCSP Responder URI"
         },
         {
             "allowed_chars": null,
@@ -1598,7 +1684,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ejbca Vsp Root Ca"
         },
         {
             "allowed_chars": null,
@@ -1625,7 +1712,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Elastic Cluster Name"
         },
         {
             "allowed_chars": null,
@@ -1652,7 +1740,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Esi ID"
         },
         {
             "allowed_chars": null,
@@ -1679,7 +1768,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Event Log Cleanup Interva"
         },
         {
             "allowed_chars": null,
@@ -1706,7 +1796,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Event Log Entry Max Age"
         },
         {
             "allowed_chars": null,
@@ -1733,7 +1824,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Event Processor Interval"
         },
         {
             "allowed_chars": null,
@@ -1760,7 +1852,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Event Processor Max Event"
         },
         {
             "allowed_chars": null,
@@ -1787,7 +1880,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Event Processor Timeout"
         },
         {
             "allowed_chars": null,
@@ -1814,7 +1908,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Flow Collection Enabled"
         },
         {
             "allowed_chars": null,
@@ -1841,7 +1936,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Global MAC Address"
         },
         {
             "allowed_chars": null,
@@ -1868,7 +1964,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default SEK Gen"
         },
         {
             "allowed_chars": null,
@@ -1895,7 +1992,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default SEK Lif"
         },
         {
             "allowed_chars": null,
@@ -1924,7 +2022,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default SEK Pay"
         },
         {
             "allowed_chars": null,
@@ -1957,7 +2056,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default SEK Pay"
         },
         {
             "allowed_chars": null,
@@ -1984,7 +2084,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Seed Ge"
         },
         {
             "allowed_chars": null,
@@ -2011,7 +2112,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Seed Li"
         },
         {
             "allowed_chars": null,
@@ -2042,7 +2144,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Seed Pa"
         },
         {
             "allowed_chars": null,
@@ -2073,7 +2176,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Seed Pa"
         },
         {
             "allowed_chars": null,
@@ -2106,7 +2210,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Seed Pa"
         },
         {
             "allowed_chars": null,
@@ -2139,7 +2244,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Traffic"
         },
         {
             "allowed_chars": null,
@@ -2171,7 +2277,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Traffic"
         },
         {
             "allowed_chars": null,
@@ -2198,7 +2305,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Default Traffic"
         },
         {
             "allowed_chars": null,
@@ -2225,7 +2333,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Generation Inte"
         },
         {
             "allowed_chars": null,
@@ -2252,7 +2361,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Generation Inte"
         },
         {
             "allowed_chars": null,
@@ -2279,7 +2389,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Minimum SEK Gen"
         },
         {
             "allowed_chars": null,
@@ -2306,7 +2417,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Minimum SEK Lif"
         },
         {
             "allowed_chars": null,
@@ -2333,7 +2445,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Minimum Seed Ge"
         },
         {
             "allowed_chars": null,
@@ -2360,7 +2473,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Minimum Seed Li"
         },
         {
             "allowed_chars": null,
@@ -2387,7 +2501,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Group Key Minimum Traffic"
         },
         {
             "allowed_chars": null,
@@ -2414,7 +2529,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Inactive Timeout"
         },
         {
             "allowed_chars": null,
@@ -2441,7 +2557,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Key Server Monitor Enable"
         },
         {
             "allowed_chars": null,
@@ -2468,7 +2585,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Key Server VSD Data Synch"
         },
         {
             "allowed_chars": null,
@@ -2495,7 +2613,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Max Failed Logins"
         },
         {
             "allowed_chars": null,
@@ -2522,7 +2641,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Max Response"
         },
         {
             "allowed_chars": null,
@@ -2549,7 +2669,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Nsg Bootstrap Endpoint"
         },
         {
             "allowed_chars": null,
@@ -2576,7 +2697,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Nsg Config Endpoint"
         },
         {
             "allowed_chars": null,
@@ -2603,7 +2725,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Nsg Local Ui Url"
         },
         {
             "allowed_chars": null,
@@ -2630,7 +2753,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Offset Customer ID"
         },
         {
             "allowed_chars": null,
@@ -2657,7 +2781,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Offset Service ID"
         },
         {
             "allowed_chars": null,
@@ -2684,7 +2809,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Page Max Size"
         },
         {
             "allowed_chars": null,
@@ -2711,7 +2837,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Page Size"
         },
         {
             "allowed_chars": null,
@@ -2738,7 +2865,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Per Domain Vlan Id Enable"
         },
         {
             "allowed_chars": null,
@@ -2765,7 +2893,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Performance Path Selectio"
         },
         {
             "allowed_chars": null,
@@ -2792,7 +2921,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Post Processor Threads Co"
         },
         {
             "allowed_chars": null,
@@ -2819,7 +2949,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Service ID Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -2846,7 +2977,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stack Trace Enabled"
         },
         {
             "allowed_chars": null,
@@ -2873,7 +3005,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stateful ACL Non TCP Time"
         },
         {
             "allowed_chars": null,
@@ -2900,7 +3033,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stateful ACLTCP Timeout"
         },
         {
             "allowed_chars": null,
@@ -2927,7 +3061,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Static WAN Service Purge "
         },
         {
             "allowed_chars": null,
@@ -2954,7 +3089,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Statistics Enabled"
         },
         {
             "allowed_chars": null,
@@ -2981,7 +3117,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Collector Address"
         },
         {
             "allowed_chars": null,
@@ -3008,7 +3145,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Collector Port"
         },
         {
             "allowed_chars": null,
@@ -3035,7 +3173,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Collector Proto Buf"
         },
         {
             "allowed_chars": null,
@@ -3062,7 +3201,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Max Data Points"
         },
         {
             "allowed_chars": null,
@@ -3089,7 +3229,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Min Duration"
         },
         {
             "allowed_chars": null,
@@ -3116,7 +3257,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Number Of Data Poin"
         },
         {
             "allowed_chars": null,
@@ -3143,7 +3285,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats TSDB Server Address"
         },
         {
             "allowed_chars": null,
@@ -3170,7 +3313,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Sticky ECMP Idle Timeout"
         },
         {
             "allowed_chars": null,
@@ -3197,7 +3341,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Subnet Resync Interval"
         },
         {
             "allowed_chars": null,
@@ -3224,7 +3369,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Subnet Resync Outstanding"
         },
         {
             "allowed_chars": null,
@@ -3251,7 +3397,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Syslog Destination Host"
         },
         {
             "allowed_chars": null,
@@ -3278,7 +3425,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Syslog Destination Port"
         },
         {
             "allowed_chars": null,
@@ -3305,7 +3453,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Sysmon Cleanup Task Inter"
         },
         {
             "allowed_chars": null,
@@ -3332,7 +3481,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Sysmon Node Presence Time"
         },
         {
             "allowed_chars": null,
@@ -3359,7 +3509,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Sysmon Probe Response Tim"
         },
         {
             "allowed_chars": null,
@@ -3386,7 +3537,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "System Avatar Data"
         },
         {
             "allowed_chars": null,
@@ -3417,7 +3569,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "System Avatar Type"
         },
         {
             "allowed_chars": null,
@@ -3444,7 +3597,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Two Factor Code Expiry"
         },
         {
             "allowed_chars": null,
@@ -3471,7 +3625,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Two Factor Code Length"
         },
         {
             "allowed_chars": null,
@@ -3498,7 +3653,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Two Factor Code Seed Leng"
         }
     ],
     "children": [],
