@@ -360,12 +360,12 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "false",
             "deprecated": false,
             "description": "Subnet will no be advertised in Overlay and WAN BGP",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -376,10 +376,10 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable  Do  Not  Advertis"
+            "userlabel": "Do  Not  Advertise"
         },
         {
             "allowed_chars": null,
