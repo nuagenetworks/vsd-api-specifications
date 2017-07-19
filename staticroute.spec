@@ -85,7 +85,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoicated DNA Subnet ID"
+            "userlabel": " DNA Subnet "
         },
         {
             "allowed_chars": null,
