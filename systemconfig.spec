@@ -1361,7 +1361,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "attachProbeToVxlanNPM",
+            "name": "attachProbeToVXLANNPM",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -1370,7 +1370,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Add Probe To  Vxlan NPM"
+            "userlabel": "Add Probe To VXLAN NPM"
         },
         {
             "allowed_chars": null,
