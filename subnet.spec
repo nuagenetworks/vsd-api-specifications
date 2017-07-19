@@ -148,7 +148,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Gateway"
+            "userlabel": "IPv6 Gateway"
         },
         {
             "allowed_chars": null,
