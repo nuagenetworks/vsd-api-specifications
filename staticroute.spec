@@ -126,7 +126,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "when set to SUBNET user can select a",
+            "description": "when set to SUBNET user can select a DNA Subnet",
             "exposed": true,
             "filterable": true,
             "format": null,
