@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Associated domain identifier ",
+            "description": "Associated NS Gateway",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "domainID",
+            "name": "NSGatewayID",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Domain ID"
+            "userlabel": "NS Gateway"
         },
         {
             "allowed_chars": null,
