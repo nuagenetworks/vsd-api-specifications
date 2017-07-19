@@ -1333,7 +1333,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "attachProbeToIpsecNPM",
+            "name": "attachProbeToIPsecNPM",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -1342,7 +1342,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Add Probe To Ipsec NPM "
+            "userlabel": "Add Probe To IPsec NPM "
         },
         {
             "allowed_chars": null,
