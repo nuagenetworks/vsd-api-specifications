@@ -566,7 +566,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The name of associated VNF threshold policy.",
             "exposed": true,
             "filterable": false,
             "format": "free",
