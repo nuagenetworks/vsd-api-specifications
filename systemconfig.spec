@@ -1370,7 +1370,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Attach  Probe  To  Vxlan "
+            "userlabel": "Add Probe To  Vxlan NPM"
         },
         {
             "allowed_chars": null,
