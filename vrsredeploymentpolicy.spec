@@ -266,7 +266,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "boolean",
+            "type": "float",
             "unique": false,
             "uniqueScope": null
         },
