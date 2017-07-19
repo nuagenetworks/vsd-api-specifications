@@ -1342,7 +1342,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Attach  Probe  To  Ipsec "
+            "userlabel": "Add Probe To Ipsec NPM "
         },
         {
             "allowed_chars": null,
