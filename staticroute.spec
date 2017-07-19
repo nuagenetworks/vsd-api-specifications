@@ -58,7 +58,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Address"
+            "userlabel": "IPv6 Address"
         },
         {
             "allowed_chars": null,
