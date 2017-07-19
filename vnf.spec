@@ -538,7 +538,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The ID of associated VNF threshold policy. The value will be null if VNF instance is attached to VNF descriptor.",
             "exposed": true,
             "filterable": true,
             "format": "free",
