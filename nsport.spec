@@ -320,7 +320,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Send NAT Probes  To UBR O"
+            "userlabel": "UBR-Only NAT Probes"
         },
         {
             "allowed_chars": null,
