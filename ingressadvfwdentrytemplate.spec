@@ -416,7 +416,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "FAIL_TO_BLOCK",
             "deprecated": false,
             "description": "Backup datapath option if VNF/VM is down",
             "exposed": true,
