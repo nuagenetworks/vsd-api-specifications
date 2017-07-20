@@ -48,11 +48,11 @@
             "name": "name",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
-            "unique": false,
+            "unique": true,
             "uniqueScope": null,
             "userlabel": "Name"
         },
