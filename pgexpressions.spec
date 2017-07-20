@@ -80,7 +80,7 @@
             "subtype": null,
             "transient": false,
             "type": "string",
-            "unique": false,
+            "unique": true,
             "uniqueScope": null,
             "userlabel": "Name"
         }
