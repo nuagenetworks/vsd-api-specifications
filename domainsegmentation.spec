@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The VLAN Number (1-4095).",
+            "description": "The segmentation ID (1-4095).",
             "exposed": true,
             "filterable": true,
             "format": null,
