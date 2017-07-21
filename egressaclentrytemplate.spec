@@ -496,7 +496,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the source endpoint (Subnet/Zone/Macro/MacroGroup/PortGroup)",
+            "description": "The ID of the source endpoint (Subnet/Zone/Macro/MacroGroup/PortGroup/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": "free",
