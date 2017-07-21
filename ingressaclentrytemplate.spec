@@ -440,7 +440,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the source endpoint (Subnet/Zone/VportTag/PortGroup)",
+            "description": "Type of the source endpoint (Subnet/Zone/VportTag/PortGroup/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": null,
