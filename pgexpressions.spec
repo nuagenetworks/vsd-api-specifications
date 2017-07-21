@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name  of the Policy Greoup Expression",
+            "description": "Name  of the Policy Group Expression",
             "exposed": true,
             "filterable": true,
             "format": "free",
