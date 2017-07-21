@@ -89,7 +89,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "\"Policy Group Expression Template is an expression consisting of policy groups defined at Domain or L2 Domain Template\"",
+        "description": "Policy Group Expression Template is an expression consisting of policy groups defined at Domain or L2 Domain Template",
         "entity_name": "PGExpressionTemplate",
         "extends": [],
         "get": true,

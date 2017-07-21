@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ACL Template Name"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DSCP"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ICMP Code"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ICMP Type"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "I Pv6 Address Override"
         },
         {
             "allowed_chars": null,
@@ -221,7 +226,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Action"
         },
         {
             "allowed_chars": null,
@@ -248,7 +254,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address Override"
         },
         {
             "allowed_chars": null,
@@ -275,7 +282,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Live Entity ID"
         },
         {
             "allowed_chars": null,
@@ -302,7 +310,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -329,7 +338,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Destination Port"
         },
         {
             "allowed_chars": null,
@@ -356,7 +366,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain Name"
         },
         {
             "allowed_chars": null,
@@ -383,7 +394,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise Name"
         },
         {
             "allowed_chars": null,
@@ -410,7 +422,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ether Type"
         },
         {
             "allowed_chars": null,
@@ -437,7 +450,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Flow Logging Enabled"
         },
         {
             "allowed_chars": null,
@@ -448,7 +462,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the destination endpoint (Subnet/Zone/VportTag/PolicyGroup)",
+            "description": "The ID of the destination endpoint (Subnet/Zone/VportTag/PolicyGroup/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -464,12 +478,14 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Location ID"
         },
         {
             "allowed_chars": null,
             "allowed_choices": [
                 "ANY",
+                "PGEXPRESSION",
                 "POLICYGROUP",
                 "REDIRECTIONTARGET",
                 "SUBNET",
@@ -482,7 +498,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the destination endpoint (Subnet/Zone/VportTag/PolicyGroup)",
+            "description": "Type of the destination endpoint (Subnet/Zone/VportTag/PolicyGroup/PolicyGroupExpression",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -498,7 +514,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Location Type"
         },
         {
             "allowed_chars": null,
@@ -525,7 +542,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Mirror Destination ID"
         },
         {
             "allowed_chars": null,
@@ -536,7 +554,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the source endpoint (Subnet/Zone/Macro/MacroGroup/PortGroup)",
+            "description": "The ID of the source endpoint (Subnet/Zone/Macro/MacroGroup/PortGroup/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -552,7 +570,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Network ID"
         },
         {
             "allowed_chars": null,
@@ -564,6 +583,7 @@
                 "ENTERPRISE_NETWORK",
                 "INTERNET_POLICYGROUP",
                 "NETWORK_MACRO_GROUP",
+                "PGEXPRESSION",
                 "POLICYGROUP",
                 "PUBLIC_NETWORK",
                 "SUBNET",
@@ -575,7 +595,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the source endpoint (Subnet/Zone/Macro/MacroGroup/PortGroup)",
+            "description": "Type of the source endpoint (Subnet/Zone/Macro/MacroGroup/PortGroup/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -591,7 +611,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Network Type"
         },
         {
             "allowed_chars": null,
@@ -621,7 +642,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Policy State"
         },
         {
             "allowed_chars": null,
@@ -648,7 +670,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Priority"
         },
         {
             "allowed_chars": null,
@@ -675,7 +698,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Protocol"
         },
         {
             "allowed_chars": null,
@@ -702,7 +726,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source Port"
         },
         {
             "allowed_chars": null,
@@ -729,7 +754,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stateful"
         },
         {
             "allowed_chars": null,
@@ -756,7 +782,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats ID"
         },
         {
             "allowed_chars": null,
@@ -783,7 +810,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Logging Enabled"
         }
     ],
     "children": [

@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name  of the Policy Greoup Expression",
+            "description": "Name  of the Policy Group Expression",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -89,7 +89,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "\"Policy Group Expression is an expression consisting of policy groups defined at Domain or L2 Domain Instance or Template\"",
+        "description": "Policy Group Expression is an expression consisting of policy groups defined at Domain or L2 Domain Instance or Template",
         "entity_name": "PGExpression",
         "extends": [],
         "get": true,
