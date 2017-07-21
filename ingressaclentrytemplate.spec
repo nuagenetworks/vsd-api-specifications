@@ -428,6 +428,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "ANY",
+                "PGEXPRESSION",
                 "POLICYGROUP",
                 "REDIRECTIONTARGET",
                 "SUBNET",
