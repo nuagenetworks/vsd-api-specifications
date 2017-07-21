@@ -427,6 +427,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "ANY",
+                "PGEXPRESSION",
                 "POLICYGROUP",
                 "REDIRECTIONTARGET",
                 "SUBNET",
@@ -439,7 +440,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the destination endpoint (Subnet/Zone/VportTag/PolicyGroup)",
+            "description": "Type of the destination endpoint (Subnet/Zone/VportTag/PolicyGroup/PolicyGroupExpression",
             "exposed": true,
             "filterable": true,
             "format": null,
