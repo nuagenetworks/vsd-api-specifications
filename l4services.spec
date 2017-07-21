@@ -73,7 +73,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "port",
+            "name": "ports",
             "orderable": false,
             "read_only": false,
             "required": true,
