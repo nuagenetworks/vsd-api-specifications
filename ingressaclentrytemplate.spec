@@ -497,7 +497,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the destination endpoint (Subnet/Zone/Macro/MacroGroup/PolicyGroup)",
+            "description": "The ID of the destination endpoint (Subnet/Zone/Macro/MacroGroup/PolicyGroup/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": "free",
