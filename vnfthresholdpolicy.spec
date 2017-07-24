@@ -26,7 +26,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": " C P U Threshold"
+            "userlabel": " CPU Threshold"
         },
         {
             "allowed_chars": null,
