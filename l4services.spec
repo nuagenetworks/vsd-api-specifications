@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Port"
+            "userlabel": "Ports"
         },
         {
             "allowed_chars": null,
