@@ -205,7 +205,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "This represents VNF threshold policy",
+        "description": "This represents VNF threshold policy for resources consumed by VNF instance running on NS Gateway and action to be taken when resources crosses configured threshold.",
         "entity_name": "VNFThresholdPolicy",
         "extends": [],
         "get": true,
