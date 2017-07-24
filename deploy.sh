@@ -1,10 +1,5 @@
 #!/bin/bash
 
-set -x
-set -e
-
-WORKSPACE=$(pwd)
-
 function fetch_all_branches()
 {
     # Fetch all the remote branches. Travis clones with `--depth`, which
@@ -117,6 +112,11 @@ function main()
     done
     exit 0
 }
+
+set -x
+set -e
+
+WORKSPACE=$(pwd)
 
 # For builds triggered by a tagged commit, travis sets TRAVIS_BRANCH to the tag
 # whereas we really need the branch name. See:
