@@ -25,7 +25,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "BGP Enabled"
         },
         {
             "allowed_chars": null,
@@ -57,7 +58,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DHCP Behavior"
         },
         {
             "allowed_chars": null,
@@ -84,7 +86,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DHCP Server Address"
         },
         {
             "allowed_chars": null,
@@ -114,7 +117,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPI"
         },
         {
             "allowed_chars": null,
@@ -141,7 +145,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ECMP Count"
         },
         {
             "allowed_chars": null,
@@ -172,7 +177,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "PAT Enabled"
         },
         {
             "allowed_chars": null,
@@ -201,7 +207,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Advertise Criteria"
         },
         {
             "allowed_chars": null,
@@ -228,7 +235,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated BGP Profile ID"
         },
         {
             "allowed_chars": null,
@@ -255,7 +263,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Multicast Chan"
         },
         {
             "allowed_chars": null,
@@ -282,7 +291,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated PAT Mapper ID"
         },
         {
             "allowed_chars": null,
@@ -309,7 +319,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Back Haul Route Distingui"
         },
         {
             "allowed_chars": null,
@@ -336,7 +347,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Back Haul Route Target"
         },
         {
             "allowed_chars": null,
@@ -363,7 +375,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Back Haul Subnet IP Addre"
         },
         {
             "allowed_chars": null,
@@ -390,7 +403,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Back Haul Subnet Mask"
         },
         {
             "allowed_chars": null,
@@ -417,7 +431,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Back Haul VNID"
         },
         {
             "allowed_chars": null,
@@ -444,7 +459,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Customer ID"
         },
         {
             "allowed_chars": null,
@@ -471,7 +487,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -498,7 +515,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dhcp Server Addresses"
         },
         {
             "allowed_chars": null,
@@ -525,7 +543,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain ID"
         },
         {
             "allowed_chars": null,
@@ -552,7 +571,8 @@
             "transient": false,
             "type": "integer",
             "unique": true,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain VLANID"
         },
         {
             "allowed_chars": null,
@@ -582,7 +602,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encryption"
         },
         {
             "allowed_chars": null,
@@ -609,7 +630,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Export Route Target"
         },
         {
             "allowed_chars": null,
@@ -636,7 +658,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Global Routing Enabled"
         },
         {
             "allowed_chars": null,
@@ -663,7 +686,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Import Route Target"
         },
         {
             "allowed_chars": null,
@@ -690,7 +714,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Label ID"
         },
         {
             "allowed_chars": null,
@@ -717,7 +742,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Leaking Enabled"
         },
         {
             "allowed_chars": null,
@@ -744,7 +770,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Local AS"
         },
         {
             "allowed_chars": null,
@@ -775,7 +802,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Maintenance Mode"
         },
         {
             "allowed_chars": null,
@@ -806,7 +834,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Multicast"
         },
         {
             "allowed_chars": null,
@@ -833,7 +862,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -867,7 +897,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Permitted Action"
         },
         {
             "allowed_chars": null,
@@ -898,7 +929,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Policy Change Status"
         },
         {
             "allowed_chars": null,
@@ -925,7 +957,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Route Distinguisher"
         },
         {
             "allowed_chars": null,
@@ -952,7 +985,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Route Target"
         },
         {
             "allowed_chars": null,
@@ -979,7 +1013,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Secondary DHCP Server Add"
         },
         {
             "allowed_chars": null,
@@ -1006,7 +1041,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Service ID"
         },
         {
             "allowed_chars": null,
@@ -1033,7 +1069,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stretched"
         },
         {
             "allowed_chars": null,
@@ -1060,7 +1097,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Template ID"
         },
         {
             "allowed_chars": null,
@@ -1091,7 +1129,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Tunnel Type"
         },
         {
             "allowed_chars": null,
@@ -1122,7 +1161,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Underlay Enabled"
         },
         {
             "allowed_chars": null,
@@ -1155,7 +1195,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Uplink Preference"
         }
     ],
     "children": [
@@ -1457,6 +1498,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "permission",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "pgexpressions",
             "update": false
         },
         {
