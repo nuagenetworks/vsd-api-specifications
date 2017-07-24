@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Actual Policy Group Expression Template",
+            "description": "Actual Policy Group Expression.",
             "exposed": true,
             "filterable": true,
             "format": "free",
