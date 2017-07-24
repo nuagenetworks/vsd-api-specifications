@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the L4 service group",
+            "description": "Name of the L4 Services group",
             "exposed": true,
             "filterable": true,
             "format": "free",
