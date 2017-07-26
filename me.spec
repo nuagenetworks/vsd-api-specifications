@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": 1,
-            "name": "aarFlowStatsInterval",
+            "name": "AARFlowStatsInterval",
             "orderable": true,
             "read_only": false,
             "required": false,
