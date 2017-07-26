@@ -12,7 +12,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": "NONE",
-            "deprecated": false,
+            "deprecated": true,
             "description": "Enum value that states the type of NAT Traversal the NSG instance will use to talk to other NSGs and the Internet.",
             "exposed": true,
             "filterable": false,
