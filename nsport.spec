@@ -151,7 +151,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "true",
             "deprecated": false,
             "description": "If enabled, probes will be sent to other NSGs and DTLS sessions for IPSEC and VXLAN will be set up to the VSCs. If disabled, no NAT probes are sent on that uplink and no DTLS sessions are set up to the VSCs.",
             "exposed": true,
