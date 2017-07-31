@@ -117,7 +117,10 @@
         "delete": true,
         "description": "Object representing a Wireless Access Captive Portal Profile which can be associated with SSID entities from which end users may be presented with instructions and condition of use when connecting to an Open wireless access point.",
         "entity_name": "CaptivePortalProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base"
+        ],
         "get": true,
         "package": "nsg",
         "resource_name": "captiveportalprofiles",
