@@ -119,7 +119,7 @@
         "entity_name": "CaptivePortalProfile",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "captiveportalprofiles",
         "rest_name": "captiveportalprofile",
         "root": null,
