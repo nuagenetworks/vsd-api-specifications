@@ -11,7 +11,7 @@
             "deprecated": false,
             "description": "VRS agent MOID to uniquely identify VRS VM on the Vcenter",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
