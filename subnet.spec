@@ -28,7 +28,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DHCP Relay Status"
         },
         {
             "allowed_chars": null,
@@ -59,7 +60,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPI"
         },
         {
             "allowed_chars": null,
@@ -89,7 +91,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IP Type"
         },
         {
             "allowed_chars": null,
@@ -116,7 +119,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "I Pv6 Address"
         },
         {
             "allowed_chars": null,
@@ -143,7 +147,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "I Pv6 Gateway"
         },
         {
             "allowed_chars": null,
@@ -174,7 +179,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "PAT Enabled"
         },
         {
             "allowed_chars": null,
@@ -201,7 +207,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address"
         },
         {
             "allowed_chars": null,
@@ -228,7 +235,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Multicast Chan"
         },
         {
             "allowed_chars": null,
@@ -255,7 +263,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Shared Network"
         },
         {
             "allowed_chars": null,
@@ -285,7 +294,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Default Action"
         },
         {
             "allowed_chars": null,
@@ -312,7 +322,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -339,7 +350,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dynamic Ipv6 Address"
         },
         {
             "allowed_chars": null,
@@ -370,7 +382,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encryption"
         },
         {
             "allowed_chars": null,
@@ -400,7 +413,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entity State"
         },
         {
             "allowed_chars": null,
@@ -427,7 +441,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway"
         },
         {
             "allowed_chars": null,
@@ -454,7 +469,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway MAC Address"
         },
         {
             "allowed_chars": null,
@@ -485,7 +501,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Maintenance Mode"
         },
         {
             "allowed_chars": null,
@@ -516,7 +533,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Multicast"
         },
         {
             "allowed_chars": null,
@@ -543,7 +561,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -570,7 +589,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Netmask"
         },
         {
             "allowed_chars": null,
@@ -597,7 +617,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Policy Group ID"
         },
         {
             "allowed_chars": null,
@@ -624,7 +645,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Proxy ARP"
         },
         {
             "allowed_chars": null,
@@ -651,7 +673,36 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Public"
+        },
+        {
+            "allowed_chars": null,
+            "allowed_choices": null,
+            "autogenerated": false,
+            "channel": null,
+            "creation_only": false,
+            "default_order": false,
+            "default_value": null,
+            "deprecated": false,
+            "description": "Defines the type of the subnet, PUBLIC,FLOATING,REGULAR OR VNF",
+            "exposed": true,
+            "filterable": true,
+            "format": null,
+            "max_length": null,
+            "max_value": null,
+            "min_length": null,
+            "min_value": null,
+            "name": "resourceType",
+            "orderable": true,
+            "read_only": false,
+            "required": false,
+            "subtype": null,
+            "transient": false,
+            "type": "enum",
+            "unique": false,
+            "uniqueScope": null,
+            "userlabel": "Resource  Type"
         },
         {
             "allowed_chars": null,
@@ -678,7 +729,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Route Distinguisher"
         },
         {
             "allowed_chars": null,
@@ -705,7 +757,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Route Target"
         },
         {
             "allowed_chars": null,
@@ -732,7 +785,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Service ID"
         },
         {
             "allowed_chars": null,
@@ -759,7 +813,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Split Subnet"
         },
         {
             "allowed_chars": null,
@@ -786,7 +841,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Template ID"
         },
         {
             "allowed_chars": null,
@@ -813,7 +869,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Underlay"
         },
         {
             "allowed_chars": null,
@@ -844,7 +901,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Underlay Enabled"
         },
         {
             "allowed_chars": null,
@@ -874,7 +932,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Use Global MAC"
         },
         {
             "allowed_chars": null,
@@ -901,7 +960,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Vn Id"
         }
     ],
     "children": [
