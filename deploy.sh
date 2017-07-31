@@ -1,21 +1,7 @@
 #!/bin/bash
 
-set -x
-set -e
-
-WORKSPACE=$(pwd)
-
 function fetch_all_branches()
 {
-    # Keep track of where Travis put us.
-    # We are on a detached head, and we need to be able to go back to it.
-    XXX_BUILD_HEAD=$(git rev-parse HEAD)
-
-    # Go back to the branch from which the detached head is from.
-    git checkout -
-    # Keep track of that branch
-    XXX_BUILD_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-
     # Fetch all the remote branches. Travis clones with `--depth`, which
     # implies `--single-branch`, so we need to overwrite remote.origin.fetch to
     # do that. See also http://stackoverflow.com/a/20338558/1836144
@@ -92,16 +78,30 @@ function install_vspkgenerator()
     pip install -U git+https://github.com/nuagenetworks/vspkgenerator.git
 }
 
-
 function main()
 {
     local language=
-    local languages="python go java objj html vro"
+    local languages="python go java objj html vro javascript"
     local last_tag=$(git describe --tags --abbrev=0)
     # tags look  like r4.0.6.1, we make the version 4.0.6.1
     local version=${last_tag:1}
 
-    fetch_all_branches
+    # Keep track of where Travis put us.
+    # We are on a detached head, and we need to be able to go back to it.
+    XXX_BUILD_HEAD=$(git rev-parse HEAD)
+
+    if [ -n "${TRAVIS_TAG}" ] ; then
+        fetch_all_branches
+        # For tagged commit, we already now which branch we're building.
+        XXX_BUILD_BRANCH=${ACTUAL_BRANCH}
+    else
+        # Go back to the branch from which the detached head is from.
+        git checkout -
+        # Keep track of that branch
+        XXX_BUILD_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+        fetch_all_branches
+    fi
+
     install_vspkgenerator
 
     for language in ${languages} ; do
@@ -112,6 +112,11 @@ function main()
     done
     exit 0
 }
+
+set -x
+set -e
+
+WORKSPACE=$(pwd)
 
 # For builds triggered by a tagged commit, travis sets TRAVIS_BRANCH to the tag
 # whereas we really need the branch name. See:

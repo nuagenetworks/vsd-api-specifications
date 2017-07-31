@@ -289,7 +289,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "nexthopaddress",
+            "rest_name": "nexthop",
             "update": false
         },
         {
@@ -314,6 +314,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "psnatpool",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "policystatement",
             "update": false
         }
     ],

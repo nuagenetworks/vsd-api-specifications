@@ -598,7 +598,7 @@
             "filterable": false,
             "format": "free",
             "max_length": null,
-            "max_value": 64495,
+            "max_value": 64534,
             "min_length": null,
             "min_value": 1,
             "name": "localAS",
@@ -740,18 +740,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "applicationperformancemanagement",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "applicationservice",
             "update": false
         },
         {
@@ -1216,6 +1204,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "policyobjectgroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
@@ -1304,6 +1304,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vm",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "vnf",
             "update": false
         },
         {
