@@ -97,7 +97,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "UUID of DNA Subnet",
+            "description": "UUID of Do Not Advertise Subnet",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -105,7 +105,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "associatedDNASubnetID",
+            "name": "associatedSubnetID",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -114,7 +114,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DNA Subnet "
+            "userlabel": "Next Hop Subnet"
         },
         {
             "allowed_chars": null,
