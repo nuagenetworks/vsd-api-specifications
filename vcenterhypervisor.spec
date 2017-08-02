@@ -1764,6 +1764,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "NONE",
                 "TCP",
                 "UDP"
             ],
@@ -1771,7 +1772,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "NONE",
             "deprecated": false,
             "description": "Remote syslog server type (UDP/TCP)",
             "exposed": true,
