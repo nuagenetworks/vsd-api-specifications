@@ -30,7 +30,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Npm  Type"
+            "userlabel": "NPM Type"
         },
         {
             "allowed_chars": null,
