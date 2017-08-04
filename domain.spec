@@ -165,7 +165,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "FIP-Underlay",
+            "name": "FIPUnderlay",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -174,7 +174,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": " FIP-  Underlay"
+            "userlabel": " FIP Underlay"
         },
         {
             "allowed_chars": null,
