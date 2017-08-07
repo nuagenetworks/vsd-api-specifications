@@ -267,7 +267,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Traffic Type Id of  Service / Service Group",
+            "description": "If a traffic type is specified as L4 Service or Service Group, then the associated Id of  Service / Service Group should be specifed here",
             "exposed": true,
             "filterable": true,
             "format": "free",
