@@ -152,7 +152,7 @@
             "@base"
         ],
         "get": true,
-        "package": null,
+        "package": "policy",
         "resource_name": "l4services",
         "rest_name": "l4service",
         "root": null,
