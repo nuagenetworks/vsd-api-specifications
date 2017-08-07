@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": " L7 Application"
+            "userlabel": "L7 Application"
         },
         {
             "allowed_chars": null,
