@@ -96,7 +96,7 @@
         "entity_name": "Proxyarpfilter",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "network",
         "resource_name": "proxyarpfilters",
         "rest_name": "proxyarpfilter",
         "root": null,
