@@ -809,6 +809,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "cosremarkingpolicytable",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
@@ -837,6 +849,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "dscpforwardingclasstable",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "dscpremarkingpolicytable",
             "update": false
         },
         {
@@ -1029,6 +1053,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "ikepsk",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "ingressqospolicy",
             "update": false
         },
         {
