@@ -264,7 +264,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated L7  Applicatio"
+            "userlabel": " L7  Application"
         },
         {
             "allowed_chars": null,
