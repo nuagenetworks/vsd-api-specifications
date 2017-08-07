@@ -1509,7 +1509,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "pgexpressions",
+            "rest_name": "pgexpression",
             "update": false
         },
         {
