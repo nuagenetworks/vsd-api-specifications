@@ -147,7 +147,10 @@
         "delete": true,
         "description": "L4 Service is a port range and protocol combination that can be used in ACLs",
         "entity_name": "L4Service",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base"
+        ],
         "get": true,
         "package": null,
         "resource_name": "l4services",
