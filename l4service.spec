@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Single port or port ranges",
+            "description": "Value should be either single port number or a port range like 1,2.. or 1 - 10",
             "exposed": false,
             "filterable": false,
             "format": "free",
