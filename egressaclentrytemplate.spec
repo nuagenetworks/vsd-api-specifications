@@ -256,7 +256,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Traffic Type"
+            "userlabel": "Service"
         },
         {
             "allowed_chars": null,
