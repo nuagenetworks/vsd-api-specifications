@@ -209,7 +209,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Associate a L7 Signature to the ACL.",
+            "description": "The UUID of the associated L7 Application signature",
             "exposed": true,
             "filterable": false,
             "format": "free",
