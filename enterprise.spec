@@ -1124,7 +1124,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "l4servicegroups",
+            "rest_name": "l4servicegroup",
             "update": false
         },
         {
