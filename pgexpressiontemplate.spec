@@ -41,7 +41,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": 1000,
+            "max_length": 10000,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
