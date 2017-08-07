@@ -627,7 +627,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "pgexpressiontemplates",
+            "rest_name": "pgexpressiontemplate",
             "update": false
         },
         {
