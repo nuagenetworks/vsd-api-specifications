@@ -239,7 +239,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Traffic Type,  Service / Service Group",
+            "description": "Traffic Type,  Service / Service Group. ",
             "exposed": true,
             "filterable": true,
             "format": null,
