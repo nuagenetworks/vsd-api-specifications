@@ -118,7 +118,7 @@
         "create": null,
         "delete": true,
         "description": "Policy Group Expression is an expression consisting of policy groups defined at Domain or L2 Domain Instance.",
-        "entity_name": "Pgexpression",
+        "entity_name": "PGExpression",
         "extends": [],
         "get": true,
         "package": null,
