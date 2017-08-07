@@ -239,7 +239,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Traffic Type,  Service / Service Group. ",
+            "description": "This property reflects the type of traffic in case an ACL entry is created using an L4 Service or L4 Service Group. In case a protocol and port are specified for the ACL entry, this property has to be empty (null). Supported values are L4SERVICE, L4SERVICEGROUP and empty.",
             "exposed": true,
             "filterable": true,
             "format": null,
