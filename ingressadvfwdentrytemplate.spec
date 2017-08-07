@@ -651,6 +651,7 @@
                 "ENTERPRISE_NETWORK",
                 "INTERNET_POLICYGROUP",
                 "NETWORK_MACRO_GROUP",
+                "PGEXPRESSION",
                 "POLICYGROUP",
                 "PUBLIC_NETWORK",
                 "SUBNET",
