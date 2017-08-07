@@ -91,7 +91,10 @@
         "delete": true,
         "description": "Policy Group Expression Template is an expression consisting of policy groups defined at Domain Template or L2 Domain Template",
         "entity_name": "PGExpressionTemplate",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base"
+        ],
         "get": true,
         "package": null,
         "resource_name": "pgexpressiontemplates",
