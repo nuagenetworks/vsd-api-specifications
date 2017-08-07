@@ -622,7 +622,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The destination network entity that is referenced(subnet/zone/macro)",
+            "description": "The destination network entity that is referenced(subnet/zone/macro/PolicyGroupExpression)",
             "exposed": true,
             "filterable": true,
             "format": "free",
