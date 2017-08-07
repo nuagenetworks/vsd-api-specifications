@@ -284,7 +284,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Traffic Type I"
+            "userlabel": "Service ID"
         },
         {
             "allowed_chars": null,
