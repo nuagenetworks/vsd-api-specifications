@@ -90,7 +90,7 @@
         "create": null,
         "delete": true,
         "description": "L4 Service Group is a set of L4 Services that can be used in ACLs.",
-        "entity_name": "L4servicegroup",
+        "entity_name": "L4ServiceGroup",
         "extends": [],
         "get": true,
         "package": null,
