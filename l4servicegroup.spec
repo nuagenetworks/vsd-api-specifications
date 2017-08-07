@@ -109,7 +109,7 @@
             "@base"
         ],
         "get": true,
-        "package": null,
+        "package": "policy",
         "resource_name": "l4servicegroups",
         "rest_name": "l4servicegroup",
         "root": null,
