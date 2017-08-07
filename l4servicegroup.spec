@@ -104,7 +104,10 @@
         "delete": true,
         "description": "L4 Service Group is a set of L4 Services that can be used in ACLs.",
         "entity_name": "L4ServiceGroup",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base"
+        ],
         "get": true,
         "package": null,
         "resource_name": "l4servicegroups",
