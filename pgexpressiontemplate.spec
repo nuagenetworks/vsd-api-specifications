@@ -96,7 +96,7 @@
             "@base"
         ],
         "get": true,
-        "package": null,
+        "package": "vport",
         "resource_name": "pgexpressiontemplates",
         "rest_name": "pgexpressiontemplate",
         "root": null,
