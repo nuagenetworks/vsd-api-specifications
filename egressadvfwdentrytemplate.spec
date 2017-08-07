@@ -249,14 +249,14 @@
             "deprecated": false,
             "description": "Associate a L7 Signature to the ACL.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "associatedL7ApplicationSignatureID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -264,7 +264,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated L7  Applicatio"
+            "userlabel": "L7 Application"
         },
         {
             "allowed_chars": null,
