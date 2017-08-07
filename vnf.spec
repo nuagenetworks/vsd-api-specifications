@@ -229,7 +229,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vnf  Metadata ID"
+            "userlabel": "VNF  Metadata ID"
         },
         {
             "allowed_chars": null,
