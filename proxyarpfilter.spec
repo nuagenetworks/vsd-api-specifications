@@ -12,7 +12,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "describes the address family",
+            "description": "Describes the Address family",
             "exposed": true,
             "filterable": true,
             "format": null,
