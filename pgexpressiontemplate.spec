@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Actual Policy Group Expression.",
+            "description": "Actual Policy Group Expression like (PG1 || PG2) && !PG3. Allowed operators are && (AND), ! (NOT), II (OR) and ( )",
             "exposed": true,
             "filterable": true,
             "format": "free",
