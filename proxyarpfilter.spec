@@ -10,7 +10,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "IPV4",
             "deprecated": false,
             "description": "Describes the Address family",
             "exposed": true,
@@ -29,7 +29,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": " IP Type"
+            "userlabel": "IP Type"
         },
         {
             "allowed_chars": null,
