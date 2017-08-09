@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Actual Policy Group Expression",
+            "description": "Actual Policy Group Expression like (PG1 || PG2) && !PG3",
             "exposed": true,
             "filterable": true,
             "format": "free",
