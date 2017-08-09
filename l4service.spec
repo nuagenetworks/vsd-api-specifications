@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default  Service"
+            "userlabel": "Default Service"
         },
         {
             "allowed_chars": null,
