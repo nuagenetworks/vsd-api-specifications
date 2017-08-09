@@ -105,8 +105,8 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "white list of ranges for which NSG will act  as  ARP Proxy",
-        "entity_name": "Proxyarpfilter",
+        "description": "Black list of ranges for which NSG will act  as  ARP Proxy",
+        "entity_name": "ProxyArpFilter",
         "extends": [],
         "get": true,
         "package": "network",
