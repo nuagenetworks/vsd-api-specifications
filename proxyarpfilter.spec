@@ -107,7 +107,9 @@
         "delete": true,
         "description": "Black list of ranges for which NSG will act  as  ARP Proxy",
         "entity_name": "ProxyARPFilter",
-        "extends": [],
+        "extends": [
+            "@base"
+        ],
         "get": true,
         "package": "network",
         "resource_name": "proxyarpfilters",
