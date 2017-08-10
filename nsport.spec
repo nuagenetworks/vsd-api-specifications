@@ -423,7 +423,7 @@
             "name": "userMnemonic",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -466,6 +466,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "eventlog",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "lteinformation",
             "update": false
         },
         {

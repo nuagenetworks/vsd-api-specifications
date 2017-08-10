@@ -101,7 +101,7 @@
             "name": "type",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",

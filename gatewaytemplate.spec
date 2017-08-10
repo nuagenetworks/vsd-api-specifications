@@ -87,6 +87,8 @@
                 "DC7X50",
                 "HARDWARE_VTEP",
                 "NSG",
+                "NUAGE_210_WBX_32_Q",
+                "NUAGE_210_WBX_48_S",
                 "OTHER",
                 "VRSB",
                 "VRSG",

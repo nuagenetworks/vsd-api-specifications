@@ -21,7 +21,7 @@
             "orderable": true,
             "read_only": false,
             "required": false,
-            "subtype": null,
+            "subtype": "string",
             "transient": false,
             "type": "list",
             "unique": false,

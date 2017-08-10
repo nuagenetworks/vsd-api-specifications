@@ -63,7 +63,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable DPI for this Enterprise Profile",
+            "description": "Enable VNF Management for this enterprise",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -71,7 +71,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "DPIEnabled",
+            "name": "VNFManagementEnabled",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -416,18 +416,6 @@
             "relationship": "child",
             "rest_name": "eventlog",
             "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "member",
-            "rest_name": "externalservice",
-            "update": true
         },
         {
             "bulk_create": false,
