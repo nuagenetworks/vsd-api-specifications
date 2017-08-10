@@ -191,7 +191,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "This attribute specifies whether subnet is enabled with access restrictions",
+            "description": "This attribute specifies whether subnet is enabled with access restrictions. Note: Applicable to shared infrastructure enterprise subnets.",
             "exposed": true,
             "filterable": true,
             "format": null,
