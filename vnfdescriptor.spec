@@ -25,8 +25,7 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "CPU Count"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -53,8 +52,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Description"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -81,8 +79,7 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Memory MB"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -109,8 +106,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Metadata ID"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -137,8 +133,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Name"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -165,8 +160,7 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Storage GB"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -193,8 +187,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Vendor"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -221,8 +214,7 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Visible"
+            "uniqueScope": null
         }
     ],
     "children": [
