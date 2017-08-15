@@ -125,7 +125,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "tsdbServer",
+            "name": "statsTSDBServerAddress",
             "orderable": false,
             "read_only": false,
             "required": false,
