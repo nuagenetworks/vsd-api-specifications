@@ -3,8 +3,8 @@
     "children": [],
     "model": {
         "create": null,
-        "delete": true,
-        "description": null,
+        "delete": false,
+        "description": "This defines a proxy class to expose some of the configuration parameters which are by UI",
         "entity_name": "Usercontext",
         "extends": [],
         "get": true,
@@ -12,6 +12,6 @@
         "resource_name": "usercontexts",
         "rest_name": "usercontext",
         "root": null,
-        "update": true
+        "update": false
     }
 }
