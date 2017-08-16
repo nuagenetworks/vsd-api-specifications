@@ -167,8 +167,8 @@
     "model": {
         "create": null,
         "delete": false,
-        "description": "This defines a proxy class to expose some of the configuration parameters which are by UI",
-        "entity_name": "Usercontext",
+        "description": "This defines a proxy class to expose some of the configuration parameters which are required by UI",
+        "entity_name": "UserContext",
         "extends": [],
         "get": true,
         "package": null,
