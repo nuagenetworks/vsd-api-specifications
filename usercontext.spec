@@ -171,7 +171,7 @@
         "entity_name": "UserContext",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "usermgmt",
         "resource_name": "usercontexts",
         "rest_name": "usercontext",
         "root": null,
