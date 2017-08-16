@@ -72,7 +72,7 @@
             "min_length": null,
             "min_value": null,
             "name": "flowCollectionEnabled",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
