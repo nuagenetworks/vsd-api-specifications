@@ -117,7 +117,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Specify the ip address(es) of the elastic machine",
+            "description": "ip address(es) of the elastic machine",
             "exposed": true,
             "filterable": false,
             "format": "free",
