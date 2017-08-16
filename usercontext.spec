@@ -44,7 +44,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": 1,
-            "name": "aarProbeStatsInterval",
+            "name": "AARProbeStatsInterval",
             "orderable": false,
             "read_only": false,
             "required": false,
