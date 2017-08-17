@@ -264,7 +264,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoc  Application  Id"
+            "userlabel": "Assoc Application  ID"
         },
         {
             "allowed_chars": null,
