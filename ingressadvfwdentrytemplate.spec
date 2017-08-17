@@ -268,7 +268,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "App  Type"
+            "userlabel": "Application Type"
         },
         {
             "allowed_chars": null,
