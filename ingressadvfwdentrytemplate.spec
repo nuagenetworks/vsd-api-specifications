@@ -606,7 +606,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Is SLA Aware"
+            "userlabel": "SLA Aware"
         },
         {
             "allowed_chars": null,
