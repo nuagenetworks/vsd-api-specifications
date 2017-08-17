@@ -279,7 +279,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "associated application UUID.",
+            "description": "Associated application UUID.",
             "exposed": true,
             "filterable": true,
             "format": "free",
