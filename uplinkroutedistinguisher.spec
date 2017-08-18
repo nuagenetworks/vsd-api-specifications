@@ -13,9 +13,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": null,
+            "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "routeDistinguisher",
             "orderable": true,
@@ -68,7 +68,10 @@
         "entity_name": "UplinkRD",
         "extends": [
             "@audited",
+            "@audited",
             "@base",
+            "@base",
+            "@metadata",
             "@metadata"
         ],
         "get": true,

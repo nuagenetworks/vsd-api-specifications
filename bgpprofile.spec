@@ -255,7 +255,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "bgp",
         "resource_name": "bgpprofiles",
         "rest_name": "bgpprofile",
         "root": false,

@@ -128,7 +128,7 @@
             "name": "name",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -228,7 +228,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "bgp",
         "resource_name": "bgpneighbors",
         "rest_name": "bgpneighbor",
         "root": false,
