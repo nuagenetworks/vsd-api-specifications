@@ -57,7 +57,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Max  Address"
+            "userlabel": "Max Address"
         },
         {
             "allowed_chars": null,
@@ -85,7 +85,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Min  Address"
+            "userlabel": "Min Address"
         }
     ],
     "children": [
@@ -105,7 +105,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "Black list of ranges for which NSG will act  as  ARP Proxy",
+        "description": "Black list of ranges for which NSG will act as ARP Proxy",
         "entity_name": "ProxyARPFilter",
         "extends": [
             "@audited",
