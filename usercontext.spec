@@ -22,7 +22,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "integer",
             "unique": false,
             "uniqueScope": null
@@ -49,7 +49,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "integer",
             "unique": false,
             "uniqueScope": null
@@ -76,7 +76,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "integer",
             "unique": false,
             "uniqueScope": null
@@ -103,7 +103,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "boolean",
             "unique": false,
             "uniqueScope": null
@@ -130,7 +130,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "boolean",
             "unique": false,
             "uniqueScope": null
@@ -157,7 +157,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
             "uniqueScope": null
