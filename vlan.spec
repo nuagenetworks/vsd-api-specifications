@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Uplink Connect"
+            "userlabel": "Uplink Connect"
         },
         {
             "allowed_chars": null,
