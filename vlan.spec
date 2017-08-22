@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated  Ingress QOS P"
+            "userlabel": "Tunnel Shaper"
         },
         {
             "allowed_chars": null,
