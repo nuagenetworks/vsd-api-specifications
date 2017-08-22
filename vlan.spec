@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the Ingress QOS Policy / Tunnel Shaper associated with this Vlan.",
+            "description": "ID of the Ingress QOS Policy / Tunnel Shaper associated with this VLAN.",
             "exposed": true,
             "filterable": true,
             "format": "free",
