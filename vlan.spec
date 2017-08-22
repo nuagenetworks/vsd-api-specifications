@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated VSC Profile ID"
+            "userlabel": "VSC Profile"
         },
         {
             "allowed_chars": null,
