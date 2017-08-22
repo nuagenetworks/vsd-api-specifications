@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated BGP Profile ID"
+            "userlabel": "BGP Profile"
         },
         {
             "allowed_chars": null,
