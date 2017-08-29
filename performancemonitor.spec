@@ -257,6 +257,7 @@
         "description": null,
         "entity_name": "PerformanceMonitor",
         "extends": [
+            "@audited",
             "@base"
         ],
         "get": true,
