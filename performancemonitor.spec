@@ -184,7 +184,7 @@
             "max_length": null,
             "max_value": 1500,
             "min_length": null,
-            "min_value": 108,
+            "min_value": 135,
             "name": "payloadSize",
             "orderable": true,
             "read_only": false,
