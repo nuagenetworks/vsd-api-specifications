@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "A description of the fc-dot1p mapping table.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -25,8 +25,7 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null,
-            "userlabel": "Description"
+            "uniqueScope": null
         },
         {
             "allowed_chars": null,
@@ -37,13 +36,13 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "A unique name of the fc-dot1p mapping table.",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": 255,
+            "max_length": null,
             "max_value": null,
-            "min_length": 1,
+            "min_length": null,
             "min_value": null,
             "name": "name",
             "orderable": true,
@@ -52,9 +51,8 @@
             "subtype": null,
             "transient": false,
             "type": "string",
-            "unique": true,
-            "uniqueScope": null,
-            "userlabel": "Name"
+            "unique": false,
+            "uniqueScope": null
         }
     ],
     "children": [
@@ -62,41 +60,30 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "member",
-            "rest_name": "sharednetworkresource",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "subnet",
+            "rest_name": "cosremarkingpolicy",
             "update": false
         }
     ],
     "model": {
-        "create": false,
+        "create": null,
         "delete": true,
-        "description": "missing documentation.",
-        "entity_name": "PATMapper",
+        "description": "Provides the definition of a table that holds multiple FC to Dot1p mappings . Used in Egress QoS policies.",
+        "entity_name": "COSRemarkingPolicyTable",
         "extends": [
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
-        "package": "gateway",
-        "resource_name": "patmappers",
-        "rest_name": "patmapper",
-        "root": false,
+        "package": "policy/dscpmapping",
+        "resource_name": "cosremarkingpolicytables",
+        "rest_name": "cosremarkingpolicytable",
+        "root": null,
         "update": true
     }
 }
