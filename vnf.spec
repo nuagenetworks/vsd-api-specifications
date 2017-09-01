@@ -294,7 +294,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "True",
+            "default_value": "true",
             "deprecated": false,
             "description": "This specifies if VNF instance is using VNF descriptor or it is decoupled from it",
             "exposed": true,
