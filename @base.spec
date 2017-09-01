@@ -14,21 +14,22 @@
             "deprecated": false,
             "description": "Specify if scope of entity is Data center or Enterprise level",
             "exposed": true,
-            "filterable": true,
-            "format": "free",
+            "filterable": false,
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "entityScope",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entity Scope"
         },
         {
             "allowed_chars": null,
@@ -55,7 +56,8 @@
             "transient": false,
             "type": "string",
             "unique": true,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "External ID"
         }
     ],
     "children": [],
