@@ -91,7 +91,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "enterprisenetwork",
             "update": true
         }
