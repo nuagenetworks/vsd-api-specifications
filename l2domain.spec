@@ -267,7 +267,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": null,
+            "description": "Turn on or off dynamic allocation of IPV6 address",
             "exposed": true,
             "filterable": false,
             "format": null,
