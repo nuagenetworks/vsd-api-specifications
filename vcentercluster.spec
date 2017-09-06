@@ -1741,7 +1741,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "514",
             "deprecated": false,
             "description": "Remote syslog server port",
             "exposed": true,
