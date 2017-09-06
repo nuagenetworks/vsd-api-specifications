@@ -257,7 +257,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic  Ipv6  Address"
+            "userlabel": "Auto IPv6 assignment"
         },
         {
             "allowed_chars": null,
