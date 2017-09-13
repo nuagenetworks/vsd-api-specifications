@@ -67,9 +67,7 @@ function update_repo()
     cd ${repo}
 
     git add --all .
-    # commit fails if nothing changed, which causes the script to exit.
-    # to avoid this, we force this line to be always successful.
-    git commit -m "Auto generated from specifications change." || true
+    git commit -m "Auto generated from specifications change." --allow-empty
     if [ -n "${TRAVIS_TAG}" ] ; then
         git tag -a ${TRAVIS_TAG} -m "Auto generated tag from specifications"
     fi
