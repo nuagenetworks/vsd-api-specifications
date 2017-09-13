@@ -586,7 +586,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi  Home  Enabled"
+            "userlabel": "Enable multi-homing"
         },
         {
             "allowed_chars": null,
