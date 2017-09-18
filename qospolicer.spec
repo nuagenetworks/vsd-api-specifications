@@ -118,7 +118,7 @@
         "create": null,
         "delete": true,
         "description": null,
-        "entity_name": "Qospolicer",
+        "entity_name": "QoSpolicer",
         "extends": [
             "@audited",
             "@base",
