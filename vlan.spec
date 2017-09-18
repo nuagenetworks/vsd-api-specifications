@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IngressUnderlayQosPolicer"
+            "userlabel": "Ingressunderlayqospolicer"
         },
         {
             "allowed_chars": null,
