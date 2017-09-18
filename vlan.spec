@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Qos Policer"
+            "userlabel": "IngressUnderlayQosPolicer"
         },
         {
             "allowed_chars": null,
