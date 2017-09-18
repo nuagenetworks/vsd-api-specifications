@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IngressOverlayQoSPolicer"
+            "userlabel": "Ingressoverlayqospolicer"
         },
         {
             "allowed_chars": null,
