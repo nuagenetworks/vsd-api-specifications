@@ -7,7 +7,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "85",
+            "default_value": "80",
             "deprecated": false,
             "description": "Threshold for CPU usage",
             "exposed": true,
