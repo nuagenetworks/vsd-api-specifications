@@ -39,14 +39,14 @@
             "deprecated": false,
             "description": "The Id of referenced VNF threshold policy",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "associatedVNFThresholdPolicyID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated V N F Threshold Policy I D"
+            "userlabel": "VNF Threshold Policy ID"
         },
         {
             "allowed_chars": null,
