@@ -352,7 +352,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Gateway VLANVNID"
+            "userlabel": "Map VLAN to VNID"
         },
         {
             "allowed_chars": null,

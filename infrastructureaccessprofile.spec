@@ -30,7 +30,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "SSH Auth Mode"
+            "userlabel": "SSH Authentication Mode"
         },
         {
             "allowed_chars": null,
@@ -127,14 +127,14 @@
             "deprecated": false,
             "description": "Password of the default user associated to the access profile.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": 512,
             "max_value": null,
             "min_length": 8,
             "min_value": null,
             "name": "password",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": true,
             "subtype": null,
@@ -201,7 +201,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "User Name"
+            "userlabel": "Username"
         }
     ],
     "children": [],
