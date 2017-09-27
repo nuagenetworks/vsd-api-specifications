@@ -169,7 +169,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Monitoring Interval"
+            "userlabel": "Monitoring Interval (mins)"
         },
         {
             "allowed_chars": null,
