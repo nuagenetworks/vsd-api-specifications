@@ -225,7 +225,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Storage Threshold"
+            "userlabel": "Storage Threshold (%)"
         }
     ],
     "children": [],
