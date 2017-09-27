@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Metadata URI"
+            "userlabel": "Meta URI"
         },
         {
             "allowed_chars": null,
