@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threshold Policy ID"
+            "userlabel": "Threshold Policy"
         },
         {
             "allowed_chars": null,
