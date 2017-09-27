@@ -194,7 +194,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Storage GB"
+            "userlabel": "Storage (GB)"
         },
         {
             "allowed_chars": null,
