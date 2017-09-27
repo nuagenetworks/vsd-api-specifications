@@ -110,7 +110,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Memory MB"
+            "userlabel": "Memory (MB)"
         },
         {
             "allowed_chars": null,
