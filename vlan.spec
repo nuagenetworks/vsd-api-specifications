@@ -52,7 +52,7 @@
             "orderable": false,
             "read_only": true,
             "required": false,
-            "subtype": "ManagedObjectType",
+            "subtype": null,
             "transient": false,
             "type": "enum",
             "unique": false,
