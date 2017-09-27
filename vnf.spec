@@ -257,7 +257,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNF Threshold Policy ID"
+            "userlabel": "Threshold Policy"
         },
         {
             "allowed_chars": null,
