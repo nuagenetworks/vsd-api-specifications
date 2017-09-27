@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNF Descriptor Name"
+            "userlabel": "VNF Descriptor"
         },
         {
             "allowed_chars": null,
