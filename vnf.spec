@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNF Descriptor ID"
+            "userlabel": "VNF Descriptor"
         },
         {
             "allowed_chars": null,
