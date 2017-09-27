@@ -113,7 +113,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Memory Threshold"
+            "userlabel": "Memory Threshold (%)"
         },
         {
             "allowed_chars": null,
