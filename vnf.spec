@@ -425,7 +425,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Metadata ID"
+            "userlabel": "Metadata URI"
         },
         {
             "allowed_chars": null,
