@@ -117,7 +117,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "Rate Limiter object that contains Rate and Burst.",
+        "description": "Rate Limiter object that contains rate and burst.",
         "entity_name": "QosPolicer",
         "extends": [
             "@audited",
