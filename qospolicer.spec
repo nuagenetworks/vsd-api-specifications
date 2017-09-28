@@ -117,7 +117,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": "Rate Limiter object that contains Rate and Burst. Can be associated with Egress QOS policy objects.",
+        "description": "Rate Limiter object that contains Rate and Burst.",
         "entity_name": "QosPolicer",
         "extends": [
             "@audited",
