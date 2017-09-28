@@ -218,7 +218,10 @@
         "delete": true,
         "description": null,
         "entity_name": "PerformanceMonitor",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "performancemonitors",
