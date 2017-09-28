@@ -98,7 +98,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 2147483647,
             "min_length": null,
             "min_value": 0,
             "name": "rate",
