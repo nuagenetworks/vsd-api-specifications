@@ -233,7 +233,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Url address reference received from Procera for every signature.",
+            "description": "URL address reference received from Procera for every signature.",
             "exposed": true,
             "filterable": true,
             "format": "free",
