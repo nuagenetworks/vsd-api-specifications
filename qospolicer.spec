@@ -16,7 +16,7 @@
             "max_length": null,
             "max_value": null,
             "min_length": null,
-            "min_value": 0,
+            "min_value": 1,
             "name": "burst",
             "orderable": true,
             "read_only": false,
