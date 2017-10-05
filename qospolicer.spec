@@ -125,7 +125,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "com.alu.cna.cloudmgmt.server.modules.policy.model.qos",
         "resource_name": "qospolicers",
         "rest_name": "qospolicer",
         "root": null,
