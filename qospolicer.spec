@@ -117,7 +117,7 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "QoS Policer ensures that traffic adheres to the stipulated QoS defined in your network.Contains Rate and Burst configurations and can be associated to VLANs.",
         "entity_name": "QoSpolicer",
         "extends": [
             "@audited",
