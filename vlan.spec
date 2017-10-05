@@ -152,7 +152,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the Ingress Underlay QoS Policer associated with this Vlan.",
+            "description": "ID of the Ingress Underlay QoS Policer associated with this VLAN.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -169,7 +169,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Ingress Underlay Qo S Policer I D"
+            "userlabel": "Underlay QoS Policer"
         },
         {
             "allowed_chars": null,
