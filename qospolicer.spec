@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": "1",
             "deprecated": false,
-            "description": "Burst Size :  The maximum burst size associated with the QoS Policer in kilo-bits; only whole values are supported.",
+            "description": "Burst Size: The maximum burst size associated with the QoS Policer in kilo-bits; only whole values are supported.",
             "exposed": true,
             "filterable": true,
             "format": null,
