@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": "1",
             "deprecated": false,
-            "description": "Rate :  Bandwidth that is allowed in Mb/s; only whole values supported.",
+            "description": "Rate: Bandwidth that is allowed in Mb/s; only whole values supported.",
             "exposed": true,
             "filterable": true,
             "format": null,
