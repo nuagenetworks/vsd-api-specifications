@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Captive Portal Profile ID"
+            "userlabel": "Captive Portal Profile"
         },
         {
             "allowed_chars": null,
