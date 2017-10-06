@@ -299,7 +299,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "brconnections",
+            "rest_name": "brconnection",
             "update": false
         },
         {
