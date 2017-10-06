@@ -614,6 +614,7 @@
         "resource_name": "uplinkconnections",
         "rest_name": "uplinkconnection",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Uplink Connection"
     }
 }

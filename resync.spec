@@ -101,6 +101,7 @@
         "resource_name": "resync",
         "rest_name": "resync",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "VM Resync"
     }
 }

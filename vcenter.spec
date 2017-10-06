@@ -2437,6 +2437,7 @@
         "resource_name": "vcenters",
         "rest_name": "vcenter",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VCenter"
     }
 }

@@ -444,6 +444,7 @@
         "resource_name": "ports",
         "rest_name": "port",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Port"
     }
 }

@@ -474,6 +474,7 @@
         "resource_name": "jobs",
         "rest_name": "job",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Job"
     }
 }

@@ -726,6 +726,7 @@
         "resource_name": "containers",
         "rest_name": "container",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Container"
     }
 }

@@ -84,6 +84,7 @@
         "resource_name": "multicastranges",
         "rest_name": "multicastrange",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Multicast Range"
     }
 }

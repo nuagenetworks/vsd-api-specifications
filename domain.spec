@@ -1788,6 +1788,7 @@
         "resource_name": "domains",
         "rest_name": "domain",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Domain"
     }
 }

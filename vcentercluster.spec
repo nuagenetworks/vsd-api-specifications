@@ -2275,6 +2275,7 @@
         "resource_name": "vcenterclusters",
         "rest_name": "vcentercluster",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VCenter Cluster"
     }
 }

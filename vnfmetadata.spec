@@ -94,6 +94,7 @@
         "resource_name": "vnfmetadatas",
         "rest_name": "vnfmetadata",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Metadata"
     }
 }

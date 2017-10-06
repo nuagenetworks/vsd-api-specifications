@@ -186,6 +186,7 @@
         "resource_name": "enterprisepermissions",
         "rest_name": "enterprisepermission",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Permission"
     }
 }

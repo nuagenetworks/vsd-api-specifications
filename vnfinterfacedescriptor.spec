@@ -67,6 +67,7 @@
         "resource_name": "vnfinterfacedescriptors",
         "rest_name": "vnfinterfacedescriptor",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Interface Descriptor"
     }
 }

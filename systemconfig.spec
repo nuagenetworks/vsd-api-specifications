@@ -3782,6 +3782,7 @@
         "resource_name": "systemconfigs",
         "rest_name": "systemconfig",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "System Config"
     }
 }

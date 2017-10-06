@@ -483,6 +483,7 @@
         "resource_name": "redundancygroups",
         "rest_name": "redundancygroup",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Redundancy Group"
     }
 }

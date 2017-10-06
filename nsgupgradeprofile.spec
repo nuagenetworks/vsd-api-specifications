@@ -128,6 +128,7 @@
         "resource_name": "nsgupgradeprofiles",
         "rest_name": "nsgupgradeprofile",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "NSG Upgrade Profile"
     }
 }

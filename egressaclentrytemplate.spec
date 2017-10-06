@@ -884,6 +884,7 @@
         "resource_name": "egressaclentrytemplates",
         "rest_name": "egressaclentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Egress Security Policy Entry"
     }
 }

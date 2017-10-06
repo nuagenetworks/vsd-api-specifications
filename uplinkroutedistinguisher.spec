@@ -79,6 +79,7 @@
         "resource_name": "uplinkroutedistinguishers",
         "rest_name": "uplinkroutedistinguisher",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Uplink RD"
     }
 }

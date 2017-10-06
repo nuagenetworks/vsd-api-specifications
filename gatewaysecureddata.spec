@@ -129,6 +129,7 @@
         "resource_name": "gatewaysecureddatas",
         "rest_name": "gatewaysecureddata",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Gateway Secured Data"
     }
 }

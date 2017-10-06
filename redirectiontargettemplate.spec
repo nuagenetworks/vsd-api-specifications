@@ -190,6 +190,7 @@
         "resource_name": "redirectiontargettemplates",
         "rest_name": "redirectiontargettemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Redirection Target Template"
     }
 }

@@ -382,6 +382,7 @@
         "resource_name": "egressacltemplates",
         "rest_name": "egressacltemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Egress Security Policy"
     }
 }

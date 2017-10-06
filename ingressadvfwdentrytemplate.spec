@@ -1164,6 +1164,7 @@
         "resource_name": "ingressadvfwdentrytemplates",
         "rest_name": "ingressadvfwdentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Ingress Forwarding Policy Entry"
     }
 }

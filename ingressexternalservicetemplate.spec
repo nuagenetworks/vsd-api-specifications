@@ -237,6 +237,7 @@
         "resource_name": "ingressexternalservicetemplates",
         "rest_name": "ingressexternalservicetemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Ingress External Service Policy"
     }
 }

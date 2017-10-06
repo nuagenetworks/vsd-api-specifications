@@ -152,6 +152,7 @@
         "resource_name": "ratelimiters",
         "rest_name": "ratelimiter",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Rate Limiter"
     }
 }

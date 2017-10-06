@@ -1420,6 +1420,7 @@
         "resource_name": "vrss",
         "rest_name": "vrs",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VRS"
     }
 }

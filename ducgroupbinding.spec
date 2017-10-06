@@ -94,6 +94,7 @@
         "resource_name": "ducgroupbindings",
         "rest_name": "ducgroupbinding",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "UBR Group Binding"
     }
 }

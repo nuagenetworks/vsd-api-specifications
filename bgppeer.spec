@@ -101,6 +101,7 @@
         "resource_name": "bgppeers",
         "rest_name": "bgppeer",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "BGP Peer"
     }
 }

@@ -1067,6 +1067,7 @@
         "resource_name": "vports",
         "rest_name": "vport",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VPort"
     }
 }

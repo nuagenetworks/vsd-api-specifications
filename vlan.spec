@@ -718,6 +718,7 @@
         "resource_name": "vlans",
         "rest_name": "vlan",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VLAN"
     }
 }

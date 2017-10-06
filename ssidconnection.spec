@@ -412,6 +412,7 @@
         "resource_name": "ssidconnections",
         "rest_name": "ssidconnection",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "SSID Connection"
     }
 }

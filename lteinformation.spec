@@ -40,6 +40,7 @@
         "resource_name": "lteinformations",
         "rest_name": "lteinformation",
         "root": null,
-        "update": false
+        "update": false,
+        "userlabel": "LTE Information"
     }
 }

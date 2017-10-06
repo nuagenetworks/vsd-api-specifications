@@ -206,6 +206,7 @@
         "resource_name": "keyservermonitorencryptedseeds",
         "rest_name": "keyservermonitorencryptedseed",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Key Server Monitor Encrypted Seed"
     }
 }

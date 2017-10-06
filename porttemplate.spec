@@ -195,6 +195,7 @@
         "resource_name": "porttemplates",
         "rest_name": "porttemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Port Template"
     }
 }

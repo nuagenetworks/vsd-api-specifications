@@ -152,6 +152,7 @@
         "resource_name": "enterprisesecureddatas",
         "rest_name": "enterprisesecureddata",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Enterprise Secured Data"
     }
 }

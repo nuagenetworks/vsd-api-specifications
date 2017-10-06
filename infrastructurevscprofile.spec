@@ -179,6 +179,7 @@
         "resource_name": "infrastructurevscprofiles",
         "rest_name": "infrastructurevscprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Infrastructure VSC Profile"
     }
 }

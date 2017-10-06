@@ -1499,6 +1499,7 @@
         "resource_name": "enterprises",
         "rest_name": "enterprise",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Enterprise"
     }
 }

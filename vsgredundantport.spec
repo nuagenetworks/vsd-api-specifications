@@ -405,6 +405,7 @@
         "resource_name": "vsgredundantports",
         "rest_name": "vsgredundantport",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VSG Redundant Port"
     }
 }

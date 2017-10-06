@@ -130,6 +130,7 @@
         "resource_name": "natmapentries",
         "rest_name": "natmapentry",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "NAT Map Entry"
     }
 }

@@ -127,6 +127,7 @@
         "resource_name": "routingpolicies",
         "rest_name": "routingpolicy",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Routing Policy"
     }
 }

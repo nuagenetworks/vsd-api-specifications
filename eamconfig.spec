@@ -179,6 +179,7 @@
         "resource_name": "eamconfigs",
         "rest_name": "eamconfig",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VCenter EAM Configuration"
     }
 }

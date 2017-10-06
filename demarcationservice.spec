@@ -151,6 +151,7 @@
         "resource_name": "demarcationservices",
         "rest_name": "demarcationservice",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Demarcation Service"
     }
 }

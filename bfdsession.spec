@@ -125,6 +125,7 @@
         "resource_name": "bfdsessions",
         "rest_name": "bfdsession",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "BFD Session"
     }
 }

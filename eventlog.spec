@@ -313,6 +313,7 @@
         "resource_name": "eventlogs",
         "rest_name": "eventlog",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Event Log"
     }
 }

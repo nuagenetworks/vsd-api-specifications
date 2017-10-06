@@ -220,6 +220,7 @@
         "resource_name": "infrastructureaccessprofiles",
         "rest_name": "infrastructureaccessprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Infrastructure Access Profile"
     }
 }

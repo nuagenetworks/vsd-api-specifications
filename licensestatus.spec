@@ -472,6 +472,7 @@
         "resource_name": "licensestatus",
         "rest_name": "licensestatus",
         "root": null,
-        "update": false
+        "update": false,
+        "userlabel": "License Status"
     }
 }

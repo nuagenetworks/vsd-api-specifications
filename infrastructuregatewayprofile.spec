@@ -675,6 +675,7 @@
         "resource_name": "infrastructuregatewayprofiles",
         "rest_name": "infrastructuregatewayprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Infrastructure Gateway Profile"
     }
 }

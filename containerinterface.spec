@@ -696,6 +696,7 @@
         "resource_name": "containerinterfaces",
         "rest_name": "containerinterface",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Container Interface"
     }
 }

@@ -175,6 +175,7 @@
         "resource_name": "usercontexts",
         "rest_name": "usercontext",
         "root": null,
-        "update": false
+        "update": false,
+        "userlabel": "User Context"
     }
 }

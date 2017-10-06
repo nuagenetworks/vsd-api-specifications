@@ -94,6 +94,7 @@
         "resource_name": "networkperformancebindings",
         "rest_name": "networkperformancebinding",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Network Performance Binding"
     }
 }

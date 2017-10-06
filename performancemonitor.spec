@@ -362,6 +362,7 @@
         "resource_name": "performancemonitors",
         "rest_name": "performancemonitor",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Performance Monitor"
     }
 }

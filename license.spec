@@ -900,6 +900,7 @@
         "resource_name": "licenses",
         "rest_name": "license",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "License"
     }
 }

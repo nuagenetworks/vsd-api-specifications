@@ -1502,6 +1502,7 @@
         "resource_name": "nsgateways",
         "rest_name": "nsgateway",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Network Services Gateway"
     }
 }

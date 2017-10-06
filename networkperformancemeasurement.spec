@@ -182,6 +182,7 @@
         "resource_name": "networkperformancemeasurements",
         "rest_name": "networkperformancemeasurement",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Network Performance Measurement"
     }
 }

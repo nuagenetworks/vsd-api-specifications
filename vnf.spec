@@ -607,6 +607,7 @@
         "resource_name": "vnfs",
         "rest_name": "vnf",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF"
     }
 }

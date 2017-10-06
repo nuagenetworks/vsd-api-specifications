@@ -67,6 +67,7 @@
         "resource_name": "customproperties",
         "rest_name": "customproperty",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Custom Property"
     }
 }

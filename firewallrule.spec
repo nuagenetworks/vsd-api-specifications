@@ -1073,6 +1073,7 @@
         "resource_name": "firewallrules",
         "rest_name": "firewallrule",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Firewall Rule"
     }
 }

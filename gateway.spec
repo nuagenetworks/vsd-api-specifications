@@ -496,6 +496,7 @@
         "resource_name": "gateways",
         "rest_name": "gateway",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Data Center Gateway"
     }
 }

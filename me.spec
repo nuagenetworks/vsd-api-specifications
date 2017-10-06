@@ -1414,6 +1414,7 @@
         "resource_name": "me",
         "rest_name": "me",
         "root": true,
-        "update": false
+        "update": false,
+        "userlabel": "Me"
     }
 }

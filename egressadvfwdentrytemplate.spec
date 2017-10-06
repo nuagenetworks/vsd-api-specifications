@@ -931,6 +931,7 @@
         "resource_name": "egressadvfwdentrytemplates",
         "rest_name": "egressadvfwdentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Egress Forwarding Policy Entry"
     }
 }

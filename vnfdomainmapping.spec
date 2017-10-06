@@ -127,6 +127,7 @@
         "resource_name": "vnfdomainmappings",
         "rest_name": "vnfdomainmapping",
         "root": null,
-        "update": false
+        "update": false,
+        "userlabel": "VNF Domain Mapping"
     }
 }

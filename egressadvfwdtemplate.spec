@@ -265,6 +265,7 @@
         "resource_name": "egressadvfwdtemplates",
         "rest_name": "egressadvfwdtemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Egress Forwarding Policy"
     }
 }

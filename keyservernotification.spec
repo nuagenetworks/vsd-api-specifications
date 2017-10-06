@@ -103,6 +103,7 @@
         "resource_name": "keyservernotifications",
         "rest_name": "keyservernotification",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Key Server Notification"
     }
 }

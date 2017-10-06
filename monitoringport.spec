@@ -240,6 +240,7 @@
         "resource_name": "monitoringports",
         "rest_name": "monitoringport",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Monitoring Port"
     }
 }

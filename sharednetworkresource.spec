@@ -807,6 +807,7 @@
         "resource_name": "sharednetworkresources",
         "rest_name": "sharednetworkresource",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Shared Network Resource"
     }
 }

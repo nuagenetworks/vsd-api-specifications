@@ -156,6 +156,7 @@
         "resource_name": "l4services",
         "rest_name": "l4service",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "L4 Service"
     }
 }

@@ -92,6 +92,7 @@
         "resource_name": "nsggroups",
         "rest_name": "nsggroup",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "NSG Group"
     }
 }

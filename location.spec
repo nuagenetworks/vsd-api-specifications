@@ -233,6 +233,7 @@
         "resource_name": "locations",
         "rest_name": "location",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Location"
     }
 }

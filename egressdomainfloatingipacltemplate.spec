@@ -307,6 +307,7 @@
         "resource_name": "egressdomainfloatingipacltemplates",
         "rest_name": "egressdomainfloatingipacltemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Domain FIP ACL"
     }
 }

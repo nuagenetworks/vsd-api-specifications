@@ -94,6 +94,7 @@
         "resource_name": "applicationbindings",
         "rest_name": "applicationbinding",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Application Binding"
     }
 }

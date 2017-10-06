@@ -92,13 +92,12 @@
             "@audited",
             "@base"
         ],
-        "get": false,
-        "package": null,
         "get": true,
         "package": "vmware",
         "resource_name": "autodiscovereddatacenters",
         "rest_name": "autodiscovereddatacenter",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Auto Discovered Data Center"
     }
 }

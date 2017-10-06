@@ -160,6 +160,7 @@
         "resource_name": "diskstats",
         "rest_name": "diskstat",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Disk Stat"
     }
 }

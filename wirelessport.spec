@@ -412,6 +412,7 @@
         "resource_name": "wirelessports",
         "rest_name": "wirelessport",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Wireless Port"
     }
 }

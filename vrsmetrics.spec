@@ -340,6 +340,7 @@
         "resource_name": "vrsmetrics",
         "rest_name": "vrsmetrics",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VRS Metrics"
     }
 }

@@ -219,8 +219,9 @@
         "get": true,
         "package": "vport",
         "resource_name": "brconnections",
-        "rest_name": "brconnections",
+        "rest_name": "brconnection",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "BR Connection"
     }
 }

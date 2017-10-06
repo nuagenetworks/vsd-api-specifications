@@ -607,6 +607,7 @@
         "resource_name": "vscs",
         "rest_name": "vsc",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VSC"
     }
 }

@@ -244,6 +244,7 @@
         "resource_name": "components",
         "rest_name": "component",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "VSD Component"
     }
 }

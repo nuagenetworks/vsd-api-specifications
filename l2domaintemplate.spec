@@ -710,6 +710,7 @@
         "resource_name": "l2domaintemplates",
         "rest_name": "l2domaintemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "L2 Domain Template"
     }
 }

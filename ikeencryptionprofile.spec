@@ -569,6 +569,7 @@
         "resource_name": "ikeencryptionprofiles",
         "rest_name": "ikeencryptionprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IKE Encryption Profile"
     }
 }

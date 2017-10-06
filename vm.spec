@@ -672,6 +672,7 @@
         "resource_name": "vms",
         "rest_name": "vm",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VM"
     }
 }

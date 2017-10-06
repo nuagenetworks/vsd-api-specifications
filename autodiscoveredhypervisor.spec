@@ -97,6 +97,7 @@
         "resource_name": "autodiscoveredhypervisors",
         "rest_name": "autodiscoveredhypervisor",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Auto Discover Hypervisor From Cluster"
     }
 }

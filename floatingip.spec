@@ -177,6 +177,7 @@
         "resource_name": "floatingips",
         "rest_name": "floatingip",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Floating IP"
     }
 }

@@ -256,6 +256,7 @@
         "resource_name": "nsgatewaytemplates",
         "rest_name": "nsgatewaytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Network Services Gateway Template"
     }
 }

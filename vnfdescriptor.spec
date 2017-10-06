@@ -242,6 +242,7 @@
         "resource_name": "vnfdescriptors",
         "rest_name": "vnfdescriptor",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Descriptor"
     }
 }

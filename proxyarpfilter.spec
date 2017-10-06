@@ -116,6 +116,7 @@
         "resource_name": "proxyarpfilters",
         "rest_name": "proxyarpfilter",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Proxy ARP Filter"
     }
 }

@@ -97,6 +97,7 @@
         "resource_name": "patmappers",
         "rest_name": "patmapper",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "PAT Mapper"
     }
 }

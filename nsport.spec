@@ -615,6 +615,7 @@
         "resource_name": "nsports",
         "rest_name": "nsport",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "NS Port"
     }
 }

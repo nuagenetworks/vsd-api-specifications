@@ -1179,6 +1179,7 @@
         "resource_name": "l2domains",
         "rest_name": "l2domain",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "L2 Domain"
     }
 }

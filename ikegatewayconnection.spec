@@ -660,6 +660,7 @@
         "resource_name": "ikegatewayconnections",
         "rest_name": "ikegatewayconnection",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IKE Gateway Connection"
     }
 }

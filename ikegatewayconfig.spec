@@ -1,18 +1,16 @@
 {
     "attributes": [
         {
-            "name": "config",
-            "type": "object",
             "description": "Configuration Object",
-            "filterable": true,
-            "orderable": true,
             "exposed": true,
+            "filterable": true,
+            "name": "config",
+            "orderable": true,
+            "type": "object",
             "uniqueScope": "no"
         }
     ],
-    "children": [
-        
-    ],
+    "children": [],
     "model": {
         "description": "Represents an IKE Gateway Configuration Object",
         "entity_name": "IKEGatewayConfig",
@@ -23,6 +21,7 @@
         ],
         "package": "ike",
         "resource_name": "ikegatewayconfig",
-        "rest_name": "ikegatewayconfig"
+        "rest_name": "ikegatewayconfig",
+        "userlabel": "IKE Gateway Configuration"
     }
 }

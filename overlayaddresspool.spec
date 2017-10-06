@@ -161,6 +161,7 @@
         "resource_name": "overlayaddresspools",
         "rest_name": "overlayaddresspool",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Overlay Address Pool"
     }
 }

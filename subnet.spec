@@ -1322,6 +1322,7 @@
         "resource_name": "subnets",
         "rest_name": "subnet",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Subnet"
     }
 }

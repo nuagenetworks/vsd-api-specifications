@@ -199,6 +199,7 @@
         "resource_name": "permissions",
         "rest_name": "permission",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Permission"
     }
 }
