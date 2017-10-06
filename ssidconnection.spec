@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Egress QOS Policy ID"
+            "userlabel": "Egress QOS Policy"
         },
         {
             "allowed_chars": null,
