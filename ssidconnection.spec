@@ -356,7 +356,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The Vport associated with this VLAN.",
+            "description": "The Vport associated with this SSIDConnection.",
             "exposed": true,
             "filterable": true,
             "format": "free",
