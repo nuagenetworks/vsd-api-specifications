@@ -373,7 +373,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vport ID"
+            "userlabel": "VPort ID"
         },
         {
             "allowed_chars": null,
