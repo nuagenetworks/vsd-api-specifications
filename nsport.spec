@@ -58,7 +58,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "UBR-Only NAT Probes"
+            "userlabel": "Traffic Through UBR Only Enabled"
         },
         {
             "allowed_chars": null,
