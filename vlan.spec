@@ -113,7 +113,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Overlay QoS Policer"
+            "userlabel": "Ingress Overlay QoS Policer"
         },
         {
             "allowed_chars": null,
@@ -169,7 +169,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay QoS Policer"
+            "userlabel": "Ingress Underlay QoS Policer"
         },
         {
             "allowed_chars": null,
