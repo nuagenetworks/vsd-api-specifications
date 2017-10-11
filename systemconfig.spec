@@ -1230,7 +1230,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSS Stats Interval"
+            "userlabel": "VSS Statistics Interval"
         },
         {
             "allowed_chars": null,
