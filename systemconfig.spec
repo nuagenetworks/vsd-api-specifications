@@ -54,7 +54,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "AAR Probe Stats Interval"
+            "userlabel": "AAR Probe Statistics Interval"
         },
         {
             "allowed_chars": null,
