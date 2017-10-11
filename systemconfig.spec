@@ -26,7 +26,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "AAR Flow Stats Interval"
+            "userlabel": "AAR Flow Statistics Interval"
         },
         {
             "allowed_chars": null,
