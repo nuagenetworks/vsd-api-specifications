@@ -288,7 +288,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "AUTONEGOTIATE",
-                "BASE10",
+                "BASET10",
                 "BASET1000",
                 "BASETX100",
                 "BASEX10G"
