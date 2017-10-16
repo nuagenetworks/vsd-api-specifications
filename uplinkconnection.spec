@@ -504,7 +504,7 @@
             "orderable": true,
             "read_only": false,
             "required": false,
-            "subtype": null,
+            "subtype": "long",
             "transient": false,
             "type": "integer",
             "unique": false,
