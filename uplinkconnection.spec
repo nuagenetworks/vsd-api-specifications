@@ -492,7 +492,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID that unqiuely identifies the uplink. ",
+            "description": "ID that unqiuely identifies the uplink.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -506,7 +506,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "integer",
             "unique": false,
             "uniqueScope": null
         },
