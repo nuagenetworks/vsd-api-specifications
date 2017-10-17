@@ -130,6 +130,6 @@
         "rest_name": "qospolicer",
         "root": null,
         "update": true,
-        "userlabel": "Qos Policer"
+        "userlabel": "QoS Policer"
     }
 }
