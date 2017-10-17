@@ -125,10 +125,11 @@
             "@metadata"
         ],
         "get": true,
-        "package": "com.alu.cna.cloudmgmt.server.modules.policy.model.qos",
+        "package": "policy/qos",
         "resource_name": "qospolicers",
         "rest_name": "qospolicer",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "QoS Policer"
     }
 }
