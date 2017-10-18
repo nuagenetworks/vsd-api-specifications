@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -111,13 +114,14 @@
             "min_value": null,
             "name": "personality",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": true,
             "subtype": null,
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Personality"
         }
     ],
     "children": [
