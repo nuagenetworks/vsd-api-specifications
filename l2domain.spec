@@ -770,7 +770,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Current network’s  globally unique VXLAN network identifier",
+            "description": "Current network's globally unique VXLAN network identifier",
             "exposed": true,
             "filterable": false,
             "format": "free",
