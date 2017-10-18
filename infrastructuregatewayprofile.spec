@@ -417,7 +417,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "Long",
+            "subtype": "long",
             "transient": false,
             "type": "integer",
             "unique": false,

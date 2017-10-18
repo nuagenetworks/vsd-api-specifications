@@ -191,7 +191,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "0",
+            "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
