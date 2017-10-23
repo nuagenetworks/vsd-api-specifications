@@ -437,14 +437,14 @@
             "deprecated": false,
             "description": "Disable GRO on datapath",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "disableGROOnDatapath",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -452,7 +452,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable G R O On Datapath"
+            "userlabel": "Disable GRO On Datapath"
         },
         {
             "allowed_chars": null,
