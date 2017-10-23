@@ -508,7 +508,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable L R O On Datapath"
+            "userlabel": "Disable LRO On Datapath"
         },
         {
             "allowed_chars": null,
