@@ -536,7 +536,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable V R S Resource Reservation"
+            "userlabel": "Enable VRS Resource Reservation"
         },
         {
             "allowed_chars": null,
