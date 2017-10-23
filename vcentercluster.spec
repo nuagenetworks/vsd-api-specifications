@@ -480,7 +480,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable G R O On Datapath"
+            "userlabel": "Disable GRO On Datapath"
         },
         {
             "allowed_chars": null,
