@@ -465,14 +465,14 @@
             "deprecated": false,
             "description": "Disable LRO on datapath",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "disableLROOnDatapath",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -480,7 +480,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable L R O On Datapath"
+            "userlabel": "Disable LRO On Datapath"
         },
         {
             "allowed_chars": null,
