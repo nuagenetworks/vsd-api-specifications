@@ -471,7 +471,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "disableLROonDatapath",
+            "name": "disableLROOnDatapath",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -480,7 +480,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable L R Oon Datapath"
+            "userlabel": "Disable LROon Datapath"
         },
         {
             "allowed_chars": null,
