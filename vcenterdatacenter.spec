@@ -493,14 +493,14 @@
             "deprecated": false,
             "description": "Enable Resource Reservation on VRS",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "enableVRSResourceReservation",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -508,7 +508,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable V R S Resource Reservation"
+            "userlabel": "Enable VRS Resource Reservation"
         },
         {
             "allowed_chars": null,
