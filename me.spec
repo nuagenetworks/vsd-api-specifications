@@ -25,7 +25,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AAR Flow Stats Interval"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AAR Probe Stats Interval"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSS Stats Interval"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Avatar Data"
         },
         {
             "allowed_chars": null,
@@ -137,7 +141,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Avatar Type"
         },
         {
             "allowed_chars": null,
@@ -164,7 +169,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Disabled"
         },
         {
             "allowed_chars": null,
@@ -191,7 +197,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Elastic Search UI Address"
         },
         {
             "allowed_chars": null,
@@ -218,7 +225,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Email"
         },
         {
             "allowed_chars": null,
@@ -245,7 +253,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -272,7 +281,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise Name"
         },
         {
             "allowed_chars": null,
@@ -299,7 +309,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "First Name"
         },
         {
             "allowed_chars": null,
@@ -326,7 +337,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Flow Collection Enabled"
         },
         {
             "allowed_chars": null,
@@ -353,7 +365,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Last Name"
         },
         {
             "allowed_chars": null,
@@ -380,7 +393,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Mobile Number"
         },
         {
             "allowed_chars": null,
@@ -407,7 +421,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Password"
         },
         {
             "allowed_chars": null,
@@ -434,7 +449,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Role"
         },
         {
             "allowed_chars": null,
@@ -461,7 +477,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Statistics Enabled"
         },
         {
             "allowed_chars": null,
@@ -488,7 +505,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "User Name"
         }
     ],
     "children": [
@@ -906,6 +924,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "l4service",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
@@ -1014,6 +1044,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "nsgupgradeprofile",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
@@ -1054,6 +1096,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "policygroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "qospolicer",
             "update": false
         },
         {
@@ -1300,6 +1354,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "vnfthresholdpolicy",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -1372,6 +1438,7 @@
         "resource_name": "me",
         "rest_name": "me",
         "root": true,
-        "update": false
+        "update": false,
+        "userlabel": "Me"
     }
 }

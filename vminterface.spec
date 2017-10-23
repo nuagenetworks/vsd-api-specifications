@@ -642,6 +642,7 @@
         "resource_name": "vminterfaces",
         "rest_name": "vminterface",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VM Interface"
     }
 }

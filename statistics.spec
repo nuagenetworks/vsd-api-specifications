@@ -150,6 +150,7 @@
         "resource_name": "statistics",
         "rest_name": "statistics",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Statistics"
     }
 }

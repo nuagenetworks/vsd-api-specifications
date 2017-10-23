@@ -500,6 +500,7 @@
         "resource_name": "domaintemplates",
         "rest_name": "domaintemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Domain Template"
     }
 }

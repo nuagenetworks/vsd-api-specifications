@@ -348,6 +348,7 @@
         "resource_name": "nsginfos",
         "rest_name": "nsginfo",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "NSG Info"
     }
 }

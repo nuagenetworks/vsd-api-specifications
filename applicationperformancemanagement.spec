@@ -134,6 +134,7 @@
         "resource_name": "applicationperformancemanagements",
         "rest_name": "applicationperformancemanagement",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Application Performance Management"
     }
 }

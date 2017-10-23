@@ -652,6 +652,7 @@
         "resource_name": "applications",
         "rest_name": "application",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Application"
     }
 }

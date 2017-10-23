@@ -111,6 +111,7 @@
         "resource_name": "ipreservations",
         "rest_name": "ipreservation",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IP Reservation"
     }
 }

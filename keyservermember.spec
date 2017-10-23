@@ -1,57 +1,58 @@
 {
     "attributes": [
         {
-            "name": "issuerDN",
-            "type": "string",
-            "format": "free",
             "description": "Issuer DN",
             "exposed": true,
+            "format": "free",
+            "name": "issuerDN",
+            "type": "string",
             "uniqueScope": "no"
         },
         {
-            "name": "subjectDN",
-            "type": "string",
-            "format": "free",
             "description": "Subject DN",
             "exposed": true,
+            "format": "free",
+            "name": "subjectDN",
+            "type": "string",
             "uniqueScope": "no"
         },
         {
-            "name": "publicKey",
-            "type": "string",
-            "format": "free",
             "description": "Public Key",
             "exposed": true,
+            "format": "free",
+            "name": "publicKey",
+            "type": "string",
             "uniqueScope": "no"
         },
         {
-            "name": "certificateSerialNumber",
-            "type": "integer",
-            "subtype": "long",
             "description": "Certificate serial number associated to the keyserver private key which it is currently signing with",
             "exposed": true,
+            "name": "certificateSerialNumber",
+            "subtype": "long",
+            "type": "integer",
             "uniqueScope": "no"
         },
         {
-            "name": "fqdn",
-            "type": "string",
-            "format": "free",
             "description": "FQDN of the keyserver member",
             "exposed": true,
+            "format": "free",
+            "name": "fqdn",
+            "type": "string",
             "uniqueScope": "no"
         },
         {
-            "name": "pemEncoded",
-            "type": "string",
-            "format": "free",
             "description": "PEM Encoded Certificate",
             "exposed": true,
+            "format": "free",
+            "name": "pemEncoded",
+            "type": "string",
             "uniqueScope": "no"
         }
     ],
-    "children": [
-    ],
+    "children": [],
     "model": {
+        "create": true,
+        "delete": true,
         "description": "Represents a KeyServer",
         "entity_name": "KeyServerMember",
         "extends": [
@@ -59,12 +60,11 @@
             "@base",
             "@metadata"
         ],
+        "get": true,
         "package": "keyserver",
         "resource_name": "keyservermembers",
         "rest_name": "keyservermember",
-        "get": true,
         "update": true,
-        "delete": true,
-        "create": true
+        "userlabel": "Key Server Member"
     }
 }

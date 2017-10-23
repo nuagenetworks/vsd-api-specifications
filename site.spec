@@ -152,6 +152,7 @@
         "resource_name": "sites",
         "rest_name": "site",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Site Info"
     }
 }

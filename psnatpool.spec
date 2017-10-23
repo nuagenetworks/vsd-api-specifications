@@ -92,6 +92,7 @@
         "resource_name": "psnatpools",
         "rest_name": "psnatpool",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Provider Source Pool"
     }
 }

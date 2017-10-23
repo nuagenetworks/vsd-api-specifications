@@ -181,6 +181,7 @@
         "resource_name": "enterprisenetworks",
         "rest_name": "enterprisenetwork",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Enterprise Network"
     }
 }

@@ -246,6 +246,7 @@
         "resource_name": "policygroups",
         "rest_name": "policygroup",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Policy Group"
     }
 }

@@ -96,6 +96,7 @@
         "resource_name": "spatsourcespools",
         "rest_name": "spatsourcespool",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "SPAT Source List"
     }
 }

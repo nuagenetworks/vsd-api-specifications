@@ -1608,6 +1608,7 @@
         "resource_name": "vrsconfigs",
         "rest_name": "vrsconfig",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VCenter VRS Config"
     }
 }

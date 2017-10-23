@@ -25,7 +25,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DHCP Managed"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ECMP Count"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Access Restriction Enabled"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated PAT Mapper"
         },
         {
             "allowed_chars": null,
@@ -144,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "backHaulRouteDistinguisher of the Shared Resource",
+            "description": "Backhaul route distinguisher of the shared resource. Supported formats are: [2-byte ASN]:[4-byte value] or [4-byte ASN]:[2-byte value]",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Backhaul Route Distinguisher"
         },
         {
             "allowed_chars": null,
@@ -171,7 +177,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "backHaulRouteTarget of the Shared Resource",
+            "description": "Backhaul route target of the shared resource. Supported formats are: [2-byte ASN]:[4-byte value] or [4-byte ASN]:[2-byte value]",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Backhaul Route Target"
         },
         {
             "allowed_chars": null,
@@ -198,10 +205,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "backHaulVNID of the Shared Resource",
+            "description": "Backhaul virtual network ID of the shared resource",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Backhaul Virtual Network ID"
         },
         {
             "allowed_chars": null,
@@ -241,7 +249,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -252,7 +261,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Route distinguisher configured on the shared resource",
+            "description": "Route distinguisher configured on the shared resource. Supported formats are: [2-byte ASN]:[4-byte value] or [4-byte ASN]:[2-byte value]",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -268,7 +277,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain Route Distinguisher"
         },
         {
             "allowed_chars": null,
@@ -279,7 +289,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Route target configured on the shared resource",
+            "description": "Route target configured on the shared resource. Supported formats are: [2-byte ASN]:[4-byte value] or [4-byte ASN]:[2-byte value]",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -295,7 +305,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain Route Target"
         },
         {
             "allowed_chars": null,
@@ -322,7 +333,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dynamic PAT Allocation Enabled"
         },
         {
             "allowed_chars": null,
@@ -349,7 +361,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway"
         },
         {
             "allowed_chars": null,
@@ -376,7 +389,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway MAC Address"
         },
         {
             "allowed_chars": null,
@@ -403,7 +417,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -430,7 +445,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Netmask"
         },
         {
             "allowed_chars": null,
@@ -464,7 +480,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Permitted Action Type"
         },
         {
             "allowed_chars": null,
@@ -491,7 +508,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Shared Resource Parent"
         },
         {
             "allowed_chars": null,
@@ -523,7 +541,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -550,7 +569,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Underlay"
         },
         {
             "allowed_chars": null,
@@ -577,7 +597,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Uplink Gateway VLAN Attachment"
         },
         {
             "allowed_chars": null,
@@ -604,7 +625,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Uplink Interface IP"
         },
         {
             "allowed_chars": null,
@@ -631,7 +653,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Uplink Interface MAC"
         },
         {
             "allowed_chars": null,
@@ -658,7 +681,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Uplink VPort"
         },
         {
             "allowed_chars": null,
@@ -688,7 +712,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Use Global MAC"
         },
         {
             "allowed_chars": null,
@@ -699,10 +724,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "VNID of the Shared Resource",
+            "description": "Virtual network ID of the shared resource",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -715,7 +740,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Virtual Network ID"
         }
     ],
     "children": [
@@ -807,6 +833,7 @@
         "resource_name": "sharednetworkresources",
         "rest_name": "sharednetworkresource",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Shared Network Resource"
     }
 }

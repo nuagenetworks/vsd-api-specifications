@@ -913,6 +913,7 @@
         "resource_name": "ingressaclentrytemplates",
         "rest_name": "ingressaclentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Ingress Security Policy Entry"
     }
 }

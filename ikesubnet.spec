@@ -71,6 +71,7 @@
         "resource_name": "ikesubnets",
         "rest_name": "ikesubnet",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Remote Subnet"
     }
 }

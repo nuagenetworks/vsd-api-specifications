@@ -80,6 +80,7 @@
         "resource_name": "trunks",
         "rest_name": "trunk",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Trunk"
     }
 }

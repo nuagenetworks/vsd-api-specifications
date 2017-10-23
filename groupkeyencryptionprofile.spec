@@ -617,6 +617,7 @@
         "resource_name": "groupkeyencryptionprofiles",
         "rest_name": "groupkeyencryptionprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Group Key Encryption Profile"
     }
 }

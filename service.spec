@@ -569,6 +569,7 @@
         "resource_name": "services",
         "rest_name": "service",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "WAN Service"
     }
 }

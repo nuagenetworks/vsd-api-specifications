@@ -573,6 +573,7 @@
         "resource_name": "ikegatewayprofiles",
         "rest_name": "ikegatewayprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IKE Gateway Profile"
     }
 }

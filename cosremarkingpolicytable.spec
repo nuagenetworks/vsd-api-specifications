@@ -84,6 +84,7 @@
         "resource_name": "cosremarkingpolicytables",
         "rest_name": "cosremarkingpolicytable",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "CoS Remarking Profile"
     }
 }

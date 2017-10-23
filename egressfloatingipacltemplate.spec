@@ -307,6 +307,7 @@
         "resource_name": "egressfloatingipacltemplates",
         "rest_name": "egressfloatingipacltemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Floating IP ACL"
     }
 }

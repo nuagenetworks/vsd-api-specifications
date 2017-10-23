@@ -84,6 +84,7 @@
         "resource_name": "gatewaysecurities",
         "rest_name": "gatewaysecurity",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Gateway Security"
     }
 }

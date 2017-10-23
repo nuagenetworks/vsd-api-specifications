@@ -475,6 +475,7 @@
         "resource_name": "vnfinterfaces",
         "rest_name": "vnfinterface",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Interface"
     }
 }

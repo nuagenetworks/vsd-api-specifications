@@ -138,6 +138,7 @@
         "resource_name": "virtualips",
         "rest_name": "virtualip",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Virtual IP"
     }
 }

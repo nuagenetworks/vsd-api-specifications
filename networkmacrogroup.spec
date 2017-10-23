@@ -91,7 +91,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "enterprisenetwork",
             "update": true
         }
@@ -111,6 +111,7 @@
         "resource_name": "networkmacrogroups",
         "rest_name": "networkmacrogroup",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Network Macro Group"
     }
 }

@@ -174,6 +174,7 @@
         "resource_name": "vsps",
         "rest_name": "vsp",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VSP"
     }
 }

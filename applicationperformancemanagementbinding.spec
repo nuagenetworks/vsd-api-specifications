@@ -94,6 +94,7 @@
         "resource_name": "applicationperformancemanagementbindings",
         "rest_name": "applicationperformancemanagementbinding",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Application Performance Management Binding"
     }
 }

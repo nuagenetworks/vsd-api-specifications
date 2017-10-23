@@ -169,6 +169,7 @@
         "resource_name": "publicnetworks",
         "rest_name": "publicnetwork",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Public Network Macro"
     }
 }

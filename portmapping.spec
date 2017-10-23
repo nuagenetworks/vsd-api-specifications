@@ -70,6 +70,7 @@
         "resource_name": "portmappings",
         "rest_name": "portmapping",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Port Mapping"
     }
 }

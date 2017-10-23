@@ -126,6 +126,7 @@
         "resource_name": "captiveportalprofiles",
         "rest_name": "captiveportalprofile",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Captive Portal Profile"
     }
 }

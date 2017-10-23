@@ -516,6 +516,7 @@
         "resource_name": "nsgredundancygroups",
         "rest_name": "nsgredundancygroup",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Redundancy Group"
     }
 }

@@ -666,6 +666,7 @@
         "resource_name": "hscs",
         "rest_name": "hsc",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "HSC"
     }
 }

@@ -128,6 +128,7 @@
         "resource_name": "pgexpressions",
         "rest_name": "pgexpression",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Policy Group Expression"
     }
 }

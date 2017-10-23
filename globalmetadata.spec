@@ -179,6 +179,7 @@
         "resource_name": "globalmetadatas",
         "rest_name": "globalmetadata",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Global Metadata"
     }
 }

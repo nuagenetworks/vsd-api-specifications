@@ -177,6 +177,7 @@
         "resource_name": "aggregatemetadatas",
         "rest_name": "aggregatemetadata",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Aggregate Metadata"
     }
 }

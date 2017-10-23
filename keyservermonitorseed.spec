@@ -203,6 +203,7 @@
         "resource_name": "keyservermonitorseeds",
         "rest_name": "keyservermonitorseed",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Key Server Monitor Seed"
     }
 }

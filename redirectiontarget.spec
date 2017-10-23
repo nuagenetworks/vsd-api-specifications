@@ -298,6 +298,7 @@
         "resource_name": "redirectiontargets",
         "rest_name": "redirectiontarget",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Redirection Target"
     }
 }

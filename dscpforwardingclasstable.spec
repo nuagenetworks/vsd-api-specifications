@@ -84,6 +84,7 @@
         "resource_name": "dscpforwardingclasstables",
         "rest_name": "dscpforwardingclasstable",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "DSCP Mapping Table"
     }
 }

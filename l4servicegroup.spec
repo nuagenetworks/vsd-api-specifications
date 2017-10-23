@@ -85,6 +85,7 @@
         "resource_name": "l4servicegroups",
         "rest_name": "l4servicegroup",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "L4 Service Group"
     }
 }

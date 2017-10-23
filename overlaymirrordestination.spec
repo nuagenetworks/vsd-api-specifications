@@ -234,6 +234,7 @@
         "resource_name": "overlaymirrordestinations",
         "rest_name": "overlaymirrordestination",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Overlay Mirror Destination"
     }
 }

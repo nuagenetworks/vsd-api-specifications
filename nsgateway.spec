@@ -11,21 +11,22 @@
             "deprecated": false,
             "description": "NSG BIOS Version",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
             "name": "BIOSVersion",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "BIOS Version"
         },
         {
             "allowed_chars": null,
@@ -38,21 +39,22 @@
             "deprecated": false,
             "description": "The NSG Processor Type",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "CPUType",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "CPU Type"
         },
         {
             "allowed_chars": null,
@@ -65,21 +67,22 @@
             "deprecated": false,
             "description": "MAC Address of the NSG",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "MACAddress",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "MAC Address"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "NAT Traversal Enabled"
         },
         {
             "allowed_chars": null,
@@ -119,21 +123,22 @@
             "deprecated": false,
             "description": "The NSG Version",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "NSGVersion",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "NSG Version"
         },
         {
             "allowed_chars": null,
@@ -146,21 +151,22 @@
             "deprecated": false,
             "description": "The part number of the NSG",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "SKU",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SKU"
         },
         {
             "allowed_chars": null,
@@ -191,7 +197,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SSH Service"
         },
         {
             "allowed_chars": null,
@@ -218,7 +225,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "TCPMSS Enabled"
         },
         {
             "allowed_chars": null,
@@ -245,7 +253,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "TCP Maximum Segment Size"
         },
         {
             "allowed_chars": null,
@@ -277,7 +286,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "TPM Status"
         },
         {
             "allowed_chars": null,
@@ -290,21 +300,22 @@
             "deprecated": false,
             "description": "The Redhat UUID of the NSG",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "UUID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "UUID"
         },
         {
             "allowed_chars": null,
@@ -331,7 +342,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Gateway Securi"
         },
         {
             "allowed_chars": null,
@@ -358,7 +370,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Gateway Securi"
         },
         {
             "allowed_chars": null,
@@ -385,7 +398,36 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated NSG Info ID"
+        },
+        {
+            "allowed_chars": null,
+            "allowed_choices": null,
+            "autogenerated": false,
+            "channel": null,
+            "creation_only": false,
+            "default_order": false,
+            "default_value": null,
+            "deprecated": false,
+            "description": "The UUID of the NSG Upgrade Profile associated to this NSG instance.",
+            "exposed": true,
+            "filterable": false,
+            "format": "free",
+            "max_length": null,
+            "max_value": null,
+            "min_length": null,
+            "min_value": null,
+            "name": "associatedNSGUpgradeProfileID",
+            "orderable": false,
+            "read_only": false,
+            "required": false,
+            "subtype": null,
+            "transient": false,
+            "type": "string",
+            "unique": false,
+            "uniqueScope": null,
+            "userlabel": "Upgrade Profile"
         },
         {
             "allowed_chars": null,
@@ -412,7 +454,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Auto Disc Gateway ID"
         },
         {
             "allowed_chars": null,
@@ -439,7 +482,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Bootstrap ID"
         },
         {
             "allowed_chars": null,
@@ -472,7 +516,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Bootstrap Status"
         },
         {
             "allowed_chars": null,
@@ -505,7 +550,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Configuration Reload Stat"
         },
         {
             "allowed_chars": null,
@@ -536,6 +582,61 @@
             "transient": false,
             "type": "enum",
             "unique": false,
+            "uniqueScope": null,
+            "userlabel": "Configuration Status"
+        },
+        {
+            "allowed_chars": null,
+            "allowed_choices": null,
+            "autogenerated": false,
+            "channel": null,
+            "creation_only": false,
+            "default_order": false,
+            "default_value": "7",
+            "deprecated": false,
+            "description": "COS Value for Self Generated Traffic (Control Traffic). Min is 0 and Max is 7",
+            "exposed": true,
+            "filterable": true,
+            "format": null,
+            "max_length": null,
+            "max_value": 7,
+            "min_length": null,
+            "min_value": 0,
+            "name": "controlTrafficCOSValue",
+            "orderable": true,
+            "read_only": false,
+            "required": false,
+            "subtype": null,
+            "transient": false,
+            "type": "integer",
+            "unique": false,
+            "uniqueScope": null
+        },
+        {
+            "allowed_chars": null,
+            "allowed_choices": null,
+            "autogenerated": false,
+            "channel": null,
+            "creation_only": false,
+            "default_order": false,
+            "default_value": "56",
+            "deprecated": false,
+            "description": "DSCP Value for Self Generated Traffic (Control Traffic). Min is 0 and Max is 63",
+            "exposed": true,
+            "filterable": true,
+            "format": null,
+            "max_length": null,
+            "max_value": 63,
+            "min_length": null,
+            "min_value": 0,
+            "name": "controlTrafficDSCPValue",
+            "orderable": true,
+            "read_only": false,
+            "required": false,
+            "subtype": null,
+            "transient": false,
+            "type": "integer",
+            "unique": false,
             "uniqueScope": null
         },
         {
@@ -563,7 +664,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Datapath ID"
         },
         {
             "allowed_chars": null,
@@ -596,7 +698,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Derived SSH Service State"
         },
         {
             "allowed_chars": null,
@@ -623,7 +726,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -650,14 +754,21 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
             "allowed_choices": [
                 "ANY",
                 "NSG_E",
-                "NSG_V"
+                "NSG_V",
+                "NSG_AMI",
+                "NSG_X",
+                "NSG_C",
+                "NSG_E200",
+                "NSG_E300",
+                "NSG_X200"
             ],
             "autogenerated": false,
             "channel": null,
@@ -667,21 +778,22 @@
             "deprecated": false,
             "description": "The NSG Type",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "family",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Family"
         },
         {
             "allowed_chars": null,
@@ -711,7 +823,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Inherited SSH Service Sta"
         },
         {
             "allowed_chars": null,
@@ -738,7 +851,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Last Configuration Reload"
         },
         {
             "allowed_chars": null,
@@ -762,10 +876,11 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Libraries"
         },
         {
             "allowed_chars": null,
@@ -792,7 +907,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Location ID"
         },
         {
             "allowed_chars": null,
@@ -819,7 +935,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -851,7 +968,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Network Acceleration"
         },
         {
             "allowed_chars": null,
@@ -864,21 +982,22 @@
             "deprecated": false,
             "description": "Operation mode of NSGateway",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "operationMode",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Operation Mode"
         },
         {
             "allowed_chars": null,
@@ -891,21 +1010,22 @@
             "deprecated": false,
             "description": "Operation Status of NSGateway",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "operationStatus",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Operation Status"
         },
         {
             "allowed_chars": null,
@@ -932,7 +1052,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Pending"
         },
         {
             "allowed_chars": null,
@@ -966,7 +1087,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Permitted Action"
         },
         {
             "allowed_chars": null,
@@ -1003,7 +1125,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Personality"
         },
         {
             "allowed_chars": null,
@@ -1016,21 +1139,22 @@
             "deprecated": false,
             "description": "NSG Product Name",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
             "name": "productName",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Product Name"
         },
         {
             "allowed_chars": null,
@@ -1057,7 +1181,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Redundancy Group ID"
         },
         {
             "allowed_chars": null,
@@ -1070,21 +1195,22 @@
             "deprecated": false,
             "description": "The NSG's serial number",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "serialNumber",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Serial Number"
         },
         {
             "allowed_chars": null,
@@ -1111,7 +1237,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "System ID"
         },
         {
             "allowed_chars": null,
@@ -1138,7 +1265,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Template ID"
         }
     ],
     "children": [
@@ -1176,6 +1304,18 @@
             "get": false,
             "relationship": "child",
             "rest_name": "bootstrapactivation",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "command",
             "update": false
         },
         {
@@ -1362,6 +1502,7 @@
         "resource_name": "nsgateways",
         "rest_name": "nsgateway",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Network Services Gateway"
     }
 }

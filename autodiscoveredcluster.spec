@@ -87,16 +87,17 @@
         "create": false,
         "delete": false,
         "description": null,
+        "entity_name": "AutoDiscoverCluster",
         "extends": [
             "@audited",
             "@base"
         ],
-        "entity_name": "AutoDiscoverCluster",
         "get": true,
         "package": "vmware",
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Auto Discover Cluster"
     }
 }

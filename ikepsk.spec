@@ -260,6 +260,7 @@
         "resource_name": "ikepsks",
         "rest_name": "ikepsk",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IKE PSK"
     }
 }

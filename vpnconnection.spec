@@ -98,6 +98,7 @@
         "resource_name": "vpnconnections",
         "rest_name": "vpnconnection",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VPN Connection"
     }
 }

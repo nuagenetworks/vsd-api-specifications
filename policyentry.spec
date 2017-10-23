@@ -121,6 +121,7 @@
         "resource_name": "policyentries",
         "rest_name": "policyentry",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Policy Entry"
     }
 }

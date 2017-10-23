@@ -820,6 +820,7 @@
         "resource_name": "qos",
         "rest_name": "qos",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "QoS Policy"
     }
 }

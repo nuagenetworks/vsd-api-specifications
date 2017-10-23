@@ -80,6 +80,7 @@
         "resource_name": "policystatements",
         "rest_name": "policystatement",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Policy Statement"
     }
 }

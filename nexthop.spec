@@ -71,6 +71,7 @@
         "resource_name": "nexthops",
         "rest_name": "nexthop",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Service Chaining"
     }
 }

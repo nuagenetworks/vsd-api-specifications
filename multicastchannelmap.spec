@@ -96,6 +96,7 @@
         "resource_name": "multicastchannelmaps",
         "rest_name": "multicastchannelmap",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Multicast Channel Map"
     }
 }

@@ -421,6 +421,7 @@
         "resource_name": "vrsredeploymentpolicies",
         "rest_name": "vrsredeploymentpolicy",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VRS Redeployment Policy"
     }
 }

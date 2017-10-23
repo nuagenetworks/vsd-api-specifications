@@ -145,6 +145,7 @@
         "resource_name": "addressranges",
         "rest_name": "addressrange",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Address Range"
     }
 }

@@ -190,6 +190,7 @@
         "resource_name": "metadatas",
         "rest_name": "metadata",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Metadata"
     }
 }

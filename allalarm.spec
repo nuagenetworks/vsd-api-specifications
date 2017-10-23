@@ -293,6 +293,7 @@
         "resource_name": "allalarms",
         "rest_name": "allalarm",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Alarm"
     }
 }

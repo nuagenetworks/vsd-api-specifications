@@ -88,7 +88,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "False",
+            "default_value": "false",
             "deprecated": false,
             "description": "Boolean flag to indicate whether the BFD Session has single hop or multi hop capability.",
             "exposed": true,
@@ -125,6 +125,7 @@
         "resource_name": "bfdsessions",
         "rest_name": "bfdsession",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "BFD Session"
     }
 }

@@ -344,6 +344,7 @@
         "resource_name": "links",
         "rest_name": "link",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Link"
     }
 }

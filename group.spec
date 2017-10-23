@@ -273,6 +273,7 @@
         "resource_name": "groups",
         "rest_name": "group",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Group"
     }
 }

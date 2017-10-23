@@ -516,6 +516,7 @@
         "resource_name": "subnettemplates",
         "rest_name": "subnettemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Subnet Template"
     }
 }

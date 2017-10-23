@@ -745,6 +745,7 @@
         "resource_name": "egressfloatingipaclentrytemplates",
         "rest_name": "egressfloatingipaclentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Floating IP ACL Entry"
     }
 }

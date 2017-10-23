@@ -318,6 +318,7 @@
         "resource_name": "autodiscoveredgateways",
         "rest_name": "autodiscoveredgateway",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Auto Discovered Gateway"
     }
 }

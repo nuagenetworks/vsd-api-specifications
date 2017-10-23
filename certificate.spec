@@ -151,6 +151,7 @@
         "resource_name": "certificates",
         "rest_name": "certificate",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Certificate"
     }
 }

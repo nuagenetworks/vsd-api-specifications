@@ -29,7 +29,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SSH Authentication Mode"
         },
         {
             "allowed_chars": null,
@@ -56,7 +57,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -83,7 +85,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -94,7 +97,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Infrastructure Profile",
+            "description": "Name of the Infrastructure Acces Profile",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -110,7 +113,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -123,21 +127,22 @@
             "deprecated": false,
             "description": "Password of the default user associated to the access profile.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": 512,
             "max_value": null,
             "min_length": 8,
             "min_value": null,
             "name": "password",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Password"
         },
         {
             "allowed_chars": null,
@@ -167,7 +172,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source IP Filter"
         },
         {
             "allowed_chars": null,
@@ -194,7 +200,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Username"
         }
     ],
     "children": [],
@@ -213,6 +220,7 @@
         "resource_name": "infrastructureaccessprofiles",
         "rest_name": "infrastructureaccessprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Infrastructure Access Profile"
     }
 }

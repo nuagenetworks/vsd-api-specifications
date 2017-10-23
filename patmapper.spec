@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": true,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         }
     ],
     "children": [
@@ -67,6 +69,18 @@
             "relationship": "member",
             "rest_name": "sharednetworkresource",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "subnet",
+            "update": false
         }
     ],
     "model": {
@@ -75,14 +89,15 @@
         "description": "missing documentation.",
         "entity_name": "PATMapper",
         "extends": [
-            "@base",
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": "gateway",
         "resource_name": "patmappers",
         "rest_name": "patmapper",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "PAT Mapper"
     }
 }

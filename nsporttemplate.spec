@@ -282,6 +282,7 @@
         "resource_name": "nsporttemplates",
         "rest_name": "nsporttemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "NS Port Template"
     }
 }

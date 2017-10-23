@@ -275,6 +275,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "APPLY_POLICY_CHANGES",
+                "ASSIGN_NSG_UPGRADE_PROFILE",
                 "BATCH_CRUD_REQUEST",
                 "BATCH_GATEWAY_SECURED_DATAS",
                 "BEGIN_POLICY_CHANGES",
@@ -473,6 +474,7 @@
         "resource_name": "jobs",
         "rest_name": "job",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Job"
     }
 }

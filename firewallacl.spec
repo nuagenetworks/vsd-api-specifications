@@ -200,6 +200,7 @@
         "resource_name": "firewallacls",
         "rest_name": "firewallacl",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Firewall ACL"
     }
 }
