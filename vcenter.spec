@@ -128,7 +128,7 @@
             "max_length": null,
             "max_value": null,
             "min_length": null,
-            "min_value": null,
+            "min_value": 10,
             "name": "configuredMetricsPushInterval",
             "orderable": false,
             "read_only": false,
