@@ -2124,14 +2124,14 @@
             "deprecated": false,
             "description": "Secondary data uplink IP",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "secondaryDataUplinkIP",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -2139,7 +2139,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink I P"
+            "userlabel": "Secondary Data Uplink IP"
         },
         {
             "allowed_chars": null,
