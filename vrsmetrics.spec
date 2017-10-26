@@ -381,7 +381,6 @@
         "rest_name": "vrsmetrics",
         "root": false,
         "update": true,
-        "userlabel": null
         "userlabel": "VRS Metrics"
     }
 }
