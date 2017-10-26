@@ -54,7 +54,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "P A T Enabled"
+            "userlabel": "PAT Enabled"
         },
         {
             "allowed_chars": null,
