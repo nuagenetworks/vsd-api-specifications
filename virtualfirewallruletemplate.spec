@@ -10,7 +10,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "The read only id of the auto generated Ingress Template",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
