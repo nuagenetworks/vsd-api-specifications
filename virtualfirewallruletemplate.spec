@@ -94,7 +94,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "The read only id of the auto generated Egress Template",
-            "exposed": true,
+            "exposed": false,
             "filterable": true,
             "format": "free",
             "max_length": null,
