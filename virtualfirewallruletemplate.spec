@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The auto generated Ingress template Id.",
+            "description": "The read only id of the auto generated Ingress Template",
             "exposed": true,
             "filterable": true,
             "format": "free",
