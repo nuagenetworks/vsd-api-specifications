@@ -40,7 +40,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": "false",
-            "deprecated": false,
+            "deprecated": true,
             "description": "determines whether or not Deep packet inspection is enabled",
             "exposed": true,
             "filterable": true,
@@ -710,6 +710,7 @@
         "resource_name": "l2domaintemplates",
         "rest_name": "l2domaintemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": null
     }
 }
