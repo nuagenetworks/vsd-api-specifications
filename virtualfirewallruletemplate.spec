@@ -349,7 +349,7 @@
         "create": false,
         "delete": true,
         "description": "Defines the template for an Ingress ACL.",
-        "entity_name": "Virtualfirewallruletemplate",
+        "entity_name": "VirtualFirewallruletemplate",
         "extends": [
             "@audited",
             "@base",
