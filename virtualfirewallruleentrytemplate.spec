@@ -901,7 +901,7 @@
     "model": {
         "create": false,
         "delete": true,
-        "description": "Defines the template of Ingress ACL entries",
+        "description": "Defines the template of Virtual Firewall Rule entries",
         "entity_name": "VirtualFirewallruleEntryTemplate",
         "extends": [
             "@audited",
@@ -914,6 +914,6 @@
         "rest_name": "virtualfirewallruleentrytemplate",
         "root": false,
         "update": true,
-        "userlabel": "Ingress Security Policy Entry"
+        "userlabel": "Virtual Firewall Rule Entry"
     }
 }
