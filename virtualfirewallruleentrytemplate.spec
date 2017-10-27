@@ -902,7 +902,7 @@
         "create": false,
         "delete": true,
         "description": "Defines the template of Ingress ACL entries",
-        "entity_name": "IngressACLEntryTemplate",
+        "entity_name": "VirtualFirewallruleEntryTemplate",
         "extends": [
             "@audited",
             "@base",
@@ -910,8 +910,8 @@
         ],
         "get": true,
         "package": "policy/acl",
-        "resource_name": "ingressaclentrytemplates",
-        "rest_name": "ingressaclentrytemplate",
+        "resource_name": "virtualfirewallruleentrytemplates",
+        "rest_name": "virtualfirewallruleentrytemplate",
         "root": false,
         "update": true,
         "userlabel": "Ingress Security Policy Entry"
