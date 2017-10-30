@@ -63,7 +63,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "true",
             "deprecated": false,
             "description": "Indicated whether route to underlay is enabled on this uplink connection.",
             "exposed": true,
