@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The name of the parent Template for this acl entry",
+            "description": "The name of the parent template for this rule entry",
             "exposed": true,
             "filterable": false,
             "format": "free",
