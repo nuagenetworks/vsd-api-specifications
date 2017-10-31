@@ -240,7 +240,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Description of the ACL entry",
+            "description": "Description of the rule entry",
             "exposed": true,
             "filterable": true,
             "format": "free",
