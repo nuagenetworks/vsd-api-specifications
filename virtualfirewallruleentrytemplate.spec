@@ -170,7 +170,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Live Entity ID"
+            "userlabel": "Associated Live Entity"
         },
         {
             "allowed_chars": null,
