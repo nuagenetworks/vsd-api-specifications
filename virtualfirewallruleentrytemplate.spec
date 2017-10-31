@@ -684,7 +684,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "True means that this ACL entry is stateful, so there will be a corresponding rule that will be created by OVS in the network. False means that there is no corresponding rule created by OVS in the network.",
+            "description": "True means that this rule entry is stateful, so there will be a corresponding rule that will be created by OVS in the network. False means that there is no corresponding rule created by OVS in the network.",
             "exposed": true,
             "filterable": true,
             "format": null,
