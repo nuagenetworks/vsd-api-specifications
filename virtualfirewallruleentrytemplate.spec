@@ -790,7 +790,7 @@
         "create": false,
         "delete": true,
         "description": "Defines the template of Virtual Firewall Rule entries",
-        "entity_name": "VirtualFirewallruleEntryTemplate",
+        "entity_name": "VirtualFirewallRuleEntryTemplate",
         "extends": [
             "@audited",
             "@base",
