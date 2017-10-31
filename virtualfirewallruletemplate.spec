@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the ACL template associated with this ACL template",
+            "description": "ID of the rule template associated with this rule.",
             "exposed": true,
             "filterable": false,
             "format": "free",
