@@ -3777,7 +3777,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Enable Virtual Firewall Rule creation and management. This will be available only with VSS License",
             "exposed": true,
             "filterable": true,
             "format": "free",
