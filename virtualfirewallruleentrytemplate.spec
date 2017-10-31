@@ -324,7 +324,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The name of the enterprise for the domains parent",
+            "description": "The name of the enterprise for the domain's parent",
             "exposed": true,
             "filterable": false,
             "format": "free",
