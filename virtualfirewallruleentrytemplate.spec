@@ -125,7 +125,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The UUID of the associated L7 Application signature",
+            "description": "The UUID of the associated L7 Application Signature",
             "exposed": true,
             "filterable": false,
             "format": "free",
