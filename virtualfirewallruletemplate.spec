@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Aasociated Ingress Template I D"
+            "userlabel": "Associated Ingress Template I D"
         },
         {
             "allowed_chars": null,
