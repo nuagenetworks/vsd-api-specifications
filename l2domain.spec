@@ -944,6 +944,18 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
+            "rest_name": "ingressaclentrytemplate",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
             "rest_name": "ingressacltemplate",
             "update": false
         },
@@ -1101,18 +1113,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "uplinkroutedistinguisher",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "virtualfirewallruleentrytemplate",
             "update": false
         },
         {
