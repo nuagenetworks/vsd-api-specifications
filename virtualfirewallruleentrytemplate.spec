@@ -153,7 +153,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "In the draft mode, the ACL entry refers to this LiveEntity. In non-drafted mode, this is null.",
+            "description": "In the draft mode, the rule entry refers to this LiveEntity. In non-drafted mode, this is null.",
             "exposed": true,
             "filterable": true,
             "format": "free",
