@@ -334,7 +334,7 @@
         "create": false,
         "delete": true,
         "description": "Defines the template for a Virtual Firewall Rule.",
-        "entity_name": "VirtualFirewallruleTemplate",
+        "entity_name": "VirtualFirewallRuleTemplate",
         "extends": [
             "@audited",
             "@base",
