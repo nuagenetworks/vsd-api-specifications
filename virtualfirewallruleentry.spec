@@ -403,6 +403,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "ANY",
+                "NETWORK_MACRO_GROUP",
                 "PGEXPRESSION",
                 "POLICYGROUP",
                 "SUBNET",
