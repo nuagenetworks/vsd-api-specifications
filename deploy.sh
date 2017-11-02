@@ -43,7 +43,7 @@ function generate_sdk()
         -L ${language}
 
     # for vspks maintained by @pdumais, open issues to tell their bot when there's a release
-    if ["${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
+    if [ "${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
         open_issue_for_release ${language} ${tag}
     fi
 }
