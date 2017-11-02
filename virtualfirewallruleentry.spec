@@ -510,7 +510,7 @@
             "default_order": false,
             "default_value": "ANY",
             "deprecated": false,
-            "description": "Type of the destination endpoint (Subnet/Zone/Macro/MacroGroup/PolicyGroup/PolicyGroupExpression)",
+            "description": "Type of the destination endpoint (Subnet/Zone/PortGroup/PolicyGroupExpression/NetworkMacro/Internet Policy Group/Enterprise Network)",
             "exposed": true,
             "filterable": true,
             "format": null,
