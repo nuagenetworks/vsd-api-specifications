@@ -324,7 +324,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Forwarding Path List I D"
+            "userlabel": "Associated Forwarding Path List"
         },
         {
             "allowed_chars": null,
