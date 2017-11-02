@@ -41,6 +41,24 @@ function generate_sdk()
         -b ${branches} \
         -f . \
         -L ${language}
+
+    # for vspks maintained by @pdumais, open issues to tell their bot when there's a release
+    if ["${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
+        open_issue_for_release ${language} ${tag}
+    fi
+}
+
+function open_issue_for_release()
+{
+    local language=${1}
+    local tag=${2}
+
+    curl \
+        -H "Authorization: token ${GITHUB_API_PUBLIC_REPOS_TOKEN}" \
+        -X POST \
+        -f \
+        -d '{"title": "Create release for '${tag}'", "body": "Create a release on Github and in Nuget gallery for VSPK '${tag}'","labels":["release"]}"' \
+        https://api.github.com/repos/nuagenetworks/vspk-${language}/issues
 }
 
 function update_repo()
