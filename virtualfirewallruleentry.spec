@@ -417,7 +417,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the source endpoint (Subnet/Zone/VportTag/PortGroup/PolicyGroupExpression)",
+            "description": "Type of the source endpoint (Subnet/Zone/PortGroup/PolicyGroupExpression/NetworkMacro/Internet Policy Group/Enterprise Network)",
             "exposed": true,
             "filterable": true,
             "format": null,
