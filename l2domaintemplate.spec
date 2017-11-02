@@ -692,7 +692,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "redirectiontargettemplate",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
