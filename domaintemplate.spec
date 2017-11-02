@@ -482,7 +482,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "virtualfirewallrule",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
