@@ -473,7 +473,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the destination endpoint (Subnet/Zone/Macro/MacroGroup/PolicyGroup/PolicyGroupExpression)",
+            "description": "The ID of the destination endpoint (Subnet/Zone/PortGroup/PolicyGroupExpression/NetworkMacro/Internet Policy Group/Enterprise Network)",
             "exposed": true,
             "filterable": true,
             "format": "free",
