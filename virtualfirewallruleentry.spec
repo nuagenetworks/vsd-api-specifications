@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "DSCP match condition to be set in the rule. It is either * or from 0-63",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "D S C P"
+            "userlabel": "DSCP"
         },
         {
             "allowed_chars": null,
