@@ -1124,7 +1124,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "virtualfirewallruletemplate",
+            "rest_name": "virtualfirewallrule",
             "update": false
         },
         {
