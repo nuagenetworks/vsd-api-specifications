@@ -1120,12 +1120,12 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": true,
-            "delete": false,
+            "delete": true,
             "deprecated": null,
             "get": true,
             "relationship": "child",
             "rest_name": "virtualfirewallrule",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
