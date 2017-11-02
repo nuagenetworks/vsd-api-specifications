@@ -79,7 +79,7 @@ function install_vspkgenerator()
 function main()
 {
     local language=
-    local languages="python go java objj html vro javascript"
+    local languages="python go java objj html vro csharp"
     local last_tag=$(git describe --tags --abbrev=0)
     # tags look  like r4.0.6.1, we make the version 4.0.6.1
     local version=${last_tag:1}
