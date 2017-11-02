@@ -493,15 +493,11 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "ANY",
-                "ENDPOINT_DOMAIN",
-                "ENDPOINT_SUBNET",
-                "ENDPOINT_ZONE",
                 "ENTERPRISE_NETWORK",
                 "INTERNET_POLICYGROUP",
                 "NETWORK_MACRO_GROUP",
                 "PGEXPRESSION",
                 "POLICYGROUP",
-                "PUBLIC_NETWORK",
                 "SUBNET",
                 "ZONE"
             ],
