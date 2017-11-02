@@ -1311,7 +1311,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "root",
-            "rest_name": "virtualfirewallruletemplate",
+            "rest_name": "virtualfirewallrule",
             "update": false
         },
         {
