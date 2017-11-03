@@ -305,15 +305,15 @@
     "model": {
         "create": true,
         "delete": true,
-        "description": "Defines the template for a Virtual Firewall Rule Template that helps to group a set of rules either based on functions or actions ",
-        "entity_name": "Virtualfirewallrule",
+        "description": "Defines the template for a Virtual Firewall Rule that helps to group a set of rules either based on functions or actions ",
+        "entity_name": "VirtualFirewallRule",
         "extends": [
             "@audited",
             "@base",
             "@metadata"
         ],
         "get": true,
-        "package": "policy/acl",
+        "package": "virtualfirewall",
         "resource_name": "virtualfirewallrules",
         "rest_name": "virtualfirewallrule",
         "root": false,
