@@ -265,7 +265,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Flag to indicate that the uplink configuration will be managed by the installer as part of NSG bootstreapping.  Limited to use with connection mode: PPPoE",
+            "description": "Flag to indicate that the uplink configuration will be managed by the installer as part of NSG bootstrapping.  Limited to use with connection mode: PPPoE",
             "exposed": true,
             "filterable": true,
             "format": null,
