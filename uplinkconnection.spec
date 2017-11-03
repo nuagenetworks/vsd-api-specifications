@@ -265,7 +265,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": null,
+            "description": "Flag to indicate that the uplink configuration will be managed by the installer as part of NSG bootstreapping. ",
             "exposed": true,
             "filterable": true,
             "format": null,
