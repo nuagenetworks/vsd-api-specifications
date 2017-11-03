@@ -296,7 +296,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The priority type of the acl, TOP / NONE / BOTTOM",
+            "description": "Possible values: TOP, BOTTOM or NONE. TOP and BOTTOM ACL policies can only be defined and managed on the template level, NONE can be used on both the template and instantiated level. These allow for careful control of ACL priority handling.",
             "exposed": true,
             "filterable": true,
             "format": null,
