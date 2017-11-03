@@ -702,8 +702,8 @@
     "model": {
         "create": true,
         "delete": true,
-        "description": "Defines the template of Virtual Firewall Rule entries",
-        "entity_name": "Virtualfirewallruleentry",
+        "description": "Defines the Virtual Firewall Rule entries",
+        "entity_name": "VirtualFirewallRuleEntry",
         "extends": [
             "@audited",
             "@base",
