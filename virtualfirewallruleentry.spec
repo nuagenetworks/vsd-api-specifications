@@ -710,7 +710,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": "policy/acl",
+        "package": "virtualfirewall",
         "resource_name": "virtualfirewallruleentries",
         "rest_name": "virtualfirewallruleentry",
         "root": false,
