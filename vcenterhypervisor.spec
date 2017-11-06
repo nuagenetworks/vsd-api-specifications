@@ -2420,7 +2420,7 @@
             "orderable": false,
             "read_only": false,
             "required": true,
-            "subtype": null,
+            "subtype": "long",
             "transient": false,
             "type": "integer",
             "unique": false,
