@@ -196,9 +196,9 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": null,
+            "subtype": "enum",
             "transient": false,
-            "type": "enum",
+            "type": "list",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Allowed Actions"
