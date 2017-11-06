@@ -2363,7 +2363,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink M T U"
+            "userlabel": "Secondary Data Uplink MTU"
         },
         {
             "allowed_chars": null,
