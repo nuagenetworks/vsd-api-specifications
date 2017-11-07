@@ -207,14 +207,14 @@
             "deprecated": false,
             "description": "If enabled, non ip traffic will be dropped",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "defaultAllowNonIP",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Allow Non I P"
+            "userlabel": "Default Allow Non IP"
         },
         {
             "allowed_chars": null,
