@@ -177,7 +177,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "If enabled a default ACL of Allow All is added as the last entry in the list of ACL entries",
+            "description": "If enabled a default RUle of Allow All is added as the last entry in the list of rule entries",
             "exposed": true,
             "filterable": false,
             "format": null,
