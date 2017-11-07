@@ -194,7 +194,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Allow I P"
+            "userlabel": "Default Allow IP"
         },
         {
             "allowed_chars": null,
