@@ -181,6 +181,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "ACTION_LIST",
                 "DROP",
                 "FORWARD",
                 "REDIRECT"
@@ -194,7 +195,7 @@
             "description": "The action of the ACL entry DROP or FORWARD or REDIRECT. Action REDIRECT is allowed only for IngressAdvancedForwardingEntry Possible values are DROP, FORWARD, REDIRECT, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
