@@ -235,14 +235,14 @@
             "deprecated": false,
             "description": "If enabled, implicit rule will allow intra domain traffic by default",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "defaultInstallACLImplicitRules",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -250,7 +250,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Install A C L Implicit Rules"
+            "userlabel": "Default Install ACL Implicit Rules"
         },
         {
             "allowed_chars": null,
