@@ -143,7 +143,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "ACTION_LIST",
                 "DROP",
                 "FORWARD",
                 "REDIRECT"
