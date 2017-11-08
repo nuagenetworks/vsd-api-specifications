@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "The ID of the Virtual Firewall Rule, if this was created as part of the Virtual FIrewall Rule creation",
             "exposed": true,
             "filterable": false,
             "format": "free",
