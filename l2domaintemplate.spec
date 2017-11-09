@@ -692,7 +692,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "redirectiontargettemplate",
-            "update": true
+            "update": false
         },
         {
             "bulk_create": false,
@@ -703,7 +703,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "virtualfirewallrule",
+            "rest_name": "virtualfirewallpolicy",
             "update": false
         }
     ],
