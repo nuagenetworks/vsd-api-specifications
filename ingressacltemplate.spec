@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the Virtual Firewall Rule, if this was created as part of the Virtual FIrewall Rule creation",
+            "description": "The ID of the Virtual Firewall Policy, if this was created as part of the Virtual Firewall Policy creation",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -129,7 +129,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "associatedVirtualFirewallRuleID",
+            "name": "associatedVirtualFirewallPolicyID",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Virtual Firewall Rule ID"
+            "userlabel": "Associated Virtual Firewall Policy ID"
         },
         {
             "allowed_chars": null,
