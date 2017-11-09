@@ -446,7 +446,7 @@
         "create": true,
         "delete": true,
         "description": "Defines the template for a Virtual Firewall Policy that helps to group a set of rules either based on functions or actions ",
-        "entity_name": "Virtualfirewallpolicy",
+        "entity_name": "VirtualFirewallPolicy",
         "extends": [
             "@audited",
             "@base",
