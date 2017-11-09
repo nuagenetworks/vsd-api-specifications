@@ -703,7 +703,7 @@
         "create": true,
         "delete": true,
         "description": "Defines the Virtual Firewall rules",
-        "entity_name": "Virtualfirewallrule",
+        "entity_name": "VirtualFirewallRule",
         "extends": [
             "@audited",
             "@base",
