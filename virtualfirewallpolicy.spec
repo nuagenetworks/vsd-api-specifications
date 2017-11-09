@@ -438,7 +438,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "virtualfirewallruleentry",
+            "rest_name": "virtualfirewallrule",
             "update": true
         }
     ],
