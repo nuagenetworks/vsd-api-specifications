@@ -551,7 +551,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Enabled"
+            "userlabel": "Underlay Routing"
         },
         {
             "allowed_chars": null,
