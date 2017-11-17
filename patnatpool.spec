@@ -480,6 +480,7 @@
         "resource_name": "patnatpools",
         "rest_name": "patnatpool",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Address Translation Pool"
     }
 }

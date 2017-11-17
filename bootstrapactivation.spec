@@ -382,6 +382,7 @@
         "resource_name": "bootstrapactivations",
         "rest_name": "bootstrapactivation",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Bootstrap Activation"
     }
 }

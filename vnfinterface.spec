@@ -280,7 +280,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": false,
             "deprecated": false,
             "description": "Indicates if this is a management interface",
             "exposed": true,
@@ -296,7 +296,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "boolean",
             "unique": false,
             "uniqueScope": null
         },
@@ -475,6 +475,7 @@
         "resource_name": "vnfinterfaces",
         "rest_name": "vnfinterface",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Interface"
     }
 }

@@ -637,6 +637,7 @@
         "resource_name": "zones",
         "rest_name": "zone",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Zone"
     }
 }

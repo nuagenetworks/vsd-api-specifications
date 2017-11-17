@@ -640,6 +640,7 @@
         "resource_name": "vsds",
         "rest_name": "vsd",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VSD"
     }
 }

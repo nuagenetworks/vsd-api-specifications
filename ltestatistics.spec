@@ -123,6 +123,7 @@
         "resource_name": "ltestatistics",
         "rest_name": "ltestatistics",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "LTE Statistics"
     }
 }

@@ -265,6 +265,7 @@
         "resource_name": "ingressadvfwdtemplates",
         "rest_name": "ingressadvfwdtemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Ingress Forwarding Policy"
     }
 }

@@ -80,6 +80,7 @@
         "resource_name": "cosremarkingpolicies",
         "rest_name": "cosremarkingpolicy",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "CoS Remarking Policy"
     }
 }

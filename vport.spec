@@ -532,7 +532,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "NONE",
+            "default_value": null,
             "deprecated": false,
             "description": "The type of segmentation that is used. This must be VLAN for vports with trunkRole set to SUB_PORT. This can not be specified for a parent vport (trunkRole = PARENT_PORT)",
             "exposed": true,
@@ -629,7 +629,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "NONE",
+            "default_value": null,
             "deprecated": false,
             "description": "Indicates the role of the vport in trunking operations",
             "exposed": true,
@@ -1065,6 +1065,7 @@
         "resource_name": "vports",
         "rest_name": "vport",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VPort"
     }
 }

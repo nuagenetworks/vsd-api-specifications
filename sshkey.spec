@@ -123,6 +123,7 @@
         "resource_name": "sshkeys",
         "rest_name": "sshkey",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "SSH Key"
     }
 }

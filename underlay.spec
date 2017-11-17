@@ -94,6 +94,7 @@
         "resource_name": "underlays",
         "rest_name": "underlay",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Underlay"
     }
 }

@@ -471,6 +471,7 @@
         "resource_name": "egressqospolicies",
         "rest_name": "egressqospolicy",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Egress QoS Policy"
     }
 }

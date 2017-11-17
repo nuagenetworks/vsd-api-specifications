@@ -40,6 +40,7 @@
         "resource_name": "vias",
         "rest_name": "via",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Via"
     }
 }

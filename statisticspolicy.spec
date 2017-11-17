@@ -98,6 +98,7 @@
         "resource_name": "statisticspolicies",
         "rest_name": "statisticspolicy",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Statistics Policy"
     }
 }

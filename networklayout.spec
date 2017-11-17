@@ -102,6 +102,7 @@
         "resource_name": "networklayout",
         "rest_name": "networklayout",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Network Layout"
     }
 }

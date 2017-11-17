@@ -370,7 +370,7 @@
             "name": "enterpriseName",
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -931,6 +931,7 @@
         "resource_name": "egressadvfwdentrytemplates",
         "rest_name": "egressadvfwdentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Egress Forwarding Policy Entry"
     }
 }

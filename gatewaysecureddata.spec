@@ -11,21 +11,22 @@
             "deprecated": false,
             "description": "encrypted data",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "data",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encrypted data"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway cert serial"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Keyserver cert serial"
         },
         {
             "allowed_chars": null,
@@ -92,21 +95,22 @@
             "deprecated": false,
             "description": "private key signed data",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "signedData",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Signed data"
         }
     ],
     "children": [],
@@ -125,6 +129,7 @@
         "resource_name": "gatewaysecureddatas",
         "rest_name": "gatewaysecureddata",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Gateway Secured Data"
     }
 }

@@ -147,6 +147,7 @@
         "resource_name": "mirrordestinations",
         "rest_name": "mirrordestination",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Mirror Destination"
     }
 }

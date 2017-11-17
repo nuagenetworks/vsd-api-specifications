@@ -111,6 +111,7 @@
         "resource_name": "enterprisesecurities",
         "rest_name": "enterprisesecurity",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Enterprise Security"
     }
 }

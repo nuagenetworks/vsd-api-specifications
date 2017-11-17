@@ -382,6 +382,7 @@
         "resource_name": "users",
         "rest_name": "user",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "User"
     }
 }

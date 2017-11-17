@@ -193,6 +193,7 @@
         "resource_name": "commands",
         "rest_name": "command",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Command"
     }
 }

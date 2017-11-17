@@ -84,6 +84,7 @@
         "resource_name": "dscpremarkingpolicytables",
         "rest_name": "dscpremarkingpolicytable",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "DSCP Remarking Profile"
     }
 }

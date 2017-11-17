@@ -548,6 +548,7 @@
         "resource_name": "zfbrequests",
         "rest_name": "zfbrequest",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "ZFB Request"
     }
 }

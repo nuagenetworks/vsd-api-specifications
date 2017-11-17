@@ -148,12 +148,17 @@
         "delete": true,
         "description": null,
         "entity_name": "OverlayMirrorDestinationTemplate",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vport",
         "resource_name": "overlaymirrordestinationtemplates",
         "rest_name": "overlaymirrordestinationtemplate",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Overlay Mirror Destination Template"
     }
 }

@@ -522,6 +522,7 @@
         "resource_name": "bridgeinterfaces",
         "rest_name": "bridgeinterface",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Bridge Interface"
     }
 }

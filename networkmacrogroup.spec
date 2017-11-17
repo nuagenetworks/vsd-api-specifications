@@ -111,6 +111,7 @@
         "resource_name": "networkmacrogroups",
         "rest_name": "networkmacrogroup",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Network Macro Group"
     }
 }

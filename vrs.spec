@@ -576,7 +576,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "long",
+            "subtype": null,
             "transient": false,
             "type": "enum",
             "unique": false,
@@ -1420,6 +1420,7 @@
         "resource_name": "vrss",
         "rest_name": "vrs",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VRS"
     }
 }

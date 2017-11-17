@@ -420,6 +420,7 @@
         "resource_name": "zonetemplates",
         "rest_name": "zonetemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Zone Template"
     }
 }

@@ -60,6 +60,7 @@
         "resource_name": "multicastlists",
         "rest_name": "multicastlist",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Multicast List"
     }
 }

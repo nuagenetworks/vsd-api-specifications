@@ -307,7 +307,7 @@
             "filterable": false,
             "format": null,
             "max_length": null,
-            "max_value": 2147483647,
+            "max_value": 5000,
             "min_length": null,
             "min_value": 1000,
             "name": "timeout",
@@ -362,6 +362,7 @@
         "resource_name": "performancemonitors",
         "rest_name": "performancemonitor",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Performance Monitor"
     }
 }

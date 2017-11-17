@@ -57,6 +57,7 @@
         "resource_name": "multinicvports",
         "rest_name": "multinicvport",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Multi NIC VPort"
     }
 }

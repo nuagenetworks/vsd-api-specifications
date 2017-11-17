@@ -128,6 +128,7 @@
         "resource_name": "statisticscollector",
         "rest_name": "statisticscollector",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Stats Collector Info"
     }
 }

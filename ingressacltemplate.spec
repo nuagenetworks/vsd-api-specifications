@@ -409,6 +409,7 @@
         "resource_name": "ingressacltemplates",
         "rest_name": "ingressacltemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Ingress Security Policy"
     }
 }

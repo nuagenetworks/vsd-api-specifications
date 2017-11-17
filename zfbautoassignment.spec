@@ -211,6 +211,7 @@
         "resource_name": "zfbautoassignments",
         "rest_name": "zfbautoassignment",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Enterprise Auto Assignment"
     }
 }

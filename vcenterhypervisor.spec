@@ -3025,6 +3025,7 @@
         "resource_name": "vcenterhypervisors",
         "rest_name": "vcenterhypervisor",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VCenter Hypervisor"
     }
 }

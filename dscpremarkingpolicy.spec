@@ -80,6 +80,7 @@
         "resource_name": "dscpremarkingpolicies",
         "rest_name": "dscpremarkingpolicy",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "DSCP Remarking Policy"
     }
 }

@@ -97,6 +97,7 @@
         "resource_name": "ctranslationmaps",
         "rest_name": "ctranslationmap",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "PD Address Map"
     }
 }

@@ -207,6 +207,7 @@
         "resource_name": "addressmaps",
         "rest_name": "addressmap",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Address Map"
     }
 }

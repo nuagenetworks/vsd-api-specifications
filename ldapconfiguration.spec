@@ -368,6 +368,7 @@
         "resource_name": "ldapconfigurations",
         "rest_name": "ldapconfiguration",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "LDAP"
     }
 }

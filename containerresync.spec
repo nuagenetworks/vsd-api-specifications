@@ -101,6 +101,7 @@
         "resource_name": "containerresync",
         "rest_name": "containerresync",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Container Resync"
     }
 }

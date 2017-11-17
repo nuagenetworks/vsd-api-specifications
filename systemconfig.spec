@@ -25,7 +25,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AAR Flow Statistics Interval"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AAR Probe Statistics Interval"
         },
         {
             "allowed_chars": null,
@@ -1227,7 +1229,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSS Statistics Interval"
         },
         {
             "allowed_chars": null,
@@ -3749,11 +3752,11 @@
             "description": "Two Factor Seed length in bytes",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 255,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "name": "twoFactorCodeSeedLength",
             "orderable": false,
             "read_only": false,
@@ -3782,6 +3785,7 @@
         "resource_name": "systemconfigs",
         "rest_name": "systemconfig",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "System Config"
     }
 }

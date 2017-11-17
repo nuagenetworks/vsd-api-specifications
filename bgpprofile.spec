@@ -259,6 +259,7 @@
         "resource_name": "bgpprofiles",
         "rest_name": "bgpprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "BGP Profile"
     }
 }

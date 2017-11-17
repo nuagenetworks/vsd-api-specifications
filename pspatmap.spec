@@ -94,6 +94,7 @@
         "resource_name": "pspatmaps",
         "rest_name": "pspatmap",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Provider SPAT"
     }
 }

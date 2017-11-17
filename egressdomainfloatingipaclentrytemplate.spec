@@ -996,6 +996,7 @@
         "resource_name": "egressdomainfloatingipaclentrytemplates",
         "rest_name": "egressdomainfloatingipaclentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Domain FIP ACL Entry"
     }
 }

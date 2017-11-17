@@ -180,6 +180,7 @@
         "resource_name": "policygrouptemplates",
         "rest_name": "policygrouptemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Policy Group Template"
     }
 }

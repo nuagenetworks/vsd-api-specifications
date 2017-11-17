@@ -232,6 +232,7 @@
         "resource_name": "bgpneighbors",
         "rest_name": "bgpneighbor",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "BGP Neighbor"
     }
 }

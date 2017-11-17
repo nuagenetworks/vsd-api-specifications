@@ -81,6 +81,7 @@
         "resource_name": "dscpforwardingclassmappings",
         "rest_name": "dscpforwardingclassmapping",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "DSCP Mapping"
     }
 }

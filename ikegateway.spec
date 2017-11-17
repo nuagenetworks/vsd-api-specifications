@@ -211,6 +211,7 @@
         "resource_name": "ikegateways",
         "rest_name": "ikegateway",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IKE Gateway"
     }
 }

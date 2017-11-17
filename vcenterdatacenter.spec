@@ -2233,6 +2233,7 @@
         "resource_name": "vcenterdatacenters",
         "rest_name": "vcenterdatacenter",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VCenter Data Center"
     }
 }

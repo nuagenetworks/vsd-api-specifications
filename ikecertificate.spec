@@ -260,6 +260,7 @@
         "resource_name": "ikecertificates",
         "rest_name": "ikecertificate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "IKE Certificate"
     }
 }

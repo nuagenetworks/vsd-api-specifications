@@ -13,7 +13,7 @@
             "default_order": false,
             "default_value": "NONE",
             "deprecated": true,
-            "description": "Enum value that states the type of NAT Traversal the NSG instance will use to talk to other NSGs and the Internet.",
+            "description": "Enum value that states the type of NAT Traversal the NSG instance will use to talk to other NSGs and the Internet.  (This field is deprecated in 5.0)",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -43,14 +43,14 @@
             "deprecated": false,
             "description": "If enabled, cuts down the number of probes to just the number of provisioned UBRs.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "TrafficThroughUBROnly",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -58,7 +58,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "UBR-Only NAT Probes"
+            "userlabel": "Traffic Through UBR Only Enabled"
         },
         {
             "allowed_chars": null,
@@ -67,7 +67,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "0-4094",
             "deprecated": false,
             "description": "VLAN Range of the Port.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.",
             "exposed": true,
@@ -75,7 +75,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "VLANRange",
             "orderable": false,
@@ -97,8 +97,8 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the Egress QOS Policy associated with this Vlan.",
-            "exposed": false,
+            "description": "ID of the Egress QoS Policy associated with this NSG Port.",
+            "exposed": true,
             "filterable": false,
             "format": "free",
             "max_length": null,
@@ -110,11 +110,11 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Egress QOS Pol"
+            "userlabel": "Egress QoS Policy"
         },
         {
             "allowed_chars": null,
@@ -138,11 +138,11 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Redundant Port"
+            "userlabel": "Redundant port reference"
         },
         {
             "allowed_chars": null,
@@ -159,7 +159,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "description",
             "orderable": true,
@@ -183,14 +183,14 @@
             "deprecated": false,
             "description": "If enabled, probes will be sent to other NSGs and DTLS sessions for IPSEC and VXLAN will be set up to the VSCs. If disabled, no NAT probes are sent on that uplink and no DTLS sessions are set up to the VSCs.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "enableNATProbes",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -198,7 +198,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable NAT Probes"
+            "userlabel": "NAT Probes Enabled"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mtu"
+            "userlabel": "MTU"
         },
         {
             "allowed_chars": null,
@@ -272,7 +272,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The permitted  action to USE/EXTEND  this Gateway.",
+            "description": "The permitted action to USE/EXTEND this NSG Port.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -296,7 +296,7 @@
             "allowed_choices": null,
             "autogenerated": false,
             "channel": null,
-            "creation_only": false,
+            "creation_only": true,
             "default_order": false,
             "default_value": null,
             "deprecated": false,
@@ -348,13 +348,13 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Port Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
             "allowed_choices": [
                 "AUTONEGOTIATE",
-                "BASE10",
+                "BASET10",
                 "BASET1000",
                 "BASETX100",
                 "BASEX10G"
@@ -363,7 +363,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "AUTONEGOTIATE",
             "deprecated": false,
             "description": "Port Speed in Mb/s :  Supported Ethernet speeds are 10 (10Base-T), 100 (Fast-ethernet 100Base-TX), 1000 (Gigabit Ethernet 1000Base-T), 10 000 (10 Gigabit Ethernet 10GBase-X), and Auto-Negotiate.",
             "exposed": true,
@@ -488,7 +488,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "userMnemonic",
             "orderable": true,
@@ -499,7 +499,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "User Mnemonic"
+            "userlabel": "Mnemonic"
         }
     ],
     "children": [
@@ -615,6 +615,7 @@
         "resource_name": "nsports",
         "rest_name": "nsport",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "NS Port"
     }
 }

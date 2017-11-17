@@ -107,6 +107,7 @@
         "resource_name": "ducgroups",
         "rest_name": "ducgroup",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "UBR Group"
     }
 }

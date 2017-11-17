@@ -124,6 +124,7 @@
         "resource_name": "ptranslationmaps",
         "rest_name": "ptranslationmap",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Provider Translational Map"
     }
 }

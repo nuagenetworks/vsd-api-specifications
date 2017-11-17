@@ -289,7 +289,7 @@
             "min_value": null,
             "name": "systemID",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -352,7 +352,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Gateway VLANVNID"
+            "userlabel": "Map VLAN to VNID"
         },
         {
             "allowed_chars": null,
@@ -496,6 +496,7 @@
         "resource_name": "gateways",
         "rest_name": "gateway",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Data Center Gateway"
     }
 }

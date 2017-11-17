@@ -243,6 +243,7 @@
         "resource_name": "keyservermonitors",
         "rest_name": "keyservermonitor",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Key Server Monitor"
     }
 }

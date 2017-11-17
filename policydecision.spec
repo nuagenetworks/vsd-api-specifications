@@ -246,6 +246,7 @@
         "resource_name": "policydecisions",
         "rest_name": "policydecision",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Policy Decision"
     }
 }

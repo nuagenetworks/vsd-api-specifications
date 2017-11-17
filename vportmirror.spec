@@ -264,6 +264,7 @@
         "resource_name": "vportmirrors",
         "rest_name": "vportmirror",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VPort Mirror"
     }
 }

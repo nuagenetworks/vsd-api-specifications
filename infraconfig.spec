@@ -75,6 +75,7 @@
         "resource_name": "infraconfig",
         "rest_name": "infraconfig",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Infrastructure Configuration"
     }
 }

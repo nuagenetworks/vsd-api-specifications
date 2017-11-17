@@ -160,6 +160,7 @@
         "resource_name": "keyservermonitorseks",
         "rest_name": "keyservermonitorsek",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Key Server Monitor SEK"
     }
 }

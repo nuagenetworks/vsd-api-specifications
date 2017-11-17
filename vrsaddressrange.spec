@@ -71,6 +71,7 @@
         "resource_name": "vrsaddressranges",
         "rest_name": "vrsaddressrange",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "VRS Address Range"
     }
 }

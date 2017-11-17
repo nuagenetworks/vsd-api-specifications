@@ -80,6 +80,7 @@
         "resource_name": "vnfcatalogs",
         "rest_name": "vnfcatalog",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Catalog"
     }
 }

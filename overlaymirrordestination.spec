@@ -222,18 +222,36 @@
             "uniqueScope": null
         }
     ],
-    "children": [],
+    "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "vport",
+            "update": true
+        }
+    ],
     "model": {
         "create": null,
         "delete": true,
         "description": null,
         "entity_name": "OverlayMirrorDestination",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vport",
         "resource_name": "overlaymirrordestinations",
         "rest_name": "overlaymirrordestination",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Overlay Mirror Destination"
     }
 }

@@ -44,6 +44,7 @@
         "resource_name": "cms",
         "rest_name": "cms",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "Cloud Management System"
     }
 }

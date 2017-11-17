@@ -109,6 +109,7 @@
         "resource_name": "policyobjectgroups",
         "rest_name": "policyobjectgroup",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Policy Object Group"
     }
 }

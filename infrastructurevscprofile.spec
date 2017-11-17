@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A description of the Profile instance created.",
+            "description": "A description of the VSC Profile instance created.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "First VSC"
         },
         {
             "allowed_chars": null,
@@ -90,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Infrastructure Profile",
+            "description": "Name of the Infrastructure VSC Profile",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -115,12 +119,12 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "5000",
             "deprecated": false,
-            "description": "Openflow echo timer in millisecond",
+            "description": "Openflow echo timer in milliseconds.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 60000,
             "min_length": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Probe Interval"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Second VSC"
         }
     ],
     "children": [],
@@ -179,6 +185,7 @@
         "resource_name": "infrastructurevscprofiles",
         "rest_name": "infrastructurevscprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Infrastructure VSC Profile"
     }
 }

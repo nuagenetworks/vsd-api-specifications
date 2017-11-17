@@ -80,6 +80,7 @@
         "resource_name": "csnatpools",
         "rest_name": "csnatpool",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Customer Source Pool"
     }
 }

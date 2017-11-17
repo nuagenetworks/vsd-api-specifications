@@ -415,16 +415,16 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "CustomerID that is used by VSC to identify this enterprise. This is a read only attribute.",
+            "description": "CustomerID that is used by VSC to identify this enterprise. This can be configured by root user.",
             "exposed": true,
-            "filterable": false,
-            "format": "free",
+            "filterable": true,
+            "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 2147483647,
             "min_length": null,
-            "min_value": null,
+            "min_value": 10000,
             "name": "customerID",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": false,
             "subtype": "long",
@@ -1480,6 +1480,18 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
+            "rest_name": "vnfthresholdpolicy",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
             "rest_name": "zfbrequest",
             "update": false
         }
@@ -1499,6 +1511,7 @@
         "resource_name": "enterprises",
         "rest_name": "enterprise",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Enterprise"
     }
 }

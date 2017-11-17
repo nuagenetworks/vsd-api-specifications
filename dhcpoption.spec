@@ -165,6 +165,7 @@
         "resource_name": "dhcpoptions",
         "rest_name": "dhcpoption",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "DHCP Option"
     }
 }

@@ -152,6 +152,7 @@
         "resource_name": "connectionendpoints",
         "rest_name": "connectionendpoint",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "Source IP Address"
     }
 }

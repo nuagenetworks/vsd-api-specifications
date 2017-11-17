@@ -148,6 +148,7 @@
         "resource_name": "overlaypatnatentries",
         "rest_name": "overlaypatnatentry",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "1:1 NAT Map"
     }
 }

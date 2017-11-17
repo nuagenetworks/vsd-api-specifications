@@ -600,6 +600,7 @@
         "resource_name": "hostinterfaces",
         "rest_name": "hostinterface",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Host Interface"
     }
 }

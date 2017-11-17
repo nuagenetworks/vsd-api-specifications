@@ -445,6 +445,7 @@
         "resource_name": "enterpriseprofiles",
         "rest_name": "enterpriseprofile",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Organization Profile"
     }
 }

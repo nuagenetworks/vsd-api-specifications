@@ -154,6 +154,7 @@
         "resource_name": "patipentries",
         "rest_name": "patipentry",
         "root": false,
-        "update": false
+        "update": false,
+        "userlabel": "PAT IP Entry"
     }
 }

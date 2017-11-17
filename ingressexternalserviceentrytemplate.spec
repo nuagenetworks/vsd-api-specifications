@@ -797,6 +797,7 @@
         "resource_name": "ingressexternalserviceentrytemplates",
         "rest_name": "ingressexternalserviceentrytemplate",
         "root": false,
-        "update": true
+        "update": true,
+        "userlabel": "Ingress External Service Policy Entry"
     }
 }
