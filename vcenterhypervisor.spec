@@ -2517,7 +2517,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Secondary data uplink interface",
+            "description": "Interface to use for the secondary data uplink. This interface can be a normal interface or a VLAN on an existing interface. Please read the VMware integration guide for more details.",
             "exposed": true,
             "filterable": false,
             "format": "free",
