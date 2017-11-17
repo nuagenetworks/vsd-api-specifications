@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated V Center Hypervisor ID"
+            "userlabel": "Associated VCenter Hypervisor ID"
         },
         {
             "allowed_chars": null,
