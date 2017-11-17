@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRSVSC Status"
+            "userlabel": "VRS VSC Status"
         },
         {
             "allowed_chars": null,
