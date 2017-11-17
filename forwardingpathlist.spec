@@ -82,7 +82,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "policy",
         "resource_name": "forwardingpathlists",
         "rest_name": "forwardingpathlist",
         "root": null,
