@@ -2276,7 +2276,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink I P"
+            "userlabel": "Secondary Data Uplink IP"
         },
         {
             "allowed_chars": null,
