@@ -1979,7 +1979,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable revertive controller",
+            "description": "Enable revertive controller behaviour. If this is enabled, OVS will make its primary VSC as its master VSC once it is back up.",
             "exposed": true,
             "filterable": false,
             "format": null,
