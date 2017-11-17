@@ -711,6 +711,6 @@
         "rest_name": "l2domaintemplate",
         "root": false,
         "update": true,
-        "userlabel": null
+        "userlabel": "L2 Domain Template"
     }
 }
