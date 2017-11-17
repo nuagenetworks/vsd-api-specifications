@@ -2444,7 +2444,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink Underlay I D"
+            "userlabel": "Secondary Data Uplink Underlay ID"
         },
         {
             "allowed_chars": null,
