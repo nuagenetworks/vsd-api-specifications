@@ -109,7 +109,8 @@
         "description": "Forwarding path list entry to be associated with forwarding path list for l4 based policy to PAT / IKE to underlay.",
         "entity_name": "ForwardingPathListEntry",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": null,
