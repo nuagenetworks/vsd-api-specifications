@@ -2035,7 +2035,7 @@
             "default_order": false,
             "default_value": "300",
             "deprecated": false,
-            "description": "Revertive timer",
+            "description": "A timer in seconds indicating after how long OVS should retry to connect to the primary VSC as its master after a failure.",
             "exposed": true,
             "filterable": false,
             "format": null,
