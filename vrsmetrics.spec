@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "AL Ubr0 Status"
+            "userlabel": "ALUbr0 Status"
         },
         {
             "allowed_chars": null,
