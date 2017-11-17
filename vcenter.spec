@@ -2203,7 +2203,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable secondary data uplink DHCP",
+            "description": "Enable DHCP on the secondary data uplink.",
             "exposed": true,
             "filterable": false,
             "format": null,
