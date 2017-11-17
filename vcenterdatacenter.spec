@@ -1852,7 +1852,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Primary Data Uplink Underlay I D"
+            "userlabel": "Primary Data Uplink Underlay ID"
         },
         {
             "allowed_chars": null,
