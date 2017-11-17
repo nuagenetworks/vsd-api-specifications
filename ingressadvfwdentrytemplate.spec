@@ -192,7 +192,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The action of the ACL entry DROP or FORWARD or REDIRECT or ACTION_LIST. Actions REDIRECT and ACTION_LIST are allowed only for IngressAdvancedForwardingEntry Possible values are DROP, FORWARD, REDIRECT, ACTION_LIST. If ACTION_LIST is selected in IngressAdvancedForwardingEntry, user will have to attach a ForwardingPathList (list of forwarding action-uplink preference entries) to the ACL.  ",
+            "description": "The action of the ACL entry DROP or FORWARD or REDIRECT or ACTION_LIST. Actions REDIRECT and ACTION_LIST are allowed only for IngressAdvancedForwardingEntry. Possible values are DROP, FORWARD, REDIRECT, ACTION_LIST. If ACTION_LIST is selected in IngressAdvancedForwardingEntry, user will have to attach a ForwardingPathList (list of forwarding action-uplink preference entries) to the ACL.  ",
             "exposed": true,
             "filterable": true,
             "format": null,
