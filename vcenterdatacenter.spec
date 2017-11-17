@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated V Center ID"
+            "userlabel": "Associated VCenter ID"
         },
         {
             "allowed_chars": null,
