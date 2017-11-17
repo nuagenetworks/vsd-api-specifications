@@ -2091,7 +2091,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable secondary data uplink DHCP",
+            "description": "Enable DHCP on the secondary data uplink.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -2108,7 +2108,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink D H C P Enabled"
+            "userlabel": "Secondary Data Uplink DHCP Enabled"
         },
         {
             "allowed_chars": null,
