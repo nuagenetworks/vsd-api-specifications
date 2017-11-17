@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": "60",
             "deprecated": false,
-            "description": "This interval is used when sending metrics to VCIN for each VRS. The interval is configured at VCIN.",
+            "description": "The currently applied interval with which metrics are being send to VCIN from the VRS. The value can be configured through VCIN",
             "exposed": true,
             "filterable": false,
             "format": null,
