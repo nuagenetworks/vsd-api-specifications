@@ -39,7 +39,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "DISABLED",
             "deprecated": true,
             "description": "determines whether or not Deep packet inspection is enabled",
             "exposed": true,
