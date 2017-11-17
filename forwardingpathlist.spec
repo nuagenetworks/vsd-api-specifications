@@ -78,6 +78,7 @@
         "entity_name": "ForwardingPathList",
         "extends": [
             "@audited",
+            "@base",
             "@metadata"
         ],
         "get": true,
