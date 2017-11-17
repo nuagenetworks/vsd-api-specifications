@@ -76,7 +76,9 @@
         "delete": true,
         "description": "Forwarding path list is l4 based policy to PAT / IKE to underlay.",
         "entity_name": "ForwardingPathList",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": null,
         "resource_name": "forwardingpathlists",
