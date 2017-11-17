@@ -693,7 +693,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable Resource Reservation on VRS",
+            "description": "Enable resource reservation on the VRS. When this is enabled, all memory and 100% of CPU resources allocated to the VRS will be reserved.",
             "exposed": true,
             "filterable": false,
             "format": null,
