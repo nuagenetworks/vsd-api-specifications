@@ -82,7 +82,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of forwarding uplink preference associated with this entry.",
+            "description": "Type of forwarding uplink preference associated with this entry. In case of forwardingAction \"IKE\", uplinkPreference must not be set.",
             "exposed": true,
             "filterable": true,
             "format": null,
