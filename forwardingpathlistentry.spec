@@ -114,7 +114,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "policy",
         "resource_name": "forwardingpathlistentries",
         "rest_name": "forwardingpathlistentry",
         "root": null,
