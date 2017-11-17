@@ -2220,7 +2220,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink D H C P Enabled"
+            "userlabel": "Secondary Data Uplink DHCP Enabled"
         },
         {
             "allowed_chars": null,
