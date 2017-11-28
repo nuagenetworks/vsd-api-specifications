@@ -241,7 +241,7 @@
             "deprecated": false,
             "description": "The ID of the Underlay entity to which this L2 Domain is associated.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
