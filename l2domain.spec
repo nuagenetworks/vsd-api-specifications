@@ -256,7 +256,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Underlay I D"
+            "userlabel": "Underlay"
         },
         {
             "allowed_chars": null,
