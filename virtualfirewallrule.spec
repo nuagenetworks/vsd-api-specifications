@@ -709,7 +709,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": null,
+            "description": "Is stats logging enabled for this particular template",
             "exposed": true,
             "filterable": true,
             "format": null,
