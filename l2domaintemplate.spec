@@ -683,7 +683,7 @@
             "update": false
         },
         {
-            "bulk_create": true,
+            "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
             "create": true,
