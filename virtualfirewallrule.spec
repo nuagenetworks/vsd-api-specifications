@@ -296,7 +296,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The destination port to be matched if protocol is UDP or TCP. Value should be either * or single port number or a port range",
+            "description": "The destination port to be matched if protocol is UDP or TCP. Value should be either * or a single port number or a port range like 1,2.. or 1 - 10",
             "exposed": true,
             "filterable": true,
             "format": "free",
