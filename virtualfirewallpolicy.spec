@@ -7,7 +7,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "false",
             "deprecated": false,
             "description": "If enabled, it means that this rule is active",
             "exposed": true,
