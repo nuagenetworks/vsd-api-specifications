@@ -315,6 +315,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "BOTTOM",
+                "BOTTOM_FIREWALL",
                 "NONE",
                 "TOP",
                 "TOP_FIREWALL"
