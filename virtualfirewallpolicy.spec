@@ -415,7 +415,7 @@
         }
     ],
     "model": {
-        "create": true,
+        "create": false,
         "delete": true,
         "description": "Defines the template for a Virtual Firewall Policy that helps to group a set of rules either based on functions or actions ",
         "entity_name": "VirtualFirewallPolicy",
