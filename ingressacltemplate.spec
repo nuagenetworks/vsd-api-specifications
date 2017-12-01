@@ -344,6 +344,7 @@
             "allowed_choices": [
                 "BOTTOM",
                 "BOTTOM_FIREWALL",
+                "MIDDLE_FIREWALL",
                 "NONE",
                 "TOP",
                 "TOP_FIREWALL"
