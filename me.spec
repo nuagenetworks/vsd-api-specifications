@@ -838,7 +838,7 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
             "deprecated": false,
             "get": true,
@@ -1312,6 +1312,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "vcenterhypervisor",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "virtualfirewallpolicy",
             "update": false
         },
         {

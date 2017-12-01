@@ -25,7 +25,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Active"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Live Entity ID"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Auto Generate Priority"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -147,7 +152,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": null,
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -163,7 +168,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Policy State"
         },
         {
             "allowed_chars": null,
@@ -190,7 +196,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Priority"
         },
         {
             "allowed_chars": null,
@@ -205,10 +212,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "",
+            "description": "Possible values: TOP, BOTTOM or NONE. TOP and BOTTOM ACL policies can only be defined and managed on the template level, NONE can be used on both the template and instantiated level. These allow for careful control of ACL priority handling.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -221,7 +228,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Priority Type"
         }
     ],
     "children": [
