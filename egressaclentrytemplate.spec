@@ -389,7 +389,7 @@
             "min_value": null,
             "name": "domainName",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
