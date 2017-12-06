@@ -176,7 +176,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Address Override"
+            "userlabel": "IPv6 Address Override"
         },
         {
             "allowed_chars": null,
@@ -460,7 +460,7 @@
             "min_value": null,
             "name": "domainName",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -488,7 +488,7 @@
             "min_value": null,
             "name": "enterpriseName",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -1056,7 +1056,7 @@
             "min_value": null,
             "name": "statsID",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
