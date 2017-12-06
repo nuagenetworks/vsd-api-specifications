@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Address Override"
+            "userlabel": "IPv6 Address Override"
         },
         {
             "allowed_chars": null,
