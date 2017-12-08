@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "B I O S Build Version"
+            "userlabel": "BIOS Build Version"
         },
         {
             "allowed_chars": null,
