@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "NSG BiOS Build Version",
+            "description": "Release Date of the NSG BiOS",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "BIOSBuildVersion",
+            "name": "BIOSReleaseDate",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BIOS Build Version"
+            "userlabel": "BIOS Release Date"
         },
         {
             "allowed_chars": null,
