@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "LDAP User DN"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Avatar Data"
         },
         {
             "allowed_chars": null,
@@ -83,7 +85,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Avatar Type"
         },
         {
             "allowed_chars": null,
@@ -110,7 +113,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Disabled"
         },
         {
             "allowed_chars": null,
@@ -137,7 +141,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Email"
         },
         {
             "allowed_chars": null,
@@ -164,7 +169,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "First Name"
         },
         {
             "allowed_chars": null,
@@ -191,7 +197,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Last Name"
         },
         {
             "allowed_chars": null,
@@ -221,7 +228,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Management Mode"
         },
         {
             "allowed_chars": null,
@@ -248,7 +256,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Mobile Number"
         },
         {
             "allowed_chars": null,
@@ -259,13 +268,13 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "User password stored as a hash (SHA-1 encrpted)",
+            "description": "User password in clear text. Password cannot be a single character asterisk (*)",
             "exposed": true,
             "filterable": false,
             "format": "free",
-            "max_length": null,
+            "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 1,
             "min_value": null,
             "name": "password",
             "orderable": false,
@@ -275,7 +284,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Password"
         },
         {
             "allowed_chars": null,
@@ -302,7 +312,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "User Name"
         }
     ],
     "children": [
