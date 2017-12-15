@@ -179,7 +179,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "This field is used to contain the \"blob\" parameters for the WiFi Card (physical module) on the NSG.",
+            "description": "This field is used to contain the 'blob' parameters for the WiFi Card (physical module) on the NSG.",
             "exposed": true,
             "filterable": false,
             "format": "free",

@@ -125,7 +125,7 @@
             "default_order": false,
             "default_value": "INHERITED",
             "deprecated": false,
-            "description": "Flag to determine whether the BGP and OSPF learnt routes will be exported to VSC or not. This flags also exists at the domain level. If this attribute is set to \"INHERITED\" (the default), the behavior is whatever is set at the domain level. Otherwise, this attribute takes precedence over the domain level one.",
+            "description": "Flag to determine whether the BGP and OSPF learnt routes will be exported to VSC or not. This flags also exists at the domain level. If this attribute is set to 'INHERITED' (the default), the behavior is whatever is set at the domain level. Otherwise, this attribute takes precedence over the domain level one.",
             "exposed": true,
             "filterable": true,
             "format": null,
