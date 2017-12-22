@@ -63,17 +63,17 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "900",
             "deprecated": false,
-            "description": "Number of times the probe is allowed to retry on successive timeouts",
+            "description": "probation Timer in seconds",
             "exposed": true,
             "filterable": false,
             "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 15000,
             "min_length": null,
-            "min_value": null,
-            "name": "downThresholdCount",
+            "min_value": 1000,
+            "name": "holdDownTimer",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Down Threshold Count"
+            "userlabel": "Probation Timer"
         },
         {
             "allowed_chars": null,
@@ -346,6 +346,18 @@
             "relationship": "member",
             "rest_name": "nsgateway",
             "update": true
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "tier",
+            "update": false
         }
     ],
     "model": {
