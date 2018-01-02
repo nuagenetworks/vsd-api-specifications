@@ -280,7 +280,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": false,
+            "default_value": "false",
             "deprecated": false,
             "description": "Indicates if this is a management interface",
             "exposed": true,

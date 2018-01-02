@@ -394,7 +394,7 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": 255,
+            "max_length": 64,
             "max_value": null,
             "min_length": 1,
             "min_value": null,
@@ -692,6 +692,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "redirectiontargettemplate",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": true,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "virtualfirewallpolicy",
             "update": false
         }
     ],
