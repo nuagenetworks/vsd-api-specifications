@@ -41,11 +41,6 @@ function generate_sdk()
         -b ${branches} \
         -f . \
         -L ${language}
-
-    # for vspks maintained by @pdumais, open issues to tell their bot when there's a release
-    if [ "${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
-        open_issue_for_release ${language} ${tag}
-    fi
 }
 
 function open_issue_for_release()
@@ -124,6 +119,11 @@ function main()
         generate_sdk ${language} ${version}
         if [[ ${TRAVIS_PULL_REQUEST} == "false" ]] ; then
             update_repo ${language}
+
+            # for vspks maintained by @pdumais, open issues to tell their bot when there's a release
+            if [ "${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
+                open_issue_for_release ${language} ${tag}
+            fi
         fi
     done
     exit 0
@@ -131,6 +131,9 @@ function main()
 
 set -x
 set -e
+
+echo $GITHUB_API_PUBLIC_REPOS_TOKEN
+exit 0
 
 WORKSPACE=$(pwd)
 
