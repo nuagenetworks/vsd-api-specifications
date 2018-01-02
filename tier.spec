@@ -7,7 +7,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "15",
+            "default_value": 15,
             "deprecated": false,
             "description": "Number of times the probe is allowed to retry on successive timeouts. Applicable only for TIER2",
             "exposed": true,
@@ -35,7 +35,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "1",
+            "default_value": 1,
             "deprecated": false,
             "description": "packet count (part of rate along with probeInterval)",
             "exposed": true,
@@ -63,7 +63,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "10",
+            "default_value": 10,
             "deprecated": false,
             "description": "probe interval (part of rate along with packetCount)",
             "exposed": true,
@@ -113,7 +113,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Name"
+            "userlabel": "Tier Type"
         },
         {
             "allowed_chars": null,
@@ -163,7 +163,11 @@
         "delete": false,
         "description": "When the customer creates an HTTP probe, VSD will automatically create Tier1 and Tier2 under it with default properties.",
         "entity_name": "Tier",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "policy/urlfiltering",
         "resource_name": "tiers",
