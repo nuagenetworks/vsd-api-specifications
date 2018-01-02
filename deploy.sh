@@ -132,6 +132,9 @@ function main()
 set -x
 set -e
 
+echo $GITHUB_API_PUBLIC_REPOS_TOKEN
+exit 0
+
 WORKSPACE=$(pwd)
 
 # For builds triggered by a tagged commit, travis sets TRAVIS_BRANCH to the tag

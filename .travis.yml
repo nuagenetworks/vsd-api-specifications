@@ -1,16 +1,12 @@
 language: python
-
 before_install:
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" ] ; then
-      openssl aes-256-cbc -K $encrypted_1f872ec35af0_key -iv $encrypted_1f872ec35af0_iv -in nuage_deploy.enc -out nuage_deploy -d &&
-      chmod 600 nuage_deploy &&
-      eval "$(ssh-agent -s)" &&
-      ssh-add nuage_deploy &&
-      git config --global user.email "corentin.henry@nokia.com" &&
-      git config --global user.name "nuagebot"
-    ; fi
+- if [ "$TRAVIS_PULL_REQUEST" = "false" ] ; then openssl aes-256-cbc -K $encrypted_1f872ec35af0_key
+  -iv $encrypted_1f872ec35af0_iv -in nuage_deploy.enc -out nuage_deploy -d && chmod
+  600 nuage_deploy && eval "$(ssh-agent -s)" && ssh-add nuage_deploy && git config
+  --global user.email "corentin.henry@nokia.com" && git config --global user.name
+  "nuagebot" ; fi
 script:
-    - "./deploy.sh"
+- "./deploy.sh"
 env:
-  matrix:
-    secure: M5SCsmEaQHhKHz84gx9ToKIX8PS2PGOG/YGE6VLOQ8bGyFk8896m6WSzPrkkP8b85teF/QiN711BMhYTYrY0TyjBP+LbITX+N9vUPtHLSCGR5jKjgOUPAQ7spLZTRX6QSLn+JbtnMWdlV/pqFaC9gf9omPgv/vD6cgqSwDV5Ef4yd4HmHnphnBhiWx6baH/exXYqn7kEJP+r7NrJgfSn2nW6Der/1dfwwyHzSlPUb6QdpfuDamH+0kj3z5mJPR57w/+h72OEWEcpBGRD3GA+mDjh23RMUW0XJxd46/m61bVKOF3xw+pz5Uul6EyOD0YVfy8hHr2aIiPPgufOGe25Ur/AoRZDuN7tVP11exxvVCH3qwPQG1v6/4SB4Iv4XlcVwzlxKb0cmClFAPH7hGbu8ERSx5NF7pOEr3Vipof8fVbRxeC9Hc5mo9N/UeYo+GXlG303SPgxCPqRUykcsGldB2udttaqlHY1hT6wRw+HTUIwNj5vWJCgDYXexPt07nXYfLdhPCoWt2Rq1KVsIBfEFxaOzTC00QAwFcl+6o4mRPRWzpIZsTYYTW9YC2njONnRm6pSJfM2Jv0af3c1qEd7+/FxcH3IwYgm3ohaVKY8YDMNpH09dEiDpFVpd2B/qeCVJGWZPd6EQxVEp0FHTnle9mrhG2pUtgwMt092nqWOfFU=
+  global:
+    secure: DW16AltnoMnCyu9skv2woCyLdpmRAOAXEfJnafj2T15JPn08wMOBfeZTjvom4gK86EUtC+/B0Ii/DdLALVeh5wDR4T5Yns4CnX3Pd0AiQwgUtsQwYAIf1LR3jpXmBJKCyW7IVlfwcyRnvwvqxDScdJwUj1Sw7iewP6KFUWh/jJcm/Ryc58qE0Is0TzamJMUCxfag/VEg5u0J9UYSMnPqRrKCzblU+GxLV1mblNTCv0B+tJmwNsMpTXGvhn8ozvsdk41fe1wp6pllXDTsiJH3hUwftUNDYfeh6oYq8nsbHebynSRxyrRk8lIfjc7w/kseO0vhCRxJy82lzx6dlksSRmUPr7rMtM+X/8Qv9CirVRS7ZJi4L996AZT+QEWzf6ukK1f0nS74VbWHJ/UKF3A4P3rWaKB1oIzsx4NTTVQyqmJ65xV4c1H1zo425J/pQWOEGWocgKiQMvjYUJsqQpunx/OsWhwNBklLpo69b9c9oa/K48C+mue1rnJXrloUBNq+iTpi8QQnTcnMApfbSsEIKLx0G1jD+nJN99zqBMvNpcUrPOHtUx/B0jFz6HHDZmze2ssY8U5z5viGQbxQHPn1EDIU55QQUDD31AFMf/1y+ic1kOBfLHADQNmzZH/uHJ5KsUNMO4haNH8tKAe96WfP1mbPEyg4/3+3G0AgP6leAtE=
