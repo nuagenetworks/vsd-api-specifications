@@ -41,11 +41,6 @@ function generate_sdk()
         -b ${branches} \
         -f . \
         -L ${language}
-
-    # for vspks maintained by @pdumais, open issues to tell their bot when there's a release
-    if [ "${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
-        open_issue_for_release ${language} ${tag}
-    fi
 }
 
 function open_issue_for_release()
@@ -53,6 +48,8 @@ function open_issue_for_release()
     local language=${1}
     local tag=${2}
 
+    # It is safe to use GITHUB_API_PUBLIC_REPOS_TOKEN here despite `set -x`,
+    # because travis automatically hides the variable value in the logs.
     curl \
         -H "Authorization: token ${GITHUB_API_PUBLIC_REPOS_TOKEN}" \
         -X POST \
@@ -122,8 +119,19 @@ function main()
 
     for language in ${languages} ; do
         generate_sdk ${language} ${version}
+
+        # if this job has been triggered by a push and not a PR, we want to
+        # push the generated SDKs to their respective repos
         if [[ ${TRAVIS_PULL_REQUEST} == "false" ]] ; then
             update_repo ${language}
+
+            # for vspks maintained by @pdumais, open issues to tell their bot when there's a release
+            if [ "${language}" == "vro" -o "${language}" == "java" -o "${language}" == "csharp" ] ; then
+                if [ -n "${TRAVIS_TAG}" ] ; then
+                    # we don't fail the job just if we failed to open the issue
+                    open_issue_for_release ${language} ${tag} || true
+                fi
+            fi
         fi
     done
     exit 0
