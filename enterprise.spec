@@ -246,7 +246,7 @@
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -260,7 +260,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allowed Forwarding Classe"
+            "userlabel": "Allowed Forwarding Classes"
         },
         {
             "allowed_chars": null,
@@ -288,7 +288,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Enterprise Sec"
+            "userlabel": "Enterprise Security"
         },
         {
             "allowed_chars": null,
@@ -316,7 +316,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Group Key Encr"
+            "userlabel": "Group Key Encryption Profile"
         },
         {
             "allowed_chars": null,
@@ -344,7 +344,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Key Server Mon"
+            "userlabel": "Key Server Monitor"
         },
         {
             "allowed_chars": null,
@@ -516,7 +516,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Application Perfor"
+            "userlabel": "Enable Application Performance Management"
         },
         {
             "allowed_chars": null,
@@ -533,7 +533,7 @@
             "description": "Readonly encryption management mode of the associated profile",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -547,7 +547,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Encryption Management Mod"
+            "userlabel": "Encryption Management Mode"
         },
         {
             "allowed_chars": null,
@@ -589,7 +589,7 @@
             "description": "Quota set for the number of floating IPs to be used by an enterprise.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 250000,
             "min_length": null,
@@ -603,7 +603,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Floating I Ps Quota"
+            "userlabel": "Floating IPs Quota"
         },
         {
             "allowed_chars": null,
@@ -617,7 +617,7 @@
             "description": "Number of floating IPs used by the enterprise from the assigned floatingIPsQuota",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -631,7 +631,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Floating I Ps Used"
+            "userlabel": "Floating IPs Used"
         },
         {
             "allowed_chars": null,
@@ -715,7 +715,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Receive Multi Cast List I"
+            "userlabel": "Receive Multicast List ID"
         },
         {
             "allowed_chars": null,
@@ -743,7 +743,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Send Multi Cast List ID"
+            "userlabel": "Send Multicast List ID"
         },
         {
             "allowed_chars": null,

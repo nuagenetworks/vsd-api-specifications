@@ -12,7 +12,7 @@
             "description": "ISAKMP Keep Alive Interval.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 2147483647,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPD Interval"
         },
         {
             "allowed_chars": null,
@@ -42,7 +43,7 @@
             "description": "DPD Mode.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -55,7 +56,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPD Mode"
         },
         {
             "allowed_chars": null,
@@ -69,7 +71,7 @@
             "description": "DPD Timeout.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 2147483647,
             "min_length": null,
@@ -82,7 +84,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPD Timeout"
         },
         {
             "allowed_chars": null,
@@ -114,7 +117,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec Authentication Algorithm"
         },
         {
             "allowed_chars": null,
@@ -141,7 +145,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec Don't Fragment"
         },
         {
             "allowed_chars": null,
@@ -168,7 +173,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec Enable PFS"
         },
         {
             "allowed_chars": null,
@@ -201,7 +207,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -228,7 +235,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec Pre Fragment"
         },
         {
             "allowed_chars": null,
@@ -255,7 +263,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec SA Lifetime"
         },
         {
             "allowed_chars": null,
@@ -290,7 +299,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPsec Replay Window Size"
         },
         {
             "allowed_chars": null,
@@ -306,7 +316,7 @@
             "description": "ISAKMP Authentication Algorithm.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -319,7 +329,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ISAKMP Authentication Mode"
         },
         {
             "allowed_chars": null,
@@ -355,7 +366,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ISAKMP Diffie-Helman Group Identifier"
         },
         {
             "allowed_chars": null,
@@ -374,7 +386,7 @@
             "description": "ISAKMP Encryption Algorithm.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -387,7 +399,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ISAKMP Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -401,7 +414,7 @@
             "description": "ISAKMP Encryption Key Lifetime in Seconds",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 2147483647,
             "min_length": null,
@@ -414,7 +427,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ISAKMP Encryption Key Lifetime"
         },
         {
             "allowed_chars": null,
@@ -444,7 +458,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ISAKMP Hash Algorithm"
         },
         {
             "allowed_chars": null,
@@ -471,7 +486,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -498,7 +514,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -525,7 +542,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -539,7 +557,7 @@
             "description": null,
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -552,7 +570,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Sequence"
         }
     ],
     "children": [],

@@ -670,7 +670,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Overlay Mirror Destinatio"
+            "userlabel": "Overlay Mirror Destination"
         },
         {
             "allowed_chars": null,

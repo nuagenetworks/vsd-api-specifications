@@ -12,7 +12,7 @@
             "description": "Enable BGP for this enterprise profile",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "BGP Enabled"
         },
         {
             "allowed_chars": null,
@@ -39,7 +40,7 @@
             "description": "DHCP Lease Interval (in hours) to be used by an enterprise.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 60,
             "min_length": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DHCP Lease Interval"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VNF Management Enabled"
         },
         {
             "allowed_chars": null,
@@ -93,7 +96,7 @@
             "description": "Controls whether this enterprise has access to advanced QoS settings.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allow Advanced QOS Configuration"
         },
         {
             "allowed_chars": null,
@@ -120,7 +124,7 @@
             "description": "If set to true lets the enterprise admin create gateway templates and instances.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allow Gateway Management"
         },
         {
             "allowed_chars": null,
@@ -147,7 +152,7 @@
             "description": "Controls whether QoS policies and templates created under this enterprise set the trusted flag to true",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allow Trusted Forwarding Class"
         },
         {
             "allowed_chars": null,
@@ -184,7 +190,7 @@
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -197,7 +203,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed Forwarding Classes"
         },
         {
             "allowed_chars": null,
@@ -224,7 +231,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -251,7 +259,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enable Application Performance Management"
         },
         {
             "allowed_chars": null,
@@ -268,7 +277,7 @@
             "description": "encryption management mode for this enterprise Possible values are DISABLED, MANAGED, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -281,7 +290,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encryption Management Mode"
         },
         {
             "allowed_chars": null,
@@ -308,7 +318,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Floating IPs Quota"
         },
         {
             "allowed_chars": null,
@@ -335,7 +346,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -362,7 +374,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Receive Multi Cast List ID"
         },
         {
             "allowed_chars": null,
@@ -389,7 +402,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Send Multi Cast List ID"
         }
     ],
     "children": [

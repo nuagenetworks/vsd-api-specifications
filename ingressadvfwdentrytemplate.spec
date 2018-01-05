@@ -973,7 +973,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redirect V Port Tag ID"
+            "userlabel": "Redirect VPort Tag ID"
         },
         {
             "allowed_chars": null,

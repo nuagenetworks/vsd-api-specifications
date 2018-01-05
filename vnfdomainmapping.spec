@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated NS Gateway  Na"
+            "userlabel": "NS Gateway Name"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Segmentation ID"
+            "userlabel": "Segmentation"
         },
         {
             "allowed_chars": null,

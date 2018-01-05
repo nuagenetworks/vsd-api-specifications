@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated PAT Mapper"
+            "userlabel": "Associated PAT Mapper ID"
         },
         {
             "allowed_chars": null,

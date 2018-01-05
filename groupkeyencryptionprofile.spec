@@ -12,7 +12,7 @@
             "description": "Group Key SEK Generation Interval in Seconds. Min=1, Max=86400",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 86400,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEK Generation Interval"
         },
         {
             "allowed_chars": null,
@@ -39,7 +40,7 @@
             "description": "Group Key SEK Lifetime in Seconds. Min=1, Max=86400",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 86400,
             "min_length": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEK Lifetime"
         },
         {
             "allowed_chars": null,
@@ -81,7 +83,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEK Payload Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -108,7 +111,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEK Payload Encryption BC Algorithm"
         },
         {
             "allowed_chars": null,
@@ -135,7 +139,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEK Payload Encryption Key Length"
         },
         {
             "allowed_chars": null,
@@ -168,7 +173,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEK Payload Signing Algorithm"
         },
         {
             "allowed_chars": null,
@@ -195,7 +201,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -222,7 +229,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -249,7 +257,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -276,7 +285,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Generation Interval"
         },
         {
             "allowed_chars": null,
@@ -290,7 +300,7 @@
             "description": "Group Key SEED Lifetime in Seconds. Min=1, Max=86400",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 86400,
             "min_length": null,
@@ -303,7 +313,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Lifetime"
         },
         {
             "allowed_chars": null,
@@ -334,7 +345,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Authentication Algorithm"
         },
         {
             "allowed_chars": null,
@@ -361,7 +373,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Authentication BC Algorithm"
         },
         {
             "allowed_chars": null,
@@ -375,7 +388,7 @@
             "description": "Group Key Seed Payload Authentication Key Length  (read only)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -388,7 +401,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Authentication Key Length"
         },
         {
             "allowed_chars": null,
@@ -419,7 +433,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -446,7 +461,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Encryption BC Algorithm"
         },
         {
             "allowed_chars": null,
@@ -460,7 +476,7 @@
             "description": "Group Key Seed Payload Encryption Key Length (read only)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -473,7 +489,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Encryption Key Length"
         },
         {
             "allowed_chars": null,
@@ -506,7 +523,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SEED Payload Signing Algorithm"
         },
         {
             "allowed_chars": null,
@@ -526,7 +544,7 @@
             "description": "Group Key traffic Authentication Algorithm. Possible values are HMAC_SHA1, HMAC_SHA256, HMAC_SHA384, HMAC_SHA512, HMAC_MD5, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -539,7 +557,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Traffic Authentication Algorithm"
         },
         {
             "allowed_chars": null,
@@ -558,7 +577,7 @@
             "description": "Group Key traffic Encryption Algorithm. Possible values are AES_128_CBC, AES_192_CBC, AES_256_CBC, TRIPLE_DES_CBC, .",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -571,7 +590,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Traffic Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -585,7 +605,7 @@
             "description": "Group Key Traffic Encryption Key Lifetime in Seconds. Min=1, Max=86400",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 86400,
             "min_length": null,
@@ -598,7 +618,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Traffic Encryption Key Lifetime"
         }
     ],
     "children": [],

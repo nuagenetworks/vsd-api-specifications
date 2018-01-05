@@ -12,7 +12,7 @@
             "description": "Total number of Enterprise Secured Data records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise Secured Data Record Count"
         },
         {
             "allowed_chars": null,
@@ -39,7 +40,7 @@
             "description": "Total number of Gateway Secured Data records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway Secured Data Record Count"
         },
         {
             "allowed_chars": null,
@@ -66,7 +68,7 @@
             "description": "Total number of Keyserver Monitor Encrypted SEK records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Keyserver Monitor Encrypted SEK Count"
         },
         {
             "allowed_chars": null,
@@ -93,7 +96,7 @@
             "description": "Total number of Keyserver Monitor Encrypted Seed records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Key Server Monitor Encrypted Seed Count"
         },
         {
             "allowed_chars": null,
@@ -120,7 +124,7 @@
             "description": "Total number of Keyserver Monitor SEK records",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Keyserver Monitor SEK Count"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Keyserver Monitor Seed Count"
         },
         {
             "allowed_chars": null,
@@ -174,7 +180,7 @@
             "description": "The time the latest SEK or Seed was created/removed (milliseconds since epoch)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Last Update Time"
         }
     ],
     "children": [

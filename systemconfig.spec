@@ -264,7 +264,7 @@
             "description": "Autonomous System Number,Used for EVPNBGPCommunityTag auto-generation",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967295,
             "min_length": null,
@@ -278,7 +278,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "EVPNBGP Community Tag AS "
+            "userlabel": "EVPN BGP Community Tag AS Number"
         },
         {
             "allowed_chars": null,
@@ -292,7 +292,7 @@
             "description": "EVPNBGPCommunityTag lower limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967294,
             "min_length": null,
@@ -306,7 +306,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "EVPNBGP Community Tag Low"
+            "userlabel": "EVPNBGP Community Tag Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -320,7 +320,7 @@
             "description": "EVPNBGPCommunityTag upper limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967295,
             "min_length": null,
@@ -334,7 +334,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "EVPNBGP Community Tag Upp"
+            "userlabel": "EVPNBGP Community Tag Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -544,7 +544,7 @@
             "description": "route distinguisher public network lower limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967294,
             "min_length": null,
@@ -558,7 +558,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "RD Public Network Lower L"
+            "userlabel": "RD Public Network Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -572,7 +572,7 @@
             "description": "route distinguisher public network upper limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967295,
             "min_length": null,
@@ -586,7 +586,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "RD Public Network Upper L"
+            "userlabel": "RD Public Network Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -656,7 +656,7 @@
             "description": "route target public network lower limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967294,
             "min_length": null,
@@ -670,7 +670,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "RT Public Network Lower L"
+            "userlabel": "RT Public Network Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -684,7 +684,7 @@
             "description": "route target public network upper limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 4294967295,
             "min_length": null,
@@ -698,7 +698,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "RT Public Network Upper L"
+            "userlabel": "RT Public Network Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -866,7 +866,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VM Resync Deletion Wait T"
+            "userlabel": "VM Resync Deletion Wait Time"
         },
         {
             "allowed_chars": null,
@@ -894,7 +894,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VM Resync Outstanding Int"
+            "userlabel": "VM Resync Outstanding Interval"
         },
         {
             "allowed_chars": null,
@@ -922,7 +922,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VM Unreachable Cleanup Ti"
+            "userlabel": "VM Unreachable Cleanup Time"
         },
         {
             "allowed_chars": null,
@@ -1020,7 +1020,7 @@
             "description": "Virtual network ID public network lower limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 1048574,
             "min_length": null,
@@ -1034,7 +1034,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNID Public Network Lower"
+            "userlabel": "VNID Public Network Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -1048,7 +1048,7 @@
             "description": "Virtual network ID public network upper limit",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 1048575,
             "min_length": null,
@@ -1062,7 +1062,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNID Public Network Upper"
+            "userlabel": "VNID Public Network Upper Limit"
         },
         {
             "allowed_chars": null,
@@ -1118,7 +1118,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V Port Init Stateful Time"
+            "userlabel": "VPort Init Stateful Timer"
         },
         {
             "allowed_chars": null,
@@ -1132,7 +1132,7 @@
             "description": "This flag is used to indicate that whether VSC is on the same version as VSD or not.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1146,7 +1146,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSC On Same Version As VS"
+            "userlabel": "VSC On Same Version As VSD"
         },
         {
             "allowed_chars": null,
@@ -1300,7 +1300,7 @@
             "description": "Time for the ZFB scheduler to wait in seconds before deleting a stale request",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 10080,
             "min_length": null,
@@ -1314,7 +1314,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Scheduler Stale Reque"
+            "userlabel": "ZFB Scheduler Stale Request Timer"
         },
         {
             "allowed_chars": null,
@@ -1342,7 +1342,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Accumulate Licenses Enabl"
+            "userlabel": "Accumulate Licenses Enabled"
         },
         {
             "allowed_chars": null,
@@ -1398,7 +1398,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Enterprise Avatar O"
+            "userlabel": "Allow Enterprise Avatar On NSG"
         },
         {
             "allowed_chars": null,
@@ -1541,7 +1541,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Csproot Authentication Me"
+            "userlabel": "Use LDAP CSPROOT"
         },
         {
             "allowed_chars": null,
@@ -2004,7 +2004,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Enables flow statistics collection. It is needed for the VSS feature, and requires a valid VSS license. This option requires 'statisticsEnabled'.",
+            "description": "Enables flow statistics collection. It is needed for the VSS feature, and requires a valid VSS license. This option requires \"statisticsEnabled\".",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -2135,7 +2135,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default SEK Pay"
+            "userlabel": "SEK Payload Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2169,7 +2169,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default SEK Pay"
+            "userlabel": "SEK Payload Signing Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2257,7 +2257,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default Seed Pa"
+            "userlabel": "SEED Payload Authentication Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2289,7 +2289,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default Seed Pa"
+            "userlabel": "SEED Payload Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2323,7 +2323,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default Seed Pa"
+            "userlabel": "SEED Payload Signing Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2357,7 +2357,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default Traffic"
+            "userlabel": "Traffic Authentication Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2390,7 +2390,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Default Traffic"
+            "userlabel": "Traffic Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2656,7 +2656,7 @@
             "description": "Enable the keyserver debug monitor (ie. ksmon command)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2670,7 +2670,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Key Server Monitor Enable"
+            "userlabel": "Key Server Monitor Enabled"
         },
         {
             "allowed_chars": null,
@@ -2978,7 +2978,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Per Domain Vlan Id Enable"
+            "userlabel": "Per Domain VLAN ID Enabled"
         },
         {
             "allowed_chars": null,
@@ -3118,7 +3118,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stateful ACL Non TCP Time"
+            "userlabel": "Stateful ACL Non TCP Timeout"
         },
         {
             "allowed_chars": null,
@@ -3174,7 +3174,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Static WAN Service Purge "
+            "userlabel": "Static WAN Service Purge Time"
         },
         {
             "allowed_chars": null,
@@ -3356,7 +3356,7 @@
             "description": "Specifies number of data points.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -3370,7 +3370,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stats Number Of Data Poin"
+            "userlabel": "Stats Number Of Data Points"
         },
         {
             "allowed_chars": null,

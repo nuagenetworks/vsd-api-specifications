@@ -757,7 +757,7 @@
             "description": "Indicates if this domain is a globally routable domain or not - boolean true/false",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -771,7 +771,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Global Routing Enabled"
+            "userlabel": "This domain is a HUB in a domain linkage topology"
         },
         {
             "allowed_chars": null,
@@ -841,7 +841,7 @@
             "description": "Indicates if this domain is a leakable domain or not - boolean true/false",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -855,7 +855,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Leaking Enabled"
+            "userlabel": "This domain is globally routable"
         },
         {
             "allowed_chars": null,

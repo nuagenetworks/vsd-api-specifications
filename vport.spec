@@ -174,7 +174,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Multicast Chan"
+            "userlabel": "Associated Multicast Channel Map ID"
         },
         {
             "allowed_chars": null,
@@ -230,7 +230,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Send Multicast"
+            "userlabel": "Associated Send Multicast Channel Map ID"
         },
         {
             "allowed_chars": null,

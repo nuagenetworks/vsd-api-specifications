@@ -25,7 +25,8 @@
             "transient": true,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AAR Flow Stats Interval"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": true,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "AAR Probe Stats Interval"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": true,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSS Stats Interval"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": true,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Flow Collection Enabled"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": true,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Statistics Enabled"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": true,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats TSDB Server Address"
         }
     ],
     "children": [],

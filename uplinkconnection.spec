@@ -663,7 +663,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vlan Id"
+            "userlabel": "VLAN ID"
         }
     ],
     "children": [

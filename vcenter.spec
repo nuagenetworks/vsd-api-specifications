@@ -795,7 +795,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ip Address"
+            "userlabel": "IP Address"
         },
         {
             "allowed_chars": null,
@@ -1093,7 +1093,7 @@
             "description": "Maximum Transmission Unit for eth2 interface",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1107,7 +1107,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mtu"
+            "userlabel": "MTU"
         },
         {
             "allowed_chars": null,
@@ -1121,7 +1121,7 @@
             "description": "Whether Multi VM is to be used or not",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1135,7 +1135,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi VM Ssupport"
+            "userlabel": "Multi VMS support"
         },
         {
             "allowed_chars": null,
@@ -1555,7 +1555,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nfs Mount Path"
+            "userlabel": "NFS Mount Path"
         },
         {
             "allowed_chars": null,
@@ -1639,7 +1639,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Service Auth Url"
+            "userlabel": "Nova Metadata Service Auth URL"
         },
         {
             "allowed_chars": null,
@@ -2833,7 +2833,7 @@
             "description": "Whether split-activation or not (Openstack/CloudStack)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2875,7 +2875,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vm Network Portgroup"
+            "userlabel": "VM Network Portgroup"
         },
         {
             "allowed_chars": null,
@@ -2903,7 +2903,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Config ID"
+            "userlabel": "VRS Config ID"
         },
         {
             "allowed_chars": null,
@@ -2931,7 +2931,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Password"
+            "userlabel": "VRS Password"
         },
         {
             "allowed_chars": null,
@@ -2959,7 +2959,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs User Name"
+            "userlabel": "VRS User Name"
         }
     ],
     "children": [

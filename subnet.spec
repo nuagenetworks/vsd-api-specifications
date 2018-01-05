@@ -292,7 +292,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Multicast Chan"
+            "userlabel": "Associated Multicast Channel Map ID"
         },
         {
             "allowed_chars": null,
@@ -320,7 +320,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Shared Network"
+            "userlabel": "Associated Shared Network Resource ID"
         },
         {
             "allowed_chars": null,
@@ -407,7 +407,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic Ipv6 Address"
+            "userlabel": "Dynamic IPv6 Address"
         },
         {
             "allowed_chars": null,
@@ -1050,7 +1050,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vn Id"
+            "userlabel": "Virtual Network ID"
         }
     ],
     "children": [
