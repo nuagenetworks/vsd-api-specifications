@@ -2004,7 +2004,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Enables flow statistics collection. It is needed for the VSS feature, and requires a valid VSS license. This option requires \"statisticsEnabled\".",
+            "description": "Enables flow statistics collection. It is needed for the VSS feature, and requires a valid VSS license. This option requires 'statisticsEnabled'.",
             "exposed": true,
             "filterable": false,
             "format": null,
