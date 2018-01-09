@@ -91,7 +91,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "Average Memory Usage",
+            "default_value": null,
             "deprecated": false,
             "description": "Average memory usage percentage.",
             "exposed": true,
