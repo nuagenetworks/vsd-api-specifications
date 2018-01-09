@@ -208,7 +208,7 @@
             "channel": null,
             "creation_only": true,
             "default_order": false,
-            "default_value": "Readonly",
+            "default_value": null,
             "deprecated": false,
             "description": "This is set to true if a link has been created in the opposite direction",
             "exposed": true,
