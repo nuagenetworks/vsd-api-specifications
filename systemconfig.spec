@@ -3794,7 +3794,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vcin Load Balancer IP"
+            "userlabel": "VCIN Load Balancer IP"
         },
         {
             "allowed_chars": null,
