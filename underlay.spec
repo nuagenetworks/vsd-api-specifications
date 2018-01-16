@@ -71,7 +71,7 @@
             "max_value": 65535,
             "min_length": null,
             "min_value": 1,
-            "name": "underlayID",
+            "name": "underlayId",
             "orderable": true,
             "read_only": false,
             "required": false,
