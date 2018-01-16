@@ -706,7 +706,7 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "subnet",
             "update": true
         }
