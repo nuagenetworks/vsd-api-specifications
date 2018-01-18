@@ -8,11 +8,11 @@
         "entity_name": "NSGPatchProfile",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "infrastructure",
         "resource_name": "nsgpatchprofiles",
         "rest_name": "nsgpatchprofile",
         "root": null,
         "update": true,
-        "userlabel": "Patch Profile"
+        "userlabel": "NSG Patch Profile"
     }
 }
