@@ -6,7 +6,9 @@
         "delete": true,
         "description": "The profile represents the patch information to be used by an NSG for applying a patch..",
         "entity_name": "NSGPatchProfile",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": "infrastructure",
         "resource_name": "nsgpatchprofiles",
