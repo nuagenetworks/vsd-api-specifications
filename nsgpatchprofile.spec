@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Enterprise/Organisation that this patch profile is part off.",
+            "description": "Enterprise/Organisation that this patch profile belongs to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enterprise I D"
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
