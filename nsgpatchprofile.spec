@@ -65,13 +65,13 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "URL to the the patch bundle for this particular patch.",
+            "description": "URL to retrieve the patch bundle for this particular patch.",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": null,
+            "max_length": 2048,
             "max_value": null,
-            "min_length": null,
+            "min_length": 1,
             "min_value": null,
             "name": "patchURL",
             "orderable": true,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Patch U R L"
+            "userlabel": "Patch URL"
         }
     ],
     "children": [],
