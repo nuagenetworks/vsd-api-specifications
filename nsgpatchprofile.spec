@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Brief description of this patch profile.",
+            "description": "A brief description of this patch profile.",
             "exposed": true,
             "filterable": true,
             "format": "free",
