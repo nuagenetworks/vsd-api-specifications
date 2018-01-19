@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoc Param Type"
+            "userlabel": "Associated Parameter Type"
         },
         {
             "allowed_chars": null,
