@@ -11,14 +11,14 @@
             "deprecated": false,
             "description": "ID of the object which supplies parameters for this command.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "assocParamID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoc Param I D"
+            "userlabel": "Assoc Param ID"
         },
         {
             "allowed_chars": null,
