@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoc Param ID"
+            "userlabel": "Associated Parameter ID"
         },
         {
             "allowed_chars": null,
