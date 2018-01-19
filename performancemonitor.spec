@@ -272,7 +272,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "H",
             "deprecated": false,
             "description": "Class of service to be used.  Service classes in order of priority are A, B, C, D, E, F, G, and H.",
             "exposed": true,
