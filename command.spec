@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the object which supplies parameters for this command.",
+            "description": "Parameter(s) as string to the command or object ID which supplies parameters for this command.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "assocParamID",
+            "name": "assocParam",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Parameter ID"
+            "userlabel": "Associated Parameter"
         },
         {
             "allowed_chars": null,
