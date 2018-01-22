@@ -143,7 +143,7 @@
     ],
     "children": [],
     "model": {
-        "create": null,
+        "create": true,
         "delete": true,
         "description": "This profile represents the patch information to be used by an NSG for applying a patch.",
         "entity_name": "NSGPatchProfile",
