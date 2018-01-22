@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A unique brief name and version of the patch derived from Patch URL..",
+            "description": "A unique brief name and version of the patch derived from Patch URL.",
             "exposed": true,
             "filterable": true,
             "format": "free",
