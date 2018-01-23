@@ -12,7 +12,7 @@
             "default_order": false,
             "default_value": "IPV4",
             "deprecated": false,
-            "description": "Specify if the virtualIP attribute value is an IPV4 or IPV6",
+            "description": "Specify if the virtualIP attribute value is in IPv4 or IPv6 format",
             "exposed": true,
             "filterable": false,
             "format": null,
