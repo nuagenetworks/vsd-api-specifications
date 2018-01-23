@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "Metadata",
+            "name": "blob",
             "orderable": true,
             "read_only": false,
             "required": true,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BLOB"
+            "userlabel": "Metadata"
         },
         {
             "allowed_chars": null,
