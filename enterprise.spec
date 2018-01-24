@@ -575,7 +575,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enterprise Profile ID"
+            "userlabel": "Profile"
         },
         {
             "allowed_chars": null,
@@ -662,7 +662,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Flow Collection"
+            "userlabel": "Flow Collection"
         },
         {
             "allowed_chars": null,
