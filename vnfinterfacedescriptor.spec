@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Is Management Interface"
+            "userlabel": "Management Interface"
         },
         {
             "allowed_chars": null,
