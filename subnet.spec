@@ -92,7 +92,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IP Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -264,7 +264,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Advertise"
+            "userlabel": "Advertise to Overlay"
         },
         {
             "allowed_chars": null,
@@ -1054,7 +1054,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Global MAC"
+            "userlabel": "Use Global Subnet Gateway MAC"
         },
         {
             "allowed_chars": null,

@@ -61,7 +61,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IP Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -464,7 +464,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Global MAC"
+            "userlabel": "Use Global Subnet Gateway MAC"
         }
     ],
     "children": [
