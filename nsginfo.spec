@@ -220,14 +220,14 @@
             "min_value": null,
             "name": "TPMVersion",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "T P M Version"
+            "userlabel": "TPM Version"
         },
         {
             "allowed_chars": null,
