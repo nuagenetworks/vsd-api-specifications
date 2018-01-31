@@ -211,6 +211,7 @@
                 "ORGAPPDESIGNER",
                 "ORGNETWORKDESIGNER",
                 "ORGUSER",
+                "SECURITYADMINISTRATOR",
                 "SYSTEM",
                 "UNKNOWN",
                 "USER"
