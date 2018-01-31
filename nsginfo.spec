@@ -210,7 +210,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "TPM version as reported by the NSG.",
+            "description": "TPM (Trusted Platform Module) version as reported by the NSG.",
             "exposed": true,
             "filterable": true,
             "format": "free",
