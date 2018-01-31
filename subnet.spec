@@ -166,7 +166,7 @@
             "description": null,
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -180,7 +180,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "PAT Enabled"
+            "userlabel": "Address Translation Support"
         },
         {
             "allowed_chars": null,
@@ -208,7 +208,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Access  Restricted"
+            "userlabel": "Restricted Access"
         },
         {
             "allowed_chars": null,
@@ -320,7 +320,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Shared Network"
+            "userlabel": "Shared Public Network"
         },
         {
             "allowed_chars": null,
@@ -713,10 +713,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": " when set VRS will act as  ARP Proxy",
+            "description": " When set, VRS will act as  ARP Proxy",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -730,7 +730,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Proxy ARP"
+            "userlabel": "Enable Proxy ARP"
         },
         {
             "allowed_chars": null,
@@ -886,10 +886,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Need to add correct description",
+            "description": "Block subnet routes",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -903,7 +903,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Split Subnet"
+            "userlabel": "Block Subnet Routes"
         },
         {
             "allowed_chars": null,
@@ -977,7 +977,7 @@
             "description": "Indicates whether UNDERLAY is enabled for the subnets in this domain",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -991,7 +991,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Enabled"
+            "userlabel": "Underlay Support"
         },
         {
             "allowed_chars": null,

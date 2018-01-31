@@ -375,7 +375,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": " when set VRS will act as  ARP Proxy",
+            "description": " When set, VRS will act as  ARP Proxy",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -391,7 +391,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enable Proxy ARP"
         },
         {
             "allowed_chars": null,
@@ -402,7 +403,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Need to add correct description",
+            "description": "Block subnet routes",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -418,7 +419,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Block Subnet Routes"
         },
         {
             "allowed_chars": null,
