@@ -3,7 +3,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "DUALSTACK",
                 "IPV4",
                 "IPV6"
             ],
@@ -30,7 +29,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IP Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -58,7 +57,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPv6 Address"
+            "userlabel": "IPv6 Network"
         },
         {
             "allowed_chars": null,
@@ -86,7 +85,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address"
+            "userlabel": "Network"
         },
         {
             "allowed_chars": null,
