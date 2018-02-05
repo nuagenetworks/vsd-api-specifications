@@ -1071,7 +1071,7 @@
             "min_value": null,
             "name": "patches",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": true,
