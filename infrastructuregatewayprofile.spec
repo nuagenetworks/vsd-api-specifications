@@ -565,7 +565,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics collector port"
+            "userlabel": "Statistics Collector Port"
         },
         {
             "allowed_chars": null,
