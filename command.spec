@@ -211,7 +211,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "UNSPECIFIED",
             "deprecated": false,
             "description": "A user specified action which overrides the normal life cycle of command.",
             "exposed": true,
