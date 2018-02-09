@@ -213,7 +213,7 @@
             "default_order": false,
             "default_value": "UNSPECIFIED",
             "deprecated": false,
-            "description": "Operator specified action which overrides the normal life cycle of command.",
+            "description": "Operator specified action which overrides the normal life cycle of a command.",
             "exposed": true,
             "filterable": true,
             "format": null,
