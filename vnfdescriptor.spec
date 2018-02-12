@@ -225,7 +225,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Type"
+            "userlabel": "VNF Type"
         },
         {
             "allowed_chars": null,

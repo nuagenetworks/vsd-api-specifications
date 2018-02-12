@@ -58,7 +58,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Type"
+            "userlabel": "Interface Type"
         }
     ],
     "children": [],
