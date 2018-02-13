@@ -668,7 +668,11 @@
         "delete": true,
         "description": "represents a application with L4/L7 classification",
         "entity_name": "Application",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "applications",
