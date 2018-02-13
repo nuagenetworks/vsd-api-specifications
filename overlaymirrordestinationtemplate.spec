@@ -163,6 +163,7 @@
         "resource_name": "overlaymirrordestinationtemplates",
         "rest_name": "overlaymirrordestinationtemplate",
         "root": null,
+	"template": true,
         "update": true,
         "userlabel": "Overlay Mirror Destination Template"
     }
