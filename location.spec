@@ -166,7 +166,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Longitude
+            "userlabel": "Longitude"
         },
         {
             "allowed_chars": null,
