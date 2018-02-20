@@ -1200,7 +1200,7 @@
             "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1214,7 +1214,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stretched"
+            "userlabel": "Enable streching"
         },
         {
             "allowed_chars": null,
@@ -1912,6 +1912,7 @@
         "resource_name": "domains",
         "rest_name": "domain",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Domain"
     }
