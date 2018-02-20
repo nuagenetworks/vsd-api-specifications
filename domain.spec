@@ -1292,7 +1292,7 @@
             "description": "Indicates whether UNDERLAY is enabled for the subnets in this domain",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1306,7 +1306,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Enabled"
+            "userlabel": "Underlay Support"
         },
         {
             "allowed_chars": null,
