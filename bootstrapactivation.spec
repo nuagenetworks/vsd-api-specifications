@@ -39,7 +39,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Action"
         },
         {
             "allowed_chars": null,
@@ -66,7 +67,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Auto Bootstrap"
         },
         {
             "allowed_chars": null,
@@ -93,7 +95,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "CA Certificate"
         },
         {
             "allowed_chars": null,
@@ -120,7 +123,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Certificate"
         },
         {
             "allowed_chars": null,
@@ -147,7 +151,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Config URL"
         },
         {
             "allowed_chars": null,
@@ -174,7 +179,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "CSR"
         },
         {
             "allowed_chars": null,
@@ -201,7 +207,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Hash"
         },
         {
             "allowed_chars": null,
@@ -228,7 +235,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Seed"
         },
         {
             "allowed_chars": null,
@@ -255,7 +263,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SRK Passphrase"
         },
         {
             "allowed_chars": null,
@@ -282,7 +291,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Status"
         },
         {
             "allowed_chars": null,
@@ -309,7 +319,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "TPM Owner Passphrase"
         },
         {
             "allowed_chars": null,
@@ -336,7 +347,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "TPM State"
         },
         {
             "allowed_chars": null,
@@ -350,7 +362,7 @@
             "description": "VSD Server time when an NSG is initiating a Bootstrapping request",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -363,7 +375,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VSD Time"
         }
     ],
     "children": [],

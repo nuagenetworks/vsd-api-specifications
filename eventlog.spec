@@ -12,7 +12,7 @@
             "description": "Holds the results of diff between two objects of same type.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Diff"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
@@ -66,7 +68,7 @@
             "description": "List of entities associated with the event.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entities"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entity ID"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entity Parent ID"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entity Parent Type"
         },
         {
             "allowed_chars": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Entity Type"
         },
         {
             "allowed_chars": null,
@@ -201,7 +208,7 @@
             "description": "The time that event was received.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "time",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Event Received Time"
         },
         {
             "allowed_chars": null,
@@ -241,7 +249,8 @@
             "transient": false,
             "type": "string",
             "unique": true,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Request ID"
         },
         {
             "allowed_chars": null,
@@ -268,7 +277,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -295,7 +305,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "User"
         }
     ],
     "children": [],

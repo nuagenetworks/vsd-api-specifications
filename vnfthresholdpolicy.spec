@@ -240,6 +240,7 @@
         "resource_name": "vnfthresholdpolicies",
         "rest_name": "vnfthresholdpolicy",
         "root": null,
-        "update": true
+        "update": true,
+        "userlabel": "VNF Threshold Policy"
     }
 }

@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Additional Supported Versions"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed AVRSGs"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed AVRSs"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed CPEs"
         },
         {
             "allowed_chars": null,
@@ -120,7 +124,7 @@
             "description": "Maximum number of NICs allowed. A value of -1 indicates unlimited number of NICs",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed NICs"
         },
         {
             "allowed_chars": null,
@@ -147,7 +152,7 @@
             "description": "Maximum number of VMs enabled with this license. A value of -1 indicates an unlimited number of VMs",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed VMs"
         },
         {
             "allowed_chars": null,
@@ -174,7 +180,7 @@
             "description": "Maximum number of VRSGs enabled with this license. A value of -1 indicates an unlimited number of VRSGs",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed VRSGs"
         },
         {
             "allowed_chars": null,
@@ -201,7 +208,7 @@
             "description": "Maximum number of VRSs enabled with this license. A value of -1 indicates an unlimited number of VRSs",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Allowed VRSs"
         },
         {
             "allowed_chars": null,
@@ -241,7 +249,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "City"
         },
         {
             "allowed_chars": null,
@@ -268,7 +277,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Company"
         },
         {
             "allowed_chars": null,
@@ -295,7 +305,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Country"
         },
         {
             "allowed_chars": null,
@@ -322,7 +333,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Customer Key"
         },
         {
             "allowed_chars": null,
@@ -349,7 +361,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Email"
         },
         {
             "allowed_chars": null,
@@ -363,7 +376,7 @@
             "description": "Indicates if the system is associated with a license that allows encryption or not",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -376,7 +389,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encryption Mode"
         },
         {
             "allowed_chars": null,
@@ -390,7 +404,7 @@
             "description": "Expiration date of this license",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -403,7 +417,8 @@
             "transient": false,
             "type": "time",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Expiration Date"
         },
         {
             "allowed_chars": null,
@@ -430,7 +445,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Expiry Timestamp"
         },
         {
             "allowed_chars": null,
@@ -444,7 +460,7 @@
             "description": "Indicates if the license is associated with standlone or cluster setup of VSD",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -457,7 +473,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Is Cluster License"
         },
         {
             "allowed_chars": null,
@@ -484,7 +501,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "License"
         },
         {
             "allowed_chars": null,
@@ -501,7 +519,7 @@
             "description": "License encryption",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -514,7 +532,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "License Encryption"
         },
         {
             "allowed_chars": null,
@@ -541,7 +560,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "License Entities"
         },
         {
             "allowed_chars": null,
@@ -555,7 +575,7 @@
             "description": "Unique identifier of the license file",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -568,7 +588,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "License ID"
         },
         {
             "allowed_chars": null,
@@ -585,7 +606,7 @@
             "description": null,
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -598,7 +619,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "License Type"
         },
         {
             "allowed_chars": null,
@@ -612,7 +634,7 @@
             "description": "Major software release associated with this license",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -625,7 +647,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Major Release"
         },
         {
             "allowed_chars": null,
@@ -639,7 +662,7 @@
             "description": "Minor software release for which this license has been issued",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -652,7 +675,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Minor Release"
         },
         {
             "allowed_chars": null,
@@ -679,7 +703,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Phone"
         },
         {
             "allowed_chars": null,
@@ -706,7 +731,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Product Version"
         },
         {
             "allowed_chars": null,
@@ -733,7 +759,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Provider"
         },
         {
             "allowed_chars": null,
@@ -760,7 +787,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "State"
         },
         {
             "allowed_chars": null,
@@ -787,7 +815,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Street"
         },
         {
             "allowed_chars": null,
@@ -814,7 +843,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Unique License Identifier"
         },
         {
             "allowed_chars": null,
@@ -841,7 +871,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "User Name"
         },
         {
             "allowed_chars": null,
@@ -868,7 +899,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Zipcode"
         }
     ],
     "children": [

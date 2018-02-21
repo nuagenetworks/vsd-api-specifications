@@ -25,7 +25,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Accumulate Licenses Enabled"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed AVRSGs"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed AVRSs"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Gateways"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed NICs"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed NSGs"
         },
         {
             "allowed_chars": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used AVRSGs"
         },
         {
             "allowed_chars": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used AVRSs"
         },
         {
             "allowed_chars": null,
@@ -241,7 +249,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used NICs"
         },
         {
             "allowed_chars": null,
@@ -268,7 +277,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used NSGs"
         },
         {
             "allowed_chars": null,
@@ -295,7 +305,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used VMs"
         },
         {
             "allowed_chars": null,
@@ -322,7 +333,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used VRSGs"
         },
         {
             "allowed_chars": null,
@@ -349,7 +361,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed Used VRSs"
         },
         {
             "allowed_chars": null,
@@ -376,7 +389,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed VMs"
         },
         {
             "allowed_chars": null,
@@ -403,7 +417,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed VRSGs"
         },
         {
             "allowed_chars": null,
@@ -430,7 +445,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Licensed VRSs"
         },
         {
             "allowed_chars": null,
@@ -457,7 +473,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Total Used Gateways"
         }
     ],
     "children": [],

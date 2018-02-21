@@ -117,7 +117,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Address"
+            "userlabel": "IPv6 Address"
         },
         {
             "allowed_chars": null,
@@ -145,7 +145,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Gateway"
+            "userlabel": "IPv6 Gateway"
         },
         {
             "allowed_chars": null,
@@ -201,7 +201,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Multicast Chan"
+            "userlabel": "Associated Multicast Channel Map ID"
         },
         {
             "allowed_chars": null,
@@ -722,6 +722,7 @@
         "resource_name": "l2domaintemplates",
         "rest_name": "l2domaintemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "L2 Domain Template"
     }

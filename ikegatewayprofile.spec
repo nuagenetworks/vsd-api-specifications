@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IKE Gateway Identifier"
         },
         {
             "allowed_chars": null,
@@ -58,7 +59,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IKE Gateway Identifier Type"
         },
         {
             "allowed_chars": null,
@@ -72,7 +74,7 @@
             "description": "Allow any local subnets to be used",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -85,7 +87,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Anti Replay Check"
         },
         {
             "allowed_chars": null,
@@ -112,7 +115,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -139,7 +143,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated IKE Authentication ID"
         },
         {
             "allowed_chars": null,
@@ -235,12 +240,12 @@
                 "HEALTH_REQ",
                 "HOSTINTERFACE",
                 "HSC",
+                "IKE_CERTIFICATE",
                 "IKE_ENCRYPTION_PROFILE",
                 "IKE_GATEWAY",
                 "IKE_GATEWAY_CONFIG",
-                "IKE_GATEWAY_PROFILE",
                 "IKE_GATEWAY_CONNECTION",
-                "IKE_CERTIFICATE",
+                "IKE_GATEWAY_PROFILE",
                 "IKE_PSK",
                 "IKE_SUBNET",
                 "INFRASTRUCTURE_CONFIG",
@@ -409,7 +414,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated IKE Authentication Type"
         },
         {
             "allowed_chars": null,
@@ -436,7 +442,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated IKE Encryption Profile ID"
         },
         {
             "allowed_chars": null,
@@ -463,7 +470,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated IKE Gateway ID"
         },
         {
             "allowed_chars": null,
@@ -490,7 +498,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -517,7 +526,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -541,7 +551,7 @@
             "description": "Class of service to be used.  Service classes in order of priority are A, B, C, D, E, F, G, and H.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -554,7 +564,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Service Class"
         }
     ],
     "children": [],

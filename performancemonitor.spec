@@ -175,7 +175,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "108",
+            "default_value": "137",
             "deprecated": false,
             "description": "Payload size (This is a mandatory field if the networkProbeType = ONEWAY, and optional for probeType = HTTP,IPSEC_AND_VXLAN)",
             "exposed": true,

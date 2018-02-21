@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "UUID"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "VRS ID"
         },
         {
             "allowed_chars": null,
@@ -66,7 +68,7 @@
             "description": "reflects the  VM Deletion expiry timer in secs , deleteMode needs to be non-null value for deleteExpiry to be taken in to effect. CMS created VM's will always have deleteMode set to TIMER",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Delete Expiry"
         },
         {
             "allowed_chars": null,
@@ -95,7 +98,7 @@
             "description": "reflects the mode of VM Deletion -  TIMER  Possible values are TIMER, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -108,7 +111,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Delete Mode"
         },
         {
             "allowed_chars": null,
@@ -122,7 +126,7 @@
             "description": "Array of IDs of the domain that the VM is connected to",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -135,7 +139,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain IDs"
         },
         {
             "allowed_chars": null,
@@ -162,7 +167,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -189,7 +195,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise Name"
         },
         {
             "allowed_chars": null,
@@ -216,7 +223,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Hypervisor IP"
         },
         {
             "allowed_chars": null,
@@ -230,7 +238,7 @@
             "description": "List of VM interfaces associated with the VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -243,7 +251,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Interfaces"
         },
         {
             "allowed_chars": null,
@@ -257,7 +266,7 @@
             "description": "Array of IDs of the l2 domain that the VM is connected to",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -270,7 +279,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "L2 Domain IDs"
         },
         {
             "allowed_chars": null,
@@ -297,7 +307,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -324,7 +335,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Orchestration ID"
         },
         {
             "allowed_chars": null,
@@ -390,7 +402,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Reason Type"
         },
         {
             "allowed_chars": null,
@@ -404,7 +417,7 @@
             "description": "Information of the status of the resync operation of a VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -417,7 +430,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Resync Info"
         },
         {
             "allowed_chars": null,
@@ -444,7 +458,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Site Identifier"
         },
         {
             "allowed_chars": null,
@@ -484,7 +499,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Status"
         },
         {
             "allowed_chars": null,
@@ -498,7 +514,7 @@
             "description": "Array of IDs of the subnets that the VM is connected to",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -511,7 +527,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Subnet IDs"
         },
         {
             "allowed_chars": null,
@@ -538,7 +555,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "User ID"
         },
         {
             "allowed_chars": null,
@@ -565,7 +583,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "User Name"
         },
         {
             "allowed_chars": null,
@@ -579,7 +598,7 @@
             "description": "Array of IDs of the zone that this VM is attached to",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -592,7 +611,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Zone IDs"
         }
     ],
     "children": [

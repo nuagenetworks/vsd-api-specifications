@@ -1351,7 +1351,7 @@
             "description": "Maximum Transmission Unit for eth2 interface",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1365,7 +1365,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mtu"
+            "userlabel": "MTU"
         },
         {
             "allowed_chars": null,
@@ -2489,7 +2489,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Removed From V Center Inventory"
+            "userlabel": "Removed From VCenter Inventory"
         },
         {
             "allowed_chars": null,
@@ -3441,7 +3441,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V Center IP"
+            "userlabel": "VCenter IP"
         },
         {
             "allowed_chars": null,
@@ -3469,7 +3469,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V Center Password"
+            "userlabel": "VCenter Password"
         },
         {
             "allowed_chars": null,
@@ -3497,7 +3497,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V Center User"
+            "userlabel": "VCenter User"
         },
         {
             "allowed_chars": null,
@@ -3553,7 +3553,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vm Network Portgroup"
+            "userlabel": "VM Network Portgroup"
         },
         {
             "allowed_chars": null,
@@ -3581,7 +3581,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Id"
+            "userlabel": "VRS ID"
         },
         {
             "allowed_chars": null,
@@ -3609,7 +3609,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Password"
+            "userlabel": "VRS Password"
         },
         {
             "allowed_chars": null,
@@ -3637,7 +3637,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs User Name"
+            "userlabel": "VRS User Name"
         }
     ],
     "children": [

@@ -29,7 +29,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPI"
         },
         {
             "allowed_chars": null,
@@ -46,7 +47,7 @@
             "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -59,7 +60,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IP Type"
         },
         {
             "allowed_chars": null,
@@ -86,7 +88,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPv6 Address"
         },
         {
             "allowed_chars": null,
@@ -113,7 +116,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address"
         },
         {
             "allowed_chars": null,
@@ -140,7 +144,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Multicast Channel Map ID"
         },
         {
             "allowed_chars": null,
@@ -167,7 +172,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -194,7 +200,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dynamic IPv6 Address"
         },
         {
             "allowed_chars": null,
@@ -225,7 +232,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encryption"
         },
         {
             "allowed_chars": null,
@@ -256,7 +264,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Multicast"
         },
         {
             "allowed_chars": null,
@@ -283,7 +292,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -310,7 +320,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Network Mask"
         },
         {
             "allowed_chars": null,
@@ -324,7 +335,7 @@
             "description": "Number of hosts in the subnets where IP addresses are automatically assigned from the zone IP pool",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -337,7 +348,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Number Of Hosts In Subnets"
         },
         {
             "allowed_chars": null,
@@ -351,7 +363,7 @@
             "description": "Identifies if the zone is a public zone, in which case any subnets associated with this zone are actually connected to the public subnet of the data center",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -364,7 +376,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Public Zone"
         }
     ],
     "children": [
@@ -420,6 +433,7 @@
         "resource_name": "zonetemplates",
         "rest_name": "zonetemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Zone Template"
     }

@@ -31,7 +31,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ZFB Match Attribute"
         },
         {
             "allowed_chars": null,
@@ -58,7 +59,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ZFB Match Attribute Values"
         },
         {
             "allowed_chars": null,
@@ -85,7 +87,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -112,7 +115,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Enterprise Name"
         },
         {
             "allowed_chars": null,
@@ -139,7 +143,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -166,7 +171,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -193,7 +199,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Priority"
         }
     ],
     "children": [],

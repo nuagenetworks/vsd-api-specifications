@@ -12,7 +12,7 @@
             "description": "The time this entry was created (milliseconds since epoch)",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Creation Time"
         },
         {
             "allowed_chars": null,
@@ -39,7 +40,7 @@
             "description": "The lifetime of this entry (seconds)",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Lifetime"
         },
         {
             "allowed_chars": null,
@@ -85,7 +87,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Seed Traffic Authentication Algorithm"
         },
         {
             "allowed_chars": null,
@@ -117,7 +120,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Seed Traffic Encryption Algorithm"
         },
         {
             "allowed_chars": null,
@@ -144,7 +148,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Seed Traffic Encryption Key Lifetime"
         },
         {
             "allowed_chars": null,
@@ -158,7 +163,7 @@
             "description": "The time this entry  was activated (milliseconds since epoch)",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -171,7 +176,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Start Time"
         }
     ],
     "children": [

@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Export Routing Policy ID"
+            "userlabel": "Export Routing Policy"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Import Routing Policy ID"
+            "userlabel": "Import Routing Policy"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dampening Enabled"
+            "userlabel": "Enable dampening"
         },
         {
             "allowed_chars": null,

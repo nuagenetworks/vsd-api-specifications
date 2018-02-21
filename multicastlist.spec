@@ -28,7 +28,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Multicast Type"
         }
     ],
     "children": [

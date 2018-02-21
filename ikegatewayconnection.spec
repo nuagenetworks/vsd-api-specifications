@@ -77,7 +77,7 @@
             "description": "NSG role",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -91,7 +91,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Role"
+            "userlabel": "NSG role"
         },
         {
             "allowed_chars": null,
@@ -105,7 +105,7 @@
             "description": "Allow any local subnets to be used",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -502,7 +502,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated VLANID"
+            "userlabel": "Associated VLAN ID"
         },
         {
             "allowed_chars": null,
@@ -600,7 +600,7 @@
             "description": "Priority of the IKEv2 Gateway Connection",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 65535,
             "min_length": null,
@@ -628,7 +628,7 @@
             "description": "The sequence of the IKE Gateway Connection",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
