@@ -530,7 +530,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Burst"
+            "userlabel": "Peak Burst Size"
         },
         {
             "allowed_chars": null,
