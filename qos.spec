@@ -670,7 +670,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Peak"
+            "userlabel": "Peak Information Rate"
         },
         {
             "allowed_chars": null,
