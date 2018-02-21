@@ -1200,7 +1200,7 @@
             "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1214,7 +1214,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stretched"
+            "userlabel": "Enable streching"
         },
         {
             "allowed_chars": null,
@@ -1292,7 +1292,7 @@
             "description": "Indicates whether UNDERLAY is enabled for the subnets in this domain",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1306,7 +1306,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Enabled"
+            "userlabel": "Underlay Support"
         },
         {
             "allowed_chars": null,
@@ -1912,6 +1912,7 @@
         "resource_name": "domains",
         "rest_name": "domain",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Domain"
     }
