@@ -3622,14 +3622,14 @@
             "deprecated": false,
             "description": "Indicates whether the VRS Agent has been marked as available by VCIN",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "vrsMarkedAsAvailable",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -3637,7 +3637,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Marked As Available"
+            "userlabel": "VRS Marked As Available"
         },
         {
             "allowed_chars": null,
