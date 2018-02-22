@@ -982,14 +982,14 @@
             "deprecated": false,
             "description": "When this is set to true, the vCenter Integration Node will be responsible for marking a VRS Agent as available in the EAM framework. If VCIN fails to mark a VRS Agent as unavailable, vCenter will not migrate VMs to the host running the VRS Agent and will not allow VMs to be powered on that host.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "manageVRSAvailability",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -997,7 +997,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Manage V R S Availability"
+            "userlabel": "Manage VRS Availability"
         },
         {
             "allowed_chars": null,
