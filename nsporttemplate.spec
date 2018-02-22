@@ -291,6 +291,7 @@
         "resource_name": "nsporttemplates",
         "rest_name": "nsporttemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "NS Port Template"
     }

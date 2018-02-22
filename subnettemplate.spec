@@ -61,7 +61,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IP Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -388,7 +388,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": " when set VRS will act as  ARP Proxy",
+            "description": " When set, VRS will act as  ARP Proxy",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -405,7 +405,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Proxy ARP"
+            "userlabel": "Enable Proxy ARP"
         },
         {
             "allowed_chars": null,
@@ -416,7 +416,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Need to add correct description",
+            "description": "Block subnet routes",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -433,7 +433,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Split Subnet"
+            "userlabel": "Block Subnet Routes"
         },
         {
             "allowed_chars": null,
@@ -464,7 +464,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Global MAC"
+            "userlabel": "Use Global Subnet Gateway MAC"
         }
     ],
     "children": [
@@ -532,6 +532,7 @@
         "resource_name": "subnettemplates",
         "rest_name": "subnettemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Subnet Template"
     }

@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NS Gateway"
+            "userlabel": "Network Services Gateway"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Segmentation"
+            "userlabel": "Segmentation ID"
         },
         {
             "allowed_chars": null,
@@ -127,6 +127,7 @@
         "resource_name": "vnfdomainmappings",
         "rest_name": "vnfdomainmapping",
         "root": null,
+        "template": false,
         "update": false,
         "userlabel": "VNF Domain Mapping"
     }

@@ -433,6 +433,7 @@
         "resource_name": "zonetemplates",
         "rest_name": "zonetemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Zone Template"
     }

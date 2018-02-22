@@ -330,6 +330,7 @@
         "resource_name": "vlantemplates",
         "rest_name": "vlantemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "VLAN Template"
     }

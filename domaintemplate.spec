@@ -512,6 +512,7 @@
         "resource_name": "domaintemplates",
         "rest_name": "domaintemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Domain Template"
     }

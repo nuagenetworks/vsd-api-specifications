@@ -63,7 +63,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "PT7D",
+            "default_value": "P7DT0H0M",
             "deprecated": false,
             "description": "Duration for a controller-less local operation (in ISO-duration format).",
             "exposed": true,
@@ -123,7 +123,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "PT7D",
+            "default_value": "P3DT0H0M",
             "deprecated": false,
             "description": "Duration for a controller-less remote operation (in ISO-duration format).",
             "exposed": true,
@@ -565,7 +565,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics collector port"
+            "userlabel": "Statistics Collector Port"
         },
         {
             "allowed_chars": null,

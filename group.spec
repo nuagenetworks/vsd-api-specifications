@@ -202,6 +202,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "ADMINOPERATOR",
                 "CMS",
                 "CSPOPERATOR",
                 "CSPROOT",
@@ -210,6 +211,7 @@
                 "ORGAPPDESIGNER",
                 "ORGNETWORKDESIGNER",
                 "ORGUSER",
+                "SECURITYADMINISTRATOR",
                 "SYSTEM",
                 "UNKNOWN",
                 "USER"
