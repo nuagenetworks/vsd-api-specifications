@@ -132,7 +132,11 @@
         "delete": true,
         "description": "Application Group is a container for group of applications ",
         "entity_name": "Applicationperformancemanagement",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "applicationperformancemanagements",
