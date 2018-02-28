@@ -30,7 +30,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DPI"
+            "userlabel": "Deep Packet Inspection"
         },
         {
             "allowed_chars": null,
