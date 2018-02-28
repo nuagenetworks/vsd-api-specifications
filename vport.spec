@@ -104,7 +104,7 @@
             "description": "Indicates if address spoofing is ENABLED/DISABLED/INHERITED for this vport.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -118,7 +118,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address Spoofing"
+            "userlabel": "Allow Source Address Spoofing"
         },
         {
             "allowed_chars": null,
@@ -1097,6 +1097,7 @@
         "resource_name": "vports",
         "rest_name": "vport",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "VPort"
     }
