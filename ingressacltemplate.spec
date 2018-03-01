@@ -40,7 +40,7 @@
             "description": "If enabled, it will disable the default anti-spoof ACL for this domain that essentially prevents any VM to send packets that do not originate from that particular VM",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -54,7 +54,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Address Spoof"
+            "userlabel": "Allow source address spoofing"
         },
         {
             "allowed_chars": null,
@@ -452,6 +452,7 @@
         "resource_name": "ingressacltemplates",
         "rest_name": "ingressacltemplate",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Ingress Security Policy"
     }
