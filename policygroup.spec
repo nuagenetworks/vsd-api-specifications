@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "External"
+            "userlabel": "Scope"
         },
         {
             "allowed_chars": null,
