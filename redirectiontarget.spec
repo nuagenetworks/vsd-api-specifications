@@ -87,7 +87,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "End Point Type"
+            "userlabel": "Service Insertion Type"
         },
         {
             "allowed_chars": null,
@@ -298,6 +298,7 @@
         "resource_name": "redirectiontargets",
         "rest_name": "redirectiontarget",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Redirection Target"
     }
