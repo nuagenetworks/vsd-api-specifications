@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address"
+            "userlabel": "IP Address"
         },
         {
             "allowed_chars": null,
@@ -86,7 +86,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Advertisement Criteria"
+            "userlabel": "Reachability Verification"
         },
         {
             "allowed_chars": null,
@@ -144,7 +144,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mode"
+            "userlabel": "Connection"
         },
         {
             "allowed_chars": null,
@@ -228,6 +228,7 @@
         "resource_name": "brconnections",
         "rest_name": "brconnection",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "BR Connection"
     }
