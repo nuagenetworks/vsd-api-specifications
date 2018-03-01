@@ -194,7 +194,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Allow IP"
+            "userlabel": "Forward IP traffic by default"
         },
         {
             "allowed_chars": null,
