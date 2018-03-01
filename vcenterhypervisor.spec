@@ -3622,7 +3622,7 @@
             "deprecated": false,
             "description": "Indicates whether the VRS Agent has been marked as available by VCIN",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": null,
             "max_length": null,
             "max_value": null,
