@@ -138,7 +138,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Policy Group ID"
+            "userlabel": "PGID"
         },
         {
             "allowed_chars": null,
