@@ -208,7 +208,7 @@
             "description": "If enabled, non ip traffic will be dropped",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Allow Non IP"
+            "userlabel": "Forward non IP traffic by default"
         },
         {
             "allowed_chars": null,
