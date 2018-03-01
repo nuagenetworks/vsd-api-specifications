@@ -349,6 +349,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "Any",
                 "Dynamic",
                 "LTE",
                 "PPPoE",
