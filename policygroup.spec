@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "EVPN Community Tag"
+            "userlabel": "EVPN Tag"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "External"
+            "userlabel": "Scope"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Policy Group ID"
+            "userlabel": "PGID"
         },
         {
             "allowed_chars": null,
@@ -253,6 +253,7 @@
         "resource_name": "policygroups",
         "rest_name": "policygroup",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Policy Group"
     }
