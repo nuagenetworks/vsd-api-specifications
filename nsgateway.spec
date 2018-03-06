@@ -11,7 +11,7 @@
             "deprecated": false,
             "description": "Release Date of the NSG BiOS",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
@@ -1555,6 +1555,7 @@
         "resource_name": "nsgateways",
         "rest_name": "nsgateway",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Network Services Gateway"
     }
