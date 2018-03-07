@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Route Distinguisher"
         },
         {
             "allowed_chars": null,
@@ -57,7 +58,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Uplink Type"
         }
     ],
     "children": [],
@@ -68,10 +70,7 @@
         "entity_name": "UplinkRD",
         "extends": [
             "@audited",
-            "@audited",
             "@base",
-            "@base",
-            "@metadata",
             "@metadata"
         ],
         "get": true,

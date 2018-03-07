@@ -15,7 +15,7 @@
             "description": "Type for stats collector address Possible values are ip, fqdn, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -28,7 +28,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address Type"
         },
         {
             "allowed_chars": null,
@@ -55,7 +56,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IP Address"
         },
         {
             "allowed_chars": null,
@@ -82,7 +84,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Port"
         },
         {
             "allowed_chars": null,
@@ -109,7 +112,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ProtoBuf Port"
         }
     ],
     "children": [],

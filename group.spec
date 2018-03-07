@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "LDAP Group DN"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Account Restrictions"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -96,7 +99,7 @@
             "description": "Management mode of the user object - allows for override of external authorization and syncup",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -109,7 +112,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Management Mode"
         },
         {
             "allowed_chars": null,
@@ -136,7 +140,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -163,7 +168,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Private"
         },
         {
             "allowed_chars": null,
@@ -177,7 +183,7 @@
             "description": "When the group was disabled.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -190,11 +196,13 @@
             "transient": false,
             "type": "time",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Restriction Date"
         },
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "ADMINOPERATOR",
                 "CMS",
                 "CSPOPERATOR",
                 "CSPROOT",
@@ -203,6 +211,7 @@
                 "ORGAPPDESIGNER",
                 "ORGNETWORKDESIGNER",
                 "ORGUSER",
+                "SECURITYADMINISTRATOR",
                 "SYSTEM",
                 "UNKNOWN",
                 "USER"
@@ -229,7 +238,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Role"
         }
     ],
     "children": [

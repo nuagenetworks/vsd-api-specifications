@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ACL Template Name"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DSCP"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ICMP Code"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "ICMP Type"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPv6 Address Override"
         },
         {
             "allowed_chars": null,
@@ -164,7 +169,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Action"
         },
         {
             "allowed_chars": null,
@@ -191,7 +197,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Action Details"
         },
         {
             "allowed_chars": null,
@@ -218,7 +225,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address Override"
         },
         {
             "allowed_chars": null,
@@ -245,7 +253,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Live Entity ID"
         },
         {
             "allowed_chars": null,
@@ -272,7 +281,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -299,7 +309,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dest Pg Id"
         },
         {
             "allowed_chars": null,
@@ -326,7 +337,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dest Pg Type"
         },
         {
             "allowed_chars": null,
@@ -353,7 +365,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Destination Port"
         },
         {
             "allowed_chars": null,
@@ -384,7 +397,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Destination Type"
         },
         {
             "allowed_chars": null,
@@ -411,7 +425,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Destination Value"
         },
         {
             "allowed_chars": null,
@@ -432,13 +447,14 @@
             "min_value": null,
             "name": "domainName",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Domain Name"
         },
         {
             "allowed_chars": null,
@@ -459,13 +475,14 @@
             "min_value": null,
             "name": "enterpriseName",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise Name"
         },
         {
             "allowed_chars": null,
@@ -492,7 +509,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ether Type"
         },
         {
             "allowed_chars": null,
@@ -519,7 +537,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Flow Logging Enabled"
         },
         {
             "allowed_chars": null,
@@ -546,7 +565,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Location ID"
         },
         {
             "allowed_chars": null,
@@ -580,7 +600,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Location Type"
         },
         {
             "allowed_chars": null,
@@ -607,7 +628,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Mirror Destination ID"
         },
         {
             "allowed_chars": null,
@@ -634,7 +656,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Network ID"
         },
         {
             "allowed_chars": null,
@@ -673,7 +696,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Network Type"
         },
         {
             "allowed_chars": null,
@@ -703,7 +727,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Policy State"
         },
         {
             "allowed_chars": null,
@@ -730,7 +755,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Priority"
         },
         {
             "allowed_chars": null,
@@ -757,7 +783,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Protocol"
         },
         {
             "allowed_chars": null,
@@ -784,7 +811,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source Pg Id"
         },
         {
             "allowed_chars": null,
@@ -811,7 +839,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source Pg Type"
         },
         {
             "allowed_chars": null,
@@ -838,7 +867,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source Port"
         },
         {
             "allowed_chars": null,
@@ -869,7 +899,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source Type"
         },
         {
             "allowed_chars": null,
@@ -896,7 +927,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Source Value"
         },
         {
             "allowed_chars": null,
@@ -923,7 +955,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stateful"
         },
         {
             "allowed_chars": null,
@@ -950,7 +983,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats ID"
         },
         {
             "allowed_chars": null,
@@ -977,7 +1011,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats Logging Enabled"
         }
     ],
     "children": [],

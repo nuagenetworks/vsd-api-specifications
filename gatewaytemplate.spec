@@ -153,6 +153,7 @@
         "resource_name": "gatewaytemplates",
         "rest_name": "gatewaytemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Data Center Gateway Template"
     }

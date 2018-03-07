@@ -29,7 +29,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "DPI"
         },
         {
             "allowed_chars": null,
@@ -59,7 +60,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -86,7 +88,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPv6 Address"
         },
         {
             "allowed_chars": null,
@@ -113,7 +116,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "IPv6 Gateway"
         },
         {
             "allowed_chars": null,
@@ -140,7 +144,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address"
         },
         {
             "allowed_chars": null,
@@ -167,7 +172,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Multicast Channel Map ID"
         },
         {
             "allowed_chars": null,
@@ -194,7 +200,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -221,7 +228,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Dynamic IPv6 Address"
         },
         {
             "allowed_chars": null,
@@ -239,7 +247,7 @@
             "description": "Determines whether or not IPSEC is enabled. Possible values are INHERITED, ENABLED, DISABLED, .",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -252,7 +260,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Encryption"
         },
         {
             "allowed_chars": null,
@@ -279,7 +288,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Gateway"
         },
         {
             "allowed_chars": null,
@@ -310,7 +320,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Multicast"
         },
         {
             "allowed_chars": null,
@@ -337,7 +348,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -364,7 +376,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Netmask"
         },
         {
             "allowed_chars": null,
@@ -375,10 +388,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": " when set VRS will act as  ARP Proxy",
+            "description": " When set, VRS will act as  ARP Proxy",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -391,7 +404,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enable Proxy ARP"
         },
         {
             "allowed_chars": null,
@@ -402,10 +416,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Need to add correct description",
+            "description": "Block subnet routes",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -418,7 +432,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Block Subnet Routes"
         },
         {
             "allowed_chars": null,
@@ -448,7 +463,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Use Global Subnet Gateway MAC"
         }
     ],
     "children": [
@@ -516,6 +532,7 @@
         "resource_name": "subnettemplates",
         "rest_name": "subnettemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Subnet Template"
     }

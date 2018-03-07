@@ -477,6 +477,18 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": true,
+            "delete": true,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "virtualfirewallpolicy",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
             "delete": false,
             "deprecated": false,
             "get": true,
@@ -500,6 +512,7 @@
         "resource_name": "domaintemplates",
         "rest_name": "domaintemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Domain Template"
     }

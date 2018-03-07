@@ -12,7 +12,7 @@
             "description": "List of actual Egress ACLs that will be applied on the interface of this VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -25,7 +25,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Egress ACLs"
         },
         {
             "allowed_chars": null,
@@ -39,7 +40,7 @@
             "description": "Egress QoS primitive that was selected",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Egress QoS"
         },
         {
             "allowed_chars": null,
@@ -66,7 +68,7 @@
             "description": "List of actual Egress ACLs that will be applied on the interface of this VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "FIP ACLS"
         },
         {
             "allowed_chars": null,
@@ -93,7 +96,7 @@
             "description": "List of actual Ingress ACLs that will be applied on the interface of this VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ingress ACLs"
         },
         {
             "allowed_chars": null,
@@ -120,7 +124,7 @@
             "description": "List of actual Ingress Redirect ACLs that will be applied on the interface of this VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ingress Adv Fwding Rules"
         },
         {
             "allowed_chars": null,
@@ -147,7 +152,7 @@
             "description": "List of actual Ingress External Service ACLs that will be applied on the interface of this VM",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Ingress External Service ACLs"
         },
         {
             "allowed_chars": null,
@@ -174,7 +180,7 @@
             "description": "QoS primitive that was selected based on inheritance policies",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "QoS"
         },
         {
             "allowed_chars": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "object",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Stats"
         }
     ],
     "children": [

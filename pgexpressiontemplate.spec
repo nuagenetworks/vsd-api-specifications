@@ -100,6 +100,7 @@
         "resource_name": "pgexpressiontemplates",
         "rest_name": "pgexpressiontemplate",
         "root": null,
+        "template": true,
         "update": true,
         "userlabel": "Policy Group Expression Template"
     }

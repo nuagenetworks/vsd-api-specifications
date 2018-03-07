@@ -28,7 +28,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Acceptance Criteria"
         },
         {
             "allowed_chars": null,
@@ -55,7 +56,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Destination ID"
         },
         {
             "allowed_chars": null,
@@ -82,7 +84,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Destination Name"
         },
         {
             "allowed_chars": null,
@@ -111,7 +114,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Destination Type"
         },
         {
             "allowed_chars": null,
@@ -138,7 +142,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Source ID"
         },
         {
             "allowed_chars": null,
@@ -165,7 +170,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Source Name"
         },
         {
             "allowed_chars": null,
@@ -192,7 +198,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Associated Source Type"
         },
         {
             "allowed_chars": null,
@@ -219,7 +226,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Read Only"
         },
         {
             "allowed_chars": null,
@@ -252,7 +260,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Type"
         }
     ],
     "children": [
@@ -313,7 +322,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "psnatpool",
+            "rest_name": "policystatement",
             "update": false
         },
         {
@@ -325,7 +334,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "policystatement",
+            "rest_name": "psnatpool",
             "update": false
         }
     ],

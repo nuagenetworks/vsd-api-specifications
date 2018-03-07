@@ -28,7 +28,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "SSH service"
         },
         {
             "allowed_chars": null,
@@ -39,7 +40,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A description of the Gateway",
+            "description": "A description of the Gateway template.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -55,7 +56,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -66,7 +68,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The enterprise associated with this Gateway. This is a read only attribute",
+            "description": "The enterprise associated with this Gateway template. This is a read only attribute",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -82,7 +84,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Enterprise ID"
         },
         {
             "allowed_chars": null,
@@ -109,7 +112,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Access Profile"
         },
         {
             "allowed_chars": null,
@@ -120,7 +124,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID of the infrastructure gateway profile this instance of a Gateway is associated with.",
+            "description": "The ID of the infrastructure gateway profile this instance of a Gateway template is associated with.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -136,7 +140,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Infrastructure Profile"
         },
         {
             "allowed_chars": null,
@@ -166,7 +171,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Instance SSH override"
         },
         {
             "allowed_chars": null,
@@ -177,7 +183,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Gateway",
+            "description": "Name of the Gateway template.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -193,7 +199,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -208,7 +215,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Personality of the Gateway - NSG, NSGBR, cannot be changed after creation.",
+            "description": "Personality of the Gateway template - NSG, NSGBR, cannot be changed after creation.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -224,7 +231,8 @@
             "transient": false,
             "type": "enum",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Personality"
         }
     ],
     "children": [
@@ -256,6 +264,7 @@
         "resource_name": "nsgatewaytemplates",
         "rest_name": "nsgatewaytemplate",
         "root": false,
+        "template": true,
         "update": true,
         "userlabel": "Network Services Gateway Template"
     }
