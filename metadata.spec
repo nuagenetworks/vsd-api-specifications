@@ -245,6 +245,7 @@
         "description": "Metadata associated to a entity.",
         "entity_name": "Metadata",
         "extends": [
+            "@audited",
             "@base"
         ],
         "get": true,
