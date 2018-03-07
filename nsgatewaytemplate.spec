@@ -113,7 +113,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Access profile"
+            "userlabel": "Access Profile"
         },
         {
             "allowed_chars": null,
@@ -141,7 +141,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Infrastructure profile"
+            "userlabel": "Infrastructure Profile"
         },
         {
             "allowed_chars": null,
