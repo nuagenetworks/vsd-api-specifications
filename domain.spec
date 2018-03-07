@@ -803,7 +803,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "This domain is a HUB in a domain linkage topology"
+            "userlabel": "This domain is globally routable"
         },
         {
             "allowed_chars": null,
@@ -887,7 +887,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "This domain is globally routable"
+            "userlabel": "This domain is a HUB in a domain linkage topology"
         },
         {
             "allowed_chars": null,
