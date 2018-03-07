@@ -457,7 +457,7 @@
             "default_order": false,
             "default_value": "5",
             "deprecated": false,
-            "description": "Defines the timeout in seconds for vport initialization to stateful. In case of a dual-uplink NSG, the hold down time in seconds, after which an uplink connection that recovered from failure is re-used.",
+            "description": "In case of a dual-uplink NSG, the hold down time in seconds, after which an uplink connection that recovered from failure is re-used.",
             "exposed": true,
             "filterable": false,
             "format": null,
