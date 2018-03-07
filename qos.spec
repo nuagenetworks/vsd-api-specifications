@@ -726,7 +726,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Rewrite Forwarding Class"
+            "userlabel": "Rewrite Customer Class With Provider Class"
         },
         {
             "allowed_chars": null,
@@ -764,7 +764,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Service Class"
+            "userlabel": "Default Forwarding Class"
         },
         {
             "allowed_chars": null,
