@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DSCP"
+            "userlabel": "Map CoS"
         },
         {
             "allowed_chars": null,
