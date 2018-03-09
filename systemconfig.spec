@@ -2516,7 +2516,7 @@
             "description": "Group Key Encryption Profile Minimum SEK Lifetime",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2530,7 +2530,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum SEK Lif"
+            "userlabel": "Minimum SEK Lifetime"
         },
         {
             "allowed_chars": null,
