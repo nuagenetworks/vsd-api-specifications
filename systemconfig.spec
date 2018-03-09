@@ -2460,7 +2460,7 @@
             "description": "Time in seconds before new keys will be generated in the case of a revoke event",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2474,7 +2474,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Generation Inte"
+            "userlabel": "Generation Interval On Revoke"
         },
         {
             "allowed_chars": null,
