@@ -2323,7 +2323,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "SEED Payload Signing Algorithm"
+            "userlabel": "SEED Payload Signature Algorithm"
         },
         {
             "allowed_chars": null,
@@ -3869,6 +3869,7 @@
         "resource_name": "systemconfigs",
         "rest_name": "systemconfig",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "System Config"
     }
