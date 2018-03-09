@@ -2488,7 +2488,7 @@
             "description": "Group Key Encryption Profile Minimum SEK Generation Interval",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2502,7 +2502,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum SEK Gen"
+            "userlabel": "Minimum SEK Generation Interval"
         },
         {
             "allowed_chars": null,
