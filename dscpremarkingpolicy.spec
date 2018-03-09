@@ -63,7 +63,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Forwarding Class"
+            "userlabel": "Forwarding Class to DSCP"
         }
     ],
     "children": [],
