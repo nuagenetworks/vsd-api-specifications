@@ -2712,7 +2712,7 @@
             "description": "KeyServer time in seconds between full resyncs of VSD data (just in case of missed events)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2726,7 +2726,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Key Server VSD Data Synch"
+            "userlabel": "VSD Data Synchronization Interval"
         },
         {
             "allowed_chars": null,
