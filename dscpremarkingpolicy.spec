@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DSCP"
+            "userlabel": "Map DSCP"
         },
         {
             "allowed_chars": null,
@@ -82,6 +82,7 @@
         "resource_name": "dscpremarkingpolicies",
         "rest_name": "dscpremarkingpolicy",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "DSCP Remarking Policy"
     }
