@@ -2446,7 +2446,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Generation Interval  On Forced ReKey"
+            "userlabel": "Generation Interval On Forced ReKey"
         },
         {
             "allowed_chars": null,
