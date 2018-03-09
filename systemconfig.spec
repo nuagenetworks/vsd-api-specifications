@@ -2572,7 +2572,7 @@
             "description": "Group Key Encryption Profile Default Seed Lifetime",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2586,7 +2586,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum Seed Li"
+            "userlabel": "Minimum Seed Lifetime"
         },
         {
             "allowed_chars": null,
