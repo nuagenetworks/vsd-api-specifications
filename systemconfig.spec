@@ -2351,7 +2351,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "SEED Payload Signing Algorithm"
+            "userlabel": "SEED Payload Signature Algorithm"
         },
         {
             "allowed_chars": null,
@@ -2460,7 +2460,7 @@
             "description": "Time in seconds before new keys will be generated in the case of a forced re-key event",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2474,7 +2474,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Generation Inte"
+            "userlabel": "Generation Interval On Forced ReKey"
         },
         {
             "allowed_chars": null,
@@ -2488,7 +2488,7 @@
             "description": "Time in seconds before new keys will be generated in the case of a revoke event",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2502,7 +2502,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Generation Inte"
+            "userlabel": "Generation Interval On Revoke"
         },
         {
             "allowed_chars": null,
@@ -2516,7 +2516,7 @@
             "description": "Group Key Encryption Profile Minimum SEK Generation Interval",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2530,7 +2530,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum SEK Gen"
+            "userlabel": "Minimum SEK Generation Interval"
         },
         {
             "allowed_chars": null,
@@ -2544,7 +2544,7 @@
             "description": "Group Key Encryption Profile Minimum SEK Lifetime",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2558,7 +2558,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum SEK Lif"
+            "userlabel": "Minimum SEK Lifetime"
         },
         {
             "allowed_chars": null,
@@ -2600,7 +2600,7 @@
             "description": "Group Key Encryption Profile Default Seed Lifetime",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2614,7 +2614,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum Seed Li"
+            "userlabel": "Minimum Seed Lifetime"
         },
         {
             "allowed_chars": null,
@@ -2628,7 +2628,7 @@
             "description": "Group Key Encryption Profile Minimum TEK Lifetime",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2642,7 +2642,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group Key Minimum Traffic"
+            "userlabel": "Minimum Traffic Encryption Key Lifetime"
         },
         {
             "allowed_chars": null,
@@ -2740,7 +2740,7 @@
             "description": "KeyServer time in seconds between full resyncs of VSD data (just in case of missed events)",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2754,7 +2754,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Key Server VSD Data Synch"
+            "userlabel": "VSD Data Synchronization Interval"
         },
         {
             "allowed_chars": null,
