@@ -11,14 +11,14 @@
             "deprecated": false,
             "description": "The ICMP Code when protocol selected is ICMP.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "ICMP Code",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I C M P  Code"
+            "userlabel": "ICMP  Code"
         },
         {
             "allowed_chars": null,
