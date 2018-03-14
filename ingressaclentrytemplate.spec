@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DSCP"
+            "userlabel": "DSCP Marker"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "L7 Application"
+            "userlabel": "App Signature"
         },
         {
             "allowed_chars": null,
@@ -914,6 +914,7 @@
         "resource_name": "ingressaclentrytemplates",
         "rest_name": "ingressaclentrytemplate",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Ingress Security Policy Entry"
     }
