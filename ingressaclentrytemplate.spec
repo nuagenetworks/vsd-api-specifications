@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "L7 Application"
+            "userlabel": "App Signature"
         },
         {
             "allowed_chars": null,
