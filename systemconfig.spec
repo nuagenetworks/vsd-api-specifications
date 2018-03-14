@@ -469,9 +469,9 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "long",
+            "subtype": null,
             "transient": false,
-            "type": "object",
+            "type": "integer",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "PGID Lower Limit"
