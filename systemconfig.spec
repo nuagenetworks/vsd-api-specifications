@@ -497,9 +497,9 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "long",
+            "subtype": null,
             "transient": false,
-            "type": "object",
+            "type": "integer",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "PGID Upper Limit"
@@ -3841,6 +3841,7 @@
         "resource_name": "systemconfigs",
         "rest_name": "systemconfig",
         "root": false,
+        "template": null,
         "update": true,
         "userlabel": "System Config"
     }
