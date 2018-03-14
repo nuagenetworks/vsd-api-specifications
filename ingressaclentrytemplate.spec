@@ -611,6 +611,7 @@
                 "ENDPOINT_ZONE",
                 "ENTERPRISE_NETWORK",
                 "INTERNET_POLICYGROUP",
+                "NETWORK_MACRO",
                 "NETWORK_MACRO_GROUP",
                 "PGEXPRESSION",
                 "POLICYGROUP",
