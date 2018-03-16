@@ -39,14 +39,14 @@
             "deprecated": false,
             "description": "IPv6 address of the  interface",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "IPv6Address",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Address"
+            "userlabel": "IPv6 Address"
         },
         {
             "allowed_chars": null,
