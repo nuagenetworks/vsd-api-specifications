@@ -39,14 +39,14 @@
             "deprecated": false,
             "description": "IPV6 Gateway of the subnet that the Bridge is connected to",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "IPv6Gateway",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Gateway"
+            "userlabel": "IPv6 Gateway"
         },
         {
             "allowed_chars": null,
