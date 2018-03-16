@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "IPV6 Gateway of the subnet that the VM is connected to\"",
+            "description": "IPV6 Gateway of the subnet that the VNF is connected to.",
             "exposed": true,
             "filterable": true,
             "format": "free",
