@@ -3053,6 +3053,11 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "VCENTER_DELETE_AGENCY",
+            "VCENTER_RECONNECT",
+            "VCENTER_SYNC"
+        ],
         "create": false,
         "delete": true,
         "description": "Represents a VCenter.",

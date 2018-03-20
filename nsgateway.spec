@@ -1541,6 +1541,15 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "CERTIFICATE_NSG_REVOKE",
+            "GATEWAY_AUDIT",
+            "NOTIFY_NSG_REGISTRATION",
+            "NOTIFY_NSG_REGISTRATION_ACK",
+            "NOTIFY_NSG_REGISTRATION_TEST",
+            "NSG_NOTIFICATION_TEST",
+            "RELOAD_NSG_CONFIG"
+        ],
         "create": false,
         "delete": true,
         "description": "Represents a Network Service Gateway.",

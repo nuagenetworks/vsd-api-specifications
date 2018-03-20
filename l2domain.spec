@@ -1237,6 +1237,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "This is the definition of a l2 domain associated with a Enterprise.",
@@ -1251,6 +1255,7 @@
         "resource_name": "l2domains",
         "rest_name": "l2domain",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "L2 Domain"
     }

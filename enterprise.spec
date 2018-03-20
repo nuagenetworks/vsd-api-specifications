@@ -1556,6 +1556,14 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "FORCE_KEYSERVER_UPDATE",
+            "FORCE_KEYSERVER_UPDATE_ACK",
+            "FORCE_KEYSERVER_VSD_RESYNC",
+            "GATEWAY_AUDIT",
+            "GET_ZFB_INFO",
+            "RETRIEVE_ACTIVE_NSGS"
+        ],
         "create": false,
         "delete": true,
         "description": "Definition of the enterprise object. This is the top level object that represents an enterprise.",

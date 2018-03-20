@@ -25,7 +25,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Address"
         },
         {
             "allowed_chars": null,
@@ -52,7 +53,8 @@
             "transient": false,
             "type": "boolean",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Already Marked For Unavailable"
         },
         {
             "allowed_chars": null,
@@ -79,7 +81,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Average CPU Usage"
         },
         {
             "allowed_chars": null,
@@ -106,7 +109,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Average Memory Usage"
         },
         {
             "allowed_chars": null,
@@ -133,7 +137,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Current CPU Usage"
         },
         {
             "allowed_chars": null,
@@ -160,7 +165,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Current Memory Usage"
         },
         {
             "allowed_chars": null,
@@ -187,7 +193,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -214,7 +221,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Disks"
         },
         {
             "allowed_chars": null,
@@ -241,7 +249,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Last State Change"
         },
         {
             "allowed_chars": null,
@@ -296,7 +305,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Management IP"
         },
         {
             "allowed_chars": null,
@@ -323,7 +333,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Messages"
         },
         {
             "allowed_chars": null,
@@ -350,7 +361,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Name"
         },
         {
             "allowed_chars": null,
@@ -377,7 +389,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Peak CPU Usage"
         },
         {
             "allowed_chars": null,
@@ -404,7 +417,8 @@
             "transient": false,
             "type": "float",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Peak Memory Usage"
         },
         {
             "allowed_chars": null,
@@ -431,7 +445,8 @@
             "transient": false,
             "type": "string",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Product Version"
         },
         {
             "allowed_chars": null,
@@ -490,7 +505,8 @@
             "transient": false,
             "type": "integer",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Unavailable Timestamp"
         },
         {
             "allowed_chars": null,
@@ -517,7 +533,8 @@
             "transient": false,
             "type": "list",
             "unique": false,
-            "uniqueScope": null
+            "uniqueScope": null,
+            "userlabel": "Vsds"
         }
     ],
     "children": [
@@ -595,6 +612,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "RELOAD"
+        ],
         "create": false,
         "delete": true,
         "description": "System Monitoring details for VSC.",
@@ -609,6 +629,7 @@
         "resource_name": "vscs",
         "rest_name": "vsc",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "VSC"
     }

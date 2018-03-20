@@ -656,6 +656,15 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "DEPLOY",
+            "REDEPLOY",
+            "RESTART",
+            "START",
+            "STOP",
+            "SYNC",
+            "UNDEPLOY"
+        ],
         "create": null,
         "delete": true,
         "description": "Represent a VNF instance",
