@@ -312,6 +312,7 @@
                 "UNDEPLOY",
                 "VCENTER_ADD_COMPUTERESOURCE_INSCOPE",
                 "VCENTER_DELETE_AGENCY",
+                "VCENTER_MARK_AGENT_VM_AVAILABLE",
                 "VCENTER_RECONNECT",
                 "VCENTER_RELOAD",
                 "VCENTER_REMOVE_COMPUTERESOURCE_INSCOPE",
