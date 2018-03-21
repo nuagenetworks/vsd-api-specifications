@@ -3749,6 +3749,7 @@
     "model": {
         "allowed_job_commands": [
             "VCENTER_ADD_COMPUTERESOURCE_INSCOPE",
+            "VCENTER_MARK_AGENT_VM_AVAILABLE",
             "VCENTER_RELOAD",
             "VCENTER_REMOVE_COMPUTERESOURCE_INSCOPE",
             "VCENTER_SCRIPT_UPGRADE_VRS",
