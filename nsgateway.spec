@@ -11,7 +11,7 @@
             "deprecated": false,
             "description": "Release Date of the NSG BiOS",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
@@ -1541,6 +1541,15 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "CERTIFICATE_NSG_REVOKE",
+            "GATEWAY_AUDIT",
+            "NOTIFY_NSG_REGISTRATION",
+            "NOTIFY_NSG_REGISTRATION_ACK",
+            "NOTIFY_NSG_REGISTRATION_TEST",
+            "NSG_NOTIFICATION_TEST",
+            "RELOAD_NSG_CONFIG"
+        ],
         "create": false,
         "delete": true,
         "description": "Represents a Network Service Gateway.",
@@ -1555,6 +1564,7 @@
         "resource_name": "nsgateways",
         "rest_name": "nsgateway",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Network Services Gateway"
     }

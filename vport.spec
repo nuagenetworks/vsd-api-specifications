@@ -30,7 +30,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DPI"
+            "userlabel": "Deep Packet Inspection"
         },
         {
             "allowed_chars": null,
@@ -104,7 +104,7 @@
             "description": "Indicates if address spoofing is ENABLED/DISABLED/INHERITED for this vport.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -118,7 +118,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address Spoofing"
+            "userlabel": "Allow Source Address Spoofing"
         },
         {
             "allowed_chars": null,
@@ -1083,6 +1083,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "CLEAR_MAC_MOVE_ALARMS"
+        ],
         "create": false,
         "delete": true,
         "description": "VPorts are a new level in the domain hierarchy, intended to provide more granular configuration than at subnet, and also support a split workflow, where the vPort is configured and associated with a VM port (or gateway port) before the port exists.",
@@ -1097,6 +1100,7 @@
         "resource_name": "vports",
         "rest_name": "vport",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "VPort"
     }

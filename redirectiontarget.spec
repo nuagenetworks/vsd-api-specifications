@@ -87,7 +87,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "End Point Type"
+            "userlabel": "Service Insertion Type"
         },
         {
             "allowed_chars": null,
@@ -129,7 +129,7 @@
             "description": "Allow/Disallow redundant appliances and VIP",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -143,7 +143,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redundancy Enabled"
+            "userlabel": "Allow Reduntant Appliances"
         },
         {
             "allowed_chars": null,
@@ -253,18 +253,6 @@
             "create": true,
             "delete": false,
             "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
             "get": true,
             "relationship": "child",
             "rest_name": "virtualip",
@@ -284,6 +272,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "A group/collection of vports that belong to the same domain.",
@@ -298,6 +287,7 @@
         "resource_name": "redirectiontargets",
         "rest_name": "redirectiontarget",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Redirection Target"
     }

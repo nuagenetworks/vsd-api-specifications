@@ -673,6 +673,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "RELOAD"
+        ],
         "create": false,
         "delete": true,
         "description": "System Monitoring details for hardware service controllers.",
@@ -687,6 +690,7 @@
         "resource_name": "hscs",
         "rest_name": "hsc",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "HSC"
     }

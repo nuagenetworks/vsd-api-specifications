@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DNS Address"
+            "userlabel": "DNS"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address"
+            "userlabel": "IP Address"
         },
         {
             "allowed_chars": null,
@@ -114,7 +114,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Advertisement Criteria"
+            "userlabel": "Reachability Verification"
         },
         {
             "allowed_chars": null,
@@ -142,7 +142,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoc Underlay ID"
+            "userlabel": "Underlay"
         },
         {
             "allowed_chars": null,
@@ -170,7 +170,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated BGP Neighbor ID"
+            "userlabel": "BGP Neighbor"
         },
         {
             "allowed_chars": null,
@@ -198,7 +198,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Underlay Name"
+            "userlabel": "Underlay"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Auxiliary Link"
+            "userlabel": "Auxiliary Uplink"
         },
         {
             "allowed_chars": null,
@@ -254,7 +254,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Rate Limit"
+            "userlabel": "Download Rate Limit (Mbps)"
         },
         {
             "allowed_chars": null,
@@ -344,11 +344,12 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Interface Connection Type"
+            "userlabel": "Interface"
         },
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "Any",
                 "Dynamic",
                 "LTE",
                 "PPPoE",
@@ -377,7 +378,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mode"
+            "userlabel": "Connection"
         },
         {
             "allowed_chars": null,
@@ -551,7 +552,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Address"
+            "userlabel": "Secondary IP Address"
         },
         {
             "allowed_chars": null,
@@ -715,6 +716,7 @@
         "resource_name": "uplinkconnections",
         "rest_name": "uplinkconnection",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Uplink Connection"
     }

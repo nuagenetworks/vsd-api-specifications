@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Destination IP"
+            "userlabel": "Destination IPs"
         },
         {
             "allowed_chars": null,
@@ -194,7 +194,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Destination Port"
+            "userlabel": "Destination Ports"
         },
         {
             "allowed_chars": null,
@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable PPS"
+            "userlabel": "Enable Performance Management"
         },
         {
             "allowed_chars": null,
@@ -236,7 +236,7 @@
             "description": "Ether type of the packet to be matched. etherType can be * or a valid hexadecimal value",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -578,7 +578,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Source IP"
+            "userlabel": "Source IPs"
         },
         {
             "allowed_chars": null,
@@ -606,7 +606,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Source Port"
+            "userlabel": "Source Ports"
         },
         {
             "allowed_chars": null,
@@ -678,6 +678,7 @@
         "resource_name": "applications",
         "rest_name": "application",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Application"
     }

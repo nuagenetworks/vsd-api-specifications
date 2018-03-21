@@ -553,6 +553,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "GET_ZFB_INFO",
+            "REJECT_ZFB_REQUEST"
+        ],
         "create": null,
         "delete": true,
         "description": "A ZFB Request from an NSG",
@@ -567,6 +571,7 @@
         "resource_name": "zfbrequests",
         "rest_name": "zfbrequest",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "ZFB Request"
     }

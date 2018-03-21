@@ -216,21 +216,10 @@
             "relationship": "child",
             "rest_name": "ingressexternalserviceentrytemplate",
             "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Defines the template for an Ingress External Service Acls.",
@@ -244,6 +233,7 @@
         "resource_name": "ingressexternalservicetemplates",
         "rest_name": "ingressexternalservicetemplate",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Ingress External Service Policy"
     }
