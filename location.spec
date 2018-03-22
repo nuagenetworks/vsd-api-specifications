@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Entity I D"
+            "userlabel": "Associated Entity"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Entity Name"
+            "userlabel": "Associated Entity"
         },
         {
             "allowed_chars": null,
