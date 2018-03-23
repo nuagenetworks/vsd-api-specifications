@@ -126,7 +126,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Details about the command execution from NSG especially those which do not map to any of the defined status codes.",
+            "description": "Details about the command execution as reported directly from the NSG independent of status codes.",
             "exposed": true,
             "filterable": false,
             "format": "free",
