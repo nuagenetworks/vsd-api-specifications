@@ -993,13 +993,13 @@
             "name": "redirectVPortTagID",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redirect VPort Tag ID"
+            "userlabel": "Redirection Target"
         },
         {
             "allowed_chars": null,
