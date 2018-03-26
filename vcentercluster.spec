@@ -2885,6 +2885,11 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "VCENTER_ADD_COMPUTERESOURCE_INSCOPE",
+            "VCENTER_REMOVE_COMPUTERESOURCE_INSCOPE",
+            "VCENTER_UPGRADE_VRS"
+        ],
         "create": false,
         "delete": true,
         "description": "VCenter Clusters.",

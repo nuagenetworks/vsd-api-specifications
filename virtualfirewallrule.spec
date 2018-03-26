@@ -761,18 +761,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -783,6 +771,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": true,
         "delete": true,
         "description": "Defines the Virtual Firewall rules",

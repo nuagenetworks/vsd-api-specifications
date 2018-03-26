@@ -482,6 +482,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "GATEWAY_AUDIT"
+        ],
         "create": false,
         "delete": true,
         "description": "Represents Gateway object.",
@@ -496,6 +499,7 @@
         "resource_name": "gateways",
         "rest_name": "gateway",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Data Center Gateway"
     }

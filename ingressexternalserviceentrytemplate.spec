@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPv6 Address Override"
+            "userlabel": "I Pv6 Address Override"
         },
         {
             "allowed_chars": null,
@@ -303,7 +303,7 @@
             "min_value": null,
             "name": "domainName",
             "orderable": false,
-            "read_only": true,
+            "read_only": false,
             "required": true,
             "subtype": null,
             "transient": false,
@@ -331,7 +331,7 @@
             "min_value": null,
             "name": "enterpriseName",
             "orderable": false,
-            "read_only": true,
+            "read_only": false,
             "required": true,
             "subtype": null,
             "transient": false,
@@ -742,7 +742,7 @@
             "min_value": null,
             "name": "statsID",
             "orderable": true,
-            "read_only": true,
+            "read_only": false,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -785,18 +785,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -807,6 +795,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Defines the template of Ingress External Service ACL entries",

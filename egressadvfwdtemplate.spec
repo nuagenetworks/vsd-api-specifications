@@ -244,21 +244,10 @@
             "relationship": "child",
             "rest_name": "egressadvfwdentrytemplate",
             "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Defines the template for an Egress Advanced Forwarding.",
@@ -273,6 +262,7 @@
         "resource_name": "egressadvfwdtemplates",
         "rest_name": "egressadvfwdtemplate",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Egress Forwarding Policy"
     }

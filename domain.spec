@@ -1528,6 +1528,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "forwardingpathlist",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -1898,6 +1910,13 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "APPLY_POLICY_CHANGES",
+            "BEGIN_POLICY_CHANGES",
+            "DISCARD_POLICY_CHANGES",
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch.",
