@@ -964,13 +964,13 @@
             "name": "redirectVPortTagID",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redirect VPort Tag ID"
+            "userlabel": "Redirection Target"
         },
         {
             "allowed_chars": null,
@@ -1181,6 +1181,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Defines the template of Ingress Advanced Forwarding entries",
