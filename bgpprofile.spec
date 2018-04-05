@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dampening Half Life"
+            "userlabel": "Half-Life Period (min)"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dampening Max Suppress"
+            "userlabel": "Maximum Suppression Period (min)"
         },
         {
             "allowed_chars": null,
@@ -166,7 +166,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dampening Reuse"
+            "userlabel": "Route Reuse Period (min)"
         },
         {
             "allowed_chars": null,
@@ -194,7 +194,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dampening Suppress"
+            "userlabel": "Suppression Period (min)"
         },
         {
             "allowed_chars": null,
@@ -268,6 +268,7 @@
         "resource_name": "bgpprofiles",
         "rest_name": "bgpprofile",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "BGP Profile"
     }

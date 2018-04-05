@@ -91,7 +91,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG role"
+            "userlabel": "NSG Role"
         },
         {
             "allowed_chars": null,
@@ -119,7 +119,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Any Subnet"
+            "userlabel": "All local subnets"
         },
         {
             "allowed_chars": null,
@@ -147,7 +147,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated IKE Authentication ID"
+            "userlabel": "Authentication Method"
         },
         {
             "allowed_chars": null,
@@ -474,7 +474,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated IKE Gateway Profile ID"
+            "userlabel": "Gateway Profile"
         },
         {
             "allowed_chars": null,
@@ -614,7 +614,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Priority"
+            "userlabel": "NSG Connection Priority"
         },
         {
             "allowed_chars": null,
@@ -670,7 +670,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Unencrypted PSK"
+            "userlabel": "Pre Shared Key"
         }
     ],
     "children": [
@@ -712,6 +712,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents an IKE Gateway Connection object",
@@ -726,6 +727,7 @@
         "resource_name": "ikegatewayconnections",
         "rest_name": "ikegatewayconnection",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "IKE Gateway Connection"
     }

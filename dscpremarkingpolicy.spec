@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DSCP"
+            "userlabel": "Map DSCP"
         },
         {
             "allowed_chars": null,
@@ -63,7 +63,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Forwarding Class"
+            "userlabel": "Forwarding Class to DSCP"
         }
     ],
     "children": [],
@@ -82,6 +82,7 @@
         "resource_name": "dscpremarkingpolicies",
         "rest_name": "dscpremarkingpolicy",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "DSCP Remarking Policy"
     }

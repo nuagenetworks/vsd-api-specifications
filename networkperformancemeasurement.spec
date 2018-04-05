@@ -58,7 +58,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Performance Mo"
+            "userlabel": "Performance Monitor"
         },
         {
             "allowed_chars": null,
@@ -182,6 +182,7 @@
         "resource_name": "networkperformancemeasurements",
         "rest_name": "networkperformancemeasurement",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Network Performance Measurement"
     }

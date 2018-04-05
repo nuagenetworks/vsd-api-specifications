@@ -117,7 +117,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Permitted Entity ID"
+            "userlabel": "Group"
         },
         {
             "allowed_chars": null,
@@ -145,7 +145,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Permitted Entity Name"
+            "userlabel": "Group"
         },
         {
             "allowed_chars": null,
@@ -191,6 +191,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents  Permitted action on an  entity for a group.",
@@ -205,6 +206,7 @@
         "resource_name": "permissions",
         "rest_name": "permission",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Permission"
     }

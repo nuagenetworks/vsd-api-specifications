@@ -65,7 +65,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "VIRTUAL_WIRE",
             "deprecated": false,
             "description": "EndPointType is an enum. It defines the type of header rewrite and forwarding performed by VRS when the endpoint is used as a mirror destination. Possible value is VIRTUAL_WIRE",
             "exposed": true,
@@ -245,6 +245,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
@@ -259,6 +260,7 @@
         "resource_name": "overlaymirrordestinations",
         "rest_name": "overlaymirrordestination",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Overlay Mirror Destination"
     }
