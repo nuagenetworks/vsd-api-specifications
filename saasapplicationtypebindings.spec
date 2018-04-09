@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Network Macro I D"
+            "userlabel": "Associated Network Macro ID"
         },
         {
             "allowed_chars": null,
