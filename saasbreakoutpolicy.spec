@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Assoc Entity Id"
+            "userlabel": "Associated Entity ID"
         },
         {
             "allowed_chars": null,
