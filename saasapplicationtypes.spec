@@ -9,7 +9,8 @@
         "entity_name": "Saasapplicationtypes",
         "extends": [
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": null,
