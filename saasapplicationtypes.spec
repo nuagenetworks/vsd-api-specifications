@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "name of the SaaS Application.",
+            "description": "Name of the SaaS Application.",
             "exposed": true,
             "filterable": true,
             "format": "free",
