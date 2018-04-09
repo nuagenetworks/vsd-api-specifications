@@ -63,7 +63,7 @@
         "create": null,
         "delete": true,
         "description": "Association between SaaS Application Type and Network Macro",
-        "entity_name": "Saasapplicationtypebinding",
+        "entity_name": "SaasApplicationTypeBinding",
         "extends": [],
         "get": true,
         "package": null,
