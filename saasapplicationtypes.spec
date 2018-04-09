@@ -7,7 +7,9 @@
         "delete": true,
         "description": "SaaS applications like office365 with the published list of IPs and/or URLs for creating firewall rules for IT admins.",
         "entity_name": "Saasapplicationtypes",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": null,
         "resource_name": "saasapplicationtypes",
