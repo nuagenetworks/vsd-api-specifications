@@ -13,7 +13,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "policy",
         "resource_name": "saasapplicationtypes",
         "rest_name": "saasapplicationtypes",
         "root": null,
