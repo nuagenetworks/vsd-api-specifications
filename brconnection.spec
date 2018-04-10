@@ -126,7 +126,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "This flag will determine if the abstract connection is inherited from the instance template",
+            "description": "This flag will determine if the BR Connection is inherited from the instance template",
             "exposed": true,
             "filterable": false,
             "format": null,
