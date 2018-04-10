@@ -311,7 +311,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Enterprise ID"
+            "userlabel": "Organization"
         },
         {
             "allowed_chars": null,
@@ -322,7 +322,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "name of the associated Enterprise",
+            "description": "Name of the associated enterprise",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -339,7 +339,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Enterprise Name"
+            "userlabel": "Organization"
         },
         {
             "allowed_chars": null,
@@ -367,7 +367,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated NS Gateway ID"
+            "userlabel": "Network Services Gateway"
         },
         {
             "allowed_chars": null,
@@ -378,7 +378,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "name of the associated NSG",
+            "description": "Name of the associated NSG",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -395,7 +395,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated NS Gateway Name"
+            "userlabel": "Network Services Gateway"
         },
         {
             "allowed_chars": null,
@@ -535,7 +535,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Status String"
+            "userlabel": "Status"
         }
     ],
     "children": [
