@@ -8,7 +8,8 @@
         "description": "Association between SaaS Application Type and Network Macro.",
         "entity_name": "Saasapplicationtypebinding",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": null,
