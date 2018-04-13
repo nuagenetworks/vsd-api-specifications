@@ -106,7 +106,8 @@
         "description": "Collection of SaaS Application Types. ",
         "entity_name": "SaasBreakoutPolicy",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": null,
