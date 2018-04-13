@@ -7,7 +7,9 @@
         "delete": true,
         "description": "Association between SaaS Application Type and Network Macro.",
         "entity_name": "Saasapplicationtypebinding",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": null,
         "resource_name": "saasapplicationtypebindings",
