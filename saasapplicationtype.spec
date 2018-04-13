@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Address list associated with this SaaS Application Type, it should be a list of comma separated IP Addresses with netmask.",
+            "description": "Address list associated with this SaaS Application Type, it should be a list of comma separated IP Addresses with Netmask.",
             "exposed": true,
             "filterable": true,
             "format": "free",
