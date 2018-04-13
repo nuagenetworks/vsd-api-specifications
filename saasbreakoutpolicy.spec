@@ -107,7 +107,8 @@
         "entity_name": "SaasBreakoutPolicy",
         "extends": [
             "@audited",
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": true,
         "package": null,
