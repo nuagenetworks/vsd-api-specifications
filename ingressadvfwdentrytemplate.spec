@@ -799,6 +799,7 @@
                 "PGEXPRESSION",
                 "POLICYGROUP",
                 "PUBLIC_NETWORK",
+                "SAAS_BREAKOUT_POLICY",
                 "SUBNET",
                 "UNDERLAY_INTERNET_POLICYGROUP",
                 "ZONE"
