@@ -60,7 +60,6 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "L3",
-                "NONE",
                 "NSG_VNF",
                 "VIRTUAL_WIRE"
             ],
