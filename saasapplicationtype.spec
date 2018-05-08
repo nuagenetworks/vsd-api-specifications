@@ -37,7 +37,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "IPV4",
             "deprecated": false,
             "description": "Address Type associated with this SaaS Application Signature.",
             "exposed": true,
