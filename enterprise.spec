@@ -1467,7 +1467,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "saasapplicationtype",
+            "rest_name": "saasapplicationgroup",
             "update": false
         },
         {
@@ -1479,7 +1479,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "saasbreakoutpolicy",
+            "rest_name": "saasapplicationtype",
             "update": false
         },
         {
