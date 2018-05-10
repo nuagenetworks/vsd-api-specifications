@@ -54,7 +54,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Is Saa S Type"
+            "userlabel": "Is SaaS Type"
         },
         {
             "allowed_chars": null,
