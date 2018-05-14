@@ -1460,6 +1460,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "GET_ZFB_INFO"
+        ],
         "create": false,
         "delete": false,
         "description": "Object that identifies the user functions",

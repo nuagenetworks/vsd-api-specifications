@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "EVPN Community Tag"
+            "userlabel": "EVPN Tag"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "External"
+            "userlabel": "Scope"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Policy Group ID"
+            "userlabel": "PGID"
         },
         {
             "allowed_chars": null,
@@ -217,18 +217,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -239,6 +227,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS, etc.",
@@ -253,6 +242,7 @@
         "resource_name": "policygroups",
         "rest_name": "policygroup",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Policy Group"
     }

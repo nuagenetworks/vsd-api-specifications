@@ -161,21 +161,10 @@
             "relationship": "child",
             "rest_name": "eventlog",
             "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": false,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Template for a vporttag. It can be created only at the template level and available for all instances.",

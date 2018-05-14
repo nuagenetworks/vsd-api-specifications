@@ -498,6 +498,13 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "APPLY_POLICY_CHANGES",
+            "BEGIN_POLICY_CHANGES",
+            "DISCARD_POLICY_CHANGES",
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "Domains in VSD are created from domain templates. This object provides the definition of the Domain Template.",

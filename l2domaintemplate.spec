@@ -708,6 +708,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template.",

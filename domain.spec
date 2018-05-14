@@ -320,7 +320,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated PAT Mapper ID"
+            "userlabel": "PAT Mapper"
         },
         {
             "allowed_chars": null,
@@ -803,7 +803,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "This domain is a HUB in a domain linkage topology"
+            "userlabel": "This domain is globally routable"
         },
         {
             "allowed_chars": null,
@@ -887,7 +887,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "This domain is globally routable"
+            "userlabel": "This domain is a HUB in a domain linkage topology"
         },
         {
             "allowed_chars": null,
@@ -1200,7 +1200,7 @@
             "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1214,7 +1214,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stretched"
+            "userlabel": "Enable streching"
         },
         {
             "allowed_chars": null,
@@ -1292,7 +1292,7 @@
             "description": "Indicates whether UNDERLAY is enabled for the subnets in this domain",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1306,7 +1306,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Enabled"
+            "userlabel": "Underlay Support"
         },
         {
             "allowed_chars": null,
@@ -1522,6 +1522,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "floatingip",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "forwardingpathlist",
             "update": false
         },
         {
@@ -1898,6 +1910,13 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "APPLY_POLICY_CHANGES",
+            "BEGIN_POLICY_CHANGES",
+            "DISCARD_POLICY_CHANGES",
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "This object is used to manipulate domain state. A domain corresponds to a distributed Virtual Router and Switch.",
@@ -1912,6 +1931,7 @@
         "resource_name": "domains",
         "rest_name": "domain",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Domain"
     }
