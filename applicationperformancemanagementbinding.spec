@@ -91,7 +91,11 @@
         "delete": true,
         "description": "Association object for maintaining the priority of AppliationGroup(s) associated to a Domain",
         "entity_name": "Applicationperformancemanagementbinding",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "applicationperformancemanagementbindings",

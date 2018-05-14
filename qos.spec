@@ -530,7 +530,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Burst"
+            "userlabel": "Peak Burst Size"
         },
         {
             "allowed_chars": null,
@@ -670,7 +670,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Peak"
+            "userlabel": "Peak Information Rate"
         },
         {
             "allowed_chars": null,
@@ -726,7 +726,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Rewrite Forwarding Class"
+            "userlabel": "Rewrite Customer Class With Provider Class"
         },
         {
             "allowed_chars": null,
@@ -764,7 +764,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Service Class"
+            "userlabel": "Default Forwarding Class"
         },
         {
             "allowed_chars": null,
@@ -792,7 +792,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Trusted Forwarding Class"
+            "userlabel": "Rewrite Provider Class With Customer Class (Trust)"
         }
     ],
     "children": [
@@ -848,6 +848,7 @@
         "resource_name": "qos",
         "rest_name": "qos",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "QoS Policy"
     }

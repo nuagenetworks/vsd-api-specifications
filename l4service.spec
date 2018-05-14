@@ -143,6 +143,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "L4 Service is a port range and protocol combination that can be used in ACLs",
@@ -156,6 +157,7 @@
         "resource_name": "l4services",
         "rest_name": "l4service",
         "root": null,
+        "template": null,
         "update": true,
         "userlabel": "L4 Service"
     }

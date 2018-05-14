@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Flag to indicate that alarm is already acknowledged or not",
+            "description": "Flag to indicate if the alarm has been acknowledged already.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -267,7 +267,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates the time that the alarm was triggered",
+            "description": "Indicates the time at which the alarm was triggered",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -289,6 +289,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "The alarm API allows the management of system alarms.",
@@ -303,6 +304,7 @@
         "resource_name": "alarms",
         "rest_name": "alarm",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Alarm"
     }

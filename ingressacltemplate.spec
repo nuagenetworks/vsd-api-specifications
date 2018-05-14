@@ -40,7 +40,7 @@
             "description": "If enabled, it will disable the default anti-spoof ACL for this domain that essentially prevents any VM to send packets that do not originate from that particular VM",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -54,7 +54,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Address Spoof"
+            "userlabel": "Allow source address spoofing"
         },
         {
             "allowed_chars": null,
@@ -194,7 +194,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Allow IP"
+            "userlabel": "Forward IP traffic by default"
         },
         {
             "allowed_chars": null,
@@ -208,7 +208,7 @@
             "description": "If enabled, non ip traffic will be dropped",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Default Allow Non IP"
+            "userlabel": "Forward non IP traffic by default"
         },
         {
             "allowed_chars": null,
@@ -418,8 +418,8 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
-            "deprecated": false,
-            "get": false,
+            "deprecated": null,
+            "get": true,
             "relationship": "child",
             "rest_name": "job",
             "update": false
@@ -438,6 +438,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "Defines the template for an Ingress ACL.",
@@ -452,6 +456,7 @@
         "resource_name": "ingressacltemplates",
         "rest_name": "ingressacltemplate",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Ingress Security Policy"
     }

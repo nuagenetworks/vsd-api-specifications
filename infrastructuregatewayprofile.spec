@@ -338,7 +338,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Force immediate synchronization"
+            "userlabel": "Force Immediate Synchronization"
         },
         {
             "allowed_chars": "URL",
@@ -675,6 +675,7 @@
         "resource_name": "infrastructuregatewayprofiles",
         "rest_name": "infrastructuregatewayprofile",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Infrastructure Gateway Profile"
     }
