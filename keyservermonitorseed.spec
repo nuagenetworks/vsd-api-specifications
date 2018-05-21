@@ -163,7 +163,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates the Seed Type.",
+            "description": "Indicates if this is a Standard (or) a Disaster Recovery seed.",
             "exposed": true,
             "filterable": true,
             "format": null,
