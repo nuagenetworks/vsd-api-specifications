@@ -174,7 +174,7 @@
             "name": "seedType",
             "orderable": true,
             "read_only": true,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "enum",
