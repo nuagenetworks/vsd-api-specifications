@@ -250,7 +250,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Defines the template for an Egress Advanced Forwarding.",
+        "description": "Create a table for egress forwarding policy rules. These include flow redirect rules and forwarding class override rules.",
         "entity_name": "EgressAdvFwdTemplate",
         "extends": [
             "@audited",
@@ -264,6 +264,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Egress Forwarding Policy"
+        "userlabel": "Egress Forwarding Policies"
     }
 }
