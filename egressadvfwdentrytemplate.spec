@@ -906,7 +906,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Defines the template of Egress Advanced Forwarding entries",
+        "description": "Security Policy Entries defines what action to take for a particular type of traffic, based on its origin and its destination, its protocol, EtherType, eventual ports, DSCP value and other information.",
         "entity_name": "EgressAdvFwdEntryTemplate",
         "extends": [
             "@audited",
