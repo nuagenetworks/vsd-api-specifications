@@ -85,6 +85,6 @@
         "root": null,
         "template": false,
         "update": true,
-        "userlabel": "Trunks"
+        "userlabel": "Trunk"
     }
 }
