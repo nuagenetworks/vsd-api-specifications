@@ -72,9 +72,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Provides the definition of a table that holds multiple DSCP to Forwarding class mappings. Used in QoS policies.",
+        "description": "DSCP Mapping Tables define a list of mappings from customer's DSCP markings to Forwarding Classes. They can be referenced in QoS policies.",
         "entity_name": "DSCPForwardingClassTable",
         "extends": [
             "@audited",
@@ -86,7 +87,8 @@
         "resource_name": "dscpforwardingclasstables",
         "rest_name": "dscpforwardingclasstable",
         "root": false,
+        "template": false,
         "update": true,
-        "userlabel": "DSCP Mapping Table"
+        "userlabel": "DSCP Mapping Tables"
     }
 }
