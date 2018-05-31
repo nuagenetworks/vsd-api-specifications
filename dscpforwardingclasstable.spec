@@ -89,6 +89,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "DSCP Mapping Tables"
+        "userlabel": "DSCP Mapping Table"
     }
 }
