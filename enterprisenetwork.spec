@@ -188,6 +188,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Network Macros"
+        "userlabel": "Network Macro"
     }
 }
