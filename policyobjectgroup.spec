@@ -115,6 +115,6 @@
         "root": null,
         "template": false,
         "update": true,
-        "userlabel": "Policy Object Groups"
+        "userlabel": "Policy Object Group"
     }
 }
