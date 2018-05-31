@@ -102,9 +102,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Policy Object Groups are a collection of existing Network Services Gateways. These groups can be used in routing policies for domain links.",
         "entity_name": "PolicyObjectGroup",
         "extends": [],
         "get": true,
@@ -112,7 +113,8 @@
         "resource_name": "policyobjectgroups",
         "rest_name": "policyobjectgroup",
         "root": null,
+        "template": false,
         "update": true,
-        "userlabel": "Policy Object Group"
+        "userlabel": "Policy Object Groups"
     }
 }
