@@ -117,6 +117,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Network Macro Groups"
+        "userlabel": "Network Macro Group"
     }
 }
