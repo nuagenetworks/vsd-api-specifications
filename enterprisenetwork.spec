@@ -171,9 +171,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks.",
+        "description": "Network Macros are organization wide defined macros that can be used as a destination of a policy rule. For instance, you can create a network that represents your internal Intranet access, and use it as a destination of a policy rule to drop any packet that is coming from a particular port.",
         "entity_name": "EnterpriseNetwork",
         "extends": [
             "@audited",
@@ -185,7 +186,8 @@
         "resource_name": "enterprisenetworks",
         "rest_name": "enterprisenetwork",
         "root": false,
+        "template": false,
         "update": true,
-        "userlabel": "Enterprise Network"
+        "userlabel": "Network Macros"
     }
 }
