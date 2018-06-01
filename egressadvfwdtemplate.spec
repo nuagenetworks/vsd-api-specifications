@@ -250,7 +250,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Create a table for egress forwarding policy rules. These include flow redirect rules and forwarding class override rules.",
+        "description": "A group of egress forwarding policy rules. Each group can have priority which defines the order in which the egress forwarding policy rules are applied. The rules itself are used to redirect traffic or change the forwarding class of the traffic.",
         "entity_name": "EgressAdvFwdTemplate",
         "extends": [
             "@audited",
@@ -264,6 +264,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Egress Forwarding Policies"
+        "userlabel": "Egress Forwarding Policy"
     }
 }
