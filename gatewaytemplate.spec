@@ -139,9 +139,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents Gateway Template object.",
+        "description": "A gateway is your point of exit to an external network. It can be a physical or a virtual device. Gateways are templatable. You can attach gateway's VLANs to any existing host or bridge VPorts.",
         "entity_name": "GatewayTemplate",
         "extends": [
             "@audited",
