@@ -79,7 +79,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "int",
+            "type": "integer",
             "unique": true,
             "uniqueScope": null,
             "userlabel": "Underlay ID"
