@@ -480,9 +480,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents a PAT NAT Pool object.",
+        "description": "Address Translation Pools are a range of externally routable IP addresses. User or application traffic is translated prior to being forwarded across the network.",
         "entity_name": "PATNATPool",
         "extends": [
             "@audited",
@@ -494,6 +495,7 @@
         "resource_name": "patnatpools",
         "rest_name": "patnatpool",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Address Translation Pool"
     }
