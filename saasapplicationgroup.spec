@@ -76,7 +76,7 @@
         "create": null,
         "delete": true,
         "description": "Collection of SaaS Application Types. ",
-        "entity_name": "Saasapplicationgroup",
+        "entity_name": "SaaSApplicationGroup",
         "extends": [
             "@audited",
             "@base",
