@@ -87,9 +87,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "The VNF deployment properties that includes the location of the image, bootstrap config and rest of the libvirt domain XML template defined as text file.",
         "entity_name": "VNFMetadata",
         "extends": [],
         "get": true,
@@ -97,6 +98,7 @@
         "resource_name": "vnfmetadatas",
         "rest_name": "vnfmetadata",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "VNF Metadata"
     }
