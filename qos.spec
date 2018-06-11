@@ -834,9 +834,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "The object manipulates the QoS parameters attached to a domain, zone, or subnet.",
+        "description": "QoS policies enable you to classify and limit network traffic.",
         "entity_name": "QOS",
         "extends": [
             "@audited",
