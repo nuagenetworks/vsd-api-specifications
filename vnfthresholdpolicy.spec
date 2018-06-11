@@ -230,9 +230,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Represents thresholds for resources consumed by VNF instance running on NS Gateway and action to be taken when resource utilization crosses configured thresholds.",
+        "description": "VNF Threshold Policy represents thresholds for resources consumed by VNF instance running on NS Gateway and action to be taken when resource utilization crosses configured thresholds.",
         "entity_name": "VNFThresholdPolicy",
         "extends": [],
         "get": true,
@@ -240,6 +241,7 @@
         "resource_name": "vnfthresholdpolicies",
         "rest_name": "vnfthresholdpolicy",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "VNF Threshold Policy"
     }
