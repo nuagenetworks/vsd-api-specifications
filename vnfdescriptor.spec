@@ -299,9 +299,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Represent Virtual Network Function Descriptor Object",
+        "description": "The behavioral and deployment information of a VNF is defined in the VNF descriptor template. The template is based on the libvirt domain XML and is on-boarded in a VNF catalog. The resource requirements for CPU, memory and storage are defined in this screen and the rest of the template is inherited from the VNF Metadata object.",
         "entity_name": "VNFDescriptor",
         "extends": [],
         "get": true,
@@ -309,6 +310,7 @@
         "resource_name": "vnfdescriptors",
         "rest_name": "vnfdescriptor",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "VNF Descriptor"
     }
