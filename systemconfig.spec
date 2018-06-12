@@ -2670,7 +2670,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Imported Saa S Applications Version"
+            "userlabel": "SaaS Applications Version (Master List)"
         },
         {
             "allowed_chars": null,
