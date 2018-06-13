@@ -129,7 +129,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "NSGVersion",
+            "name": "NuageVersion",
             "orderable": false,
             "read_only": true,
             "required": false,
