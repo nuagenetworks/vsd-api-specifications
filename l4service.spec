@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Icmp Type"
+            "userlabel": "ICMP Type"
         },
         {
             "allowed_chars": null,
