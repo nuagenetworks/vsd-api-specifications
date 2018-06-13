@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I C M P Code"
+            "userlabel": "ICMP Code"
         },
         {
             "allowed_chars": null,
