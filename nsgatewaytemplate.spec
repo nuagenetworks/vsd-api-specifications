@@ -250,6 +250,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents a Network Service Gateway Template.",

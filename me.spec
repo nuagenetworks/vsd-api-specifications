@@ -816,6 +816,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "infrastructureevdfprofile",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
@@ -1477,6 +1489,7 @@
         "resource_name": "me",
         "rest_name": "me",
         "root": true,
+        "template": false,
         "update": false,
         "userlabel": "Me"
     }
