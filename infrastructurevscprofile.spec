@@ -171,9 +171,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents an Infrastructure VSC Profile.",
+        "description": "Infrastructure VSC Profiles identify a set of controllers which will be used to connect bootstrapped NSGs.",
         "entity_name": "InfrastructureVscProfile",
         "extends": [
             "@audited",
@@ -185,6 +186,7 @@
         "resource_name": "infrastructurevscprofiles",
         "rest_name": "infrastructurevscprofile",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Infrastructure VSC Profile"
     }
