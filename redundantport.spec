@@ -156,7 +156,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Identifier of the Port",
+            "description": "Identifier of the Redundant Port. The name should be corresponding to the Physical Name of the ports belonging to this redundant instance.",
             "exposed": true,
             "filterable": true,
             "format": "free",

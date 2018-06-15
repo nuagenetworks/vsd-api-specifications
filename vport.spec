@@ -208,6 +208,8 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "DC7X50",
+                "EVDF",
+                "EVDFB",
                 "HARDWARE_VTEP",
                 "NETCONF_7X50",
                 "NSG",
