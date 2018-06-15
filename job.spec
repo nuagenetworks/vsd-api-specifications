@@ -293,6 +293,8 @@
                 "GET_ZFB_INFO",
                 "IMPORT",
                 "KEYSERVER_NOTIFICATION_TEST",
+                "NETCONF_FORCE_DEPLOY",
+                "NETCONF_SYNC",
                 "NOTIFY_NSG_REGISTRATION",
                 "NOTIFY_NSG_REGISTRATION_ACK",
                 "NOTIFY_NSG_REGISTRATION_TEST",
