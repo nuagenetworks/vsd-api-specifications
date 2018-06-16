@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The DNS name of the proxy device acting as an entry point of EVDF instances to contact VSD.",
+            "description": "The DNS name of the proxy device acting as an entry point of eVDF instances to contact VSD.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -174,7 +174,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Infrastructure EVDF Profile",
+        "description": "An Infrastructure eVDF Profile instance contains common parameters used to bootstrap instances of eVDF (encryption and virtual distributed firewall).",
         "entity_name": "InfrastructureEVDFProfile",
         "extends": [
             "@audited",
@@ -188,6 +188,6 @@
         "root": null,
         "template": false,
         "update": true,
-        "userlabel": "Infrastructure EVDF Profile"
+        "userlabel": "Infrastructure eVDF Profile"
     }
 }
