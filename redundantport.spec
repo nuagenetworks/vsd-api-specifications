@@ -371,7 +371,7 @@
         "create": null,
         "delete": true,
         "description": "Represents a redundant Port under a particular gateway object or redundant group object.",
-        "entity_name": "RedundantPort",
+        "entity_name": "GWRedundantPort",
         "extends": [],
         "get": true,
         "package": "gateway",
