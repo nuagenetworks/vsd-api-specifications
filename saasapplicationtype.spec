@@ -130,7 +130,9 @@
         }
     ],
     "model": {
-        "allowed_job_commands": null,
+        "allowed_job_commands": [
+            "SAAS_APPLICATION_TYPE"
+        ],
         "create": null,
         "delete": true,
         "description": "SaaS applications like office365 with the published list of IPs and/or URLs for creating firewall rules for IT admins.",
