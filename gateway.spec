@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The Nuage Software Version as reported during bootstrapping.",
+            "description": "The Gateway Software Version as reported during bootstrapping.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -129,7 +129,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "NSGVersion",
+            "name": "gatewayVersion",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nuage Version"
+            "userlabel": "Gateway Version"
         },
         {
             "allowed_chars": null,
