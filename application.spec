@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Destination IPs"
+            "userlabel": "Destination IPs Match"
         },
         {
             "allowed_chars": null,
@@ -194,7 +194,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Destination Ports"
+            "userlabel": "Destination Ports Match"
         },
         {
             "allowed_chars": null,
@@ -578,7 +578,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Source IPs"
+            "userlabel": "Source IPs Match"
         },
         {
             "allowed_chars": null,
@@ -606,7 +606,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Source Ports"
+            "userlabel": "Source Ports Match"
         },
         {
             "allowed_chars": null,
@@ -664,6 +664,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "represents a application with L4/L7 classification",
