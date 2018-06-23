@@ -143,9 +143,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": true,
         "delete": true,
-        "description": "This profile represents the patch information to be used by an NSG for applying a patch.",
+        "description": "An NSG Patch Profile contains upgrade information that can be given to an NSG Instance.  The profile contains details on where the NSG can retrieve the image to upgrade to, and some criteria related to when the upgrade is to happen once the NSG device has received the information for upgrading.",
         "entity_name": "NSGPatchProfile",
         "extends": [
             "@audited",
@@ -156,6 +157,7 @@
         "resource_name": "nsgpatchprofiles",
         "rest_name": "nsgpatchprofile",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "NSG Patch Profile"
     }

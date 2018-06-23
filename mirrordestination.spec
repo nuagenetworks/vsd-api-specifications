@@ -136,9 +136,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents a mirror destination.",
+        "description": "Mirror Destinations are underlay-reachable IP addresses to which the mirrored traffic will be sent. On the server identified by the IP, a tool like Wireshark can be used to capture and analyse the traffic going through a VPort. The mirrored traffic is sent to the collector using GRE encapsulation.",
         "entity_name": "MirrorDestination",
         "extends": [
             "@audited",
@@ -150,6 +151,7 @@
         "resource_name": "mirrordestinations",
         "rest_name": "mirrordestination",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Mirror Destination"
     }
