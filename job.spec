@@ -307,6 +307,7 @@
                 "RELOAD_NSG_CONFIG",
                 "RESTART",
                 "RETRIEVE_ACTIVE_NSGS",
+                "SAAS_APPLICATION_TYPE",
                 "START",
                 "STATUS",
                 "STOP",
