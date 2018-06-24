@@ -75,7 +75,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Collection of SaaS Application Types. ",
+        "description": "Collection of SaaS Application Types.",
         "entity_name": "SaaSApplicationGroup",
         "extends": [
             "@audited",
