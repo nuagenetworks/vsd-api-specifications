@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Description of the SaaS Breakout Policy.",
+            "description": "Description of the SaaS Breakout Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
