@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "A flag to indicated if this SaaS Application Type was pre-defined by the system.",
+            "description": "A flag to indicate if this SaaS Application Type was pre-defined by the system.",
             "exposed": true,
             "filterable": true,
             "format": null,
