@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the SaaS Breakout Policy.",
+            "description": "Name of the SaaS Breakout Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
