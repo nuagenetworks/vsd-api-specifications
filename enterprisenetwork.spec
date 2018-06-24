@@ -171,9 +171,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks.",
+        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks. Macros can now be defined under a SaaS Application Type as well.",
         "entity_name": "EnterpriseNetwork",
         "extends": [
             "@audited",
@@ -185,6 +186,7 @@
         "resource_name": "enterprisenetworks",
         "rest_name": "enterprisenetwork",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Enterprise Network"
     }
