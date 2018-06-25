@@ -527,6 +527,18 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
+            "rest_name": "gatewayredundantport",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
             "rest_name": "ingressprofile",
             "update": false
         },
@@ -612,18 +624,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "port",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "redundantport",
             "update": false
         },
         {
