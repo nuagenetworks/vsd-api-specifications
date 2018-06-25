@@ -9,6 +9,8 @@ before_install:
       git config --global user.email "corentin.henry@nokia.com" &&
       git config --global user.name "nuagebot"
     ; fi
-
 script:
-  - ./deploy.sh
+    - "./deploy.sh"
+env:
+  matrix:
+    secure: M5SCsmEaQHhKHz84gx9ToKIX8PS2PGOG/YGE6VLOQ8bGyFk8896m6WSzPrkkP8b85teF/QiN711BMhYTYrY0TyjBP+LbITX+N9vUPtHLSCGR5jKjgOUPAQ7spLZTRX6QSLn+JbtnMWdlV/pqFaC9gf9omPgv/vD6cgqSwDV5Ef4yd4HmHnphnBhiWx6baH/exXYqn7kEJP+r7NrJgfSn2nW6Der/1dfwwyHzSlPUb6QdpfuDamH+0kj3z5mJPR57w/+h72OEWEcpBGRD3GA+mDjh23RMUW0XJxd46/m61bVKOF3xw+pz5Uul6EyOD0YVfy8hHr2aIiPPgufOGe25Ur/AoRZDuN7tVP11exxvVCH3qwPQG1v6/4SB4Iv4XlcVwzlxKb0cmClFAPH7hGbu8ERSx5NF7pOEr3Vipof8fVbRxeC9Hc5mo9N/UeYo+GXlG303SPgxCPqRUykcsGldB2udttaqlHY1hT6wRw+HTUIwNj5vWJCgDYXexPt07nXYfLdhPCoWt2Rq1KVsIBfEFxaOzTC00QAwFcl+6o4mRPRWzpIZsTYYTW9YC2njONnRm6pSJfM2Jv0af3c1qEd7+/FxcH3IwYgm3ohaVKY8YDMNpH09dEiDpFVpd2B/qeCVJGWZPd6EQxVEp0FHTnle9mrhG2pUtgwMt092nqWOfFU=

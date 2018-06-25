@@ -9,13 +9,13 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A description of the dscp-fc mapping table.",
+            "description": "A detailed description of the Egress QoS Profile entity.",
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": null,
+            "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "description",
             "orderable": true,
@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A unique name of the dscp-fc mapping table.",
+            "description": "A unique name of the Egress QoS Profile entity.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -48,7 +48,7 @@
             "name": "name",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -57,38 +57,21 @@
             "userlabel": "Name"
         }
     ],
-    "children": [
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "dscpforwardingclassmapping",
-            "update": false
-        }
-    ],
+    "children": [],
     "model": {
         "allowed_job_commands": null,
-        "create": false,
+        "create": null,
         "delete": true,
-        "description": "DSCP Mapping Tables define a list of mappings from customer's DSCP markings to Forwarding Classes. They can be referenced in QoS policies.",
-        "entity_name": "DSCPForwardingClassTable",
-        "extends": [
-            "@audited",
-            "@base",
-            "@metadata"
-        ],
+        "description": "7x50 SAP Egress QoS profile",
+        "entity_name": "SAPEgressQoSProfile",
+        "extends": [],
         "get": true,
-        "package": "policy",
-        "resource_name": "dscpforwardingclasstables",
-        "rest_name": "dscpforwardingclasstable",
-        "root": false,
-        "template": false,
+        "package": "netconfdcgw",
+        "resource_name": "sapegressqosprofiles",
+        "rest_name": "sapegressqosprofile",
+        "root": null,
+        "template": null,
         "update": true,
-        "userlabel": "DSCP Mapping Table"
+        "userlabel": "SAP Egress QoS Profile"
     }
 }

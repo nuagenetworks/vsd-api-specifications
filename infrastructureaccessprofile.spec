@@ -231,9 +231,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Represents an Infrastructure Access Profile",
+        "description": "Infrastructure Access Profiles identify a set of NSG template level platform attributes specifically related to user and access control, inherited by gateways as they are instantiated.",
         "entity_name": "InfrastructureAccessProfile",
         "extends": [
             "@audited",
@@ -245,6 +246,7 @@
         "resource_name": "infrastructureaccessprofiles",
         "rest_name": "infrastructureaccessprofile",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Infrastructure Access Profile"
     }

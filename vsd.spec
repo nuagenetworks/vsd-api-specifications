@@ -652,7 +652,7 @@
         ],
         "create": false,
         "delete": false,
-        "description": "System Monitoring details for VSD.",
+        "description": "System Monitoring details for VSD. This is deprecated and no longer provided through the Nuage API. This information can now be gathered through the Monit API.",
         "entity_name": "VSD",
         "extends": [
             "@audited",

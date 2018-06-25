@@ -172,7 +172,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address"
+            "userlabel": "Network"
         },
         {
             "allowed_chars": null,
@@ -819,7 +819,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Global MAC"
+            "userlabel": "Global Subnet GW MAC"
         },
         {
             "allowed_chars": null,

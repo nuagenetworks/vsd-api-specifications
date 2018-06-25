@@ -84,9 +84,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "This is the definition of a MultiCast Channel Map.",
+        "description": "Multicast channel maps define the available multicast groups that can be joined by VMs belonging to enterprises to which the maps have been assigned to. A map can contain one or more ranges defining the available channels. Ranges are non overlapping within a single map.",
         "entity_name": "MultiCastChannelMap",
         "extends": [
             "@audited",
@@ -98,6 +99,7 @@
         "resource_name": "multicastchannelmaps",
         "rest_name": "multicastchannelmap",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Multicast Channel Map"
     }

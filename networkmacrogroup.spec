@@ -131,7 +131,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Administrators of an enterprise can define macros that are set of IP addresses that identify enterprise networks. These macros can be used in the ACL definitions by network designers and other users to identify access restrictions towards specific enterprise networks.",
+        "description": "Network Macro Groups are a collection of existing Network Macros. These groups can be used in Security Policies in order to create rules that matches multiple Network Macros.",
         "entity_name": "NetworkMacroGroup",
         "extends": [
             "@audited",
