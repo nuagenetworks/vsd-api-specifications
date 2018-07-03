@@ -1646,14 +1646,14 @@
             "min_value": null,
             "name": "dateSaaSApplicationsImported",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "time",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Date Saa S Applications Imported"
+            "userlabel": "Last Imported At"
         },
         {
             "allowed_chars": null,
