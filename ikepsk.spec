@@ -255,9 +255,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents an IKE Pre Shared Key",
+        "description": "Shared secret used during the authentication phase of IKE protocol.",
         "entity_name": "IKEPSK",
         "extends": [
             "@audited",
@@ -269,6 +270,7 @@
         "resource_name": "ikepsks",
         "rest_name": "ikepsk",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "IKE PSK"
     }
