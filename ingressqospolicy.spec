@@ -379,6 +379,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "The object manipulates Ingress QoS parameters attached to a Access Port / VLAN or Network port.",
@@ -393,7 +394,8 @@
         "resource_name": "ingressqospolicies",
         "rest_name": "ingressqospolicy",
         "root": false,
+        "template": false,
         "update": true,
-        "userlabel": "Ingress QoS Policy"
+        "userlabel": "Tunnel Shaper QoS Policy"
     }
 }

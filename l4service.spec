@@ -146,7 +146,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "L4 Service is a port range and protocol combination that can be used in ACLs",
+        "description": "Service is a port range and protocol combination that can be used in ACLs",
         "entity_name": "L4Service",
         "extends": [
             "@audited",
@@ -159,6 +159,6 @@
         "root": null,
         "template": null,
         "update": true,
-        "userlabel": "L4 Service"
+        "userlabel": "Service"
     }
 }
