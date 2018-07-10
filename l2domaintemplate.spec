@@ -714,7 +714,7 @@
         ],
         "create": false,
         "delete": true,
-        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template.",
+        "description": "An L2 Domain is a distributed logical switch that enables L2 communication. An L2 Domain template is a model that can be instantiated as often as required, thereby creating real, functioning L2 Domains.",
         "entity_name": "L2DomainTemplate",
         "extends": [
             "@audited",

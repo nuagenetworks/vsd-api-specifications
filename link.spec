@@ -339,9 +339,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "This object represents the link between a source and destination domain in service chaining",
+        "description": "Border router links provide a way to interconnect VNS domains in the wide-area to datacenter domains. Service chaining links allow domain leaking in order to simplify and enhance capabilities of doing service chaining and traffic steering for NFV and service-provider-grade VPN services.",
         "entity_name": "Link",
         "extends": [
             "@audited",
@@ -353,6 +354,7 @@
         "resource_name": "links",
         "rest_name": "link",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Link"
     }
