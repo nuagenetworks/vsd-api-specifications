@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Version"
+            "userlabel": "Software Version"
         },
         {
             "allowed_chars": null,
@@ -423,7 +423,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Family"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
@@ -451,7 +451,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Host Name"
+            "userlabel": "Hostname"
         },
         {
             "allowed_chars": null,
