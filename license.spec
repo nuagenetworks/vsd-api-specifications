@@ -110,7 +110,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allowed CPEs"
+            "userlabel": "Allowed NSGs"
         },
         {
             "allowed_chars": null,
@@ -222,7 +222,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allowed VRSGs"
+            "userlabel": "Allowed VRSGs/VRSBs"
         },
         {
             "allowed_chars": null,
@@ -418,7 +418,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Encryption Mode"
+            "userlabel": "Encryption"
         },
         {
             "allowed_chars": null,
@@ -788,7 +788,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Product Version"
+            "userlabel": "Version"
         },
         {
             "allowed_chars": null,
@@ -900,7 +900,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Unique License Identifier"
+            "userlabel": "Unique ID"
         },
         {
             "allowed_chars": null,
@@ -928,7 +928,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "User Name"
+            "userlabel": "Owner"
         },
         {
             "allowed_chars": null,
