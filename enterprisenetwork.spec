@@ -174,7 +174,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Network Macros are organization wide defined macros that can be used as a destination of a policy rule. For instance, you can create a network that represents your internal Intranet access, and use it as a destination of a policy rule to drop any packet that is coming from a particular port.",
+        "description": "Network Macros are organization wide defined macros that can be used as a destination of a policy rule. For instance, you can create a network that represents your internal Intranet access, and use it as a destination of a policy rule to drop any packet that is coming from a particular port. Macros can now be created under SaaS Application Types. SaaS Application Types can then be associated to a SaaS Application Group which can be used as a destination of a policy rule.",
         "entity_name": "EnterpriseNetwork",
         "extends": [
             "@audited",
