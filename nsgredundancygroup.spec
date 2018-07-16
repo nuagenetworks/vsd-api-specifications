@@ -576,6 +576,18 @@
             "relationship": "child",
             "rest_name": "nsredundantport",
             "update": true
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "shuntlink",
+            "update": false
         }
     ],
     "model": {
