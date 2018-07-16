@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Map&lt;TCAMetric, Long[]&gt; TCAMetric is an Enum. Possible values are packets_in, bytes_in, packets_in_dropped, packets_in_errors, packets_out, bytes_out, packets_out_dropped, packets_out_errors, packets_dropped_rate_limit",
+            "description": "Map&lt;TCAMetric, Long[]&gt; TCAMetric is an Enum. Possible values are packets_in, bytes_in, packets_in_dropped, packets_in_errors, packets_out, bytes_out, packets_out_dropped, packets_out_errors, packets_dropped_rate_limit, disks,memory,cpu",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -143,6 +143,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
         "description": "Retrieves the statistics for a particular domain, zone, subnet, or VM.",
@@ -155,6 +156,7 @@
         "resource_name": "statistics",
         "rest_name": "statistics",
         "root": false,
+        "template": false,
         "update": false,
         "userlabel": "Statistics"
     }
