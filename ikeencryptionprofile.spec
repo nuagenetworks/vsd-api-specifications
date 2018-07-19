@@ -300,7 +300,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPsec Replay Window Size"
+            "userlabel": "IPsec SA Replay Window Size"
         },
         {
             "allowed_chars": null,
