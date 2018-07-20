@@ -124,6 +124,7 @@
                 "NUAGE_210_WBX_32_Q",
                 "NUAGE_210_WBX_48_S",
                 "OTHER",
+                "VDFG",
                 "VRSB",
                 "VRSG",
                 "VSA",

@@ -355,6 +355,7 @@
                 "NUAGE_210_WBX_32_Q",
                 "NUAGE_210_WBX_48_S",
                 "OTHER",
+                "VDFG",
                 "VRSB",
                 "VRSG",
                 "VSA",
@@ -366,7 +367,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "derived personality of the Redundancy Group - VSG,VRSG,NSG,OTHER Possible values are VSG, VSA, VRSG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
+            "description": "derived personality of the Redundancy Group - VSG,VRSG,NSG,OTHER Possible values are VSG, VSA, VRSG, VDFG, DC7X50, NSG, HARDWARE_VTEP, OTHER, .",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -414,7 +415,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Status"
+            "userlabel": "Redundant Gateway Status"
         },
         {
             "allowed_chars": null,
