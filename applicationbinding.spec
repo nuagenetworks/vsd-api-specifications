@@ -42,7 +42,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 65535,
+            "max_value": 32767,
             "min_length": null,
             "min_value": 10,
             "name": "priority",
@@ -87,6 +87,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
@@ -101,6 +102,7 @@
         "resource_name": "applicationbindings",
         "rest_name": "applicationbinding",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Application Binding"
     }
