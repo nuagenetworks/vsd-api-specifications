@@ -166,7 +166,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allowed VDFGs Count"
+            "userlabel": "Allowed VDFGs"
         },
         {
             "allowed_chars": null,
