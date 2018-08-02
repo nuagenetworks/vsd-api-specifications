@@ -456,7 +456,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Shunted Vlan"
+            "userlabel": "Shunt VLAN"
         },
         {
             "allowed_chars": null,

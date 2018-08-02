@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Category Name"
+            "userlabel": "Category"
         },
         {
             "allowed_chars": null,

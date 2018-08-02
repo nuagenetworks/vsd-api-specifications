@@ -114,7 +114,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "First VSC"
+            "userlabel": "First VSC IPv4"
         },
         {
             "allowed_chars": null,
@@ -142,7 +142,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "First VSC's IPv6 Address"
+            "userlabel": "First VSC IPv6"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Second VSC"
+            "userlabel": "Second VSC IPv4"
         },
         {
             "allowed_chars": null,
@@ -254,7 +254,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Second VSC's IPv6 Address"
+            "userlabel": "Second VSC IPv6"
         }
     ],
     "children": [],
