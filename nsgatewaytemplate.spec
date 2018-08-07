@@ -78,7 +78,7 @@
             "min_value": null,
             "name": "enterpriseID",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -250,6 +250,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents a Network Service Gateway Template.",

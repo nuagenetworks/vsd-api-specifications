@@ -84,9 +84,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "missing documentation.",
+        "description": "PAT Mapper is a construct which will be associated with 1-N FIP Domains",
         "entity_name": "PATMapper",
         "extends": [
             "@audited",
@@ -97,6 +98,7 @@
         "resource_name": "patmappers",
         "rest_name": "patmapper",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "PAT Mapper"
     }

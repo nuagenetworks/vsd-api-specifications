@@ -316,6 +316,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents VLAN Template under a Port Template object.",

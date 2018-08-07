@@ -464,7 +464,7 @@
             "min_value": null,
             "name": "associatedIKEGatewayID",
             "orderable": false,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
@@ -570,9 +570,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents an IKE Gateway",
+        "description": "Define attributes of the remote IKE gateway.",
         "entity_name": "IKEGatewayProfile",
         "extends": [
             "@audited",
@@ -584,6 +585,7 @@
         "resource_name": "ikegatewayprofiles",
         "rest_name": "ikegatewayprofile",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "IKE Gateway Profile"
     }

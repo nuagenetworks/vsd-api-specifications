@@ -661,9 +661,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents Infrastructure Gateway Profile instance.  This object contains the common parameters for different types of NSGs to perform bootstrapping and have their network infrastructure and services configured before becoming operational.",
+        "description": "Infrastructure Gateway Profiles are gateway-level platform attributes inherited by gateways as they are instantiated, connecting them to Nuage management infrastructure.",
         "entity_name": "InfrastructureGatewayProfile",
         "extends": [
             "@audited",

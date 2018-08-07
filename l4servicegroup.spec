@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Describes the L4 Service Group",
+            "description": "Describes the Service Group",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the L4 Services group",
+            "description": "Name of the Service group",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -72,9 +72,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "L4 Service Group is a set of L4 Services that can be used in ACLs.",
+        "description": "Service Group is a set of Services that can be used in ACLs.",
         "entity_name": "L4ServiceGroup",
         "extends": [
             "@audited",
@@ -85,7 +86,8 @@
         "resource_name": "l4servicegroups",
         "rest_name": "l4servicegroup",
         "root": null,
+        "template": false,
         "update": true,
-        "userlabel": "L4 Service Group"
+        "userlabel": "Service Group"
     }
 }

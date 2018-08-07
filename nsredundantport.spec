@@ -496,6 +496,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents a Port under a particular gateway object or redundant group object.",
@@ -510,6 +511,7 @@
         "resource_name": "nsredundantports",
         "rest_name": "nsredundantport",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Redundant Port"
     }
