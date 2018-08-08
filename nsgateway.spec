@@ -1443,7 +1443,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Template ID"
+            "userlabel": "Form Factor Template"
         }
     ],
     "children": [
