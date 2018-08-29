@@ -519,7 +519,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "backhaulDomainVNID",
+            "name": "backhaulSubnetVNID",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -528,7 +528,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Backhaul Domain VNID"
+            "userlabel": "Backhaul Subnet VNID"
         },
         {
             "allowed_chars": null,
