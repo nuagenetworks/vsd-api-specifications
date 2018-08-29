@@ -66,7 +66,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "null",
             "deprecated": false,
             "description": "IPv6 address of the end point.",
             "exposed": true,
@@ -85,7 +85,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I Pv6 Address"
+            "userlabel": "IPv6 Address"
         },
         {
             "allowed_chars": null,
