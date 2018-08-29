@@ -567,7 +567,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Domain associated with the VPort",
+            "description": "Name of the Domain associated with the VPort. This is exposed for netconf manager ",
             "exposed": true,
             "filterable": false,
             "format": "free",
