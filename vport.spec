@@ -1035,7 +1035,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Subnet or L2Domain VNID of the associated with the VPort. This is exposed for Netconf manager",
+            "description": "VNID of the associated subnet or L2domain with the VPort. This is exposed for Netconf manager",
             "exposed": true,
             "filterable": false,
             "format": null,
