@@ -514,7 +514,7 @@
             "description": "Backhaul subnet VNID of the L3Domain associated with the VPort. This is exposed for Netconf manager",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -525,7 +525,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "integer",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Backhaul Domain VNID"
