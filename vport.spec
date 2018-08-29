@@ -1043,7 +1043,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "subnetVnId",
+            "name": "subnetVNID",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -1052,7 +1052,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Subnet Vn Id"
+            "userlabel": "Subnet VNID"
         },
         {
             "allowed_chars": null,
