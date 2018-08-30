@@ -104,8 +104,8 @@
             "name": "exportLimit",
             "orderable": true,
             "read_only": false,
-            "required": true,
-            "subtype": null,
+            "required": false,
+            "subtype": "long",
             "transient": false,
             "type": "integer",
             "unique": false,
@@ -268,6 +268,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represent an OSPF instance. There can be only one OSPF instance per domain.",
@@ -282,6 +283,7 @@
         "resource_name": "ospfinstances",
         "rest_name": "ospfinstance",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "OSPF Instance"
     }
