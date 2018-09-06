@@ -60,6 +60,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "NSG_APPLY_PATCH",
+                "NSG_DELETE_PATCH",
                 "NSG_DOWNLOAD_OS_IMAGE",
                 "NSG_UPGRADE_TO_IMAGE",
                 "UNKNOWN"
