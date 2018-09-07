@@ -120,6 +120,7 @@
                 "EVDFB",
                 "HARDWARE_VTEP",
                 "NETCONF_7X50",
+                "NETCONF_THIRDPARTY",
                 "NSG",
                 "NUAGE_210_WBX_32_Q",
                 "NUAGE_210_WBX_48_S",
