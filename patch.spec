@@ -14,7 +14,7 @@
         "rest_name": "patch",
         "root": null,
         "template": null,
-        "update": true,
+        "update": false,
         "userlabel": "Patch"
     }
 }
