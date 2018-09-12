@@ -772,6 +772,7 @@
                 "NUAGE_210_WBX_32_Q",
                 "NUAGE_210_WBX_48_S",
                 "OTHER",
+                "THIRDPARTY_NCONF_DC",
                 "THIRDPARTY_NCONF_LEAF",
                 "VDFG",
                 "VRSB",
