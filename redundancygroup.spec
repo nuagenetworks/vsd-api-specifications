@@ -355,6 +355,7 @@
                 "NUAGE_210_WBX_32_Q",
                 "NUAGE_210_WBX_48_S",
                 "OTHER",
+                "THIRDPARTY_NETCONF_DC",
                 "THIRDPARTY_NETCONF_LEAF",
                 "VDFG",
                 "VRSB",
