@@ -230,7 +230,7 @@
             "name": "address",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -700,7 +700,7 @@
             "name": "netmask",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -1380,6 +1380,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "This is the definition of a subnet associated with a Zone.",
