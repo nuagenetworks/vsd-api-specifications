@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Patch Release"
+            "userlabel": "Patch Build Number"
         },
         {
             "allowed_chars": null,
