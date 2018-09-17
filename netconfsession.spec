@@ -73,7 +73,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "gatewayBootImageVersion",
+            "name": "gatewayVersion",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Gateway Boot Image Version"
+            "userlabel": "Gateway Version"
         },
         {
             "allowed_chars": null,
