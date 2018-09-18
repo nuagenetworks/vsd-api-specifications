@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Parameters to be supplied for execution of this command. This could either be a string of parameters or ID of an object supplying parameters.",
+            "description": "Parameters to be supplied for execution of this command. This should be the ID of the object supplying parameters.",
             "exposed": true,
             "filterable": false,
             "format": "free",
