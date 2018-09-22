@@ -15,7 +15,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": 1,
+            "min_length": 0,
             "min_value": null,
             "name": "description",
             "orderable": true,
@@ -39,14 +39,14 @@
             "deprecated": false,
             "description": "Name of the VNF catalog",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 1,
             "min_value": null,
             "name": "name",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": true,
             "subtype": null,
@@ -68,12 +68,12 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vnfdescriptor",
-            "update": false
+            "update": true
         }
     ],
     "model": {
         "create": null,
-        "delete": true,
+        "delete": false,
         "description": "Represents VNF Catalog",
         "entity_name": "VNFCatalog",
         "extends": [],
@@ -82,7 +82,7 @@
         "resource_name": "vnfcatalogs",
         "rest_name": "vnfcatalog",
         "root": null,
-        "update": true,
+        "update": false,
         "userlabel": "VNF Catalog"
     }
 }
