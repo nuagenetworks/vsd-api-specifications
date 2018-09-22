@@ -148,7 +148,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "netconfmanager",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
@@ -160,18 +160,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vsc",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "vsd",
             "update": false
         }
     ],
