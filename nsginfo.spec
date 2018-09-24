@@ -47,7 +47,7 @@
             "min_value": null,
             "name": "AARApplicationVersion",
             "orderable": true,
-            "read_only": true,
+            "read_only": false,
             "required": false,
             "subtype": null,
             "transient": false,
