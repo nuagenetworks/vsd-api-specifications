@@ -13,7 +13,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE.",
+            "description": "DHCPPoolType is an enum that indicates if the DHCP Pool is for HOST/BRIDGE/VRRP.",
             "exposed": true,
             "filterable": true,
             "format": null,
