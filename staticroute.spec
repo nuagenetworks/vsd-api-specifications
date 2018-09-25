@@ -260,6 +260,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "EXIT_DOMAIN",
+                "NETCONF",
                 "OVERLAY",
                 "OVERLAY_ADDRESS_TRANSLATION"
             ],
