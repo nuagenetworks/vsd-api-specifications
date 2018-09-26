@@ -89,7 +89,8 @@
     "model": {
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Underlays identify the transport networks that provide connectivity between NSGs, e.g. the Internet or a carrier MPLS VPN. The modelling of an underlay is required when using multiple disjoint underlays that are interconnected via one or more NSG-UBRs. 
+The underlay object is used at the NSG Control uplink and at the NSG-UBR Underlay uplink. If no underlays are defined a default underlay is used.",
         "entity_name": "Underlay",
         "extends": [
             "@audited",
