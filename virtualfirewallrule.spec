@@ -122,7 +122,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "FORWARD",
             "deprecated": false,
             "description": "The action of the rule, DROP or FORWARD. Possible values are DROP, FORWARD.",
             "exposed": true,
