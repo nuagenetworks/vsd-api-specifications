@@ -170,7 +170,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Black Hole"
+            "userlabel": "Enable Black Hole"
         },
         {
             "allowed_chars": null,
