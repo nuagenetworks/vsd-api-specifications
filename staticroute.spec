@@ -161,7 +161,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "blackHole",
+            "name": "blackHoleEnabled",
             "orderable": true,
             "read_only": false,
             "required": false,
