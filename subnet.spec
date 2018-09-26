@@ -70,7 +70,7 @@
             "channel": null,
             "creation_only": true,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "true",
             "deprecated": false,
             "description": "Indicates if EVPN capabilities are enabled for this subnet.",
             "exposed": true,
@@ -89,7 +89,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "EVPN Disabled"
+            "userlabel": "Enable EVPN"
         },
         {
             "allowed_chars": null,
