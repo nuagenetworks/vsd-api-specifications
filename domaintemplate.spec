@@ -498,9 +498,16 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "APPLY_POLICY_CHANGES",
+            "BEGIN_POLICY_CHANGES",
+            "DISCARD_POLICY_CHANGES",
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
-        "description": "Domains in VSD are created from domain templates. This object provides the definition of the Domain Template.",
+        "description": "A domain is a distributed logical router that enables L2 and L3 communication. A domain template is a model that can be instantiated as often as required, thereby creating real, functioning domains.",
         "entity_name": "DomainTemplate",
         "extends": [
             "@audited",

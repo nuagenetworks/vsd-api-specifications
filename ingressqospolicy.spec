@@ -379,9 +379,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "The object manipulates Ingress QoS parameters attached to a Access Port / VLAN or Network port.",
+        "description": "A Tunnel Shaper QoS Policy is a policy that groups rate-limiting profiles, traffic directionality and classifiers to govern the rate of traffic being sent or received by an end-host or application.",
         "entity_name": "IngressQOSPolicy",
         "extends": [
             "@audited",
@@ -393,7 +394,8 @@
         "resource_name": "ingressqospolicies",
         "rest_name": "ingressqospolicy",
         "root": false,
+        "template": false,
         "update": true,
-        "userlabel": "Ingress QoS Policy"
+        "userlabel": "Tunnel Shaper QoS Policy"
     }
 }

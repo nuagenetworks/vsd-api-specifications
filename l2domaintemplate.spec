@@ -12,7 +12,7 @@
             "description": "decides whether L2Domain / L2Domain template DHCP is managed by VSD",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DHCP Managed"
+            "userlabel": "Manage addressing with internal VSD DHCP"
         },
         {
             "allowed_chars": null,
@@ -173,7 +173,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address"
+            "userlabel": "Network"
         },
         {
             "allowed_chars": null,
@@ -498,7 +498,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Global MAC"
+            "userlabel": "Global Subnet GW MAC"
         }
     ],
     "children": [
@@ -708,9 +708,13 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
-        "description": "L2 Domain in VSD as derived by templates. This object describes the L2 Domain template.",
+        "description": "An L2 Domain is a distributed logical switch that enables L2 communication. An L2 Domain template is a model that can be instantiated as often as required, thereby creating real, functioning L2 Domains.",
         "entity_name": "L2DomainTemplate",
         "extends": [
             "@audited",

@@ -251,14 +251,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
-            "deprecated": false,
-            "get": false,
+            "deprecated": null,
+            "get": true,
             "relationship": "child",
             "rest_name": "job",
             "update": false
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "EXPORT",
+            "IMPORT"
+        ],
         "create": false,
         "delete": true,
         "description": "Defines the template for an Ingress Advanced Forwarding.",
@@ -273,6 +277,7 @@
         "resource_name": "ingressadvfwdtemplates",
         "rest_name": "ingressadvfwdtemplate",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Ingress Forwarding Policy"
     }

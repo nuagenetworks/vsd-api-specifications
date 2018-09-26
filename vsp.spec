@@ -142,13 +142,13 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
-            "deprecated": false,
+            "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "vsc",
-            "update": false
+            "rest_name": "netconfmanager",
+            "update": true
         },
         {
             "bulk_create": false,
@@ -159,11 +159,12 @@
             "deprecated": false,
             "get": true,
             "relationship": "child",
-            "rest_name": "vsd",
+            "rest_name": "vsc",
             "update": false
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
         "description": "System Monitoring details for VSP.",
@@ -178,6 +179,7 @@
         "resource_name": "vsps",
         "rest_name": "vsp",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "VSP"
     }

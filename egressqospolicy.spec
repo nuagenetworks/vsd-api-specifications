@@ -472,9 +472,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "The object manipulates Egress QoS parameters attached to a Access Port / VLAN or Network port.",
+        "description": "An Egress QoS Policy is a policy that groups rate-limiting profiles, traffic directionality and classifiers to govern the rate of traffic being sent or received by an end-host or application.",
         "entity_name": "EgressQOSPolicy",
         "extends": [
             "@audited",
@@ -486,6 +487,7 @@
         "resource_name": "egressqospolicies",
         "rest_name": "egressqospolicy",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Egress QoS Policy"
     }

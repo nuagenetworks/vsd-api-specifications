@@ -74,7 +74,7 @@
             "min_length": null,
             "min_value": null,
             "name": "issuerDN",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -171,7 +171,7 @@
     ],
     "children": [],
     "model": {
-        "create": true,
+        "create": null,
         "delete": true,
         "description": "Represents a KeyServer",
         "entity_name": "KeyServerMember",

@@ -816,6 +816,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "infrastructureevdfprofile",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
@@ -976,6 +988,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "multicastchannelmap",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "netconfprofile",
             "update": false
         },
         {
@@ -1460,6 +1484,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "GET_ZFB_INFO"
+        ],
         "create": false,
         "delete": false,
         "description": "Object that identifies the user functions",
@@ -1474,6 +1501,7 @@
         "resource_name": "me",
         "rest_name": "me",
         "root": true,
+        "template": false,
         "update": false,
         "userlabel": "Me"
     }

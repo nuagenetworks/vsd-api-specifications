@@ -168,6 +168,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Floating IP that is associated to a Domain. This floating IP could be used in the VM interface for NAT functionality.",
@@ -182,6 +183,7 @@
         "resource_name": "floatingips",
         "rest_name": "floatingip",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Floating IP"
     }

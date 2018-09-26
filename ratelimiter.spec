@@ -143,9 +143,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Rate Limiter object that contains peak, burst and cir. It can be associated with Egress QOS policy objects.",
+        "description": "Set of traffic management parameters describing a desired traffic profile. Rate-limiters are used by QoS policies to enforce per Class of Server rate-conformance.",
         "entity_name": "RateLimiter",
         "extends": [
             "@audited",
@@ -157,6 +158,7 @@
         "resource_name": "ratelimiters",
         "rest_name": "ratelimiter",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Rate Limiter"
     }

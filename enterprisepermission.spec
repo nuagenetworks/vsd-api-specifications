@@ -117,7 +117,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Permitted Entity ID"
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
@@ -145,7 +145,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Permitted Entity Name"
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
@@ -178,6 +178,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents Enterprise Permission for a CSP entity.",
@@ -192,6 +193,7 @@
         "resource_name": "enterprisepermissions",
         "rest_name": "enterprisepermission",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Permission"
     }

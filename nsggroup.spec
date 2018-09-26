@@ -84,9 +84,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "A logical group of NSG and NSG-BR instances that can be used to assign NSG-UBRs to all NSGs in the group, to provide connectivity to NSGs in disjoint underlays.",
         "entity_name": "NSGGroup",
         "extends": [],
         "get": true,
@@ -94,6 +95,7 @@
         "resource_name": "nsggroups",
         "rest_name": "nsggroup",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "NSG Group"
     }
