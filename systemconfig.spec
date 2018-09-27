@@ -1658,7 +1658,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "DC_DEFAULT",
                 "GRE",
                 "VLAN",
                 "VXLAN"
@@ -1669,10 +1668,10 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Default Domain Tunnel Type .Possible values are VXLAN,GRE Possible values are DC_DEFAULT, GRE, VXLAN, .",
+            "description": "Default Domain Tunnel Type.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
