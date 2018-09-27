@@ -196,16 +196,22 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
         "entity_name": "FirewallAcl",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "firewallacls",
         "rest_name": "firewallacl",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Firewall ACL"
     }

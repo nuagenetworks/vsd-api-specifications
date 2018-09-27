@@ -1101,16 +1101,22 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
         "entity_name": "FirewallRule",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "firewallrules",
         "rest_name": "firewallrule",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Firewall Rule"
     }
