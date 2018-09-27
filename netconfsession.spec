@@ -95,7 +95,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Vendor of the gatewat to which this session connected from Netconf Manager",
+            "description": "Vendor of the gateway to which this session connected from Netconf Manager",
             "exposed": true,
             "filterable": false,
             "format": null,
