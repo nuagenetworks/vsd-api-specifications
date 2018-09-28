@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Flag to indicate if an ACCESS port is dpdkEnabled or not.",
+            "description": "Flag to indicate if an ACCESS port is DPDK Enabled or not.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "dpdkEnabled"
+            "userlabel": "DPDK Enabled"
         },
         {
             "allowed_chars": null,

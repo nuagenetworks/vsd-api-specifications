@@ -404,7 +404,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "lastUserAction"
+            "userlabel": "Last User Action"
         },
         {
             "allowed_chars": null,

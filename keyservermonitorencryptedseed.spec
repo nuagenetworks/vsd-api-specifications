@@ -222,7 +222,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "seedType"
+            "userlabel": "Seed Type"
         }
     ],
     "children": [],
