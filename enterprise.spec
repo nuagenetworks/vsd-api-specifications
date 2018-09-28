@@ -469,7 +469,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "1",
+            "default_value": "2",
             "deprecated": false,
             "description": "L7 Application Type version",
             "exposed": true,
