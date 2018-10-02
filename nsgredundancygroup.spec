@@ -43,7 +43,7 @@
             "format": "free",
             "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 0,
             "min_value": null,
             "name": "description",
             "orderable": true,
@@ -260,7 +260,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "The gateway peer in this Redundant Group. when Redundant Group is deleted this gateway will not recieve vport associations",
             "exposed": true,
             "filterable": true,
@@ -278,7 +278,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary gateway ID"
+            "userlabel": "Secondary Gateway"
         },
         {
             "allowed_chars": null,
@@ -569,6 +569,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "permission",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -599,7 +611,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "shuntlink",
-            "update": false
+            "update": true
         }
     ],
     "model": {
