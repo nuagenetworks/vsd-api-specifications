@@ -231,7 +231,7 @@
         "create": null,
         "delete": false,
         "description": "Gateway location details",
-        "entity_name": "Location",
+        "entity_name": "GatewayLocation",
         "extends": [
             "@audited",
             "@base",
