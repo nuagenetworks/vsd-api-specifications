@@ -349,7 +349,7 @@
                 "DC7X50",
                 "HARDWARE_VTEP",
                 "NETCONF_7X50",
-                "NETCONF_THIRDPARTY",
+                "NETCONF_THIRDPARTY_HW_VTEP",
                 "NSG",
                 "NSGBR",
                 "NSGDUC",
