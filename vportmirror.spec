@@ -151,7 +151,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "BOTH",
             "deprecated": false,
             "description": "Describes what type of traffic needs to be mirrored.",
             "exposed": true,

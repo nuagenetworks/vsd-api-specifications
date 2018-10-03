@@ -978,7 +978,7 @@
             "deprecated": false,
             "description": "The redundant peer id for the current VRS.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 50,
             "max_value": null,

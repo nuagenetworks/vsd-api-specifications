@@ -123,14 +123,14 @@
             "deprecated": false,
             "description": "Id of referenced Metadata Object",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "metadataID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": true,
             "subtype": null,
@@ -217,7 +217,7 @@
             "min_length": null,
             "min_value": null,
             "name": "type",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -295,7 +295,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vnfinterfacedescriptor",
-            "update": false
+            "update": true
         }
     ],
     "model": {

@@ -320,18 +320,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "egressfloatingipacltemplate",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": false,
@@ -374,18 +362,6 @@
             "get": true,
             "relationship": "child",
             "rest_name": "ingressadvfwdtemplate",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "ingressexternalservicetemplate",
             "update": false
         },
         {
@@ -477,7 +453,7 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": true,
-            "delete": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
