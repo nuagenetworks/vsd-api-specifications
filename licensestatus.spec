@@ -597,7 +597,7 @@
         "description": null,
         "entity_name": "LicenseStatus",
         "extends": [],
-        "get": true,
+        "get": false,
         "package": "licensemgmt",
         "resource_name": "licensestatus",
         "rest_name": "licensestatus",

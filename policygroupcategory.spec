@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "defaultTag",
+            "name": "defaultCategory",
             "orderable": true,
             "read_only": true,
             "required": false,
