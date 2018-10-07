@@ -69,9 +69,9 @@
             "exposed": true,
             "filterable": true,
             "format": "free",
-            "max_length": null,
+            "max_length": 255,
             "max_value": null,
-            "min_length": null,
+            "min_length": 1,
             "min_value": null,
             "name": "name",
             "orderable": true,
@@ -92,12 +92,12 @@
         "description": "This object represent default Gateway associated with Subnet",
         "entity_name": "DefaultGateway",
         "extends": [],
-        "get": true,
+        "get": false,
         "package": "network",
         "resource_name": "defaultgateways",
         "rest_name": "defaultgateway",
         "root": null,
         "update": false,
-        "userlabel": "Defaukt Gateway "
+        "userlabel": "Default Gateway "
     }
 }

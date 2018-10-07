@@ -120,7 +120,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": true,
+            "deprecated": false,
             "description": "The ID of the infrastructure port profile this instance is associated with.",
             "exposed": true,
             "filterable": false,
@@ -321,7 +321,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "AUTONEGOTIATE",
-                "BASE10",
+                "BASET10",
                 "BASET1000",
                 "BASETX100",
                 "BASEX10G"
@@ -492,6 +492,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "nsport",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "permission",
             "update": false
         },
         {

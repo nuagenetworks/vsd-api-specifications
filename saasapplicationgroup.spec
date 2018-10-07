@@ -18,7 +18,7 @@
             "min_length": 0,
             "min_value": null,
             "name": "description",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,

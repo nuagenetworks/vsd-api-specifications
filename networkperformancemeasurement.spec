@@ -168,7 +168,7 @@
             "get": true,
             "relationship": "member",
             "rest_name": "networkperformancebinding",
-            "update": true
+            "update": false
         }
     ],
     "model": {

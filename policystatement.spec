@@ -68,7 +68,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "policyentry",
-            "update": false
+            "update": true
         }
     ],
     "model": {

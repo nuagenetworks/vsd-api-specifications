@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Map&lt;TCAMetric, Long[]&gt; TCAMetric is an Enum. Possible values are modem_status, signal_strength",
+            "description": "A list of statistical data returned for a selected LTE interface.  Information returned will contain the cellular signal strength and the current technology used (LTE, HSPA+, 3G, ...).",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -115,19 +115,21 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
-        "delete": true,
-        "description": "Retrieves statistics for LTE uplink",
+        "delete": false,
+        "description": "Retrieves statistical information for LTE uplinks.",
         "entity_name": "Ltestatistics",
         "extends": [
             "@metadata"
         ],
-        "get": true,
+        "get": false,
         "package": "stats",
         "resource_name": "ltestatistics",
         "rest_name": "ltestatistics",
         "root": null,
-        "update": true,
+        "template": false,
+        "update": false,
         "userlabel": "LTE Statistics"
     }
 }
