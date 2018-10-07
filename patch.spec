@@ -229,7 +229,7 @@
     "model": {
         "allowed_job_commands": null,
         "create": null,
-        "delete": true,
+        "delete": false,
         "description": "This entity defines a patch installed somewhere (ie. NSG Patch)",
         "entity_name": "Patch",
         "extends": [],
