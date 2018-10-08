@@ -345,7 +345,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": null,
+        "description": "Virtual Cloud Services (VCS) in the data center BGP PE-CE is configured at vport level . Network Service Gateways (NSG) BGP is configured at subnet level.",
         "entity_name": "BGPNeighbor",
         "extends": [
             "@base",
