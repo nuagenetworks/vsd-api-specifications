@@ -1132,7 +1132,7 @@
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Customer ID"
-        },
+        }
     ],
     "children": [
         {
