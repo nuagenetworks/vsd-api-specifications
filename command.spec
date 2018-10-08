@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Parameters to be supplied for execution of this command. This could either be a string of parameters or ID of an object supplying parameters.",
+            "description": "Parameters to be supplied for execution of this command. This should be the ID of the object supplying parameters.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Type of the object which supplies parameters for this command.",
+            "description": "Type of the object which supplies parameters for this command. For NSG_APPLY_PATCH command this should be NSG_PATCH_PROFILE. For NSG_DELETE_PATCH it should be PATCH",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -88,6 +88,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "NSG_APPLY_PATCH",
+                "NSG_DELETE_PATCH",
                 "NSG_DOWNLOAD_OS_IMAGE",
                 "NSG_UPGRADE_TO_IMAGE",
                 "UNKNOWN"

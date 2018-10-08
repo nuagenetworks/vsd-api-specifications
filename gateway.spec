@@ -1328,9 +1328,9 @@
             "delete": false,
             "deprecated": false,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "patnatpool",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,

@@ -1403,7 +1403,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "nsgatewaycount",
+            "rest_name": "nsgatewayscount",
             "update": false
         },
         {

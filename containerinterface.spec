@@ -543,7 +543,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "ID of the tier that the interface is attached to.",
             "exposed": true,
             "filterable": false,
