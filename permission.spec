@@ -195,7 +195,7 @@
         "create": false,
         "delete": true,
         "description": "User groups that are granted permissions for objects such as domains, zones, and subnets can see and manipulate everything within the object.",
-        "entity_name": "Permissions",
+        "entity_name": "Permission",
         "extends": [
             "@audited",
             "@base",
