@@ -868,7 +868,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Configuration of VNS Gateway uplinks",
         "entity_name": "UplinkConnection",
         "extends": [],
         "get": true,

@@ -475,7 +475,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents an IKE Gateway Connection object",
+        "description": "Set the attributes like NSG role, authentication method etc for establishing IKE security association with remote gateway.",
         "entity_name": "IKEGatewayConnection",
         "extends": [
             "@audited",
