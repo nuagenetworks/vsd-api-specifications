@@ -408,6 +408,9 @@
         }
     ],
     "model": {
+        "allowed_job_commands": [
+            "IMPORT"
+        ],
         "create": null,
         "delete": false,
         "description": "Layer 7 ApplicationType , these are auto created as part of VSD bringup",
@@ -418,6 +421,7 @@
         "resource_name": "l7applicationsignatures",
         "rest_name": "l7applicationsignature",
         "root": null,
+        "template": false,
         "update": false,
         "userlabel": "L7 Application Signature"
     }
