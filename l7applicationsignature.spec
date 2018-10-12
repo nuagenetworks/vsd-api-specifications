@@ -421,7 +421,7 @@
         "resource_name": "l7applicationsignatures",
         "rest_name": "l7applicationsignature",
         "root": null,
-        "template": true,
+        "template": false,
         "update": false,
         "userlabel": "L7 Application Signature"
     }
