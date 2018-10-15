@@ -138,7 +138,11 @@
         "delete": true,
         "description": "Identifies Netconf Manager communicating with VSD, This can only be created by netconfmgr user",
         "entity_name": "NetconfManager",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconf",
         "resource_name": "netconfmanagers",

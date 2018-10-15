@@ -264,7 +264,11 @@
         "delete": true,
         "description": "A deployment failure represents a deployment operation initiated by the VSD that resulted in a failure.",
         "entity_name": "DeploymentFailure",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "deploymentfailures",

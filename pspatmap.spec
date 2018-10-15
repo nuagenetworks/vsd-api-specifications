@@ -119,7 +119,11 @@
         "delete": true,
         "description": null,
         "entity_name": "PSPATMap",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "pspatmaps",

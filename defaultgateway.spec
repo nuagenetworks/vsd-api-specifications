@@ -91,7 +91,11 @@
         "delete": false,
         "description": "This object represent default Gateway associated with Subnet",
         "entity_name": "DefaultGateway",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": false,
         "package": "network",
         "resource_name": "defaultgateways",

@@ -232,7 +232,11 @@
         "delete": false,
         "description": "This entity defines a patch installed somewhere (ie. NSG Patch)",
         "entity_name": "Patch",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "patches",

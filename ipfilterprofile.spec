@@ -92,7 +92,11 @@
         "delete": true,
         "description": "7x50 IP Filter profile",
         "entity_name": "IPFilterProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "ipfilterprofiles",

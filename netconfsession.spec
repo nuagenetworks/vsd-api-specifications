@@ -95,7 +95,11 @@
         "delete": true,
         "description": "Represents session between gateway and Netconf Manager, This can only be created by netconfmgr user",
         "entity_name": "NetconfSession",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "netconfsessions",

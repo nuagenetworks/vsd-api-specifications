@@ -147,7 +147,11 @@
         "delete": true,
         "description": null,
         "entity_name": "OverlayPATNATEntry",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "gateway",
         "resource_name": "overlaypatnatentries",

@@ -91,7 +91,11 @@
         "delete": true,
         "description": null,
         "entity_name": "NetworkPerformanceBinding",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "networkperformancebindings",

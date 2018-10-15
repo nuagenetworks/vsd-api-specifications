@@ -364,7 +364,11 @@
         "delete": true,
         "description": null,
         "entity_name": "BRConnection",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vport",
         "resource_name": "brconnections",

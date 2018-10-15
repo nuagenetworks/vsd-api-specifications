@@ -518,7 +518,11 @@
         "delete": false,
         "description": "Summary information such as alarm counts, location, version, boostrap status for Network Services Gateway",
         "entity_name": "NSGatewaySummary",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": false,
         "package": null,
         "resource_name": "nsgatewayssummaries",

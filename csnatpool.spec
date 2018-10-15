@@ -164,7 +164,11 @@
         "delete": true,
         "description": "Customer Alias IP range to be used in provider domain. This pool is used to map customer private IPs from customer domain to customer public IPs in provider domain.",
         "entity_name": "CSNATPool",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "csnatpools",

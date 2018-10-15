@@ -412,7 +412,11 @@
         "delete": false,
         "description": "Layer 7 ApplicationType , these are auto created as part of VSD bringup",
         "entity_name": "L7applicationsignature",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "perfrouting",
         "resource_name": "l7applicationsignatures",

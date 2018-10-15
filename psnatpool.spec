@@ -172,7 +172,11 @@
         "delete": true,
         "description": "Provider alias IP range to map provider private IPs from provider domain to provider public IPs in the customer domain.",
         "entity_name": "PSNATPool",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "psnatpools",

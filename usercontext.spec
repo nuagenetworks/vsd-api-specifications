@@ -260,7 +260,11 @@
         "delete": false,
         "description": "This defines a proxy class to expose some of the configuration parameters which are required by UI",
         "entity_name": "UserContext",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": false,
         "package": "usermgmt",
         "resource_name": "usercontexts",

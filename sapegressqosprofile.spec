@@ -92,7 +92,11 @@
         "delete": true,
         "description": "7x50 SAP Egress QoS profile",
         "entity_name": "SAPEgressQoSProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "sapegressqosprofiles",

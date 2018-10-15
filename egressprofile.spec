@@ -341,7 +341,11 @@
         "delete": true,
         "description": "An Egress Profile represents an aggregation of IP, MAC and egress QoS profiles that are applied on a VPort instance.",
         "entity_name": "EgressProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "egressprofiles",

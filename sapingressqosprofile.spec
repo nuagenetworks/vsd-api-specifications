@@ -92,7 +92,11 @@
         "delete": true,
         "description": "7x50 SAP Ingress QoS profile",
         "entity_name": "SAPIngressQoSProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "sapingressqosprofiles",

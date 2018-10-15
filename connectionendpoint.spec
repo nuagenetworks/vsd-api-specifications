@@ -181,7 +181,11 @@
         "delete": true,
         "description": null,
         "entity_name": "Connectionendpoint",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "connectionendpoints",

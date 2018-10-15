@@ -92,7 +92,11 @@
         "delete": true,
         "description": "7x50 IPv6 Filter profile",
         "entity_name": "IPv6FilterProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "ipv6filterprofiles",

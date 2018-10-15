@@ -341,7 +341,11 @@
         "delete": true,
         "description": "An Ingress Profile represents an aggregation of IP, MAC and ingress QoS profiles that are applied on a VPort instance.",
         "entity_name": "IngressProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "ingressprofiles",

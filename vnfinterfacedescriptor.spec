@@ -68,7 +68,10 @@
         "delete": true,
         "description": "Represent VNF interface descriptor",
         "entity_name": "VNFInterfaceDescriptor",
-        "extends": [],
+        "extends": [
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfinterfacedescriptors",

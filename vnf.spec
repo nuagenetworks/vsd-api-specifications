@@ -688,7 +688,11 @@
         "delete": true,
         "description": "Instantiation of a VNF on a specified Network Services Gateway that has the resources to manage a VNF.",
         "entity_name": "VNF",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfs",

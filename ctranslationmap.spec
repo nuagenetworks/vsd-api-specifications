@@ -123,7 +123,11 @@
         "delete": true,
         "description": "1:1 mapping of customer private IPs in customer domain to customer alias (public) IPs in provider domain and N:1 mapping to customer alias SPAT IP in the provider domain.",
         "entity_name": "CTranslationMap",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "ctranslationmaps",

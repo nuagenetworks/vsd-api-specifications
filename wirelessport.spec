@@ -769,7 +769,11 @@
         "delete": true,
         "description": "Represents a Wireless (WiFi) interface configured on a Network Service Gateway (NSG) instance. The WirelessPort instance may map to a physical WiFi card or a WiFi port.",
         "entity_name": "WirelessPort",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "nsg",
         "resource_name": "wirelessports",

@@ -263,7 +263,11 @@
         "delete": true,
         "description": "VNF Threshold Policy represents thresholds for resources consumed by VNF instance running on NS Gateway and action to be taken when resource utilization crosses configured thresholds.",
         "entity_name": "VNFThresholdPolicy",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfthresholdpolicies",

@@ -372,7 +372,11 @@
         "delete": true,
         "description": "Represents a redundant Port under a particular gateway object or redundant group object.",
         "entity_name": "GatewayRedundantPort",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "gateway",
         "resource_name": "gatewayredundantports",

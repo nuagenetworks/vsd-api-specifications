@@ -121,7 +121,11 @@
         "delete": true,
         "description": "This represents domain segment identifier which is unique for domain per NSGateway.",
         "entity_name": "VNFDomainMapping",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfdomainmappings",

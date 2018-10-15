@@ -176,7 +176,11 @@
         "delete": true,
         "description": "Represents configuration to access device using Netconf protocol",
         "entity_name": "NetconfProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "infrastructure",
         "resource_name": "netconfprofiles",

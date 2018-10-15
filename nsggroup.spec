@@ -89,7 +89,11 @@
         "delete": true,
         "description": "A logical group of NSG and NSG-BR instances that can be used to assign NSG-UBRs to all NSGs in the group, to provide connectivity to NSGs in disjoint underlays.",
         "entity_name": "NSGGroup",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "nsggroups",

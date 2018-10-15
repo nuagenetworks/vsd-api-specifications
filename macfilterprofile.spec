@@ -92,7 +92,11 @@
         "delete": true,
         "description": "7x50 MAC Filter profile",
         "entity_name": "MACFilterProfile",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "netconfdcgw",
         "resource_name": "macfilterprofiles",
