@@ -1021,7 +1021,7 @@
             "min_value": null,
             "name": "importedApplicationSignaturesVersion",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
