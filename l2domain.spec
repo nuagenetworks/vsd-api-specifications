@@ -153,7 +153,7 @@
             "channel": null,
             "creation_only": true,
             "default_order": false,
-            "default_value": "true",
+            "default_value": "false",
             "deprecated": false,
             "description": "Determines whether VXLAN-ECMP are enabled on this domain.",
             "exposed": true,
