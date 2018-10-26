@@ -54,7 +54,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I P Type"
+            "userlabel": "IP Type"
         },
         {
             "allowed_chars": null,
