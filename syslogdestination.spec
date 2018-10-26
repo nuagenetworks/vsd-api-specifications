@@ -67,7 +67,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A detailed description of the profile",
+            "description": "A detailed description of the syslog server",
             "exposed": true,
             "filterable": true,
             "format": "free",
