@@ -95,7 +95,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the profile",
+            "description": "Name of the syslog server",
             "exposed": true,
             "filterable": true,
             "format": "free",
