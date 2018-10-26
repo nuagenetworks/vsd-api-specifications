@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "IP Address",
+            "description": "The IP Address of the syslog server",
             "exposed": true,
             "filterable": true,
             "format": "free",
