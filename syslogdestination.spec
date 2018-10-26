@@ -153,7 +153,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The protocol type of the syslog server. eg: \"UDP\"",
+            "description": "The protocol of the syslog server. eg: \"UDP\"",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -161,7 +161,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "type",
+            "name": "protocol",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -170,7 +170,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Type"
+            "userlabel": "Protocol"
         }
     ],
     "children": [],
