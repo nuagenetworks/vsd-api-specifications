@@ -631,7 +631,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Overlay Management Profile I D"
+            "userlabel": "Overlay Management Profile"
         },
         {
             "allowed_chars": null,
