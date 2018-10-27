@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The ID os the associated DNA Subnet",
+            "description": "The ID of the associated DNA Subnet",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated D N A Subnet I D"
+            "userlabel": "DNA Subnet"
         },
         {
             "allowed_chars": null,
