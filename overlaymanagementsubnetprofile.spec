@@ -110,7 +110,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Syslog Destination I Ds"
+            "userlabel": "Syslog Destinations"
         }
     ],
     "children": [
