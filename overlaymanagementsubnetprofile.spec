@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated D N A Subnet I D"
+            "userlabel": "DNA Subnet"
         },
         {
             "allowed_chars": null,
