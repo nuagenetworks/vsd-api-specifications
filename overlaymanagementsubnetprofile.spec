@@ -122,9 +122,9 @@
             "delete": false,
             "deprecated": null,
             "get": true,
-            "relationship": "child",
+            "relationship": "member",
             "rest_name": "syslogdestination",
-            "update": false
+            "update": true
         }
     ],
     "model": {
