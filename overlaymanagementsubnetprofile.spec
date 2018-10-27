@@ -113,20 +113,7 @@
             "userlabel": "Syslog Destinations"
         }
     ],
-    "children": [
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "member",
-            "rest_name": "syslogdestination",
-            "update": true
-        }
-    ],
+    "children": [],
     "model": {
         "allowed_job_commands": null,
         "create": null,
