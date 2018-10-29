@@ -76,7 +76,7 @@
         "create": null,
         "delete": true,
         "description": "Overlay Management Profiles link a DNA Subnet used for management traffic and other objects such as Syslog Destinations",
-        "entity_name": "Overlaymanagementprofile",
+        "entity_name": "OverlayManagementProfile",
         "extends": [],
         "get": true,
         "package": null,
