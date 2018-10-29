@@ -418,7 +418,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Command Detailed Status Code"
+            "userlabel": "Image Download Command Status Code"
         },
         {
             "allowed_chars": null,
