@@ -401,7 +401,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Numerical value representing the code mapping to detailed status of the image download command operation.",
+            "description": "Numerical value representing the code mapping to detailed status of the Gateway image download command operation.",
             "exposed": true,
             "filterable": true,
             "format": null,
