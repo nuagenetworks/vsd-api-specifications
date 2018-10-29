@@ -619,7 +619,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Personality of this Gateway.",
+            "description": "Personality of the Gateway.",
             "exposed": true,
             "filterable": true,
             "format": null,
