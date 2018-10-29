@@ -390,7 +390,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Average Speed"
+            "userlabel": "Image Download Average Speed"
         },
         {
             "allowed_chars": null,
