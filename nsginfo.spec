@@ -373,7 +373,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Enterprise that this Gateway is part off.",
+            "description": "The enterprise associated with this Gateway.",
             "exposed": true,
             "filterable": false,
             "format": "free",
