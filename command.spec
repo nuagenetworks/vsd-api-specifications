@@ -298,7 +298,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "JSON string detailing the progress of this command exection on the Gateway.",
+            "description": "JSON string detailing the progress of the command exection on Gateway.",
             "exposed": true,
             "filterable": false,
             "format": "free",
