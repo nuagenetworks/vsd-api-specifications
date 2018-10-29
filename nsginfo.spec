@@ -502,7 +502,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Current Speed"
+            "userlabel": "Image Download Current Speed"
         },
         {
             "allowed_chars": null,
