@@ -513,7 +513,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The total percentage of image download transfer that was completed.",
+            "description": "The total percentage of Gateway image download transfer that was completed.",
             "exposed": true,
             "filterable": true,
             "format": null,
