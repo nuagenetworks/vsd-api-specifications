@@ -558,7 +558,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Start Time"
+            "userlabel": "Image Download Start Time"
         },
         {
             "allowed_chars": null,
