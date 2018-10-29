@@ -469,7 +469,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Gateway.",
+            "description": "Identifier of the Gateway.",
             "exposed": true,
             "filterable": true,
             "format": "free",
