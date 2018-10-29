@@ -446,7 +446,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Command ID"
+            "userlabel": "Image Download Command ID"
         },
         {
             "allowed_chars": null,
