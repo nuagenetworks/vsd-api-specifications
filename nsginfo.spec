@@ -586,7 +586,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Time Left"
+            "userlabel": "Image Download Time Left"
         },
         {
             "allowed_chars": null,
