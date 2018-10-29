@@ -703,7 +703,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "System identifier of this Gateway.",
+            "description": "System identifier of the Gateway.",
             "exposed": true,
             "filterable": true,
             "format": "free",
