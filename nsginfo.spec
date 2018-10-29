@@ -474,7 +474,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Download Command Last Updated Date"
+            "userlabel": "Image Download Command Last Updated Date"
         },
         {
             "allowed_chars": null,
