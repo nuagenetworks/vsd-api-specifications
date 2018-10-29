@@ -430,7 +430,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "ID of the Gateway image download command.",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": 255,
