@@ -485,7 +485,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Current Gateway image download speed.",
+            "description": "Gateway image download current speed.",
             "exposed": true,
             "filterable": false,
             "format": "free",
