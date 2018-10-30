@@ -474,7 +474,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Image Download Current Speed"
+            "userlabel": "Image Download Current Speed (kB/s)"
         },
         {
             "allowed_chars": null,
