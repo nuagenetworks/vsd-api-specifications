@@ -502,7 +502,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Image Download Percentage"
+            "userlabel": "Image Download Percentage (%)"
         },
         {
             "allowed_chars": null,
