@@ -390,7 +390,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Image Download Command Status Code"
+            "userlabel": "Command Status Code"
         },
         {
             "allowed_chars": null,
