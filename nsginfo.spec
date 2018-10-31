@@ -429,7 +429,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Time stamp when the Gateway image download command was last updated.",
+            "description": "Time stamp when the command was last updated.",
             "exposed": true,
             "filterable": true,
             "format": "free",
