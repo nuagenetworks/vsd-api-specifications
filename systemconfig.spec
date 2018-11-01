@@ -3934,7 +3934,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSD AAR Application Version Publish Date"
+            "userlabel": "AAR Application Version Publish Date"
         }
     ],
     "children": [],
