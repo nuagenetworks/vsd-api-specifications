@@ -3927,14 +3927,14 @@
             "min_value": null,
             "name": "vsdAARApplicationVersionPublishDate",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vsd A A R Application Version Publish Date"
+            "userlabel": "VSD AAR Application Version Publish Date"
         }
     ],
     "children": [],
