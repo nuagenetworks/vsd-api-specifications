@@ -18,7 +18,7 @@
             "min_length": 1,
             "min_value": null,
             "name": "associatedApplicationPerformanceManagementID",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": true,
             "subtype": null,

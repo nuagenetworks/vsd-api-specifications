@@ -194,7 +194,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents  Permitted action on an  entity for a group.",
+        "description": "User groups that are granted permissions for objects such as domains, zones, and subnets can see and manipulate everything within the object.",
         "entity_name": "Permission",
         "extends": [
             "@audited",

@@ -171,7 +171,7 @@
     ],
     "children": [],
     "model": {
-        "create": false,
+        "create": null,
         "delete": false,
         "description": "The EAM solution configuration.",
         "entity_name": "VCenterEAMConfig",

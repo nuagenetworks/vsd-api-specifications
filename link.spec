@@ -275,7 +275,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "csnatpool",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
@@ -287,7 +287,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "demarcationservice",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
@@ -299,7 +299,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "nexthop",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
@@ -323,7 +323,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "policystatement",
-            "update": false
+            "update": true
         },
         {
             "bulk_create": false,
@@ -335,7 +335,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "psnatpool",
-            "update": false
+            "update": true
         }
     ],
     "model": {

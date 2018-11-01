@@ -50,7 +50,7 @@
             "min_length": null,
             "min_value": null,
             "name": "type",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -63,16 +63,21 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "Represent VNF interface descriptor",
         "entity_name": "VNFInterfaceDescriptor",
-        "extends": [],
+        "extends": [
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfinterfacedescriptors",
         "rest_name": "vnfinterfacedescriptor",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "VNF Interface Descriptor"
     }

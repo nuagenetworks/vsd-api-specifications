@@ -519,6 +519,54 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
+            "rest_name": "allgateway",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "allredundancygroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "application",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "applicationperformancemanagement",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
             "rest_name": "autodiscoveredgateway",
             "update": false
         },
@@ -568,6 +616,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "cms",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "command",
             "update": false
         },
         {
@@ -682,12 +742,12 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "rest_name": "egressdomainfloatingipacltemplate",
+            "rest_name": "egressadvfwdentrytemplate",
             "update": false
         },
         {
@@ -699,7 +759,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "rest_name": "egressfloatingipacltemplate",
+            "rest_name": "egressdomainfloatingipacltemplate",
             "update": false
         },
         {
@@ -803,7 +863,7 @@
             "bulk_delete": false,
             "bulk_update": false,
             "create": true,
-            "delete": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
@@ -850,7 +910,7 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": false,
             "get": true,
@@ -946,6 +1006,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "l7applicationsignature",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -964,6 +1036,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "licensestatus",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "metadata",
             "update": false
         },
         {
@@ -1020,6 +1104,18 @@
             "bulk_update": false,
             "create": false,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "networkperformancemeasurement",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "root",
@@ -1066,7 +1162,7 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
             "deprecated": false,
             "get": true,
@@ -1084,6 +1180,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "nsgupgradeprofile",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "overlaymirrordestination",
             "update": false
         },
         {
@@ -1132,6 +1240,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "policygroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "policyobjectgroup",
             "update": false
         },
         {
@@ -1192,6 +1312,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "routingpolicy",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "saasapplicationtype",
             "update": false
         },
         {
@@ -1306,7 +1438,7 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
+            "create": true,
             "delete": false,
             "deprecated": false,
             "get": true,
@@ -1354,12 +1486,24 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": null,
             "get": true,
             "relationship": "root",
             "rest_name": "virtualfirewallpolicy",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "virtualfirewallrule",
             "update": false
         },
         {
@@ -1432,6 +1576,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "vrsconfig",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "vrs",
             "update": false
         },
         {

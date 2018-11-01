@@ -95,7 +95,7 @@
             "@audited",
             "@base"
         ],
-        "get": true,
+        "get": false,
         "package": "vmware",
         "resource_name": "autodiscoveredclusters",
         "rest_name": "autodiscoveredcluster",

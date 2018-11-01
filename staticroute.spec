@@ -31,7 +31,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "DUALSTACK",
                 "IPV4",
                 "IPV6"
             ],
@@ -124,17 +123,17 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": true,
+            "deprecated": false,
             "description": "UUID of Do Not Advertise Subnet",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "associatedSubnetID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -180,7 +179,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": true,
+            "deprecated": false,
             "description": "IP address of the next hop. This must be a VM attached to the dVRS",
             "exposed": true,
             "filterable": true,
@@ -208,7 +207,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": true,
+            "deprecated": false,
             "description": "Route distinguisher associated with the nexthop. System generates this identifier automatically",
             "exposed": true,
             "filterable": true,
@@ -276,6 +275,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Static routes allow end users to define how traffic is routed through the dVRS in addition to the routes learned by VSC through VM activation. By using static routes, end users can define for example that all traffic with a destination address towards a specific subnet must be forwarded to a specific VM attached in the dVRS and this VM could be a firewall",
@@ -290,6 +290,7 @@
         "resource_name": "staticroutes",
         "rest_name": "staticroute",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Static Route"
     }

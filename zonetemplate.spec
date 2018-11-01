@@ -225,7 +225,7 @@
             "min_length": null,
             "min_value": null,
             "name": "encryption",
-            "orderable": false,
+            "orderable": true,
             "read_only": false,
             "required": false,
             "subtype": null,
