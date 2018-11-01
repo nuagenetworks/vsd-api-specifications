@@ -3906,7 +3906,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Imported Application Signatures Version"
+            "userlabel": "AAR Application Version"
         },
         {
             "allowed_chars": null,
