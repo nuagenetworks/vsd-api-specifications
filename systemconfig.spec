@@ -343,7 +343,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "5",
             "deprecated": false,
             "description": "Gateway probe interval.",
             "exposed": true,
