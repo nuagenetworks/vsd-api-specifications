@@ -401,7 +401,7 @@
             "default_order": false,
             "default_value": "600",
             "deprecated": false,
-            "description": "Gateway rebalancing interval.",
+            "description": "Gateway rebalancing interval in seconds.",
             "exposed": true,
             "filterable": true,
             "format": null,
