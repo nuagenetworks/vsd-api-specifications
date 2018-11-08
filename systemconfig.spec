@@ -373,7 +373,7 @@
             "default_order": false,
             "default_value": "120",
             "deprecated": false,
-            "description": "Gateway probe window.",
+            "description": "Gateway probe window in seconds.",
             "exposed": true,
             "filterable": true,
             "format": null,
