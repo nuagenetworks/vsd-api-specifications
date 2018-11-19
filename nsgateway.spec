@@ -1003,7 +1003,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Functions"
+            "userlabel": "Function Type"
         },
         {
             "allowed_chars": null,
