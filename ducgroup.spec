@@ -85,7 +85,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Function"
+            "userlabel": "Function Type"
         },
         {
             "allowed_chars": null,
