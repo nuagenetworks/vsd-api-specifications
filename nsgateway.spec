@@ -997,7 +997,7 @@
             "name": "functions",
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": "enum",
             "transient": false,
             "type": "list",
