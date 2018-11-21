@@ -984,7 +984,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "UBR",
             "deprecated": false,
             "description": "List of supported functions",
             "exposed": true,
