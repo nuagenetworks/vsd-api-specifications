@@ -1230,7 +1230,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V S D Read Only Mode"
+            "userlabel": "VSD Read Only Mode"
         },
         {
             "allowed_chars": null,
