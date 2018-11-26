@@ -546,7 +546,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ingress Replication Enabled"
+            "userlabel": "Enable Ingress Replication"
         },
         {
             "allowed_chars": null,

@@ -323,6 +323,7 @@
                 "EVDFB",
                 "HARDWARE_VTEP",
                 "NETCONF_7X50",
+                "NETCONF_THIRDPARTY_HW_VTEP",
                 "NSG",
                 "NSGBR",
                 "NSGDUC",
@@ -398,7 +399,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "",
+            "default_value": null,
             "deprecated": false,
             "description": "Represent the system ID or the Virtual IP of a service used by a Gateway (VSG for now) to establish a tunnel with a remote VSG or hypervisor.  The format of this field is consistent with an IP address.",
             "exposed": true,
@@ -422,6 +423,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": false,
         "description": "A read only API to get all redundancy gateway objects in the VSD environment. Use the ID field to then actually manage the redundancy gateway using the redundancy gateway API entity.",
@@ -436,6 +438,7 @@
         "resource_name": "allredundancygroups",
         "rest_name": "allredundancygroup",
         "root": false,
+        "template": false,
         "update": false,
         "userlabel": "allredundancygroup"
     }
