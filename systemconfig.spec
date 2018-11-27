@@ -1230,7 +1230,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSD AAR Application Version"
+            "userlabel": "Version"
         },
         {
             "allowed_chars": null,
