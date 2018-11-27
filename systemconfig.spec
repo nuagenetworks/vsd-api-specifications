@@ -1258,7 +1258,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSD AAR Application Version Publish Date"
+            "userlabel": "Publish Date"
         },
         {
             "allowed_chars": null,
