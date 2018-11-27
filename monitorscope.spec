@@ -175,7 +175,11 @@
         "delete": true,
         "description": "This class tries to define the scope of probe (the NSGs between which the probe needs) to run.",
         "entity_name": "Monitorscope",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "sysmon",
         "resource_name": "monitorscopes",

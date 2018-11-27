@@ -615,7 +615,11 @@
         "delete": true,
         "description": "An SSID Connection instance represents an SSID defined on a WiFi interface. One SSID Connection is required per SSID created on a WiFi Card/Port.",
         "entity_name": "SSIDConnection",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "nsg",
         "resource_name": "ssidconnections",

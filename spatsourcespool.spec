@@ -93,7 +93,11 @@
         "delete": true,
         "description": "The list of source IPs from the provider domain to be SPATed.",
         "entity_name": "SPATSourcesPool",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "spatsourcespools",

@@ -188,7 +188,11 @@
         "delete": true,
         "description": "The address pool the public IP of the PAT/NAT entries belong too.",
         "entity_name": "OverlayAddressPool",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "gateway",
         "resource_name": "overlayaddresspools",

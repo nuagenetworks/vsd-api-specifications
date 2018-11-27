@@ -107,7 +107,11 @@
         "delete": true,
         "description": "Policy Object Groups are a collection of existing Network Services Gateways. These groups can be used in routing policies for domain links.",
         "entity_name": "PolicyObjectGroup",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "policyobjectgroups",

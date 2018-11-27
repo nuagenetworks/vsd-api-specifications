@@ -547,7 +547,11 @@
         "delete": false,
         "description": "Represent VNF interface, This can not be created directly, it will be generated from VNF Interface Descriptor when VNF instance is created.",
         "entity_name": "VNFInterface",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfinterfaces",

@@ -870,7 +870,11 @@
         "delete": true,
         "description": "Configuration of VNS Gateway uplinks",
         "entity_name": "UplinkConnection",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "network",
         "resource_name": "uplinkconnections",

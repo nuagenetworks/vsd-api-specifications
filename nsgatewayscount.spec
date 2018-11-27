@@ -92,7 +92,10 @@
         "delete": true,
         "description": "NSGateway count is a summary object per enterprise which contains the counts of inactive and NSGs by alarm severity. This object is used in Application Aware Routing (AAR) visualization",
         "entity_name": "NSGatewaysCount",
-        "extends": [],
+        "extends": [
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "nsgatewayscounts",

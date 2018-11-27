@@ -76,7 +76,11 @@
         "delete": false,
         "description": "Represents VNF Catalog",
         "entity_name": "VNFCatalog",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfcatalogs",

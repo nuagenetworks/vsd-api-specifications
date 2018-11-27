@@ -596,7 +596,10 @@
         "delete": false,
         "description": null,
         "entity_name": "LicenseStatus",
-        "extends": [],
+        "extends": [
+            "@base",
+            "@metadata"
+        ],
         "get": false,
         "package": "licensemgmt",
         "resource_name": "licensestatus",

@@ -150,7 +150,11 @@
         "delete": true,
         "description": "test",
         "entity_name": "DemarcationService",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vport",
         "resource_name": "demarcationservices",

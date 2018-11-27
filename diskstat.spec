@@ -158,7 +158,8 @@
         "description": "Encapsulates the disk usage metrics for system monitor entity.",
         "entity_name": "DiskStat",
         "extends": [
-            "@base"
+            "@base",
+            "@metadata"
         ],
         "get": false,
         "package": "vm",

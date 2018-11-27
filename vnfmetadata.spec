@@ -120,7 +120,11 @@
         "delete": true,
         "description": "The VNF deployment properties that includes the location of the image, bootstrap config and rest of the libvirt domain XML template defined as text file.",
         "entity_name": "VNFMetadata",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "vnf",
         "resource_name": "vnfmetadatas",
