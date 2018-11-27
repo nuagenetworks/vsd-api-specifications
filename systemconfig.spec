@@ -2866,7 +2866,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "SaaS Applications Version (Master List)"
+            "userlabel": "Version"
         },
         {
             "allowed_chars": null,
