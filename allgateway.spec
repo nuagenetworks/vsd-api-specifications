@@ -734,7 +734,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "",
+            "default_value": null,
             "deprecated": false,
             "description": "The System ID of the peer gateway associated with this Gateway instance when it is discovered by the network manager (VSD) as being redundant.",
             "exposed": true,
@@ -826,6 +826,7 @@
                 "EVDFB",
                 "HARDWARE_VTEP",
                 "NETCONF_7X50",
+                "NETCONF_THIRDPARTY_HW_VTEP",
                 "NSG",
                 "NSGBR",
                 "NSGDUC",
@@ -1038,7 +1039,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "",
+            "default_value": null,
             "deprecated": false,
             "description": "Represent the system ID or the Virtual IP of a service used by a Gateway (VSG for now) to establish a tunnel with a remote VSG or hypervisor.  The format of this field is consistent with an IP address.",
             "exposed": true,
@@ -1062,9 +1063,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
-        "description": "A read only API to get all gateway objects in the VSD environment. Use the ID field to then actually manage the gateway using the gateway API entity.",
+        "description": "A read-only API to get all gateway objects in the VSD environment. Use the ID field to then actually manage the gateway using the gateway API entity.",
         "entity_name": "AllGateway",
         "extends": [
             "@audited",
@@ -1076,6 +1078,7 @@
         "resource_name": "allgateways",
         "rest_name": "allgateway",
         "root": false,
+        "template": false,
         "update": false,
         "userlabel": "Gateway"
     }
