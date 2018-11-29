@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": "10000",
             "deprecated": false,
-            "description": "Download rate limit for this uplink in KB/s. Min is 256 KB/s.",
+            "description": "Download rate limit for on the uplink used for download in KB/s. Minimum is 256 KB/s.",
             "exposed": true,
             "filterable": true,
             "format": "free",
