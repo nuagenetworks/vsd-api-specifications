@@ -35,7 +35,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "10000",
             "deprecated": false,
             "description": "Download rate limit for this uplink in KB/s. Min is 256 KB/s.",
             "exposed": true,
