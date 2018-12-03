@@ -45,7 +45,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "associatedDUCGroupName",
+            "name": "associatedUBRGroupName",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated DUC Group Name"
+            "userlabel": "Associated UBR Group Name"
         },
         {
             "allowed_chars": null,
