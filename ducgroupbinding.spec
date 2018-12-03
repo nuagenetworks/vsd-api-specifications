@@ -40,7 +40,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "NSG Function supported by the associated DUC group.",
+            "description": "NSG Function supported by the associated UBR group.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -57,7 +57,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Function"
+            "userlabel": "Associated UBR Group Function"
         },
         {
             "allowed_chars": null,
