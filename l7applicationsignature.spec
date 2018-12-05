@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": true,
-            "description": "The AAR application version where this signature was last updated.",
+            "description": "Determines the procera version when this entity was deprecated. Deprecated objects cannot be modified or deleted.",
             "exposed": true,
             "filterable": true,
             "format": "free",
