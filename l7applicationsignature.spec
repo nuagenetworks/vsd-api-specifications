@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Version"
+            "userlabel": "Deprecated Version"
         },
         {
             "allowed_chars": null,
