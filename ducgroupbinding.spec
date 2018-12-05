@@ -91,7 +91,11 @@
         "delete": true,
         "description": null,
         "entity_name": "DUCGroupBinding",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "ducgroupbindings",

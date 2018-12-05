@@ -35,7 +35,11 @@
         "delete": false,
         "description": "Contains information about the LTE dongle plugged in USB port on NSG. This would have information like - Modem Manufacturer, Model Number, Subscriber Number, Operator etc. This information could vary from vendor to vendor.",
         "entity_name": "LTEInformation",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "nsg",
         "resource_name": "lteinformations",

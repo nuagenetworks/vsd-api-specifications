@@ -15,14 +15,14 @@
             "deprecated": false,
             "description": "The type of IP address used in the identification of the active and standby controllers.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "addressFamily",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -114,7 +114,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "First VSC"
+            "userlabel": "First VSC IPv4"
         },
         {
             "allowed_chars": null,
@@ -142,7 +142,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "First VSC's IPv6 Address"
+            "userlabel": "First VSC IPv6"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Second VSC"
+            "userlabel": "Second VSC IPv4"
         },
         {
             "allowed_chars": null,
@@ -254,7 +254,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Second VSC's IPv6 Address"
+            "userlabel": "Second VSC IPv6"
         }
     ],
     "children": [],

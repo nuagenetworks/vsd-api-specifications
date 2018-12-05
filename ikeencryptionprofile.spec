@@ -269,7 +269,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "WINDOW_SIZE_0",
                 "WINDOW_SIZE_1024",
                 "WINDOW_SIZE_128",
                 "WINDOW_SIZE_256",
@@ -319,7 +318,7 @@
             "max_value": 2147483647,
             "min_length": null,
             "min_value": 0,
-            "name": "ipsecSAReplayWindowSizeValue",
+            "name": "IPsecSAReplayWindowSizeValue",
             "orderable": false,
             "read_only": true,
             "required": false,

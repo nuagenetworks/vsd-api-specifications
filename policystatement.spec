@@ -68,7 +68,7 @@
             "get": true,
             "relationship": "child",
             "rest_name": "policyentry",
-            "update": false
+            "update": true
         }
     ],
     "model": {
@@ -76,7 +76,11 @@
         "delete": true,
         "description": null,
         "entity_name": "PolicyStatement",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": null,
         "resource_name": "policystatements",
