@@ -409,6 +409,7 @@
     ],
     "model": {
         "allowed_job_commands": [
+            "APPLICATION_SIGNATURE_IMPORT",
             "IMPORT"
         ],
         "create": null,
