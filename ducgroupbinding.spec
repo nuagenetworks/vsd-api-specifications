@@ -81,7 +81,7 @@
             "read_only": true,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
