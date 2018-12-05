@@ -1066,7 +1066,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": false,
-        "description": "A read only API to get all gateway objects in the VSD environment. Use the ID field to then actually manage the gateway using the gateway API entity.",
+        "description": "A read-only API to get all gateway objects in the VSD environment. Use the ID field to then actually manage the gateway using the gateway API entity.",
         "entity_name": "AllGateway",
         "extends": [
             "@audited",
