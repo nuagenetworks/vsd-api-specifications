@@ -64,7 +64,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "The AAR application version where this signature was last updated.",
             "exposed": true,
             "filterable": true,
