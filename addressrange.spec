@@ -35,7 +35,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "DUALSTACK",
                 "IPV4",
                 "IPV6"
             ],
