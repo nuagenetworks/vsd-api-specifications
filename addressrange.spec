@@ -45,7 +45,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "IPv4 or IPv6(only IPv4 is supported in R1.0) Possible values are IPV4, IPV6, DUALSTACK.",
+            "description": "Possible values are IPV4, IPV6.",
             "exposed": true,
             "filterable": true,
             "format": null,
