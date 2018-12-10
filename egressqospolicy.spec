@@ -395,7 +395,7 @@
             "name": "queue3ForwardingClasses",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": "enum",
             "transient": false,
             "type": "list",
