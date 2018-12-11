@@ -652,7 +652,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enterprise ID"
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
