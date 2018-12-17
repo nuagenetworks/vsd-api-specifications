@@ -418,7 +418,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Command Detailed Status"
+            "userlabel": "Detailed Command Status"
         },
         {
             "allowed_chars": null,
