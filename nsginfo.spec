@@ -579,7 +579,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Specifies the type of command that is stated for execution on the system. A request for download, a request for upgrade,  ...",
+            "description": "Specifies the type of command that is stated for execution on the system. A request for download or a request for upgrade.",
             "exposed": true,
             "filterable": true,
             "format": null,
