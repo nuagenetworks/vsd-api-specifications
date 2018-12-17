@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": "10000",
             "deprecated": false,
-            "description": "Download rate limit for on the uplink used for download in KB/s. Minimum is 256 KB/s.",
+            "description": "Download rate limit used for download of Gateway image in kilobyte per second (KB/s). Minimum is 256 KB/s.",
             "exposed": true,
             "filterable": true,
             "format": "free",
