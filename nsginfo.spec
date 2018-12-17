@@ -635,7 +635,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the Enterprise.",
+            "description": "Name of the Enterprise associated with this Gateway.",
             "exposed": true,
             "filterable": true,
             "format": "free",
