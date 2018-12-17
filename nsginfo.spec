@@ -375,7 +375,7 @@
             "deprecated": false,
             "description": "The bootstrap status of the NSG from which the infomation was collected.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
