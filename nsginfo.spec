@@ -403,7 +403,7 @@
             "deprecated": false,
             "description": "Detailed status of the current running or last run command.",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": 255,
             "max_value": null,
