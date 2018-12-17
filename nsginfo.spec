@@ -502,7 +502,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Cmd ID"
+            "userlabel": "Command ID"
         },
         {
             "allowed_chars": null,
