@@ -38,7 +38,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "IPV4",
             "deprecated": false,
             "description": "Destination IP Type of Bidirectional Forwarding Detection",
             "exposed": true,
