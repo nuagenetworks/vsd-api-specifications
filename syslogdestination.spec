@@ -39,7 +39,7 @@
             "default_order": false,
             "default_value": "IPV4",
             "deprecated": false,
-            "description": "IP Type of the syslog IP Address. Supported values: 'IPV4\"",
+            "description": "IP Type of the syslog IP Address. Supported values: 'IPV4'",
             "exposed": true,
             "filterable": true,
             "format": null,
