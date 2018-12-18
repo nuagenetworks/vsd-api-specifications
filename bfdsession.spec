@@ -57,7 +57,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "B F D Destination I P Type"
+            "userlabel": "BFD Destination IP Type"
         },
         {
             "allowed_chars": null,
