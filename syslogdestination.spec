@@ -153,7 +153,7 @@
             "default_order": false,
             "default_value": "UDP",
             "deprecated": false,
-            "description": "The protocol type of the syslog server. eg: \"UDP\"",
+            "description": "The protocol type of the syslog server. Supported values: 'UDP'",
             "exposed": true,
             "filterable": true,
             "format": null,
