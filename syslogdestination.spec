@@ -12,7 +12,7 @@
             "description": "The IP Address of the syslog server",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": "ipv4",
             "max_length": null,
             "max_value": null,
             "min_length": null,
