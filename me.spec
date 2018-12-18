@@ -1150,6 +1150,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "nsginfo",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": null,
@@ -1575,7 +1587,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "rest_name": "vrsconfig",
+            "rest_name": "vrs",
             "update": false
         },
         {
@@ -1587,7 +1599,7 @@
             "deprecated": false,
             "get": true,
             "relationship": "root",
-            "rest_name": "vrs",
+            "rest_name": "vrsconfig",
             "update": false
         },
         {
