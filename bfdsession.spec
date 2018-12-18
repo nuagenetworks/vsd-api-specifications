@@ -68,7 +68,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": null,
+            "description": "Destination IPv6 Address used for Bidirectional Forwarding Detection",
             "exposed": true,
             "filterable": true,
             "format": "free",
