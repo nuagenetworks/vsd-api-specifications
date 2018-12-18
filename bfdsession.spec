@@ -85,7 +85,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "B F D Destination I Pv6"
+            "userlabel": "BFD Destination IPv6"
         },
         {
             "allowed_chars": null,
