@@ -151,7 +151,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "UDP",
             "deprecated": false,
             "description": "The protocol type of the syslog server. eg: \"UDP\"",
             "exposed": true,
