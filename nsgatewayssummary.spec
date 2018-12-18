@@ -524,7 +524,7 @@
             "@metadata"
         ],
         "get": false,
-        "package": null,
+        "package": "nsg",
         "resource_name": "nsgatewayssummaries",
         "rest_name": "nsgatewayssummary",
         "root": null,
