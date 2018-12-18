@@ -20,13 +20,13 @@
             "name": "IPAddress",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I P Address"
+            "userlabel": "IP Address"
         },
         {
             "allowed_chars": null,
