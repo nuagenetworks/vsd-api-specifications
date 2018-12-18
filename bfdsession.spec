@@ -68,7 +68,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Destination IPv6 Address used for Bidirectional Forwarding Detection",
+            "description": "Destination IPv6 Address used for Bidirectional Forwarding Detection. Required if BFD Destination IP Type is IPV6",
             "exposed": true,
             "filterable": true,
             "format": "free",
