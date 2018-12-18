@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The attached syslog destination IDs",
+            "description": "A JSON Array of Syslog Destination IDs to be attached to this profile",
             "exposed": true,
             "filterable": true,
             "format": null,
