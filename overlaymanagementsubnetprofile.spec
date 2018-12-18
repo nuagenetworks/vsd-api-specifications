@@ -118,7 +118,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "The Overlay Management Subnet profile that maps to a DNA subnet and contains the syslog destinations",
+        "description": "The Overlay Management Subnet profile that maps to a DNA subnet and contains the syslog destinations. Where DNS means Do Not Advertise (Advertise=False)",
         "entity_name": "OverlayManagementSubnetProfile",
         "extends": [],
         "get": true,
