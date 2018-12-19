@@ -1344,7 +1344,7 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
-            "deprecated": false,
+            "deprecated": true,
             "get": true,
             "relationship": "root",
             "rest_name": "sharednetworkresource",
