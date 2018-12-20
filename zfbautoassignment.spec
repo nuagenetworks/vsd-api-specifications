@@ -83,7 +83,7 @@
             "name": "associatedEnterpriseID",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
