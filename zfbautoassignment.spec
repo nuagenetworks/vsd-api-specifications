@@ -55,7 +55,7 @@
             "name": "ZFBMatchAttributeValues",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": "string",
             "transient": false,
             "type": "list",
