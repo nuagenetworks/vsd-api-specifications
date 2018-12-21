@@ -721,7 +721,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "69090",
+            "default_value": "9090",
             "deprecated": false,
             "description": "The port to be opened by the proxy for webfilter category query request",
             "exposed": true,
