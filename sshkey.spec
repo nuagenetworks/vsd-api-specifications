@@ -106,7 +106,7 @@
             "name": "publicKey",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -117,6 +117,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
@@ -131,6 +132,7 @@
         "resource_name": "sshkeys",
         "rest_name": "sshkey",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "SSH Key"
     }
