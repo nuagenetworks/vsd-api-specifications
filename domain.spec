@@ -295,7 +295,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Aggregate Flows Enabled"
+            "userlabel": "Enable Aggregate Flows"
         },
         {
             "allowed_chars": null,
