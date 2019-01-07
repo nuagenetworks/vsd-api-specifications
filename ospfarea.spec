@@ -335,7 +335,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represent an OSPF area",
+        "description": "OSPF relies on the concept of logical areas. The use of areas enables the hiding of topology information between areas whilst still providing reachability. Each router in the area shares the same routing tables, which simplifies the network topology and helps to optimize the route calculation algorithm. ",
         "entity_name": "OSPFArea",
         "extends": [
             "@audited",
