@@ -120,7 +120,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "SSH (Secure Shell) is used to provide secure remote console access to NSGs deployed in branch locations. When key-based authentication is in use, the SSH keys represent the list of public keys that are authorized to open an SSH connection with the username set at the Access Profile level.",
         "entity_name": "SSHKey",
         "extends": [
             "@audited",
