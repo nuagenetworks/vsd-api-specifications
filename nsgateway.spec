@@ -652,7 +652,7 @@
             "min_value": null,
             "name": "associatedOverlayManagementProfileID",
             "orderable": false,
-            "read_only": true,
+            "read_only": false,
             "required": false,
             "subtype": null,
             "transient": true,
