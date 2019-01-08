@@ -88,12 +88,12 @@
             "userlabel": "Min Address"
         }
     ],
-    "children": [
-    ],
+    "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Black list of ranges for which NSG will act as ARP Proxy",
+        "description": "Proxy ARP filters represent black-list of address ranges for NSG acting as ARP proxy",
         "entity_name": "ProxyARPFilter",
         "extends": [
             "@audited",
@@ -104,6 +104,7 @@
         "resource_name": "proxyarpfilters",
         "rest_name": "proxyarpfilter",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Proxy ARP Filter"
     }

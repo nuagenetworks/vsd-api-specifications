@@ -255,9 +255,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "missing documentation.",
+        "description": "Definitions for default import/export routing policies and dampening profiles",
         "entity_name": "BGPProfile",
         "extends": [
             "@base",

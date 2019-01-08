@@ -31,6 +31,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "APPLICATION_SIGNATURE_IMPORT",
                 "APPLY_POLICY_CHANGES",
                 "BATCH_CRUD_REQUEST",
                 "BEGIN_POLICY_CHANGES",

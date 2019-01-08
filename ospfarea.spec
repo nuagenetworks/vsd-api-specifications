@@ -211,7 +211,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "true",
+            "default_value": "null",
             "deprecated": false,
             "description": "This flag will determine whether external routes will be redistributed into the area or not. This is enabled only for NSSA areas.",
             "exposed": true,
@@ -239,7 +239,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "true",
+            "default_value": "null",
             "deprecated": false,
             "description": "This flag determines whether Summaries (Type 3 LSAs) will be redistributed into the area or not. Applicable only to NSSA and Stub area types. Disabling this will make the area a Totally Stub or Totally NSSA area.",
             "exposed": true,
@@ -332,9 +332,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represent an OSPF area",
+        "description": "OSPF relies on the concept of logical areas. The use of areas enables the hiding of topology information between areas whilst still providing reachability. Each router in the area shares the same routing tables, which simplifies the network topology and helps to optimize the route calculation algorithm. ",
         "entity_name": "OSPFArea",
         "extends": [
             "@audited",
@@ -346,6 +347,7 @@
         "resource_name": "ospfareas",
         "rest_name": "ospfarea",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "OSPF Area"
     }

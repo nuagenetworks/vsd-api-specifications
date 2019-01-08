@@ -87,9 +87,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Association of Network Performance Measurement policies enable the measurement of path SLA metrics between NSGs in the domain.",
         "entity_name": "NetworkPerformanceBinding",
         "extends": [
             "@audited",
@@ -101,6 +102,7 @@
         "resource_name": "networkperformancebindings",
         "rest_name": "networkperformancebinding",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Network Performance Binding"
     }

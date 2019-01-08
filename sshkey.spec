@@ -106,7 +106,7 @@
             "name": "publicKey",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -117,9 +117,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "SSH (Secure Shell) is used to provide secure remote console access to NSGs deployed in branch locations. When key-based authentication is in use, the SSH keys represent the list of public keys that are authorized to open an SSH connection with the username set at the Access Profile level.",
         "entity_name": "SSHKey",
         "extends": [
             "@audited",
@@ -131,6 +132,7 @@
         "resource_name": "sshkeys",
         "rest_name": "sshkey",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "SSH Key"
     }
