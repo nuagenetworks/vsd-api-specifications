@@ -209,7 +209,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "ZFB Enterprise Auto Assignment ",
+        "description": "ZFB Enterprise Auto Assignment Pre-created matching criteria that allows CSPRoot to auto-assign incoming auto-bootstrapping requests to an Enterprise should a match occur.",
         "entity_name": "ZFBAutoAssignment",
         "extends": [
             "@audited",
