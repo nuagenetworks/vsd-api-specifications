@@ -243,7 +243,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The metric associated with the TCA.",
+            "description": "The metric associated with the TCA. The following enum values have been deprecated and will be removed in the next major release 6.0: TCP_SYN_EVENT_COUNT, INGRESS_BYTE_COUNT, INGRESS_PACKET_COUNT, EGRESS_BYTE_COUNT, EGRESS_PACKET_COUNT",
             "exposed": true,
             "filterable": false,
             "format": null,
