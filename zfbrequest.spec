@@ -674,7 +674,7 @@
         ],
         "create": null,
         "delete": true,
-        "description": "A ZFB Request from an NSG",
+        "description": "Pending requests reflect Network Services Gateways that have initiated request for bootstrapping. Requests can be assigned or matched to continue the bootstrapping process",
         "entity_name": "ZFBRequest",
         "extends": [
             "@audited",
