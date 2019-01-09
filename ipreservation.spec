@@ -100,9 +100,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "This is the definition of a IP Bindings associated with in a Network.",
+        "description": "You can reserve and allocate IP addresess according to the host MAC address",
         "entity_name": "IPReservation",
         "extends": [
             "@audited",
@@ -114,6 +115,7 @@
         "resource_name": "ipreservations",
         "rest_name": "ipreservation",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "IP Reservation"
     }
