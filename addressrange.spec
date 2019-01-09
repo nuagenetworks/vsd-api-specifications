@@ -138,7 +138,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "This is the definition of a Address Range associated with a Network.",
+        "description": "Address ranges are used for dynamic IP address allocation within the subnet. Multiple address ranges may be used to support non-contiuous IP address ranges. VMs and hosts without static IP addresses assigned will receive an address within the available ranges. ",
         "entity_name": "AddressRange",
         "extends": [
             "@audited",
