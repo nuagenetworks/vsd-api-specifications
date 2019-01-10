@@ -469,7 +469,7 @@
             "orderable": false,
             "read_only": true,
             "required": false,
-            "subtype": null,
+            "subtype": "DownloadProgress",
             "transient": false,
             "type": "object",
             "unique": false,
