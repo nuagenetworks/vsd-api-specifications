@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Image Version"
+            "userlabel": "Downloaded Software Version"
         },
         {
             "allowed_chars": null,
