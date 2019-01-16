@@ -692,7 +692,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
