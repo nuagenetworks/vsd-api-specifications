@@ -194,7 +194,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Software Version"
+            "userlabel": "Software Version"
         },
         {
             "allowed_chars": null,
