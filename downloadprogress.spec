@@ -73,7 +73,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "fileName",
+            "name": "imageFileName",
             "orderable": true,
             "read_only": false,
             "required": false,
