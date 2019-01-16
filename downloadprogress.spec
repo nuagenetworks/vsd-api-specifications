@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Downloaded Software Version"
+            "userlabel": "Version"
         },
         {
             "allowed_chars": null,
