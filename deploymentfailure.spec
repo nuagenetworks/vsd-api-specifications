@@ -129,7 +129,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "associatedNetworkEnityID",
+            "name": "associatedNetworkEntityID",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Network Enity ID"
+            "userlabel": "Associated Network Entity ID"
         },
         {
             "allowed_chars": null,
