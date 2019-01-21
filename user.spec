@@ -379,9 +379,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Object that identifies the user functions.",
+        "description": "Users represent people of your organization. A user can be placed into a group and this group can have some permissions to add VMs into a domain for instance.",
         "entity_name": "User",
         "extends": [
             "@audited",
@@ -393,6 +394,7 @@
         "resource_name": "users",
         "rest_name": "user",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "User"
     }
