@@ -89,9 +89,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "The list of source IPs from the provider domain to be SPATed.",
+        "description": "Add one or more DHCP Options to be served to the clients. The configured options will be pushed to the client regardless of the requested option list sent by it during the DHCP Request message.",
         "entity_name": "SPATSourcesPool",
         "extends": [
             "@audited",
@@ -103,6 +104,7 @@
         "resource_name": "spatsourcespools",
         "rest_name": "spatsourcespool",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "SPAT Source List"
     }
