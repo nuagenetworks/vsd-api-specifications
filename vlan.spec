@@ -803,7 +803,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represents VLAN object under a given Port object.",
+        "description": "VLANs are Virtual Local Area Networks. They allow to differentiate several traffic flows inside a single Port. A VLAN with a value set to 0 can be used to tell the system to not use any tagging.",
         "entity_name": "VLAN",
         "extends": [
             "@audited",
