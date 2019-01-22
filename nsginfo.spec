@@ -194,7 +194,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Software Version"
+            "userlabel": "Software Version"
         },
         {
             "allowed_chars": null,
@@ -652,7 +652,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enterprise Name"
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
@@ -692,7 +692,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,
