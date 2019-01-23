@@ -90,7 +90,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Association of Applications in a priority order to an Application Performance Management Group. Priorities may be explicitly defined or auto-generated. Applications with higher priorities (lower numeric values) are evaluated first when classifying traffic.",
         "entity_name": "ApplicationBinding",
         "extends": [
             "@audited",
