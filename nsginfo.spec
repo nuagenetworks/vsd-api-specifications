@@ -149,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "A comma separated list of MAC Addresses associated to the NSG's interfaces (eg, port1, port2, port3)..",
+            "description": "A comma separated list of MAC Addresses associated to the NSG's interfaces (eg, port1, port2, port3).",
             "exposed": true,
             "filterable": true,
             "format": "free",
