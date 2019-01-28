@@ -149,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "MAC Address of the NSG.  May represent the MAC address of the first uplink that came operational during bootstrapping.",
+            "description": "A comma separated list of MAC Addresses to the NSG's defined interfaces.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "MAC Address"
+            "userlabel": "MAC Addresses"
         },
         {
             "allowed_chars": null,
