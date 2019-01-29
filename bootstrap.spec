@@ -90,7 +90,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Match Value"
+            "userlabel": "Auto Bootstrap Match Value"
         },
         {
             "allowed_chars": null,
