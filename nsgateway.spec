@@ -491,7 +491,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Match Attribute"
+            "userlabel": "Auto Bootstrap Match Attribute"
         },
         {
             "allowed_chars": null,
@@ -519,7 +519,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Match Value"
+            "userlabel": "Auto Bootstrap Match Value"
         },
         {
             "allowed_chars": null,
