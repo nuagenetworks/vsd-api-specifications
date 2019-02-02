@@ -87,9 +87,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "This is the definition of a VPN Connect which holds the PE service assocaition with a DOMAIN.",
+        "description": "Attaching this object to a WAN Service allows to extend its connectivity to and from external resources defined on your Data Center Edge Gateway.",
         "entity_name": "VPNConnection",
         "extends": [
             "@audited",
@@ -101,7 +102,8 @@
         "resource_name": "vpnconnections",
         "rest_name": "vpnconnection",
         "root": false,
+        "template": false,
         "update": true,
-        "userlabel": "VPN Connection"
+        "userlabel": "WAN Service Connection"
     }
 }
