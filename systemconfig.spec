@@ -1370,7 +1370,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Auto Bootstrap Bootstrap Enabled"
+            "userlabel": "Auto Bootstrap Enabled"
         },
         {
             "allowed_chars": null,
