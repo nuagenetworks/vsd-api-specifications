@@ -202,6 +202,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Bootstrap"
+        "userlabel": "Auto Bootstrap"
     }
 }
