@@ -1016,7 +1016,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Defines the Virtual Firewall rules",
+        "description": "Virtual firewall rules define intent based security policy entries to control traffic between source/destinations in the network. Virtual firewall rules are inherently stateful and are enforced as Ingress/Egress stateful ACLs in Nuage policy enforcement points",
         "entity_name": "VirtualFirewallRule",
         "extends": [
             "@audited",
