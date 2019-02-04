@@ -688,6 +688,6 @@
         "root": null,
         "template": false,
         "update": true,
-        "userlabel": "ZFB Request"
+        "userlabel": "Auto Bootstrap Request"
     }
 }
