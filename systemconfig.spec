@@ -1426,7 +1426,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Scheduler Stale Request Timer"
+            "userlabel": "Auto Bootstrap Scheduler Stale Request Timer"
         },
         {
             "allowed_chars": null,
