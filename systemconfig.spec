@@ -1384,7 +1384,7 @@
             "description": "Retry time for the ZFB daemon to recheck ZFBRequest Status in seconds",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": 240,
             "min_length": null,
@@ -1398,7 +1398,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Request Retry Timer"
+            "userlabel": "Auto Bootstrap Request Retry Timer"
         },
         {
             "allowed_chars": null,
