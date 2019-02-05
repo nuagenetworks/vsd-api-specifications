@@ -146,7 +146,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Installer ID"
+            "userlabel": "Installer"
         },
         {
             "allowed_chars": null,
