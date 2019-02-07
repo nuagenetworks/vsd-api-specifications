@@ -336,6 +336,7 @@
                 "NUAGE_210_WBX_48_S",
                 "OTHER",
                 "VDF",
+                "VDFG",
                 "VRSB",
                 "VRSG",
                 "VSA",
