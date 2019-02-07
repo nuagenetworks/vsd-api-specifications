@@ -380,7 +380,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Possible values: TOP or BOTTOM. TOP and BOTTOM ACL policies can only be defined and managed on the template level, NONE can be used on both the template and instantiated level. These allow for careful control of Rule priority handling.",
+            "description": "Possible values: TOP or BOTTOM. TOP and BOTTOM ACL policies can only be defined and managed on the template level. These allow for careful control of Rule priority handling.",
             "exposed": true,
             "filterable": false,
             "format": null,
