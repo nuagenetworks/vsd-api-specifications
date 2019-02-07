@@ -42,7 +42,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 65535,
+            "max_value": 32767,
             "min_length": null,
             "min_value": 10,
             "name": "priority",
@@ -87,9 +87,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Association of Applications in a priority order to an Application Performance Management Group. Priorities may be explicitly defined or auto-generated. Applications with higher priorities (lower numeric values) are evaluated first when classifying traffic.",
         "entity_name": "ApplicationBinding",
         "extends": [
             "@audited",
@@ -101,6 +102,7 @@
         "resource_name": "applicationbindings",
         "rest_name": "applicationbinding",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Application Binding"
     }

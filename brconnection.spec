@@ -362,7 +362,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Configuration of VNS Gateway Border Router connection",
         "entity_name": "BRConnection",
         "extends": [
             "@audited",

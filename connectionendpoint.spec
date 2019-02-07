@@ -179,7 +179,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "SSH (Secure Shell) is used to provide secure remote console access to NSGs deployed in branch locations. For additional security, you may restrict SSH access from specific host(s) by providing a list of source IP addresses.",
         "entity_name": "Connectionendpoint",
         "extends": [
             "@audited",

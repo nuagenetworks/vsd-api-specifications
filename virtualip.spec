@@ -159,9 +159,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Virtual IP address.",
+        "description": "Virtual IPs are IP addresses owned by one or more vports that can move among those vports. VSP will track the owner of a virtual IP and steer traffic accordingly. Virtual IPs can be used as next-hops for static routes and other re-direction purposes.",
         "entity_name": "VirtualIP",
         "extends": [
             "@audited",
@@ -173,6 +174,7 @@
         "resource_name": "virtualips",
         "rest_name": "virtualip",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Virtual IP"
     }

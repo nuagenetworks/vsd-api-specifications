@@ -89,6 +89,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "The list of source IPs from the provider domain to be SPATed.",
@@ -103,6 +104,7 @@
         "resource_name": "spatsourcespools",
         "rest_name": "spatsourcespool",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "SPAT Source List"
     }

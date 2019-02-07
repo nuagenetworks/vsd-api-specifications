@@ -233,7 +233,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ip address(es) of the elastic machine",
+            "description": "IP address(es) of the elastic machine",
             "exposed": true,
             "filterable": true,
             "format": "free",
