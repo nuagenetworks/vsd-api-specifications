@@ -217,7 +217,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "DISABLED",
             "deprecated": false,
             "description": "Indicates whether PAT is enabled for the subnets in this domain - ENABLED/DISABLED Possible values are ENABLED, DISABLED.",
             "exposed": true,
