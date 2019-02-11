@@ -2161,7 +2161,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Gateway Probe Interval"
+            "userlabel": "Probe Interval"
         },
         {
             "allowed_chars": null,
@@ -2189,7 +2189,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Gateway Probe Window"
+            "userlabel": "Probe Window"
         },
         {
             "allowed_chars": null,
@@ -2217,7 +2217,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Gateway Rebalancing Interval"
+            "userlabel": "Rebalancing Interval"
         },
         {
             "allowed_chars": null,
