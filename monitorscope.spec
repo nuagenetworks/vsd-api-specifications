@@ -171,9 +171,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "This class tries to define the scope of probe (the NSGs between which the probe needs) to run.",
+        "description": "Monitoring Scope bound Performance monitors to either ALL or a sub-set of NSGs. Scope is defined by selecting NSGs that should execute Performance Monitors. ",
         "entity_name": "Monitorscope",
         "extends": [
             "@audited",
@@ -185,6 +186,7 @@
         "resource_name": "monitorscopes",
         "rest_name": "monitorscope",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Monitorscope"
     }

@@ -134,7 +134,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "A logical group of 1 or more NSGs of personality NSG-UBR, that are used to provide connectivity between NSGs in disjoint underlays.",
         "entity_name": "DUCGroup",
         "extends": [
             "@audited",

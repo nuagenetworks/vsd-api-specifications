@@ -67,7 +67,7 @@
             "deprecated": false,
             "description": "ID of the entity to which the WAN Service is attached to. This could be ID DOMAIN/L2DOMAIN",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
@@ -573,6 +573,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents a WAN Service Object.",
@@ -587,6 +588,7 @@
         "resource_name": "services",
         "rest_name": "service",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "WAN Service"
     }

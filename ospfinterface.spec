@@ -405,9 +405,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represent an OSPF interface",
+        "description": "The OSPF interface represents the connection of a router to the OSPF network. The OSPF interface defines the protocol metrics and security parameters for OSPF traffic on a V-Port on the specified subnet. An OSPF interface can exist in only one OSPF area.",
         "entity_name": "OSPFInterface",
         "extends": [
             "@audited",
@@ -419,6 +420,7 @@
         "resource_name": "ospfinterfaces",
         "rest_name": "ospfinterface",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "OSPF Interface"
     }

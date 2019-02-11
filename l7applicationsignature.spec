@@ -390,7 +390,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Version"
+            "userlabel": "Last Updated Version"
         },
         {
             "allowed_chars": null,

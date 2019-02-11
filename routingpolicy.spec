@@ -186,7 +186,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": null,
+        "description": "Pre-defined sets of attributes used in policy match conditions: prefix lists, entries, damping profiles, etc.",
         "entity_name": "RoutingPolicy",
         "extends": [
             "@base",

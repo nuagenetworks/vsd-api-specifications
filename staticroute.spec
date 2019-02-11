@@ -124,7 +124,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Associated gateway IDs for static route",
+            "description": "List of associated gateway IDs for static route, returned as a JSON list of strings",
             "exposed": true,
             "filterable": false,
             "format": null,
