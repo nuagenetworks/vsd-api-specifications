@@ -726,7 +726,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "DISABLED",
             "deprecated": false,
             "description": "Determines whether IPSEC is enabled Possible values are ENABLED, DISABLED.",
             "exposed": true,
