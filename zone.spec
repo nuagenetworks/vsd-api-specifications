@@ -214,7 +214,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "INHERITED",
             "deprecated": false,
             "description": "Determines whether or not IPSEC is enabled.",
             "exposed": true,
@@ -639,6 +639,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "The zone is a collection of subnets attached to a domain. The zone concept enables the definition of policies for collections of subnets.",
@@ -653,6 +654,7 @@
         "resource_name": "zones",
         "rest_name": "zone",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Zone"
     }
