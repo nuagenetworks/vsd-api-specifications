@@ -637,7 +637,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "DOWNLOAD_AND_UPGRADE_AT_WINDOW",
+            "default_value": "NONE",
             "deprecated": false,
             "description": "Upgrade action for NSG associated with this Infrastructure Gateway Profile instance.",
             "exposed": true,
