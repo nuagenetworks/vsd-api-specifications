@@ -665,7 +665,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "true",
+            "default_value": "false",
             "deprecated": false,
             "description": "Use Two Factor :  When set to true, the use of two independent authentication factors will be used to secure the installed NSG.  When set to false, there is an assumption that the NSG is being installed in a secure environment and the installer is also trusted.  The defaut value is true, using 2-factor.",
             "exposed": true,
