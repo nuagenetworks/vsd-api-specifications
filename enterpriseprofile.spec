@@ -186,7 +186,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "Allowed Forwarding Classes for this enterprise. Possible values are NONE, A, B, C, D, E, F, G, H, .",
             "exposed": true,
             "filterable": false,
