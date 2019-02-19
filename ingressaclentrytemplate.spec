@@ -1003,7 +1003,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "An ingress security policy is a set of rules defining how network traffic is treated within a domain. Ingress Security Policies control traffic flowing into the network.",
+        "description": "Security Policy Entries defines what action to take for a particular type of traffic, based on its origin and its destination, its protocol, EtherType, eventual ports, DSCP value and other information.",
         "entity_name": "IngressACLEntryTemplate",
         "extends": [
             "@audited",
