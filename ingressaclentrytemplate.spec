@@ -1003,7 +1003,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Defines the template of Ingress ACL entries",
+        "description": "An ingress security policy is a set of rules defining how network traffic is treated within a domain. Ingress Security Policies control traffic flowing into the network.",
         "entity_name": "IngressACLEntryTemplate",
         "extends": [
             "@audited",
