@@ -976,7 +976,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "An egress security policy is a set of rules defining how network traffic is treated within a domain. Egress Security Policies control traffic flowing out of the network.",
+        "description": "Security Policy Entries defines what action to take for a particular type of traffic, based on its origin and its destination, its protocol, EtherType, eventual ports, DSCP value and other information.",
         "entity_name": "EgressACLEntryTemplate",
         "extends": [
             "@audited",
