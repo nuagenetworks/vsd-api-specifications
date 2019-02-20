@@ -321,7 +321,7 @@
         ],
         "create": false,
         "delete": true,
-        "description": "Defines the template for an Ingress Advanced Forwarding.",
+        "description": "Create a table for ingress forwarding policy rules. These include flow redirect rules and forwarding class override rules.",
         "entity_name": "IngressAdvFwdTemplate",
         "extends": [
             "@audited",
