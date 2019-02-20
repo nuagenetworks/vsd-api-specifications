@@ -329,7 +329,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Policy groups are collections of VPorts and/or IP addresses that are used as building blocks for security policies encompassing multiple end-points. One or more vports can be added to a policy group using this interface. Alternatively, a policy group will represent one or more IP/MAC addresses learnt from external systems by means of BGP route advertisements based on the origin extended community that identifies the group.",
+        "description": "Policy groups are collections of VPorts that are used as building blocks for security policies encompassing multiple end-points. One or more vports can be added to a policy group using this interface.",
         "entity_name": "PolicyGroup",
         "extends": [
             "@audited",
