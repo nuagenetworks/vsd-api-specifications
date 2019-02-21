@@ -157,7 +157,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Determines wheather EVPN-RT5 are enabled on this domain.",
+            "description": "Determines wheather EVPN-RT5 are enabled on this domain",
             "exposed": true,
             "filterable": true,
             "format": null,
