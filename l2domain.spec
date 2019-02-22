@@ -116,7 +116,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPv6 Address"
+            "userlabel": "Network"
         },
         {
             "allowed_chars": null,
@@ -144,7 +144,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPv6 Gateway"
+            "userlabel": "DHCP Server"
         },
         {
             "allowed_chars": null,
@@ -490,7 +490,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Gateway"
+            "userlabel": "DHCP Server"
         },
         {
             "allowed_chars": null,
