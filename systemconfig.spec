@@ -3465,7 +3465,7 @@
             "default_order": false,
             "default_value": "localhost",
             "deprecated": false,
-            "description": "Specify the ip address(es) of the stats collector.",
+            "description": "Specify the IP address(es) of the stats collector.",
             "exposed": true,
             "filterable": false,
             "format": "free",
