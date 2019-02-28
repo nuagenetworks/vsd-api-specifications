@@ -30,7 +30,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "JSONRPC Connection State"
+            "userlabel": "JSON-RPC Connection"
         },
         {
             "allowed_chars": null,
@@ -58,7 +58,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address"
+            "userlabel": "IP Address"
         },
         {
             "allowed_chars": null,
@@ -300,7 +300,7 @@
             "description": "Flag to indicate it is dynamically configured or not.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -314,7 +314,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic"
+            "userlabel": "Configuration Type"
         },
         {
             "allowed_chars": null,
@@ -556,7 +556,7 @@
             "description": "The last event timestamp from the hypervisor.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -570,7 +570,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Last Event Timestamp"
+            "userlabel": "Last Time an Event Occurred"
         },
         {
             "allowed_chars": null,
@@ -584,7 +584,7 @@
             "description": "Last state change timestamp (in millis).",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -598,7 +598,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Last State Change"
+            "userlabel": "Last Status Update"
         },
         {
             "allowed_chars": null,
@@ -629,7 +629,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Licensed State"
+            "userlabel": "Licensing Status"
         },
         {
             "allowed_chars": null,
@@ -783,7 +783,7 @@
             "description": "Number of bridge interfaces defined in this VRS.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -797,7 +797,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Number Of Bridge Interfaces"
+            "userlabel": "Number of Bridge Interfaces"
         },
         {
             "allowed_chars": null,
@@ -839,7 +839,7 @@
             "description": "Number of host interfaces defined in this VRS.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -853,7 +853,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Number Of Host Interfaces"
+            "userlabel": "Number of Host Interfaces"
         },
         {
             "allowed_chars": null,
@@ -867,7 +867,7 @@
             "description": "Number of VMs defined in this VRS.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -881,7 +881,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Number Of Virtual Machines"
+            "userlabel": "Number of VM Interfaces"
         },
         {
             "allowed_chars": null,
@@ -993,7 +993,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Peer"
+            "userlabel": "Redundancy Peer"
         },
         {
             "allowed_chars": null,
@@ -1060,7 +1060,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Primary VSC Connection Lost"
+            "userlabel": "Primary VSC Connection Status"
         },
         {
             "allowed_chars": null,
@@ -1116,7 +1116,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Revert Behavior Enabled"
+            "userlabel": "Revertive Behavior Enabled"
         },
         {
             "allowed_chars": null,
@@ -1200,7 +1200,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Revert Failed Count"
+            "userlabel": "Failed Revert Count"
         },
         {
             "allowed_chars": null,
