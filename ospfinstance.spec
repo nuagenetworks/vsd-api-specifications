@@ -271,7 +271,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Represent an OSPF instance. There can be only one OSPF instance per domain.",
+        "description": "The OSPF instance is the highest hierarchical OSPF configuration object in a domain. The OSPF instance allows you to assign global import and export routing policies for OSPF traffic in the domain. ",
         "entity_name": "OSPFInstance",
         "extends": [
             "@audited",

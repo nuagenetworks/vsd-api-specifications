@@ -523,8 +523,8 @@
             "@base",
             "@metadata"
         ],
-        "get": false,
-        "package": null,
+        "get": true,
+        "package": "nsg",
         "resource_name": "nsgatewayssummaries",
         "rest_name": "nsgatewayssummary",
         "root": null,
