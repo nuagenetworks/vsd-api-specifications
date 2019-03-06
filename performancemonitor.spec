@@ -293,9 +293,10 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "To enable the network performance monitoring between NSGs in an NSG Group and NSG-UBRs in an NSG-UBR Group. ",
         "entity_name": "PerformanceMonitor",
         "extends": [
             "@audited",

@@ -324,6 +324,7 @@
                 "COMPLETED",
                 "FAILED",
                 "RUNNING",
+                "SKIPPED",
                 "STARTED",
                 "UNKNOWN"
             ],

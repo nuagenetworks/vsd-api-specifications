@@ -146,9 +146,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "test",
+        "description": "Demarcation services provide the interconnection between the datacenter networks and the Wide Area Network.",
         "entity_name": "DemarcationService",
         "extends": [
             "@audited",
@@ -160,6 +161,7 @@
         "resource_name": "demarcationservices",
         "rest_name": "demarcationservice",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Demarcation Service"
     }

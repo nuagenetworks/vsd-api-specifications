@@ -66,7 +66,7 @@
         "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": "Represent VNF interface descriptor",
+        "description": "The interfaces attached to the VNF descriptor. The interfaces are used for management and datapath traffic. Atleast one interface should be designated as a management interface",
         "entity_name": "VNFInterfaceDescriptor",
         "extends": [
             "@base",

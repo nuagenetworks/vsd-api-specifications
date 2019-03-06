@@ -149,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "MAC Address of the NSG.  May represent the MAC address of the first uplink that came operational during bootstrapping.",
+            "description": "A comma separated list of MAC Addresses associated to the NSG's interfaces (eg, port1, port2, port3).",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "MAC Address"
+            "userlabel": "MAC Addresses"
         },
         {
             "allowed_chars": null,
@@ -194,7 +194,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Software Version"
+            "userlabel": "Software Version"
         },
         {
             "allowed_chars": null,
@@ -469,7 +469,7 @@
             "orderable": false,
             "read_only": true,
             "required": false,
-            "subtype": null,
+            "subtype": "DownloadProgress",
             "transient": false,
             "type": "object",
             "unique": false,
@@ -539,6 +539,7 @@
                 "COMPLETED",
                 "FAILED",
                 "RUNNING",
+                "SKIPPED",
                 "STARTED",
                 "UNKNOWN"
             ],
@@ -652,7 +653,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enterprise Name"
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
@@ -692,7 +693,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSG Type"
+            "userlabel": "Type"
         },
         {
             "allowed_chars": null,

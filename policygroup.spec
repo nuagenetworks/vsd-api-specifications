@@ -329,7 +329,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "PolicyGroup is group of policys on which a user can policies like ACL, QoS, etc.",
+        "description": "Policy groups are collections of VPorts that are used as building blocks for security policies encompassing multiple end-points. One or more vports can be added to a policy group using this interface.",
         "entity_name": "PolicyGroup",
         "extends": [
             "@audited",
