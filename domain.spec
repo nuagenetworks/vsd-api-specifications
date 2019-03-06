@@ -160,7 +160,7 @@
             "default_order": false,
             "default_value": "IP",
             "deprecated": false,
-            "description": "Determines wheather IP or MAC should be used for EVPN-RT5 configuration for this domain.",
+            "description": "Determines whether IP or MAC should be used for EVPN-RT5 configuration for this domain.",
             "exposed": true,
             "filterable": false,
             "format": null,
