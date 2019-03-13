@@ -210,7 +210,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "true",
             "deprecated": false,
             "description": "Turn on or off dynamic allocation of IPV6 address",
             "exposed": true,
@@ -229,7 +229,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic IPv6 Address"
+            "userlabel": "Auto IPv6 assignment"
         },
         {
             "allowed_chars": null,
