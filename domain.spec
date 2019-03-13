@@ -173,7 +173,7 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
