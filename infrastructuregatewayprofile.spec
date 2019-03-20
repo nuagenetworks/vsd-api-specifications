@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Controller-less"
+            "userlabel": "Enable Controllerless"
         },
         {
             "allowed_chars": null,
