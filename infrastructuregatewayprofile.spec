@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Auto Deactivation"
+            "userlabel": "Enable Auto Deactivation"
         },
         {
             "allowed_chars": null,
