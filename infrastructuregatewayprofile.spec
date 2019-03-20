@@ -509,7 +509,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Logging State"
+            "userlabel": "Log Export"
         },
         {
             "allowed_chars": null,
