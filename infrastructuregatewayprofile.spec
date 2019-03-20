@@ -170,7 +170,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller-less Remote Duration"
+            "userlabel": "Controllerless Remote Duration"
         },
         {
             "allowed_chars": null,
