@@ -142,7 +142,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller-less Forwarding Mode"
+            "userlabel": "Controllerless Forwarding Mode"
         },
         {
             "allowed_chars": "255",
