@@ -278,7 +278,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "IPV4",
+            "default_value": null,
             "deprecated": false,
             "description": "Address Override Type can be IPV4, IPV6 or MACRO_GROUP.",
             "exposed": true,
