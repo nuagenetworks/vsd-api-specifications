@@ -297,7 +297,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address Override Type"
+            "userlabel": "Enable Source Network Macro"
         },
         {
             "allowed_chars": null,
