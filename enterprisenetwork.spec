@@ -122,7 +122,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "0.0.0.0",
             "deprecated": false,
             "description": "Netmask of the subnet defined",
             "exposed": true,
