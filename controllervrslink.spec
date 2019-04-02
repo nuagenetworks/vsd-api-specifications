@@ -146,7 +146,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Peer"
+            "userlabel": "Redundancy Peer"
         },
         {
             "allowed_chars": null,
