@@ -26,7 +26,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Json Connection Status"
+            "userlabel": "JSON-RPC Connection"
         },
         {
             "allowed_chars": null,
