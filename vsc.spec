@@ -599,7 +599,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "controllervrslink",
+            "rest_name": "controluplink",
             "update": false
         },
         {
