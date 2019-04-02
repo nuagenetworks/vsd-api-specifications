@@ -189,7 +189,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Status of the VRS with respect to the controller",
+            "description": "Computed status of the entity.",
             "exposed": true,
             "filterable": true,
             "format": "free",
