@@ -192,7 +192,7 @@
             "description": "Computed status of the entity.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -203,7 +203,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "string",
+            "type": "enum",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Status"
