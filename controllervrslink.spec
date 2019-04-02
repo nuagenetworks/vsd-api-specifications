@@ -71,9 +71,9 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": null,
             "deprecated": false,
-            "description": "Flag to indicate it is dynamically configured or not",
+            "description": "Flag to indicate it is dynamically configured or not.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -90,7 +90,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic"
+            "userlabel": "Configuration Type"
         },
         {
             "allowed_chars": null,
