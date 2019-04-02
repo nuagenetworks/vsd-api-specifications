@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Link status.",
+            "description": "Status of the VRS with respect to the controller",
             "exposed": true,
             "filterable": true,
             "format": "free",
