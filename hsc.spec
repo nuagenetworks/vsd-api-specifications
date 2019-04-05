@@ -657,18 +657,6 @@
             "bulk_update": false,
             "create": false,
             "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "controluplink",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
@@ -709,6 +697,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vrs",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "vscvrslink",
             "update": false
         }
     ],
