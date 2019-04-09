@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "DSCP value range from enumeration of 8 values: *, 0, 1, ..., 7",
+            "description": "DSCP value range from enumeration of 8 values: 0, 1, ..., 7",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -68,6 +68,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "Provides the definition of a single Forwarding class to CoS mapping that is part of a COS Remarking Policy Table used in QoS policies.",
