@@ -96,7 +96,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Id of subnet to which this ip address belongs",
+            "description": "ID of subnet to which this IP address belongs",
             "exposed": true,
             "filterable": false,
             "format": "free",
