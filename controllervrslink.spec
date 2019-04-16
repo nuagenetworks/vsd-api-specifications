@@ -318,7 +318,7 @@
         "create": false,
         "delete": true,
         "description": "Link information between Controller and VRS",
-        "entity_name": "ControllerVrsLink",
+        "entity_name": "ControllerVRSLink",
         "extends": [],
         "get": true,
         "package": null,
