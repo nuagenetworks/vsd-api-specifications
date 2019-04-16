@@ -233,7 +233,7 @@
             "min_value": null,
             "name": "role",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
