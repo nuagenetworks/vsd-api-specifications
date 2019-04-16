@@ -152,7 +152,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Configuration Type"
+            "userlabel": "Dynamic Configuration"
         },
         {
             "allowed_chars": null,
