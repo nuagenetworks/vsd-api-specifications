@@ -79,14 +79,14 @@
             "min_value": null,
             "name": "VRSID",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V R S I D"
+            "userlabel": "VRS ID"
         },
         {
             "allowed_chars": null,
