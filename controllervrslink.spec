@@ -19,14 +19,14 @@
             "min_value": null,
             "name": "ControllerID",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller I D"
+            "userlabel": "Controller ID"
         },
         {
             "allowed_chars": null,
