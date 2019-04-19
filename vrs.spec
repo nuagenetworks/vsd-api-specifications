@@ -1305,7 +1305,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "Indicates the configured state of the VSC.",
             "exposed": true,
             "filterable": false,
