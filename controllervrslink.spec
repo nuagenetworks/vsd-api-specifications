@@ -135,14 +135,14 @@
             "min_value": null,
             "name": "VRSPersonality",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V R S Personality"
+            "userlabel": "VRS Personality"
         },
         {
             "allowed_chars": null,
