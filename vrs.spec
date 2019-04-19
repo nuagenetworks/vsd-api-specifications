@@ -1214,7 +1214,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "Flag to indicate that VRS-G redundancy state (active/standby/standalone).  Only applicable for gateways.",
             "exposed": true,
             "filterable": false,
