@@ -166,7 +166,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "mgmtlQueueAssociatedRateLimiterID",
+            "name": "mgmtQueueAssociatedRateLimiterID",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -175,7 +175,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mgmtl Queue Associated Rate Limiter I D"
+            "userlabel": "Management Queue Associated Rate Limiter ID"
         },
         {
             "allowed_chars": null,
