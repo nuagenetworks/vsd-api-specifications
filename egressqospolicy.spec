@@ -231,7 +231,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Ctrl Queue Associated Rate Limiter I D"
+            "userlabel": "Network Control Queue Associated Rate Limiter"
         },
         {
             "allowed_chars": null,
