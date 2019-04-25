@@ -175,7 +175,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Management Queue Associated Rate Limiter ID"
+            "userlabel": "Management Queue Associated Rate Limiter"
         },
         {
             "allowed_chars": null,
