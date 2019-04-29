@@ -36,6 +36,7 @@
                 "DELETE\n",
                 "MODIFY",
                 "NO_ACCESS",
+                "NO_ACCESS_CHILDREN",
                 "READ",
                 "READ_CHILDREN"
             ],
