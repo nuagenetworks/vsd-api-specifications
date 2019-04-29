@@ -74,7 +74,7 @@
     "model": {
         "allowed_job_commands": null,
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": "Entity to create a new role for role based authentication",
         "entity_name": "Role",
         "extends": [],
@@ -84,7 +84,7 @@
         "rest_name": "role",
         "root": null,
         "template": null,
-        "update": true,
+        "update": false,
         "userlabel": "Role"
     }
 }
