@@ -35,6 +35,7 @@
                 "CUD_CHILDREN",
                 "DELETE\n",
                 "MODIFY",
+                "NO_ACCESS",
                 "READ",
                 "READ_CHILDREN"
             ],
