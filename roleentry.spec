@@ -63,7 +63,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Role Access Type List"
+            "userlabel": "Role Access"
         }
     ],
     "children": [],
