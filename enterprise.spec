@@ -1655,7 +1655,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "role",
+            "rest_name": "roles",
             "update": false
         },
         {
