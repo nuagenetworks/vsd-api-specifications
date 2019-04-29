@@ -46,7 +46,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "List of Access.",
+            "description": "List of Access like READ, READ_CHILDREN, CREATE, MODIFY, DELETE, CUD_CHILDREN, NO_ACCESS, NO_ACCESS_CHILDREN",
             "exposed": true,
             "filterable": false,
             "format": null,
