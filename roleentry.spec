@@ -32,6 +32,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "CREATE",
+                "CUD_CHILDREN",
                 "DELETE\n",
                 "MODIFY",
                 "READ",
