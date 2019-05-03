@@ -290,6 +290,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "COLD",
                 "HOT",
                 "NONE"
             ],
