@@ -298,7 +298,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "NONE",
             "deprecated": false,
             "description": "The type of redundancy this Uplink offers when marked as auxiliary link.",
             "exposed": true,
