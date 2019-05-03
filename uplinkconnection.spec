@@ -682,7 +682,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "This determines the order in which uplinks are brought up on NSG. ",
+            "description": "This determines the order in which uplinks are brought up on NSG. This is also determines the priority for an Uplink for management traffic. The value will be auto-generated when not provided by user.",
             "exposed": true,
             "filterable": false,
             "format": null,
