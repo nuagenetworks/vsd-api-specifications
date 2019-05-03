@@ -682,7 +682,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Role order: Primary 1, Primary 2, Secondary 3. Note: Order will be calculated when all uplink connections fetched for gateway",
+            "description": "This determines the order in which uplinks are brought up on NSG. ",
             "exposed": true,
             "filterable": false,
             "format": null,
