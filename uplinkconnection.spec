@@ -699,7 +699,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Role Order"
+            "userlabel": "Uplink Order"
         },
         {
             "allowed_chars": null,
