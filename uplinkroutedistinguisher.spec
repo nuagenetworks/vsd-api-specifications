@@ -33,6 +33,7 @@
             "allowed_choices": [
                 "RD_PRIMARY1",
                 "RD_PRIMARY2",
+                "RD_PRIMARY3",
                 "RD_SECONDARY1",
                 "RD_SECONDARY2"
             ],
@@ -64,6 +65,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
         "description": "Represents a network port uplink route distinguisher value.",
@@ -78,6 +80,7 @@
         "resource_name": "uplinkroutedistinguishers",
         "rest_name": "uplinkroutedistinguisher",
         "root": false,
+        "template": false,
         "update": false,
         "userlabel": "Uplink RD"
     }
