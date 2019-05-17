@@ -7,7 +7,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "0",
             "deprecated": false,
             "description": "Remarking value for the DSCP field in IP header of customer packet.DSCP value range from enumeration of 65 values: NONE, 0, 1, ..., 63",
             "exposed": true,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "D S C P Remarking"
+            "userlabel": "DSCP Remarking"
         },
         {
             "allowed_chars": null,
