@@ -70,6 +70,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "IKE",
+                "OVERLAY",
                 "UNDERLAY_PAT",
                 "UNDERLAY_ROUTE"
             ],
