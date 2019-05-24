@@ -617,7 +617,7 @@
             "default_order": false,
             "default_value": "0",
             "deprecated": false,
-            "description": "The color encoded with a traffic engineering constraint such as minimum latency, hops, maximum bandwidth, etc. This is used for NFIX(Network Function Interconnect). Color is applicable only when the selected Tunnel Type is MPLS. Valid range is 1 - 4294967295. 0 for other Tunnel Types.",
+            "description": "The color encoded with a traffic engineering constraint such as minimum latency, hops, maximum bandwidth, etc. This is used for NFIX(Network Function Interconnect). Color is applicable only when the selected Tunnel Type is MPLSoUDP. Valid range is 1 - 4294967295. 0 for other Tunnel Types.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -1394,7 +1394,7 @@
             "allowed_choices": [
                 "DC_DEFAULT",
                 "GRE",
-                "MPLS",
+                "MPLSoUDP",
                 "VLAN",
                 "VXLAN"
             ],
@@ -1407,7 +1407,7 @@
             "description": "Default Domain Tunnel Type",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
