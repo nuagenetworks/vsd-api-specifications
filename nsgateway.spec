@@ -1596,7 +1596,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "DISABLED",
             "deprecated": false,
             "description": "Indicates if the UBR will perform tunnel shaping to the NSG when a tunnel shaper is associated to the NSG.",
             "exposed": true,
