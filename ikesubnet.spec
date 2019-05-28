@@ -48,7 +48,7 @@
             "name": "prefix",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -59,6 +59,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Represents an IKE Subnet (remote side)",
@@ -73,6 +74,7 @@
         "resource_name": "ikesubnets",
         "rest_name": "ikesubnet",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Remote Subnet"
     }

@@ -360,7 +360,7 @@
             "default_order": false,
             "default_value": "0",
             "deprecated": false,
-            "description": "The color encoded with a traffic engineering constraint such as minimum latency, hops, maximum bandwidth, etc. This is used for NFIX(Network Function Interconnect). Color is applicable only when the associated Domain's Tunnel Type is MPLS. Valid range is 1 - 4294967295. If 0 is provided, color will be derived from the associated Domain.",
+            "description": "The color encoded with a traffic engineering constraint such as minimum latency, hops, maximum bandwidth, etc. This is used for NFIX(Network Function Interconnect). Color is applicable only when the associated Domain's Tunnel Type is MPLSoUDP. Valid range is 1 - 4294967295. If 0 is provided, color will be derived from the associated Domain.",
             "exposed": true,
             "filterable": false,
             "format": null,
