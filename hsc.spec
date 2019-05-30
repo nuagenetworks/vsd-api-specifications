@@ -693,7 +693,7 @@
             "bulk_update": false,
             "create": false,
             "delete": false,
-            "deprecated": false,
+            "deprecated": true,
             "get": true,
             "relationship": "child",
             "rest_name": "vrs",
