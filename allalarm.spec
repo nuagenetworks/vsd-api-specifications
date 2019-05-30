@@ -176,7 +176,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "Provides a description of the alarm",
             "exposed": true,
             "filterable": true,
