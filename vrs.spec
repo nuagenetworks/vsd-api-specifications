@@ -128,7 +128,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": false,
+            "deprecated": true,
             "description": "Indicate that the controller associated is primary, secondary or unknown.",
             "exposed": true,
             "filterable": false,
