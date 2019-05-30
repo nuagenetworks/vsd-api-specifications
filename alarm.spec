@@ -323,7 +323,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The alarm name.  Each type of alarm will generate its own name",
+            "description": "The alarm title.  Each type of alarm will generate its own title",
             "exposed": true,
             "filterable": true,
             "format": "free",
