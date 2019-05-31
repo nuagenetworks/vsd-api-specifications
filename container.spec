@@ -724,7 +724,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS  Release Version"
+            "userlabel": "VRS Interpreted Version"
         },
         {
             "allowed_chars": null,
