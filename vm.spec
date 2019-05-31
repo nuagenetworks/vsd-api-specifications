@@ -640,7 +640,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS  Version"
+            "userlabel": "VRS  Release Version"
         },
         {
             "allowed_chars": null,
