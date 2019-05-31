@@ -623,7 +623,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "release version of VRS , which is used to determine",
+            "description": "release version of VRS , which is used to determine the feature capabilties of VRS",
             "exposed": true,
             "filterable": true,
             "format": "free",
