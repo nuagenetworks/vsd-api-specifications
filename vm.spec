@@ -633,14 +633,14 @@
             "min_value": null,
             "name": "vrsRawVersion",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Raw Version"
+            "userlabel": "VRS  Version"
         },
         {
             "allowed_chars": null,
