@@ -696,7 +696,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vrs Raw Version"
+            "userlabel": "VRS  Release Version"
         },
         {
             "allowed_chars": null,
