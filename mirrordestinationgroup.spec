@@ -69,6 +69,18 @@
             "relationship": "member",
             "rest_name": "mirrordestination",
             "update": true
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "overlaymirrordestination",
+            "update": true
         }
     ],
     "model": {
