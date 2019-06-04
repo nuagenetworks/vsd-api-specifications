@@ -626,7 +626,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mirror Destination Group I D"
+            "userlabel": "Mirror Destination Group"
         },
         {
             "allowed_chars": null,
