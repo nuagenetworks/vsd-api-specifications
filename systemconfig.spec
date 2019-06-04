@@ -3351,7 +3351,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "65533",
             "deprecated": false,
             "description": "Secondary Route Target Upper Limit.",
             "exposed": true,
