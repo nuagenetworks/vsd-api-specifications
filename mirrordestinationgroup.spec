@@ -8,7 +8,8 @@
         "description": "Mirror destination group is a collection of mirror destination objects.",
         "entity_name": "MirrorDestinationGroup",
         "extends": [
-            "@audited"
+            "@audited",
+            "@base"
         ],
         "get": true,
         "package": null,
