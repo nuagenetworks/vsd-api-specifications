@@ -57,7 +57,20 @@
             "userlabel": "Name"
         }
     ],
-    "children": [],
+    "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "mirrordestination",
+            "update": true
+        }
+    ],
     "model": {
         "allowed_job_commands": null,
         "create": false,
