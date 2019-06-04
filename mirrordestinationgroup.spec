@@ -7,7 +7,9 @@
         "delete": true,
         "description": "Mirror destination group is a collection of mirror destination objects.",
         "entity_name": "MirrorDestinationGroup",
-        "extends": [],
+        "extends": [
+            "@audited"
+        ],
         "get": true,
         "package": null,
         "resource_name": "mirrordestinationgroups",
