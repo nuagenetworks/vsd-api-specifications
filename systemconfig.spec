@@ -3302,19 +3302,19 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 2147483647,
+            "max_value": 65533,
             "min_length": null,
             "min_value": 0,
             "name": "secondaryRTLowerLimit",
             "orderable": true,
             "read_only": false,
             "required": false,
-            "subtype": null,
+            "subtype": "long",
             "transient": false,
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary R T Lower Limit"
+            "userlabel": "Secondary Route Target Lower Limit"
         },
         {
             "allowed_chars": null,
