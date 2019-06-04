@@ -3370,7 +3370,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary R T Upper Limit"
+            "userlabel": "Secondary RT Upper Limit"
         },
         {
             "allowed_chars": null,
