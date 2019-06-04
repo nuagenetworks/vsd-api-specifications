@@ -623,7 +623,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the associated Mirror Destination Group",
+            "description": "ID of the associated Mirror Destination Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -640,7 +640,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mirror Destination Group I D"
+            "userlabel": "Mirror Destination Group"
         },
         {
             "allowed_chars": null,
