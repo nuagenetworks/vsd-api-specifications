@@ -1140,14 +1140,14 @@
             "min_value": null,
             "name": "gatewayConfigVersion",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Gateway Config Version"
+            "userlabel": "NSG Interpreted Version"
         },
         {
             "allowed_chars": null,
