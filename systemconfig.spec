@@ -3323,7 +3323,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "0",
             "deprecated": false,
             "description": "Secondary route target lower limit.",
             "exposed": true,
