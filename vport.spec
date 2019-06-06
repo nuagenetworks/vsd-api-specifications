@@ -1540,6 +1540,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": true,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "testsuiterun",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": null,
