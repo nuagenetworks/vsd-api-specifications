@@ -440,7 +440,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Link information between Controller and VRS",
+        "description": "System Monitoring details for VRS connected to VSC or HSC",
         "entity_name": "ControllerVRSLink",
         "extends": [],
         "get": true,
@@ -450,6 +450,6 @@
         "root": null,
         "template": null,
         "update": true,
-        "userlabel": "Controller-VRS Link"
+        "userlabel": "VRS and Controller Link Information"
     }
 }
