@@ -95,7 +95,7 @@
             "@metadata"
         ],
         "get": true,
-        "package": null,
+        "package": "vport",
         "resource_name": "mirrordestinationgroups",
         "rest_name": "mirrordestinationgroup",
         "root": null,
