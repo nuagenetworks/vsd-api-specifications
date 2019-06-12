@@ -442,9 +442,13 @@
         "delete": true,
         "description": "Link information between Controller and VRS",
         "entity_name": "ControllerVRSLink",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
-        "package": null,
+        "package": "sysmon",
         "resource_name": "controllervrslinks",
         "rest_name": "controllervrslink",
         "root": null,
