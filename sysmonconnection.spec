@@ -6,7 +6,7 @@
         "create": false,
         "delete": false,
         "description": "Connections between VRS and the controller",
-        "entity_name": "sysmonconnection",
+        "entity_name": "SysmonConnection",
         "extends": [],
         "get": true,
         "package": null,
