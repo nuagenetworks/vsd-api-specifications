@@ -47,14 +47,14 @@
             "min_value": null,
             "name": "DatapathUplinkId",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Datapath Uplink Id"
+            "userlabel": "Datapath Uplink ID"
         },
         {
             "allowed_chars": null,
