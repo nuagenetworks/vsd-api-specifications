@@ -189,7 +189,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": false,
-        "description": "Connections between VRS and the controller",
+        "description": "Models the connection between a VRS and the controller.",
         "entity_name": "SysmonConnection",
         "extends": [],
         "get": true,
