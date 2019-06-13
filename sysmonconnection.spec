@@ -131,14 +131,14 @@
             "min_value": null,
             "name": "PrivateIP",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Private I P"
+            "userlabel": "Private IP"
         },
         {
             "allowed_chars": null,
