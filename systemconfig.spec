@@ -3353,7 +3353,7 @@
             "default_order": false,
             "default_value": "65533",
             "deprecated": false,
-            "description": "secondary route target upper limit",
+            "description": "Secondary route target upper limit.",
             "exposed": true,
             "filterable": true,
             "format": null,
