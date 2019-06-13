@@ -181,7 +181,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Openflow State"
+            "userlabel": "Openflow Connection Status"
         }
     ],
     "children": [],
