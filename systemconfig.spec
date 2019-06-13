@@ -3297,7 +3297,7 @@
             "default_order": false,
             "default_value": "65533",
             "deprecated": false,
-            "description": "Autonomous System Number,Used for secondary RT auto-generation.",
+            "description": "Autonomous System Number, used for secondary RT auto-generation.",
             "exposed": true,
             "filterable": true,
             "format": null,
