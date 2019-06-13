@@ -64,7 +64,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "JSON State"
+            "userlabel": "JSON Connection Status"
         },
         {
             "allowed_chars": null,
