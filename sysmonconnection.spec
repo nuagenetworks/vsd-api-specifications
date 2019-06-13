@@ -75,14 +75,14 @@
             "min_value": null,
             "name": "JSONState",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "J S O N State"
+            "userlabel": "JSON State"
         },
         {
             "allowed_chars": null,
