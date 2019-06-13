@@ -19,14 +19,14 @@
             "min_value": null,
             "name": "DTLSState",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "D T L S State"
+            "userlabel": "DTLS State"
         },
         {
             "allowed_chars": null,
