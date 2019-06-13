@@ -3325,7 +3325,7 @@
             "default_order": false,
             "default_value": "0",
             "deprecated": false,
-            "description": "secondary route target lower limit",
+            "description": "Secondary route target lower limit.",
             "exposed": true,
             "filterable": true,
             "format": null,
