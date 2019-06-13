@@ -199,6 +199,6 @@
         "root": null,
         "template": null,
         "update": true,
-        "userlabel": "Sysmon Connections"
+        "userlabel": "Sysmon Connection"
     }
 }
