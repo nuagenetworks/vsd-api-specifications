@@ -212,7 +212,7 @@
             "min_length": null,
             "min_value": null,
             "name": "connections",
-            "orderable": true,
+            "orderable": false,
             "read_only": true,
             "required": false,
             "subtype": "SysmonConnection",
