@@ -39,6 +39,8 @@
                 "CERTIFICATE_NSG_REVOKE",
                 "CLEAR_IPSEC_DATA",
                 "CLEAR_MAC_MOVE_ALARMS",
+                "CLOUD_FORCE_CONFIG",
+                "CLOUD_SYNC",
                 "DEPLOY",
                 "DISCARD_POLICY_CHANGES",
                 "EXPORT",
