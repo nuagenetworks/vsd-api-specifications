@@ -205,7 +205,7 @@
             "deprecated": false,
             "description": "List of Connections for Controller VRS Link",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
