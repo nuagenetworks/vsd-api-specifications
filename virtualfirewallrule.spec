@@ -932,7 +932,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Is stats logging enabled for this particular template",
+            "description": "Indicates if stats logging is enabled for this particular template",
             "exposed": true,
             "filterable": true,
             "format": null,
