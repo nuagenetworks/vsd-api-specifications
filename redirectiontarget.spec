@@ -173,7 +173,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Reduntant Appliances"
+            "userlabel": "Allow Redundant Appliances"
         },
         {
             "allowed_chars": null,
