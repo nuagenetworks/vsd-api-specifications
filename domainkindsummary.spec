@@ -19,7 +19,7 @@
             "min_value": 0,
             "name": "criticalAlarmsCount",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
