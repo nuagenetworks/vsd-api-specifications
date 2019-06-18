@@ -344,7 +344,9 @@
         "delete": false,
         "description": "Represents a readonly domain summary object - various attributes of this object are gathered from Domain, Zones, SubNetwork, NSGInfo objects",
         "entity_name": "Domainkindsummary",
-        "extends": [],
+        "extends": [
+            "@base"
+        ],
         "get": true,
         "package": "domain",
         "resource_name": "domainkindsummaries",
