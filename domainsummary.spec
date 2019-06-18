@@ -245,7 +245,7 @@
             "orderable": true,
             "read_only": true,
             "required": false,
-            "subtype": null,
+            "subtype": "long",
             "transient": false,
             "type": "integer",
             "unique": false,
