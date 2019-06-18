@@ -159,7 +159,7 @@
             "min_value": 0,
             "name": "majorAlarmsCount",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
