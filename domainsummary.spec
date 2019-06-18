@@ -287,7 +287,7 @@
         "create": false,
         "delete": false,
         "description": "Represents a readonly domain summary object - various attributes of this object are gathered from Domain, Zones, SubNetwork, NSGInfo objects",
-        "entity_name": "DomainSummary",
+        "entity_name": "DomainKindSummary",
         "extends": [],
         "get": true,
         "package": "domain",
@@ -296,6 +296,6 @@
         "root": null,
         "template": null,
         "update": false,
-        "userlabel": "DomainSummary"
+        "userlabel": "DomainKindSummary"
     }
 }
