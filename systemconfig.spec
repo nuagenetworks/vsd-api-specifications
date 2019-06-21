@@ -1960,7 +1960,7 @@
             "orderable": true,
             "read_only": false,
             "required": false,
-            "subtype": "integer",
+            "subtype": null,
             "transient": false,
             "type": "integer",
             "unique": false,
