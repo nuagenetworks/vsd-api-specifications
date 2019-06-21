@@ -1953,7 +1953,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 30,
+            "max_value": 50,
             "min_length": null,
             "min_value": 1,
             "name": "embeddedMetadataSize",
