@@ -104,7 +104,7 @@
             "name": "associatedTestSuiteID",
             "orderable": false,
             "read_only": true,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": true,
             "type": "string",
