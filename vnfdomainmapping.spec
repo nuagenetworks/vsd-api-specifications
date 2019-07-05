@@ -38,7 +38,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Name of associated NSGateway",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": "free",
             "max_length": null,

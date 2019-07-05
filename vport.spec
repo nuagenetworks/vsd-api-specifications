@@ -1066,7 +1066,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "The service ID used by the VSCs to identify the subnet associated with this vport",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": "free",
             "max_length": null,

@@ -1158,7 +1158,7 @@
             "default_value": "300",
             "deprecated": false,
             "description": "Defines the timeout in seconds for vport initialization to stateful. Default value is 300 seconds and the timeout should be within a range going from 0 to 86400 seconds.",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": null,
             "max_length": null,

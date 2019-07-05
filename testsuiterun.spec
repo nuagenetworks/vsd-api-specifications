@@ -103,7 +103,7 @@
             "min_value": null,
             "name": "associatedTestSuiteID",
             "orderable": false,
-            "read_only": true,
+            "read_only": false,
             "required": true,
             "subtype": null,
             "transient": true,
