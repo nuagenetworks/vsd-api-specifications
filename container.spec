@@ -679,7 +679,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "release version of VRS , which is used to determine the feature capabilties of VRS",
+            "description": "Release version of VRS, which is used to determine the feature capabilties of VRS.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -696,7 +696,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS  Release Version"
+            "userlabel": "VRS Release Version"
         },
         {
             "allowed_chars": null,
@@ -707,7 +707,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "interpreted version of VRS , which is used to determine the feature capabilities of VRS",
+            "description": "Interpreted version of VRS, which is used to determine the feature capabilities of VRS.",
             "exposed": true,
             "filterable": true,
             "format": "free",
