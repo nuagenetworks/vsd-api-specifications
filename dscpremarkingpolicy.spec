@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "DSCP value range from enumeration of 65 values: *, 0, 1, ..., 63",
+            "description": "DSCP value range from enumeration of 65 values: 0, 1, ..., 63",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -68,6 +68,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "Provides the definition of a single Forwarding class to DSCP mapping that is part of a DSCP Remarking table used in Egress QoS policies.",

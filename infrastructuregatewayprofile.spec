@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Controller-less"
+            "userlabel": "Enable Controllerless"
         },
         {
             "allowed_chars": null,
@@ -142,7 +142,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller-less Forwarding Mode"
+            "userlabel": "Controllerless Forwarding Mode"
         },
         {
             "allowed_chars": "255",
@@ -170,7 +170,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller-less Remote Duration"
+            "userlabel": "Controllerless Remote Duration"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Auto Deactivation"
+            "userlabel": "Enable Auto Deactivation"
         },
         {
             "allowed_chars": null,
@@ -323,14 +323,14 @@
             "deprecated": true,
             "description": "Number of flows at which eviction from kernel flow table will be triggered (default: 2500)",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": 200000,
             "min_length": null,
             "min_value": 100,
             "name": "flowEvictionThreshold",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": "long",
@@ -509,7 +509,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Logging State"
+            "userlabel": "Log Export"
         },
         {
             "allowed_chars": null,
@@ -684,7 +684,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable two-factor authentication"
+            "userlabel": "Enable Two-Factor Authentication"
         },
         {
             "allowed_chars": null,

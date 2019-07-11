@@ -63,7 +63,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "3000",
+            "default_value": "180",
             "deprecated": false,
             "description": "interval in seconds",
             "exposed": true,

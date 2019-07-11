@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The DNA Subnet ID associated with this profile. Where DNS means Do Not Advertise (Advertise=False)",
+            "description": "The DNA Subnet ID associated with this profile. Where DNA means Do Not Advertise (Advertise=False)",
             "exposed": true,
             "filterable": true,
             "format": "free",

@@ -629,7 +629,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Location Type"
+            "userlabel": "Source"
         },
         {
             "allowed_chars": null,
@@ -722,7 +722,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Type"
+            "userlabel": "Destination"
         },
         {
             "allowed_chars": null,
@@ -932,7 +932,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Is stats logging enabled for this particular template",
+            "description": "Indicates if stats logging is enabled for this particular template",
             "exposed": true,
             "filterable": true,
             "format": null,

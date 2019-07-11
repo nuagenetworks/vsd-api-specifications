@@ -104,7 +104,7 @@
             "name": "authorizingUserDN",
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -188,7 +188,7 @@
             "name": "groupDN",
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -395,6 +395,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
         "description": "Configuration of LDAP parameters associated with an enterprise. This will enable authentication through an external LDAP server for this enterprise.",
@@ -409,6 +410,7 @@
         "resource_name": "ldapconfigurations",
         "rest_name": "ldapconfiguration",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "LDAP"
     }

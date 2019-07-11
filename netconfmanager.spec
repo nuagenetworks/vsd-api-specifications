@@ -99,7 +99,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "VSD connection status with this Netconf Manager",
-            "exposed": false,
+            "exposed": true,
             "filterable": true,
             "format": null,
             "max_length": null,

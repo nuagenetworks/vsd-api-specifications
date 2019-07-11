@@ -1,4 +1,6 @@
 language: python
+python: 
+  - "2.7"
 
 before_install:
   - if [ "$TRAVIS_PULL_REQUEST" = "false" ] ; then
