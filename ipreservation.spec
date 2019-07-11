@@ -103,7 +103,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "You can reserve and allocate IP addresess according to the host MAC address",
+        "description": "You can reserve and allocate IP addresses according to the host MAC address",
         "entity_name": "IPReservation",
         "extends": [
             "@audited",

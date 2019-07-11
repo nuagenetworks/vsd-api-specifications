@@ -143,9 +143,10 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
-        "description": null,
+        "description": "Create a static NAT 1:1 IP mapping between a Pool IP and a host IP in the branch domain, to provide access to the branch resource.",
         "entity_name": "OverlayPATNATEntry",
         "extends": [
             "@audited",
@@ -157,6 +158,7 @@
         "resource_name": "overlaypatnatentries",
         "rest_name": "overlaypatnatentry",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "1:1 NAT Map"
     }

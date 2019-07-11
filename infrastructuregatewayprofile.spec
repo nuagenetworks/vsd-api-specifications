@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Controller-less"
+            "userlabel": "Enable Controllerless"
         },
         {
             "allowed_chars": null,
@@ -142,7 +142,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller-less Forwarding Mode"
+            "userlabel": "Controllerless Forwarding Mode"
         },
         {
             "allowed_chars": "255",
@@ -170,7 +170,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Controller-less Remote Duration"
+            "userlabel": "Controllerless Remote Duration"
         },
         {
             "allowed_chars": null,
@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Auto Deactivation"
+            "userlabel": "Enable Auto Deactivation"
         },
         {
             "allowed_chars": null,
@@ -509,7 +509,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Logging State"
+            "userlabel": "Log Export"
         },
         {
             "allowed_chars": null,
@@ -684,7 +684,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable two-factor authentication"
+            "userlabel": "Enable Two-Factor Authentication"
         },
         {
             "allowed_chars": null,

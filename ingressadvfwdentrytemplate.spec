@@ -278,7 +278,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "IPV4",
+            "default_value": null,
             "deprecated": false,
             "description": "Address Override Type can be IPV4, IPV6 or MACRO_GROUP.",
             "exposed": true,
@@ -297,7 +297,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address Override Type"
+            "userlabel": "Enable Source Network Macro"
         },
         {
             "allowed_chars": null,
@@ -789,7 +789,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Location Type"
+            "userlabel": "Origin Location"
         },
         {
             "allowed_chars": null,
@@ -887,7 +887,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Type"
+            "userlabel": "Destination Network"
         },
         {
             "allowed_chars": null,

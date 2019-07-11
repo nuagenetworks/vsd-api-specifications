@@ -629,7 +629,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Location Type"
+            "userlabel": "Source"
         },
         {
             "allowed_chars": null,
@@ -722,7 +722,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Type"
+            "userlabel": "Destination"
         },
         {
             "allowed_chars": null,

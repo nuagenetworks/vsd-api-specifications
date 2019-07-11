@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BGP Enabled"
+            "userlabel": "Enable Routing Protocols"
         },
         {
             "allowed_chars": null,
