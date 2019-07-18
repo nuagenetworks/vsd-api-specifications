@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated DUC Group ID"
+            "userlabel": "UBR Group"
         },
         {
             "allowed_chars": null,
