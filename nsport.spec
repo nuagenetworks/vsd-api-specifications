@@ -41,7 +41,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "If enabled, cuts down the number of probes to just the number of provisioned UBRs.",
+            "description": "If enabled, cuts down the number of probes to just the number of provisioned DUCs.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -58,7 +58,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Traffic Through UBR Only Enabled"
+            "userlabel": "Traffic Through DUC Only Enabled"
         },
         {
             "allowed_chars": null,
