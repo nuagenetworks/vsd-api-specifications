@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I D S I P S Enabled"
+            "userlabel": "IDS/IPS Enabled"
         },
         {
             "allowed_chars": null,
