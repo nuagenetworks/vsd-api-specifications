@@ -390,7 +390,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I D S I P S Mgmt Server Username"
+            "userlabel": "IDS/IPS Management Server Username"
         },
         {
             "allowed_chars": null,
