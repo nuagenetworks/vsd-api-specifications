@@ -362,7 +362,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I D S I P S Mgmt Server"
+            "userlabel": "IDS/IPS Management Server"
         },
         {
             "allowed_chars": null,
