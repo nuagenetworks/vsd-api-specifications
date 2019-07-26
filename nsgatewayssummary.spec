@@ -452,7 +452,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redundant Group I D"
+            "userlabel": "Redundant Group ID"
         },
         {
             "allowed_chars": null,
