@@ -817,7 +817,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mirror Destination ID"
+            "userlabel": "Mirror Destination"
         },
         {
             "allowed_chars": null,
