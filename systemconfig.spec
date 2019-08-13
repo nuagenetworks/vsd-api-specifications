@@ -374,7 +374,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Image location for IDS/IPS VNF",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": 255,
