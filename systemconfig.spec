@@ -458,7 +458,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Username to access IDS/IPS Management Server",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": 255,
