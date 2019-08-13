@@ -402,7 +402,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Specifies the IDS/IPS Management (InCenter) server location.",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": 255,
