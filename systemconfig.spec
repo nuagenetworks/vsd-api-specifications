@@ -483,7 +483,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "11022",
             "deprecated": false,
             "description": "Destination TCP Port on the Proxy to connect to the IDS/IPS Management Server",
             "exposed": true,
@@ -502,7 +502,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I D S I P S Proxy Management Server Port"
+            "userlabel": "IDSIPS Proxy Management Server Port"
         },
         {
             "allowed_chars": null,
