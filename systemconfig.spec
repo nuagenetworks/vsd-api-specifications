@@ -362,7 +362,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDSIPS VNF Image Checksum"
+            "userlabel": "IDS/IPS VNF Image Checksum"
         },
         {
             "allowed_chars": null,
