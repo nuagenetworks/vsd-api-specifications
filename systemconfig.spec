@@ -347,14 +347,14 @@
             "deprecated": false,
             "description": "Image location for IDS/IPS VNF",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
             "name": "IDSIPSImageUrl",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -362,7 +362,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I D S I P S Image Url"
+            "userlabel": "IDSIPS Image Url"
         },
         {
             "allowed_chars": null,
