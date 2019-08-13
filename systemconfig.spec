@@ -362,7 +362,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ids Ips Image Checksum"
+            "userlabel": "IDSIPS Image Checksum"
         },
         {
             "allowed_chars": null,
