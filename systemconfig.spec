@@ -502,7 +502,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDSIPS Proxy Management Server Port"
+            "userlabel": "IDSI/PS Proxy Management Server Port"
         },
         {
             "allowed_chars": null,
