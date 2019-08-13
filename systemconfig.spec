@@ -390,7 +390,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDS/IPS Image Url"
+            "userlabel": "IDS/IPS VNF Image Url"
         },
         {
             "allowed_chars": null,
