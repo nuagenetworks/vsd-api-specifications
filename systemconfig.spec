@@ -346,7 +346,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Image checksum for IDS/IPS VNF",
-            "exposed": true,
+            "exposed": false,
             "filterable": false,
             "format": "free",
             "max_length": 255,
