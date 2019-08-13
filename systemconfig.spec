@@ -390,7 +390,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDSIPS Image Url"
+            "userlabel": "IDS/IPS Image Url"
         },
         {
             "allowed_chars": null,
