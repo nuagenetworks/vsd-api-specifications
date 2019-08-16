@@ -373,7 +373,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Image location for IDS/IPS VNF",
+            "description": "Image location for IDP VNF",
             "exposed": false,
             "filterable": false,
             "format": "free",
