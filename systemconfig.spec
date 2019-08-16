@@ -353,7 +353,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "IDSIPSImageChecksum",
+            "name": "IDPImageChecksum",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -362,7 +362,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDS/IPS VNF Image Checksum"
+            "userlabel": "IDP VNF Image Checksum"
         },
         {
             "allowed_chars": null,
