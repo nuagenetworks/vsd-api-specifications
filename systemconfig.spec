@@ -474,7 +474,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDS/IPS Management Server Username"
+            "userlabel": "IDP Management Server Username"
         },
         {
             "allowed_chars": null,
