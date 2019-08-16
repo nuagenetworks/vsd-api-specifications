@@ -429,7 +429,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Password to access IDS/IPS Management Server",
+            "description": "Password to access IDP Management Server",
             "exposed": false,
             "filterable": false,
             "format": "free",
@@ -437,7 +437,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "IDSIPSManagementServerPassword",
+            "name": "IDPManagementServerPassword",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -446,7 +446,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDS/IPS Management Server Password"
+            "userlabel": "IDP Management Server Password"
         },
         {
             "allowed_chars": null,
