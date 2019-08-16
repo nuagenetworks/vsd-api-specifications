@@ -157,7 +157,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "IDSIPSEnabled",
+            "name": "IDPEnabled",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDS/IPS Enabled"
+            "userlabel": "IDP Enabled"
         },
         {
             "allowed_chars": null,
