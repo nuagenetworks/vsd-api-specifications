@@ -45,7 +45,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "NONE",
             "deprecated": false,
             "description": "Value of the Service Class to be overridden in the packet when the match conditions are satisfied.",
             "exposed": true,
