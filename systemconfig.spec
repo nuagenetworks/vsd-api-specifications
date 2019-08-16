@@ -401,7 +401,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Specifies the IDS/IPS Management (InCenter) server location.",
+            "description": "Specifies the IDP Management (InCenter) server location.",
             "exposed": false,
             "filterable": false,
             "format": "free",
@@ -409,7 +409,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "IDSIPSManagementServer",
+            "name": "IDPManagementServer",
             "orderable": false,
             "read_only": false,
             "required": false,
@@ -418,7 +418,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDS/IPS Management Server"
+            "userlabel": "IDP Management Server"
         },
         {
             "allowed_chars": null,
