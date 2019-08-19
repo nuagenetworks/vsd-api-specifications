@@ -152,7 +152,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "10",
             "deprecated": false,
             "description": "Throttling of new connection to and from the triggering host will stop after configured amount of time in seconds",
             "exposed": true,
