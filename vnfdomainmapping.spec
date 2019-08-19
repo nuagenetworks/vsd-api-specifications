@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated I D P Profile I D"
+            "userlabel": "IDP Profile ID"
         },
         {
             "allowed_chars": null,
