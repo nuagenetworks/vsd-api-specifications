@@ -77,7 +77,7 @@
             "max_length": null,
             "max_value": 2147483647,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "name": "bandwidth",
             "orderable": true,
             "read_only": false,
