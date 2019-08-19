@@ -96,7 +96,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "0",
             "deprecated": false,
             "description": "Number of seconds dynamic that the dynamic black list remains",
             "exposed": true,
