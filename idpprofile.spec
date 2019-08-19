@@ -9,7 +9,7 @@
         "entity_name": "Idpprofile",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "idsips",
         "resource_name": "idpprofiles",
         "rest_name": "idpprofile",
         "root": null,
