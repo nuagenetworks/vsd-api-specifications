@@ -409,7 +409,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "IDPManagementServer",
+            "name": "IDPManagementRESTServer",
             "orderable": false,
             "read_only": false,
             "required": false,
