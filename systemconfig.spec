@@ -511,7 +511,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "13414",
             "deprecated": false,
             "description": "Syslog server port for IDP VNF",
             "exposed": true,
@@ -530,7 +530,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "I D P Syslog Server Port"
+            "userlabel": "IDP Syslog Server Port"
         },
         {
             "allowed_chars": null,
