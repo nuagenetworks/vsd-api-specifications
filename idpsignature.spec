@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "List of Intrusion Detection & Prevention Signature groups",
+            "description": "List of  Intrusion Detection & Prevention Signature groups",
             "exposed": true,
             "filterable": false,
             "format": null,
