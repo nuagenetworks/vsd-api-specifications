@@ -1622,7 +1622,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Syslog Level"
+            "userlabel": "Minimum Syslog Level Filter"
         },
         {
             "allowed_chars": null,
