@@ -1999,7 +1999,7 @@
             "bulk_update": false,
             "create": false,
             "delete": false,
-            "deprecated": null,
+            "deprecated": true,
             "get": true,
             "relationship": "member",
             "rest_name": "networkmacrogroup",
