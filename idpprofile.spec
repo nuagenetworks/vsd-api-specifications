@@ -104,7 +104,7 @@
         "create": false,
         "delete": true,
         "description": "IDP Profile/Rules are used to detect intrusion attempts and/or inspect network traffic and take appropriate action.",
-        "entity_name": "Idpprofile",
+        "entity_name": "IDPProfile",
         "extends": [],
         "get": true,
         "package": "idsips",
