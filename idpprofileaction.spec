@@ -96,7 +96,7 @@
         "create": false,
         "delete": true,
         "description": "An IDP Profile/Rule Action specifies what signatures to search for in the network traffic, and what action to take if those signatures are found.",
-        "entity_name": "Idpprofileaction",
+        "entity_name": "IDPProfileAction",
         "extends": [],
         "get": true,
         "package": null,
