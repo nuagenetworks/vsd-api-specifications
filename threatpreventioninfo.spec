@@ -4,7 +4,7 @@
     "model": {
         "allowed_job_commands": null,
         "create": false,
-        "delete": true,
+        "delete": false,
         "description": "Represents information about Threat Prevention service/instance on NSG",
         "entity_name": "ThreatPreventionInfo",
         "extends": [],
@@ -14,7 +14,7 @@
         "rest_name": "threatpreventioninfo",
         "root": null,
         "template": null,
-        "update": true,
+        "update": false,
         "userlabel": "Threat Prevention Info"
     }
 }
