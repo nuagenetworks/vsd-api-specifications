@@ -454,14 +454,14 @@
             "deprecated": false,
             "description": "The associated IDP Profile ID",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "max_length": 255,
+            "max_length": null,
             "max_value": null,
-            "min_length": 0,
+            "min_length": null,
             "min_value": null,
             "name": "associatedIDPProfileID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -469,7 +469,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated I D P Profile I D"
+            "userlabel": "Associated IDP Profile ID"
         },
         {
             "allowed_chars": null,
