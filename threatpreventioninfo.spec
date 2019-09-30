@@ -9,7 +9,7 @@
         "entity_name": "ThreatPreventionInfo",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "threatprevent",
         "resource_name": "threatpreventioninfos",
         "rest_name": "threatpreventioninfo",
         "root": null,
