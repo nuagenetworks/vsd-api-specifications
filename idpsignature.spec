@@ -35,7 +35,7 @@
         "create": false,
         "delete": true,
         "description": "Intrusion Detection & Prevention Signature groups",
-        "entity_name": "Idpsignature",
+        "entity_name": "IDPSignature",
         "extends": [],
         "get": true,
         "package": null,
