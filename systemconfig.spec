@@ -894,7 +894,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Management Server Proxy Port"
+            "userlabel": "Threat Prevention Server Proxy Port"
         },
         {
             "allowed_chars": null,
