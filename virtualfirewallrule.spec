@@ -564,7 +564,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Logging Enabled"
+            "userlabel": "ACL Flow Logging (Syslog)"
         },
         {
             "allowed_chars": null,
@@ -949,7 +949,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stats Logging Enabled"
+            "userlabel": "ACL Stats"
         },
         {
             "allowed_chars": null,
