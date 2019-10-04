@@ -159,7 +159,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "threatpreventionserverConnection",
+            "rest_name": "threatpreventionserverconnection",
             "update": false
         },
         {
