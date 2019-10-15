@@ -272,7 +272,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 4294967295,
             "min_length": null,
             "min_value": 1,
             "name": "period",
