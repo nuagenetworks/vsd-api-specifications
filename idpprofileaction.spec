@@ -96,7 +96,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "0",
+            "default_value": null,
             "deprecated": false,
             "description": "The priority determines the order of IDP action",
             "exposed": true,
