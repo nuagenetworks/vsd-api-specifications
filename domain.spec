@@ -468,7 +468,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated IDP Profile ID"
+            "userlabel": "IDP Profile ID"
         },
         {
             "allowed_chars": null,
