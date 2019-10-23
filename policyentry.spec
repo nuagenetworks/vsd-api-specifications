@@ -79,7 +79,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "object",
+            "type": "string",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Match Criteria"
@@ -115,6 +115,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
@@ -129,6 +130,7 @@
         "resource_name": "policyentries",
         "rest_name": "policyentry",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Policy Entry"
     }

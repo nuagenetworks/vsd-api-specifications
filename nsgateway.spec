@@ -902,7 +902,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Control traffic CoS"
+            "userlabel": "CoS"
         },
         {
             "allowed_chars": null,
@@ -930,7 +930,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Control traffic DSCP"
+            "userlabel": "DSCP"
         },
         {
             "allowed_chars": null,
@@ -1132,14 +1132,14 @@
             "deprecated": false,
             "description": "Release version of NSG, which is used to determine the feature capabilties of NSG.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
             "name": "gatewayConfigRawVersion",
-            "orderable": true,
+            "orderable": false,
             "read_only": true,
             "required": false,
             "subtype": null,
@@ -1160,14 +1160,14 @@
             "deprecated": false,
             "description": "Interpreted version of NSG, which is used to determine the feature capabilities of NSG.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
             "name": "gatewayConfigVersion",
-            "orderable": true,
+            "orderable": false,
             "read_only": true,
             "required": false,
             "subtype": null,
@@ -1650,7 +1650,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Syslog Level"
+            "userlabel": "Minimum Syslog Level Filter"
         },
         {
             "allowed_chars": null,
