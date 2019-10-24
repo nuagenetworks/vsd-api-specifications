@@ -427,7 +427,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDP Enabled"
+            "userlabel": "Threat Prevention"
         },
         {
             "allowed_chars": null,
