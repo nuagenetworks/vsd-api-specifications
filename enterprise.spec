@@ -134,7 +134,7 @@
             "read_only": true,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
