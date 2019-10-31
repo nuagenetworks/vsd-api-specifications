@@ -698,7 +698,6 @@
                 "PGEXPRESSION",
                 "POLICYGROUP",
                 "PUBLIC_NETWORK",
-                "SAAS_APPLICATION_GROUP",
                 "SUBNET",
                 "UNDERLAY_INTERNET_POLICYGROUP",
                 "ZONE"
