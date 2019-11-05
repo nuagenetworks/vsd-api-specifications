@@ -246,7 +246,7 @@
             "default_order": false,
             "default_value": "REMOTE",
             "deprecated": false,
-            "description": "Indicates if redirect tag type, default is REMOTE.",
+            "description": "Type of redirect tag, default is REMOTE.",
             "exposed": true,
             "filterable": false,
             "format": null,
