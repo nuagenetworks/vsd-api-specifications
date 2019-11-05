@@ -4257,7 +4257,7 @@
             "default_value": "13514",
             "deprecated": false,
             "description": "Syslog server port for Threat Prevention Service",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": null,
             "max_length": null,
