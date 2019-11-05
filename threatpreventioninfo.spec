@@ -15,7 +15,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "VSD Configuration status for Threat Prevention service on NSG",
+            "description": "VSD Configuration status for Threat Prevention service on NSG.",
             "exposed": true,
             "filterable": true,
             "format": null,
