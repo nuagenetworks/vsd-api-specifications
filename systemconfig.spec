@@ -4145,7 +4145,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Specifies the Threat Prevention Management server location.",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": "free",
             "max_length": 255,
