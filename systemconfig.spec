@@ -4229,7 +4229,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Username to accessThreat Prevention management Server Username",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": "free",
             "max_length": 255,
