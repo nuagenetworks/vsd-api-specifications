@@ -4173,7 +4173,7 @@
             "default_value": null,
             "deprecated": false,
             "description": "Password to access Threat Prevention Server Password",
-            "exposed": false,
+            "exposed": true,
             "filterable": false,
             "format": "free",
             "max_length": 255,
