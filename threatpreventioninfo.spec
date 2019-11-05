@@ -46,7 +46,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Connection status between Threat Prevention manaement Server and NSG",
+            "description": "Connection status between Threat Prevention manaement Server and NSG.",
             "exposed": true,
             "filterable": true,
             "format": null,
