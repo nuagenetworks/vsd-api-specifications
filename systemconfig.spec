@@ -4282,7 +4282,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "13514",
             "deprecated": false,
             "description": "Syslog server port for Threat Prevention Service",
             "exposed": true,
