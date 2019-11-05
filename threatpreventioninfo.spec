@@ -87,7 +87,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Status of Threat prevention service/instance on NSG",
+            "description": "Status of Threat prevention service/instance on NSG.",
             "exposed": true,
             "filterable": false,
             "format": null,
