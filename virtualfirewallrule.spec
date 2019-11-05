@@ -281,7 +281,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Ingress Adv Fwd Rule Template Entry I D"
+            "userlabel": "Ingress Advance Forwarding Rule Template Entry ID"
         },
         {
             "allowed_chars": null,
