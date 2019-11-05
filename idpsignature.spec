@@ -26,7 +26,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Idp Signatures"
+            "userlabel": "IDP Signatures"
         }
     ],
     "children": [],
