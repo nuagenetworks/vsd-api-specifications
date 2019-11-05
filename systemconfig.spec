@@ -4226,7 +4226,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "11022",
+            "default_value": "13022",
             "deprecated": false,
             "description": "Destination TCP Port on the Proxy to connect to the Threat Prevention Management Server",
             "exposed": false,
