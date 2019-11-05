@@ -225,7 +225,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Egress Adv Fwd Rule Template Entry I D"
+            "userlabel": "Egress Advance Forwarding Rule Template Entry ID"
         },
         {
             "allowed_chars": null,
