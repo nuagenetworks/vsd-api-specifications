@@ -244,7 +244,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "REMOTE",
             "deprecated": false,
             "description": "Indicates if redirect tag type, default is REMOTE.",
             "exposed": true,
