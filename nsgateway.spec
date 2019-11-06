@@ -874,7 +874,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Control traffic CoS"
+            "userlabel": "CoS"
         },
         {
             "allowed_chars": null,
@@ -902,7 +902,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Control traffic DSCP"
+            "userlabel": "DSCP"
         },
         {
             "allowed_chars": null,
