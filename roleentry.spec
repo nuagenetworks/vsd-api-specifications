@@ -33,7 +33,7 @@
             "allowed_choices": [
                 "CREATE",
                 "CUD_CHILDREN",
-                "DELETE\n",
+                "DELETE",
                 "MODIFY",
                 "NO_ACCESS",
                 "NO_ACCESS_CHILDREN",
