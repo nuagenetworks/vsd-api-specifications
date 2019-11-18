@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Associated Role",
+            "description": "ID of the associated Role",
             "exposed": true,
             "filterable": true,
             "format": "free",
