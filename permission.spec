@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Associated Role Description",
+            "description": "Description of the role asssociated with the permission",
             "exposed": true,
             "filterable": true,
             "format": "free",
