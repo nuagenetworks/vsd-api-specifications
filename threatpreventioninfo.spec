@@ -55,7 +55,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "connectionStatus",
+            "name": "managementServerConnectionStatus",
             "orderable": false,
             "read_only": true,
             "required": false,
@@ -64,7 +64,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Connection Status"
+            "userlabel": "Management Server Connection Status"
         },
         {
             "allowed_chars": null,
