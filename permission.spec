@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Role Description"
+            "userlabel": "Role Description"
         },
         {
             "allowed_chars": null,
