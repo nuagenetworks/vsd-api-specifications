@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group"
+            "userlabel": "Group ID"
         },
         {
             "allowed_chars": null,
