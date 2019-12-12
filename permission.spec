@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Role Name"
+            "userlabel": "Role Name"
         },
         {
             "allowed_chars": null,
