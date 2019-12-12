@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Permitted Entity Description"
+            "userlabel": "Associated Group Description"
         },
         {
             "allowed_chars": null,
