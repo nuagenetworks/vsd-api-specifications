@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Group"
+            "userlabel": "Group Name"
         },
         {
             "allowed_chars": null,
