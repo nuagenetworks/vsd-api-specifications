@@ -285,7 +285,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Permitted Enterprise Name"
+            "userlabel": "Enterprise Name"
         },
         {
             "allowed_chars": null,
