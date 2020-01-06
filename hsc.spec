@@ -11,7 +11,7 @@
             "deprecated": true,
             "description": "The IP of the VRS entity",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 50,
             "max_value": null,
