@@ -459,7 +459,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Management"
+            "userlabel": "Threat Prevention"
         },
         {
             "allowed_chars": null,
