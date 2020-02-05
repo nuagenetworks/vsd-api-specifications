@@ -1985,7 +1985,9 @@
             "NOTIFY_NSG_REGISTRATION",
             "NOTIFY_NSG_REGISTRATION_ACK",
             "NOTIFY_NSG_REGISTRATION_TEST",
+            "NSG_LIFT_QUARANTINE",
             "NSG_NOTIFICATION_TEST",
+            "NSG_QUARANTINE",
             "RELOAD_NSG_CONFIG"
         ],
         "create": false,
