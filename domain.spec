@@ -1063,7 +1063,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Collection"
+            "userlabel": "VSS Flow Collection"
         },
         {
             "allowed_chars": null,
