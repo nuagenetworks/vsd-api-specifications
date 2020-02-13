@@ -45,7 +45,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "comments",
+            "name": "description",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Comments"
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
