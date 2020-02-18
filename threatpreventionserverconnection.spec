@@ -59,6 +59,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "AUTHENTICATION_FAILED",
                 "CONNECTED",
                 "DISCONNECTED"
             ],
