@@ -33,6 +33,7 @@
             "allowed_choices": [
                 "APPLICATION_SIGNATURE_IMPORT",
                 "APPLY_POLICY_CHANGES",
+                "ASSIGN_SELF_REBOOTSTRAP_REQ",
                 "BATCH_CRUD_REQUEST",
                 "BEGIN_POLICY_CHANGES",
                 "CERTIFICATE_NSG_RENEW",

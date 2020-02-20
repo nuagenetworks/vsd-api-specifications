@@ -812,7 +812,9 @@
     ],
     "model": {
         "allowed_job_commands": [
+            "ASSIGN_SELF_REBOOTSTRAP_REQ",
             "GET_ZFB_INFO",
+            "RECOVER_NSG",
             "REJECT_ZFB_REQUEST"
         ],
         "create": null,
