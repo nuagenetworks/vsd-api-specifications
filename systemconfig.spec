@@ -4312,7 +4312,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Username to accessThreat Prevention management Server Username",
+            "description": "Username to accessThreat Prevention management Server.",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -4329,7 +4329,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Server Username"
+            "userlabel": "Username"
         },
         {
             "allowed_chars": null,
