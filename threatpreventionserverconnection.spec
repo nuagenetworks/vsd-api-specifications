@@ -109,7 +109,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "JSON",
+            "subtype": "ThreatPreventionServer",
             "transient": false,
             "type": "list",
             "unique": false,
