@@ -4273,7 +4273,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Password"
+            "userlabel": "Server Password"
         },
         {
             "allowed_chars": null,
