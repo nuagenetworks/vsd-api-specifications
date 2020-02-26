@@ -4273,7 +4273,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Server Password"
+            "userlabel": "Password"
         },
         {
             "allowed_chars": null,
