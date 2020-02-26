@@ -4245,7 +4245,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Server H A Hosts"
+            "userlabel": "Hosts"
         },
         {
             "allowed_chars": null,
