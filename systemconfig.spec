@@ -4301,7 +4301,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Server Proxy Port"
+            "userlabel": "Server Proxy Port"
         },
         {
             "allowed_chars": null,
