@@ -4161,7 +4161,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Server"
+            "userlabel": "Server Base URL"
         },
         {
             "allowed_chars": null,
