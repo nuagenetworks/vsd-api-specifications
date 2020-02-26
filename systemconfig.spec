@@ -4189,7 +4189,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Server H A Enabled"
+            "userlabel": "High Availability Enabled"
         },
         {
             "allowed_chars": null,
