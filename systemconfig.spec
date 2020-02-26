@@ -4329,7 +4329,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Username"
+            "userlabel": "Server Username"
         },
         {
             "allowed_chars": null,
