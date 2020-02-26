@@ -4217,7 +4217,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "High Availability Enabled"
+            "userlabel": "High Availability"
         },
         {
             "allowed_chars": null,
