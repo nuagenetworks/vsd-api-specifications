@@ -4357,7 +4357,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Prevention Syslog Proxy Port"
+            "userlabel": "Syslog Proxy Port"
         },
         {
             "allowed_chars": null,
