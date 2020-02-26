@@ -97,7 +97,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "List of Threat Prevention Servers in redundant setup.",
+            "description": "List of Threat Prevention Servers in High availability setup.",
             "exposed": true,
             "filterable": false,
             "format": null,
