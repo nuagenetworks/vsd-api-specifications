@@ -226,7 +226,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Auto Deactivation"
+            "userlabel": "Enable Automatic Quarantine"
         },
         {
             "allowed_chars": null,
@@ -237,7 +237,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Flag to enable automatic deactivation.",
+            "description": "Flag to enable the functionlity where VSD will automatically place an NSG into a quarantine state if it is no longer being reported by VSC nodes for a specified period.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -254,7 +254,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable auto deactivation"
+            "userlabel": "Enable Automatic Quarantine"
         },
         {
             "allowed_chars": null,
