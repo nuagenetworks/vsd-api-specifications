@@ -67,7 +67,7 @@
             "deprecated": false,
             "description": "The NSG system id where VNF is deployed",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": "free",
             "max_length": null,
             "max_value": null,
