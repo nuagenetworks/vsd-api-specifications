@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Egress Template ID"
+            "userlabel": "Egress Template"
         },
         {
             "allowed_chars": null,
