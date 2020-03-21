@@ -106,11 +106,11 @@
             "read_only": false,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IDP Profile ID"
+            "userlabel": "IDP Profile"
         },
         {
             "allowed_chars": null,
