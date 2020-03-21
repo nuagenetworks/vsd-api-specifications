@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Egress Adv Fwd Rule Template ID"
+            "userlabel": "Egress Adv Fwd Rule Template"
         },
         {
             "allowed_chars": null,
