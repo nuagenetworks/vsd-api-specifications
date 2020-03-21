@@ -50,11 +50,11 @@
             "read_only": true,
             "required": false,
             "subtype": null,
-            "transient": false,
+            "transient": true,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Domain Name"
+            "userlabel": "Domain Name"
         },
         {
             "allowed_chars": null,
