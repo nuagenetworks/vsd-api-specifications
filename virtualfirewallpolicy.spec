@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Ingress Template ID"
+            "userlabel": "Ingress Template"
         },
         {
             "allowed_chars": null,
