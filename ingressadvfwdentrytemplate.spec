@@ -529,7 +529,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Virtual Firewall Rule ID"
+            "userlabel": "Virtual Firewall Rule"
         },
         {
             "allowed_chars": null,
@@ -761,13 +761,10 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "ENTERPRISENETWORK",
-                "NETWORKMACROGROUP",
                 "PGEXPRESSION",
                 "PGEXPRESSIONTEMPLATE",
                 "POLICYGROUP",
                 "POLICYGROUPTEMPLATE",
-                "PUBLICNETWORK",
                 "REDIRECTIONTARGET",
                 "REDIRECTIONTARGETTEMPLATE",
                 "SUBNET",
@@ -781,7 +778,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates whether the Location Entity of ACL Entry was derived from a L2/L3 Domain template or instance. Possible Values: ENTERPRISENETWORK, NETWORKMACROGROUP, PGEXPRESSION, PGEXPRESSIONTEMPLATE, POLICYGROUP, POLICYGROUPTEMPLATE, PUBLICNETWORK, REDIRECTIONTARGET, REDIRECTIONTARGETTEMPLATE, SUBNET, SUBNETTEMPLATE, ZONE, ZONETEMPLATE.",
+            "description": "Indicates whether the Location Entity of ACL Entry was derived from a L2/L3 Domain template or instance. Possible Values: SUBNETTEMPLATE, ZONETEMPLATE, POLICYGROUPTEMPLATE, PGEXPRESSIONTEMPLATE, REDIRECTIONTARGETTEMPLATE, SUBNET, ZONE, POLICYGROUP, PGEXPRESSION, REDIRECTIONTARGET.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -921,14 +918,10 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "ENTERPRISENETWORK",
-                "NETWORKMACROGROUP",
                 "PGEXPRESSION",
                 "PGEXPRESSIONTEMPLATE",
                 "POLICYGROUP",
                 "POLICYGROUPTEMPLATE",
-                "PUBLICNETWORK",
-                "SAASAPPLICATIONGROUP",
                 "SUBNET",
                 "SUBNETTEMPLATE",
                 "ZONE",
@@ -940,7 +933,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates whether the Network Entity of ACL Entry was derived from a L2/L3 Domain template or instance. Possible Values: ENTERPRISENETWORK, NETWORKMACROGROUP, PGEXPRESSION, PGEXPRESSIONTEMPLATE, POLICYGROUP, POLICYGROUPTEMPLATE, PUBLICNETWORK, SAASAPPLICATIONGROUP, SUBNET, SUBNETTEMPLATE, ZONE, ZONETEMPLATE.",
+            "description": "Indicates whether the Network Entity of ACL Entry was derived from a L2/L3 Domain template or instance. Possible Values: SUBNETTEMPLATE, ZONETEMPLATE, POLICYGROUPTEMPLATE, PGEXPRESSIONTEMPLATE, SUBNET, ZONE, POLICYGROUP, PGEXPRESSION.",
             "exposed": true,
             "filterable": false,
             "format": null,
