@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Enterprise ID"
+            "userlabel": "Enterprise"
         },
         {
             "allowed_chars": null,
