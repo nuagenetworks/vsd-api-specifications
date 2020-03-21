@@ -138,7 +138,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Ingress Adv Fwd Rule Template I D"
+            "userlabel": "Ingress Adv Fwd Rule"
         },
         {
             "allowed_chars": null,
