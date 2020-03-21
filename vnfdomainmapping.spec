@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Domain ID"
+            "userlabel": "Domain"
         },
         {
             "allowed_chars": null,
