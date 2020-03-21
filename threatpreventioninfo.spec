@@ -112,7 +112,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": false,
-        "description": "Represents information about Threat Prevention service/instance on NSG",
+        "description": "Represents information about Threat Prevention service/instance on NSG. This is read only entity.",
         "entity_name": "ThreatPreventionInfo",
         "extends": [],
         "get": true,
