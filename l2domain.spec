@@ -636,6 +636,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "MPLS",
                 "MPLSoUDP",
                 "VXLAN"
             ],
