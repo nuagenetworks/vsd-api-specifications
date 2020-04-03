@@ -636,6 +636,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "MPLS",
                 "MPLSoUDP",
                 "VXLAN"
             ],
@@ -1601,6 +1602,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "vminterface",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": true,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "vmipreservation",
             "update": false
         },
         {
