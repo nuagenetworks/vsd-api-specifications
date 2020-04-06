@@ -1912,7 +1912,7 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
-            "deprecated": null,
+            "deprecated": true,
             "get": true,
             "relationship": "child",
             "rest_name": "nsgroutingpolicybinding",
@@ -2001,6 +2001,18 @@
             "relationship": "child",
             "rest_name": "routingpolicy",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "member",
+            "rest_name": "routingpolicybinding",
+            "update": true
         },
         {
             "bulk_create": false,
