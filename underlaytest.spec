@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Identifiet of the associated Test Suite Run",
+            "description": "Identifier of the associated Test Suite Run",
             "exposed": true,
             "filterable": true,
             "format": "free",
