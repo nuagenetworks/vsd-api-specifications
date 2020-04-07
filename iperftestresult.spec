@@ -26,7 +26,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Bandwidth Mbits Per Second"
+            "userlabel": "Bandwidth Mb/s"
         },
         {
             "allowed_chars": null,
