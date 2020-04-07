@@ -14,7 +14,7 @@
         "rest_name": null,
         "root": null,
         "template": null,
-        "update": false,
+        "update": true,
         "userlabel": "TCP Connect Test Result"
     }
 }
