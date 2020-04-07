@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Identifier of the associated Test Suite Run",
+            "description": "The ID of the associated Test Suite Run",
             "exposed": true,
             "filterable": true,
             "format": "free",
