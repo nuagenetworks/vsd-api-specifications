@@ -5,7 +5,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": false,
-        "description": "MTUDiscoverTestResult",
+        "description": "MTU Discover Test Result",
         "entity_name": "MTUDiscoverTestResult",
         "extends": [],
         "get": true,
@@ -15,6 +15,6 @@
         "root": null,
         "template": null,
         "update": true,
-        "userlabel": "MTUDiscoverTestResult"
+        "userlabel": "MTU Discover Test Result"
     }
 }
