@@ -290,6 +290,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "DEGRADED",
+                "FAIL",
                 "NOT_APPLICABLE",
                 "PASS"
             ],
