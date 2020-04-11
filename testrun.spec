@@ -345,6 +345,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "BandwidthTestResult",
                 "MTUDiscoveryTestResult",
                 "TCPConnectTestResult",
                 "UDPProbeTestResult"
