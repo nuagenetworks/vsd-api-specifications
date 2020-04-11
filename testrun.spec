@@ -347,6 +347,7 @@
             "allowed_choices": [
                 "BandwidthTestResult",
                 "MTUDiscoveryTestResult",
+                "None",
                 "TCPConnectTestResult",
                 "UDPProbeTestResult"
             ],
