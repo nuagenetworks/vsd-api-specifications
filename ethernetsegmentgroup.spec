@@ -225,7 +225,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Group of Ethernet Sements with same ID (upto 4).",
+        "description": "Group of Ethernet Segments with same ID (upto 4).",
         "entity_name": "EthernetSegmentGroup",
         "extends": [],
         "get": true,
