@@ -397,7 +397,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 214783647,
+            "max_value": 2147483647,
             "min_length": null,
             "min_value": 1,
             "name": "policyGroupID",
