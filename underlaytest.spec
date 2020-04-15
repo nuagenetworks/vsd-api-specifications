@@ -311,6 +311,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DEGRADED",
                 "NOT_APPLICABLE",
                 "PASS"
             ],
