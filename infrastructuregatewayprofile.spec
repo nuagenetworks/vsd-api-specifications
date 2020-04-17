@@ -660,7 +660,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Run Underlay MTU discovery Test During Activation",
+            "description": "Run the underlay MTU discovery test during activation",
             "exposed": true,
             "filterable": true,
             "format": null,
