@@ -166,7 +166,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Minimum Round Trip Time"
+            "userlabel": "Minimum Round Trip Time (ms)"
         },
         {
             "allowed_chars": null,
