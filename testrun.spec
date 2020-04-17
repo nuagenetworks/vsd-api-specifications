@@ -407,7 +407,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Test Category"
+            "userlabel": "Category"
         },
         {
             "allowed_chars": null,
