@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Test Suite Run I D"
+            "userlabel": "Associated Test Suite Run"
         },
         {
             "allowed_chars": null,
