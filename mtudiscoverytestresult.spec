@@ -26,7 +26,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Discovered M T U"
+            "userlabel": "Discovered MTU"
         }
     ],
     "children": [],
