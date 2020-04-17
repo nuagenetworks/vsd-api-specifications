@@ -138,7 +138,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Maximum Round Trip Time"
+            "userlabel": "Maximum Round Trip Time (ms)"
         },
         {
             "allowed_chars": null,
