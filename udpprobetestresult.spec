@@ -26,7 +26,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Packet Loss Percent"
+            "userlabel": "Packet Loss (%)"
         },
         {
             "allowed_chars": null,
