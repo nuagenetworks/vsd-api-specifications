@@ -382,7 +382,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Flag to mark this test as the Birth Certificate (i.e. it was run during activation)",
+            "description": "Type of Test",
             "exposed": true,
             "filterable": true,
             "format": null,
