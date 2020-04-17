@@ -293,7 +293,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable Underlay Tests During Activation",
+            "description": "Enables underlay tests during gateway activation. Underlay tests will cause the bootstrapping operation to be about two minutes longer.",
             "exposed": true,
             "filterable": true,
             "format": null,
