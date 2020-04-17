@@ -632,7 +632,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Run Underlay Connectivity Test During Activation",
+            "description": "Run the underlay connectivity test during activation",
             "exposed": true,
             "filterable": true,
             "format": null,
