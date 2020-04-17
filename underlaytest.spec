@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated N S Gateway I D"
+            "userlabel": "Associated NSGateway"
         },
         {
             "allowed_chars": null,
