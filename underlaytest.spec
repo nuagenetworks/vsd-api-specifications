@@ -380,7 +380,7 @@
             "channel": null,
             "creation_only": true,
             "default_order": false,
-            "default_value": "false",
+            "default_value": null,
             "deprecated": false,
             "description": "Type of Test",
             "exposed": true,
