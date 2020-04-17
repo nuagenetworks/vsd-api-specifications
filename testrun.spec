@@ -435,7 +435,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Test Description"
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
