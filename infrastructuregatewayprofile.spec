@@ -604,7 +604,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Run Underlay Bandwidth Test During Activation",
+            "description": "Run the underlay bandwidth test during activation",
             "exposed": true,
             "filterable": true,
             "format": null,
