@@ -463,7 +463,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Test Name"
+            "userlabel": "Name"
         }
     ],
     "children": [],
