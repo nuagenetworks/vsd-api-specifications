@@ -110,7 +110,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Failed Percent"
+            "userlabel": "Failed (%)"
         },
         {
             "allowed_chars": null,
