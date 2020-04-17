@@ -407,7 +407,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Test Category"
+            "userlabel": "Category"
         },
         {
             "allowed_chars": null,
@@ -435,7 +435,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Test Description"
+            "userlabel": "Description"
         },
         {
             "allowed_chars": null,
@@ -463,7 +463,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Test Name"
+            "userlabel": "Name"
         }
     ],
     "children": [],
