@@ -26,7 +26,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Average Round Trip Time"
+            "userlabel": "Average Round Trip Time (ms)"
         },
         {
             "allowed_chars": null,
