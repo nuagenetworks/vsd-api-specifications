@@ -203,7 +203,7 @@
             "channel": null,
             "creation_only": true,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "true",
             "deprecated": false,
             "description": "Flag to run the Bandwidth test",
             "exposed": true,
