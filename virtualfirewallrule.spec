@@ -806,7 +806,6 @@
             "allowed_choices": [
                 "ANY",
                 "ENTERPRISE_NETWORK",
-                "INTERNET_POLICYGROUP",
                 "NETWORK_MACRO_GROUP",
                 "PGEXPRESSION",
                 "POLICYGROUP",
