@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated NSGateway"
+            "userlabel": "NSGateway"
         },
         {
             "allowed_chars": null,
