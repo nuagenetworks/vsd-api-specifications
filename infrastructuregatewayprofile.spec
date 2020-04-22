@@ -621,7 +621,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Bandwidth Test"
+            "userlabel": "Bandwidth Test"
         },
         {
             "allowed_chars": null,
