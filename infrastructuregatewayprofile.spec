@@ -602,7 +602,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "true",
             "deprecated": false,
             "description": "Run the underlay bandwidth test during activation",
             "exposed": true,
@@ -621,7 +621,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Bandwidth Test"
+            "userlabel": "Bandwidth"
         },
         {
             "allowed_chars": null,
