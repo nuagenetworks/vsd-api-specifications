@@ -677,7 +677,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Run Underlay M T U Discovery Test"
+            "userlabel": "MTU Discovery Test"
         },
         {
             "allowed_chars": null,
