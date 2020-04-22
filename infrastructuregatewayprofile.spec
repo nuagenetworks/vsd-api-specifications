@@ -649,7 +649,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Underlay Connectivity Test"
+            "userlabel": "Connectivity Test"
         },
         {
             "allowed_chars": null,
