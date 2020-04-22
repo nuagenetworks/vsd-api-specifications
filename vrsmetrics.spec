@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ALUbr0 Status"
+            "userlabel": "alubr0"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS Process"
+            "userlabel": "VRS"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS VSC Status"
+            "userlabel": "VRS-VSC Connection"
         },
         {
             "allowed_chars": null,
@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Jesxmon Process"
+            "userlabel": "Jesxmon"
         },
         {
             "allowed_chars": null,
@@ -250,7 +250,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Log Disk Partition Utilization"
+            "userlabel": "Log Disk Utilization"
         },
         {
             "allowed_chars": null,
@@ -306,7 +306,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Re Deploy"
+            "userlabel": "Redeploy"
         },
         {
             "allowed_chars": null,
@@ -362,11 +362,12 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Root Disk Partition Utilization"
+            "userlabel": "Root Disk Utilization"
         }
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
         "description": null,
@@ -380,6 +381,7 @@
         "resource_name": "vrsmetrics",
         "rest_name": "vrsmetrics",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "VRS Metrics"
     }
