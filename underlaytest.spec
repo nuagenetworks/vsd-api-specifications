@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Data Path ID"
+            "userlabel": "Data Path ID"
         },
         {
             "allowed_chars": null,
