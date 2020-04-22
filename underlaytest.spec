@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Data Path ID"
+            "userlabel": "Datapath ID"
         },
         {
             "allowed_chars": null,
