@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Run Bandwidth Test"
+            "userlabel": "Bandwidth"
         },
         {
             "allowed_chars": null,
