@@ -278,7 +278,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Run MTU Discovery Test"
+            "userlabel": "MTU Discovery"
         },
         {
             "allowed_chars": null,
