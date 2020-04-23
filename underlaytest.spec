@@ -250,7 +250,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Run Connectivity Test"
+            "userlabel": "Connectivity"
         },
         {
             "allowed_chars": null,
