@@ -630,7 +630,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": "false",
+            "default_value": "true",
             "deprecated": false,
             "description": "Run the underlay connectivity test during activation",
             "exposed": true,
