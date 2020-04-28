@@ -166,7 +166,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Duration (secs)"
+            "userlabel": "Duration (seconds)"
         },
         {
             "allowed_chars": null,
