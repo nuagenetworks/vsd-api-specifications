@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Description of the EthernetSegment GW Group.",
+            "description": "Description of the Ethernet Segment Gateway Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the EthernetSegment GW Group.",
+            "description": "Name of the Ethernet Segment Gateway Group.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -301,7 +301,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Group of GWs with common ethernet segments id (upto 4 GWs).).",
+        "description": "Group of Gateways with common Ethernet Segment IDs (upto 4 Gateways).",
         "entity_name": "EthernetSegmentGWGroup",
         "extends": [],
         "get": true,
@@ -311,6 +311,6 @@
         "root": null,
         "template": null,
         "update": true,
-        "userlabel": "Ethernet Segment GW Group"
+        "userlabel": "Ethernet Segment Gateway Group"
     }
 }
