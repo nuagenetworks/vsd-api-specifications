@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "VLAN Range of the EthernetSegment.  Format must conform to a-b,c,d-f where a,b,c,d,f are integers between 0 and 4095.",
+            "description": "VLAN Range of the EthernetSegment. Format must conform to a-b,c,d-f where a,b,c,d,f are integers from range 0 to 4094.",
             "exposed": true,
             "filterable": true,
             "format": "free",
