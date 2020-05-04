@@ -61,6 +61,7 @@
                 "NSG_NOTIFICATION_TEST",
                 "NSG_QUARANTINE",
                 "NSG_REGISTRATION_INFO",
+                "NSG_VALIDATE_CONFIGURATION",
                 "PUBSUBNODE_AUDIT",
                 "RECOVER_NSG",
                 "REDEPLOY",
