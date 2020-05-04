@@ -412,6 +412,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "BANDWIDTH",
                 "CONNECTIVITY",
                 "MTU_DISCOVERY"
             ],
