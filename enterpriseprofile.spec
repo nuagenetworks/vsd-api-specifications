@@ -487,7 +487,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Web Filtering"
+            "userlabel": "Web Filtering"
         }
     ],
     "children": [
