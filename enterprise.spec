@@ -949,7 +949,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Global MAC Usage"
+            "userlabel": "Global MAC Usage"
         },
         {
             "allowed_chars": null,
