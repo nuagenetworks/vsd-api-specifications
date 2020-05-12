@@ -1005,7 +1005,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Web Filter Enabled"
+            "userlabel": "Web Filter"
         }
     ],
     "children": [
