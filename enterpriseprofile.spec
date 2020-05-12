@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Trusted Forwarding Class"
+            "userlabel": "Trusted Forwarding Class"
         },
         {
             "allowed_chars": null,
