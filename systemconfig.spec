@@ -362,7 +362,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPv6 Extended Prefixes Enabled"
+            "userlabel": "IPv6 Extended Prefixes"
         },
         {
             "allowed_chars": null,
