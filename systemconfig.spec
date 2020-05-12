@@ -1482,7 +1482,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Accumulate Licenses Enabled"
+            "userlabel": "Accumulate Licenses"
         },
         {
             "allowed_chars": null,
