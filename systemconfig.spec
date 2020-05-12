@@ -3062,7 +3062,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Key Server Monitor Enabled"
+            "userlabel": "Key Server Monitor"
         },
         {
             "allowed_chars": null,
