@@ -3667,7 +3667,7 @@
             "description": "This flag is used to indicate if statistics is enabled in the system. CSProot is expected to activate this through the enable statistics script.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -3681,7 +3681,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics Enabled"
+            "userlabel": "Statistics"
         },
         {
             "allowed_chars": null,
