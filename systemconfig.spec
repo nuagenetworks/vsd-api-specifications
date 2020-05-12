@@ -2245,7 +2245,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Collection Enabled"
+            "userlabel": "Flow Collection"
         },
         {
             "allowed_chars": null,
