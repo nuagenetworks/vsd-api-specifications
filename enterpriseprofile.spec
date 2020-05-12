@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Advanced QOS Configuration"
+            "userlabel": "Advanced QOS Configuration"
         },
         {
             "allowed_chars": null,
