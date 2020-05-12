@@ -4245,7 +4245,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Intelligence Enabled"
+            "userlabel": "Threat Intelligence"
         },
         {
             "allowed_chars": null,
