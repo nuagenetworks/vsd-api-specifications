@@ -260,7 +260,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Application Performance Management"
+            "userlabel": "Application Performance Management"
         },
         {
             "allowed_chars": null,
