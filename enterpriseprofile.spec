@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Routing Protocols"
+            "userlabel": "Routing Protocols"
         },
         {
             "allowed_chars": null,
