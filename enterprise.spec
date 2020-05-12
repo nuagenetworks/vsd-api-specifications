@@ -977,7 +977,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Virtual Firewall Rules Enabled"
+            "userlabel": "Virtual Firewall Rules"
         },
         {
             "allowed_chars": null,
