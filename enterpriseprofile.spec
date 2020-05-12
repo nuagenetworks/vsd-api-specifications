@@ -138,7 +138,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Gateway Management"
+            "userlabel": "Gateway Management"
         },
         {
             "allowed_chars": null,
