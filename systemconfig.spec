@@ -3401,7 +3401,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Per Domain VLAN ID Enabled"
+            "userlabel": "Per Domain VLAN ID"
         },
         {
             "allowed_chars": null,
