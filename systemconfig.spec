@@ -3569,7 +3569,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stack Trace Enabled"
+            "userlabel": "Stack Trace"
         },
         {
             "allowed_chars": null,
