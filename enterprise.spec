@@ -138,7 +138,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNF Management Enabled"
+            "userlabel": "VNF Management"
         },
         {
             "allowed_chars": null,
