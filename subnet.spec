@@ -813,7 +813,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable multi-homing"
+            "userlabel": "Multi-homing"
         },
         {
             "allowed_chars": null,
