@@ -310,7 +310,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Underlay Tests During Activation"
+            "userlabel": "Underlay Tests During Activation"
         },
         {
             "allowed_chars": null,
