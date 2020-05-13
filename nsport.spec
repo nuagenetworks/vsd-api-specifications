@@ -58,7 +58,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Traffic Through DUC Only Enabled"
+            "userlabel": "Traffic Through DUC Only"
         },
         {
             "allowed_chars": null,
