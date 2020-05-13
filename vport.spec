@@ -146,7 +146,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Access Restriction"
+            "userlabel": "Access Restriction"
         },
         {
             "allowed_chars": null,
