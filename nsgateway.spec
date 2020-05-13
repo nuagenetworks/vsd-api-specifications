@@ -310,7 +310,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable TCP Maximum Segment Size"
+            "userlabel": "TCP Maximum Segment Size"
         },
         {
             "allowed_chars": null,
@@ -2043,8 +2043,8 @@
             "NOTIFY_NSG_REGISTRATION_TEST",
             "NSG_LIFT_QUARANTINE",
             "NSG_NOTIFICATION_TEST",
-            "NSG_VALIDATE_CONFIGURATION",
             "NSG_QUARANTINE",
+            "NSG_VALIDATE_CONFIGURATION",
             "RELOAD_NSG_CONFIG"
         ],
         "create": false,
