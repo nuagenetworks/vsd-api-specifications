@@ -278,7 +278,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics Enabled"
+            "userlabel": "Statistics"
         },
         {
             "allowed_chars": null,
