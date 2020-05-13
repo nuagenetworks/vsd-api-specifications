@@ -286,7 +286,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable IPv6 DHCP"
+            "userlabel": "IPv6 DHCP"
         },
         {
             "allowed_chars": null,
