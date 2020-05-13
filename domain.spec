@@ -860,7 +860,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Domain Aggregation Enabled"
+            "userlabel": "Domain Aggregation"
         },
         {
             "allowed_chars": null,
