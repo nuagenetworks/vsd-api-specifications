@@ -824,7 +824,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Two-Factor Authentication"
+            "userlabel": "Two-Factor Authentication"
         },
         {
             "allowed_chars": null,
