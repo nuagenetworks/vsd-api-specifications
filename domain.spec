@@ -323,7 +323,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable VXLAN ECMP"
+            "userlabel": "VXLAN ECMP"
         },
         {
             "allowed_chars": null,
