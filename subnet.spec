@@ -89,7 +89,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable EVPN"
+            "userlabel": "EVPN"
         },
         {
             "allowed_chars": null,
