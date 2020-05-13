@@ -174,7 +174,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable EVPN-RT5"
+            "userlabel": "EVPN-RT5"
         },
         {
             "allowed_chars": null,
