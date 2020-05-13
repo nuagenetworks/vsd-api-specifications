@@ -2486,7 +2486,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Secondary Data Uplink"
+            "userlabel": "Secondary Data Uplink"
         },
         {
             "allowed_chars": null,
