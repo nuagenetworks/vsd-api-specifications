@@ -2262,7 +2262,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Revertive Controller"
+            "userlabel": "Revertive Controller"
         },
         {
             "allowed_chars": null,
