@@ -198,7 +198,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NAT Probes Enabled"
+            "userlabel": "NAT Probes"
         },
         {
             "allowed_chars": null,
