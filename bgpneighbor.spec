@@ -169,7 +169,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable dampening"
+            "userlabel": "Dampening"
         },
         {
             "allowed_chars": null,
