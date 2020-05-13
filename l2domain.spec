@@ -899,7 +899,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Routed VPLS Enabled"
+            "userlabel": "Routed VPLS"
         },
         {
             "allowed_chars": null,
