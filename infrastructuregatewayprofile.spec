@@ -254,7 +254,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Automatic Quarantine"
+            "userlabel": "Automatic Quarantine"
         },
         {
             "allowed_chars": null,
