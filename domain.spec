@@ -264,7 +264,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable GRT"
+            "userlabel": "GRT"
         },
         {
             "allowed_chars": null,
