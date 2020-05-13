@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSS Feature Enabled"
+            "userlabel": "VSS Feature"
         },
         {
             "allowed_chars": null,
