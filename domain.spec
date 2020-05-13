@@ -1529,7 +1529,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable streching"
+            "userlabel": "Streching"
         },
         {
             "allowed_chars": null,
