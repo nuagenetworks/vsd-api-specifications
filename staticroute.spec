@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable BFD"
+            "userlabel": "BFD"
         },
         {
             "allowed_chars": null,
