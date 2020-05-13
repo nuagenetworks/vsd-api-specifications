@@ -957,7 +957,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Proxy ARP"
+            "userlabel": "Proxy ARP"
         },
         {
             "allowed_chars": null,
