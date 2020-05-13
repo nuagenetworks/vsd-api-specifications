@@ -197,7 +197,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Black Hole"
+            "userlabel": "Black Hole"
         },
         {
             "allowed_chars": null,
