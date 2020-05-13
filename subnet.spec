@@ -517,7 +517,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable IPv4 DHCP"
+            "userlabel": "IPv4 DHCP"
         },
         {
             "allowed_chars": null,
