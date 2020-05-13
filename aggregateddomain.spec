@@ -1440,7 +1440,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable streching"
+            "userlabel": "streching"
         },
         {
             "allowed_chars": null,
