@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable AVRS"
+            "userlabel": "AVRS"
         },
         {
             "allowed_chars": null,
