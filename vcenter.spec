@@ -599,7 +599,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "GRO on Data Path"
+            "userlabel": "Disable GRO on Data Path"
         },
         {
             "allowed_chars": null,
