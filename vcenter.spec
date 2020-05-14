@@ -655,7 +655,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable Network Discovery"
+            "userlabel": "Network Discovery"
         },
         {
             "allowed_chars": null,
