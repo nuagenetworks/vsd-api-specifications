@@ -4228,7 +4228,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enables IP based threat intelligence. This requires Flow Collection to be enabled. Must be enabled/disabled by script '/opt/vsd/threat-intel.sh'.",
+            "description": "Enables IP based threat intelligence. This requires Flow Collection to be enabled.",
             "exposed": true,
             "filterable": false,
             "format": null,
