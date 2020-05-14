@@ -996,7 +996,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Revertive Behavior Enabled"
+            "userlabel": "Revertive Behavior"
         },
         {
             "allowed_chars": null,
