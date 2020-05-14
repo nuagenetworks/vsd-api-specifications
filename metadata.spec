@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Notification"
+            "userlabel": "Network Notification Disabled"
         }
     ],
     "children": [
