@@ -320,7 +320,7 @@
             "description": "Indicates if PAT Mapping is enabled for the SharedNetworkResource or not",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -334,7 +334,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic PAT Allocation Enabled"
+            "userlabel": "Dynamic PAT Allocation"
         },
         {
             "allowed_chars": null,
