@@ -635,7 +635,7 @@
             "description": "VRS is in Multi-NIC VPORT Mode",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -649,7 +649,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi NICV Port Enabled"
+            "userlabel": "Multi NICV Port"
         },
         {
             "allowed_chars": null,
