@@ -12,7 +12,7 @@
             "description": "Read-only flag to display if BGP is enabled for this enterprise",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BGP Enabled"
+            "userlabel": "BGP "
         },
         {
             "allowed_chars": null,
