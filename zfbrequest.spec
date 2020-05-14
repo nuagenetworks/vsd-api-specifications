@@ -227,7 +227,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ZFB Bootstrap Enabled"
+            "userlabel": "ZFB Bootstrap"
         },
         {
             "allowed_chars": null,
