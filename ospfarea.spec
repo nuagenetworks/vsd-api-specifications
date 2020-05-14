@@ -258,7 +258,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Summaries Enabled"
+            "userlabel": "Summaries "
         },
         {
             "allowed_chars": null,
