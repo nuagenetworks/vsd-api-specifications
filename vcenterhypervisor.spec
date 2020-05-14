@@ -829,7 +829,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "LRO on Data Path"
+            "userlabel": "Disable LRO on Data Path"
         },
         {
             "allowed_chars": null,
