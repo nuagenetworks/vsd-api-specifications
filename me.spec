@@ -324,7 +324,7 @@
             "description": "Enables flow statistics collection. It is needed for the VSS feature, and requires a valid VSS license. This option requires 'statisticsEnabled'.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -338,7 +338,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Collection Enabled"
+            "userlabel": "Flow Collection"
         },
         {
             "allowed_chars": null,
