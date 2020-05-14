@@ -142,7 +142,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable Username-Password Authentication"
+            "userlabel": "Username-Password Authentication"
         },
         {
             "allowed_chars": null,
