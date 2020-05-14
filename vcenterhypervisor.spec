@@ -1211,7 +1211,7 @@
             "description": "Metadata Service Enabled",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1225,7 +1225,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Metadata Service Enabled"
+            "userlabel": "Metadata Service"
         },
         {
             "allowed_chars": null,
