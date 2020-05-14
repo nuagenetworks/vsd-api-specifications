@@ -883,7 +883,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Metadata Service"
+            "userlabel": "Metadata Service"
         },
         {
             "allowed_chars": null,
