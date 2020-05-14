@@ -114,7 +114,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable Certificate-Based Authentication"
+            "userlabel": "Certificate-Based Authentication"
         },
         {
             "allowed_chars": null,
