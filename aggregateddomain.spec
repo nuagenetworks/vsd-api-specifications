@@ -1058,7 +1058,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ipv6 Aggregation Enabled"
+            "userlabel": "Ipv6 Aggregation"
         },
         {
             "allowed_chars": null,
