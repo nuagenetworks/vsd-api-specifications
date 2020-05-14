@@ -2262,7 +2262,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Secondary Data Uplink DHCP"
+            "userlabel": "Secondary Data Uplink DHCP"
         },
         {
             "allowed_chars": null,
