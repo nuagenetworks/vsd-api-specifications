@@ -173,7 +173,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable VXLAN ECMP"
+            "userlabel": "VXLAN ECMP"
         },
         {
             "allowed_chars": null,
@@ -631,7 +631,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Ingress Replication"
+            "userlabel": "Ingress Replication"
         },
         {
             "allowed_chars": null,
@@ -899,7 +899,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Routed VPLS Enabled"
+            "userlabel": "Routed VPLS"
         },
         {
             "allowed_chars": null,

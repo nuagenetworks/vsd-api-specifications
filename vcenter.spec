@@ -194,7 +194,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable AVRS"
+            "userlabel": "AVRS"
         },
         {
             "allowed_chars": null,
@@ -683,7 +683,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable VRS Resource Reservation"
+            "userlabel": "VRS Resource Reservation"
         },
         {
             "allowed_chars": null,
@@ -1023,7 +1023,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Metadata Service"
+            "userlabel": "Metadata Service"
         },
         {
             "allowed_chars": null,
@@ -2402,7 +2402,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Revertive Controller"
+            "userlabel": "Revertive Controller"
         },
         {
             "allowed_chars": null,
@@ -2458,7 +2458,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Secondary Data Uplink DHCP"
+            "userlabel": "Secondary Data Uplink DHCP"
         },
         {
             "allowed_chars": null,
@@ -2486,7 +2486,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Secondary Data Uplink"
+            "userlabel": "Secondary Data Uplink"
         },
         {
             "allowed_chars": null,

@@ -362,7 +362,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IPv6 Extended Prefixes Enabled"
+            "userlabel": "IPv6 Extended Prefixes"
         },
         {
             "allowed_chars": null,
@@ -1398,7 +1398,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Auto Bootstrap Enabled"
+            "userlabel": "Auto Bootstrap"
         },
         {
             "allowed_chars": null,
@@ -1482,7 +1482,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Accumulate Licenses Enabled"
+            "userlabel": "Accumulate Licenses"
         },
         {
             "allowed_chars": null,
@@ -2245,7 +2245,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Collection Enabled"
+            "userlabel": "Flow Collection"
         },
         {
             "allowed_chars": null,
@@ -3062,7 +3062,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Key Server Monitor Enabled"
+            "userlabel": "Key Server Monitor"
         },
         {
             "allowed_chars": null,
@@ -3401,7 +3401,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Per Domain VLAN ID Enabled"
+            "userlabel": "Per Domain VLAN ID"
         },
         {
             "allowed_chars": null,
@@ -3569,7 +3569,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Stack Trace Enabled"
+            "userlabel": "Stack Trace"
         },
         {
             "allowed_chars": null,
@@ -3667,7 +3667,7 @@
             "description": "This flag is used to indicate if statistics is enabled in the system. CSProot is expected to activate this through the enable statistics script.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -3681,7 +3681,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics Enabled"
+            "userlabel": "Statistics"
         },
         {
             "allowed_chars": null,
@@ -4245,7 +4245,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Intelligence Enabled"
+            "userlabel": "Threat Intelligence"
         },
         {
             "allowed_chars": null,
@@ -4525,7 +4525,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Virtual Firewall Rules Enabled"
+            "userlabel": "Virtual Firewall Rules"
         }
     ],
     "children": [],

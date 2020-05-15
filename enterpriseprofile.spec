@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Routing Protocols"
+            "userlabel": "Routing Protocols"
         },
         {
             "allowed_chars": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNF Management Enabled"
+            "userlabel": "VNF Management"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Advanced QOS Configuration"
+            "userlabel": "Advanced QOS Configuration"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Gateway Management"
+            "userlabel": "Gateway Management"
         },
         {
             "allowed_chars": null,
@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Trusted Forwarding Class"
+            "userlabel": "Trusted Forwarding Class"
         },
         {
             "allowed_chars": null,
@@ -260,7 +260,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Application Performance Management"
+            "userlabel": "Application Performance Management"
         },
         {
             "allowed_chars": null,
@@ -487,7 +487,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Web Filtering"
+            "userlabel": "Web Filtering"
         }
     ],
     "children": [

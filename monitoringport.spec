@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DPDK Enabled"
+            "userlabel": "DPDK"
         },
         {
             "allowed_chars": null,

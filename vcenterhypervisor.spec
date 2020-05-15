@@ -340,7 +340,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable AVRS"
+            "userlabel": "AVRS"
         },
         {
             "allowed_chars": null,
@@ -857,7 +857,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable VRS Resource Reservation"
+            "userlabel": "VRS Resource Reservation"
         },
         {
             "allowed_chars": null,
@@ -1211,7 +1211,7 @@
             "description": "Metadata Service Enabled",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1225,7 +1225,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Metadata Service Enabled"
+            "userlabel": "Metadata Service"
         },
         {
             "allowed_chars": null,
@@ -2716,7 +2716,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Secondary Data Uplink DHCP"
+            "userlabel": "Secondary Data Uplink DHCP"
         },
         {
             "allowed_chars": null,
@@ -2744,7 +2744,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Secondary Data Uplink"
+            "userlabel": "Secondary Data Uplink"
         },
         {
             "allowed_chars": null,

@@ -89,7 +89,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable EVPN"
+            "userlabel": "EVPN"
         },
         {
             "allowed_chars": null,
@@ -517,7 +517,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable IPv4 DHCP"
+            "userlabel": "IPv4 DHCP"
         },
         {
             "allowed_chars": null,
@@ -545,7 +545,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable IPv6 DHCP"
+            "userlabel": "IPv6 DHCP"
         },
         {
             "allowed_chars": null,
@@ -692,7 +692,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Ingress Replication"
+            "userlabel": "Ingress Replication"
         },
         {
             "allowed_chars": null,
@@ -813,7 +813,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable multi-homing"
+            "userlabel": "Multi-homing"
         },
         {
             "allowed_chars": null,
@@ -957,7 +957,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Proxy ARP"
+            "userlabel": "Proxy ARP"
         },
         {
             "allowed_chars": null,

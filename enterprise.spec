@@ -12,7 +12,7 @@
             "description": "Read-only flag to display if BGP is enabled for this enterprise",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BGP Enabled"
+            "userlabel": "BGP "
         },
         {
             "allowed_chars": null,
@@ -68,7 +68,7 @@
             "description": "Read-only flag - indicates if LDAP is used for authorization for the enterprise. For detailed explanation, see definition in LDAPConfiguration class",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "LDAP Authorization Enable"
+            "userlabel": "LDAP Authorization"
         },
         {
             "allowed_chars": null,
@@ -96,7 +96,7 @@
             "description": "Read-only flag - indicates if LDAP is used for authentication for the enterprise. For detailed explanation, see definition in LDAPConfiguration class",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "LDAP Enabled"
+            "userlabel": "LDAP"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VNF Management Enabled"
+            "userlabel": "VNF Management"
         },
         {
             "allowed_chars": null,
@@ -548,7 +548,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Application Performance Management"
+            "userlabel": "Application Performance Management"
         },
         {
             "allowed_chars": null,
@@ -949,7 +949,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Global MAC Usage"
+            "userlabel": "Global MAC Usage"
         },
         {
             "allowed_chars": null,
@@ -977,7 +977,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Virtual Firewall Rules Enabled"
+            "userlabel": "Virtual Firewall Rules"
         },
         {
             "allowed_chars": null,
@@ -1005,7 +1005,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Web Filter Enabled"
+            "userlabel": "Web Filter"
         }
     ],
     "children": [

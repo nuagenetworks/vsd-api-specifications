@@ -12,7 +12,7 @@
             "description": "Read only flag to display if BGP is enabled for this domain",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BGP Enabled"
+            "userlabel": "BGP"
         },
         {
             "allowed_chars": null,
@@ -264,7 +264,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable GRT"
+            "userlabel": "GRT"
         },
         {
             "allowed_chars": null,
@@ -323,7 +323,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable VXLAN ECMP"
+            "userlabel": "VXLAN ECMP"
         },
         {
             "allowed_chars": null,
@@ -381,7 +381,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Aggregate Flows"
+            "userlabel": "Aggregate Flows"
         },
         {
             "allowed_chars": null,
@@ -860,7 +860,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Domain Aggregation Enabled"
+            "userlabel": "Domain Aggregation"
         },
         {
             "allowed_chars": null,
@@ -1529,7 +1529,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable streching"
+            "userlabel": "Streching"
         },
         {
             "allowed_chars": null,

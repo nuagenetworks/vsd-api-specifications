@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Controllerless"
+            "userlabel": "Controllerless"
         },
         {
             "allowed_chars": null,
@@ -254,7 +254,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Automatic Quarantine"
+            "userlabel": "Automatic Quarantine"
         },
         {
             "allowed_chars": null,
@@ -310,7 +310,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Underlay Tests During Activation"
+            "userlabel": "Underlay Tests During Activation"
         },
         {
             "allowed_chars": null,
@@ -824,7 +824,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Two-Factor Authentication"
+            "userlabel": "Two-Factor Authentication"
         },
         {
             "allowed_chars": null,

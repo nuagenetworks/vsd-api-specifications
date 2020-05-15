@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VSS Feature Enabled"
+            "userlabel": "VSS Feature"
         },
         {
             "allowed_chars": null,
@@ -194,7 +194,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Collection Enabled"
+            "userlabel": "Flow Collection"
         },
         {
             "allowed_chars": null,
@@ -278,7 +278,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics Enabled"
+            "userlabel": "Statistics"
         },
         {
             "allowed_chars": null,
@@ -362,7 +362,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Threat Intelligence Enabled"
+            "userlabel": "Threat Intelligence"
         }
     ],
     "children": [],
