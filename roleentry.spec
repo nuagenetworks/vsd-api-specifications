@@ -70,7 +70,7 @@
     "model": {
         "allowed_job_commands": null,
         "create": false,
-        "delete": false,
+        "delete": true,
         "description": "Entry for each end point with assoicatiated permissions.",
         "entity_name": "Roleentry",
         "extends": [],
@@ -80,7 +80,7 @@
         "rest_name": "roleentry",
         "root": null,
         "template": null,
-        "update": false,
+        "update": true,
         "userlabel": "Role Entry"
     }
 }
