@@ -23,7 +23,7 @@
             "required": true,
             "subtype": null,
             "transient": false,
-            "type": "enum",
+            "type": "string",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Associated Entity Type"
