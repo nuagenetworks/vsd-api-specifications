@@ -148,7 +148,7 @@
     "model": {
         "create": false,
         "delete": false,
-        "description": "missing documentation.",
+        "description": "PATIPEntry is auto-generated (southbound case, decentralized for containers) or through REST (for centralized case, user can choose a IP).",
         "entity_name": "PATIPEntry",
         "extends": [
             "@audited",
