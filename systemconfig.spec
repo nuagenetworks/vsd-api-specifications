@@ -4536,7 +4536,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Whether the new RBAC features are enabled.",
+            "description": "Enables the advanced granular permissions feature. This should not be enabled without prior discussion and agreement with the Nuage Product team, as this feature is only qualified for a limited set of use cases.",
             "exposed": true,
             "filterable": true,
             "format": null,
