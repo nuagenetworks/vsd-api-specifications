@@ -440,7 +440,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "BGP Profile ID"
+            "userlabel": "BGP Profile"
         },
         {
             "allowed_chars": null,
