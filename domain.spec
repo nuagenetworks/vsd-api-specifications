@@ -608,7 +608,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Back Haul Route Distingui"
+            "userlabel": "Back Haul Route Distinguisher"
         },
         {
             "allowed_chars": null,
