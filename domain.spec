@@ -552,7 +552,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated  Shared PAT Mapper"
+            "userlabel": "Shared PAT Mapper"
         },
         {
             "allowed_chars": null,
