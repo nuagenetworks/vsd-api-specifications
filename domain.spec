@@ -496,7 +496,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Multicast Chan"
+            "userlabel": "Associated Multicast Channel"
         },
         {
             "allowed_chars": null,
