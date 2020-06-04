@@ -440,7 +440,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated BGP Profile ID"
+            "userlabel": "BGP Profile"
         },
         {
             "allowed_chars": null,
@@ -496,7 +496,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Multicast Chan"
+            "userlabel": "Multicast Channel"
         },
         {
             "allowed_chars": null,
@@ -552,7 +552,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated  Shared PAT Ma"
+            "userlabel": "Shared PAT Mapper"
         },
         {
             "allowed_chars": null,
@@ -608,7 +608,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Back Haul Route Distingui"
+            "userlabel": "Back Haul RD"
         },
         {
             "allowed_chars": null,
