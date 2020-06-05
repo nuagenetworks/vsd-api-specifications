@@ -172,7 +172,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redundancy Enabled"
+            "userlabel": "Redundancy"
         },
         {
             "allowed_chars": null,

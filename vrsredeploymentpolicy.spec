@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ALU br0 Status Redeployment Enabled"
+            "userlabel": "alubr0"
         },
         {
             "allowed_chars": null,
@@ -54,7 +54,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "CPU Utilization Redeployment Enabled"
+            "userlabel": "CPU Utilization"
         },
         {
             "allowed_chars": null,
@@ -110,7 +110,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS Corrective Action Delay (seconds) "
+            "userlabel": "VRS Corrective Action Delay"
         },
         {
             "allowed_chars": null,
@@ -138,7 +138,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS Process Redeployment Enabled"
+            "userlabel": "VRS"
         },
         {
             "allowed_chars": null,
@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRSVSC Status Redeployment Enabled"
+            "userlabel": "VRS-VSC Connection"
         },
         {
             "allowed_chars": null,
@@ -222,7 +222,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Jesxmon Process Redeployment Enabled"
+            "userlabel": "Jesxmon Process"
         },
         {
             "allowed_chars": null,
@@ -250,7 +250,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Log disk Utilization Redeployment Enabled"
+            "userlabel": "Log Disk Utilization"
         },
         {
             "allowed_chars": null,
@@ -278,7 +278,7 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Log disk Utilization Threshold"
+            "userlabel": "Log Disk Utilization Threshold"
         },
         {
             "allowed_chars": null,
@@ -306,7 +306,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Memory Utilization Redeployment Enabled"
+            "userlabel": "Memory Utilization"
         },
         {
             "allowed_chars": null,
@@ -390,7 +390,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Root disk Utilization Redeployment Enabled"
+            "userlabel": "Root Disk Utilization"
         },
         {
             "allowed_chars": null,
@@ -418,11 +418,12 @@
             "type": "float",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Root disk Utilization Threshold"
+            "userlabel": "Root Disk Utilization Threshold"
         }
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
@@ -436,6 +437,7 @@
         "resource_name": "vrsredeploymentpolicies",
         "rest_name": "vrsredeploymentpolicy",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "VRS Redeployment Policy"
     }

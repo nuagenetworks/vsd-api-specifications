@@ -90,6 +90,9 @@
                 "NSG_APPLY_PATCH",
                 "NSG_DELETE_PATCH",
                 "NSG_DOWNLOAD_OS_IMAGE",
+                "NSG_REBOOT",
+                "NSG_RENEW_CERT",
+                "NSG_UPDATE_INFO",
                 "NSG_UPGRADE_TO_IMAGE",
                 "UNKNOWN"
             ],

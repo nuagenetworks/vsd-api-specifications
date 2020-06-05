@@ -169,7 +169,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi Hop Enabled"
+            "userlabel": "Multi Hop"
         }
     ],
     "children": [],

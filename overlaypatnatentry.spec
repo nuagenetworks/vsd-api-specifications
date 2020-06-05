@@ -12,7 +12,7 @@
             "description": "This flag will determine whether the entry is NAT or PAT.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NAT Enabled"
+            "userlabel": "NAT"
         },
         {
             "allowed_chars": null,
