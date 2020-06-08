@@ -208,7 +208,7 @@
             "description": "Set of disk usage details.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,

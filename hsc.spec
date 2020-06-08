@@ -245,7 +245,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "object",
+            "subtype": "JSON",
             "transient": false,
             "type": "list",
             "unique": false,
