@@ -369,7 +369,7 @@
         "create": false,
         "delete": true,
         "description": "An ingress audit policy is a set of rules defining how network traffic is treated within a domain.",
-        "entity_name": "Ingressauditacltemplate",
+        "entity_name": "IngressAuditACLTemplate",
         "extends": [
             "@audited",
             "@base",
