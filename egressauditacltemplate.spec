@@ -368,7 +368,7 @@
         ],
         "create": false,
         "delete": true,
-        "description": "An egress audit policy is a set of rules defining how network traffic is treated within a domain. Egress Security Policies control traffic flowing out of the network.",
+        "description": "An egress audit policy is a set of rules defining how network traffic is monitored and mirrored from a domain for Audit purposes",
         "entity_name": "EgressAuditACLTemplate",
         "extends": [
             "@audited",
