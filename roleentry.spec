@@ -17,7 +17,7 @@
             "max_value": null,
             "min_length": 1,
             "min_value": null,
-            "name": "associatedEntityType",
+            "name": "endPointType",
             "orderable": false,
             "read_only": false,
             "required": true,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Entity Type"
+            "userlabel": "Associated Endpoint Type"
         },
         {
             "allowed_chars": null,
