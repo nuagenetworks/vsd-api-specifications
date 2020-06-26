@@ -1878,6 +1878,18 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "egressauditacltemplate",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
@@ -1972,18 +1984,6 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "ingressaclentrytemplate",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": false,
@@ -2002,6 +2002,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "ingressadvfwdtemplate",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "ingressauditaclentrytemplate",
             "update": false
         },
         {
