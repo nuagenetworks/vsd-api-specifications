@@ -347,68 +347,7 @@
             "userlabel": "Priority Type"
         }
     ],
-    "children": [
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "container",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "egressaclentrytemplate",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "eventlog",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "vm",
-            "update": false
-        }
-    ],
+    "children": [],
     "model": {
         "allowed_job_commands": [
             "EXPORT",
@@ -416,8 +355,8 @@
         ],
         "create": false,
         "delete": true,
-        "description": "An egress security policy is a set of rules defining how network traffic is treated within a domain. Egress Security Policies control traffic flowing out of the network.",
-        "entity_name": "EgressACLTemplate",
+        "description": "An egress audit policy is a set of rules defining how network traffic is treated within a domain. Egress Security Policies control traffic flowing out of the network.",
+        "entity_name": "Egressauditacltemplate",
         "extends": [
             "@audited",
             "@base",
@@ -425,11 +364,11 @@
         ],
         "get": true,
         "package": "policy/acl",
-        "resource_name": "egressacltemplates",
-        "rest_name": "egressacltemplate",
+        "resource_name": "egressauditacltemplates",
+        "rest_name": "egressauditacltemplate",
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Egress Security Policy"
+        "userlabel": "Egress Audit Policy"
     }
 }
