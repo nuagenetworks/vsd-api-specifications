@@ -347,68 +347,7 @@
             "userlabel": "Priority Type"
         }
     ],
-    "children": [
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "container",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "eventlog",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "ingressaclentrytemplate",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": true,
-            "delete": false,
-            "deprecated": null,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "job",
-            "update": false
-        },
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "vm",
-            "update": false
-        }
-    ],
+    "children": [],
     "model": {
         "allowed_job_commands": [
             "EXPORT",
@@ -416,8 +355,8 @@
         ],
         "create": false,
         "delete": true,
-        "description": "An ingress security policy is a set of rules defining how network traffic is treated within a domain. Ingress Security Policies control traffic flowing into the network.",
-        "entity_name": "IngressACLTemplate",
+        "description": "An ingress audit policy is a set of rules defining how network traffic is treated within a domain.",
+        "entity_name": "Ingressauditacltemplate",
         "extends": [
             "@audited",
             "@base",
@@ -425,11 +364,11 @@
         ],
         "get": true,
         "package": "policy/acl",
-        "resource_name": "ingressacltemplates",
-        "rest_name": "ingressacltemplate",
+        "resource_name": "ingressauditacltemplates",
+        "rest_name": "ingressauditacltemplate",
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Ingress Security Policy"
+        "userlabel": "Ingress Audit Policy"
     }
 }
