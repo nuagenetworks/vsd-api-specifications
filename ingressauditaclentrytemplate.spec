@@ -1144,7 +1144,7 @@
         "create": false,
         "delete": true,
         "description": "Security Policy Entries defines what action to take for a particular type of traffic, based on its origin and its destination, its protocol, EtherType, eventual ports, DSCP value and other information.",
-        "entity_name": "IngressACLEntryTemplate",
+        "entity_name": "Ingressauditaclentrytemplate",
         "extends": [
             "@audited",
             "@base",
@@ -1152,11 +1152,11 @@
         ],
         "get": true,
         "package": "policy/acl",
-        "resource_name": "ingressaclentrytemplates",
-        "rest_name": "ingressaclentrytemplate",
+        "resource_name": "ingressauditaclentrytemplates",
+        "rest_name": "ingressauditaclentrytemplate",
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Ingress Security Policy Entry"
+        "userlabel": "Ingress Audit Policy Entry"
     }
 }
