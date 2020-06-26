@@ -1142,6 +1142,6 @@
         "root": false,
         "template": false,
         "update": true,
-        "userlabel": "Egress Security Policy Entry"
+        "userlabel": "Egress Audit Policy Entry"
     }
 }
