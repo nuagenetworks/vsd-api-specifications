@@ -322,7 +322,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Possible values: TOP, BOTTOM, TOP_FIREWALL, BOTTOM_FIREWALL, MIDDLE_FIREWALL or NONE. TOP and BOTTOM ACL policies can only be defined and managed on the template level, NONE can be used on both the template and instantiated level. TOP_FIREWALL, BOTTOM_FIREWALL, MIDDLE_FIREWALL are used to represent acls dirived from Virtual Firewall Policies. These allow for careful control of ACL priority handling.",
+            "description": "Possible values: TOP. This will be the top most of the egres ACL stack",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -337,7 +337,7 @@
             "subtype": null,
             "transient": false,
             "type": "enum",
-            "unique": false,
+            "unique": true,
             "uniqueScope": null,
             "userlabel": "Priority Type"
         }
