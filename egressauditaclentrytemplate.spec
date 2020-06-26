@@ -1125,26 +1125,13 @@
             "userlabel": "Web Filter Type"
         }
     ],
-    "children": [
-        {
-            "bulk_create": false,
-            "bulk_delete": false,
-            "bulk_update": false,
-            "create": false,
-            "delete": false,
-            "deprecated": false,
-            "get": true,
-            "relationship": "child",
-            "rest_name": "statistics",
-            "update": false
-        }
-    ],
+    "children": [],
     "model": {
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "Security Policy Entries defines what action to take for a particular type of traffic, based on its origin and its destination, its protocol, EtherType, eventual ports, DSCP value and other information.",
-        "entity_name": "EgressACLEntryTemplate",
+        "description": "Egress Audit Policy Entries defines what action to take for a particular type of traffic, based on its origin and its destination, its protocol, EtherType, eventual ports, DSCP value and other information.",
+        "entity_name": "Egressauditaclentrytemplate",
         "extends": [
             "@audited",
             "@base",
@@ -1152,8 +1139,8 @@
         ],
         "get": true,
         "package": "policy/acl",
-        "resource_name": "egressaclentrytemplates",
-        "rest_name": "egressaclentrytemplate",
+        "resource_name": "egressauditaclentrytemplates",
+        "rest_name": "egressauditaclentrytemplate",
         "root": false,
         "template": false,
         "update": true,
