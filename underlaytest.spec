@@ -455,7 +455,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Uplink I D"
+            "userlabel": "Uplink"
         }
     ],
     "children": [],
