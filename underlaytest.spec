@@ -149,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The interface name of the associated uplink",
+            "description": "The interface name of the associated uplink in port.vlan format",
             "exposed": true,
             "filterable": true,
             "format": "free",
