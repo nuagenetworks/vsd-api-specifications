@@ -474,7 +474,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "uplinkConnectionInterface",
+            "name": "uplinkInterface",
             "orderable": true,
             "read_only": true,
             "required": false,
