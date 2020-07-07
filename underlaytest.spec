@@ -483,7 +483,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Uplink Interface"
+            "userlabel": "Uplink Interface"
         }
     ],
     "children": [],
