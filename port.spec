@@ -311,6 +311,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DOWN",
                 "INIT",
                 "UP"
             ],
