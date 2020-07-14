@@ -977,7 +977,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Operational State of the VPort. Possible values are INIT, UP, DOWN.",
+            "description": "Operational State of the VPort. Possible values are INIT, UP, DOWN, DEGRADED",
             "exposed": true,
             "filterable": false,
             "format": null,
