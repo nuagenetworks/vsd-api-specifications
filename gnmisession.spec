@@ -177,6 +177,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "COMPLETED",
                 "INIT",
                 "IN_PROGRESS"
             ],
