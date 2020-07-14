@@ -966,6 +966,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "DEGRADED",
                 "DOWN",
                 "INIT",
                 "UP"
@@ -979,7 +980,7 @@
             "description": "Operational State of the VPort. Possible values are INIT, UP, DOWN.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
