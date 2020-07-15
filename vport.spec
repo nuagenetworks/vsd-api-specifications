@@ -769,7 +769,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Array of the embedded resource vvVPortInfo for each gateway member of ethernet segment group",
+            "description": "Array of the embedded resource VPortInfo for each gateway member of ethernet segment group",
             "exposed": true,
             "filterable": true,
             "format": null,
