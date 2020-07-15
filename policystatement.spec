@@ -48,7 +48,7 @@
             "name": "name",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -72,6 +72,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": null,
@@ -86,6 +87,7 @@
         "resource_name": "policystatements",
         "rest_name": "policystatement",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "Policy Statement"
     }

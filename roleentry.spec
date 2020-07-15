@@ -11,14 +11,14 @@
             "deprecated": false,
             "description": "Managed Object Type or end point",
             "exposed": true,
-            "filterable": false,
+            "filterable": true,
             "format": null,
             "max_length": 255,
             "max_value": null,
             "min_length": 1,
             "min_value": null,
-            "name": "associatedEntityType",
-            "orderable": false,
+            "name": "endPointType",
+            "orderable": true,
             "read_only": false,
             "required": true,
             "subtype": null,
@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Entity Type"
+            "userlabel": "Associated Endpoint Type"
         },
         {
             "allowed_chars": null,
