@@ -321,7 +321,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Represents Operational State of the Port",
+            "description": "Represents Operational State of the Port. Possible values are INIT, UP, DOWN.",
             "exposed": true,
             "filterable": false,
             "format": null,
