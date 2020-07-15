@@ -779,7 +779,7 @@
             "min_value": null,
             "name": "esGroupVPortInfos",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": "VPortInfo",
             "transient": false,
