@@ -1039,7 +1039,7 @@
             "filterable": false,
             "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 9000,
             "min_length": null,
             "min_value": null,
             "name": "mtu",
