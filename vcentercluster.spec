@@ -1097,7 +1097,7 @@
             "max_length": null,
             "max_value": 9000,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "name": "mtu",
             "orderable": false,
             "read_only": false,
