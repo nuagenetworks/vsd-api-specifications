@@ -598,7 +598,8 @@
         "entity_name": "LicenseStatus",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "licensemgmt",

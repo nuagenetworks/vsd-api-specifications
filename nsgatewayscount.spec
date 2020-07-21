@@ -94,7 +94,8 @@
         "entity_name": "NSGatewaysCount",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "nsg",

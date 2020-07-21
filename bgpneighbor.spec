@@ -390,7 +390,8 @@
         "entity_name": "BGPNeighbor",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "bgp",
