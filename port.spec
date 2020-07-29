@@ -67,7 +67,7 @@
             "deprecated": false,
             "description": "ID of the Ethernet Segment Group to which this Port instance may be associated to.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
@@ -592,7 +592,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "gateway",

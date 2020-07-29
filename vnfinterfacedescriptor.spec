@@ -70,7 +70,8 @@
         "entity_name": "VNFInterfaceDescriptor",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "vnf",

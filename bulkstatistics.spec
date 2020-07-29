@@ -148,7 +148,8 @@
         "description": "Retrieves the statistics for a particular Entity and its immediate child entity.",
         "entity_name": "BulkStatistics",
         "extends": [
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "stats",

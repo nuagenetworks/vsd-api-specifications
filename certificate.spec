@@ -149,7 +149,8 @@
         "entity_name": "Certificate",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "certificate",
