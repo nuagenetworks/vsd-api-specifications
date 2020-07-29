@@ -166,7 +166,7 @@
             "subtype": null,
             "transient": false,
             "type": "enum",
-            "unique": true,
+            "unique": false,
             "uniqueScope": null,
             "userlabel": "Action"
         },
