@@ -786,7 +786,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Es Group V Port Infos"
+            "userlabel": "ES Group VPort Info"
         },
         {
             "allowed_chars": null,
