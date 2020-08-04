@@ -216,6 +216,18 @@
             "relationship": "child",
             "rest_name": "alarm",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "virtualuplink",
+            "update": false
         }
     ],
     "model": {
