@@ -46,7 +46,7 @@
             "min_length": null,
             "min_value": null,
             "name": "eventProcessingEnabled",
-            "orderable": true,
+            "orderable": false,
             "read_only": true,
             "required": false,
             "subtype": null,
