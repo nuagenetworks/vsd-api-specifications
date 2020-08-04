@@ -47,14 +47,14 @@
             "min_value": null,
             "name": "eventProcessingEnabled",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Event Processing Enabled"
+            "userlabel": "Processing Events"
         },
         {
             "allowed_chars": null,
