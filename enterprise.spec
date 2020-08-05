@@ -650,7 +650,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "NORMAL",
             "deprecated": false,
             "description": "Type of Enterprise. SHARED, AUDIT, NORMAL, CSP, SYSTEM",
             "exposed": true,
