@@ -322,7 +322,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Possible values: TOP. This will be the top most of the egres ACL stack",
+            "description": "Possible values: TOP_AUDIT. This will be the top most of the egres ACL stack",
             "exposed": true,
             "filterable": true,
             "format": null,
