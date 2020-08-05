@@ -322,7 +322,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Possible values: TOP. This policy will be the top most ingress policy",
+            "description": "Possible values: TOP_AUDIT. This policy will be the top most ingress policy",
             "exposed": true,
             "filterable": true,
             "format": null,
