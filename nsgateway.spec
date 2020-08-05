@@ -2064,6 +2064,18 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
+            "rest_name": "supplementalinfraconfig",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
             "rest_name": "threatpreventioninfo",
             "update": false
         },
@@ -2089,6 +2101,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "uplinkconnection",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "virtualuplink",
             "update": false
         },
         {
