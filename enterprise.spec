@@ -614,6 +614,7 @@
             "allowed_choices": [
                 "AUDIT",
                 "CSP",
+                "NORMAL",
                 "SHARED",
                 "SYSTEM"
             ],
