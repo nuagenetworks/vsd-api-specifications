@@ -613,6 +613,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "AUDIT",
+                "CSP",
                 "SHARED",
                 "SYSTEM"
             ],
