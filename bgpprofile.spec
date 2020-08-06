@@ -262,7 +262,8 @@
         "entity_name": "BGPProfile",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "bgp",

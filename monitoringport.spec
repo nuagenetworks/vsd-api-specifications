@@ -270,7 +270,8 @@
         "entity_name": "MonitoringPort",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "sysmon",
