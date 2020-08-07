@@ -245,7 +245,8 @@
         "entity_name": "VSDComponent",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "sysmon",

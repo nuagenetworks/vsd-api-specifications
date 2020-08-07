@@ -94,7 +94,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "network",

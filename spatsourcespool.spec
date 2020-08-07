@@ -20,7 +20,7 @@
             "name": "addressList",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": "string",
             "transient": false,
             "type": "list",
@@ -97,7 +97,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": null,

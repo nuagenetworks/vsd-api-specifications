@@ -204,18 +204,19 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "ADMINOPERATOR",
+                "AUDITADMIN",
                 "CMS",
                 "CSPOPERATOR",
                 "CSPROOT",
                 "JMS",
-                "ORGADMIN",
-                "PREACTIVATION",
-                "POSTACTIVATION",
                 "NETCONFMGR",
-                "STATS",
+                "ORGADMIN",
                 "ORGNETWORKDESIGNER",
                 "ORGUSER",
+                "POSTACTIVATION",
+                "PREACTIVATION",
                 "SECURITYADMINISTRATOR",
+                "STATS",
                 "SYSTEM",
                 "UNKNOWN",
                 "USER"
@@ -273,6 +274,7 @@
         }
     ],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": true,
         "description": "Identifies a group within an enterprise",
@@ -280,13 +282,15 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "usermgmt",
         "resource_name": "groups",
         "rest_name": "group",
         "root": false,
+        "template": false,
         "update": true,
         "userlabel": "Group"
     }

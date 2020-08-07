@@ -317,7 +317,8 @@
         "entity_name": "EventLog",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "eventlog",
