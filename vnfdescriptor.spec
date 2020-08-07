@@ -307,7 +307,8 @@
         "entity_name": "VNFDescriptor",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "vnf",

@@ -792,14 +792,14 @@
             "deprecated": false,
             "description": "The number of days for which the NSG's certificate is valid.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": 2147483647,
             "min_length": null,
             "min_value": 0,
             "name": "certValidityDays",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -2064,6 +2064,18 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
+            "rest_name": "supplementalinfraconfig",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
             "rest_name": "threatpreventioninfo",
             "update": false
         },
@@ -2089,6 +2101,18 @@
             "get": true,
             "relationship": "child",
             "rest_name": "uplinkconnection",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "virtualuplink",
             "update": false
         },
         {
@@ -2136,7 +2160,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "nsg",

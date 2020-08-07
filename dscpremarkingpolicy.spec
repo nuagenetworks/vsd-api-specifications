@@ -20,7 +20,7 @@
             "name": "DSCP",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -57,7 +57,7 @@
             "name": "forwardingClass",
             "orderable": true,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "enum",
@@ -76,7 +76,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "policy/dscpmapping",

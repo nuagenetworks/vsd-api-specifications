@@ -816,6 +816,7 @@
                 "PGEXPRESSION",
                 "POLICYGROUP",
                 "PUBLIC_NETWORK",
+                "SAAS_APPLICATION_GROUP",
                 "SUBNET",
                 "UNDERLAY_INTERNET_POLICYGROUP",
                 "ZONE"
@@ -1208,7 +1209,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "policy/acl",

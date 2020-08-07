@@ -159,7 +159,8 @@
         "entity_name": "DiskStat",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "vm",
