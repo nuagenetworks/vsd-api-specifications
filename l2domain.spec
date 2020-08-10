@@ -569,7 +569,7 @@
             "name": "flowCount",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": "integer",
             "transient": false,
             "type": "integer",
