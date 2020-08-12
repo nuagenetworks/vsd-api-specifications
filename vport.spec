@@ -273,7 +273,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Id of Floating IP address associated to this vport",
+            "description": "Id of Floating IP address associated to this VPort",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -290,7 +290,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Floating IPID"
+            "userlabel": "Associated Floating IP"
         },
         {
             "allowed_chars": null,
