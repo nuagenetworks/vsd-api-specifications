@@ -149,7 +149,6 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
-                "NUAC_VPORT",
                 "NUAGE_ACL",
                 "NUAGE_ADDRESSMAP",
                 "NUAGE_DPI_FLOWSTATS",
@@ -158,14 +157,17 @@
                 "NUAGE_EVENT",
                 "NUAGE_FEC",
                 "NUAGE_FLOW",
+                "NUAGE_GW_SEL_STATS",
                 "NUAGE_IKE_PROBESTATS",
                 "NUAGE_IKE_PROBE_STATUS",
                 "NUAGE_IKE_STATS",
                 "NUAGE_IKE_TUNNEL_STATUS",
                 "NUAGE_LTE",
+                "NUAGE_NATT",
                 "NUAGE_SYSMON",
                 "NUAGE_VLAN",
                 "NUAGE_VNF",
+                "NUAGE_VPORT",
                 "NUAGE_VPORT_QOS",
                 "NUAGE_WIFI"
             ],
