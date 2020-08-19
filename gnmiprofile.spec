@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Key Alias"
+            "userlabel": "Certificate Alias"
         },
         {
             "allowed_chars": null,
