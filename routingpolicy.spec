@@ -190,7 +190,8 @@
         "entity_name": "RoutingPolicy",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "network",
