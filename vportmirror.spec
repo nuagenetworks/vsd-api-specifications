@@ -104,7 +104,7 @@
             "name": "mirrorDestinationID",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": true,
             "type": "string",
