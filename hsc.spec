@@ -245,7 +245,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "JSON",
+            "subtype": "DiskStat",
             "transient": false,
             "type": "list",
             "unique": false,
