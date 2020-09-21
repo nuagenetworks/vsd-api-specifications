@@ -541,6 +541,8 @@
             "allowed_choices": [
                 "DC7X50",
                 "NONE",
+                "NUAGE_210_WBX_32_Q",
+                "NUAGE_210_WBX_48_S",
                 "VSA",
                 "VSG"
             ],
