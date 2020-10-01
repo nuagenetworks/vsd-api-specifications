@@ -192,7 +192,7 @@
             "default_order": false,
             "default_value": "INHERITED",
             "deprecated": false,
-            "description": null,
+            "description": "Indicates whether PAT is enabled for the subnets in this domain - ENABLED/DISABLED. Possible values are ENABLED, DISABLED. OR INHERITED",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -209,7 +209,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Address Translation Support"
+            "userlabel": "PAT Enabled"
         },
         {
             "allowed_chars": null,
