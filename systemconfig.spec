@@ -3101,7 +3101,7 @@
             "default_order": false,
             "default_value": "245",
             "deprecated": false,
-            "description": "IRB interface id lower limit",
+            "description": "Lower limit for interface Id configured on SRLinux device.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -3109,7 +3109,7 @@
             "max_value": 255,
             "min_length": null,
             "min_value": 0,
-            "name": "irbInterfaceIdLowerLimit",
+            "name": "interfaceIdLowerLimit",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -3118,7 +3118,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IRB Interface ID Lower Limit"
+            "userlabel": "Interface ID Lower Limit"
         },
         {
             "allowed_chars": null,
@@ -3129,15 +3129,15 @@
             "default_order": false,
             "default_value": "255",
             "deprecated": false,
-            "description": "IRB interface id upper limit",
+            "description": "Upper limit for interface Id configured on SRLinux device.",
             "exposed": true,
             "filterable": true,
             "format": null,
             "max_length": null,
             "max_value": 255,
             "min_length": null,
-            "min_value": null,
-            "name": "irbInterfaceIdUpperLimit",
+            "min_value": 0,
+            "name": "interfaceIdUpperLimit",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -3146,7 +3146,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "IRB Interface ID Upper Limit"
+            "userlabel": "Interface ID Upper Limit"
         },
         {
             "allowed_chars": null,
