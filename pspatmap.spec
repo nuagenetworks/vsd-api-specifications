@@ -19,7 +19,7 @@
             "min_value": null,
             "name": "associatedSPATSourcesPoolID",
             "orderable": false,
-            "read_only": true,
+            "read_only": false,
             "required": true,
             "subtype": null,
             "transient": false,
