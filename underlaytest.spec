@@ -289,7 +289,7 @@
             "default_order": false,
             "default_value": "true",
             "deprecated": false,
-            "description": "Flag to run the Bandwidth test",
+            "description": "Bandwidth test results enable verification of minimal requirements for NSG operations and is not indicative of the maximum throughput possible on an uplink.",
             "exposed": true,
             "filterable": true,
             "format": null,
