@@ -88,8 +88,12 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "NSG_APPLY_PATCH",
+                "NSG_CONTAINER_TEST_SUITE_RUN",
                 "NSG_DELETE_PATCH",
                 "NSG_DOWNLOAD_OS_IMAGE",
+                "NSG_OVERLAY_SYSLOG_CONTAINER_RESTART",
+                "NSG_OVERLAY_SYSLOG_CONTAINER_START",
+                "NSG_OVERLAY_SYSLOG_CONTAINER_STOP",
                 "NSG_REBOOT",
                 "NSG_RENEW_CERT",
                 "NSG_UPDATE_INFO",
