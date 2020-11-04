@@ -23,7 +23,8 @@ function generate_sdk()
     # for Python and HTML, we want to generate SDKs from multiple branches
     if [ "${language}" == "python" -o "${language}" == "html" ] ; then
         case ${version} in
-            20.*) local branches="master 5.0";;
+            20.10.*) local branches="master 5.0";;
+            20.5.*) local branches="20.5 5.0";;
             6.*) local branches="6.0 5.0";;
             5.*) local branches="5.0 4.0" ;;
             4.0.*) local branches="4.0 3.2" ;;
@@ -153,7 +154,8 @@ if [ -n "${TRAVIS_TAG}" ] ; then
         r4.0*) ACTUAL_BRANCH=4.0 ;;
         r5.*) ACTUAL_BRANCH=5.0 ;;
         r6.*) ACTUAL_BRANCH=6.0 ;;
-        r20.*) ACTUAL_BRANCH=master ;;
+        r20.5.*) ACTUAL_BRANCH=20.5 ;;
+        r20.10.*) ACTUAL_BRANCH=master ;;
         *)     echo "Invalid tag ${TRAVIS_TAG}" >&2 ; exit 1 ;;
     esac
 else
