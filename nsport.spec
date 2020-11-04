@@ -40,7 +40,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": "false",
-            "deprecated": false,
+            "deprecated": true,
             "description": "If enabled, cuts down the number of probes to just the number of provisioned DUCs.",
             "exposed": true,
             "filterable": false,
@@ -58,7 +58,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Traffic Through DUC Only Enabled"
+            "userlabel": "Traffic Through DUC Only"
         },
         {
             "allowed_chars": null,
@@ -180,7 +180,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": "true",
-            "deprecated": false,
+            "deprecated": true,
             "description": "If enabled, probes will be sent to other NSGs and DTLS sessions for IPSEC and VXLAN will be set up to the VSCs. If disabled, no NAT probes are sent on that uplink and no DTLS sessions are set up to the VSCs.",
             "exposed": true,
             "filterable": false,
@@ -198,7 +198,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NAT Probes Enabled"
+            "userlabel": "NAT Probes"
         },
         {
             "allowed_chars": null,
@@ -637,7 +637,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "nsg",

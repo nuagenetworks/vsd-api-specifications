@@ -230,7 +230,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redistribute External Enabled"
+            "userlabel": "Redistribute External "
         },
         {
             "allowed_chars": null,
@@ -258,7 +258,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Summaries Enabled"
+            "userlabel": "Summaries "
         },
         {
             "allowed_chars": null,
@@ -340,7 +340,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "network",

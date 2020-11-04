@@ -60,6 +60,7 @@
             "allowed_chars": null,
             "allowed_choices": [
                 "WIDTH_20_MHZ",
+                "WIDTH_40_MHZ",
                 "WIDTH_80_MHZ",
                 "WIDTH_LESS_40_MHZ",
                 "WIDTH_PLUS_40_MHZ"
@@ -70,7 +71,7 @@
             "default_order": false,
             "default_value": "WIDTH_20_MHZ",
             "deprecated": false,
-            "description": "The frequency width of the selected channel for an instance of a Wireless Port.  Generally, the default width is 20 MHz, but based on the WiFi mode and the frequency band, this could be changed to 40 or 80 MHz.",
+            "description": "The frequency width of the selected channel for an instance of a Wireless Port.  Generally, the default width is 20 MHz, but based on the WiFi mode and the frequency band, this could be changed to 40 or 80 MHz.  The values for specifying -40 MHz and +40 MHz have been replaced with a global \"WIDTH_40_MHZ\" value.  Options for WIDTH_LESS_40_MHZ and WIDTH_PLUS_40_MHZ should be avoided.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -807,7 +808,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "nsg",

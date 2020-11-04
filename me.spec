@@ -324,7 +324,7 @@
             "description": "Enables flow statistics collection. It is needed for the VSS feature, and requires a valid VSS license. This option requires 'statisticsEnabled'.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -338,7 +338,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Flow Collection Enabled"
+            "userlabel": "Flow Collection"
         },
         {
             "allowed_chars": null,
@@ -464,7 +464,7 @@
             "description": "This flag is used to indicate if statistics is enabled in the system. CSProot is expected to activate this through the enable statistics script.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -478,7 +478,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Statistics Enabled"
+            "userlabel": "Statistics"
         },
         {
             "allowed_chars": null,
@@ -796,6 +796,42 @@
             "get": true,
             "relationship": "root",
             "rest_name": "enterpriseprofile",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": true,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "esilmpolicy",
+            "update": true
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "esindexconfig",
+            "update": true
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "ethernetsegmentgwgroup",
             "update": false
         },
         {
@@ -1270,6 +1306,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "qos",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": true,
             "delete": false,
             "deprecated": null,
@@ -1324,6 +1372,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "remotevrsinfo",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "role",
             "update": false
         },
         {
@@ -1636,6 +1696,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "vrsinfo",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": true,
+            "create": false,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "vsdconfig",
             "update": false
         },
         {

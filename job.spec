@@ -33,6 +33,7 @@
             "allowed_choices": [
                 "APPLICATION_SIGNATURE_IMPORT",
                 "APPLY_POLICY_CHANGES",
+                "ASSIGN_SELF_REBOOTSTRAP_REQ",
                 "BATCH_CRUD_REQUEST",
                 "BEGIN_POLICY_CHANGES",
                 "CERTIFICATE_NSG_RENEW",
@@ -56,8 +57,13 @@
                 "NOTIFY_NSG_REGISTRATION",
                 "NOTIFY_NSG_REGISTRATION_ACK",
                 "NOTIFY_NSG_REGISTRATION_TEST",
+                "NSG_LIFT_QUARANTINE",
                 "NSG_NOTIFICATION_TEST",
+                "NSG_QUARANTINE",
                 "NSG_REGISTRATION_INFO",
+                "NSG_VALIDATE_CONFIGURATION",
+                "PUBSUBNODE_AUDIT",
+                "RECOVER_NSG",
                 "REDEPLOY",
                 "REJECT_ZFB_REQUEST",
                 "RELOAD",
@@ -233,7 +239,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "job",

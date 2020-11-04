@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DPDK Enabled"
+            "userlabel": "DPDK"
         },
         {
             "allowed_chars": null,
@@ -270,7 +270,8 @@
         "entity_name": "MonitoringPort",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "sysmon",

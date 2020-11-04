@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ARPReply"
+            "userlabel": "ARP Reply"
         },
         {
             "allowed_chars": null,
@@ -54,7 +54,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS Configuration Time Limit"
+            "userlabel": "Configuration Time Limit"
         },
         {
             "allowed_chars": null,
@@ -68,7 +68,7 @@
             "description": "Whether to get the Data IP for the VRS VM from DHCP or statically",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -82,7 +82,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Data DHCP"
+            "userlabel": "Use Data DHCP"
         },
         {
             "allowed_chars": null,
@@ -96,7 +96,7 @@
             "description": "Whether to get the management IP for the VRS VM from DHCP or statically",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -110,7 +110,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Allow Mgmt DHCP"
+            "userlabel": "Use Management DHCP"
         },
         {
             "allowed_chars": null,
@@ -166,7 +166,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "AVRS Enabled"
+            "userlabel": "AVRS"
         },
         {
             "allowed_chars": null,
@@ -285,7 +285,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Customized Script URL"
+            "userlabel": "Script URL"
         },
         {
             "allowed_chars": null,
@@ -397,7 +397,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Data Network Portgroup"
+            "userlabel": "Data Network"
         },
         {
             "allowed_chars": null,
@@ -543,7 +543,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dhcp Relay Server"
+            "userlabel": "DHCP Relay Server"
         },
         {
             "allowed_chars": null,
@@ -571,7 +571,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable GRO On Datapath"
+            "userlabel": "Disable GRO on Data Path"
         },
         {
             "allowed_chars": null,
@@ -599,7 +599,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Disable LRO On Datapath"
+            "userlabel": "Disable LRO on Data Path"
         },
         {
             "allowed_chars": null,
@@ -627,7 +627,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable VRS Resource Reservation"
+            "userlabel": "VRS Resource Reservation"
         },
         {
             "allowed_chars": null,
@@ -869,7 +869,7 @@
             "description": "Metadata Service Enabled",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -883,7 +883,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Metadata Service Enabled"
+            "userlabel": "Metadata Service"
         },
         {
             "allowed_chars": null,
@@ -911,7 +911,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mgmt DNS1"
+            "userlabel": "Management DNS1"
         },
         {
             "allowed_chars": null,
@@ -939,7 +939,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mgmt DNS2"
+            "userlabel": "Management DNS2"
         },
         {
             "allowed_chars": null,
@@ -967,7 +967,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mgmt Gateway"
+            "userlabel": "Management Gateway"
         },
         {
             "allowed_chars": null,
@@ -995,7 +995,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mgmt Network Portgroup"
+            "userlabel": "Management Network"
         },
         {
             "allowed_chars": null,
@@ -1023,7 +1023,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mirror Network Portgroup"
+            "userlabel": "Mirror Network"
         },
         {
             "allowed_chars": null,
@@ -1039,9 +1039,9 @@
             "filterable": false,
             "format": null,
             "max_length": null,
-            "max_value": null,
+            "max_value": 9000,
             "min_length": null,
-            "min_value": null,
+            "min_value": 0,
             "name": "mtu",
             "orderable": false,
             "read_only": false,
@@ -1065,7 +1065,7 @@
             "description": "Whether Multi VM is to be used or not",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1079,7 +1079,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi VM Ssupport"
+            "userlabel": "Multi VM Support"
         },
         {
             "allowed_chars": null,
@@ -1303,7 +1303,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multicast Source Portgroup"
+            "userlabel": "Multicast Source"
         },
         {
             "allowed_chars": null,
@@ -1342,7 +1342,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Network Upling Interface to support PAT/NAT with no tunnels on VRS-VM",
+            "description": "Network Uplink Interface to support PAT/NAT with no tunnels on VRS-VM",
             "exposed": true,
             "filterable": false,
             "format": "free",
@@ -1359,7 +1359,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Uplink Interface"
+            "userlabel": "Uplink Interface"
         },
         {
             "allowed_chars": null,
@@ -1387,7 +1387,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Uplink Interface Gateway"
+            "userlabel": "Uplink Interface Gateway"
         },
         {
             "allowed_chars": null,
@@ -1415,7 +1415,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Uplink Interface IP"
+            "userlabel": "Uplink Interface Address"
         },
         {
             "allowed_chars": null,
@@ -1443,7 +1443,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Network Uplink Interface Netmask"
+            "userlabel": "Uplink Interface Netmask"
         },
         {
             "allowed_chars": null,
@@ -1471,7 +1471,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NFS Log Server"
+            "userlabel": "Server Address"
         },
         {
             "allowed_chars": null,
@@ -1499,7 +1499,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NFS Mount Path"
+            "userlabel": "Mount Path"
         },
         {
             "allowed_chars": null,
@@ -1513,7 +1513,7 @@
             "description": "Nova client Version ",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -1527,7 +1527,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Client Version"
+            "userlabel": "Client Version"
         },
         {
             "allowed_chars": null,
@@ -1555,7 +1555,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Identity URL Version"
+            "userlabel": "Identity URL Version"
         },
         {
             "allowed_chars": null,
@@ -1583,7 +1583,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Service Auth Url"
+            "userlabel": "Authentication URL"
         },
         {
             "allowed_chars": null,
@@ -1611,7 +1611,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Service Endpoint"
+            "userlabel": "Endpoint"
         },
         {
             "allowed_chars": null,
@@ -1639,7 +1639,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Service Password"
+            "userlabel": "Password"
         },
         {
             "allowed_chars": null,
@@ -1667,7 +1667,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Service Tenant"
+            "userlabel": "Tenant"
         },
         {
             "allowed_chars": null,
@@ -1695,7 +1695,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Service Username"
+            "userlabel": "Username"
         },
         {
             "allowed_chars": null,
@@ -1723,7 +1723,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Metadata Shared Secret"
+            "userlabel": "Shared Secret"
         },
         {
             "allowed_chars": null,
@@ -1751,7 +1751,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova OS Keystone Username"
+            "userlabel": "OS Keystone Username"
         },
         {
             "allowed_chars": null,
@@ -1779,7 +1779,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Project Domain Name"
+            "userlabel": "Project Domain Name"
         },
         {
             "allowed_chars": null,
@@ -1807,7 +1807,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Project Name"
+            "userlabel": "Project Name"
         },
         {
             "allowed_chars": null,
@@ -1835,7 +1835,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova Region Name"
+            "userlabel": "Region Name"
         },
         {
             "allowed_chars": null,
@@ -1863,7 +1863,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Nova User Domain Name"
+            "userlabel": "User Domain Name"
         },
         {
             "allowed_chars": null,
@@ -1891,7 +1891,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ntp Server1"
+            "userlabel": "Primary Server"
         },
         {
             "allowed_chars": null,
@@ -1919,7 +1919,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ntp Server2"
+            "userlabel": "Secondary Server"
         },
         {
             "allowed_chars": null,
@@ -1947,7 +1947,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Ovf URL"
+            "userlabel": "OVF URL"
         },
         {
             "allowed_chars": null,
@@ -1992,7 +1992,7 @@
             "description": "Port Group Meta data",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -2006,7 +2006,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Portgroup Metadata"
+            "userlabel": "Use Portgroup Metadata"
         },
         {
             "allowed_chars": null,
@@ -2090,7 +2090,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Primary Nuage Controller"
+            "userlabel": "Primary Controller"
         },
         {
             "allowed_chars": null,
@@ -2118,7 +2118,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Remote Syslog Server IP"
+            "userlabel": "Syslog Server IP"
         },
         {
             "allowed_chars": null,
@@ -2146,7 +2146,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Remote Syslog Server Port"
+            "userlabel": "Syslog Server Port"
         },
         {
             "allowed_chars": null,
@@ -2178,7 +2178,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Remote Syslog Server Type"
+            "userlabel": "Syslog Server Type"
         },
         {
             "allowed_chars": null,
@@ -2206,7 +2206,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Revertive Controller Enabled"
+            "userlabel": "Revertive Controller"
         },
         {
             "allowed_chars": null,
@@ -2262,7 +2262,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink DHCP Enabled"
+            "userlabel": "Secondary Data Uplink DHCP"
         },
         {
             "allowed_chars": null,
@@ -2290,7 +2290,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Data Uplink Enabled"
+            "userlabel": "Secondary Data Uplink"
         },
         {
             "allowed_chars": null,
@@ -2486,7 +2486,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Nuage Controller"
+            "userlabel": "Secondary Controller"
         },
         {
             "allowed_chars": null,
@@ -2542,7 +2542,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Site Id"
+            "userlabel": "Site ID"
         },
         {
             "allowed_chars": null,
@@ -2570,7 +2570,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Static Route"
+            "userlabel": "Static Route Address"
         },
         {
             "allowed_chars": null,
@@ -2766,7 +2766,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "V Require Nuage Metadata"
+            "userlabel": "Require Metadata"
         },
         {
             "allowed_chars": null,
@@ -2794,7 +2794,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VM Network Portgroup"
+            "userlabel": "VM Network"
         },
         {
             "allowed_chars": null,
@@ -2850,7 +2850,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VRS User Name"
+            "userlabel": "VRS Username"
         }
     ],
     "children": [
@@ -2936,7 +2936,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "vmware",

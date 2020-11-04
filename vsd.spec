@@ -236,7 +236,7 @@
             "description": "Set of disk usage details.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -245,7 +245,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "object",
+            "subtype": "DiskStat",
             "transient": false,
             "type": "list",
             "unique": false,
@@ -657,7 +657,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "sysmon",

@@ -392,12 +392,12 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "PG ID for the subnet. This is unique per domain and will be in the range 1-4095",
+            "description": "PG ID for the subnet. This is unique per domain.",
             "exposed": true,
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 4095,
+            "max_value": 2147483647,
             "min_length": null,
             "min_value": 1,
             "name": "policyGroupID",
@@ -659,7 +659,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "network",

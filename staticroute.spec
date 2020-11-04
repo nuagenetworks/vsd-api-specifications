@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable BFD"
+            "userlabel": "BFD"
         },
         {
             "allowed_chars": null,
@@ -197,7 +197,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Black Hole"
+            "userlabel": "Black Hole"
         },
         {
             "allowed_chars": null,
@@ -352,7 +352,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "network",

@@ -169,7 +169,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi Hop Enabled"
+            "userlabel": "Multi Hop"
         }
     ],
     "children": [],
@@ -182,7 +182,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": null,

@@ -132,7 +132,7 @@
             "description": "Allow/Disallow redundant appliances and VIP",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -146,7 +146,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redundancy Enabled"
+            "userlabel": "Redundancy"
         },
         {
             "allowed_chars": null,
@@ -203,7 +203,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "vport",

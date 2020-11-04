@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Committed Information Rate :  Committed bandwidth that is allowed in Mb/s; only whole values supported.",
+            "description": "Committed Information Rate :  Committed bandwidth that is allowed in Mb/s.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Peak Information Rate :  Peak bandwidth allowed in Mb/s; only whole values supported.",
+            "description": "Peak Information Rate :  Peak bandwidth allowed in Mb/s.",
             "exposed": true,
             "filterable": true,
             "format": "free",
@@ -151,7 +151,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "policy/qos",

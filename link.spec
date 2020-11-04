@@ -244,7 +244,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "This is used to distinguish between different type of links: hub and spoke, ip address, VNS border router links.",
+            "description": "This is used to distinguish between different type of links: hub and spoke, IP address, VNS border router links.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -347,7 +347,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "appd",

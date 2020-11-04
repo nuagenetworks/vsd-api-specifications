@@ -286,7 +286,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable IPv6 DHCP"
+            "userlabel": "IPv6 DHCP"
         },
         {
             "allowed_chars": null,
@@ -462,7 +462,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable Proxy ARP"
+            "userlabel": "Proxy ARP"
         },
         {
             "allowed_chars": null,
@@ -584,7 +584,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "network",

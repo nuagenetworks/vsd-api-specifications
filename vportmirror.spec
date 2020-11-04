@@ -104,7 +104,7 @@
             "name": "mirrorDestinationID",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": true,
             "type": "string",
@@ -267,7 +267,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "vport",

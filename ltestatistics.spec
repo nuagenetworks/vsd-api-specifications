@@ -121,7 +121,8 @@
         "description": "Retrieves statistical information for LTE uplinks.",
         "entity_name": "Ltestatistics",
         "extends": [
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "stats",

@@ -144,7 +144,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Redundancy Enabled"
+            "userlabel": "Redundancy "
         },
         {
             "allowed_chars": null,
@@ -188,7 +188,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "vport",

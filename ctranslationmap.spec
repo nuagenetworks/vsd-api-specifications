@@ -1,4 +1,3 @@
-
 {
     "attributes": [
         {
@@ -108,7 +107,7 @@
             "name": "mappingType",
             "orderable": false,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "enum",
@@ -119,6 +118,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": null,
         "delete": true,
         "description": "1:1 mapping of customer private IPs in customer domain to customer alias (public) IPs in provider domain and N:1 mapping to customer alias SPAT IP in the provider domain.",
@@ -126,13 +126,15 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": null,
         "resource_name": "ctranslationmaps",
         "rest_name": "ctranslationmap",
         "root": null,
+        "template": false,
         "update": true,
         "userlabel": "PD Address Map"
     }

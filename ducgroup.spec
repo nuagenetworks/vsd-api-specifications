@@ -150,7 +150,7 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
-            "create": true,
+            "create": false,
             "delete": false,
             "deprecated": null,
             "get": true,
@@ -168,7 +168,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": null,

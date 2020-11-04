@@ -208,7 +208,7 @@
             "description": "Set of disk usage details.",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -217,7 +217,7 @@
             "orderable": false,
             "read_only": false,
             "required": false,
-            "subtype": "object",
+            "subtype": "DiskStat",
             "transient": false,
             "type": "list",
             "unique": false,
@@ -635,7 +635,7 @@
             "description": "VRS is in Multi-NIC VPORT Mode",
             "exposed": true,
             "filterable": false,
-            "format": "free",
+            "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
@@ -649,7 +649,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Multi NICV Port Enabled"
+            "userlabel": "Multi NICV Port"
         },
         {
             "allowed_chars": null,
@@ -996,7 +996,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Revertive Behavior Enabled"
+            "userlabel": "Revertive Behavior"
         },
         {
             "allowed_chars": null,
@@ -1332,7 +1332,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "sysmon",

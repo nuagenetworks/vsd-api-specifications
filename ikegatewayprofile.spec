@@ -69,7 +69,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "true",
             "deprecated": false,
             "description": "Allow any local subnets to be used",
             "exposed": true,
@@ -283,7 +283,7 @@
             "name": "associatedIKEGatewayID",
             "orderable": false,
             "read_only": false,
-            "required": false,
+            "required": true,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -437,7 +437,8 @@
         "extends": [
             "@audited",
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "ike",

@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable BFD"
+            "userlabel": "BFD"
         },
         {
             "allowed_chars": null,
@@ -169,7 +169,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Enable dampening"
+            "userlabel": "Dampening"
         },
         {
             "allowed_chars": null,
@@ -390,7 +390,8 @@
         "entity_name": "BGPNeighbor",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": true,
         "package": "bgp",

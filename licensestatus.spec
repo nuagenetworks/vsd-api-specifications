@@ -26,7 +26,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Accumulate Licenses Enabled"
+            "userlabel": "Accumulate Licenses "
         },
         {
             "allowed_chars": null,
@@ -598,7 +598,8 @@
         "entity_name": "LicenseStatus",
         "extends": [
             "@base",
-            "@metadata"
+            "@metadata",
+            "@permission"
         ],
         "get": false,
         "package": "licensemgmt",
