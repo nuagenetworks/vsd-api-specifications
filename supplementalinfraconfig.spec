@@ -39,7 +39,7 @@
         "extends": [],
         "get": true,
         "package": null,
-        "resource_name": "supplementalinfraconfigs",
+        "resource_name": "supplementalinfraconfig",
         "rest_name": "supplementalinfraconfig",
         "root": null,
         "template": null,
