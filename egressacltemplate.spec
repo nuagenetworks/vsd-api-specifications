@@ -147,7 +147,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "true",
             "deprecated": false,
             "description": "If enabled, non ip traffic will be dropped",
             "exposed": true,
