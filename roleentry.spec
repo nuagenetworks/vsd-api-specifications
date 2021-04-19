@@ -73,7 +73,11 @@
         "delete": true,
         "description": "Entry for each end point with assoicatiated permissions.",
         "entity_name": "Roleentry",
-        "extends": [],
+        "extends": [
+            "@base",
+            "@metadata",
+            "@permission"
+        ],
         "get": true,
         "package": null,
         "resource_name": "roleentries",

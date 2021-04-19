@@ -332,7 +332,7 @@
             "max_length": null,
             "max_value": 65535,
             "min_length": null,
-            "min_value": 1,
+            "min_value": 0,
             "name": "uplinkID",
             "orderable": false,
             "read_only": true,

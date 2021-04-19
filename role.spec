@@ -105,7 +105,12 @@
         "delete": true,
         "description": "Entity to create a new role for role based authentication",
         "entity_name": "Role",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata",
+            "@permission"
+        ],
         "get": true,
         "package": null,
         "resource_name": "roles",
