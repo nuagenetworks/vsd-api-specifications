@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Name of the role",
+            "description": "Name of the role.",
             "exposed": true,
             "filterable": true,
             "format": "free",
