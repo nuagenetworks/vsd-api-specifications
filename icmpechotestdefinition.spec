@@ -138,7 +138,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Maximum Packet Loss"
+            "userlabel": "Maximum Packet Loss Percentage"
         },
         {
             "allowed_chars": null,
