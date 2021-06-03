@@ -42,7 +42,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 2147483647,
+            "max_value": 255,
             "min_length": null,
             "min_value": 0,
             "name": "dscp",
