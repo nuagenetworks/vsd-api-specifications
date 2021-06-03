@@ -194,7 +194,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Sla Monitoring"
+            "userlabel": "SLA Monitoring"
         }
     ],
     "children": [],
