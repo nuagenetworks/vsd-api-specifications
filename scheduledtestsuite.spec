@@ -173,7 +173,20 @@
             "userlabel": "Start Date Time"
         }
     ],
-    "children": [],
+    "children": [
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "test",
+            "update": false
+        }
+    ],
     "model": {
         "allowed_job_commands": null,
         "create": false,
