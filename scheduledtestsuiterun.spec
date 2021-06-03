@@ -9,7 +9,7 @@
         "entity_name": "Scheduledtestsuiterun",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "scheduledtestsuiteruns",
         "rest_name": "scheduledtestsuiterun",
         "root": null,
