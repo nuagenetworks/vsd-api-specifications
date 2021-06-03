@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The maximum average round trip time KPI that will be monitored SLA monitoring is enabled.",
+            "description": "The maximum average round trip time KPI that will be monitored when SLA monitoring is enabled.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -110,7 +110,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Max Avg Round Trip Time"
+            "userlabel": "Maximum Average Round Trip Time"
         },
         {
             "allowed_chars": null,
