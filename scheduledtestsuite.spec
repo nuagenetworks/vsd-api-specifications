@@ -182,7 +182,7 @@
         "entity_name": "Scheduledtestsuite",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "scheduledtestsuites",
         "rest_name": "scheduledtestsuite",
         "root": null,
