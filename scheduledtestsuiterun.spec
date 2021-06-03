@@ -298,19 +298,19 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 2147483647,
+            "max_value": 4096,
             "min_length": null,
             "min_value": 0,
             "name": "vlanID",
             "orderable": true,
-            "read_only": false,
+            "read_only": true,
             "required": false,
             "subtype": null,
             "transient": false,
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vlan I D"
+            "userlabel": "Vlan ID"
         },
         {
             "allowed_chars": null,
