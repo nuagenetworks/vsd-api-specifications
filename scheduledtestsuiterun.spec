@@ -171,6 +171,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "RUNNING",
                 "STARTED",
                 "UNKNOWN"
             ],
