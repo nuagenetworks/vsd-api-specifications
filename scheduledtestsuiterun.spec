@@ -149,7 +149,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "MAC address for the interface in the namespace.",
+            "description": "MAC address for the interface in the namespace on the NSG.",
             "exposed": true,
             "filterable": true,
             "format": "free",
