@@ -262,7 +262,7 @@
         "entity_name": "ICMPEchoTestDefinition",
         "extends": [],
         "get": true,
-        "package": null,
+        "package": "nsg",
         "resource_name": "icmpechotestdefinitions",
         "rest_name": "icmpechotestdefinition",
         "root": null,
