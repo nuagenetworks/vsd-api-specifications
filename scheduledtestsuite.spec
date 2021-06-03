@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The interval at which the tests in this suite are to be run. ",
+            "description": "The frequency at which the tests in this suite are to be run. ",
             "exposed": true,
             "filterable": true,
             "format": null,
