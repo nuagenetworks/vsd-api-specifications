@@ -54,7 +54,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dscp"
+            "userlabel": "DSCP"
         },
         {
             "allowed_chars": null,
