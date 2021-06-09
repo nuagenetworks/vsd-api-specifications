@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Interval"
+            "userlabel": "Frequency"
         },
         {
             "allowed_chars": null,
