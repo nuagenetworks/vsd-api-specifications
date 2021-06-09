@@ -105,7 +105,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "intervalType",
+            "name": "frequencyType",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -114,7 +114,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Interval Type"
+            "userlabel": "Frequency Type"
         },
         {
             "allowed_chars": null,
