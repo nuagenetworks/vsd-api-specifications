@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": "1",
             "deprecated": false,
-            "description": "Delay between the probes.",
+            "description": "Delay in seconds between the probes.",
             "exposed": true,
             "filterable": true,
             "format": null,
