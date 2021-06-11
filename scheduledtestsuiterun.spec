@@ -342,7 +342,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Vlan ID"
+            "userlabel": "VLAN ID"
         },
         {
             "allowed_chars": null,
