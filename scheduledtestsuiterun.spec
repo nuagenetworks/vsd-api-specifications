@@ -314,7 +314,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "System I D"
+            "userlabel": "System ID"
         },
         {
             "allowed_chars": null,
