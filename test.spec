@@ -40,7 +40,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The type of assocated Test Definition instance.",
+            "description": "The type of associated Test Definition instance.",
             "exposed": true,
             "filterable": true,
             "format": null,
