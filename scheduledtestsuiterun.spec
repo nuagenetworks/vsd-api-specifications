@@ -398,7 +398,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VPort Port Name"
+            "userlabel": "Port Name hosting vPort"
         },
         {
             "allowed_chars": null,
