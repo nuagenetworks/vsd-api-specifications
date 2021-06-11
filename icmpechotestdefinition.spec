@@ -110,7 +110,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Interval"
+            "userlabel": "Probe Interval"
         },
         {
             "allowed_chars": null,
