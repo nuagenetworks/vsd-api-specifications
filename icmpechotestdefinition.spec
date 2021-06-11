@@ -91,7 +91,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "1",
             "deprecated": false,
             "description": "Delay between the probes.",
             "exposed": true,
