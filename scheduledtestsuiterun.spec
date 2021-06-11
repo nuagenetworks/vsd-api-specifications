@@ -426,7 +426,7 @@
             "type": "integer",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VPort Vlan ID"
+            "userlabel": "Test vPort Vlan ID"
         },
         {
             "allowed_chars": null,
