@@ -37,7 +37,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "When enabled sets the Don't Fragment flag.",
+            "description": "Sets the Don't Fragment flag when enabled. When an IP datagram has its DF flag set, intermediate devices are not allowed to fragment it so if it needs to travel across a network with a MTU smaller that datagram length, the datagram will be dropped.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -54,7 +54,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Donot Fragment"
+            "userlabel": "Do not Fragment"
         },
         {
             "allowed_chars": null,
