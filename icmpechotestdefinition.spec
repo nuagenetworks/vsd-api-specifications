@@ -233,7 +233,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The threshold average round trip time KPI that will be monitored when SLA monitoring is enabled.",
+            "description": "The threshold average round trip time KPI in milliseconds that will be monitored when SLA monitoring is enabled.",
             "exposed": true,
             "filterable": true,
             "format": null,
