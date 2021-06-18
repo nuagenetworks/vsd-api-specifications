@@ -275,7 +275,7 @@
             "required": false,
             "subtype": null,
             "transient": false,
-            "type": "integer",
+            "type": "float",
             "unique": false,
             "uniqueScope": null,
             "userlabel": "Threshold Packet Loss Percentage"
