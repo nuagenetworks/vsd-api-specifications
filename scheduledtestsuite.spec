@@ -133,7 +133,7 @@
             "max_value": null,
             "min_length": null,
             "min_value": null,
-            "name": "scheduleIntervalType",
+            "name": "scheduleIntervalUnits",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -142,7 +142,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Schedule Interval Type"
+            "userlabel": "Schedule Interval Units"
         },
         {
             "allowed_chars": null,
