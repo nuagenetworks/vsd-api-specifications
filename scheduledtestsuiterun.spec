@@ -26,7 +26,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "NSGateway Name"
+            "userlabel": "NSGateway"
         },
         {
             "allowed_chars": null,
