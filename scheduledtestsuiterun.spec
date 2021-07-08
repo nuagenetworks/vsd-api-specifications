@@ -82,7 +82,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Scheduled Test Suite Name"
+            "userlabel": "Scheduled Test Suite Name"
         },
         {
             "allowed_chars": null,
