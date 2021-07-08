@@ -57,7 +57,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Test Definition Type"
+            "userlabel": "Test Definition Type"
         },
         {
             "allowed_chars": null,
