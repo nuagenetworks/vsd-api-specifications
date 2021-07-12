@@ -2159,7 +2159,7 @@
         ],
         "create": false,
         "delete": true,
-        "description": "Network Services Gateways are a policy enforcement end-points responsible for the delivery of networking services. NSG access ports/VLANs may be attached to existing host or bridge VPorts.",
+        "description": "Network Services Gateways are a policy enforcement end-points responsible for the delivery of networking services. NSG access ports/VLANs may be attached to existing host or bridge vPorts.",
         "entity_name": "NSGateway",
         "extends": [
             "@audited",
