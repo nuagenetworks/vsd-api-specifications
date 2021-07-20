@@ -58,6 +58,7 @@
                 "NOTIFY_NSG_REGISTRATION_ACK",
                 "NOTIFY_NSG_REGISTRATION_TEST",
                 "NSG_LIFT_QUARANTINE",
+                "NSG_MIGRATION",
                 "NSG_NOTIFICATION_TEST",
                 "NSG_QUARANTINE",
                 "NSG_REGISTRATION_INFO",

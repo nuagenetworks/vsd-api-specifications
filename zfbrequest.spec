@@ -711,6 +711,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "MIGRATING",
                 "SELF_REBOOTSTRAP",
                 "ZFB"
             ],
