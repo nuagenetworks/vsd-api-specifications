@@ -779,6 +779,7 @@
                 "ACTIVE",
                 "CERTIFICATE_SIGNED",
                 "INACTIVE",
+                "MIGRATING",
                 "NOTIFICATION_APP_REQ_ACK",
                 "NOTIFICATION_APP_REQ_SENT",
                 "QUARANTINED",
