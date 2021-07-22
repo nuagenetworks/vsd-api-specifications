@@ -91,7 +91,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "1",
             "deprecated": false,
             "description": "This is the interval between all test runs in this suite and the next run of tests in this suite.",
             "exposed": true,
