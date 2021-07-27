@@ -466,7 +466,7 @@
             "filterable": false,
             "format": null,
             "max_length": null,
-            "max_value": 1800,
+            "max_value": 21600,
             "min_length": null,
             "min_value": 180,
             "name": "openFlowAuditTimer",

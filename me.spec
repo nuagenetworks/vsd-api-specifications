@@ -1203,6 +1203,18 @@
             "deprecated": null,
             "get": true,
             "relationship": "root",
+            "rest_name": "nsgmigrationprofile",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
             "rest_name": "nsgpatchprofile",
             "update": false
         },

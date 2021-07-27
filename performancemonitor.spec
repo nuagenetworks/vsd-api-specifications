@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Description of application group probe",
+            "description": "Application Group Probe to be used between NSGs/NSG-UBRs OR between NSGs/non-NSG devices such as an IKE gateway in their respective groups",
             "exposed": true,
             "filterable": true,
             "format": "free",
