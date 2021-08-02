@@ -65,7 +65,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "API key expiry",
+            "description": "The time in epoch milliseconds when the API key will expire.",
             "exposed": true,
             "filterable": false,
             "format": null,
