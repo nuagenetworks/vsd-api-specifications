@@ -674,14 +674,14 @@
             "deprecated": false,
             "description": "This flag denotes whether the Uplink Preference configured by the user will work with AAR or will over-ride AAR.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "isSLAAware",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -689,7 +689,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Is S L A Aware"
+            "userlabel": "SLA Aware"
         },
         {
             "allowed_chars": null,
