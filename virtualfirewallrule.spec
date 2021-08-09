@@ -63,7 +63,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "None",
             "deprecated": false,
             "description": "Remarking value for the DSCP field in IP header of customer packet. DSCP value range from enumeration of 65 values: NONE, 0, 1, ..., 63",
             "exposed": true,
