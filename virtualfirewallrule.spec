@@ -1300,7 +1300,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "DEFAULT",
             "deprecated": false,
             "description": "Indicates the preferencial path selection for network traffic for this ACL - default is DEFAULT when the attribute is applicable.",
             "exposed": true,
