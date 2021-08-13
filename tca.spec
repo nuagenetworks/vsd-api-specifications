@@ -152,6 +152,7 @@
                 "ANTI_SPOOF_EVENT_COUNT",
                 "BYTES_IN",
                 "BYTES_OUT",
+                "DESTINATION_PORT_PROTOCOL_COUNT",
                 "FIP_PRE_RATE_LIMIT_BYTES",
                 "FIP_PRE_RATE_LIMIT_PACKETS",
                 "FIP_RATE_LIMIT_DROPPED_BYTES",
