@@ -105,7 +105,7 @@
             "max_length": null,
             "max_value": 65535,
             "min_length": null,
-            "min_value": 0,
+            "min_value": 1,
             "name": "destinationPort",
             "orderable": true,
             "read_only": false,
