@@ -254,7 +254,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Datapath I D"
+            "userlabel": "Secondary Datapath ID"
         },
         {
             "allowed_chars": null,
