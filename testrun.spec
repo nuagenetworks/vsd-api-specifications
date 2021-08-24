@@ -21,7 +21,7 @@
             "orderable": true,
             "read_only": false,
             "required": false,
-            "subtype": "JSON",
+            "subtype": null,
             "transient": false,
             "type": "object",
             "unique": false,
