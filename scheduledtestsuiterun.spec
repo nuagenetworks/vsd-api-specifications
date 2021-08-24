@@ -254,7 +254,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary N S Gateway Name"
+            "userlabel": "Secondary NSGateway Name"
         },
         {
             "allowed_chars": null,
