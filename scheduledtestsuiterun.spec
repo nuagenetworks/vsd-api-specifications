@@ -282,7 +282,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary System I D"
+            "userlabel": "Secondary System ID"
         },
         {
             "allowed_chars": null,
