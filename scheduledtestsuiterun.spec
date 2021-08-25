@@ -54,7 +54,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Scheduled Test Suite I D"
+            "userlabel": "Associated Scheduled Test Suite ID"
         },
         {
             "allowed_chars": null,
