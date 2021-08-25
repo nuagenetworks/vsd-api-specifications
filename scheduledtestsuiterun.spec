@@ -166,7 +166,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Domain Name"
+            "userlabel": "Domain"
         },
         {
             "allowed_chars": null,
