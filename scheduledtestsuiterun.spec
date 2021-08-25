@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Destination to be used in conjunction with the ICMP echo test. This could be an IPv4 or FQDN.",
+            "description": "Destination either an IPv4 address or FQDN to be used in conjunction with the ICMP echo test. If provided, this destination will override the destination at individual Test level.",
             "exposed": true,
             "filterable": true,
             "format": "free",
