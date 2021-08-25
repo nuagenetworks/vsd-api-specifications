@@ -226,7 +226,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Operation Status"
+            "userlabel": "Status"
         },
         {
             "allowed_chars": null,
