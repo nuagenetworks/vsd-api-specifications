@@ -194,7 +194,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Mac Address"
+            "userlabel": "MAC Address"
         },
         {
             "allowed_chars": null,
