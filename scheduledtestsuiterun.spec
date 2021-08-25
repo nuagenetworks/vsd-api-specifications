@@ -110,7 +110,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Datapath I D"
+            "userlabel": "Datapath ID"
         },
         {
             "allowed_chars": null,
