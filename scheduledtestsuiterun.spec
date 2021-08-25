@@ -282,7 +282,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary Gateway"
+            "userlabel": "Secondary NSGateway"
         },
         {
             "allowed_chars": null,
