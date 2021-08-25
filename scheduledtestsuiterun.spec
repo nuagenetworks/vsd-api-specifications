@@ -454,7 +454,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "VPort Name"
+            "userlabel": "VPort"
         },
         {
             "allowed_chars": null,
