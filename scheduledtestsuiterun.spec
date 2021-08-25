@@ -538,7 +538,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Zone Name"
+            "userlabel": "Zone"
         }
     ],
     "children": [
