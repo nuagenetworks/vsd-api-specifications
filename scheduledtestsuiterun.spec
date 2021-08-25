@@ -338,7 +338,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Subnet Name"
+            "userlabel": "Subnet"
         },
         {
             "allowed_chars": null,
