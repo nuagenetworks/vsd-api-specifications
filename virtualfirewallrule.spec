@@ -308,14 +308,14 @@
             "deprecated": false,
             "description": "Associated application UUID.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
             "min_value": null,
             "name": "associatedApplicationID",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -323,7 +323,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Application I D"
+            "userlabel": "Associated Application ID"
         },
         {
             "allowed_chars": null,
