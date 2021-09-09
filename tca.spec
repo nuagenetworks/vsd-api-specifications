@@ -152,7 +152,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": 0,
             "deprecated": false,
             "description": "Destination port number",
             "exposed": true,
@@ -350,6 +350,7 @@
         {
             "allowed_chars": null,
             "allowed_choices": [
+                "NONE",
                 "TCP",
                 "UDP"
             ],
@@ -357,7 +358,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "NONE",
             "deprecated": false,
             "description": "L4 service protocol ",
             "exposed": true,
