@@ -519,7 +519,7 @@
             "deprecated": null,
             "get": true,
             "relationship": "child",
-            "rest_name": "testsuiterun",
+            "rest_name": "testrun",
             "update": false
         }
     ],
