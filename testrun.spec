@@ -78,7 +78,7 @@
             "read_only": true,
             "required": false,
             "subtype": null,
-            "transient": true,
+            "transient": false,
             "type": "string",
             "unique": false,
             "uniqueScope": null,
