@@ -3722,14 +3722,14 @@
             "deprecated": false,
             "description": "Indicates if Signature updates are enabled through Cloud.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": null,
             "max_length": null,
             "max_value": null,
             "min_length": null,
             "min_value": null,
             "name": "signatureUpdateThroughCloudEnabled",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -3737,7 +3737,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Signature Update Through Cloud Enabled"
+            "userlabel": "Signature Update Through Cloud"
         },
         {
             "allowed_chars": null,
