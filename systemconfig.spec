@@ -3832,7 +3832,7 @@
             "default_order": false,
             "default_value": "180",
             "deprecated": false,
-            "description": "Defines the timeout in seconds for stateful ACLs that are of type ICMP. For upgrade scenario, its initial value is set same as non-TCP timeout",
+            "description": "Defines the timeout in seconds for stateful ACLs that are of type ICMP. Supported in Virtual Cloud Services (VCS) only.",
             "exposed": true,
             "filterable": false,
             "format": null,
