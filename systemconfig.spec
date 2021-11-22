@@ -3804,7 +3804,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Indicates if Signature updates are enabled through Cloud.",
+            "description": "Indicates if Threat Prevention Signature updates are enabled through Cloud.",
             "exposed": true,
             "filterable": false,
             "format": null,
