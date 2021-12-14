@@ -349,7 +349,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "The IP address that will be assigned to the interface in namespace and used by the ICMP Echo test as the source IP.",
+            "description": "The IP address that will be assigned to the interface in namespace on NSG and used by the ICMP Echo test as the source IP. This is an optional field, if not provided the interface in namespace is assigned an IP from the DHCP pool.",
             "exposed": true,
             "filterable": true,
             "format": "ipv4",
