@@ -352,7 +352,7 @@
             "description": "The IP address that will be assigned to the interface in namespace and used by the ICMP Echo test as the source IP.",
             "exposed": true,
             "filterable": true,
-            "format": "free",
+            "format": "ipv4",
             "max_length": 255,
             "max_value": null,
             "min_length": 0,
