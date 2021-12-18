@@ -357,7 +357,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "source",
+            "name": "sourceIP",
             "orderable": true,
             "read_only": false,
             "required": false,
@@ -366,7 +366,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Source"
+            "userlabel": "Source IP"
         },
         {
             "allowed_chars": null,
