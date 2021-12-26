@@ -1317,7 +1317,7 @@
             "bulk_update": false,
             "create": true,
             "delete": false,
-            "deprecated": null,
+            "deprecated": false,
             "get": true,
             "relationship": "child",
             "rest_name": "ethernetsegmentgwgroup",
