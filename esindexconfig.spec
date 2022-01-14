@@ -164,7 +164,6 @@
                 "NUAGE_IKE_STATS",
                 "NUAGE_LTE",
                 "NUAGE_NATT",
-                "NUAGE_OAM",
                 "NUAGE_SYSMON",
                 "NUAGE_VLAN",
                 "NUAGE_VNF",
