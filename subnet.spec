@@ -1146,9 +1146,9 @@
             "exposed": true,
             "filterable": false,
             "format": "free",
-            "max_length": 255,
+            "max_length": null,
             "max_value": null,
-            "min_length": 0,
+            "min_length": null,
             "min_value": null,
             "name": "primaryDHCPServerAddress",
             "orderable": false,
@@ -1159,7 +1159,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Primary D H C P Server Address"
+            "userlabel": "Primary DHCP Server Address"
         },
         {
             "allowed_chars": null,
