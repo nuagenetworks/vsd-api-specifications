@@ -1317,14 +1317,14 @@
             "deprecated": false,
             "description": "Secondary DHCP Server address when the Domain DHCP Behaviour is OVERLAY Relay and status is OVERRIDE",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
-            "max_length": 255,
+            "max_length": null,
             "max_value": null,
-            "min_length": 0,
+            "min_length": null,
             "min_value": null,
             "name": "secondaryDHCPServerAddress",
-            "orderable": true,
+            "orderable": false,
             "read_only": false,
             "required": false,
             "subtype": null,
@@ -1332,7 +1332,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Secondary D H C P Server Address"
+            "userlabel": "Secondary DHCP Server Address"
         },
         {
             "allowed_chars": null,
