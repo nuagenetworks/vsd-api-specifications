@@ -462,7 +462,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Uplink IP"
+            "userlabel": "Use Uplink IP as Public IP"
         }
     ],
     "children": [
