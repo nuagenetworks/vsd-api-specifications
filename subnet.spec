@@ -393,7 +393,7 @@
             "creation_only": false,
             "default_order": false,
             "default_value": null,
-            "deprecated": true,
+            "deprecated": false,
             "description": "DHCP Behavior configured at the domain level. DHCPBehaviorType is an enum that indicates DHCP Behavior of VRS having VM's under this domain. Possible values are FLOOD, CONSUME, OVERLAY_RELAY, UNDERLAY_RELAY.",
             "exposed": true,
             "filterable": false,
