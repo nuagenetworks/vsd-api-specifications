@@ -287,7 +287,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Last IP"
+            "userlabel": "End IP range"
         },
         {
             "allowed_chars": null,
