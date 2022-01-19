@@ -315,7 +315,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "End Source Address"
+            "userlabel": "End IP range for Dynamic 1:1 Source NAT"
         },
         {
             "allowed_chars": null,
