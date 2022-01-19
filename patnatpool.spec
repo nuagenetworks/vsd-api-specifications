@@ -259,7 +259,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Dynamic Source NAT"
+            "userlabel": "Dynamic 1:1 Source NAT"
         },
         {
             "allowed_chars": null,
