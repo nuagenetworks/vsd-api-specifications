@@ -434,7 +434,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Start Source Address"
+            "userlabel": "Start IP range for Dynamic 1:1 Source NAT"
         },
         {
             "allowed_chars": null,
