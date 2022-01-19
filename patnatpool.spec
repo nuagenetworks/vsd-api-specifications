@@ -406,7 +406,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "First IP"
+            "userlabel": "Start IP range"
         },
         {
             "allowed_chars": null,
