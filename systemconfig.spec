@@ -2133,7 +2133,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "ES Security Enabled"
+            "userlabel": "Elasticsearch Security"
         },
         {
             "allowed_chars": null,
