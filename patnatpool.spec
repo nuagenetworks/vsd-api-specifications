@@ -445,7 +445,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Set to true if the public IP needs to be set same as the Uplink IP",
+            "description": "Specifying if the IP address of the uplink will be used as the public IP for a defined PAT/NAT pool.",
             "exposed": true,
             "filterable": true,
             "format": null,
@@ -462,7 +462,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Use Uplink IP as Public IP"
+            "userlabel": "Use Uplink IP"
         }
     ],
     "children": [
