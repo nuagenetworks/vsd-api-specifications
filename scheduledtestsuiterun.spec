@@ -366,7 +366,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Source IP"
+            "userlabel": "Source IP Override"
         },
         {
             "allowed_chars": null,
