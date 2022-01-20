@@ -104,7 +104,7 @@
         "create": false,
         "delete": true,
         "description": "This is the definition of a NetconfGlobalConfiguration.",
-        "entity_name": "Netconfglobalconfiguration",
+        "entity_name": "NetconfGlobalConfiguration",
         "extends": [
             "@audited",
             "@base",
@@ -112,7 +112,7 @@
             "@permission"
         ],
         "get": true,
-        "package": "usermgmt",
+        "package": "infrastructure",
         "resource_name": "netconfglobalconfigurations",
         "rest_name": "netconfglobalconfiguration",
         "root": null,
