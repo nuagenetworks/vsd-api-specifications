@@ -1563,7 +1563,7 @@
             "max_length": null,
             "max_value": 1023,
             "min_length": null,
-            "min_value": 600,
+            "min_value": 0,
             "name": "loopbackIntfId",
             "orderable": false,
             "read_only": false,
