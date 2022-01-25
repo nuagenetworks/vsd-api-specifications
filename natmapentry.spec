@@ -104,7 +104,7 @@
             "name": "publicIP",
             "orderable": true,
             "read_only": false,
-            "required": true,
+            "required": false,
             "subtype": null,
             "transient": false,
             "type": "string",
@@ -176,6 +176,7 @@
     ],
     "children": [],
     "model": {
+        "allowed_job_commands": null,
         "create": false,
         "delete": false,
         "description": "Defines a MAP between the private ip and public ip.",
@@ -191,6 +192,7 @@
         "resource_name": "natmapentries",
         "rest_name": "natmapentry",
         "root": false,
+        "template": false,
         "update": false,
         "userlabel": "NAT Map Entry"
     }
