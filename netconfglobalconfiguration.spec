@@ -93,7 +93,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "List of Third Party Netconf Gateways on which Global Configuration will be deployed.",
+            "description": "List of third-party Netconf Gateways on which Global Configuration will be deployed.",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -110,7 +110,7 @@
             "type": "list",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Netconf Gateways"
+            "userlabel": "Third-party Netconf Gateways"
         }
     ],
     "children": [],
