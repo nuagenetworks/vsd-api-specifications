@@ -261,7 +261,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Indicates if Security Group Tag Propagation is enabled on Network Accelerated NSG and Network Accelerated UBR with HUB function.",
+            "description": "Indicates if Security Group Tag Propagation is enabled on Network Accelerated NSG and Network Accelerated UBR with HUB or HUB and DUC function(s).",
             "exposed": true,
             "filterable": true,
             "format": null,
