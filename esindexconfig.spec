@@ -264,7 +264,7 @@
             "deprecated": false,
             "description": "The associated EsIlmPolicy name.",
             "exposed": true,
-            "filterable": true,
+            "filterable": false,
             "format": "free",
             "max_length": 100,
             "max_value": null,
