@@ -322,7 +322,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Aggregated L2 Domain ID"
+            "userlabel": "Aggregated L2 Domain"
         },
         {
             "allowed_chars": null,
@@ -406,7 +406,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Master Netconf Gateway ID"
+            "userlabel": "Associated Master Netconf Gateway"
         },
         {
             "allowed_chars": null,
