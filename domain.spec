@@ -1489,7 +1489,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Loopback Interface Enabled"
+            "userlabel": "Loopback Interface"
         },
         {
             "allowed_chars": null,
