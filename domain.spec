@@ -301,7 +301,7 @@
             "channel": null,
             "creation_only": false,
             "default_order": false,
-            "default_value": null,
+            "default_value": "1",
             "deprecated": false,
             "description": "IPv6 IBGP Max Paths. Applicable for third-party Netconf Gateways only",
             "exposed": true,
