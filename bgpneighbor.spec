@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Enable or disable Bidirectional Forwarding Detection for this BGP neighbor",
+            "description": "Enable or disable Bidirectional Forwarding Detection for this BGP neighbor. Not Applicable for third-party Netconf Gateways.",
             "exposed": true,
             "filterable": true,
             "format": null,
