@@ -131,7 +131,7 @@
         "allowed_job_commands": null,
         "create": false,
         "delete": true,
-        "description": "This Entity defines Global Configurations such as Prefix-list, Mac-list etc to to be configured on a Netconf Gateway.",
+        "description": "This Entity defines Global Configurations such as Prefix-list, Mac-list etc to to be configured on a Third-party Gateway (Netconf - VTEP).",
         "entity_name": "NetconfGlobalConfiguration",
         "extends": [
             "@audited",
