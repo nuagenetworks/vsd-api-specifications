@@ -1882,7 +1882,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Indicates whether this domain is streched,if so remote VM resolutions will be allowed",
+            "description": "Indicates whether this domain is stretched, if so, remote VM resolutions will be allowed",
             "exposed": true,
             "filterable": false,
             "format": null,
@@ -1899,7 +1899,7 @@
             "type": "boolean",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Streching"
+            "userlabel": "Stretching"
         },
         {
             "allowed_chars": null,
