@@ -1598,7 +1598,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Priority of the associated master Netconf Gateway",
+            "description": "VRRP Priority of the associated master Netconf Gateway",
             "exposed": true,
             "filterable": false,
             "format": null,
