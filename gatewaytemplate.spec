@@ -121,7 +121,7 @@
             "default_order": false,
             "default_value": "1",
             "deprecated": false,
-            "description": "Default Native VLAN to carry untagged traffic on the ports of the gateways using this template. Applicable for Cisco 9K only. Possible values are 1-3967.",
+            "description": "Default Native VLAN to carry untagged traffic on the ports of the gateways using this template. Applicable for third-party Netconf Gateways only. Possible values are 1-3967.",
             "exposed": true,
             "filterable": true,
             "format": "free",
