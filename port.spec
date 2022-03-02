@@ -289,7 +289,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Native VLAN to carry untagged traffic on this port. Applicable for Access Ports on Cisco 9K only. Possible values are 1-3967.",
+            "description": "Native VLAN to carry untagged traffic on this port. Applicable for Access Ports on third-party Netconf Gateways only. Possible values are 1-3967.",
             "exposed": true,
             "filterable": true,
             "format": "free",
