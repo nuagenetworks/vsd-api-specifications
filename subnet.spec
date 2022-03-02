@@ -434,7 +434,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Master Netconf Gateway"
+            "userlabel": "Master Netconf Gateway"
         },
         {
             "allowed_chars": null,
