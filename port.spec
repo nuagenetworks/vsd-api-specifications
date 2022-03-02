@@ -444,7 +444,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Indicates if this Port is a routed interface. Applicable for Access Ports on Cisco 9K only.",
+            "description": "Indicates if this Port is a routed interface. Applicable for Access Ports on third-party Netconf Gateways only.",
             "exposed": true,
             "filterable": true,
             "format": null,
