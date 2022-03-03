@@ -1472,7 +1472,7 @@
             "default_order": false,
             "default_value": "false",
             "deprecated": false,
-            "description": "Indicates if Loopback interface is enabled or not. Applicable for Cisco 9K only.",
+            "description": "Indicates if Loopback interface is enabled or not. Applicable for third-party Netconf Gateways only.",
             "exposed": true,
             "filterable": false,
             "format": null,

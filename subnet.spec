@@ -434,7 +434,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Associated Master Netconf Gateway"
+            "userlabel": "Master Netconf Gateway"
         },
         {
             "allowed_chars": null,
@@ -1598,7 +1598,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Priority of the associated master Netconf Gateway",
+            "description": "VRRP Priority of Master Netconf Gateway.",
             "exposed": true,
             "filterable": false,
             "format": null,

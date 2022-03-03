@@ -9,7 +9,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "ID of the Associated Routing Policy",
+            "description": "ID of the Associated Routing Policy.",
             "exposed": true,
             "filterable": false,
             "format": null,
