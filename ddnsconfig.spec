@@ -86,7 +86,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DDNS Provider Password"
+            "userlabel": "Password"
         },
         {
             "allowed_chars": null,
@@ -114,7 +114,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DDNS Provider Username"
+            "userlabel": "Username"
         },
         {
             "allowed_chars": null,
@@ -192,7 +192,7 @@
             "max_value": null,
             "min_length": 0,
             "min_value": null,
-            "name": "uplinkFQDN",
+            "name": "hostname",
             "orderable": true,
             "read_only": false,
             "required": true,
@@ -201,7 +201,7 @@
             "type": "string",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "Uplink FQDN"
+            "userlabel": "Hostname"
         }
     ],
     "children": [
