@@ -58,7 +58,7 @@
             "type": "enum",
             "unique": false,
             "uniqueScope": null,
-            "userlabel": "DDNS Config Connection Status"
+            "userlabel": "Connection Status"
         },
         {
             "allowed_chars": null,
