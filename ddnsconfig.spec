@@ -154,7 +154,7 @@
             "channel": null,
             "creation_only": true,
             "default_order": false,
-            "default_value": DYN_DNS,
+            "default_value": "DYN_DNS",
             "deprecated": false,
             "description": "Dynamic DNS Provider Name",
             "exposed": true,
