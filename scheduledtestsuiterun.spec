@@ -557,7 +557,11 @@
         "delete": true,
         "description": "A Scheduled Test Suite Run represents the execution of a given Scheduled Test Suite within a namespace on an NSG. It groups together multiple ICMP Echo Test Runs.",
         "entity_name": "Scheduledtestsuiterun",
-        "extends": [],
+        "extends": [
+            "@audited",
+            "@base",
+            "@metadata"
+        ],
         "get": true,
         "package": "nsg",
         "resource_name": "scheduledtestsuiteruns",
