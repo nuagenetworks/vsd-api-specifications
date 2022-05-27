@@ -54,6 +54,7 @@
                 "KEYSERVER_NOTIFICATION_TEST",
                 "NETCONF_FORCE_DEPLOY",
                 "NETCONF_SYNC",
+                "NETCONF_ENTITY_EXISTS",
                 "NOTIFY_NSG_REGISTRATION",
                 "NOTIFY_NSG_REGISTRATION_ACK",
                 "NOTIFY_NSG_REGISTRATION_TEST",
