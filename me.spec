@@ -1070,6 +1070,18 @@
             "bulk_create": false,
             "bulk_delete": false,
             "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "l4servicegroup",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
             "create": false,
             "delete": false,
             "deprecated": null,
@@ -1508,6 +1520,18 @@
             "get": true,
             "relationship": "root",
             "rest_name": "statisticscollector",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "root",
+            "rest_name": "statisticsprofile",
             "update": false
         },
         {
