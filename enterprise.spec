@@ -685,7 +685,7 @@
             "filterable": false,
             "format": null,
             "max_length": null,
-            "max_value": 500000,
+            "max_value": 1000000,
             "min_length": null,
             "min_value": 0,
             "name": "floatingIPsQuota",
