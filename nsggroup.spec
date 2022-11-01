@@ -82,7 +82,7 @@
             "type": "integer",
             "unique": true,
             "uniqueScope": null,
-            "userlabel": "Nsg Group Id"
+            "userlabel": "NSG Group ID"
         }
     ],
     "children": [
