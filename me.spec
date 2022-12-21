@@ -1845,6 +1845,18 @@
             "relationship": "root",
             "rest_name": "zone",
             "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": true,
+            "delete": false,
+            "deprecated": false,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "enterprisenetwork",
+            "update": false
         }
     ],
     "model": {
