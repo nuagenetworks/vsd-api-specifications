@@ -4090,7 +4090,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 65533,
+            "max_value": 524287,
             "min_length": null,
             "min_value": 0,
             "name": "secondaryRTUpperLimit",
