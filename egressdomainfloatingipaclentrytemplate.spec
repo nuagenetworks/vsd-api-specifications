@@ -181,7 +181,7 @@
             "default_order": false,
             "default_value": null,
             "deprecated": false,
-            "description": "Overrides the source IP for Ingress and destination IP for Egress, MAC entries will use this address as the match criteria.",
+            "description": "Overrides destination IP match for Egress.",
             "exposed": true,
             "filterable": true,
             "format": "free",
