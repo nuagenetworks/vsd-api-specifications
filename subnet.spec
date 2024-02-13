@@ -1785,6 +1785,18 @@
             "bulk_update": false,
             "create": false,
             "delete": false,
+            "deprecated": null,
+            "get": true,
+            "relationship": "child",
+            "rest_name": "floatingip",
+            "update": false
+        },
+        {
+            "bulk_create": false,
+            "bulk_delete": false,
+            "bulk_update": false,
+            "create": false,
+            "delete": false,
             "deprecated": false,
             "get": true,
             "relationship": "child",
