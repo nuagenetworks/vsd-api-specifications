@@ -126,7 +126,7 @@
             "filterable": true,
             "format": null,
             "max_length": null,
-            "max_value": 1200000,
+            "max_value": 1199999,
             "min_length": null,
             "min_value": 100,
             "name": "packetInterval",
